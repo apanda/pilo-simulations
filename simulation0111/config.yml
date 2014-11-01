@@ -1,0 +1,8 @@
+data_link_latency:
+    distro: normal
+    mean: 1.0
+    stdev: 2.0
+control_link_latency:
+    distro: constant
+    mean: 1.0
+    stdev: 2.0
