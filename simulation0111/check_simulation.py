@@ -61,6 +61,8 @@ def Main():
   ctx.schedule_task(100, lambda: host_a.Send(p))
   p2 = SourceDestinationPacket(2, 3)
   ctx.schedule_task(100, lambda: host_a.Send(p2))
+  p3 = FloodPacket("Hello")
+  ctx.schedule_task(100, lambda: host_a.Send(p3))
   ctx.run()
 if __name__ == "__main__":
   Main()

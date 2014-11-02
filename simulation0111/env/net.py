@@ -43,6 +43,8 @@ class Switch (object):
     self.controller = controller
     self.rules = {}
     self.links = set()
+  def __repr__ (self):
+    return self.name
   def updateRules (self, match_action_pairs):
     delay = self.ctx.config.UpdateDelay
     self.ctx.schedule_task(delay, \
@@ -55,10 +57,10 @@ class Switch (object):
 
   def Flood (self, link, packet):
     for l in self.links:
-      if l != link: 
+      if l is not link: 
         delay = self.ctx.config.SwitchLatency
-        self.ctx.schedule_task(delay, \
-                lambda: l.Send(self, packet))
+        (lambda l1: self.ctx.schedule_task(delay, \
+                lambda: l1.Send(self, packet)))(l)
 
   def receive (self, link, source, packet):
     match = packet.pack()
@@ -69,6 +71,7 @@ class Switch (object):
     if isinstance(packet, FloodPacket):
       print "Switch %s received flood %s"%(self.name, packet.id)
       self.Flood (link, packet)
+      return
     if match in self.rules:
       delay = self.ctx.config.SwitchLatency
       self.ctx.schedule_task(delay, \

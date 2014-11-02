@@ -17,7 +17,10 @@ class Packet (object):
 class FloodPacket (Packet):
   """Test packet intended to allow flooding"""
   def __init__ (self, id):
+    super(FloodPacket, self).__init__()
     self.id = id
+  def __str__ (self):
+    return self.id
   def pack (self):
     return id
 
