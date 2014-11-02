@@ -58,9 +58,9 @@ def Main():
     ctx.schedule_task(1, link.SetUp)
   print "Starting"
   p = SourceDestinationPacket(1, 3)
-  ctx.schedule_task(100, lambda: host_a.send(p, links[0]))
+  ctx.schedule_task(100, lambda: host_a.Send(p))
   p2 = SourceDestinationPacket(2, 3)
-  ctx.schedule_task(100, lambda: host_a.send(p2, links[0]))
+  ctx.schedule_task(100, lambda: host_a.Send(p2))
   ctx.run()
 if __name__ == "__main__":
   Main()

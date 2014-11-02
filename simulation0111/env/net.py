@@ -1,4 +1,4 @@
-from . import Context
+from . import Context, FloodPacket
 """
 Network elements, because why not.
 """
@@ -26,14 +26,14 @@ class Link (object):
     other = self.b
     if source == self.b:
       other = self.a
-    def DeliverInternal(link, source, dest, packet):
+    def deliverInternal(link, source, dest, packet):
       if link.up:
-        dest.receive(source, packet)
+        dest.receive(link, source, packet)
       else:
         print "Dropping packet for link from %s-%s"%(source, dest) #FIXME: Use logging
     delay = self.ctx.config.DataLatency
     self.ctx.schedule_task(delay, \
-            lambda: DeliverInternal(self, source, other, packet))
+            lambda: deliverInternal(self, source, other, packet))
 
 class Switch (object):
   """A simple match based switch, no link state update number"""
@@ -42,6 +42,7 @@ class Switch (object):
     self.ctx = ctx
     self.controller = controller
     self.rules = {}
+    self.links = set()
   def updateRules (self, match_action_pairs):
     delay = self.ctx.config.UpdateDelay
     self.ctx.schedule_task(delay, \
@@ -52,12 +53,22 @@ class Switch (object):
     self.ctx.schedule_task(delay,
             lambda: self.controller.NotifySwitchUp(self))
 
-  def receive (self, source, packet):
+  def Flood (self, link, packet):
+    for l in self.links:
+      if l != link: 
+        delay = self.ctx.config.SwitchLatency
+        self.ctx.schedule_task(delay, \
+                lambda: l.Send(self, packet))
+
+  def receive (self, link, source, packet):
     match = packet.pack()
     packet.ttl -= 1
     if packet.ttl == 0:
       print "Dropping due to TTL"
       return
+    if isinstance(packet, FloodPacket):
+      print "Switch %s received flood %s"%(self.name, packet.id)
+      self.Flood (link, packet)
     if match in self.rules:
       delay = self.ctx.config.SwitchLatency
       self.ctx.schedule_task(delay, \
@@ -73,11 +84,13 @@ class Switch (object):
             lambda: link.Send(self, packet))
 
   def NotifyDown (self, link):
+    self.links.remove(link)
     delay = self.ctx.config.ControlLatency
     self.ctx.schedule_task(delay, \
             lambda: self.controller.NotifyLinkDown(self, link))
 
   def NotifyUp (self, link):
+    self.links.add(link)
     delay = self.ctx.config.ControlLatency
     self.ctx.schedule_task(delay, \
             lambda: self.controller.NotifyLinkUp(self, link))
@@ -87,11 +100,11 @@ class Host (Switch):
     super(Host, self).__init__(name, ctx, controller)
     self.address = address
 
-  def receive (self, source, packet):
+  def receive (self, link, source, packet):
     print "Received from %s %s"%(source.name, str(packet))
 
-  def send (self, packet, link):
-    super(Host, self).ForwardPacket(link, packet)
+  def Send (self, packet):
+    super(Host, self).Flood(None, packet)
 
 class VersionedSwitch (Switch):
   def __init__ (self, name, ctx, controller):

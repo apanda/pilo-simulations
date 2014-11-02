@@ -6,7 +6,8 @@ __all__ = ["Context", \
             "Switch", \
             "Host", \
             "VersionedSwitch", \
-            "Controller"] 
+            "Controller", \
+            "FloodPacket"] 
 from context import Context, Config
-from packets import MarkedSourceDestPacket, SourceDestinationPacket
+from packets import MarkedSourceDestPacket, SourceDestinationPacket, FloodPacket
 from net import Link, Switch, Host, VersionedSwitch, Controller
