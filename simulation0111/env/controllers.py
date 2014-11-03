@@ -55,3 +55,13 @@ class Controller (Host):
   def UnknownPacket(self, src, packet):
     print "%s unknown message type %d"%(self.name, packet.message_type) 
 
+class Leader2PCController (Controller):
+  """Base class for controllers that do some form of 2PC"""
+  def __init__ (self, name, ctx, address):
+    super(Leader2PCController, self).__init__(name, ctx, address)
+  def NotifyAckSetSwitchLeader(self, src, success, current_controller):
+    raise NotImplementedError
+  def NotifyRequestRelinquishLeadership (self, src, switch, other_controller):
+    raise NotImplementedError
+  def NotifyAckRelinquishLeadership (self, src, switch, success):
+    raise NotImplementedError

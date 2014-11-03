@@ -59,3 +59,38 @@ class LeaderComputingSwitch (Switch):
         (switch, link) = packet.message
         self.removeLink(link)
     return super(LeaderComputingSwitch, self).processControlMessage(link, source, packet)
+
+class LeaderComputing2PCSwitch (LeaderComputingSwitch):
+  """Just a version of the previous switch where we require explicit leadership changes"""
+  def __init__ (self, name, ctx):
+    super(LeaderComputing2PCSwitch, self).__init__(name, ctx)
+    self.current_leader = None
+    self.ctrl_switchboard[ControlPacket.SetSwitchLeader] = self.processSetSwitchLeader
+  
+  @property
+  def currentLeader (self):
+    return self.current_leader
+  
+  @property
+  def connectedToLeader (self):
+    if self.current_leader is None:
+      return False
+    else:
+      return nx.has_path(self.g, self.current_leader, self.name)
+
+  def processSetSwitchLeader (self, src_id, controller):
+    success = False
+    if not self.current_leader:
+      # Trivial case, no one is leader, people have correctly withdrawn.
+      # Note: this isn't checking who the leader should be, should we be 
+      # checking???
+      self.current_leader = controller
+      success = True
+    elif controller == "" and src_id == self.current_leader:
+      # Current leader is withdrawing.
+      self.current_leader = None
+      success = True
+    elif not self.connectedToLeader:
+      self.current_leader = controller
+      success = True
+    self.sendToController(ControlPacket.AckSetSwitchLeader, [success, self.current_leader])
