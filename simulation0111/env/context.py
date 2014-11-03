@@ -9,6 +9,7 @@ class Context (object):
   def __init__ (self, initial_task = None, config = None):
     self.queue = Queue.PriorityQueue()
     self.current_time = 0L
+    self.final_time = 0L
     if initial_task:
       self.queue.put_nowait((self.current_time, initial_task))
     if not config:
@@ -25,7 +26,7 @@ class Context (object):
     return self.current_time
   
   def run(self):
-    while not self.queue.empty():
+    while not self.queue.empty() and (self.final_time == 0 or self.current_time < self.final_time):
       (time, task) = self.queue.get_nowait()
       self.current_time = time
       task()

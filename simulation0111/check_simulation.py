@@ -72,6 +72,7 @@ def Main():
   ctx.schedule_task(800, lambda: host_a.Send(p2))
   p3 = FloodPacket("Hello")
   ctx.schedule_task(800, lambda: host_a.Send(p3))
+  ctx.final_time = 2000
   ctx.run()
 if __name__ == "__main__":
   Main()

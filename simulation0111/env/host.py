@@ -9,7 +9,7 @@ class Host (Switch):
 
   def receive (self, link, source, packet):
     if isinstance(packet, SourceDestinationPacket):
-      print "%s Received from %d to %d"%(self.name, packet.source, packet.destination)
+      print "%f %s Received from %d to %d"%(self.ctx.now, self.name, packet.source, packet.destination)
 
   def Send (self, packet):
     super(Host, self).Flood(None, packet)
