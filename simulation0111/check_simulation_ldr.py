@@ -7,8 +7,8 @@ class SpControl (Controller):
     self.hosts = set()
     self.controllers = set([self.name])
   def PacketIn(self, src, switch, source, packet):
-    print "%s Don't know path, dropping packet from %d to %d"%\
-            (switch.name, packet.source, packet.destination)
+    print "(%s) %s Don't know path, dropping packet from %d to %d"%\
+            (self.name, switch.name, packet.source, packet.destination)
 
   def currentLeader (self, switch):
     for c in sorted(list(self.controllers)):

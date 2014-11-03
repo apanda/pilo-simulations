@@ -24,7 +24,7 @@ class Controller (Host):
           delay = self.ctx.config.ControlLatency
           self.ctx.schedule_task(delay, lambda: self.switchboard[packet.message_type](packet.src_id, *packet.message))
         else:
-         print "%s unknown message type %d"%(self.name, packet.message_type) 
+          self.UnknownPacket(source, packet)
   def ForwardPacket (self, switch, link, packet):
     delay = self.ctx.config.ControlLatency
     cpacket = ControlPacket(self.cpkt_id, self.name, switch.name, ControlPacket.ForwardPacket, [link, packet]) 
@@ -52,4 +52,6 @@ class Controller (Host):
     raise NotImplementedError
   def PacketIn(self, src, switch, source, packet):
     raise NotImplementedError
+  def UnknownPacket(self, src, packet):
+    print "%s unknown message type %d"%(self.name, packet.message_type) 
 
