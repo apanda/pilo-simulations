@@ -4,15 +4,11 @@ data_link_latency:
     stdev: 10.0
 control_link_latency:
     distro: normal
-    mean: 40.0
+    mean: 2.0
     stdev: 10.0
 switch_processing_latency:
     distro: normal
     mean: 40.0
-    stdev: 10.0
-detection_delay:
-    distro: normal
-    mean: 20.0
     stdev: 10.0
 detection_delay:
     distro: constant
