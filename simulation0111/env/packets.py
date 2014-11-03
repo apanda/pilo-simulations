@@ -14,6 +14,36 @@ class Packet (object):
     # By default everything matches.
     return ""
 
+class FloodPacket (Packet):
+  """Test packet intended to allow flooding"""
+  def __init__ (self, id):
+    super(FloodPacket, self).__init__()
+    self.id = id
+  def __str__ (self):
+    return str(self.id)
+  def pack (self):
+    return id
+
+class ControlPacket (FloodPacket):
+  """Packets signifying in-band control messages"""
+  ForwardPacket = 1
+  UpdateRules = 2
+  NotifySwitchUp = 3
+  NotifyLinkDown = 4
+  NotifyLinkUp = 5
+  PacketIn = 6
+  AllCtrlId = "ALL"
+  def __init__ (self, id, src_id, dest_id, mtype, message):
+    super(ControlPacket, self).__init__(id)
+    self.src_id = src_id
+    self.dest_id = dest_id
+    self.message_type = mtype
+    self.message = message
+  def pack (self):
+    return struct.pack("ss", \
+             self.src_id, \
+             self.dest_id)
+
 class SourceDestinationPacket (Packet):
   """Simple packet with a source and destination (both 
   unsigned longs)"""
