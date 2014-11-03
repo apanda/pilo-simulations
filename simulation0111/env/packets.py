@@ -32,6 +32,8 @@ class ControlPacket (FloodPacket):
   NotifyLinkDown = 4
   NotifyLinkUp = 5
   PacketIn = 6
+  GetSwitchInformation = 7
+  SwitchInformation = 8
   AllCtrlId = "ALL"
   def __init__ (self, id, src_id, dest_id, mtype, message):
     super(ControlPacket, self).__init__(id)

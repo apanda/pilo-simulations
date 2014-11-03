@@ -34,6 +34,15 @@ class Switch (object):
     delay = self.ctx.config.UpdateDelay
     self.ctx.schedule_task(delay, \
             lambda: self.rules.update(match_action_pairs))
+  
+  def processSwitchInformation (self, source):
+    p = ControlPacket(self.cpkt_id, \
+            self.name, \
+            source, \
+            ControlPacket.SwitchInformation, \
+            [self, list(self.links)])
+    self.cpkt_id += 1
+    self.Flood(None, p)
 
   def anounceToController (self):
     #print "%s anouncing to controller switch up"%(self.name)
@@ -48,6 +57,10 @@ class Switch (object):
 
   def processControlMessage (self, link, source, packet):
     """Process message and decide whether to flood or not"""
+    if packet.message_type == ControlPacket.GetSwitchInformation:
+      if packet not in self.ctrl_messages:
+        self.ctrl_messages.add(packet)
+        self.processSwitchInformation(packet.src_id)
     if packet.dest_id == self.name: # Note not validating leader here
       if packet not in self.ctrl_messages:
         self.ctrl_messages.add(packet)

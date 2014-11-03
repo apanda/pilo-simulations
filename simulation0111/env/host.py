@@ -1,4 +1,4 @@
-from . import Context, FloodPacket, Switch, SourceDestinationPacket
+from . import Context, FloodPacket, Switch, SourceDestinationPacket, ControlPacket
 """
 Network elements, because why not.
 """
@@ -10,6 +10,8 @@ class Host (Switch):
   def receive (self, link, source, packet):
     if isinstance(packet, SourceDestinationPacket):
       print "%f %s Received from %d to %d"%(self.ctx.now, self.name, packet.source, packet.destination)
+    elif isinstance(packet, ControlPacket):
+      self.processControlMessage (link, source, packet)
 
   def Send (self, packet):
     super(Host, self).Flood(None, packet)

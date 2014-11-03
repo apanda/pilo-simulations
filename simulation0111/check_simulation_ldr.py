@@ -1,13 +1,20 @@
 from env import *
 import networkx as nx
 class SpControl (Controller):
-  def __init__ (self, ctx):
-    super(SpControl, self).__init__('c0', ctx, 10)
+  def __init__ (self, name, ctx, addr):
+    super(SpControl, self).__init__(name, ctx, addr)
     self.graph = nx.Graph()
-    self.hosts = []
+    self.hosts = set()
+    self.controllers = set([self.name])
   def PacketIn(self, src, switch, source, packet):
     print "%s Don't know path, dropping packet from %d to %d"%\
             (switch.name, packet.source, packet.destination)
+
+  def currentLeader (self, switch):
+    for c in sorted(list(self.controllers)):
+      if nx.has_path(self.graph, c, switch):
+        return c #Find the first connected controller
+
   def ComputeAndUpdatePaths (self):
     sp = nx.shortest_paths.all_pairs_shortest_path(self.graph)
     #print "%f Shortest paths are "%(self.ctx.now)
@@ -26,30 +33,70 @@ class SpControl (Controller):
               #continue      
             #ao = self.graph.node[a]['switch']
             link = self.graph[a][b]['link']
-            self.UpdateRules(a, [(p.pack(), link)])
+            if self.currentLeader(a) == self.name:
+              #print "%f %s leader for %s controllers are %s"%(self.ctx.now, self.name, a, self.controllers)
+              self.UpdateRules(a, [(p.pack(), link)])
+
   def NotifySwitchUp (self, src, switch):
     #print "%f Heard about switch %s"%(self.ctx.now, switch.name)
     # Not sure this is necessary?
     self.graph.add_node(switch.name, switch = switch)
     if isinstance(switch, Host):
-      self.hosts.append(switch)
+      self.hosts.add(switch)
+    if isinstance(switch, Controller):
+      self.controllers.add(switch.name)
     self.ComputeAndUpdatePaths()
     #self.graph[switch.name]['obj'] = switch
+
   def NotifyLinkUp (self, src, switch, link):
     #print "%f Heard about link %s"%(self.ctx.now, link)
     self.graph.add_edge(link.a.name, link.b.name, link=link)
+    assert(switch.name in self.graph)
+    if isinstance(switch, Host):
+      self.hosts.add(switch)
+    if isinstance(switch, Controller):
+      self.controllers.add(switch.name)
     self.ComputeAndUpdatePaths()
+    if link.a.name == self.name or link.b.name == self.name:
+      # Something changed for us, find out (essentially we know for sure
+      # we need to query information). Actually we should probably query all
+      # the time when a link comes up (stuff has changed)
+      self.GetSwitchInformation()
+
   def NotifyLinkDown (self, src, switch, link):
     #print "%f Heard about link down %s"%(self.ctx.now, link)
     self.graph.remove_edge(link.a.name, link.b.name)
+    assert(switch.name in self.graph)
+    if isinstance(switch, Host):
+      self.hosts.append(switch)
+    if isinstance(switch, Controller):
+      self.controllers.add(switch.name)
+    self.ComputeAndUpdatePaths()
+
+  def NotifySwitchInformation (self, src, switch, links):
+    if isinstance(switch, Host):
+      self.hosts.add(switch)
+    if isinstance(switch, Controller):
+      self.controllers.add(switch.name)
+    neighbors = map(lambda l: l.a.name if l.b.name == switch.name else l.b.name, links)
+    neighbor_to_link = dict(zip(neighbors, links))
+    g_neighbors = self.graph.neighbors(switch.name)
+    gn_set = set(g_neighbors)
+    n_set = set(neighbors)
+    for neighbor in neighbors:
+      if neighbor not in gn_set:
+        self.graph.add_edge(switch.name, neighbor, link=neighbor_to_link[neighbor])
+    for neighbor in g_neighbors:
+      if neighbor not in n_set:
+        self.graph.remove_edge(switch.name, neighbor)
+    assert(switch.name in self.graph)
     self.ComputeAndUpdatePaths()
 
 def Main():
   ctx = Context()
-  ctrl = SpControl(ctx)
-  switches = [Switch('s%d'%(i), ctx) for i in xrange(1, 4)]
-  for switch in switches:
-    ctx.schedule_task(0, switch.anounceToController)
+  ctrl0 = SpControl('c1', ctx, 10)
+  ctrl1 = SpControl('c2', ctx, 11)
+  switches = [LeaderComputingSwitch('s%d'%(i), ctx) for i in xrange(1, 4)]
   host_a = Host('a', ctx, 1)
   host_b = Host('b', ctx, 2)
   host_c = Host('c', ctx, 3)
@@ -58,13 +105,15 @@ def Main():
            Link(ctx, host_b, switches[1]), \
            Link(ctx, host_c, switches[2]), \
            Link(ctx, switches[0], switches[1]), \
-           Link(ctx, ctrl, switches[1]), \
+           Link(ctx, ctrl1, switches[1]), \
            Link(ctx, switches[1], switches[2]), \
            Link(ctx, switches[0], switches[2])]
+
   for link in links:
-    ctx.schedule_task(1, link.SetUp)
-  for host in hosts:
-    ctx.schedule_task(100, host.anounceToController)
+    ctx.schedule_task(0, link.SetUp)
+
+  linkLowCtrl = Link(ctx, ctrl0, switches[0])
+  ctx.schedule_task(100, linkLowCtrl.SetUp)
   print "Starting"
   p = SourceDestinationPacket(1, 3)
   ctx.schedule_task(800, lambda: host_a.Send(p))
