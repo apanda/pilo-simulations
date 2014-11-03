@@ -15,6 +15,10 @@ class Switch (object):
     # spanning tree. This is a bad hack to put in, but I am lazy.
     self.flooded_pkts = set()
     self.cpkt_id = 0
+    self.ctrl_switchboard = {
+      ControlPacket.UpdateRules: self.updateRules,
+      ControlPacket.ForwardPacket: self.forwardPacket
+    }
 
   def __repr__ (self):
     return self.name
@@ -26,7 +30,7 @@ class Switch (object):
     self.cpkt_id += 1
     self.Flood(None, p)
 
-  def updateRules (self, match_action_pairs):
+  def updateRules (self, source, match_action_pairs):
     delay = self.ctx.config.UpdateDelay
     self.ctx.schedule_task(delay, \
             lambda: self.rules.update(match_action_pairs))
@@ -43,20 +47,13 @@ class Switch (object):
                 lambda: l1.Send(self, packet)))(l)
 
   def processControlMessage (self, link, source, packet):
-    """Process message and decide whether to floor or not"""
-    if packet.message_type == ControlPacket.UpdateRules:
-      if packet.dest_id == self.name: # Note not validating leader here
-        if packet not in self.ctrl_messages:
-          self.ctrl_messages.add(packet)
-          self.updateRules(*packet.message)
-        return False # Processed, no point in processing again
-    elif packet.message_type == ControlPacket.ForwardPacket:
-      if packet.dest_id == self.name: # Note not validating leader here
-        if packet not in self.ctrl_messages:
-          self.ctrl_messages.add(packet)
-          self.updateRules(*packet.message)
-        self.ForwardPacket(*packet.message)
-        return False # Processed, no point in processing again
+    """Process message and decide whether to flood or not"""
+    if packet.dest_id == self.name: # Note not validating leader here
+      if packet not in self.ctrl_messages:
+        self.ctrl_messages.add(packet)
+        if packet.message_type in self.ctrl_switchboard:
+          self.ctrl_switchboard[packet.message_type](packet.src_id, *packet.message)
+      return False # Processed, no point in processing again
     return True
 
   def receive (self, link, source, packet):
@@ -81,7 +78,7 @@ class Switch (object):
     else:
       self.sendToController(ControlPacket.PacketIn, [self, source, packet])
   
-  def ForwardPacket (self, link, packet):
+  def forwardPacket (self, link, packet):
     delay = self.ctx.config.SwitchLatency
     self.ctx.schedule_task(delay, \
             lambda: link.Send(self, packet))
@@ -116,4 +113,3 @@ class VersionedSwitch (Switch):
   def NotifyUp (self, link):
     self.version += 1
     super(VersionedSwitch, self).NotifyUp((self.version, link))
-
