@@ -11,6 +11,9 @@ class Switch (object):
     self.rules = {}
     self.links = set()
     self.ctrl_messages = set()
+    # This is a hack to avoid flooding infinitely since I don't want to implement
+    # spanning tree. This is a bad hack to put in, but I am lazy.
+    self.flooded_pkts = set()
     self.cpkt_id = 0
 
   def __repr__ (self):
@@ -29,7 +32,7 @@ class Switch (object):
             lambda: self.rules.update(match_action_pairs))
 
   def anounceToController (self):
-    print "%s anouncing to controller switch up"%(self.name)
+    #print "%s anouncing to controller switch up"%(self.name)
     self.sendToController(ControlPacket.NotifySwitchUp, [self])
 
   def Flood (self, link, packet):
@@ -43,13 +46,15 @@ class Switch (object):
     """Process message and decide whether to floor or not"""
     if packet.message_type == ControlPacket.UpdateRules:
       if packet.dest_id == self.name: # Note not validating leader here
-        print "%f %s received rule updates"%(self.ctx.now, self.name)
-        self.ctrl_messages.add(packet.id)
-        self.updateRules(*packet.message)
+        if packet not in self.ctrl_messages:
+          self.ctrl_messages.add(packet)
+          self.updateRules(*packet.message)
         return False # Processed, no point in processing again
     elif packet.message_type == ControlPacket.ForwardPacket:
       if packet.dest_id == self.name: # Note not validating leader here
-        self.ctrl_messages.add(packet.id)
+        if packet not in self.ctrl_messages:
+          self.ctrl_messages.add(packet)
+          self.updateRules(*packet.message)
         self.ForwardPacket(*packet.message)
         return False # Processed, no point in processing again
     return True
@@ -64,7 +69,9 @@ class Switch (object):
         return # Ensuring no flooding
     if isinstance(packet, FloodPacket):
       #print "Switch %s received flood %s"%(self.name, packet.id)
-      self.Flood (link, packet)
+      if packet not in self.flooded_pkts:
+        self.flooded_pkts.add(packet)
+        self.Flood (link, packet)
       return
     match = packet.pack()
     if match in self.rules:

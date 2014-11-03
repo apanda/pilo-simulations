@@ -1,4 +1,4 @@
-from . import Context, FloodPacket, Switch
+from . import Context, FloodPacket, Switch, SourceDestinationPacket
 """
 Network elements, because why not.
 """
@@ -8,7 +8,8 @@ class Host (Switch):
     self.address = address
 
   def receive (self, link, source, packet):
-    print "Received from %s %s"%(source.name, str(packet))
+    if isinstance(packet, SourceDestinationPacket):
+      print "%s Received from %d to %d"%(self.name, packet.source, packet.destination)
 
   def Send (self, packet):
     super(Host, self).Flood(None, packet)

@@ -6,13 +6,13 @@ class SpControl (Controller):
     self.graph = nx.Graph()
     self.hosts = []
   def PacketIn(self, switch, source, packet):
-    print "Don't know path, dropping packet from %d to %d"%\
-            (packet.source, packet.destination)
+    print "%s Don't know path, dropping packet from %d to %d"%\
+            (switch.name, packet.source, packet.destination)
   def ComputeAndUpdatePaths (self):
     sp = nx.shortest_paths.all_pairs_shortest_path(self.graph)
-    print "%f Shortest paths are "%(self.ctx.now)
-    print sp
-    print "%f hosts are %s"%(self.ctx.now ,self.hosts)
+    #print "%f Shortest paths are "%(self.ctx.now)
+    #print sp
+    #print "%f hosts are %s"%(self.ctx.now ,self.hosts)
     for host in self.hosts:
       for h2 in self.hosts:
         if h2 == host:
@@ -26,10 +26,9 @@ class SpControl (Controller):
               #continue      
             #ao = self.graph.node[a]['switch']
             link = self.graph[a][b]['link']
-            print "Update rules for %s"%(a)
             self.UpdateRules(a, [(p.pack(), link)])
   def NotifySwitchUp (self, switch):
-    print "%f Heard about switch %s"%(self.ctx.now, switch.name)
+    #print "%f Heard about switch %s"%(self.ctx.now, switch.name)
     # Not sure this is necessary?
     self.graph.add_node(switch.name, switch = switch)
     if isinstance(switch, Host):
@@ -37,11 +36,11 @@ class SpControl (Controller):
     self.ComputeAndUpdatePaths()
     #self.graph[switch.name]['obj'] = switch
   def NotifyLinkUp (self, switch, link):
-    print "%f Heard about link %s"%(self.ctx.now, link)
+    #print "%f Heard about link %s"%(self.ctx.now, link)
     self.graph.add_edge(link.a.name, link.b.name, link=link)
     self.ComputeAndUpdatePaths()
   def NotifyLinkDown (self, switch, link):
-    print "%f Heard about link down %s"%(self.ctx.now, link)
+    #print "%f Heard about link down %s"%(self.ctx.now, link)
     self.graph.remove_edge(link.a.name, link.b.name)
     self.ComputeAndUpdatePaths()
 
@@ -60,7 +59,7 @@ def Main():
            Link(ctx, host_c, switches[2]), \
            Link(ctx, switches[0], switches[1]), \
            Link(ctx, ctrl, switches[1]), \
-           #Link(ctx, switches[1], switches[2]), \
+           Link(ctx, switches[1], switches[2]), \
            Link(ctx, switches[0], switches[2])]
   for link in links:
     ctx.schedule_task(1, link.SetUp)
@@ -72,7 +71,7 @@ def Main():
   p2 = SourceDestinationPacket(2, 3)
   ctx.schedule_task(800, lambda: host_a.Send(p2))
   p3 = FloodPacket("Hello")
-  ctx.schedule_task(1000, lambda: host_a.Send(p3))
+  ctx.schedule_task(800, lambda: host_a.Send(p3))
   ctx.run()
 if __name__ == "__main__":
   Main()

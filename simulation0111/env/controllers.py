@@ -17,7 +17,7 @@ class Controller (Host):
     if isinstance(packet, ControlPacket):
       # Received a control packet
       if packet.dest_id == ControlPacket.AllCtrlId or packet.dest_id == self.name:
-        print "%s received a control packet type %d"%(self.name, packet.message_type)
+        #print "%s received a control packet type %d"%(self.name, packet.message_type)
         if packet.message_type in self.switchboard:
           delay = self.ctx.config.ControlLatency
           self.ctx.schedule_task(delay, lambda: self.switchboard[packet.message_type](*packet.message))
@@ -29,13 +29,10 @@ class Controller (Host):
     self.cpkt_id += 1
     self.ctx.schedule_task(delay, lambda: self.send(cpacket))
   def UpdateRules (self, switch, pairs):
-    print "Considering updating rules"
     delay = self.ctx.config.ControlLatency
-    print "Delay is %f"%(delay)
     cpacket = ControlPacket(self.cpkt_id, self.name, switch, ControlPacket.UpdateRules, [pairs]) 
     self.cpkt_id += 1
     def Send():
-      print "Actually sending rule update to %s"%(switch)
       self.Send(cpacket)
     self.ctx.schedule_task(delay, Send)
   def NotifySwitchUp (self, switch):
