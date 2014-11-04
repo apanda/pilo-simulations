@@ -14,7 +14,8 @@ class LeaderComputingSwitch (Switch):
     self.controllers = set()
   
   def removeLink (self, link):
-    self.g.remove_edge(link.a.name, link.b.name)
+    if self.g.has_edge(link.a.name, link.b.name):
+      self.g.remove_edge(link.a.name, link.b.name)
     if isinstance(link.a, Controller):
       self.controllers.add(link.a.name)
     if isinstance(link.b, Controller):
