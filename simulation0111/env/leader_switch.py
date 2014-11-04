@@ -10,6 +10,7 @@ class LeaderComputingSwitch (Switch):
   def __init__ (self, name, ctx):
     super(LeaderComputingSwitch, self).__init__(name, ctx)
     self.g = nx.Graph()
+    self.g.add_node(self.name)
     self.controllers = set()
   
   def removeLink (self, link):

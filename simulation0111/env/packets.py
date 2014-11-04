@@ -74,3 +74,13 @@ class MarkedSourceDestPacket (SourceDestinationPacket):
     self.mark = True
   def pack (self):
     return super(MarkedSourceDestPacket, self).pack() + struct.pack("?", self.mark)
+
+class HeartbeatPacket (FloodPacket): 
+  def __init__ (self, id, src, direct_links, heard_from):
+    super(HeartbeatPacket, self).__init__(id)
+    self.src = src
+    self.direct_links = direct_links
+    self.heard_from = heard_from
+  def pack (self):
+    return struct.pack("s", \
+             self.src)
