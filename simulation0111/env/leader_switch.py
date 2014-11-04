@@ -18,7 +18,7 @@ class LeaderComputingSwitch (Switch):
       self.controllers.add(link.a.name)
     if isinstance(link.b, Controller):
       self.controllers.add(link.b.name)
-    print "%f %s thinks controller should be %s"%(self.ctx.now, self.name, self.currentLeader)
+    #print "%f %s thinks controller should be %s"%(self.ctx.now, self.name, self.currentLeader)
 
   def updateRules (self, source, match_action_pairs):
     if source != self.currentLeader:
@@ -38,7 +38,7 @@ class LeaderComputingSwitch (Switch):
       self.controllers.add(link.a.name)
     if isinstance(link.b, Controller):
       self.controllers.add(link.b.name)
-    print "%f %s thinks controller should be %s"%(self.ctx.now, self.name, self.currentLeader)
+    #print "%f %s thinks controller should be %s"%(self.ctx.now, self.name, self.currentLeader)
 
   def NotifyUp (self, link):
     self.addLink(link)
@@ -60,10 +60,10 @@ class LeaderComputingSwitch (Switch):
         self.removeLink(link)
     return super(LeaderComputingSwitch, self).processControlMessage(link, source, packet)
 
-class LeaderComputing2PCSwitch (LeaderComputingSwitch):
+class LinkState2PCSwitch (LeaderComputingSwitch):
   """Just a version of the previous switch where we require explicit leadership changes"""
   def __init__ (self, name, ctx):
-    super(LeaderComputing2PCSwitch, self).__init__(name, ctx)
+    super(LinkState2PCSwitch, self).__init__(name, ctx)
     self.current_leader = None
     self.ctrl_switchboard[ControlPacket.SetSwitchLeader] = self.processSetSwitchLeader
   
@@ -93,4 +93,4 @@ class LeaderComputing2PCSwitch (LeaderComputingSwitch):
     elif not self.connectedToLeader:
       self.current_leader = controller
       success = True
-    self.sendToController(ControlPacket.AckSetSwitchLeader, [success, self.current_leader])
+    self.sendToController(ControlPacket.AckSetSwitchLeader, [success, self.current_leader], controller = src_id)
