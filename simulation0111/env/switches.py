@@ -23,10 +23,12 @@ class Switch (object):
   def __repr__ (self):
     return self.name
 
-  def sendToController (self, type, args):
+  def sendToController (self, type, args, controller = None):
     """For now flood and send to all controllers, in some sense
        all controllers need to correctly update their view, etc."""
-    p = ControlPacket(self.cpkt_id, self.name, ControlPacket.AllCtrlId, type, args)
+    if not controller:
+      controller = ControlPacket.AllCtrlId
+    p = ControlPacket(self.cpkt_id, self.name, controller, type, args)
     self.cpkt_id += 1
     self.Flood(None, p)
 
