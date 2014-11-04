@@ -181,7 +181,8 @@ class CoordinatingControl (LinkState2PCController):
 
   def NotifyLinkDown (self, src, switch, link):
     #print "%f Heard about link down %s"%(self.ctx.now, link)
-    self.graph.remove_edge(link.a.name, link.b.name)
+    if self.graph.has_edge(link.a.name, link.b.name):
+      self.graph.remove_edge(link.a.name, link.b.name)
     assert(switch.name in self.graph)
     self.maintainSets(switch)
     self.ComputeAndUpdatePaths()

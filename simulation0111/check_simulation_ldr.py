@@ -65,7 +65,8 @@ class SpControl (Controller):
 
   def NotifyLinkDown (self, src, switch, link):
     #print "%f Heard about link down %s"%(self.ctx.now, link)
-    self.graph.remove_edge(link.a.name, link.b.name)
+    if self.graph.has_edge(link.a.name, link.b.name):
+      self.graph.remove_edge(link.a.name, link.b.name)
     assert(switch.name in self.graph)
     if isinstance(switch, Host):
       self.hosts.append(switch)
@@ -121,7 +122,8 @@ def Main():
   ctx.schedule_task(800, lambda: host_a.Send(p2))
   p3 = FloodPacket("Hello")
   ctx.schedule_task(800, lambda: host_a.Send(p3))
-  ctx.final_time = 2000
+  ctx.schedule_task(1500, linkLowCtrl.SetDown)
+  ctx.final_time = 8000
   ctx.run()
 if __name__ == "__main__":
   Main()
