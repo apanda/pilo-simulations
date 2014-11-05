@@ -32,9 +32,9 @@ class SpControl (LSController):
 
   def NotifySwitchUp (self, src, switch):
     # Not sure this is necessary?
-    if isinstance(switch, Host):
+    if isinstance(switch, HostTrait):
       self.hosts.add(switch)
-    if isinstance(switch, Controller):
+    if isinstance(switch, ControllerTrait):
       self.controllers.add(switch.name)
     self.ComputeAndUpdatePaths()
     #self.graph[switch.name]['obj'] = switch
@@ -42,9 +42,9 @@ class SpControl (LSController):
   def NotifyLinkUp (self, src, switch, link):
     #print "%f Heard about link %s"%(self.ctx.now, link)
     assert(switch.name in self.graph)
-    if isinstance(switch, Host):
+    if isinstance(switch, HostTrait):
       self.hosts.add(switch)
-    if isinstance(switch, Controller):
+    if isinstance(switch, ControllerTrait):
       self.controllers.add(switch.name)
     self.ComputeAndUpdatePaths()
     if link.a.name == self.name or link.b.name == self.name:
@@ -56,16 +56,16 @@ class SpControl (LSController):
   def NotifyLinkDown (self, src, switch, link):
     #print "%f Heard about link down %s"%(self.ctx.now, link)
     assert(switch.name in self.graph)
-    if isinstance(switch, Host):
+    if isinstance(switch, HostTrait):
       self.hosts.append(switch)
-    if isinstance(switch, Controller):
+    if isinstance(switch, ControllerTrait):
       self.controllers.add(switch.name)
     self.ComputeAndUpdatePaths()
 
   def NotifySwitchInformation (self, src, switch, links):
-    if isinstance(switch, Host):
+    if isinstance(switch, HostTrait):
       self.hosts.add(switch)
-    if isinstance(switch, Controller):
+    if isinstance(switch, ControllerTrait):
       self.controllers.add(switch.name)
     neighbors = map(lambda l: l.a.name if l.b.name == switch.name else l.b.name, links)
     neighbor_to_link = dict(zip(neighbors, links))

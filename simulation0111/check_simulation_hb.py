@@ -40,9 +40,9 @@ class HBControl (HBController):
     #print "%f Heard about switch %s"%(self.ctx.now, switch.name)
     # Not sure this is necessary?
     self.graph.add_node(switch.name, switch = switch)
-    if isinstance(switch, HBHost):
+    if isinstance(switch, HostTrait):
       self.hosts.add(switch)
-    if isinstance(switch, Controller):
+    if isinstance(switch, ControllerTrait):
       self.controllers.add(switch.name)
     self.ComputeAndUpdatePaths()
     #self.graph[switch.name]['obj'] = switch
@@ -51,9 +51,9 @@ class HBControl (HBController):
     #print "%f Heard about link %s"%(self.ctx.now, link)
     self.graph.add_edge(link.a.name, link.b.name, link=link)
     assert(switch.name in self.graph)
-    if isinstance(switch, HBHost):
+    if isinstance(switch, HostTrait):
       self.hosts.add(switch)
-    if isinstance(switch, Controller):
+    if isinstance(switch, ControllerTrait):
       self.controllers.add(switch.name)
     self.ComputeAndUpdatePaths()
 
@@ -62,9 +62,9 @@ class HBControl (HBController):
     if self.graph.has_edge(link.a.name, link.b.name):
       self.graph.remove_edge(link.a.name, link.b.name)
     assert(switch.name in self.graph)
-    if isinstance(switch, HBHost):
+    if isinstance(switch, HostTrait):
       self.hosts.append(switch)
-    if isinstance(switch, Controller):
+    if isinstance(switch, ControllerTrait):
       self.controllers.add(switch.name)
     self.ComputeAndUpdatePaths()
 
@@ -73,7 +73,7 @@ class HBControl (HBController):
 
   def processHeartbeat(self, hbpacket):
     super(HBControl, self).processHeartbeat(hbpacket)
-    if isinstance(hbpacket.sobj, HBHost):
+    if isinstance(hbpacket.sobj, HostTrait):
       self.hosts.add(hbpacket.sobj)
     if isinstance(hbpacket.sobj, HBController):
       self.controllers.add(hbpacket.sobj.name)

@@ -1,8 +1,7 @@
-from . import Context, FloodPacket, Switch, SourceDestinationPacket, ControlPacket
-"""
-Network elements, because why not.
-"""
-class Host (Switch):
+from . import Context, FloodPacket, Switch, SourceDestinationPacket, ControlPacket, HostTrait
+class Host (Switch, HostTrait):
+  """A generic host. Hosts in general don't have access to layer A functionality (but in the case of heartbeats
+  must participate in that protocol"""
   def __init__ (self, name, ctx, address):
     super(Host, self).__init__(name, ctx)
     self.address = address

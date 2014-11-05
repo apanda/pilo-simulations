@@ -1,4 +1,6 @@
-__all__ = ["Context", \
+__all__ = [ "Context", \
+            "ControllerTrait", \
+            "HostTrait", \
             "Config", \
             "MarkedSourceDestPacket", \
             "SourceDestinationPacket", \
@@ -19,7 +21,7 @@ __all__ = ["Context", \
             "HBLeaderSwitch", \
             "HBController", \
             "HBHost"] 
-from context import Context, Config
+from context import Context, Config, ControllerTrait, HostTrait
 from packets import MarkedSourceDestPacket, \
                     SourceDestinationPacket, \
                     FloodPacket, \

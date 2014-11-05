@@ -1,8 +1,5 @@
-from . import Context, FloodPacket, Host, ControlPacket
-"""
-Network elements, because why not.
-"""
-class Controller (Host):
+from . import Context, FloodPacket, Host, ControlPacket, ControllerTrait
+class Controller (Host, ControllerTrait):
   """No layer A controller"""
   def __init__ (self, name, ctx, address):
     super(Controller, self).__init__(name, ctx, address)

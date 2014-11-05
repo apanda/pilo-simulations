@@ -1,5 +1,6 @@
-from . import Context, HeartbeatPacket, Link, Switch, ControlPacket, SourceDestinationPacket
+from . import Context, HeartbeatPacket, Link, Switch, ControlPacket, SourceDestinationPacket, ControllerTrait, HostTrait
 import networkx as nx
+
 class HBSwitch (Switch):
   """A switch that sends and receives periodic heartbeats from
   other network elements. Epoch is time when previously received
@@ -56,7 +57,7 @@ class HBSwitch (Switch):
     self.receivedBeats[hbpacket.src] = self.ctx.now
     # Update connectivity matrix
     self.connectivityMatrix[hbpacket.src] = hbpacket.heard_from
-    if isinstance(hbpacket.sobj, HBController):
+    if isinstance(hbpacket.sobj, ControllerTrait):
       self.controllers.add(hbpacket.src)
     # Don't use link state information
     self.UpdatedConnectivity()
@@ -70,7 +71,7 @@ class HBSwitch (Switch):
     super(HBSwitch, self).updateRules(source, match_action_pairs)
   
 
-class HBHost (HBSwitch):
+class HBHost (HBSwitch, HostTrait):
   def __init__ (self, name, ctx, address, epoch, send_rate):
     super(HBHost, self).__init__(name, ctx, epoch, send_rate)
     self.address = address
@@ -86,7 +87,7 @@ class HBHost (HBSwitch):
   def Send (self, packet):
     super(HBHost, self).Flood(None, packet)
 
-class HBController (HBHost):
+class HBController (HBHost, ControllerTrait):
   """Base class for controllers"""
   def __init__ (self, name, ctx, address, epoch, send_rate):
     super(HBController, self).__init__(name, ctx, address, epoch, send_rate)

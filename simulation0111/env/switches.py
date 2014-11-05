@@ -1,9 +1,6 @@
-from . import Context, FloodPacket, Link, ControlPacket
-"""
-Network elements, because why not.
-"""
+from . import Context, FloodPacket, Link, ControlPacket, ControllerTrait
 class Switch (object):
-  """A simple match based switch, no link state update number"""
+  """A simple match based switch, with no layer A functionality."""
   def __init__ (self, name, ctx):
     self.name = name
     self.ctx = ctx

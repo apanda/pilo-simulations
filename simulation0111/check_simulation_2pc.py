@@ -150,9 +150,9 @@ class CoordinatingControl (LS2PCController):
     self.updateSwitchLeadership()
   
   def maintainSets(self, switch):
-    if isinstance(switch, LS2PCController):
+    if isinstance(switch, ControllerTrait):
       self.controllers.add(switch.name)
-    elif isinstance(switch, Host):
+    elif isinstance(switch, HostTrait):
       self.hosts.add(switch)
     else:
       self.switches.add(switch.name)

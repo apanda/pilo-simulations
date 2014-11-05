@@ -110,3 +110,9 @@ class Config (object):
   @property
   def UpdateDelay(self):
     return self.update_delay.next
+
+class ControllerTrait(object):
+  """A generic way to refer to all controllers"""
+
+class HostTrait(object):
+  """A generic way to refer to all controllers"""

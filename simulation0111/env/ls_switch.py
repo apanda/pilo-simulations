@@ -1,4 +1,4 @@
-from . import Context, FloodPacket, Link, ControlPacket, Switch, HBSwitch
+from . import Context, FloodPacket, Link, ControlPacket, Switch, HBSwitch, ControllerTrait
 import networkx as nx
 """A collection of links state switches"""
 class LinkStateSwitch (Switch):
@@ -16,9 +16,9 @@ class LinkStateSwitch (Switch):
   def removeLink (self, link):
     if self.g.has_edge(link.a.name, link.b.name):
       self.g.remove_edge(link.a.name, link.b.name)
-    if isinstance(link.a, LSController):
+    if isinstance(link.a, ControllerTrait):
       self.controllers.add(link.a.name)
-    if isinstance(link.b, LSController):
+    if isinstance(link.b, ControllerTrait):
       self.controllers.add(link.b.name)
     #print "%f %s thinks controller should be %s"%(self.ctx.now, self.name, self.currentLeader)
 
@@ -36,9 +36,9 @@ class LinkStateSwitch (Switch):
 
   def addLink (self, link):
     self.g.add_edge(link.a.name, link.b.name, link=link)
-    if isinstance(link.a, LSController):
+    if isinstance(link.a, ControllerTrait):
       self.controllers.add(link.a.name)
-    if isinstance(link.b, LSController):
+    if isinstance(link.b, ControllerTrait):
       self.controllers.add(link.b.name)
     #print "%f %s thinks controller should be %s"%(self.ctx.now, self.name, self.currentLeader)
 
@@ -76,7 +76,7 @@ class LSLeaderSwitch (LinkStateSwitch):
       if nx.has_path(self.g, c, self.name):
         return c #Find the first connected controller
 
-class LSController (LinkStateSwitch):
+class LSController (LinkStateSwitch, ControllerTrait):
   """Generic controller with link state based layer A"""
   def __init__ (self, name, ctx, address):
     super(LSController, self).__init__(name, ctx)
