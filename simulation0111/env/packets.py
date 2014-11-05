@@ -38,6 +38,7 @@ class ControlPacket (FloodPacket):
   AckSetSwitchLeader = 10
   RequestRelinquishLeadership = 11
   AckRelinquishLeadership = 12
+  UpdateWaypointRules = 13
   AllCtrlId = "ALL"
   def __init__ (self, id, src_id, dest_id, mtype, message):
     super(ControlPacket, self).__init__(id)
