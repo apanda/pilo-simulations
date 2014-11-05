@@ -4,7 +4,7 @@ class HBSwitch (Switch):
   """A switch that sends and receives periodic heartbeats from
   other network elements. Epoch is time when previously received
   heartbeats expire, while send rate is the rate at which these things
-  are sent"""
+  are sent. This is equivalent to Layer 0 (Layer A) for the heartbeat case"""
   def __init__ (self, name, ctx, epoch, send_rate):
     super(HBSwitch, self).__init__(name, ctx)
     self.epoch = epoch

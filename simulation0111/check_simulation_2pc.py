@@ -1,10 +1,8 @@
 from env import *
 import networkx as nx
-class CoordinatingControl (LinkState2PCController):
+class CoordinatingControl (LS2PCController):
   def __init__ (self, name, ctx, addr):
     super(CoordinatingControl, self).__init__(name, ctx, addr)
-    self.graph = nx.Graph()
-    self.graph.add_node(self.name, switch = self)
     self.hosts = set()
     self.controllers = set([self.name])
     self.switches = set()
@@ -152,7 +150,7 @@ class CoordinatingControl (LinkState2PCController):
     self.updateSwitchLeadership()
   
   def maintainSets(self, switch):
-    if isinstance(switch, Controller):
+    if isinstance(switch, LS2PCController):
       self.controllers.add(switch.name)
     elif isinstance(switch, Host):
       self.hosts.add(switch)
@@ -208,7 +206,7 @@ def Main():
   ctx = Context()
   ctrl0 = CoordinatingControl('c1', ctx, 10)
   ctrl1 = CoordinatingControl('c2', ctx, 11)
-  switches = [LinkState2PCSwitch('s%d'%(i), ctx) for i in xrange(1, 4)]
+  switches = [LS2PCSwitch('s%d'%(i), ctx) for i in xrange(1, 4)]
   host_a = Host('a', ctx, 1)
   host_b = Host('b', ctx, 2)
   host_c = Host('c', ctx, 3)

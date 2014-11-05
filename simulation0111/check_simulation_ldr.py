@@ -1,11 +1,11 @@
 from env import *
 import networkx as nx
-class SpControl (Controller):
+class SpControl (LSController):
   def __init__ (self, name, ctx, addr):
     super(SpControl, self).__init__(name, ctx, addr)
-    self.graph = nx.Graph()
     self.hosts = set()
     self.controllers = set([self.name])
+
   def PacketIn(self, src, switch, source, packet):
     print "(%s) %s Don't know path, dropping packet from %d to %d"%\
             (self.name, switch.name, packet.source, packet.destination)
@@ -17,9 +17,6 @@ class SpControl (Controller):
 
   def ComputeAndUpdatePaths (self):
     sp = nx.shortest_paths.all_pairs_shortest_path(self.graph)
-    #print "%f Shortest paths are "%(self.ctx.now)
-    #print sp
-    #print "%f hosts are %s"%(self.ctx.now ,self.hosts)
     for host in self.hosts:
       for h2 in self.hosts:
         if h2 == host:
@@ -29,18 +26,12 @@ class SpControl (Controller):
           path = zip(sp[host.name][h2.name], \
                     sp[host.name][h2.name][1:])
           for (a, b) in path[1:]:
-            #if 'switch' not in self.graph.node[a]:
-              #continue      
-            #ao = self.graph.node[a]['switch']
             link = self.graph[a][b]['link']
             if self.currentLeader(a) == self.name:
-              #print "%f %s leader for %s controllers are %s"%(self.ctx.now, self.name, a, self.controllers)
               self.UpdateRules(a, [(p.pack(), link)])
 
   def NotifySwitchUp (self, src, switch):
-    #print "%f Heard about switch %s"%(self.ctx.now, switch.name)
     # Not sure this is necessary?
-    self.graph.add_node(switch.name, switch = switch)
     if isinstance(switch, Host):
       self.hosts.add(switch)
     if isinstance(switch, Controller):
@@ -50,7 +41,6 @@ class SpControl (Controller):
 
   def NotifyLinkUp (self, src, switch, link):
     #print "%f Heard about link %s"%(self.ctx.now, link)
-    self.graph.add_edge(link.a.name, link.b.name, link=link)
     assert(switch.name in self.graph)
     if isinstance(switch, Host):
       self.hosts.add(switch)
@@ -65,8 +55,6 @@ class SpControl (Controller):
 
   def NotifyLinkDown (self, src, switch, link):
     #print "%f Heard about link down %s"%(self.ctx.now, link)
-    if self.graph.has_edge(link.a.name, link.b.name):
-      self.graph.remove_edge(link.a.name, link.b.name)
     assert(switch.name in self.graph)
     if isinstance(switch, Host):
       self.hosts.append(switch)
@@ -98,7 +86,7 @@ def Main():
   ctx = Context()
   ctrl0 = SpControl('c1', ctx, 10)
   ctrl1 = SpControl('c2', ctx, 11)
-  switches = [LeaderComputingSwitch('s%d'%(i), ctx) for i in xrange(1, 4)]
+  switches = [LSLeaderSwitch('s%d'%(i), ctx) for i in xrange(1, 4)]
   host_a = Host('a', ctx, 1)
   host_b = Host('b', ctx, 2)
   host_c = Host('c', ctx, 3)

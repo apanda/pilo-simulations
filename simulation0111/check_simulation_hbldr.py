@@ -33,7 +33,6 @@ class HBControl (HBController):
                     sp[host.name][h2.name][1:])
           for (a, b) in path[1:]:
             link = self.graph[a][b]['link']
-            #print "%f %s For %s current leader is %s"%(self.ctx.now, self.name, a, self.currentLeader(a))
             if self.currentLeader(a) == self.name:
               self.UpdateRules(a, [(p.pack(), link)])
 

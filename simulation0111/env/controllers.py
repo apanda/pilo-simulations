@@ -3,7 +3,7 @@ from . import Context, FloodPacket, Host, ControlPacket
 Network elements, because why not.
 """
 class Controller (Host):
-  """Base class for controllers"""
+  """No layer A controller"""
   def __init__ (self, name, ctx, address):
     super(Controller, self).__init__(name, ctx, address)
     self.switchboard = {
@@ -52,21 +52,3 @@ class Controller (Host):
     raise NotImplementedError
   def UnknownPacket(self, src, packet):
     print "%s unknown message type %d"%(self.name, packet.message_type) 
-
-class LinkState2PCController (Controller):
-  """Base class for controllers that do some form of 2PC"""
-  def __init__ (self, name, ctx, address):
-    super(LinkState2PCController, self).__init__(name, ctx, address)
-    self.switchboard[ControlPacket.AckSetSwitchLeader] = self.NotifyAckSetSwitchLeader
-    self.switchboard[ControlPacket.RequestRelinquishLeadership] = self.NotifyRequestRelinquishLeadership
-    self.switchboard[ControlPacket.AckRelinquishLeadership] = self.NotifyAckRelinquishLeadership
-  def SetSwitchLeadership (self, switch, controller):
-    cpacket = ControlPacket(self.cpkt_id, self.name, switch, ControlPacket.SetSwitchLeader, [controller]) 
-    self.cpkt_id += 1
-    self.sendControlPacket(cpacket)
-  def NotifyAckSetSwitchLeader(self, src, success, current_controller):
-    raise NotImplementedError
-  def NotifyRequestRelinquishLeadership (self, src, switch, other_controller):
-    raise NotImplementedError
-  def NotifyAckRelinquishLeadership (self, src, switch, success):
-    raise NotImplementedError
