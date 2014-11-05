@@ -81,7 +81,7 @@ class SpControl (Controller):
       self.controllers.add(switch.name)
     neighbors = map(lambda l: l.a.name if l.b.name == switch.name else l.b.name, links)
     neighbor_to_link = dict(zip(neighbors, links))
-    self.graph.add_node(hbpacket.src)
+    self.graph.add_node(switch.name)
     g_neighbors = self.graph.neighbors(switch.name)
     gn_set = set(g_neighbors)
     n_set = set(neighbors)
