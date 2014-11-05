@@ -79,6 +79,7 @@ class HBControl (HBController):
       self.controllers.add(hbpacket.sobj.name)
     neighbors = map(lambda l: l.a.name if l.b.name == hbpacket.src else l.b.name, hbpacket.direct_links)
     neighbor_to_link = dict(zip(neighbors, hbpacket.direct_links))
+    self.graph.add_node(hbpacket.src)
     g_neighbors = self.graph.neighbors(hbpacket.src)
     gn_set = set(g_neighbors)
     n_set = set(neighbors)
@@ -118,7 +119,7 @@ def Main():
     ctx.schedule_task(0, link.SetUp)
 
   linkLowCtrl = Link(ctx, ctrl0, switches[0])
-  ctx.schedule_task(100, linkLowCtrl.SetUp)
+  ctx.schedule_task(500, linkLowCtrl.SetUp)
   print "Starting"
   p = SourceDestinationPacket(1, 3)
   ctx.schedule_task(800, lambda: host_a.Send(p))
@@ -126,8 +127,8 @@ def Main():
   ctx.schedule_task(800, lambda: host_a.Send(p2))
   p3 = FloodPacket("Hello")
   ctx.schedule_task(800, lambda: host_a.Send(p3))
-  #ctx.schedule_task(1500, linkLowCtrl.SetDown)
-  ctx.final_time = 8000
+  ctx.schedule_task(4000, linkLowCtrl.SetDown)
+  ctx.final_time = 12000
   ctx.run()
 if __name__ == "__main__":
   Main()
