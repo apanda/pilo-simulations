@@ -33,7 +33,6 @@ class HBControl (HBController):
                     sp[host.name][h2.name][1:])
           for (a, b) in path[1:]:
             link = self.graph[a][b]['link']
-            #print "%f %s For %s current leader is %s"%(self.ctx.now, self.name, a, self.currentLeader(a))
             if self.currentLeader(a) == self.name:
               self.UpdateRules(a, [(p.pack(), link)])
 
@@ -101,7 +100,7 @@ def Main():
   SEND_RATE = 200
   ctrl0 = HBControl('c1', ctx, 10, EPOCH, SEND_RATE)
   ctrl1 = HBControl('c2', ctx, 11, EPOCH, SEND_RATE)
-  switches = [HBLeaderSwitch('s%d'%(i), ctx, EPOCH, SEND_RATE)\
+  switches = [HBSwitch('s%d'%(i), ctx, EPOCH, SEND_RATE)\
           for i in xrange(1, 4)]
   host_a = HBHost('a', ctx, 1, EPOCH, SEND_RATE)
   host_b = HBHost('b', ctx, 2, EPOCH, SEND_RATE)

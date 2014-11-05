@@ -12,12 +12,15 @@ class HBSwitch (Switch):
     self.receivedBeats = {}
     self.connectivityMatrix = {}
     self.ctx.schedule_task(self.send_rate, self.sendHeartbeat)
-    self.leader = None
     self.controllers = set()
 
   @property
-  def currentLeader(self):
-    return self.leader
+  def probableLeader (self):
+    connectivity_measure = sorted(map(lambda c: (-1 * len(self.connectivityMatrix.get(c, [])), c), self.controllers))
+    if len(connectivity_measure) > 0 and \
+       connectivity_measure[0][0] != 0: # Things are connected, etc.
+      return connectivity_measure[0][1]
+    return None
 
   def updateAndCullHeartbeats (self):
     """Remove heartbeats as appropriate"""
@@ -59,14 +62,12 @@ class HBSwitch (Switch):
     self.UpdatedConnectivity()
 
   def UpdatedConnectivity(self):
-    """Deal with the fact that things have been updated. Currently
-      just appoint the most connected, lowest ID controller leader"""
-    connectivity_measure = sorted(map(lambda c: (-1 * len(self.connectivityMatrix.get(c, [])), c), self.controllers))
-    if len(connectivity_measure) > 0 and \
-       connectivity_measure[0][0] != 0 and \
-       self.leader != connectivity_measure[0][1]: # Things are connected, etc.
-      self.leader = connectivity_measure[0][1]
-      print "%f %s Setting %s as leader"%(self.ctx.now, self.name, self.currentLeader)
+    pass
+
+  def updateRules (self, source, match_action_pairs):
+    if self.probableLeader != source:
+      print "%f %s  updated by %s (I think leader should be %s)"%(self.ctx.now, self.name, source, self.probableLeader)
+    super(HBSwitch, self).updateRules(source, match_action_pairs)
   
 
 class HBHost (HBSwitch):

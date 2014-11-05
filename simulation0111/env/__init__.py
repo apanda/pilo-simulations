@@ -10,10 +10,11 @@ __all__ = ["Context", \
             "VersionedSwitch", \
             "Controller", \
             "FloodPacket", \
+            "HBSwitch", \
             "LeaderComputingSwitch", \
             "LinkState2PCSwitch", \
             "LinkState2PCController", \
-            "HBSwitch", \
+            "HBLeaderSwitch", \
             "HBController", \
             "HBHost"] 
 from context import Context, Config
@@ -26,5 +27,5 @@ from net import Link
 from switches import Switch, VersionedSwitch 
 from host import Host
 from controllers import Controller, LinkState2PCController
-from leader_switch import LeaderComputingSwitch, LinkState2PCSwitch
 from heartbeat_switch import HBSwitch, HBHost, HBController
+from leader_switch import LeaderComputingSwitch, LinkState2PCSwitch, HBLeaderSwitch
