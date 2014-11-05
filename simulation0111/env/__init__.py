@@ -23,7 +23,7 @@ __all__ = [ "Context", \
             "HBHost", \
             "WaypointController", \
             "WaypointSwitch"]
-from context import Context, Config
+from context import Context, Config, ControllerTrait, HostTrait
 from packets import MarkedSourceDestPacket, \
                     SourceDestinationPacket, \
                     FloodPacket, \
