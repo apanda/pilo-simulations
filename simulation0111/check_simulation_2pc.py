@@ -6,125 +6,22 @@ class CoordinatingControl (LS2PCController):
     self.hosts = set()
     self.controllers = set([self.name])
     self.switches = set()
-    self.currently_leader_for = set()
-    self.outstanding_request_for_switch = {}
 
   def PacketIn(self, src, switch, source, packet):
     print "(%s) %s Don't know path, dropping packet from %d to %d"%\
             (self.name, switch.name, packet.source, packet.destination)
 
-  def shouldBeCurrentLeader (self, switch):
+  def ShouldBeCurrentLeader (self, switch):
     for c in sorted(list(self.controllers)):
       if nx.has_path(self.graph, c, switch):
         return c #Find the first connected controller
     return None
-  
-  def updateSwitchLeadership (self):
-    for switch in self.switches:
-      if self.shouldBeCurrentLeader(switch) == self.name and \
-              switch not in self.currently_leader_for:
-        # Request that we become the leader. In many cases this 
-        # will fail
-        #print "%f %s asking to be leader for %s"%(self.ctx.now, self.name, switch)
-        self.SetSwitchLeadership(switch, self.name)
 
-  def MaybeRequestRelinquishing (self, current_controller, switch):
-    """Send a request for current_controller to relinquish control of switch 
-      if connect we think it is connected to the switch (and hence to us), otherwise
-      just send the switch a request to set leadership"""
-    if nx.has_path(self.graph, current_controller, switch):
-      # Is connected (and we think we should be leader, so we are also connected to
-      # the switch and controller)
-      #print "%f %s asking %s to relinquish leadership for %s"%(self.ctx.now, self.name, current_controller, switch)
-      cpacket = ControlPacket(self.cpkt_id, \
-                              self.name,\
-                              current_controller,\
-                              ControlPacket.RequestRelinquishLeadership,\
-                              [switch, self.name]) 
-      self.cpkt_id += 1
-      self.sendControlPacket(cpacket)
-    else:
-      # Is not connected so just ask switch
-      self.SetSwitchLeadership(switch, self.name)
 
-  def NotifyAckSetSwitchLeader(self, src, success, current_controller):
-    if current_controller == self.name and src not in self.currently_leader_for:
-      # Successfully became leader
-      print "%f %s is now leader for %s"%(self.ctx.now, self.name, src)
-      self.currently_leader_for.add(src)
-      self.ComputeAndUpdatePaths() # Update switch as necessary
-    elif success and src in self.currently_leader_for:
-      #print "%f %s successfully renounced leadership for %s"%(self.ctx.now, self.name, src)
-      # Successfully left leadership
-      self.currently_leader_for.remove(src)
-      # Should we actually still be leader?
-      shouldBeLeader = (self.shouldBeCurrentLeader(src) == self.name)
-      # Ack any outstanding requests to relinquish leadership
-      if src in self.outstanding_request_for_switch:
-        dest = self.outstanding_request_for_switch[src]
-        del self.outstanding_request_for_switch[src]
-        self.ackRequestRelinquish(dest, src, not shouldBeLeader)
-      # Retry if we should be leader
-      if shouldBeLeader:
-        #print "%f %s trying to reacquire leadership for %s"%(self.ctx.now, self.name, src)
-        self.SetSwitchLeadership(src, self.name)
-    elif not success and \
-            self.shouldBeCurrentLeader(src) == self.name and\
-            src not in self.currently_leader_for: # We should still be controller
-      # Ask current controller to relinquish
-      #print "%f %s Should be leader for %s but %s is instead"%(self.ctx.now, self.name, src, current_controller)
-      self.MaybeRequestRelinquishing(current_controller, src)
-
-  def ackRequestRelinquish (self, dest, switch, success):
-      #print "%f %s acking relinquish for %s (%s) with %s"%(self.ctx.now, self.name, dest, switch, success)
-      cpacket = ControlPacket(self.cpkt_id, \
-                              self.name,\
-                              dest,\
-                              ControlPacket.AckRelinquishLeadership,\
-                              [switch, success]) 
-      self.cpkt_id += 1
-      self.sendControlPacket(cpacket)
-    
-  def NotifyRequestRelinquishLeadership (self, src, switch, other_controller):
-    #print "%f %s requested to relinquish leadership for switch %s"%(self.ctx.now, self.name, switch)
-    if switch not in self.currently_leader_for:
-      #print "%f %s is not leader for requested switch %s"%(self.ctx.now, self.name, switch)
-      self.ackRequestRelinquish(src, switch, False)
-    elif self.shouldBeCurrentLeader(switch) == self.name:
-      #print "%f %s ctrlr %s asked for leadership of %s but state says no (controllers are %s)"%(self.ctx.now, self.name, \
-              #src, switch, sorted(self.controllers))
-      # Am leader, should be leader, don't give up
-      self.ackRequestRelinquish(src, switch, False)
-    else:
-      #print "%f %s ctrlr %s asked for leadership of %s and state says yes"%(self.ctx.now, self.name, src, switch)
-      # Am leader, should not be leader, let the other person take over
-      if switch in self.outstanding_request_for_switch and \
-              self.outstanding_request_for_switch[switch] != src:
-        # Only one of these should win, blindly let newer request win
-        #print "%f %s ctrlr %s previously asked for leadership of %s and but is kicked out by %s"%(self.ctx.now,\
-                #self.name,\
-                #self.outstanding_request_for_switch[switch],
-                #switch,\
-                #src)
-        self.ackRequestRelinquish(self.outstanding_request_for_switch[switch], switch, False)
-        self.outstanding_request_for_switch[switch] = src
-      else:
-        # No one has requested yet, send a request
-        self.outstanding_request_for_switch[switch] = src
-        self.SetSwitchLeadership(switch, "")
-
-  def NotifyAckRelinquishLeadership (self, src, switch, success):
-    if success or switch in self.currently_leader_for:
-      #print "%f %s Ctrlr %s relinquished leadership of %s"%(self.ctx.now, self.name, src, switch)
-      # Woohoo, they relinquished, let us ask for leadership
-      self.SetSwitchLeadership(switch, self.name)
-    elif self.shouldBeCurrentLeader(switch) == self.name and switch not in self.currently_leader_for:
-      #print "%f %s Ctrlr %s did not relinquish leadership of %s but we should be leader"%(self.ctx.now, self.name, src, switch)
-      # Failed, but we should still be leader. Might have failed since
-      # the old leader is no longer the leader, so start from the beginning
-      self.SetSwitchLeadership(switch, self.name)
-    #else:
-      #print "%f %s Ctrlr %s did not relinquish leadership of %s but we should not be leader"%(self.ctx.now, self.name, src, switch)
+  def NewlyAppointedLeader(self, src):
+     self.ComputeAndUpdatePaths() # Update switch as necessary
+  def NewlyRemovedLeader (self, src):
+    self.ComputeAndUpdatePaths()
 
   def ComputeAndUpdatePaths (self):
     sp = nx.shortest_paths.all_pairs_shortest_path(self.graph)
@@ -148,6 +45,15 @@ class CoordinatingControl (LS2PCController):
               #print "%f %s leader for %s controllers are %s"%(self.ctx.now, self.name, a, self.controllers)
               self.UpdateRules(a, [(p.pack(), link)])
     self.updateSwitchLeadership()
+
+  def updateSwitchLeadership (self):
+    for switch in self.switches:
+      if self.ShouldBeCurrentLeader(switch) == self.name and \
+              switch not in self.currently_leader_for:
+        # Request that we become the leader. In many cases this 
+        # will fail
+        self.SetSwitchLeadership(switch, self.name)
+
   
   def maintainSets(self, switch):
     if isinstance(switch, ControllerTrait):
