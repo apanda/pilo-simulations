@@ -1,8 +1,8 @@
 from env import *
 import networkx as nx
 class CoordinatingControl (LS2PCController):
-  def __init__ (self, name, ctx, addr):
-    super(CoordinatingControl, self).__init__(name, ctx, addr)
+  def __init__ (self, name, ctx, address):
+    super(CoordinatingControl, self).__init__(name, ctx, address)
     self.hosts = set()
     self.controllers = set([self.name])
     self.switches = set()

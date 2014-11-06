@@ -2,8 +2,8 @@ from env import *
 import networkx as nx
 """Switches recongnize leaders in this case"""
 class HBControl (HBController):
-  def __init__ (self, name, ctx, addr, epoch, send_rate):
-    super(HBControl, self).__init__(name, ctx, addr, epoch, send_rate)
+  def __init__ (self, name, ctx, address, epoch, send_rate):
+    super(HBControl, self).__init__(name, ctx, address, epoch, send_rate)
     self.graph = nx.Graph()
     self.hosts = set()
     self.controllers = set([self.name])
@@ -20,6 +20,7 @@ class HBControl (HBController):
         return c
 
   def ComputeAndUpdatePaths (self):
+    #print "%f %s updating paths, hosts are %s"%(self.ctx.now, self.name, self.hosts)
     sp = nx.shortest_paths.all_pairs_shortest_path(self.graph)
     #print "%f Shortest paths are "%(self.ctx.now)
     #print sp

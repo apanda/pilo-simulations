@@ -1,0 +1,21 @@
+0 s1-s2 up
+0 s2-s3 up
+0 s3-s1 up
+0 s3-c2 up
+0 a-s1 up
+0 b-s2 up
+0 c-s3 up
+200 a send 1 2
+500 s1-c1 up
+300 a send 1 2
+400 a send 1 2
+500 a send 1 2
+600 a send 1 2
+700 s2-s1 down
+701 s1-c1 down
+750 a send 1 2
+800 a send 1 2
+820 s1-c1 up
+822 b send 2 3
+823 c send 3 1
+7000 end

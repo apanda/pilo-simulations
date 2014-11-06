@@ -66,8 +66,8 @@ class HBSwitch (Switch):
     pass
 
   def updateRules (self, source, match_action_pairs):
-    if self.probableLeader != source:
-      print "%f %s  updated by %s (I think leader should be %s)"%(self.ctx.now, self.name, source, self.probableLeader)
+    #if self.probableLeader != source:
+      #print "%f %s  updated by %s (I think leader should be %s)"%(self.ctx.now, self.name, source, self.probableLeader)
     super(HBSwitch, self).updateRules(source, match_action_pairs)
   
 
@@ -75,16 +75,22 @@ class HBHost (HBSwitch, HostTrait):
   def __init__ (self, name, ctx, address, epoch, send_rate):
     super(HBHost, self).__init__(name, ctx, epoch, send_rate)
     self.address = address
+    self.send_callback = None
+    self.recv_callback = None
 
   def receive (self, link, source, packet):
     if isinstance(packet, SourceDestinationPacket):
-      print "%f %s Received from %d to %d"%(self.ctx.now, self.name, packet.source, packet.destination)
+      if self.recv_callback:
+        self.recv_callback(self, packet)
+      #print "%f %s Received from %d to %d"%(self.ctx.now, self.name, packet.source, packet.destination)
     elif isinstance(packet, ControlPacket):
       self.processControlMessage (link, source, packet)
     elif isinstance(packet, HeartbeatPacket):
       self.processHeartbeat(packet)
 
   def Send (self, packet):
+    if isinstance(packet, SourceDestinationPacket) and self.send_callback:
+      self.send_callback(self, packet)
     super(HBHost, self).Flood(None, packet)
 
 class HBController (HBHost, ControllerTrait):

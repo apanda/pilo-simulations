@@ -20,11 +20,11 @@ class HBLeaderSwitch (HBSwitch):
        connectivity_measure[0][0] != 0 and \
        self.leader != connectivity_measure[0][1]: # Things are connected, etc.
       self.leader = connectivity_measure[0][1]
-      print "%f %s Setting %s as leader"%(self.ctx.now, self.name, self.currentLeader)
+      #print "%f %s Setting %s as leader"%(self.ctx.now, self.name, self.currentLeader)
 
   def updateRules (self, source, match_action_pairs):
     if source != self.currentLeader:
-      #pass
-      print "%f %s rejecting update from non-leader %s"%(self.ctx.now, self.name, source)
+      #print "%f %s rejecting update from non-leader %s"%(self.ctx.now, self.name, source)
+      pass
     else:
       super(HBLeaderSwitch, self).updateRules(source, match_action_pairs)

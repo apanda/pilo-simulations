@@ -1,0 +1,60 @@
+s1:
+  type: HBSwitch
+  args: 
+    epoch: 5000
+    send_rate: 200
+s2:
+  type: HBSwitch
+  args: 
+    epoch: 5000
+    send_rate: 200
+s3:
+  type: HBSwitch
+  args: 
+    epoch: 5000
+    send_rate: 200
+
+c1:
+  type: HBControl
+  args: 
+    address: 11
+    epoch: 5000
+    send_rate: 200
+
+c2:
+  type: HBControl
+  args: 
+    address: 12
+    epoch: 5000
+    send_rate: 200
+
+a:
+  type: HBHost
+  args: 
+    epoch: 5000
+    send_rate: 200
+    address: 1
+
+b:
+  type: HBHost
+  args: 
+    epoch: 5000
+    send_rate: 200
+    address: 2
+
+c:
+  type: HBHost
+  args: 
+    epoch: 5000
+    send_rate: 200
+    address: 3
+
+links:
+  - s1-s2
+  - s2-s3
+  - s3-s1
+  - s3-c2
+  - s1-c1
+  - a-s1
+  - b-s2
+  - c-s3

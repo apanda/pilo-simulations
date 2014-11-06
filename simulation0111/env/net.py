@@ -31,8 +31,8 @@ class Link (object):
     def deliverInternal(link, source, dest, packet):
       if link.up:
         dest.receive(link, source, packet)
-      else:
-        print "Dropping packet for link from %s-%s"%(source, dest) #FIXME: Use logging
+      #else:
+        #print "Dropping packet for link from %s-%s"%(source, dest) #FIXME: Use logging
     delay = self.ctx.config.DataLatency
     self.ctx.schedule_task(delay, \
             lambda: deliverInternal(self, source, other, packet))

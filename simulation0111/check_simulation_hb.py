@@ -2,8 +2,8 @@ from env import *
 import networkx as nx
 """Switches recongnize leaders in this case"""
 class HBControl (HBController):
-  def __init__ (self, name, ctx, addr, epoch, send_rate):
-    super(HBControl, self).__init__(name, ctx, addr, epoch, send_rate)
+  def __init__ (self, name, ctx, address, epoch, send_rate):
+    super(HBControl, self).__init__(name, ctx, address, epoch, send_rate)
     self.graph = nx.Graph()
     self.hosts = set()
     self.controllers = set([self.name])
