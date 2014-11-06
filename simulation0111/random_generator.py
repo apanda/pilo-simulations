@@ -2,6 +2,7 @@ import networkx as nx
 import numpy.random
 import yaml
 import sys
+import argparse
 
 def Main(n, m, hosts, ctrlrs, stype, htype, ctype, ctrlAddr):
    """Generate a graph with n switches (and m edges per node on average), host hosts
@@ -30,14 +31,27 @@ def Main(n, m, hosts, ctrlrs, stype, htype, ctype, ctrlAddr):
    return yaml.dump(out)
 
 if __name__ == "__main__": 
-  if len(sys.argv) < 9:
-    print >>sys.stderr, "Usage: %s n m hosts controllers switch_type host_type controller_type ctrl_need_address"%(sys.argv[0])
-    sys.exit(1)
-  print Main(int(sys.argv[1]), \
-             int(sys.argv[2]), \
-             int(sys.argv[3]), \
-             int(sys.argv[4]), \
-             sys.argv[5], \
-             sys.argv[6], \
-             sys.argv[7], \
-             bool(sys.argv[8]))
+  # if len(sys.argv) < 9:
+  #   print >>sys.stderr, "Usage: %s n m hosts controllers switch_type host_type controller_type ctrl_need_address"%(sys.argv[0])
+  #   sys.exit(1)
+
+  parser = argparse.ArgumentParser(description="Run this script to generate a YAML setup file with" \
+                                   " random network graph")
+  parser.add_argument("-n", type=int, help="number of total switches")
+  parser.add_argument("-m", type=int, help="")
+  parser.add_argument("-nh", type=int, help="Number of hosts")
+  parser.add_argument("-nc", type=int, help="Number of controllers")
+  parser.add_argument("-st", help="Switch type: Switch, LSLeaderSwitch")
+  parser.add_argument("-ht", help="Host type: Host, HBHost")
+  parser.add_argument("-ct", help="Controller type: SpControl, CoordinatingControl, HBControl")
+  parser.add_argument("--ctrl-need-addr", dest="if_ctrl_addr", action='store_true', default=False, help="Indicates whether the controllers need addresses")
+  args = parser.parse_args()
+
+  print Main(args.n, \
+             args.m, \
+             args.nh, \
+             args.nc, \
+             args.st, \
+             args.ht, \
+             args.ct, \
+             args.if_ctrl_addr)

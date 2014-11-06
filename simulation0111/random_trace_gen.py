@@ -1,6 +1,7 @@
 import numpy.random
 import yaml
 import sys
+import argparse
 def Main(simulation_setup, avg_time_events, set_all_links_up, total_events, stabilization_time, time_to_last_event):
   f = open(simulation_setup)
   x = f.read()
@@ -40,21 +41,19 @@ def Main(simulation_setup, avg_time_events, set_all_links_up, total_events, stab
   print "%f end"%(ctime + time_to_last_event)
 
 if __name__ == "__main__": 
-  if len(sys.argv) < 7:
-    print >>sys.stderr, """
-      Usage:
-      %s setup avg_delay set_all_links_up total_events stabilization_time time_to_last_event
-         setup: YAML file
-         avg_delay: Average delay between events
-         set_all_links_up: Set all links up initially
-         total_events: How many events to generate
-         stabilization_time: How long to wait before doing interesting things
-         time_to_last_event: How long to wait after last event
-    """%(sys.argv[0])
-    sys.exit(1)
-  Main(sys.argv[1], \
-       float(sys.argv[2]), \
-       bool(sys.argv[3]), \
-       int(sys.argv[4]), \
-       float(sys.argv[5]), \
-       float(sys.argv[6]))
+  parser = argparse.ArgumentParser(description="Run this script to generate a random trace")
+  
+  parser.add_argument("-f", metavar="file", help="Name of the setup YAML file")
+  parser.add_argument("--delay", metavar="d", type=float, help="Average delay between events")
+  parser.add_argument("--init", dest="init", action="store_true", default=False, help="Whether to set up all links initially")
+  parser.add_argument("-e", metavar="num_events", type=int, help="Total number of events to generate")
+  parser.add_argument("-t1", type=float, help="Stabilization time: how long to wait before generating the first event")
+  parser.add_argument("-t2", type=float, help="Time to last event: how long to run the simulator after the last event is triggered")
+  args = parser.parse_args()
+
+  Main(args.f,
+       args.delay,
+       args.init,
+       args.e,
+       args.t1,
+       args.t2)
