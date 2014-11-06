@@ -4,10 +4,10 @@ import yaml
 import sys
 import argparse
 import matplotlib
-matplotlib.use('Agg')
-import matplotlib.pyplot as plt
 
 def draw_graph(out, gfile):
+   matplotlib.use('Agg')
+   import matplotlib.pyplot as plt
    G = nx.Graph()
    for key in out:
       if key == "links":
