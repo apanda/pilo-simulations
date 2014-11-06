@@ -1,0 +1,43 @@
+s1:
+  type: LS2PCSwitch
+
+s2:
+  type: LS2PCSwitch
+
+s3:
+  type: LS2PCSwitch
+
+c1:
+  type: CoordinatingControl
+  args: 
+    address: 11
+
+c2:
+  type: CoordinatingControl
+  args: 
+    address: 12
+
+a:
+  type: Host
+  args: 
+    address: 1
+
+b:
+  type: Host
+  args: 
+    address: 2
+
+c:
+  type: Host
+  args: 
+    address: 3
+
+links:
+  - s1-s2
+  - s2-s3
+  - s3-s1
+  - s3-c2
+  - s1-c1
+  - a-s1
+  - b-s2
+  - c-s3

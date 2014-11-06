@@ -1,0 +1,43 @@
+s1:
+  type: LSLeaderSwitch
+
+s2:
+  type: LSLeaderSwitch
+
+s3:
+  type: LSLeaderSwitch
+
+c1:
+  type: SpControl
+  args: 
+    address: 11
+
+c2:
+  type: SpControl
+  args: 
+    address: 12
+
+a:
+  type: Host
+  args: 
+    address: 1
+
+b:
+  type: Host
+  args: 
+    address: 2
+
+c:
+  type: Host
+  args: 
+    address: 3
+
+links:
+  - s1-s2
+  - s2-s3
+  - s3-s1
+  - s3-c2
+  - s1-c1
+  - a-s1
+  - b-s2
+  - c-s3

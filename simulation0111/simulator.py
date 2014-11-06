@@ -58,7 +58,8 @@ class Simulation (object):
     del setup['links']
     self.objs = {}
     for s, d in setup.iteritems():
-      self.objs[s] = eval(d['type'])(s, self.ctx, **d['args'])
+      self.objs[s] = eval(d['type'])(s, self.ctx, **d['args']) if 'args' in d \
+                       else eval(d['type'])(s, self.ctx)
       if isinstance(self.objs[s], HostTrait):
         self.objs[s].send_callback = self.HostSendCallback
         self.objs[s].recv_callback = self.HostRecvCallback
@@ -70,6 +71,8 @@ class Simulation (object):
     trace = open(trace)
 
     for ev in trace:
+      if ev.startswith("//"):
+        continue
       parts = ev.strip().split()
       time = float(parts[0])
       if "-" in parts[1]:
