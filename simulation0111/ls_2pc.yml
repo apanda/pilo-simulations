@@ -17,17 +17,17 @@ c2:
   args: 
     address: 12
 
-a:
+h1:
   type: Host
   args: 
     address: 1
 
-b:
+h2:
   type: Host
   args: 
     address: 2
 
-c:
+h3:
   type: Host
   args: 
     address: 3
@@ -38,6 +38,6 @@ links:
   - s3-s1
   - s3-c2
   - s1-c1
-  - a-s1
-  - b-s2
-  - c-s3
+  - h1-s1
+  - h2-s2
+  - h3-s3
