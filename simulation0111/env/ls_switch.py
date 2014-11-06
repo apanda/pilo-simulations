@@ -20,6 +20,10 @@ class LinkStateSwitch (Switch):
       self.controllers.add(link.a.name)
     if isinstance(link.b, ControllerTrait):
       self.controllers.add(link.b.name)
+    if link.a.name not in self.g:
+      self.g.add_node(link.a.name)
+    if link.b.name not in self.g:
+      self.g.add_node(link.b.name)
     #print "%f %s thinks controller should be %s"%(self.ctx.now, self.name, self.currentLeader)
 
   def updateRules (self, source, match_action_pairs):
