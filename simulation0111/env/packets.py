@@ -8,6 +8,7 @@ class Packet (object):
      one cares about in a packet"""
   def __init__ (self):
     self.ttl = 255
+    self.path = []
   def pack (self):
     """Return a single string on which matches
        are performed"""
@@ -21,6 +22,8 @@ class FloodPacket (Packet):
     self.id = id
   def __str__ (self):
     return str(self.id)
+  def __hash__ (self):
+    return hash((self.id))
   def pack (self):
     return id
 
@@ -45,6 +48,10 @@ class ControlPacket (FloodPacket):
     self.dest_id = dest_id
     self.message_type = mtype
     self.message = message
+  def __str__ (self):
+    return 'CP %s %s'%(str(self.id), self.src_id)
+  def __hash__ (self):
+    return hash((self.id, self.src_id, self.dest_id, self.message_type))
   def pack (self):
     return struct.pack("ss", \
              self.src_id, \
@@ -53,10 +60,15 @@ class ControlPacket (FloodPacket):
 class SourceDestinationPacket (Packet):
   """Simple packet with a source and destination (both 
   unsigned longs)"""
+  ID = 0
   def __init__(self, source, destination):
     super(SourceDestinationPacket, self).__init__()
     self.source = source
     self.destination = destination
+    self.ID = SourceDestinationPacket.ID + 1
+    SourceDestinationPacket.ID += 1
+  def __hash__ (self):
+    return hash((self.source, self.destination))
   def __str__ (self):
     return "SD Packet %d %d"%(self.source, self.destination)
   def pack (self):
@@ -82,6 +94,8 @@ class HeartbeatPacket (FloodPacket):
     self.direct_links = direct_links
     self.heard_from = heard_from
     self.sobj = sobj
+  def __hash__ (self):
+    return hash(( self.id, self.src))
   def pack (self):
     return struct.pack("s", \
              self.src)

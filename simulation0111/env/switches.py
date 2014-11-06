@@ -70,15 +70,16 @@ class Switch (object):
 
   def receive (self, link, source, packet):
     packet.ttl -= 1
+    packet.path.append(self.name)
     if packet.ttl == 0:
-      print "Dropping due to TTL"
+      print "%f Dropping due to TTL %s %s"%(self.ctx.now, packet, type(packet))
       return
     if isinstance(packet, ControlPacket):
       if not self.processControlMessage(link, source, packet):
         return # Ensuring no flooding
     if isinstance(packet, FloodPacket):
-      #print "Switch %s received flood %s"%(self.name, packet.id)
       if packet not in self.flooded_pkts:
+        #print "%f %s flooding %s %s"%(self.ctx.now, self.name, packet, type(packet))
         self.flooded_pkts.add(packet)
         self.Flood (link, packet)
       return

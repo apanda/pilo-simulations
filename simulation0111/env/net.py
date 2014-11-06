@@ -1,4 +1,5 @@
 from . import Context, FloodPacket
+from copy import copy
 """
 Network elements, because why not.
 """
@@ -33,7 +34,9 @@ class Link (object):
         dest.receive(link, source, packet)
       #else:
         #print "Dropping packet for link from %s-%s"%(source, dest) #FIXME: Use logging
+    pkt = copy(packet)
+    pkt.path = list(packet.path)
     delay = self.ctx.config.DataLatency
     self.ctx.schedule_task(delay, \
-            lambda: deliverInternal(self, source, other, packet))
+            lambda: deliverInternal(self, source, other, pkt))
 
