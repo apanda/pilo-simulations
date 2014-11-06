@@ -10,6 +10,7 @@ class Context (object):
     self.queue = Queue.PriorityQueue()
     self.current_time = 0L
     self.final_time = 0L
+    self.post_task_check = None
     if initial_task:
       self.queue.put_nowait((self.current_time, initial_task))
     if not config:
@@ -30,6 +31,8 @@ class Context (object):
       (time, task) = self.queue.get_nowait()
       self.current_time = time
       task()
+      if self.post_task_check:
+        self.post_task_check()
 
 class Distributions (object):
   def __init__ (self, yconfig):
