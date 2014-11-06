@@ -68,7 +68,7 @@ class SourceDestinationPacket (Packet):
     self.ID = SourceDestinationPacket.ID + 1
     SourceDestinationPacket.ID += 1
   def __hash__ (self):
-    return hash((self.source, self.destination))
+    return hash((self.ID, self.source, self.destination))
   def __str__ (self):
     return "SD Packet %d %d"%(self.source, self.destination)
   def pack (self):
