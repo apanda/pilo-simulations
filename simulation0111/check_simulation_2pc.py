@@ -6,6 +6,7 @@ class CoordinatingControl (LS2PCController):
     self.hosts = set()
     self.controllers = set([self.name])
     self.switches = set()
+    self.graph.add_node(self.name)
 
   def PacketIn(self, src, switch, source, packet):
     print "(%s) %s Don't know path, dropping packet from %d to %d"%\
@@ -87,6 +88,8 @@ class CoordinatingControl (LS2PCController):
     #print "%f Heard about link down %s"%(self.ctx.now, link)
     if self.graph.has_edge(link.a.name, link.b.name):
       self.graph.remove_edge(link.a.name, link.b.name)
+    elif switch.name not in self.graph:
+      self.graph.add_node(switch.name)
     assert(switch.name in self.graph)
     self.maintainSets(switch)
     self.ComputeAndUpdatePaths()

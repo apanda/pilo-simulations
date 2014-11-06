@@ -112,7 +112,8 @@ class LS2PCController (LSController):
     """Send a request for current_controller to relinquish control of switch 
       if connect we think it is connected to the switch (and hence to us), otherwise
       just send the switch a request to set leadership"""
-    if nx.has_path(self.graph, current_controller, switch):
+    if current_controller in self.graph and \
+      nx.has_path(self.graph, current_controller, switch):
       # Is connected (and we think we should be leader, so we are also connected to
       # the switch and controller)
       cpacket = ControlPacket(self.cpkt_id, \
