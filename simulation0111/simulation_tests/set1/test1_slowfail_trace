@@ -1,0 +1,43 @@
+0 s1-s3 up
+0 s1-s5 up
+0 s1-s6 up
+0 s1-s7 up
+0 s2-s5 up
+0 s2-s6 up
+0 s4-s7 up
+0 s6-s9 up
+0 s6-s10 up
+0 s8-s9 up
+0 s8-s10 up
+0 s10-h1 up
+0 s1-h2 up
+0 s9-h3 up
+0 s6-h4 up
+0 s4-h5 up
+0 s1-c1 up
+0 s2-c2 up
+0 s6-c3 up
+0 s6-c4 up
+0 s5-c5 up
+//500.222465 h4 send 4 2
+//514.947050 h4 send 4 1
+//531.948864 h2 send 2 1
+//555.520773 h4 send 4 2
+2000 s1-s5 down
+2000 s1-s6 down
+2200 s1-s5 up
+2300 s1-s5 down
+2400 s1-s5 up
+2400 h2 send 2 3
+2500 h2 send 2 3
+2600 h2 send 2 3
+2700 h2 send 2 3
+2900 h2 send 2 3
+3100 h2 send 2 3
+3200 h2 send 2 3
+3300 h2 send 2 3
+3400 h2 send 2 3
+3500 h2 send 2 3
+3600 h2 send 2 3
+3800 h2 send 2 3
+8000 end
