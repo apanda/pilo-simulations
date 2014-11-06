@@ -52,7 +52,8 @@ class Simulation (object):
         if not l.startswith('__'):
           globals()[l] = other.__getattribute__(l)
     f = open(simulation_setup)
-    setup = yaml.load(f.read())
+    x = f.read()
+    setup = yaml.load(x)
     links = setup['links']
     del setup['links']
     self.objs = {}
