@@ -3,6 +3,13 @@ import networkx as nx
 import yaml
 import sys
 
+"""A mechanism to run simulations on a particular trace. The command can be run as
+   python simulator.py format.yaml trace check_simulation_hbldr
+   format.yaml is the topology
+   trace is an event trace
+   check_simulation_hbldr is an additional Python file that needs to be imported for
+   the controller code"""
+
 class Simulation (object):
   """Represents a simulation being run"""
   def __init__ (self):
