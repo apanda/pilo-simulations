@@ -9,6 +9,8 @@ class Packet (object):
   def __init__ (self):
     self.ttl = 255
     self.path = []
+  def __eq__ (self, A):
+    return hash(A) == hash(self)
   def pack (self):
     """Return a single string on which matches
        are performed"""
