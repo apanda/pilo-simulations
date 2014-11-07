@@ -5,6 +5,21 @@ import sys
 import argparse
 import matplotlib
 
+config = [
+   # Controller type, switch type, host type
+   ("SpControl", "LSLeaderSwitch", "Host"),
+   ("CoordinatingControl", "LS2PCSwitch", "Host"),
+   ("HBControl", "HBSwitch", "HBHost"), 
+]
+
+config_args =  \
+{"HBControl": {"epoch": 5000, "send_rate": 200, "addr": True},
+ "HBSwitch": {"epoch": 5000, "send_rate": 200},
+ "HBHost": {"epoch": 5000, "send_rate": 200},
+ "SpControl": {"addr": True},
+ "CoordinatingControl": {"addr": True},
+}
+
 def draw_graph(out, gfile):
    matplotlib.use('Agg')
    import matplotlib.pyplot as plt
@@ -31,61 +46,73 @@ def draw_graph(out, gfile):
    nx.draw_networkx_labels(G, pos, labels)
    plt.savefig(gfile)
 
-def Main(n, m, hosts, ctrlrs, stype, htype, ctype, ctrlAddr, gfile):
+def gen_graph(g, n, m, hosts, ctrlrs, stype, htype, ctype, gfile, s1, s2):
    """Generate a graph with n switches (and m edges per node on average), host hosts
    and controller controllers.
    Hosts and controllers are singly connected"""
-   g = nx.erdos_renyi_graph(n, m*1.0/n)
    out = {}
    for node in g.nodes_iter():
-     out['s%d'%(node + 1)] = {'type': stype} 
+      sname = 's%d'%(node + 1)
+      out[sname] = {'type': stype} 
+      if stype in config_args:
+         out[sname]['args'] = {}
+         for key in config_args[ctype]:
+            out[sname]['args'][key] = config_args[stype][key]
    out['links'] = []
    for (a, b) in g.edges_iter():
-     out['links'].append('s%d-s%d'%(a + 1, b + 1))
-   for host in xrange(0, hosts):
-     host_id = 'h%d'%(host + 1)
-     out[host_id] = {'type': htype, 'args':{'address': host + 1}}
-     s = numpy.random.randint(n)
-     out['links'].append("s%d-%s"%(s+1, host_id))
-   for ctrl in xrange(0, ctrlrs):
-     ctrl_id = 'c%d'%(ctrl + 1)
-     if ctrlAddr:
-       out[ctrl_id] = {'type': ctype, 'args':{'address': host + ctrl + 1}}
-     else:
-       out[ctrl_id] = {'type': ctype}
-     s = numpy.random.randint(n)
-     out['links'].append("s%d-%s"%(s+1, ctrl_id))
+      out['links'].append('s%d-s%d'%(a + 1, b + 1))
 
-   if gfile != "":
-      draw_graph(out, gfile)
+   numpy.random.seed(s1)
+   for host in xrange(0, hosts):
+      host_id = 'h%d'%(host + 1)
+      out[host_id] = {'type': htype, 'args':{'address': host + 1}}
+      if htype in config_args:
+         for key in config_args[htype]:
+            out[host_id]['args'][key] = config_args[htype][key]
+      s = numpy.random.randint(n)
+      out['links'].append("s%d-%s"%(s+1, host_id))
+
+   numpy.random.seed(s2)
+   for ctrl in xrange(0, ctrlrs):
+      ctrl_id = 'c%d'%(ctrl + 1)
+      out[ctrl_id] = {'type': ctype}
+      if ctype in config_args:
+         out[ctrl_id]['args'] = {}
+         for key in config_args[ctype]:
+            if 'addr' in config_args[ctype]:
+               out[ctrl_id]['args']['address'] = host + ctrl + 1
+            else:
+               out[ctrl_id]['args'][key] = config_args[ctype][key]
+      s = numpy.random.randint(n)
+      out['links'].append("s%d-%s"%(s+1, ctrl_id))
          
-   return yaml.dump(out)
+   return out
 
 if __name__ == "__main__": 
-  # if len(sys.argv) < 9:
-  #   print >>sys.stderr, "Usage: %s n m hosts controllers switch_type host_type controller_type ctrl_need_address"%(sys.argv[0])
-  #   sys.exit(1)
+   parser = argparse.ArgumentParser(description="Run this script to generate a YAML setup file with" \
+                                    " random network graph")
+   parser.add_argument("-n", type=int, help="number of total switches")
+   parser.add_argument("-m", type=int, help="number of average edges per node")
+   parser.add_argument("-nh", type=int, help="Number of hosts")
+   parser.add_argument("-nc", type=int, help="Number of controllers")
+   parser.add_argument("-f", dest="file", default="", help="Output file name stem")
+   parser.add_argument("-g", dest="gfile", default="", help="If enabled, writes visualization of the network to gfile")
+   args = parser.parse_args()
+   
+   g = nx.erdos_renyi_graph(args.n, args.m*1.0/args.n)
+   s1 = numpy.random.randint(args.n)
+   s2 = numpy.random.randint(args.n)
+   idx = 0
+   for (ht, st, ct) in config:
+      out = gen_graph(g, args.n, args.m,
+                      args.nh, args.nc, \
+                      st, ht, ct,
+                      args.gfile, s1, s2)
+      
+      f = open(args.file+str(idx)+".yaml", 'w')
+      f.write(yaml.dump(out))
+      f.close()
+      idx += 1
 
-  parser = argparse.ArgumentParser(description="Run this script to generate a YAML setup file with" \
-                                   " random network graph")
-  parser.add_argument("-n", type=int, help="number of total switches")
-  parser.add_argument("-m", type=int, help="")
-  parser.add_argument("-nh", type=int, help="Number of hosts")
-  parser.add_argument("-nc", type=int, help="Number of controllers")
-  parser.add_argument("-st", help="Switch type: Switch, LSLeaderSwitch")
-  parser.add_argument("-ht", help="Host type: Host, HBHost")
-  parser.add_argument("-ct", help="Controller type: SpControl, CoordinatingControl, HBControl")
-  parser.add_argument("--ctrl-need-addr", dest="if_ctrl_addr", action='store_true', default=False, help="Indicates whether the controllers need addresses")
-  parser.add_argument("-g", dest="gfile", default="", help="If enabled, writes visualization of the network to gfile")
-  args = parser.parse_args()
-
-  print Main(args.n, \
-             args.m, \
-             args.nh, \
-             args.nc, \
-             args.st, \
-             args.ht, \
-             args.ct, \
-             args.if_ctrl_addr, \
-             args.gfile
-          )
+   if args.gfile != "":
+      draw_graph(out, args.gfile)
