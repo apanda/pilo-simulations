@@ -78,6 +78,7 @@ class Simulation (object):
           pass
     if tried > 0:
       self.reachability_at_time[self.ctx.now] = (tried, connected)
+      #print >>sys.stderr, "%f %d %d"%(self.ctx.now, tried, connected)
   def Setup (self, simulation_setup, trace):
     self.ctx = Context()
 
@@ -149,6 +150,8 @@ class Simulation (object):
     print "Latency"
     for t in sorted(self.latency_at_time.keys()):
       print "%f %f"%(t, self.latency_at_time[t]) 
+    
+    print "Convergence"
     if show_converge:
       for t in sorted(self.reachability_at_time.keys()):
         (tried, reachable) = self.reachability_at_time[t]

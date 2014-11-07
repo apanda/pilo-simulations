@@ -7,16 +7,16 @@ import matplotlib
 
 config = [
    # Controller type, switch type, host type
-   ("SpControl", "LSLeaderSwitch", "Host", "check_simulation_ldr"),
-   ("CoordinatingControl", "LS2PCSwitch", "Host", "check_simulation_2pc"),
-   ("HBControl", "HBSwitch", "HBHost", "check_simulation_hbldr"), 
+   ("LSLeaderControl", "LSLeaderSwitch", "Host", "controllers"),
+   ("CoordinatingControl", "LS2PCSwitch", "Host", "controllers"),
+   ("HBControl", "HBSwitch", "HBHost", "controllers"), 
 ]
 
 config_args =  \
-{"HBControl": {"epoch": 5000, "send_rate": 200, "addr": True},
- "HBSwitch": {"epoch": 5000, "send_rate": 200},
- "HBHost": {"epoch": 5000, "send_rate": 200},
- "SpControl": {"addr": True},
+{"HBControl": {"epoch": 5000, "send_rate": 1000, "addr": True},
+ "HBSwitch": {"epoch": 5000, "send_rate": 1000},
+ "HBHost": {"epoch": 5000, "send_rate": 1000},
+ "LSLeaderControl": {"addr": True},
  "CoordinatingControl": {"addr": True},
 }
 
