@@ -17,7 +17,7 @@ def Main(simulation_setup, avg_time_events, set_all_links_up, total_events, stab
   ctime = stabilization_time
   for ev in xrange(total_events):
     ctime = ctime + (avg_time_events * numpy.random.ranf())
-    event = numpy.random.randint(3)
+    event = numpy.random.randint(2)
     if event == 0 and len(links_down) == 0:
       event = 1
     if event == 0:
@@ -32,12 +32,12 @@ def Main(simulation_setup, avg_time_events, set_all_links_up, total_events, stab
       links_up.remove(link)
       links_down.add(link)
       print "%f %s down"%(ctime, link)
-    else:
-      # Send a message
-      host = numpy.random.randint(nhosts) + 1
-      dest = numpy.random.randint(nhosts) + 1
-      hstr = "h%d"%(host)
-      print "%f %s send %d %d"%(ctime, hstr, host, dest)
+    #else:
+      ## Send a message
+      #host = numpy.random.randint(nhosts) + 1
+      #dest = numpy.random.randint(nhosts) + 1
+      #hstr = "h%d"%(host)
+      #print "%f %s send %d %d"%(ctime, hstr, host, dest)
   print "%f end"%(ctime + time_to_last_event)
 
 if __name__ == "__main__": 
