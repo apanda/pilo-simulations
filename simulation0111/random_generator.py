@@ -56,7 +56,7 @@ def gen_graph(g, n, m, hosts, ctrlrs, stype, htype, ctype, gfile, s1, s2):
       out[sname] = {'type': stype} 
       if stype in config_args:
          out[sname]['args'] = {}
-         for key in config_args[ctype]:
+         for key in config_args[stype]:
             out[sname]['args'][key] = config_args[stype][key]
    out['links'] = []
    for (a, b) in g.edges_iter():
@@ -103,7 +103,7 @@ if __name__ == "__main__":
    s1 = numpy.random.randint(args.n)
    s2 = numpy.random.randint(args.n)
    idx = 0
-   for (ht, st, ct) in config:
+   for (ct, st, ht) in config:
       out = gen_graph(g, args.n, args.m,
                       args.nh, args.nc, \
                       st, ht, ct,
