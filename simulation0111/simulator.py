@@ -143,13 +143,14 @@ class Simulation (object):
     self.ctx.run()
 
   def Report (self, show_converge):
-    print "%f %d packets sent total %d recved (Loss %f%%)"%(self.ctx.now, \
-                                 self.packets_sent, \
-                                 self.packets_recved, \
-                                 (float(self.packets_sent - self.packets_recved)/ float(self.packets_sent)) * 100.0)
-    print "Latency"
-    for t in sorted(self.latency_at_time.keys()):
-      print "%f %f"%(t, self.latency_at_time[t]) 
+    if self.packets_sent > 0:
+      print "%f %d packets sent total %d recved (Loss %f%%)"%(self.ctx.now, \
+                                   self.packets_sent, \
+                                   self.packets_recved, \
+                                   (float(self.packets_sent - self.packets_recved)/ float(self.packets_sent)) * 100.0)
+      print "Latency"
+      for t in sorted(self.latency_at_time.keys()):
+        print "%f %f"%(t, self.latency_at_time[t]) 
     
     print "Convergence"
     if show_converge:
