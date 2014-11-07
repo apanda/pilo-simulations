@@ -37,6 +37,59 @@ class WpControl (WaypointController):
               #print "%f %s leader for %s controllers are %s"%(self.ctx.now, self.name, a, self.controllers)
               self.UpdateRules(a, [(p.pack(), link)])
 
+    # compute additional paths for waypointing
+    for host in self.waypoint_rules.keys():
+      (s_wp, d_wp) = self.waypoint_rules[host]
+      if s_wp:
+        # all packets from this host must be routed to s_wp first
+        for host2 in self.hosts:
+          if host2 == host:
+            continue
+          p = MarkedSourceDestPacket(host.address, host2.address)
+          path = zip(sp[host.name][s_wp], \
+                     sp[host.name][s_wp][1:])
+          for (a, b) in path:
+            link = self.graph[a][b]['link']
+            if self.currentLeader(a) == self.name:
+              self.UpdateRules(a, [(p.pack(), link)])
+
+        for host2 in self.hosts:
+          if host2 == host:
+            continue
+          p = MarkedSourceDestPacket(host.address, host2.address)
+          p.set_mark()
+          path = zip(sp[s_wp][host2.name], \
+                     sp[s_wp][host2.name][1:])
+          for (a, b) in path:
+            link = self.graph[a][b]['link']
+            if self.currentLeader(a) == self.name:
+              self.UpdateRules(a, [(p.pack(), link)])
+
+      if d_wp:
+        # all packets to this host must be routed to d_wp first
+        for host2 in self.hosts:
+          if host2 == host:
+            continue
+          p = MarkedSourceDestPacket(host2.address, host.address)
+          path = zip(sp[host2.name][d_wp], \
+                     sp[host2.name][d_wp][1:])
+          for (a, b) in path:
+            link = self.graph[a][b]['link']
+            if self.currentLeader(a) == self.name:
+              self.UpdateRules(a, [(p.pack(), link)])
+
+        for host2 in self.hosts:
+          if host2 == host:
+            continue
+          p = MarkedSourceDestPacket(host2.address, host.address)
+          p.set_mark()
+          path = zip(sp[d_wp][host.name], \
+                     sp[d_wp][host.name][1:])
+          for (a, b) in path:
+            link = self.graph[a][b]['link']
+            if self.currentLeader(a) == self.name:
+              self.UpdateRules(a, [(p.pack(), link)])
+
   def NotifySwitchUp (self, src, switch):
     #print "%f Heard about switch %s"%(self.ctx.now, switch.name)
     # Not sure this is necessary?
@@ -98,31 +151,25 @@ class WpControl (WaypointController):
     delay = self.ctx.config.ControlLatency
 
     sp = nx.shortest_paths.all_pairs_shortest_path(self.graph)
-    for host in self.hosts:
-      for h2 in self.hosts:
-        if h2 == host:
-          continue
-        if h2.name in sp[host.name]:
-          p = SourceDestinationPacket(host.address, h2.address)
-          path = zip(sp[host.name][h2.name], \
-                    sp[host.name][h2.name][1:])
-          for (a, b) in path[1:]:
-            link = self.graph[a][b]['link']
-            if self.currentLeader(a) == self.name:
-              self.ctx.schedule_task(delay, lambda: self.updateWaypointRules(a, new_rules))
+    self.waypoint_rules = new_rules
+    for n in self.graph.nodes():
+      if self.currentLeader(n) == self.name:
+        self.ctx.schedule_task(delay, lambda: self.updateWaypointRules(n, new_rules))
+
+    self.ComputeAndUpdatePaths()
     
 def Main():
   ctx = Context()
 
-  waypoint_rules = {1: (2, None)}
 
   ctrl0 = WpControl('c1', ctx, 10)
   ctrl1 = WpControl('c2', ctx, 11)
 
   switches = [WaypointSwitch('s%d'%(i), ctx) for i in xrange(1, 4)]
-  host_a = Host('a', ctx, 1)
-  host_b = Host('b', ctx, 2)
-  host_c = Host('c', ctx, 3)
+
+  host_a = WaypointHost('a', ctx, 1)
+  host_b = WaypointHost('b', ctx, 2)
+  host_c = WaypointHost('c', ctx, 3)
   hosts = [host_a, host_b, host_c]
   links = [Link(ctx, host_a, switches[0]), \
            Link(ctx, host_b, switches[1]), \
@@ -132,6 +179,11 @@ def Main():
            Link(ctx, switches[1], switches[2]), \
            Link(ctx, switches[0], switches[2])]
 
+  waypoint_rules = {
+    host_a: ("s3", None),
+    host_c: (None, "s2")
+  }
+
   for link in links:
     ctx.schedule_task(0, link.SetUp)
 
@@ -139,16 +191,18 @@ def Main():
   ctx.schedule_task(100, linkLowCtrl.SetUp)
   print "Starting"
   p = SourceDestinationPacket(1, 3)
-  ctx.schedule_task(800, lambda: host_a.Send(p))
-  p2 = SourceDestinationPacket(2, 3)
-  ctx.schedule_task(800, lambda: host_a.Send(p2))
+  ctx.schedule_task(1000, lambda: host_a.Send(p))
+  p2 = SourceDestinationPacket(1, 2)
+  ctx.schedule_task(1000, lambda: host_a.Send(p2))
   p3 = FloodPacket("Hello")
-  ctx.schedule_task(800, lambda: host_a.Send(p3))
+  ctx.schedule_task(1000, lambda: host_a.Send(p3))
 
   ctx.schedule_task(1000, lambda: ctrl0.changeWaypointRules(waypoint_rules))
+  p4 = MarkedSourceDestPacket(2, 3)
+  ctx.schedule_task(5000, lambda: host_b.Send(p4))
 
-  p4 = MarkedSourceDestPacket(1, 3)
-  ctx.schedule_task(2000, lambda: host_a.Send(p4))
+  p5 = MarkedSourceDestPacket(1, 2)
+  ctx.schedule_task(5500, lambda: host_c.Send(p5))
 
   ctx.final_time = 8000
   ctx.run()

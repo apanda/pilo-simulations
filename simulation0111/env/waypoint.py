@@ -3,42 +3,41 @@ from . import Switch, Controller, ControlPacket, FloodPacket, SourceDestinationP
 class WaypointSwitch(Switch):
   def __init__(self, name, ctx):
     super(WaypointSwitch, self).__init__(name, ctx)
-    self.waypoint_rules = {}
+    self.waypoint_rules = {
+      "SRC": {},
+      "DEST": {}
+    }
     self.ctrl_switchboard[ControlPacket.UpdateWaypointRules] = self.updateWaypointRules
+    self.is_middlebox = False
     
   def receive(self, link, source, packet):
     if isinstance(packet, MarkedSourceDestPacket):
-      if not packet.mark:
-        intermediate = None
-        print packet.source, packet.destination
-        if packet.source in self.waypoint_rules:
-          intermediate = self.waypoint_rules[packet.source][0]
-        elif packet.destination in self.waypoint_rules:
-          intermediate = self.waypoint_rules[packet.source][0]
-
-        print "Routing to intermediate ", intermediate
-        if intermediate == self.name:
-          packet.mark = True
-        elif intermediate is not None:
-          # continue routing to intermediate
-          cp_packet = SourceDestinationPacket(packet.source, packet.destination)
-          match = cp_packet.pack()
-          if match in self.rules:
-            delay = self.ctx.config.SwitchLatency
-            self.ctx.schedule_task(delay, lambda: self.rules[match].Send(self, packet))
-            return
-
+      print self, " received ", packet.mark, "<", packet.source, ",", packet.destination, ">"
+      if self.is_middlebox and \
+         (packet.source in self.waypoint_rules["SRC"] \
+          or packet.destination in self.waypoint_rules["DEST"]):
+        print self, "processing unmarked packet ", "<", packet.source, ",", packet.destination, ">"
+        packet.set_mark()
     super(WaypointSwitch, self).receive(link, source, packet)
 
   def processControlMessage (self, link, source, packet):
     if packet.message_type == ControlPacket.UpdateWaypointRules:
-      self.updateWaypointRules(source, packet.message)
+      delay = self.ctx.config.UpdateDelay
+      self.ctx.schedule_task(delay, lambda: self.updateWaypointRules(packet.message))
       return True
     return super(WaypointSwitch, self).processControlMessage(link, source, packet)
 
-  def updateWaypointRules (self, source, new_rules):
-    delay = self.ctx.config.UpdateDelay
-    self.ctx.schedule_task(delay, lambda: self.waypoint_rules.update(new_rules))
+  def updateWaypointRules (self, new_rules):
+    self.waypoint_rules = {"SRC": set(), "DEST": set()}
+    self.is_middlebox = False
+    for host in new_rules.keys():
+      (s_wp, d_wp) = new_rules[host]
+      if s_wp == self.name:
+        self.is_middlebox = True
+        self.waypoint_rules["SRC"].add(host.address)
+      if d_wp == self.name:
+        self.is_middlebox = True
+        self.waypoint_rules["DEST"].add(host.address)
     
 class WaypointController(Controller):
   def __init__(self, name, ctx, address):
@@ -51,11 +50,13 @@ class WaypointController(Controller):
     self.cpkt_id += 1
     self.sendControlPacket(cpacket)
 
-
 class WaypointHost(Host):
   def __init__ (self, name, ctx, address):
     super(WaypointHost, self).__init__(name, ctx, address)
 
   def receive (self, link, source, packet):
     if isinstance(packet, MarkedSourceDestPacket):
-      if 
+      if packet.mark == True:
+        print self, " received marked pkt from ", packet.source
+
+    super(WaypointHost, self).receive(link, source, packet)
