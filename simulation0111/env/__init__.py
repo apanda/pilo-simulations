@@ -20,7 +20,9 @@ __all__ = [ "Context", \
             "LS2PCController", \
             "HBLeaderSwitch", \
             "HBController", \
-            "HBHost"] 
+            "HBHost", \
+            "WaypointSwitch", \
+            "WaypointController"] 
 from context import Context, Config, ControllerTrait, HostTrait
 from packets import MarkedSourceDestPacket, \
                     SourceDestinationPacket, \
@@ -35,3 +37,4 @@ from heartbeat_switch import HBSwitch, HBHost, HBController
 from ls_switch import LinkStateSwitch, LSLeaderSwitch, LSController
 from ls_2pc import LS2PCSwitch, LS2PCController
 from heartbeat_ldrswitch import HBLeaderSwitch
+from waypoint import WaypointSwitch, WaypointController
