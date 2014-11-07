@@ -78,18 +78,19 @@ class Simulation (object):
           pass
     if tried > 0:
       self.reachability_at_time[self.ctx.now] = (tried, connected)
-  def Setup (self, simulation_setup, trace, other_includes = None):
+  def Setup (self, simulation_setup, trace):
     self.ctx = Context()
-    if other_includes:
-      if other_includes[-3:] == ".py":
-        other_includes = other_includes[:-3]
-      other = __import__ (other_includes)
-      for l in dir(other):
-        if not l.startswith('__'):
-          globals()[l] = other.__getattribute__(l)
+
     f = open(simulation_setup)
     x = f.read()
     setup = yaml.load(x)
+    other_includes = setup['runfile']
+    other = __import__ (other_includes)
+    for l in dir(other):
+      if not l.startswith('__'):
+        globals()[l] = other.__getattribute__(l)
+
+    del setup["runfile"]
     links = setup['links']
     del setup['links']
     self.objs = {}
@@ -159,14 +160,13 @@ class Simulation (object):
 
 def Main (args):
   if len(args) < 2 or len(args) > 4:
-    print >>sys.stderr, "Usage: simulation.py setup trace [other_includes] [show_converge]"
+    print >>sys.stderr, "Usage: simulation.py setup trace [show_converge]"
   else:
     sim = Simulation()
     topo = args[0]
     trace = args[1]
-    other_includes = args[2] if len(args) > 2 else None
-    show_converge = bool(args[3]) if len(args) > 3 else False
-    sim.Setup(topo, trace, other_includes)
+    show_converge = bool(args[2]) if len(args) > 2 else False
+    sim.Setup(topo, trace)
     sim.Run()
     sim.Report(show_converge)
 

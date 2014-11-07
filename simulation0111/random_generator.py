@@ -7,9 +7,9 @@ import matplotlib
 
 config = [
    # Controller type, switch type, host type
-   ("SpControl", "LSLeaderSwitch", "Host"),
-   ("CoordinatingControl", "LS2PCSwitch", "Host"),
-   ("HBControl", "HBSwitch", "HBHost"), 
+   ("SpControl", "LSLeaderSwitch", "Host", "check_simulation_ldr"),
+   ("CoordinatingControl", "LS2PCSwitch", "Host", "check_simulation_2pc"),
+   ("HBControl", "HBSwitch", "HBHost", "check_simulation_hbldr"), 
 ]
 
 config_args =  \
@@ -25,6 +25,8 @@ def draw_graph(out, gfile):
    import matplotlib.pyplot as plt
    G = nx.Graph()
    for key in out:
+      if key == "runfile":
+         continue
       if key == "links":
          links = out[key]
          for l in links:
@@ -46,11 +48,11 @@ def draw_graph(out, gfile):
    nx.draw_networkx_labels(G, pos, labels)
    plt.savefig(gfile)
 
-def gen_graph(g, n, m, hosts, ctrlrs, stype, htype, ctype, gfile, s1, s2):
+def gen_graph(g, n, m, hosts, ctrlrs, stype, htype, ctype, runfile, gfile, s1, s2):
    """Generate a graph with n switches (and m edges per node on average), host hosts
    and controller controllers.
    Hosts and controllers are singly connected"""
-   out = {}
+   out = {"runfile": runfile}
    for node in g.nodes_iter():
       sname = 's%d'%(node + 1)
       out[sname] = {'type': stype} 
@@ -79,7 +81,7 @@ def gen_graph(g, n, m, hosts, ctrlrs, stype, htype, ctype, gfile, s1, s2):
       if ctype in config_args:
          out[ctrl_id]['args'] = {}
          for key in config_args[ctype]:
-            if 'addr' in config_args[ctype]:
+            if key == 'addr':
                out[ctrl_id]['args']['address'] = host + ctrl + 1
             else:
                out[ctrl_id]['args'][key] = config_args[ctype][key]
@@ -103,10 +105,10 @@ if __name__ == "__main__":
    s1 = numpy.random.randint(args.n)
    s2 = numpy.random.randint(args.n)
    idx = 0
-   for (ct, st, ht) in config:
+   for (ct, st, ht, runfile) in config:
       out = gen_graph(g, args.n, args.m,
                       args.nh, args.nc, \
-                      st, ht, ct,
+                      st, ht, ct, runfile,
                       args.gfile, s1, s2)
       
       f = open(args.file+str(idx)+".yaml", 'w')
