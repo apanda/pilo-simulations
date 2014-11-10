@@ -8,7 +8,7 @@ class CoordinatingControl (LS2PCController):
     self.switches = set()
     self.graph.add_node(self.name)
 
-  def PacketIn(self, src, switch, source, packet):
+  def PacketIn(self, pkt, src, switch, source, packet):
     print "(%s) %s Don't know path, dropping packet from %d to %d"%\
             (self.name, switch.name, packet.source, packet.destination)
 
@@ -64,7 +64,7 @@ class CoordinatingControl (LS2PCController):
     else:
       self.switches.add(switch.name)
 
-  def NotifySwitchUp (self, src, switch):
+  def NotifySwitchUp (self, pkt, src, switch):
     #print "%f Heard about switch %s"%(self.ctx.now, switch.name)
     # Not sure this is necessary?
     self.graph.add_node(switch.name, switch = switch)
@@ -72,7 +72,7 @@ class CoordinatingControl (LS2PCController):
     self.ComputeAndUpdatePaths()
     #self.graph[switch.name]['obj'] = switch
 
-  def NotifyLinkUp (self, src, switch, link):
+  def NotifyLinkUp (self, pkt, src, switch, link):
     #print "%f Heard about link %s"%(self.ctx.now, link)
     self.graph.add_edge(link.a.name, link.b.name, link=link)
     assert(switch.name in self.graph)
@@ -84,7 +84,7 @@ class CoordinatingControl (LS2PCController):
       # the time when a link comes up (stuff has changed)
       self.GetSwitchInformation()
 
-  def NotifyLinkDown (self, src, switch, link):
+  def NotifyLinkDown (self, pkt, src, switch, link):
     #print "%f Heard about link down %s"%(self.ctx.now, link)
     if self.graph.has_edge(link.a.name, link.b.name):
       self.graph.remove_edge(link.a.name, link.b.name)
@@ -94,7 +94,7 @@ class CoordinatingControl (LS2PCController):
     self.maintainSets(switch)
     self.ComputeAndUpdatePaths()
 
-  def NotifySwitchInformation (self, src, switch, links):
+  def NotifySwitchInformation (self, pkt, src, switch, links):
     self.maintainSets(switch)
     neighbors = map(lambda l: l.a.name if l.b.name == switch.name else l.b.name, links)
     neighbor_to_link = dict(zip(neighbors, links))

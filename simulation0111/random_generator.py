@@ -10,6 +10,7 @@ config = [
    ("LSLeaderControl", "LSLeaderSwitch", "Host", "controllers"),
    ("CoordinatingControl", "LS2PCSwitch", "Host", "controllers"),
    ("HBControl", "HBSwitch", "HBHost", "controllers"), 
+   ("LSGossipControl", "LinkStateSwitch", "Host", "controllers"),
 ]
 
 config_args =  \
@@ -18,6 +19,7 @@ config_args =  \
  "HBHost": {"epoch": 5000, "send_rate": 1000},
  "LSLeaderControl": {"addr": True},
  "CoordinatingControl": {"addr": True},
+ "LSGossipControl": {"addr": True},
 }
 
 def draw_graph(out, gfile):

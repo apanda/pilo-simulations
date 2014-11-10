@@ -60,7 +60,7 @@ class LS2PCController (LSController):
   def NewlyRemovedLeader (self, src):
     raise NotImplementedError
 
-  def NotifyAckSetSwitchLeader(self, src, success, current_controller):
+  def NotifyAckSetSwitchLeader(self, pkt, src, success, current_controller):
     if current_controller == self.name and src not in self.currently_leader_for:
       # Successfully became leader
       print "%f %s is now leader for %s"%(self.ctx.now, self.name, src)
@@ -81,7 +81,7 @@ class LS2PCController (LSController):
       # Ask current controller to relinquish
       self.maybeRequestRelinquishing(current_controller, src)
 
-  def NotifyRequestRelinquishLeadership (self, src, switch, other_controller):
+  def NotifyRequestRelinquishLeadership (self, pkt, src, switch, other_controller):
     if switch not in self.currently_leader_for:
       self.ackRequestRelinquish(src, switch, False)
     elif self.ShouldBeCurrentLeader(switch) == self.name:
@@ -99,7 +99,7 @@ class LS2PCController (LSController):
         self.outstanding_request_for_switch[switch] = src
         self.SetSwitchLeadership(switch, "")
 
-  def NotifyAckRelinquishLeadership (self, src, switch, success):
+  def NotifyAckRelinquishLeadership (self, pkt, src, switch, success):
     if success or switch in self.currently_leader_for:
       # Woohoo, they relinquished, let us ask for leadership
       self.SetSwitchLeadership(switch, self.name)

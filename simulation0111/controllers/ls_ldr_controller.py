@@ -6,7 +6,7 @@ class LSLeaderControl (LSController):
     self.hosts = set()
     self.controllers = set([self.name])
 
-  def PacketIn(self, src, switch, source, packet):
+  def PacketIn(self, pkt, src, switch, source, packet):
     print "(%s) %s Don't know path, dropping packet from %d to %d"%\
             (self.name, switch.name, packet.source, packet.destination)
 
@@ -30,7 +30,7 @@ class LSLeaderControl (LSController):
             if self.currentLeader(a) == self.name:
               self.UpdateRules(a, [(p.pack(), link)])
 
-  def NotifySwitchUp (self, src, switch):
+  def NotifySwitchUp (self, pkt, src, switch):
     # Not sure this is necessary?
     if isinstance(switch, HostTrait):
       self.hosts.add(switch)
@@ -39,7 +39,7 @@ class LSLeaderControl (LSController):
     self.ComputeAndUpdatePaths()
     #self.graph[switch.name]['obj'] = switch
 
-  def NotifyLinkUp (self, src, switch, link):
+  def NotifyLinkUp (self, pkt, src, switch, link):
     #print "%f Heard about link %s"%(self.ctx.now, link)
     assert(switch.name in self.graph)
     if isinstance(switch, HostTrait):
@@ -53,7 +53,7 @@ class LSLeaderControl (LSController):
       # the time when a link comes up (stuff has changed)
       self.GetSwitchInformation()
 
-  def NotifyLinkDown (self, src, switch, link):
+  def NotifyLinkDown (self, pkt, src, switch, link):
     #print "%f Heard about link down %s"%(self.ctx.now, link)
     assert(switch.name in self.graph)
     if isinstance(switch, HostTrait):
@@ -62,7 +62,7 @@ class LSLeaderControl (LSController):
       self.controllers.add(switch.name)
     self.ComputeAndUpdatePaths()
 
-  def NotifySwitchInformation (self, src, switch, links):
+  def NotifySwitchInformation (self, pkt, src, switch, links):
     if isinstance(switch, HostTrait):
       self.hosts.add(switch)
     if isinstance(switch, ControllerTrait):

@@ -27,10 +27,6 @@ class LinkStateSwitch (Switch):
     #print "%f %s thinks controller should be %s"%(self.ctx.now, self.name, self.currentLeader)
 
   def updateRules (self, source, match_action_pairs):
-    if source != self.currentLeader:
-      #pass
-      print "%f %s rejecting update from non-leader %s"%(self.ctx.now, self.name, source)
-    else:
       super(LinkStateSwitch, self).updateRules(source, match_action_pairs)
 
 
@@ -90,7 +86,7 @@ class LSController (LinkStateSwitch, ControllerTrait):
      ControlPacket.NotifyLinkUp: self.NotifyLinkUp,
      ControlPacket.PacketIn: self.PacketIn,
      ControlPacket.SwitchInformation: self.NotifySwitchInformation,
-     ControlPacket.GetSwitchInformation: self.processSwitchInformation
+     ControlPacket.GetSwitchInformation: lambda p, s: self.processSwitchInformation(s)
     }
     self.cpkt_id = 0
   def Send (self, packet):
@@ -103,7 +99,7 @@ class LSController (LinkStateSwitch, ControllerTrait):
         self.processControlMessage(link, source, packet)
         if packet.message_type in self.switchboard:
           delay = self.ctx.config.ControlLatency
-          self.ctx.schedule_task(delay, lambda: self.switchboard[packet.message_type](packet.src_id, *packet.message))
+          self.ctx.schedule_task(delay, lambda: self.switchboard[packet.message_type](packet, packet.src_id, *packet.message))
         else:
           self.UnknownPacket(source, packet)
   def sendControlPacket(self, packet):
@@ -121,15 +117,15 @@ class LSController (LinkStateSwitch, ControllerTrait):
     cpacket = ControlPacket(self.cpkt_id, self.name, ControlPacket.AllCtrlId, ControlPacket.GetSwitchInformation, []) 
     self.cpkt_id += 1
     self.sendControlPacket(cpacket)
-  def NotifySwitchUp (self, source, switch):
+  def NotifySwitchUp (self, pkt, source, switch):
     raise NotImplementedError
-  def NotifyLinkDown (self, source, switch, link):
+  def NotifyLinkDown (self, pkt, source, switch, link):
     raise NotImplementedError
-  def NotifyLinkUp (self, source, switch, link):
+  def NotifyLinkUp (self, pkt, source, switch, link):
     raise NotImplementedError
-  def NotifySwitchInformation (self, source, switch, links):
+  def NotifySwitchInformation (self, pkt, source, switch, links):
     raise NotImplementedError
-  def PacketIn(self, src, switch, source, packet):
+  def PacketIn(self, pkt, src, switch, source, packet):
     raise NotImplementedError
   def UnknownPacket(self, src, packet):
     print "%s unknown message type %d"%(self.name, packet.message_type) 
