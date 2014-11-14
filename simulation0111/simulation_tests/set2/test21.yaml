@@ -1,0 +1,50 @@
+c1:
+  args: {address: 5}
+  type: CoordinatingControl
+c2:
+  args: {address: 6}
+  type: CoordinatingControl
+h1:
+  args: {address: 1}
+  type: Host
+h2:
+  args: {address: 2}
+  type: Host
+h3:
+  args: {address: 3}
+  type: Host
+h4:
+  args: {address: 4}
+  type: Host
+h5:
+  args: {address: 5}
+  type: Host
+links: [s1-s3, s1-s4, s1-s5, s1-s14, s1-s15, s1-s16, s1-s17, s1-s19, s2-s19, s2-s16,
+  s2-s15, s2-s8, s3-s5, s3-s7, s3-s9, s3-s10, s3-s11, s3-s12, s3-s13, s3-s20, s4-s6,
+  s4-s7, s4-s8, s4-s12, s4-s15, s4-s19, s5-s6, s5-s12, s5-s16, s5-s18, s5-s19, s5-s20,
+  s6-s8, s6-s9, s6-s11, s6-s12, s6-s13, s6-s16, s6-s17, s6-s19, s6-s20, s7-s12, s7-s11,
+  s7-s15, s8-s10, s8-s13, s8-s14, s8-s18, s9-s15, s10-s16, s10-s13, s11-s14, s11-s15,
+  s11-s17, s11-s19, s12-s14, s12-s16, s12-s18, s12-s20, s13-s16, s14-s18, s14-s20,
+  s15-s16, s16-s17, s16-s20, s17-s19, s18-s20, s13-h1, s16-h2, s1-h3, s4-h4, s4-h5,
+  s16-c1, s5-c2]
+runfile: controllers
+s1: {type: LS2PCSwitch}
+s10: {type: LS2PCSwitch}
+s11: {type: LS2PCSwitch}
+s12: {type: LS2PCSwitch}
+s13: {type: LS2PCSwitch}
+s14: {type: LS2PCSwitch}
+s15: {type: LS2PCSwitch}
+s16: {type: LS2PCSwitch}
+s17: {type: LS2PCSwitch}
+s18: {type: LS2PCSwitch}
+s19: {type: LS2PCSwitch}
+s2: {type: LS2PCSwitch}
+s20: {type: LS2PCSwitch}
+s3: {type: LS2PCSwitch}
+s4: {type: LS2PCSwitch}
+s5: {type: LS2PCSwitch}
+s6: {type: LS2PCSwitch}
+s7: {type: LS2PCSwitch}
+s8: {type: LS2PCSwitch}
+s9: {type: LS2PCSwitch}

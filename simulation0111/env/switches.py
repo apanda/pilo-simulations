@@ -72,7 +72,7 @@ class Switch (object):
     packet.ttl -= 1
     packet.path.append(self.name)
     if packet.ttl == 0:
-      print "%f Dropping due to TTL %s %s"%(self.ctx.now, packet, type(packet))
+      #print "%f Dropping due to TTL %s %s"%(self.ctx.now, packet, type(packet))
       return
     if isinstance(packet, ControlPacket):
       if not self.processControlMessage(link, source, packet):

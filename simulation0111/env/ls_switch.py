@@ -65,8 +65,8 @@ class LSLeaderSwitch (LinkStateSwitch):
   
   def updateRules (self, source, match_action_pairs):
     if source != self.currentLeader:
-      #pass
-      print "%f %s rejecting update from non-leader %s"%(self.ctx.now, self.name, source)
+      pass
+      #print "%f %s rejecting update from non-leader %s"%(self.ctx.now, self.name, source)
     else:
       super(LSLeaderSwitch, self).updateRules(source, match_action_pairs)
 

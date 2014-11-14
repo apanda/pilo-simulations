@@ -58,9 +58,9 @@ class Simulation (object):
       visited = [ha]
       assert(len(ha.links) <= 1) # No link or one link
       assert(len(hb.links) <= 1) # No link or one link
+      tried += 1
       if len(ha.links) == 1 and len(hb.links) == 1:
         # At least connected to the network, improve this
-        tried += 1
         pkt = SourceDestinationPacket(ha.address, hb.address)
         link = list(ha.links)[0]
         current = link.a if link.a != ha else link.b
@@ -69,6 +69,8 @@ class Simulation (object):
           if pkt.pack() not in current.rules:
             break
           link = current.rules[pkt.pack()]
+          if not link.up:
+            break
           current = link.a if link.a != current else link.b
         if current == hb:
           #print "%f %s %s connected"%(self.ctx.now, ha.name, hb.name)
@@ -78,6 +80,11 @@ class Simulation (object):
           pass
     if tried > 0:
       self.reachability_at_time[self.ctx.now] = (tried, connected)
+      #perc = (float(connected) * 100.0)/tried
+      #print "%f %d %d %f"%(self.ctx.now, \
+              #tried, \
+              #connected, \
+              #perc)
       #print >>sys.stderr, "%f %d %d"%(self.ctx.now, tried, connected)
   def Setup (self, simulation_setup, trace):
     self.ctx = Context()
