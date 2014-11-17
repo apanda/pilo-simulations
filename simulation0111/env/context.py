@@ -29,6 +29,7 @@ class Context (object):
   def run(self):
     while not self.queue.empty() and (self.final_time == 0 or self.current_time < self.final_time):
       (time, task) = self.queue.get_nowait()
+      #print "%f event %s"%(time, task)
       self.current_time = time
       task()
       if self.post_task_check:

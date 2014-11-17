@@ -31,6 +31,7 @@ class LinkStateSwitch (Switch):
 
 
   def NotifyDown (self, link):
+    #print "%f %s NotifyDown"%(self.ctx.now, self.name)
     self.removeLink(link)
     super(LinkStateSwitch, self).NotifyDown(link)
 
@@ -43,10 +44,12 @@ class LinkStateSwitch (Switch):
     #print "%f %s thinks controller should be %s"%(self.ctx.now, self.name, self.currentLeader)
 
   def NotifyUp (self, link):
+    #print "%f %s NotifyUp"%(self.ctx.now, self.name)
     self.addLink(link)
     super(LinkStateSwitch, self).NotifyUp(link)
 
   def processControlMessage (self, link, source, packet):
+    #print "%f %s CtrlMessage"%(self.ctx.now, self.name)
     if packet.dest_id == ControlPacket.AllCtrlId:
       if packet.message_type == ControlPacket.NotifyLinkUp:
         (switch, link) = packet.message
