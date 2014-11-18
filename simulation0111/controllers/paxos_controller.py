@@ -81,15 +81,17 @@ class PaxosController(LSLeaderControl):
         self.propose(self.seq, rules)
 
     def propose(self, seq, proposed_value):
-        if not self.is_leader:
-            return
         if seq not in self.paxos_inst:
             self.paxos_inst[seq] = PaxosInst()
         else:
             self.paxos_inst[seq].clear_proposer()
 
         px = self.paxos_inst[seq]
-        px.n += 1
+
+        if px.decided or px.p_status == PaxosInst.SUCCESS:
+            return 
+
+        px.n += random.randint(0, 100)
         px.v_p = proposed_value
 
         # flood to all controllers
@@ -113,7 +115,7 @@ class PaxosController(LSLeaderControl):
 
         ret = []
         for r in px.propose_1_replies:
-            (reply, n_a, v_a) = r
+            (reply, n_a, v_a) = r["reply"]
             if reply:
                 accept_count += 1
                 if n_a > -1:
@@ -147,13 +149,14 @@ class PaxosController(LSLeaderControl):
             return
 
         px.p_status = PaxosInst.FAIL
+        self.ctx.schedule_task(self.delay, lambda: self.propose(seq, px.v_p))
 
     def propose_2(self, seq):
         px = self.paxos_inst[seq]
         accept_count = 0
 
         for r in px.propose_2_replies:
-            (reply, n_a) = r
+            (reply, n_a) = r["reply"]
             if reply:
                 accept_count += 1
         if accept_count > len(self.controllers) / 2:
@@ -165,15 +168,18 @@ class PaxosController(LSLeaderControl):
                                        [seq, px.v_p]))
             self.ctx.schedule_task(self.delay,
                                    lambda: self.decide(None, None, seq, px.v_p))
+            return
+
+        px.p_status = PaxosInst.FAIL
+        self.ctx.schedule_task(self.delay, lambda: self.propose(seq, px.v_p))
 
     def processPaxosMessage(self, pkt, src, seq, reply):
         if reply["dest"] != self.name:
             return 
         if pkt.message_type == ControlPacket.ProposeReply:
-            self.paxos_inst[seq].propose_1_replies.append(reply["reply"])
+            self.paxos_inst[seq].propose_1_replies.append(reply)
         elif pkt.message_type == ControlPacket.AcceptReply:
-            self.paxos_inst[seq].propose_2_replies.append(reply["reply"])
-
+            self.paxos_inst[seq].propose_2_replies.append(reply)
         #print seq, self.paxos_inst[seq].propose_1_replies, pkt.message_type
 
     # acceptor
@@ -289,11 +295,20 @@ class PaxosController(LSLeaderControl):
                 self.current_rules = self.log[i]
                 self.max_seq_replayed += 1
 
-        if old_max_seq < self.max_seq_replayed and self.is_leader:
+        if old_max_seq < self.max_seq_replayed:
             #print self.max_seq_replayed
             for k, link in self.current_rules.iteritems():
                 (a, p) = k
                 self.UpdateRules(a, [(p, link)])
-            #print self.current_rules
+            
+            print self, "replayed up to ", self.max_seq_replayed
 
         self.ctx.schedule_task(self.delay * 5, self.replay_logs)
+
+    # correctness check
+    @staticmethod
+    def assert_rules(controllers):
+        for c1 in controllers:
+            for c2 in controllers:
+                if len(set(c1.current_rules.items()).difference(set(c2.current_rules.items()))) > 0:
+                    print c1, "-", c2
