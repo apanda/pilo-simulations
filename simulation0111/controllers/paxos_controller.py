@@ -41,7 +41,7 @@ class PaxosController(LSLeaderControl):
         # Paxos
         self.is_leader = False
         self.paxos_inst = {}
-        self.timeout = 1500
+        self.timeout = 1000
         self.delay = 10
         self.log = {}
         self.seq = 0
@@ -51,10 +51,13 @@ class PaxosController(LSLeaderControl):
         self.switchboard[ControlPacket.Accept] = self.accept
         self.switchboard[ControlPacket.Decide] = self.decide
         self.switchboard[ControlPacket.ProposeReply] = self.processPaxosMessage
-        self.switchboard[ControlPacket.AcceptReply] =self.processPaxosMessage
+        self.switchboard[ControlPacket.AcceptReply] = self.processPaxosMessage
+        self.switchboard[ControlPacket.PaxosMaxSeq] = self.learnFromReplicas
 
+        # Initial tasks
         self.ctx.schedule_task(self.delay, self.learn)
         self.ctx.schedule_task(self.delay, self.replay_logs)
+        self.ctx.schedule_task(self.delay*10, self.floodMaxSeq)
 
     def CalcNewRules(self):
         rules = {}
@@ -77,6 +80,9 @@ class PaxosController(LSLeaderControl):
     def ComputeAndUpdatePaths(self):
         # calculate new paths, then use consensus to reach agreement
         rules = self.CalcNewRules()
+        if cmp(self.current_rules, rules) == 0:
+            return
+
         self.seq += 1
         self.propose(self.seq, rules)
 
@@ -159,6 +165,7 @@ class PaxosController(LSLeaderControl):
             (reply, n_a) = r["reply"]
             if reply:
                 accept_count += 1
+
         if accept_count > len(self.controllers) / 2:
             # value has been decided!
             px.p_status = PaxosInst.SUCCESS
@@ -177,10 +184,29 @@ class PaxosController(LSLeaderControl):
         if reply["dest"] != self.name:
             return 
         if pkt.message_type == ControlPacket.ProposeReply:
+            assert(len(reply["reply"]) == 3)
             self.paxos_inst[seq].propose_1_replies.append(reply)
         elif pkt.message_type == ControlPacket.AcceptReply:
+            assert(len(reply["reply"]) == 2)
             self.paxos_inst[seq].propose_2_replies.append(reply)
         #print seq, self.paxos_inst[seq].propose_1_replies, pkt.message_type
+
+    def floodMaxSeq(self):
+        self.ctx.schedule_task(self.delay * 2, 
+                               lambda: self.sendToController(
+                                   ControlPacket.PaxosMaxSeq,
+                                   [self.max_seq_replayed]))
+        self.ctx.schedule_task(self.delay*20, self.floodMaxSeq)
+            
+
+    def learnFromReplicas(self, pkt, src, seq):
+        # if self.name == "c1":
+        #     print self , "learned", seq
+        if self.max_seq_replayed < seq:
+            for s in xrange(self.max_seq_replayed + 1, seq+1):
+                if s not in self.log:
+                    self.ctx.schedule_task(self.delay * 2,
+                                           lambda: self.propose(s, self.current_rules))
 
     # acceptor
     def prepare(self, pkt, src, seq, n, source):
@@ -251,7 +277,7 @@ class PaxosController(LSLeaderControl):
                 # schedule self
                 self.ctx.schedule_task(self.delay,
                                        lambda: self.processPaxosMessage(
-                                           ControlPacket(0, 0, 0, ControlPacket.ProposeReply, [seq, reply]),
+                                           ControlPacket(0, 0, 0, ControlPacket.AcceptReply, [seq, reply]),
                                            0,
                                            seq,
                                            reply))
@@ -270,7 +296,7 @@ class PaxosController(LSLeaderControl):
                 # schedule self
                 self.ctx.schedule_task(self.delay,
                                        lambda: self.processPaxosMessage(
-                                           ControlPacket(0, 0, 0, ControlPacket.ProposeReply, [seq, reply]),
+                                           ControlPacket(0, 0, 0, ControlPacket.AcceptReply, [seq, reply]),
                                            0,
                                            seq,
                                            reply))
@@ -283,10 +309,10 @@ class PaxosController(LSLeaderControl):
 
     def learn(self):
         for seq, px in self.paxos_inst.iteritems():
-            if px.decided and seq not in self.log:
+            if seq > self.max_seq_replayed and px.decided and seq not in self.log:
                 self.log[seq] = px.decided_value
 
-        self.ctx.schedule_task(self.delay * 5, self.learn)
+        self.ctx.schedule_task(self.delay * 5, self.learn)        
 
     def replay_logs(self):
         old_max_seq = self.max_seq_replayed
@@ -307,8 +333,36 @@ class PaxosController(LSLeaderControl):
 
     # correctness check
     @staticmethod
-    def assert_rules(controllers):
-        for c1 in controllers:
-            for c2 in controllers:
-                if len(set(c1.current_rules.items()).difference(set(c2.current_rules.items()))) > 0:
-                    print c1, "-", c2
+    def assert_rules(controllers, expected_partition):
+        actual_partition = []
+
+        for c in controllers:
+            #print c, c.max_seq_replayed, sorted(c.log.keys())
+            added = False
+            for p in actual_partition:
+                c1 = random.sample(p, 1)[0]
+                if c.max_seq_replayed == c1.max_seq_replayed:
+                    if len(set(c.current_rules.items()).difference(set(c1.current_rules.items()))) == 0 and len(set(c1.current_rules.items()).difference(set(c.current_rules.items()))) == 0:
+                        p.add(c)
+                        added = True
+                        break
+
+            if not added:
+                actual_partition.append(set([c]))
+
+        check_set = set([])
+        for p in actual_partition:
+            check_set.add(frozenset(p))
+            
+        #print check_set, expected_partition
+
+        # checks to see if the expected partition is in the set
+        check = True
+        for p in expected_partition:
+            if p not in check_set:
+                check = False
+        if check:
+            print "===Check PASS==="
+        else:
+            print "===Check FAIL==="
+
