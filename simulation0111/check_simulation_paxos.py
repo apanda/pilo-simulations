@@ -5,12 +5,13 @@ from controllers import *
 def Main():
   ctx = Context()
 
-  ControllerClass = WpControlClass(CoordinatingControl)
-  SwitchClass = WaypointSwitchClass(LS2PCSwitch)
-  HostClass = WaypointHostClass(Host)
+  ControllerClass = PaxosController
+  SwitchClass = LinkStateSwitch
+  HostClass = Host
   
   ctrl0 = ControllerClass('c1', ctx, 10)
   ctrl1 = ControllerClass('c2', ctx, 11)
+  ctrl2 = ControllerClass('c3', ctx, 12)
 
   switches = [SwitchClass('s%d'%(i), ctx) for i in xrange(1, 4)]
 
@@ -24,32 +25,22 @@ def Main():
            Link(ctx, switches[0], switches[1]), \
            Link(ctx, ctrl1, switches[1]), \
            Link(ctx, switches[1], switches[2]), \
-           Link(ctx, switches[0], switches[2])]
-
-  waypoint_rules = {
-    host_a: ("s3", None),
-    host_c: (None, "s2")
-  }
+           Link(ctx, switches[0], switches[2]), \
+           Link(ctx, ctrl2, switches[2]), \
+  ]
 
   for link in links:
     ctx.schedule_task(0, link.SetUp)
-
   linkLowCtrl = Link(ctx, ctrl0, switches[0])
   ctx.schedule_task(100, linkLowCtrl.SetUp)
+
+  ctrl0.is_leader = True
+
   print "Starting"
   p = SourceDestinationPacket(1, 3)
-  ctx.schedule_task(1000, lambda: host_a.Send(p))
+  ctx.schedule_task(4000, lambda: host_a.Send(p))
   p2 = SourceDestinationPacket(1, 2)
-  ctx.schedule_task(1000, lambda: host_a.Send(p2))
-  p3 = FloodPacket("Hello")
-  ctx.schedule_task(1000, lambda: host_a.Send(p3))
-
-  ctx.schedule_task(1000, lambda: ctrl0.changeWaypointRules(waypoint_rules))
-  p4 = MarkedSourceDestPacket(2, 3)
-  ctx.schedule_task(2000, lambda: host_b.Send(p4))
-
-  p5 = MarkedSourceDestPacket(1, 2)
-  ctx.schedule_task(2500, lambda: host_c.Send(p5))
+  ctx.schedule_task(4000, lambda: host_a.Send(p2))
 
   ctx.final_time = 8000
   ctx.run()

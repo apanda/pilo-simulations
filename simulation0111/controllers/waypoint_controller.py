@@ -12,10 +12,10 @@ def WpControlClass(base):
       self.controllers = set([self.name])
       self.waypoint_rules = {}
 
-    def currentLeader (self, switch):
-      for c in sorted(list(self.controllers)):
-        if nx.has_path(self.graph, c, switch):
-          return c #Find the first connected controller
+    # def currentLeader (self, switch):
+    #   for c in sorted(list(self.controllers)):
+    #     if nx.has_path(self.graph, c, switch):
+    #       return c #Find the first connected controller
 
     def ComputeAndUpdatePaths (self):
       super(WpControl, self).ComputeAndUpdatePaths()

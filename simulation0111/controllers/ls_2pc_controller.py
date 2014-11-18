@@ -25,6 +25,11 @@ class CoordinatingControl (LS2PCController):
   def NewlyRemovedLeader (self, src):
     self.ComputeAndUpdatePaths()
 
+  def currentLeader(self, a):
+    if a in self.currently_leader_for:
+      return self.name
+    return ""
+
   def ComputeAndUpdatePaths (self):
     sp = nx.shortest_paths.all_pairs_shortest_path(self.graph)
     #print "%f Shortest paths are "%(self.ctx.now)
