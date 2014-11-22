@@ -14,12 +14,14 @@ class Link (object):
     return "%s--%s"%(self.a, self.b)
   def SetUp (self):
     if not self.up:
+      #print "%f %s UP"%(self.ctx.now, self)
       self.up = True # Set link status to up
       delay = self.ctx.config.DetectionDelay
       self.ctx.schedule_task(delay, lambda: self.a.NotifyUp(self))
       self.ctx.schedule_task(delay, lambda: self.b.NotifyUp(self))
   def SetDown (self):
     if self.up:
+      #print "%f %s DOWN"%(self.ctx.now, self)
       self.up = False # Set link status to down
       delay = self.ctx.config.DetectionDelay
       self.ctx.schedule_task(delay, lambda: self.a.NotifyDown(self))

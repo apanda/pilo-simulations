@@ -4,6 +4,13 @@ import yaml
 import sys
 from itertools import permutations
 
+class Singleton(type):
+    _instances = {}
+    def __call__(cls, *args, **kwargs):
+        if cls not in cls._instances:
+            cls._instances[cls] = super(Singleton, cls).__call__(*args, **kwargs)
+        return cls._instances[cls]
+
 """A mechanism to run simulations on a particular trace. The command can be run as
    python simulator.py format.yaml trace check_simulation_hbldr
    format.yaml is the topology
@@ -12,6 +19,7 @@ from itertools import permutations
    the controller code"""
 
 class Simulation (object):
+  __metaclass__ = Singleton
   """Represents a simulation being run"""
   def __init__ (self):
     self.unaccounted_packets = list()
@@ -21,6 +29,12 @@ class Simulation (object):
     self.packets_sent = 0
     self.packets_recved = 0
     self.reachability_at_time = {}
+    # A mechanism for oracles to get a hold of the current graph
+    self.graph = nx.Graph()  
+    self.host_names = []
+    self.switch_names = []
+    self.controller_names = []
+
   def HostSendCallback (self, switch, packet):
     self.packets_sent += 1 
     self.unaccounted_packets.append(packet)
@@ -41,9 +55,15 @@ class Simulation (object):
   def scheduleSend (self, time, host, src, dest):
     self.ctx.schedule_task(time, lambda: self.Send(host, src, dest))
   def scheduleLinkUp (self, time, link):
-    self.ctx.schedule_task(time, self.link_objs[link].SetUp)
+    def LinkUpFunc ():
+      self.graph.add_edge(*link.split("-"))
+      self.link_objs[link].SetUp()
+    self.ctx.schedule_task(time, LinkUpFunc)
   def scheduleLinkDown (self, time, link):
-    self.ctx.schedule_task(time, self.link_objs[link].SetDown)
+    def LinkDnFunc ():
+      self.graph.remove_edge(*link.split("-"))
+      self.link_objs[link].SetDown()
+    self.ctx.schedule_task(time, LinkDnFunc)
   
   def checkAllPaths (self):
     """For now this assumes singly homed hosts"""
@@ -67,25 +87,23 @@ class Simulation (object):
         while current != hb and current not in visited:
           visited.append(current)
           if pkt.pack() not in current.rules:
+            #print "%f %s %s not connected at %s, path %s (no rule)"%(self.ctx.now, ha.name, hb.name, current.name, visited)
             break
           link = current.rules[pkt.pack()]
           if not link.up:
+            #print "%f %s %s not connected at %s, path %s (link down %s)"%(self.ctx.now, ha.name, hb.name, current.name, \
+                    #visited, link)
             break
           current = link.a if link.a != current else link.b
         if current == hb:
           #print "%f %s %s connected"%(self.ctx.now, ha.name, hb.name)
           connected += 1
         else:
-          #print "%f %s %s not connected at %s"%(self.ctx.now, ha.name, hb.name, current.name)
+          #print "%f %s %s not connected at %s, path %s"%(self.ctx.now, ha.name, hb.name, current.name, visited)
           pass
     if tried > 0:
       self.reachability_at_time[self.ctx.now] = (tried, connected)
-      #perc = (float(connected) * 100.0)/tried
-      #print "%f %d %d %f"%(self.ctx.now, \
-              #tried, \
-              #connected, \
-              #perc)
-      #print >>sys.stderr, "%f %d %d"%(self.ctx.now, tried, connected)
+
   def Setup (self, simulation_setup, trace):
     self.ctx = Context()
 
@@ -105,11 +123,16 @@ class Simulation (object):
     for s, d in setup.iteritems():
       self.objs[s] = eval(d['type'])(s, self.ctx, **d['args']) if 'args' in d \
                        else eval(d['type'])(s, self.ctx)
-      if isinstance(self.objs[s], HostTrait) and \
-              not isinstance(self.objs[s], ControllerTrait):
+      self.graph.add_node(s)
+      if isinstance(self.objs[s], ControllerTrait):
+        self.controller_names.append(s)
+      elif isinstance(self.objs[s], HostTrait):
         self.objs[s].send_callback = self.HostSendCallback
         self.objs[s].recv_callback = self.HostRecvCallback
         self.hosts.append(self.objs[s])
+        self.host_names.append(s)
+      else:
+        self.switch_names.append(s)
     self.link_objs = {}
     for l in links:
       p = l.split('-')
@@ -148,6 +171,7 @@ class Simulation (object):
     self.ctx.post_task_check = self.checkAllPaths
     print "Starting replay"
     self.ctx.run()
+    print "Done replay, left %d items"%(self.ctx.queue.qsize()) 
 
   def Report (self, show_converge):
     if self.packets_sent > 0:
