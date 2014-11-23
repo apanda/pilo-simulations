@@ -79,7 +79,7 @@ class Config (object):
     if not fname:
       fname = "config.yml"
     s = open(fname).read()
-    configs = yaml.load(s, Loader=yaml.CLoader)
+    configs = yaml.load(s)
     assert 'control_link_latency' in configs
     assert configs['control_link_latency']['distro'] in Config.distributions
     self.control_dist = Config.distributions[configs['control_link_latency']['distro']](configs['control_link_latency'])
