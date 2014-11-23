@@ -21,8 +21,8 @@ def TransformTrace (trace, mean, stable):
 
 def Main (args):
   show_converge = True
-  if len(args) != 6:
-    print >>sys.stderr, "Usage: perturbation.py setup trace stable_time begin_mean_perturb end_mean_perturn step_mean_perturb"
+  if len(args) != 7:
+    print >>sys.stderr, "Usage: perturbation.py setup trace stable_time begin_mean_perturb end_mean_perturn step_mean_perturb seed"
   else:
     topo = open(args[0]).read()
     trace = open(args[1]).readlines()
@@ -30,7 +30,9 @@ def Main (args):
     begin = float(args[3])
     end = float(args[4])
     step = float(args[5])
+    seed = floar(args[6])
     sim = Simulation()
+    random.seed(seed)
     for mean in np.arange(begin, end, step):
       print "mean_perturb %f"%(mean)
       new_trace = TransformTrace(trace, mean, stable)
