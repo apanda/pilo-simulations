@@ -79,6 +79,7 @@ class Simulation (object):
       return
     tried = 0
     connected = 0
+    latencies = []
     for (ha, hb) in permutations(self.hosts, 2):
       #print "%f Trying %s %s"%(self.ctx.now, ha.name, hb.name)
       # Don't think there is anything really faster than walking the
@@ -86,7 +87,6 @@ class Simulation (object):
       visited = [ha]
       assert(len(ha.links) <= 1) # No link or one link
       assert(len(hb.links) <= 1) # No link or one link
-      latencies = []
       if nx.has_path(self.graph, ha.name, hb.name):
         tried += 1
         # At least connected to the network, improve this
