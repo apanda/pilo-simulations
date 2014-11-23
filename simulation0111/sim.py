@@ -86,6 +86,7 @@ class Simulation (object):
       visited = [ha]
       assert(len(ha.links) <= 1) # No link or one link
       assert(len(hb.links) <= 1) # No link or one link
+      latencies = []
       if nx.has_path(self.graph, ha.name, hb.name):
         tried += 1
         # At least connected to the network, improve this
@@ -94,7 +95,9 @@ class Simulation (object):
           continue
         link = list(ha.links)[0]
         current = link.a if link.a != ha else link.b
+        length = 0
         while current != hb and current not in visited:
+          length += 1
           visited.append(current)
           if pkt.pack() not in current.rules:
             #print "%f %s %s not connected at %s, path %s (no rule)"%(self.ctx.now, ha.name, hb.name, current.name, visited)
@@ -108,11 +111,12 @@ class Simulation (object):
         if current == hb:
           #print "%f %s %s connected"%(self.ctx.now, ha.name, hb.name)
           connected += 1
+          latencies.append(sum(map(lambda c: self.ctx.config.DataLatency, range(length))))
         else:
           #print "%f %s %s not connected at %s, path %s"%(self.ctx.now, ha.name, hb.name, current.name, visited)
           pass
     if tried > 0:
-      self.reachability_at_time[self.ctx.now] = (tried, connected)
+      self.reachability_at_time[self.ctx.now] = (tried, connected, latencies)
 
   def Setup (self, simulation_setup, trace):
     self.ctx = Context()
@@ -192,10 +196,12 @@ class Simulation (object):
     print "Convergence"
     if show_converge:
       for t in sorted(self.reachability_at_time.keys()):
-        (tried, reachable) = self.reachability_at_time[t]
+        (tried, reachable) = self.reachability_at_time[t][:2]
+        rest  = self.reachability_at_time[t][2:] 
         perc = (float(reachable) * 100.0)/tried
-        print "%f %d %d %f"%(t, \
+        print "%f %d %d %f %s"%(t, \
                 tried, \
                 reachable, \
-                perc)
+                perc, \
+                ' '.join(map(str, rest)))
 
