@@ -86,10 +86,12 @@ class Simulation (object):
       visited = [ha]
       assert(len(ha.links) <= 1) # No link or one link
       assert(len(hb.links) <= 1) # No link or one link
-      tried += 1
-      if len(ha.links) == 1 and len(hb.links) == 1:
+      if nx.has_path(self.graph, ha.name, hb.name):
+        tried += 1
         # At least connected to the network, improve this
         pkt = SourceDestinationPacket(ha.address, hb.address)
+        if (len(ha.links) == 0):
+          continue
         link = list(ha.links)[0]
         current = link.a if link.a != ha else link.b
         while current != hb and current not in visited:
