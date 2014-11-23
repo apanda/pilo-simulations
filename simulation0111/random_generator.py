@@ -11,6 +11,7 @@ config = [
    ("CoordinatingControl", "LS2PCSwitch", "Host", "controllers"),
    ("HBControl", "HBSwitch", "HBHost", "controllers"), 
    ("LSGossipControl", "LinkStateSwitch", "Host", "controllers"),
+   ("LSPaxosOracleControl", "LinkStateSwitch", "Host", "controllers")
 ]
 
 config_args =  \
