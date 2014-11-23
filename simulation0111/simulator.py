@@ -6,8 +6,8 @@ def Main (args):
   else:
     sim = Simulation()
     print "Simulation is %s"%sim
-    topo = args[0]
-    trace = args[1]
+    topo = open(args[0]).read()
+    trace = open(args[1]).readlines()
     show_converge = bool(args[2]) if len(args) > 2 else False
     sim.Setup(topo, trace)
     sim.Run()

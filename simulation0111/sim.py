@@ -28,6 +28,21 @@ class Simulation (object):
     self.switch_names = []
     self.controller_names = []
 
+  def Clear (self):
+    self.unaccounted_packets = list()
+    self.sent_packet_time = {}
+    self.hosts = []
+    self.latency_at_time = {}
+    self.packets_sent = 0
+    self.packets_recved = 0
+    self.reachability_at_time = {}
+    # A mechanism for oracles to get a hold of the current graph
+    self.graph = nx.Graph()  
+    self.host_names = []
+    self.switch_names = []
+    self.controller_names = []
+    self.ctx = None
+
   def HostSendCallback (self, switch, packet):
     self.packets_sent += 1 
     self.unaccounted_packets.append(packet)
@@ -100,9 +115,7 @@ class Simulation (object):
   def Setup (self, simulation_setup, trace):
     self.ctx = Context()
 
-    f = open(simulation_setup)
-    x = f.read()
-    setup = yaml.load(x)
+    setup = yaml.load(simulation_setup)
     other_includes = setup['runfile']
     other = __import__ (other_includes)
     for l in dir(other):
@@ -131,8 +144,6 @@ class Simulation (object):
       p = l.split('-')
       self.link_objs[l] = Link(self.ctx, self.objs[p[0]], self.objs[p[1]])
       self.link_objs['%s-%s'%(p[1], p[0])] = self.link_objs[l]
-    trace = open(trace)
-
     for ev in trace:
       if ev.startswith("//"):
         continue

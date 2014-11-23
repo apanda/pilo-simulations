@@ -21,6 +21,7 @@ config_args =  \
  "LSLeaderControl": {"addr": True},
  "CoordinatingControl": {"addr": True},
  "LSGossipControl": {"addr": True},
+ "LSPaxosOracleControl": {"addr": True}
 }
 
 def draw_graph(out, gfile):
