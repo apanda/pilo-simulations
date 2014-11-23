@@ -33,3 +33,20 @@ for l in f:
     reachability = []
   elif re.match("^\d+?\.\d+?$", p[0]):
     reachability.append(float(p[3]))
+    
+if mean:
+   reachable_min = min(reachability)
+   reachable_max = max(reachability)
+   reachable_5p = np.percentile(reachability, 5)
+   reachable_95p = np.percentile(reachability, 95)
+   reachable_med = np.percentile(reachability, 50)
+   reachable_mean = np.mean(reachability)
+   reachable_var = np.var(reachability)
+   print "%f %f %f %f %f %f %f %f"%(mean, \
+                                 reachable_min,\
+                                 reachable_5p,\
+                                 reachable_med,\
+                                 reachable_95p,\
+                                 reachable_max,\
+                                 reachable_mean,\
+                                 reachable_var)
