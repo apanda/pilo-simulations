@@ -30,7 +30,7 @@ def Main (args):
     begin = float(args[3])
     end = float(args[4])
     step = float(args[5])
-    seed = float(args[6])
+    seed = int(args[6])
     sim = Simulation()
     random.seed(seed)
     for mean in np.arange(begin, end, step):
