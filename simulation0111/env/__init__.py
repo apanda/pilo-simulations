@@ -1,4 +1,5 @@
-__all__ = [ "Context", \
+__all__ = [ "Singleton", \
+            "Context", \
             "ControllerTrait", \
             "HostTrait", \
             "Config", \
@@ -23,6 +24,7 @@ __all__ = [ "Context", \
             "HBHost", \
             "WaypointSwitchClass", \
             "WaypointHostClass"]
+from utils import Singleton
 from context import Context, Config, ControllerTrait, HostTrait
 from packets import MarkedSourceDestPacket, \
                     SourceDestinationPacket, \
