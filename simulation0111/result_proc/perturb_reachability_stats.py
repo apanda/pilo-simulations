@@ -34,7 +34,7 @@ for l in f:
   elif re.match("^\d+?\.\d+?$", p[0]):
     reachability.append(float(p[3]))
     
-if mean:
+if mean and len(reachability) > 0:
    reachable_min = min(reachability)
    reachable_max = max(reachability)
    reachable_5p = np.percentile(reachability, 5)
