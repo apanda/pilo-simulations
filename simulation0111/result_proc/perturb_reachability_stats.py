@@ -21,7 +21,7 @@ for l in f:
        reachable_med = np.percentile(reachability, 50)
        reachable_mean = np.mean(reachability)
        reachable_var = np.var(reachability)
-       print "%f %f %f %f %f %f %f"%(mean, \
+       print "%f %f %f %f %f %f %f %f"%(mean, \
                                      reachable_min,\
                                      reachable_5p,\
                                      reachable_med,\
