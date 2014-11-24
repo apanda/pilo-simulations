@@ -7,8 +7,7 @@ class LSLeaderControl (LSController):
     self.controllers = set([self.name])
 
   def PacketIn(self, pkt, src, switch, source, packet):
-    print "(%s) %s Don't know path, dropping packet from %d to %d"%\
-            (self.name, switch.name, packet.source, packet.destination)
+    pass
 
   def currentLeader (self, switch):
     for c in sorted(list(self.controllers)):

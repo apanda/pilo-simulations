@@ -12,7 +12,6 @@ class Host (Switch, HostTrait):
     if isinstance(packet, SourceDestinationPacket):
       if self.recv_callback:
         self.recv_callback(self, packet)
-      print "%f %s Received from %d to %d"%(self.ctx.now, self.name, packet.source, packet.destination)
     elif isinstance(packet, ControlPacket):
       self.processControlMessage (link, source, packet)
 

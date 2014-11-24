@@ -9,8 +9,7 @@ class LSGossipControl (LSController):
     self.connected_to_controller = {self.name: True}
 
   def PacketIn(self, pkt, src, switch, source, packet):
-    print "(%s) %s Don't know path, dropping packet from %d to %d"%\
-            (self.name, switch.name, packet.source, packet.destination)
+    pass
 
   def currentLeader (self, switch):
     #print "%f %s controllers are %s"%(self.ctx.now, self.name, self._controllers)

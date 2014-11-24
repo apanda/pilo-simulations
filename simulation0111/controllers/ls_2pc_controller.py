@@ -10,8 +10,7 @@ class CoordinatingControl (LS2PCController):
     self.graph.add_node(self.name)
 
   def PacketIn(self, pkt, src, switch, source, packet):
-    print "(%s) %s Don't know path, dropping packet from %d to %d"%\
-            (self.name, switch.name, packet.source, packet.destination)
+    pass
 
   def ShouldBeCurrentLeader (self, switch):
     for c in sorted(list(self.controllers)):

@@ -10,8 +10,7 @@ class HBControl (HBController):
     self.graph.add_node(self.name)
 
   def PacketIn(self, src, switch, source, packet):
-    print "(%s) %s Don't know path, dropping packet from %d to %d"%\
-            (self.name, switch.name, packet.source, packet.destination)
+    pass
 
   def currentLeader (self, switch):
     connectivity_measure = sorted(map(lambda c: (-1 * len(self.connectivityMatrix.get(c, [])), c), self.controllers))

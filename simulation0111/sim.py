@@ -17,6 +17,7 @@ class Simulation (object):
   def __init__ (self):
     self.unaccounted_packets = list()
     self.sent_packet_time = {}
+    self.sent_packet_host = {}
     self.hosts = []
     self.latency_at_time = {}
     self.packets_sent = 0
@@ -27,6 +28,8 @@ class Simulation (object):
     self.host_names = []
     self.switch_names = []
     self.controller_names = []
+    self.check_always = True
+    self.latency_check = False
 
   def Clear (self):
     self.unaccounted_packets = list()
@@ -43,25 +46,36 @@ class Simulation (object):
     self.controller_names = []
     self.ctx = None
 
-  def HostSendCallback (self, switch, packet):
-    self.packets_sent += 1 
-    self.unaccounted_packets.append(packet)
-    self.sent_packet_time[packet] = switch.ctx.now
+  def HostSendCallback (self, host, packet):
+    if packet not in self.sent_packet_time:
+      self.packets_sent += 1 
+      self.unaccounted_packets.append(packet)
+      self.sent_packet_time[packet] = host.ctx.now
+      self.sent_packet_host[packet] = host
+      self.latency_at_time[host.ctx.now] = []
 
   def HostRecvCallback (self, switch, packet):
     self.packets_recved += 1
     self.unaccounted_packets.remove(packet)
-    print "%f pkt_recv latency %f"%(switch.ctx.now, switch.ctx.now - self.sent_packet_time[packet])
-    self.latency_at_time[self.sent_packet_time[packet]] = switch.ctx.now - self.sent_packet_time[packet]
+    self.latency_at_time[self.sent_packet_time[packet]].append( switch.ctx.now - self.sent_packet_time[packet])
+
+  def DropCallback (self, switch, source, packet):
+    if packet in self.sent_packet_time:
+      # Resend
+      self.sent_packet_host[packet].Send(packet)
   
   def Send(self, host, src, dest):
-    print "%f sending %d %d"%(self.ctx.now, src, dest)
+    #print "%f sending %d %d"%(self.ctx.now, src, dest)
     p = SourceDestinationPacket(src, dest)
     self.objs[host].Send(p)
     #self.ctx.schedule_task(time, lambda: objs[host].Send(p))
-  
+
+  def scheduleCheck (self, time):
+    self.ctx.schedule_task(time, self.checkAllPaths)
+
   def scheduleSend (self, time, host, src, dest):
     self.ctx.schedule_task(time, lambda: self.Send(host, src, dest))
+
   def scheduleLinkUp (self, time, link):
     def LinkUpFunc ():
       self.graph.add_edge(*link.split("-"))
@@ -111,14 +125,15 @@ class Simulation (object):
         if current == hb:
           #print "%f %s %s connected"%(self.ctx.now, ha.name, hb.name)
           connected += 1
-          latencies.append(sum(map(lambda c: self.ctx.config.DataLatency, range(length))))
+          if self.latency_check:
+            latencies.append(sum(map(lambda c: self.ctx.config.DataLatency, range(length))))
         else:
           #print "%f %s %s not connected at %s, path %s"%(self.ctx.now, ha.name, hb.name, current.name, visited)
           pass
     if tried > 0:
       self.reachability_at_time[self.ctx.now] = (tried, connected, latencies)
 
-  def Setup (self, simulation_setup, trace):
+  def Setup (self, simulation_setup, trace, retry_send = False):
     self.ctx = Context()
 
     setup = yaml.load(simulation_setup)
@@ -145,6 +160,8 @@ class Simulation (object):
         self.host_names.append(s)
       else:
         self.switch_names.append(s)
+        if retry_send:
+          self.objs[s].drop_callback = self.DropCallback
     self.link_objs = {}
     for l in links:
       p = l.split('-')
@@ -176,9 +193,9 @@ class Simulation (object):
           self.scheduleSend(time, host, addr_a, addr_b)
         else:
           print "Unknown request"
-
   def Run (self):
-    self.ctx.post_task_check = self.checkAllPaths
+    if self.check_always:
+      self.ctx.post_task_check = self.checkAllPaths
     print "Starting replay"
     self.ctx.run()
     print "Done replay, left %d items"%(self.ctx.queue.qsize()) 
@@ -191,7 +208,7 @@ class Simulation (object):
                                    (float(self.packets_sent - self.packets_recved)/ float(self.packets_sent)) * 100.0)
       print "Latency"
       for t in sorted(self.latency_at_time.keys()):
-        print "%f %f"%(t, self.latency_at_time[t]) 
+        print "%f %s"%(t, ' '.join(map(str, self.latency_at_time[t])))
     
     print "Convergence"
     if show_converge:

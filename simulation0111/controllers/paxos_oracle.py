@@ -15,6 +15,17 @@ class PaxosOracle (object):
     self.proposers = {}
     self.prop_count = {}
   
+  def Reset (self):
+    self.simulation = Simulation()
+    self.proposed = []
+    self.accepted = {}
+    self.proposal_count = 0
+    self.registered_controllers = {}
+    self.already_proposed = set()
+    self.already_accepted = set()
+    self.proposers = {}
+    self.prop_count = {}
+  
   def CheckConnectivity (self, controller):
     """Check if a majority of controllers are connected and if
         the named controller is a part of this group."""
@@ -82,8 +93,3 @@ class PaxosOracle (object):
     for controller in big_group:
       if controller in self.registered_controllers:
         self.registered_controllers[controller].NotifyOracleDecision(self.accepted)
-    
-    
-
-  #def AskOracle (self):
-    #pass
