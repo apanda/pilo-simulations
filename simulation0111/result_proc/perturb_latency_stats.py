@@ -41,7 +41,7 @@ for l in f:
   elif p[0] == "Latency":
     in_latency = True
   elif re.match("^\d+?\.\d+?$", p[0]) and in_latency:
-    clatencey = map(float, p[1:])
+    clatency = map(float, p[1:])
     if len(clatency) > 0:
       latency.extend(clatency)
     
