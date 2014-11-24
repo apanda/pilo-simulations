@@ -2,12 +2,14 @@ import sys
 from sim import Simulation
 import numpy as np
 import numpy.random as random
+from itertools import permutations
+from env import Singleton 
 
 def TransformTrace (trace, mean, stable):
   new_trace = []
   ctime = stable
   for t in trace:
-    parts = t.strip().split() 
+    parts = t.strip().split()
     if parts[-1] == 'up' or parts[-1] == 'down':
       if len(parts) == 3:
         new_trace.append(t.strip())
@@ -17,7 +19,7 @@ def TransformTrace (trace, mean, stable):
     elif parts[-1] == 'end':
       ctime = ctime + float(parts[0])
       new_trace.append("%f end"%ctime)
-  return new_trace
+  return (ctime, new_trace)
 
 def Main (args):
   show_converge = True
@@ -31,12 +33,21 @@ def Main (args):
     end = float(args[4])
     step = float(args[5])
     seed = int(args[6])
-    sim = Simulation()
-    random.seed(seed)
+    print "Setting %s %s %f %f %f %f %d"%(args[0], args[1], stable, begin, end, step, seed)
     for mean in np.arange(begin, end, step):
+      Singleton.clear()
+      sim = Simulation()
+      sim.check_always = False
+      random.seed(seed)
       print "mean_perturb %f"%(mean)
-      new_trace = TransformTrace(trace, mean, stable)
-      sim.Setup(topo, new_trace)
+      (end_time, new_trace) = TransformTrace(trace, mean, stable)
+      sim.Setup(topo, new_trace, True)
+      for time in np.arange(stable, end_time, 0.5 * mean):
+        sim.scheduleCheck(time)
+      # Measure latency less often
+      for time in np.arange(stable, end_time, mean):
+        for (ha, hb) in permutations(sim.hosts, 2):
+          sim.scheduleSend(time, ha.name, ha.address, hb.address)
       sim.Run()
       sim.Report(show_converge)
       sim.Clear()

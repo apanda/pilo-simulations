@@ -12,6 +12,7 @@ class Switch (object):
     # spanning tree. This is a bad hack to put in, but I am lazy.
     self.flooded_pkts = set()
     self.cpkt_id = 0
+    self.drop_callback = None
     self.ctrl_switchboard = {
       ControlPacket.UpdateRules: self.updateRules,
       ControlPacket.ForwardPacket: self.forwardPacket
@@ -89,6 +90,9 @@ class Switch (object):
       self.ctx.schedule_task(delay, \
               lambda: self.rules[match].Send(self, packet))
     else:
+      # Dropping packet
+      if self.drop_callback:
+        self.drop_callback(self, source, packet)
       self.sendToController(ControlPacket.PacketIn, [self, source, packet])
   
   def forwardPacket (self, link, packet):
