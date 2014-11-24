@@ -37,13 +37,13 @@ for l in f:
        latency.extend(clatency)
     
 if mean and len(latency) > 0:
-   latency_min = min(reachability)
-   latency_max = max(reachability)
-   latency_5p = np.percentile(reachability, 5)
-   latency_95p = np.percentile(reachability, 95)
-   latency_med = np.percentile(reachability, 50)
-   latency_mean = np.mean(reachability)
-   latency_var = np.var(reachability)
+   latency_min = min(latency)
+   latency_max = max(latency)
+   latency_5p = np.percentile(latency, 5)
+   latency_95p = np.percentile(latency, 95)
+   latency_med = np.percentile(latency, 50)
+   latency_mean = np.mean(latency)
+   latency_var = np.var(latency)
    print "%f %f %f %f %f %f %f %f"%(mean, \
                                  latency_min,\
                                  latency_5p,\
