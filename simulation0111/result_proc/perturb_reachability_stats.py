@@ -7,12 +7,14 @@ if len(sys.argv) != 2:
 f = open(sys.argv[1])
 mean = None
 reachability = []
+convergence = False
 print "perturb min p5 p50 p95 max mean var"
 for l in f:
   p = l.strip().split()
   #if p[0] == "mean_perturb" or re.match("^\d+?\.\d+?$", p[0]):
     #print l.strip()
   if p[0] == "mean_perturb":
+    convergence = False
     if mean:
        reachable_min = min(reachability)
        reachable_max = max(reachability)
@@ -31,7 +33,9 @@ for l in f:
                                      reachable_var)
     mean = float(p[1])
     reachability = []
-  elif re.match("^\d+?\.\d+?$", p[0]):
+  elif p[0] == "Convergence":
+    convergence = True
+  elif re.match("^\d+?\.\d+?$", p[0]) and convergence:
     reachability.append(float(p[3]))
     
 if mean and len(reachability) > 0:

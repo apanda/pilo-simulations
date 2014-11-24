@@ -7,6 +7,8 @@ if len(sys.argv) != 2:
 f = open(sys.argv[1])
 mean = None
 latency = []
+convergence = False
+in_latency = False
 print "perturb min p5 p50 p95 max mean var"
 for l in f:
   p = l.strip().split()
@@ -31,10 +33,17 @@ for l in f:
                                      latency_var)
     mean = float(p[1])
     latency = []
-  elif re.match("^\d+?\.\d+?$", p[0]):
-    clatency = eval(l.strip().split(' ', 4)[-1])
+    in_latency = False
+    convergence = False
+  elif p[0] == "Convergence":
+    in_latency = False
+    convergence = True
+  elif p[0] == "Latency":
+    in_latency = True
+  elif re.match("^\d+?\.\d+?$", p[0]) and in_latency:
+    clatencey = map(float, p[1:])
     if len(clatency) > 0:
-       latency.extend(clatency)
+      latency.extend(clatency)
     
 if mean and len(latency) > 0:
    latency_min = min(latency)
