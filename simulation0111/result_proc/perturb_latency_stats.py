@@ -36,7 +36,7 @@ for l in f:
     if len(clatency) > 0:
        latency.extend(clatency)
     
-if mean and len(reachability) > 0:
+if mean and len(latency) > 0:
    latency_min = min(reachability)
    latency_max = max(reachability)
    latency_5p = np.percentile(reachability, 5)
