@@ -32,7 +32,7 @@ for l in f:
     mean = float(p[1])
     latency = []
   elif re.match("^\d+?\.\d+?$", p[0]):
-    clatency = eval(l.strip().split(' ', 5)[-1])
+    clatency = eval(l.strip().split(' ', 4)[-1])
     if len(clatency) > 0:
        latency.extend(clatency)
     
