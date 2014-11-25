@@ -68,12 +68,21 @@ class NormalDistribution (Distributions):
   def next(self):
     return abs(numpy.random.normal(self.mean, self.stdev))
 
+class ExponentialDistribution (Distributions):
+  def __init__ (self, yconfig):
+    assert yconfig['distro'] == 'exponential'
+    self.shape = float(yconfig['shape'])
+  @property
+  def next(self):
+    return numpy.random.exponential(self.shape)
+
 class Config (object):
   """Configuration carries various latencies"""
   distributions = {
      'constant': ConstDistribution,
      'uniform': UniformDistribution,
      'normal': NormalDistribution,
+     'exponential': ExponentialDistribution,
   }
   def __init__ (self, fname = None):
     if not fname:
@@ -99,6 +108,10 @@ class Config (object):
     assert 'update_delay' in configs
     assert configs['update_delay']['distro'] in Config.distributions
     self.update_delay = Config.distributions[configs['update_delay']['distro']](configs['update_delay'])
+    
+    if 'control_processing_latency' in configs:
+      self.control_proc = Config.distributions[configs['control_processing_latency']['distro']]\
+                                (configs['control_processing_latency'])
   @property
   def ControlLatency(self):
     return self.control_dist.next
@@ -114,6 +127,9 @@ class Config (object):
   @property
   def UpdateDelay(self):
     return self.update_delay.next
+  @property
+  def ControlProc(self):
+    return self.control_proc.next
 
 class ControllerTrait(object):
   """A generic way to refer to all controllers"""

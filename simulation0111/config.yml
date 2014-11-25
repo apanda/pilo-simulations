@@ -18,4 +18,6 @@ update_delay:
     distro: constant
     mean: 5.0
     stdev: 10.0
-
+control_processing_latency:
+   distro: exponential
+   shape: 20.0
