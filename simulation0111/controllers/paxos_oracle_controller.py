@@ -8,7 +8,7 @@ class LSPaxosOracleControl (LSController):
     self.controllers = set([self.name])
     self.oracle = PaxosOracle()
     self.oracle.RegisterController(self)
-    self.graph = nx.graph()
+    self.graph = nx.Graph()
 
   def PacketIn(self, pkt, src, switch, source, packet):
     pass
