@@ -33,11 +33,8 @@ class CoordinationOracle (object):
   
   def InformOracleEvent (self, controller, event):
     lengths = nx.shortest_path_length(self.simulation.graph, controller.name)
-
-    latency = max(\
-               map(lambda c:\
-                sum(map(lambda x: controller.ctx.config.DataLatency, range(lengths.get(c, 0) * 2))),\
-                   self.simulation.controller_names))
+    ctrlr_lengths = 2 * max(map(lambda c: lengths.get(c, 0), self.simulation.controller_names))
+    latency = sum(map(lambda c: controller.ctx.config.DataLatency, range(ctrlr_lengths)))
     prop_count = self.proposal_count
     self.proposal_count += 1
     controller.ctx.schedule_task(latency, \
@@ -71,4 +68,5 @@ class CoordinationOracle (object):
     for (idx, controllers) in components:
       for controller in controllers:
         if controller in self.registered_controllers:
+          print "Notifying %s of events"%(controller)
           self.registered_controllers[controller].NotifyOracleDecision(to_accept[idx])
