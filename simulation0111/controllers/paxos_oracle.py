@@ -45,8 +45,11 @@ class PaxosOracle (object):
     if event in self.already_accepted:
       return
     lengths = nx.shortest_path_length(self.simulation.graph, controller.name)
-    ctrlr_lengths = 2 * max(map(lambda c: lengths.get(c, 0), self.simulation.controller_names))
-    latency = sum(map(lambda c: controller.ctx.config.DataLatency, range(ctrlr_lengths)))
+
+    latency = max(\
+               map(lambda c:\
+                sum(map(lambda x: controller.ctx.config.DataLatency, range(lengths.get(c, 0) * 2))) + \
+                    controller.ctx.config.ControlProc, self.simulation.controller_names))
     prop_count = self.proposal_count
     self.proposal_count += 1
     controller.ctx.schedule_task(latency, \
