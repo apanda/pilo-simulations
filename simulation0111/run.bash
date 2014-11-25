@@ -2,7 +2,7 @@
 prefix=$1
 trace=$2
 outprefix=$3
-for idx in 0 3 4
+for idx in 0 3 4 5
   do
     file="$prefix$idx"
     file+=".yaml"

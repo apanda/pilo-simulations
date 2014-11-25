@@ -12,6 +12,7 @@ config = [
    ("HBControl", "HBSwitch", "HBHost", "controllers"), 
    ("LSGossipControl", "LinkStateSwitch", "Host", "controllers"),
    ("LSPaxosOracleControl", "LinkStateSwitch", "Host", "controllers")
+   ("CoordinationOracleControl", "LinkStateSwitch", "Host", "controllers")
 ]
 
 config_args =  \
