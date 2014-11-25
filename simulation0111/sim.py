@@ -89,6 +89,7 @@ class Simulation (object):
   
   def checkAllPaths (self):
     """For now this assumes singly homed hosts"""
+    print self.ctx.now
     if self.ctx.now <= 0.0:
       return
     tried = 0
@@ -131,7 +132,7 @@ class Simulation (object):
           #print "%f %s %s not connected at %s, path %s"%(self.ctx.now, ha.name, hb.name, current.name, visited)
           pass
     if tried > 0:
-      self.reachability_at_time[self.ctx.now] = (tried, connected, latencies)
+      self.reachability_at_time[self.ctx.now] = (tried, connected, len(nx.connected_components(self.graph)))
 
   def Setup (self, simulation_setup, trace, retry_send = False):
     self.ctx = Context()
@@ -214,11 +215,11 @@ class Simulation (object):
     if show_converge:
       for t in sorted(self.reachability_at_time.keys()):
         (tried, reachable) = self.reachability_at_time[t][:2]
-        rest  = self.reachability_at_time[t][2:] 
+        components = self.reachability_at_time[t][2]
         perc = (float(reachable) * 100.0)/tried
-        print "%f %d %d %f %s"%(t, \
+        print "%f %d %d %f %d"%(t, \
                 tried, \
                 reachable, \
                 perc, \
-                ' '.join(map(str, rest)))
+                components)
 
