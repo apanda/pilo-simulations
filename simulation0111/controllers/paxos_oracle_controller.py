@@ -8,18 +8,17 @@ class LSPaxosOracleControl (LSController):
     self.controllers = set([self.name])
     self.oracle = PaxosOracle()
     self.oracle.RegisterController(self)
-    self._graph = nx.Graph()
 
   def PacketIn(self, pkt, src, switch, source, packet):
     pass
 
   def currentLeader (self, switch):
     for c in sorted(list(self.controllers)):
-      if nx.has_path(self._graph, c, switch):
+      if nx.has_path(self.graph, c, switch):
         return c #Find the first connected controller
 
   def ComputeAndUpdatePaths (self):
-    sp = nx.shortest_paths.all_pairs_shortest_path(self._graph)
+    sp = nx.shortest_paths.all_pairs_shortest_path(self.graph)
     for host in self.hosts:
       for h2 in self.hosts:
         if h2 == host:
@@ -29,7 +28,7 @@ class LSPaxosOracleControl (LSController):
           path = zip(sp[host.name][h2.name], \
                     sp[host.name][h2.name][1:])
           for (a, b) in path[1:]:
-            link = self._graph[a][b]['link']
+            link = self.graph[a][b]['link']
             if self.currentLeader(a) == self.name:
               self.UpdateRules(a, [(p.pack(), link)])
   
@@ -40,7 +39,7 @@ class LSPaxosOracleControl (LSController):
     pass
 
   def UpdateMembers (self, switch):
-    self._graph.add_node(switch.name)
+    self.graph.add_node(switch.name)
     if isinstance(switch, HostTrait):
       self.hosts.add(switch)
     if isinstance(switch, ControllerTrait):
@@ -61,12 +60,12 @@ class LSPaxosOracleControl (LSController):
   def processLinkUp (self, pkt, src, switch, link):
     self.UpdateMembers(switch)
     super(LSPaxosOracleControl, self).addLink(link)
-    #assert(switch.name in self._graph)
+    #assert(switch.name in self.graph)
 
   def processLinkDown (self, pkt, src, switch, link): 
     self.UpdateMembers(switch)
     super(LSPaxosOracleControl, self).removeLink(link)
-    #assert(switch.name in self._graph)
+    #assert(switch.name in self.graph)
 
 
   def NotifySwitchInformation (self, pkt, src, switch, links):
@@ -74,7 +73,7 @@ class LSPaxosOracleControl (LSController):
   
   def NotifyOracleDecision (self, log):
     # Just process all to get us to a good state
-    self._graph.clear()
+    self.graph.clear()
     self.hosts.clear()
     self.controllers.clear()
     self.controllers.add(self.name)
