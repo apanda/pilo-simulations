@@ -1,0 +1,90 @@
+c1:
+  args: {address: 10}
+  type: LSLeaderControl
+c10:
+  args: {address: 19}
+  type: LSLeaderControl
+c11:
+  args: {address: 20}
+  type: LSLeaderControl
+c2:
+  args: {address: 11}
+  type: LSLeaderControl
+c3:
+  args: {address: 12}
+  type: LSLeaderControl
+c4:
+  args: {address: 13}
+  type: LSLeaderControl
+c5:
+  args: {address: 14}
+  type: LSLeaderControl
+c6:
+  args: {address: 15}
+  type: LSLeaderControl
+c7:
+  args: {address: 16}
+  type: LSLeaderControl
+c8:
+  args: {address: 17}
+  type: LSLeaderControl
+c9:
+  args: {address: 18}
+  type: LSLeaderControl
+h1:
+  args: {address: 1}
+  type: Host
+h10:
+  args: {address: 10}
+  type: Host
+h2:
+  args: {address: 2}
+  type: Host
+h3:
+  args: {address: 3}
+  type: Host
+h4:
+  args: {address: 4}
+  type: Host
+h5:
+  args: {address: 5}
+  type: Host
+h6:
+  args: {address: 6}
+  type: Host
+h7:
+  args: {address: 7}
+  type: Host
+h8:
+  args: {address: 8}
+  type: Host
+h9:
+  args: {address: 9}
+  type: Host
+links: [s1-s10, s1-s15, s2-s10, s2-s13, s2-s18, s3-s16, s3-s13, s3-s8, s4-s12, s4-s14,
+  s4-s15, s4-s16, s4-s17, s4-s20, s5-s18, s5-s8, s6-s10, s6-s16, s6-s15, s6-s8, s7-s18,
+  s7-s14, s8-s10, s8-s14, s8-s17, s9-s14, s10-s13, s10-s15, s10-s17, s10-s19, s11-s18,
+  s11-s12, s12-s13, s12-s19, s13-s14, s13-s17, s14-s16, s14-s20, s17-s20, s6-h1, s12-h2,
+  s13-h3, s9-h4, s10-h5, s12-h6, s6-h7, s16-h8, s1-h9, s17-h10, s17-c1, s18-c2, s14-c3,
+  s13-c4, s2-c5, s8-c6, s19-c7, s14-c8, s17-c9, s1-c10, s14-c11]
+runfile: controllers
+s1: {type: LSLeaderSwitch}
+s10: {type: LSLeaderSwitch}
+s11: {type: LSLeaderSwitch}
+s12: {type: LSLeaderSwitch}
+s13: {type: LSLeaderSwitch}
+s14: {type: LSLeaderSwitch}
+s15: {type: LSLeaderSwitch}
+s16: {type: LSLeaderSwitch}
+s17: {type: LSLeaderSwitch}
+s18: {type: LSLeaderSwitch}
+s19: {type: LSLeaderSwitch}
+s2: {type: LSLeaderSwitch}
+s20: {type: LSLeaderSwitch}
+s3: {type: LSLeaderSwitch}
+s4: {type: LSLeaderSwitch}
+s5: {type: LSLeaderSwitch}
+s6: {type: LSLeaderSwitch}
+s7: {type: LSLeaderSwitch}
+s8: {type: LSLeaderSwitch}
+s9: {type: LSLeaderSwitch}

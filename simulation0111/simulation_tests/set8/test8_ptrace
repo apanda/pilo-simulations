@@ -1,0 +1,287 @@
+0 s1-s9 up
+0 s1-s14 up
+0 s1-s8 up
+0 s2-s4 up
+0 s2-s5 up
+0 s2-s9 up
+0 s2-s12 up
+0 s2-s13 up
+0 s2-s14 up
+0 s2-s16 up
+0 s2-s17 up
+0 s2-s18 up
+0 s3-s4 up
+0 s3-s6 up
+0 s3-s7 up
+0 s3-s12 up
+0 s3-s15 up
+0 s3-s17 up
+0 s3-s20 up
+0 s4-s5 up
+0 s4-s9 up
+0 s4-s14 up
+0 s4-s17 up
+0 s4-s18 up
+0 s5-s10 up
+0 s5-s12 up
+0 s5-s13 up
+0 s5-s16 up
+0 s5-s19 up
+0 s6-s7 up
+0 s6-s9 up
+0 s6-s10 up
+0 s6-s11 up
+0 s6-s12 up
+0 s6-s14 up
+0 s6-s16 up
+0 s6-s20 up
+0 s7-s10 up
+0 s7-s11 up
+0 s7-s12 up
+0 s7-s14 up
+0 s7-s19 up
+0 s7-s20 up
+0 s8-s9 up
+0 s8-s20 up
+0 s9-s11 up
+0 s10-s15 up
+0 s10-s16 up
+0 s11-s15 up
+0 s11-s17 up
+0 s11-s19 up
+0 s11-s20 up
+0 s12-s16 up
+0 s12-s17 up
+0 s12-s19 up
+0 s13-s17 up
+0 s13-s19 up
+0 s13-s16 up
+0 s14-s15 up
+0 s14-s18 up
+0 s15-s19 up
+0 s16-s20 up
+0 s17-s20 up
+0 s18-s19 up
+0 s19-s20 up
+0 s15-h1 up
+0 s3-h2 up
+0 s9-h3 up
+0 s20-h4 up
+0 s11-h5 up
+0 s3-h6 up
+0 s3-h7 up
+0 s6-h8 up
+0 s2-h9 up
+0 s11-h10 up
+0 s11-c1 up
+0 s4-c2 up
+0 s9-c3 up
+0 s1-c4 up
+0 s20-c5 up
+0 s11-c6 up
+0 s12-c7 up
+0 s10-c8 up
+0 s11-c9 up
+0 s7-c10 up
+0 s1-c11 up
+s7-s12 down
+s8-s20 down
+s2-s13 down
+s7-s12 up
+s3-s4 down
+s7-s14 down
+s2-s13 up
+s8-s20 up
+s7-s14 up
+s1-c4 down
+s1-c4 up
+s9-s11 down
+s9-s11 up
+s3-s4 up
+s15-h1 down
+s11-s20 down
+s15-h1 up
+s11-s20 up
+s3-s7 down
+s4-s5 down
+s2-s5 down
+s4-s5 up
+s13-s17 down
+s5-s19 down
+s20-h4 down
+s5-s19 up
+s6-s10 down
+s20-h4 up
+s13-s17 up
+s7-s20 down
+s5-s19 down
+s10-s16 down
+s20-c5 down
+s3-s7 up
+s7-s20 up
+s9-h3 down
+s20-c5 up
+s2-s12 down
+s9-h3 up
+s2-s5 up
+s5-s19 up
+s10-s16 up
+s6-s10 up
+s5-s16 down
+s5-s16 up
+s2-s12 up
+s9-c3 down
+s11-s15 down
+s9-c3 up
+s3-s17 down
+s4-s5 down
+s11-s15 up
+s4-s5 up
+s3-s17 up
+s7-s10 down
+s10-c8 down
+s10-c8 up
+s7-s10 up
+s3-h6 down
+s3-s7 down
+s9-h3 down
+s10-s15 down
+s20-c5 down
+s3-s12 down
+s3-s6 down
+s2-s4 down
+s3-s6 up
+s20-c5 up
+s3-s12 up
+s9-h3 up
+s6-s20 down
+s3-h6 up
+s10-s15 up
+s6-s20 up
+s3-s7 up
+s2-s4 up
+s2-s14 down
+s2-s14 up
+s2-h9 down
+s2-h9 up
+s3-h2 down
+s3-h2 up
+s11-c9 down
+s11-c9 up
+s4-s17 down
+s3-s15 down
+s3-s12 down
+s15-s19 down
+s3-s4 down
+s12-s19 down
+s12-s19 up
+s6-s7 down
+s9-h3 down
+s4-s17 up
+s15-s19 up
+s3-s6 down
+s6-s7 up
+s2-s14 down
+s2-s14 up
+s3-s12 up
+s6-s7 down
+s3-h7 down
+s9-h3 up
+s3-s15 up
+s12-s19 down
+s1-c11 down
+s15-h1 down
+s3-h7 up
+s9-c3 down
+s10-c8 down
+s9-c3 up
+s10-c8 up
+s12-s19 up
+s4-s17 down
+s20-c5 down
+s1-c11 up
+s15-h1 up
+s11-h10 down
+s3-s6 up
+s20-c5 up
+s3-s6 down
+s3-s17 down
+s3-h2 down
+s4-s9 down
+s3-s6 up
+s4-s17 up
+s3-s4 up
+s13-s17 down
+s8-s9 down
+s19-s20 down
+s4-s9 up
+s13-s17 up
+s16-s20 down
+s11-h10 up
+s6-h8 down
+s4-s14 down
+s3-s17 up
+s4-c2 down
+s11-c6 down
+s19-s20 up
+s13-s19 down
+s8-s9 up
+s6-s7 up
+s5-s12 down
+s1-c4 down
+s6-s7 down
+s6-s20 down
+s7-s20 down
+s6-s20 up
+s11-c6 up
+s6-s10 down
+s1-c4 up
+s5-s12 up
+s6-s20 down
+s15-s19 down
+s6-s20 up
+s4-c2 up
+s4-s14 up
+s7-s20 up
+s2-s16 down
+s7-s11 down
+s7-s14 down
+s6-s11 down
+s5-s19 down
+s7-s11 up
+s4-s18 down
+s6-s11 up
+s4-s18 up
+s10-s15 down
+s2-s13 down
+s2-s5 down
+s3-h2 up
+s2-s5 up
+s3-s12 down
+s7-s12 down
+s4-s17 down
+s2-s13 up
+s13-s19 up
+s11-h5 down
+s10-s15 up
+s5-s19 up
+s3-s4 down
+s15-h1 down
+s7-s12 up
+s5-s16 down
+s1-s14 down
+s2-s18 down
+s5-s16 up
+s2-s16 up
+s1-s8 down
+s7-s20 down
+s7-s19 down
+s18-s19 down
+s18-s19 up
+s1-s14 up
+s5-s16 down
+s7-s20 up
+s6-s10 up
+s5-s16 up
+s10-s16 down
+10000.000000 end
