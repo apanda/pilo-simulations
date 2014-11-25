@@ -68,5 +68,4 @@ class CoordinationOracle (object):
     for (idx, controllers) in components:
       for controller in controllers:
         if controller in self.registered_controllers:
-          print "Notifying %s of events"%(controller)
           self.registered_controllers[controller].NotifyOracleDecision(to_accept[idx])

@@ -92,5 +92,4 @@ class PaxosOracle (object):
       self.accepted[self.prop_count[accept]] = accept
     for controller in big_group:
       if controller in self.registered_controllers:
-        print "Notifying %s of events"%(controller)
         self.registered_controllers[controller].NotifyOracleDecision(self.accepted)
