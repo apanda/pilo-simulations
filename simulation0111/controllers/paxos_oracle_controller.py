@@ -43,6 +43,7 @@ class LSPaxosOracleControl (LSController):
       self.hosts.add(switch)
     if isinstance(switch, ControllerTrait):
       self.controllers.add(switch.name)
+    self.graph.add_node(switch.name)
 
   def NotifySwitchUp (self, pkt, src, switch):
     self.oracle.InformOracleEvent(self, (pkt, src, switch, ControlPacket.NotifySwitchUp)) 
