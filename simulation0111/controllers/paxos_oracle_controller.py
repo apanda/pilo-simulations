@@ -75,6 +75,9 @@ class LSPaxosOracleControl (LSController):
   def NotifyOracleDecision (self, log):
     # Just process all to get us to a good state
     self._graph.clear()
+    self.hosts.clear()
+    self.controllers.clear()
+    self.controllers.add(self.name)
     for prop in sorted(log.keys()):
       entry = log[prop]
       if entry[-1] == ControlPacket.NotifyLinkUp:
