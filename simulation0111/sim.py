@@ -89,7 +89,6 @@ class Simulation (object):
   
   def checkAllPaths (self):
     """For now this assumes singly homed hosts"""
-    print self.ctx.now
     if self.ctx.now <= 0.0:
       return
     tried = 0
