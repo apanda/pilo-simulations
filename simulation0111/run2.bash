@@ -2,7 +2,7 @@
 prefix=$1
 trace=$2
 outprefix=$3
-if [-z "$SEED"]; then echo "Using seed $SEED"; else SEED=42
+SEED=42
 for idx in 0 3 4
   do
     file="$prefix$idx"
