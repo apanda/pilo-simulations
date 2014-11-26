@@ -1,0 +1,69 @@
+c1:
+  args: {address: 10}
+  type: LSLeaderControl
+c2:
+  args: {address: 11}
+  type: LSLeaderControl
+c3:
+  args: {address: 12}
+  type: LSLeaderControl
+c4:
+  args: {address: 13}
+  type: LSLeaderControl
+c5:
+  args: {address: 14}
+  type: LSLeaderControl
+h1:
+  args: {address: 1}
+  type: Host
+h10:
+  args: {address: 10}
+  type: Host
+h2:
+  args: {address: 2}
+  type: Host
+h3:
+  args: {address: 3}
+  type: Host
+h4:
+  args: {address: 4}
+  type: Host
+h5:
+  args: {address: 5}
+  type: Host
+h6:
+  args: {address: 6}
+  type: Host
+h7:
+  args: {address: 7}
+  type: Host
+h8:
+  args: {address: 8}
+  type: Host
+h9:
+  args: {address: 9}
+  type: Host
+links: [s3-s17, s5-s15, s6-s9, s7-s9, s8-s9, s10-s15, s11-s13, s11-s16, s12-s16, s13-s14,
+  s2-h1, s9-h2, s18-h3, s2-h4, s1-h5, s15-h6, s11-h7, s11-h8, s13-h9, s19-h10, s16-c1,
+  s5-c2, s4-c3, s20-c4, s8-c5]
+runfile: controllers
+s1: {type: LSLeaderSwitch}
+s10: {type: LSLeaderSwitch}
+s11: {type: LSLeaderSwitch}
+s12: {type: LSLeaderSwitch}
+s13: {type: LSLeaderSwitch}
+s14: {type: LSLeaderSwitch}
+s15: {type: LSLeaderSwitch}
+s16: {type: LSLeaderSwitch}
+s17: {type: LSLeaderSwitch}
+s18: {type: LSLeaderSwitch}
+s19: {type: LSLeaderSwitch}
+s2: {type: LSLeaderSwitch}
+s20: {type: LSLeaderSwitch}
+s3: {type: LSLeaderSwitch}
+s4: {type: LSLeaderSwitch}
+s5: {type: LSLeaderSwitch}
+s6: {type: LSLeaderSwitch}
+s7: {type: LSLeaderSwitch}
+s8: {type: LSLeaderSwitch}
+s9: {type: LSLeaderSwitch}
