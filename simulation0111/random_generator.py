@@ -11,7 +11,7 @@ config = [
    ("CoordinatingControl", "LS2PCSwitch", "Host", "controllers"),
    ("HBControl", "HBSwitch", "HBHost", "controllers"), 
    ("LSGossipControl", "LinkStateSwitch", "Host", "controllers"),
-   ("LSPaxosOracleControl", "LinkStateSwitch", "Host", "controllers")
+   ("LSPaxosOracleControl", "LinkStateSwitch", "Host", "controllers"),
    ("CoordinationOracleControl", "LinkStateSwitch", "Host", "controllers")
 ]
 
@@ -22,7 +22,8 @@ config_args =  \
  "LSLeaderControl": {"addr": True},
  "CoordinatingControl": {"addr": True},
  "LSGossipControl": {"addr": True},
- "LSPaxosOracleControl": {"addr": True}
+ "LSPaxosOracleControl": {"addr": True},
+ "CoordinationOracleControl": {"addr": True}
 }
 
 def draw_graph(out, gfile):
@@ -104,9 +105,14 @@ if __name__ == "__main__":
    parser.add_argument("-nc", type=int, help="Number of controllers")
    parser.add_argument("-f", dest="file", default="", help="Output file name stem")
    parser.add_argument("-g", dest="gfile", default="", help="If enabled, writes visualization of the network to gfile")
+   parser.add_argument("-w", dest="waxman", action="store_true", help="Generate Waxman graph") 
+   parser.set_defaults(waxman = False)
    args = parser.parse_args()
-   
-   g = nx.erdos_renyi_graph(args.n, args.m*1.0/args.n)
+   g = None
+   if args.waxman:
+     g = nx.waxman_graph(args.n ,L=1)
+   else:
+     g = nx.erdos_renyi_graph(args.n, args.m*1.0/args.n)
    s1 = numpy.random.randint(args.n)
    s2 = numpy.random.randint(args.n)
    idx = 0
