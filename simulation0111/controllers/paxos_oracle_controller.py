@@ -14,6 +14,9 @@ class LSPaxosOracleControl (LSController):
 
   def currentLeader (self, switch):
     for c in sorted(list(self.controllers)):
+      if c not in self.graph:
+        nx.add_node(c)
+    for c in sorted(list(self.controllers)):
       if nx.has_path(self.graph, c, switch):
         return c #Find the first connected controller
 
@@ -46,12 +49,15 @@ class LSPaxosOracleControl (LSController):
       self.controllers.add(switch.name)
 
   def NotifySwitchUp (self, pkt, src, switch):
+    self.UpdateMembers(switch)
     self.oracle.InformOracleEvent(self, (pkt, src, switch, ControlPacket.NotifySwitchUp)) 
 
   def NotifyLinkUp (self, pkt, src, switch, link):
+    self.UpdateMembers(switch)
     self.oracle.InformOracleEvent(self, (pkt, src, switch, link, ControlPacket.NotifyLinkUp)) 
 
   def NotifyLinkDown (self, pkt, src, switch, link):
+    self.UpdateMembers(switch)
     self.oracle.InformOracleEvent(self, (pkt, src, switch, link, ControlPacket.NotifyLinkDown)) 
 
   def processSwitchUp (self, pkt, src, switch):
