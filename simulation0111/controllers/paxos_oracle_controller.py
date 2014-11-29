@@ -15,7 +15,7 @@ class LSPaxosOracleControl (LSController):
   def currentLeader (self, switch):
     for c in sorted(list(self.controllers)):
       if c not in self.graph:
-        nx.add_node(c)
+        self.graph.add_node(c)
     for c in sorted(list(self.controllers)):
       if nx.has_path(self.graph, c, switch):
         return c #Find the first connected controller
