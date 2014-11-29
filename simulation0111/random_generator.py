@@ -96,6 +96,17 @@ def gen_graph(g, n, m, hosts, ctrlrs, stype, htype, ctype, runfile, gfile, s1, s
          
    return out
 
+def fixGraph(g):
+  """A lot of our graphs are disconnected, it makes sense to reconnected"""
+  while (nx.number_connected_components(g) > 1):
+    components = nx.connected_components(g)
+    componentA = components[0]
+    componentB = components[1]
+    # TODO: Use preferential attachment?
+    nodeA = numpy.random.choice(componentA)
+    nodeB = numpy.random.choice(componentB)
+    g.add_edge(nodeA, nodeB)
+
 if __name__ == "__main__": 
    parser = argparse.ArgumentParser(description="Run this script to generate a YAML setup file with" \
                                     " random network graph")
@@ -113,6 +124,8 @@ if __name__ == "__main__":
      g = nx.waxman_graph(args.n ,L=1)
    else:
      g = nx.erdos_renyi_graph(args.n, args.m*1.0/args.n)
+   fixGraph(g)
+   print nx.number_connected_components(g)
    s1 = numpy.random.randint(args.n)
    s2 = numpy.random.randint(args.n)
    idx = 0
