@@ -14,6 +14,9 @@ class CoordinationOracleControl (LSController):
 
   def currentLeader (self, switch):
     for c in sorted(list(self.controllers)):
+      if c not in self.graph:
+        self.graph.add_node(c)
+    for c in sorted(list(self.controllers)):
       if nx.has_path(self.graph, c, switch):
         return c #Find the first connected controller
 
