@@ -209,6 +209,11 @@ class Simulation (object):
       print "Latency"
       for t in sorted(self.latency_at_time.keys()):
         print "%f %s"%(t, ' '.join(map(str, self.latency_at_time[t])))
+      # For packets that were never received, record (near) infintite latency
+      unaccounted_latency = []
+      for p in unaccounted_packets:
+        unaccounted_latency.append(self.ctx.now - self.sent_packet_time[p])
+      print "%f %s"%(self.ctx.now, ' '.join(map(str, unaccounted_latency)))
     
     print "Convergence"
     if show_converge:
