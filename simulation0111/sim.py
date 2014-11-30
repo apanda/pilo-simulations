@@ -211,7 +211,7 @@ class Simulation (object):
         print "%f %s"%(t, ' '.join(map(str, self.latency_at_time[t])))
       # For packets that were never received, record (near) infintite latency
       unaccounted_latency = []
-      for p in unaccounted_packets:
+      for p in self.unaccounted_packets:
         unaccounted_latency.append(self.ctx.now - self.sent_packet_time[p])
       print "%f %s"%(self.ctx.now, ' '.join(map(str, unaccounted_latency)))
     
