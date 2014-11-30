@@ -8,7 +8,8 @@ def Main(simulation_setup, avg_time_events, set_all_links_up, total_events, stab
   setup = yaml.load(x)
   nhosts = len(filter(lambda h: h.startswith('h'), setup.keys()))
   links_up = set()
-  links_down = set(setup['links'])
+  links_down = set(setup['fail_links'])
+  del setup['fail_links']
   if set_all_links_up:
     for link in setup['links']:
       print "0 %s up"%(link)

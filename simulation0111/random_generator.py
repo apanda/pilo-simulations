@@ -31,7 +31,7 @@ def draw_graph(out, gfile):
    import matplotlib.pyplot as plt
    G = nx.Graph()
    for key in out:
-      if key == "runfile":
+      if key == "runfile" or key == "fail_links":
          continue
       if key == "links":
          links = out[key]
@@ -54,7 +54,7 @@ def draw_graph(out, gfile):
    nx.draw_networkx_labels(G, pos, labels)
    plt.savefig(gfile)
 
-def gen_graph(g, n, m, hosts, ctrlrs, stype, htype, ctype, runfile, gfile, s1, s2):
+def gen_graph(g, n, m, hosts, ctrlrs, stype, htype, ctype, runfile, gfile, s1, s2, flinks):
    """Generate a graph with n switches (and m edges per node on average), host hosts
    and controller controllers.
    Hosts and controllers are singly connected"""
@@ -93,19 +93,26 @@ def gen_graph(g, n, m, hosts, ctrlrs, stype, htype, ctype, runfile, gfile, s1, s
                out[ctrl_id]['args'][key] = config_args[ctype][key]
       s = numpy.random.randint(n)
       out['links'].append("s%d-%s"%(s+1, ctrl_id))
-         
+
+   if flinks:
+      out['fail_links'] = flinks
+   else:
+      out['fail_links'] = out['links']
    return out
 
-def fixGraph(g):
+def fixGraph(_g):
   """A lot of our graphs are disconnected, it makes sense to reconnected"""
-  while (nx.number_connected_components(g) > 1):
-    components = nx.connected_components(g)
-    componentA = components[0]
-    componentB = components[1]
-    # TODO: Use preferential attachment?
-    nodeA = numpy.random.choice(componentA)
-    nodeB = numpy.random.choice(componentB)
-    g.add_edge(nodeA, nodeB)
+  while (nx.number_connected_components(_g) > 1):
+    components = nx.connected_components(_g)
+    count = 0
+    nodes = []
+    for c in components:
+       nodes.append(numpy.random.choice(c))
+       count += 1
+       if count == 2:
+          break
+    #nodeB = numpy.random.choice(componentB)
+    _g.add_edge(nodes[0], nodes[1])
 
 if __name__ == "__main__": 
    parser = argparse.ArgumentParser(description="Run this script to generate a YAML setup file with" \
@@ -117,14 +124,33 @@ if __name__ == "__main__":
    parser.add_argument("-f", dest="file", default="", help="Output file name stem")
    parser.add_argument("-g", dest="gfile", default="", help="If enabled, writes visualization of the network to gfile")
    parser.add_argument("-w", dest="waxman", action="store_true", help="Generate Waxman graph") 
+   parser.add_argument("-p", type=int, dest="partition", default=1,
+                       help="If specified, generates p densely connected components that are loosely connected with few links")
    parser.set_defaults(waxman = False)
    args = parser.parse_args()
-   g = None
-   if args.waxman:
-     g = nx.waxman_graph(args.n ,L=1)
-   else:
-     g = nx.erdos_renyi_graph(args.n, args.m*1.0/args.n)
-   fixGraph(g)
+   g = nx.erdos_renyi_graph(0, 0)
+   partition_size = args.n / args.partition
+   partitions = []
+   for p in xrange(args.partition):
+      _g = None
+      if args.waxman:
+         _g = nx.waxman_graph(partition_size)
+      else:
+         _g = nx.erdos_renyi_graph(partition_size, args.m*1.0/args.n)
+      fixGraph(_g)
+      partitions.append(_g)
+
+   failure_edges = []
+   for p in partitions:
+      g = nx.disjoint_union(g, p)
+      while (nx.number_connected_components(g) > 1):
+         nodes = []
+         for c in nx.connected_components(g):
+            nodes.append(numpy.random.choice(c))
+         g.add_edge(nodes[0], nodes[1])
+         failure_edges.append("s%d-s%d" % (nodes[0] + 1, nodes[1] + 1))
+
+   print failure_edges
    print nx.number_connected_components(g)
    s1 = numpy.random.randint(args.n)
    s2 = numpy.random.randint(args.n)
@@ -132,8 +158,8 @@ if __name__ == "__main__":
    for (ct, st, ht, runfile) in config:
       out = gen_graph(g, args.n, args.m,
                       args.nh, args.nc, \
-                      st, ht, ct, runfile,
-                      args.gfile, s1, s2)
+                      st, ht, ct, runfile, \
+                      args.gfile, s1, s2, failure_edges)
       
       f = open(args.file+str(idx)+".yaml", 'w')
       f.write(yaml.dump(out))
