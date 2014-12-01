@@ -7,7 +7,7 @@ from env import Singleton
 from collections import defaultdict
 import yaml
 """Generate a trace with links fail and are recovered at a time independent of failure"""
-def TransformTrace (links, nfailures, mttf, mttr, stable, wait):
+def TransformTrace (links, nfailures, mttf, mttr, stable, end_time):
   new_trace = []
   ctime = 0.0
   for link in links:
@@ -40,8 +40,8 @@ def TransformTrace (links, nfailures, mttf, mttr, stable, wait):
       new_trace.append("%f %s up"%(t, l))
       up_links.add(l)
     ctime = t
-  assert(ctime < wait)
-  ctime = wait
+  assert(ctime < end_time)
+  ctime = end_time
   new_trace.append("%f end"%ctime)
   return (ctime, new_trace)
 
@@ -72,7 +72,7 @@ def Main (args):
       random.seed(seed)
       print "mean_perturb %f"%(mean)
       print "generating trace"
-      (end_time, new_trace) = TransformTrace(links, links_to_fail, mean, mean_recovery, stable, wait)
+      (end_time, new_trace) = TransformTrace(links, links_to_fail, mean, mean_recovery, stable, end_time)
       print "done generating trace"
       print "TRACE TRACE TRACE"
       for t in new_trace:
