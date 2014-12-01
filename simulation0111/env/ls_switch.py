@@ -135,5 +135,5 @@ class LSController (LinkStateSwitch, ControllerTrait):
     raise NotImplementedError
   def UnknownPacket(self, src, packet):
     print "%s unknown message type %d"%(self.name, packet.message_type) 
-  def NackUpdateRules(self, src, packet):
+  def NotifyNackUpdate(self, src, packet):
     raise NotImplementedError
