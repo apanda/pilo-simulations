@@ -40,25 +40,29 @@ def TransformTrace (links, nfailures, mttf, mttr, stable, wait):
       new_trace.append("%f %s up"%(t, l))
       up_links.add(l)
     ctime = t
-  ctime += wait
+  assert(ctime < wait)
+  ctime = wait
   new_trace.append("%f end"%ctime)
   return (ctime, new_trace)
 
 def Main (args):
   show_converge = True
-  if len(args) != 9:
-    print >>sys.stderr, "Usage: perturbation_extreme.py setup stable_time links_to_fail mean_recovery wait_at_end begin_mean_perturb end_mean_perturn step_mean_perturb seed"
+  if len(args) != 10:
+    print >>sys.stderr, "Usage: perturbation_extreme.py setup stable_time links_to_fail mean_recovery end_time " + \
+                                " begin_mean_perturb end_mean_perturn step_mean_perturb sampling_rate seed"
   else:
     topo = open(args[0]).read()
     stable = float(args[1])
     links_to_fail = int(args[2])
     mean_recovery = float(args[3])
-    wait = float(args[4])
+    end_time = float(args[4])
     begin = float(args[5])
     end = float(args[6])
     step = float(args[7])
-    seed = int(args[8])
-    print "Setting %s %f %d %f %f %f %f %d"%(args[0], stable, links_to_fail, mean_recovery, begin, end, step, seed)
+    sampling_rate = float(args[8])
+    seed = int(args[9])
+    print "Setting %s %f %d %f %f %f %f %f %f %d"%(args[0], stable, links_to_fail, mean_recovery, end_time, begin, end,\
+            step, sampling, seed)
     links = yaml.load(topo)['links']
 
     for mean in np.arange(begin, end, step):
@@ -75,10 +79,10 @@ def Main (args):
         print t
       print "TRACE TRACE TRACE"
       sim.Setup(topo, new_trace, True)
-      for time in np.arange(stable, end_time, mean):
+      for time in np.arange(stable, end_time, sampling_rate):
         sim.scheduleCheck(time)
       # Measure latency less often
-      for time in np.arange(stable, end_time, mean):
+      for time in np.arange(stable, end_time, sampling_rate):
         for (ha, hb) in permutations(sim.hosts, 2):
           sim.scheduleSend(time, ha.name, ha.address, hb.address)
       sim.Run()
