@@ -62,7 +62,7 @@ def Main (args):
     sampling_rate = float(args[8])
     seed = int(args[9])
     print "Setting %s %f %d %f %f %f %f %f %f %d"%(args[0], stable, links_to_fail, mean_recovery, end_time, begin, end,\
-            step, sampling, seed)
+            step, sampling_rate, seed)
     links = yaml.load(topo)['links']
 
     for mean in np.arange(begin, end, step):
