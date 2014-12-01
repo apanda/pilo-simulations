@@ -80,3 +80,8 @@ class LSLeaderControl (LSController):
         self.graph.remove_edge(switch.name, neighbor)
     assert(switch.name in self.graph)
     self.ComputeAndUpdatePaths()
+
+  def NotifyNackUpdate (self, packet, src):
+    if self.currentLeader(src) == self.name:
+    # The update was not accepted, but this controller should still be leader. Let us try updating again.
+      self.ComputeAndUpdatePaths()

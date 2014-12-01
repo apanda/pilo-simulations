@@ -51,6 +51,7 @@ class ControlPacket (FloodPacket):
   ProposeReply = 17,
   AcceptReply = 18,
   PaxosMaxSeq = 19,
+  NackUpdateRules = 20,
   def __init__ (self, id, src_id, dest_id, mtype, message):
     super(ControlPacket, self).__init__(id)
     self.src_id = src_id

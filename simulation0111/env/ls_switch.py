@@ -65,11 +65,13 @@ class LSLeaderSwitch (LinkStateSwitch):
      from the current leader"""
   def __init__ (self, name, ctx):
     super(LSLeaderSwitch, self).__init__(name, ctx)
+    self.cpkt_id = 1
   
   def updateRules (self, source, match_action_pairs):
     if source != self.currentLeader:
-      pass
-      #print "%f %s rejecting update from non-leader %s"%(self.ctx.now, self.name, source)
+      packet = ControlPacket(self.cpkt_id, self.name, source, ControlPacket.NackUpdateRules, []) 
+      self.Flood(None, packet)
+      self.cpkt_id += 1
     else:
       super(LSLeaderSwitch, self).updateRules(source, match_action_pairs)
 
@@ -89,7 +91,8 @@ class LSController (LinkStateSwitch, ControllerTrait):
      ControlPacket.NotifyLinkUp: self.NotifyLinkUp,
      ControlPacket.PacketIn: self.PacketIn,
      ControlPacket.SwitchInformation: self.NotifySwitchInformation,
-     ControlPacket.GetSwitchInformation: lambda p, s: self.processSwitchInformation(s)
+     ControlPacket.GetSwitchInformation: lambda p, s: self.processSwitchInformation(s),
+     ControlPacket.NackUpdateRules: self.NotifyNackUpdate
     }
     self.cpkt_id = 0
   def Send (self, packet):
@@ -132,4 +135,5 @@ class LSController (LinkStateSwitch, ControllerTrait):
     raise NotImplementedError
   def UnknownPacket(self, src, packet):
     print "%s unknown message type %d"%(self.name, packet.message_type) 
-
+  def NackUpdateRules(self, src, packet):
+    raise NotImplementedError
