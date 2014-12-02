@@ -19,6 +19,7 @@ class Simulation (object):
     self.sent_packet_time = {}
     self.sent_packet_host = {}
     self.hosts = []
+    self.address_to_host = {}
     self.latency_at_time = {}
     self.packets_sent = 0
     self.packets_recved = 0
@@ -35,6 +36,7 @@ class Simulation (object):
     self.unaccounted_packets = list()
     self.sent_packet_time = {}
     self.hosts = []
+    self.address_to_host = {}
     self.latency_at_time = {}
     self.packets_sent = 0
     self.packets_recved = 0
@@ -61,14 +63,19 @@ class Simulation (object):
 
   def DropCallback (self, switch, source, packet):
     if packet in self.sent_packet_time:
-      # Resend
-      self.sent_packet_host[packet].Send(packet)
+      # Resend if physically connected
+      if nx.has_path(self.sent_packet_host[packet].name, self.address_to_host[packet.dest].name):
+        self.sent_packet_host[packet].Send(packet)
+      else:
+        self.unaccounted_packets.remove(packet)
   
   def Send(self, host, src, dest):
     #print "%f sending %d %d"%(self.ctx.now, src, dest)
-    p = SourceDestinationPacket(src, dest)
-    self.objs[host].Send(p)
-    #self.ctx.schedule_task(time, lambda: objs[host].Send(p))
+    # To reduce memory pressure, only send if src and dest are connected
+    if nx.has_path(host.name, self.address_to_host[dest].name):
+      p = SourceDestinationPacket(src, dest)
+      self.objs[host].Send(p)
+      #self.ctx.schedule_task(time, lambda: objs[host].Send(p))
 
   def scheduleCheck (self, time):
     self.ctx.schedule_task(time, self.checkAllPaths)
@@ -158,6 +165,7 @@ class Simulation (object):
         self.objs[s].recv_callback = self.HostRecvCallback
         self.hosts.append(self.objs[s])
         self.host_names.append(s)
+        self.address_to_host[self.objs[s].address] = self.objs[s]
       else:
         self.switch_names.append(s)
         if retry_send:
