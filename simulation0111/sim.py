@@ -64,7 +64,7 @@ class Simulation (object):
   def DropCallback (self, switch, source, packet):
     if packet in self.sent_packet_time:
       # Resend if physically connected
-      if nx.has_path(self.sent_packet_host[packet].name, self.address_to_host[packet.dest].name):
+      if nx.has_path(self.graph, self.sent_packet_host[packet].name, self.address_to_host[packet.destination]):
         self.sent_packet_host[packet].Send(packet)
       else:
         self.unaccounted_packets.remove(packet)
@@ -72,7 +72,7 @@ class Simulation (object):
   def Send(self, host, src, dest):
     #print "%f sending %d %d"%(self.ctx.now, src, dest)
     # To reduce memory pressure, only send if src and dest are connected
-    if nx.has_path(host.name, self.address_to_host[dest].name):
+    if nx.has_path(self.graph, host, self.address_to_host[dest]):
       p = SourceDestinationPacket(src, dest)
       self.objs[host].Send(p)
       #self.ctx.schedule_task(time, lambda: objs[host].Send(p))
@@ -165,7 +165,7 @@ class Simulation (object):
         self.objs[s].recv_callback = self.HostRecvCallback
         self.hosts.append(self.objs[s])
         self.host_names.append(s)
-        self.address_to_host[self.objs[s].address] = self.objs[s]
+        self.address_to_host[self.objs[s].address] = s
       else:
         self.switch_names.append(s)
         if retry_send:
