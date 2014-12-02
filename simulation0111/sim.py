@@ -138,7 +138,10 @@ class Simulation (object):
           #print "%f %s %s not connected at %s, path %s"%(self.ctx.now, ha.name, hb.name, current.name, visited)
           pass
     if tried > 0:
-      self.reachability_at_time[self.ctx.now] = (tried, connected, len(nx.connected_components(self.graph)))
+      length = 0
+      for g in nx.connected_components(self.graph):
+        length += 1
+      self.reachability_at_time[self.ctx.now] = (tried, connected, length)
 
   def Setup (self, simulation_setup, trace, retry_send = False):
     self.ctx = Context()
@@ -153,6 +156,7 @@ class Simulation (object):
     del setup["runfile"]
     links = setup['links']
     del setup['links']
+    del setup['fail_links']
     self.objs = {}
     for s, d in setup.iteritems():
       self.objs[s] = eval(d['type'])(s, self.ctx, **d['args']) if 'args' in d \

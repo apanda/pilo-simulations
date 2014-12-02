@@ -12,7 +12,8 @@ config = [
    ("HBControl", "HBSwitch", "HBHost", "controllers"), 
    ("LSGossipControl", "LinkStateSwitch", "Host", "controllers"),
    ("LSPaxosOracleControl", "LinkStateSwitch", "Host", "controllers"),
-   ("CoordinationOracleControl", "LinkStateSwitch", "Host", "controllers")
+   ("CoordinationOracleControl", "LinkStateSwitch", "Host", "controllers"),
+   ("Controller2PC", "LinkStateSwitch", "Host", "controllers")
 ]
 
 config_args =  \
@@ -23,7 +24,8 @@ config_args =  \
  "CoordinatingControl": {"addr": True},
  "LSGossipControl": {"addr": True},
  "LSPaxosOracleControl": {"addr": True},
- "CoordinationOracleControl": {"addr": True}
+ "CoordinationOracleControl": {"addr": True},
+ "Controller2PC": {"addr": True}
 }
 
 def draw_graph(out, gfile):
