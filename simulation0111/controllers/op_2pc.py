@@ -19,18 +19,28 @@ class Oracle2PC(object):
 
     def NotifyEvent(self, controller, event): 
         self.events.append((controller.name, event))
-    
+
     def ProcEvents(self):
+        self.ctx.schedule_task(self.delay * 2, self.ProcEvents)
+        if len(self.events) == 0:
+            return 
+        #print len(self.events)
+        event_set = {}
         for c, e in self.events:
-            self.ctx.schedule_task(
+            if c not in event_set:
+                event_set[c] = []
+            event_set[c].append(e)
+
+        for c, events in event_set.iteritems():
+            (lambda i, j: self.ctx.schedule_task(
                 1, 
-                lambda: self.StartPhase1(self.number, c, [e]))
+                lambda: self.StartPhase1(self.number, i, j)))(c, events)
             self.number += 1
 
         self.events = []
-        self.ctx.schedule_task(self.delay, self.ProcEvents)
 
     def StartPhase1(self, seq, controller, events):
+        #print "StartPhase1", seq, len(events)
         components = nx.connected_components(self.simulation.graph)
         controller_set = map(lambda component: \
                              filter(lambda c: c in self.simulation.controller_names, component), \
@@ -76,9 +86,11 @@ class Oracle2PC(object):
                     abort = True
                     break
             if not abort:
+                #print "Oracle", seq, controller_set
                 latency = self.ctx.config.ControlLatency
                 for c in controller_set:
-                    self.ctx.schedule_task(latency, lambda: self.registered_controllers[c].Phase2Reply(seq, events))
+                    (lambda x: self.ctx.schedule_task(latency, 
+                                                     lambda: self.registered_controllers[x].Phase2Reply(seq, events)))(c)
             else:
                 self.Abort(seq, controller, controller_set, events)                                       
 
@@ -126,12 +138,15 @@ class Controller2PC(LSController):
             self.in_progress_2pc = False
             return
 
+        #print "Phase2Reply", seq, self, self.graph.nodes()
         # update the current graph
         for e in events:
             event_type = e[-1]
             if event_type == ControlPacket.NotifyLinkUp:
+                self.UpdateMembers(e[-3])
                 super(Controller2PC, self).addLink(e[-2])
             elif event_type == ControlPacket.NotifyLinkDown:
+                self.UpdateMembers(e[-3])
                 super(Controller2PC, self).removeLink(e[-2])
             elif event_type == ControlPacket.NotifySwitchUp:
                 self.UpdateMembers(e[-2])
@@ -176,9 +191,6 @@ class Controller2PC(LSController):
                         link = self.graph[a][b]['link']
                         if self.currentLeader(a) == self.name:
                             self.UpdateRules(a, [(p.pack(), link)])
-
-    
-
 # A switch that lags
 class ControllerLag2PC(Controller2PC):
     def __init__(self, name, ctx, address):
