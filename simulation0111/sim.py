@@ -156,7 +156,8 @@ class Simulation (object):
     del setup["runfile"]
     links = setup['links']
     del setup['links']
-    del setup['fail_links']
+    if 'fail_links' in setup:
+      del setup['fail_links']
     self.objs = {}
     for s, d in setup.iteritems():
       self.objs[s] = eval(d['type'])(s, self.ctx, **d['args']) if 'args' in d \
