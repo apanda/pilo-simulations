@@ -83,8 +83,11 @@ class PaxosOracle (object):
           things_to_accept.append(proposed)
           break
     if len(big_group) <= (len(self.simulation.controller_names) / 2):
+      print "paxos not_available"
       assert(things_to_accept == [])
       return
+    else:
+      print "paxos available
     for accept in things_to_accept:
       self.proposed.remove(accept)
       self.already_accepted.add(accept)

@@ -63,7 +63,13 @@ def Main (args):
     seed = int(args[9])
     print "Setting %s %f %d %f %f %f %f %f %f %d"%(args[0], stable, links_to_fail, mean_recovery, end_time, begin, end,\
             step, sampling_rate, seed)
-    links = yaml.load(topo)['fail_links']
+    topo_yaml = yaml.load(topo)
+
+    # If no fail links then just use links
+    if 'fail_links' in topo_yaml:
+      links = topo_yaml['fail_links']
+    else: 
+      links = topo_yaml['links']
 
     for mean in np.arange(begin, end, step):
       Singleton.clear()
