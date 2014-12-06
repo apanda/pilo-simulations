@@ -1,0 +1,114 @@
+c1:
+  args: {address: 10, epoch: 5000, send_rate: 1000}
+  type: HBControl
+c2:
+  args: {address: 11, epoch: 5000, send_rate: 1000}
+  type: HBControl
+c3:
+  args: {address: 12, epoch: 5000, send_rate: 1000}
+  type: HBControl
+c4:
+  args: {address: 13, epoch: 5000, send_rate: 1000}
+  type: HBControl
+c5:
+  args: {address: 14, epoch: 5000, send_rate: 1000}
+  type: HBControl
+crit_links: [s1-s2, s2-s3, s3-s10, s10-s15, s15-s16, s3-s6, s6-s17, s2-s18, s1-s5,
+  s5-s9]
+fail_links: [s1-s2, s2-s3, s2-s4, s1-s5, s3-s6, s5-s7, s2-s8, s5-s9, s3-s10, s8-s11,
+  s9-s12, s7-s13, s1-s14, s10-s15, s15-s16, s6-s17, s2-s18, s13-s19, s2-s20]
+h1:
+  args: {address: 1, epoch: 5000, send_rate: 1000}
+  type: HBHost
+h10:
+  args: {address: 10, epoch: 5000, send_rate: 1000}
+  type: HBHost
+h2:
+  args: {address: 2, epoch: 5000, send_rate: 1000}
+  type: HBHost
+h3:
+  args: {address: 3, epoch: 5000, send_rate: 1000}
+  type: HBHost
+h4:
+  args: {address: 4, epoch: 5000, send_rate: 1000}
+  type: HBHost
+h5:
+  args: {address: 5, epoch: 5000, send_rate: 1000}
+  type: HBHost
+h6:
+  args: {address: 6, epoch: 5000, send_rate: 1000}
+  type: HBHost
+h7:
+  args: {address: 7, epoch: 5000, send_rate: 1000}
+  type: HBHost
+h8:
+  args: {address: 8, epoch: 5000, send_rate: 1000}
+  type: HBHost
+h9:
+  args: {address: 9, epoch: 5000, send_rate: 1000}
+  type: HBHost
+links: [s1-s2, s1-s5, s1-s14, s2-s3, s2-s4, s2-s8, s2-s18, s2-s20, s3-s6, s3-s10,
+  s5-s9, s5-s7, s6-s17, s7-s13, s8-s11, s9-s12, s10-s15, s13-s19, s15-s16, s10-h1,
+  s5-h2, s16-h3, s1-h4, s18-h5, s17-h6, s18-h7, s9-h8, s10-h9, s1-h10, s1-c1, s6-c2,
+  s9-c3, s14-c4, s20-c5]
+runfile: controllers
+s1:
+  args: {epoch: 5000, send_rate: 1000}
+  type: HBSwitch
+s10:
+  args: {epoch: 5000, send_rate: 1000}
+  type: HBSwitch
+s11:
+  args: {epoch: 5000, send_rate: 1000}
+  type: HBSwitch
+s12:
+  args: {epoch: 5000, send_rate: 1000}
+  type: HBSwitch
+s13:
+  args: {epoch: 5000, send_rate: 1000}
+  type: HBSwitch
+s14:
+  args: {epoch: 5000, send_rate: 1000}
+  type: HBSwitch
+s15:
+  args: {epoch: 5000, send_rate: 1000}
+  type: HBSwitch
+s16:
+  args: {epoch: 5000, send_rate: 1000}
+  type: HBSwitch
+s17:
+  args: {epoch: 5000, send_rate: 1000}
+  type: HBSwitch
+s18:
+  args: {epoch: 5000, send_rate: 1000}
+  type: HBSwitch
+s19:
+  args: {epoch: 5000, send_rate: 1000}
+  type: HBSwitch
+s2:
+  args: {epoch: 5000, send_rate: 1000}
+  type: HBSwitch
+s20:
+  args: {epoch: 5000, send_rate: 1000}
+  type: HBSwitch
+s3:
+  args: {epoch: 5000, send_rate: 1000}
+  type: HBSwitch
+s4:
+  args: {epoch: 5000, send_rate: 1000}
+  type: HBSwitch
+s5:
+  args: {epoch: 5000, send_rate: 1000}
+  type: HBSwitch
+s6:
+  args: {epoch: 5000, send_rate: 1000}
+  type: HBSwitch
+s7:
+  args: {epoch: 5000, send_rate: 1000}
+  type: HBSwitch
+s8:
+  args: {epoch: 5000, send_rate: 1000}
+  type: HBSwitch
+s9:
+  args: {epoch: 5000, send_rate: 1000}
+  type: HBSwitch

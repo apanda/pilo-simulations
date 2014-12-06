@@ -1,0 +1,74 @@
+c1:
+  args: {address: 10}
+  type: LSLeaderControl
+c2:
+  args: {address: 11}
+  type: LSLeaderControl
+c3:
+  args: {address: 12}
+  type: LSLeaderControl
+c4:
+  args: {address: 13}
+  type: LSLeaderControl
+c5:
+  args: {address: 14}
+  type: LSLeaderControl
+crit_links: [s1-s3, s3-s4, s4-s17, s3-s8, s8-s11, s11-s14, s14-s15, s4-s6, s1-s7,
+  s7-s12, s9-s10, s4-s5, s1-s2, s9-s12]
+fail_links: [s1-s2, s1-s3, s3-s4, s4-s5, s4-s6, s1-s7, s3-s8, s7-s12, s9-s10, s8-s11,
+  s5-s13, s11-s14, s14-s15, s3-s16, s4-s17, s12-s18, s4-s19, s2-s20]
+h1:
+  args: {address: 1}
+  type: Host
+h10:
+  args: {address: 10}
+  type: Host
+h2:
+  args: {address: 2}
+  type: Host
+h3:
+  args: {address: 3}
+  type: Host
+h4:
+  args: {address: 4}
+  type: Host
+h5:
+  args: {address: 5}
+  type: Host
+h6:
+  args: {address: 6}
+  type: Host
+h7:
+  args: {address: 7}
+  type: Host
+h8:
+  args: {address: 8}
+  type: Host
+h9:
+  args: {address: 9}
+  type: Host
+links: [s1-s2, s1-s3, s1-s7, s2-s20, s3-s16, s3-s4, s3-s8, s4-s17, s4-s19, s4-s5,
+  s4-s6, s5-s13, s7-s12, s8-s11, s9-s10, s9-s12, s11-s14, s12-s18, s14-s15, s10-h1,
+  s15-h2, s6-h3, s2-h4, s5-h5, s5-h6, s10-h7, s1-h8, s17-h9, s15-h10, s4-c1, s5-c2,
+  s10-c3, s15-c4, s20-c5]
+runfile: controllers
+s1: {type: LSLeaderSwitch}
+s10: {type: LSLeaderSwitch}
+s11: {type: LSLeaderSwitch}
+s12: {type: LSLeaderSwitch}
+s13: {type: LSLeaderSwitch}
+s14: {type: LSLeaderSwitch}
+s15: {type: LSLeaderSwitch}
+s16: {type: LSLeaderSwitch}
+s17: {type: LSLeaderSwitch}
+s18: {type: LSLeaderSwitch}
+s19: {type: LSLeaderSwitch}
+s2: {type: LSLeaderSwitch}
+s20: {type: LSLeaderSwitch}
+s3: {type: LSLeaderSwitch}
+s4: {type: LSLeaderSwitch}
+s5: {type: LSLeaderSwitch}
+s6: {type: LSLeaderSwitch}
+s7: {type: LSLeaderSwitch}
+s8: {type: LSLeaderSwitch}
+s9: {type: LSLeaderSwitch}
