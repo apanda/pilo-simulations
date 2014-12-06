@@ -56,7 +56,7 @@ def draw_graph(out, gfile):
    nx.draw_networkx_labels(G, pos, labels)
    plt.savefig(gfile)
 
-def gen_graph(g, n, m, hosts, ctrlrs, stype, htype, ctype, runfile, gfile, s1, s2, flinks):
+def gen_graph(g, n, m, hosts, ctrlrs, stype, htype, ctype, runfile, gfile, s1, s2, flinks, pnodes):
    """Generate a graph with n switches (and m edges per node on average), host hosts
    and controller controllers.
    Hosts and controllers are singly connected"""
@@ -81,7 +81,7 @@ def gen_graph(g, n, m, hosts, ctrlrs, stype, htype, ctype, runfile, gfile, s1, s
             out[host_id]['args'][key] = config_args[htype][key]
       s = numpy.random.randint(n)
       out['links'].append("s%d-%s"%(s+1, host_id))
-
+   ctrlr_per_partition = min(1, ctrlrs/len(pnodes))
    numpy.random.seed(s2)
    for ctrl in xrange(0, ctrlrs):
       ctrl_id = 'c%d'%(ctrl + 1)
@@ -93,7 +93,9 @@ def gen_graph(g, n, m, hosts, ctrlrs, stype, htype, ctype, runfile, gfile, s1, s
                out[ctrl_id]['args']['address'] = host + ctrl + 1
             else:
                out[ctrl_id]['args'][key] = config_args[ctype][key]
-      s = numpy.random.randint(n)
+      partition_for_ctrl = ctrl / ctrlr_per_partition 
+      s = numpy.random.randint(len(partition_nodes[partition_for_ctrl]))
+      s = partition_nodes[partition_for_ctrl][s]
       out['links'].append("s%d-%s"%(s+1, ctrl_id))
 
    if flinks:
@@ -139,12 +141,16 @@ if __name__ == "__main__":
          _g = nx.waxman_graph(partition_size)
       else:
          _g = nx.erdos_renyi_graph(partition_size, args.m*1.0/args.n)
-      fixGraph(_g)
+      # No need to fix graph, we take care of fixing up partitions below.
+      #fixGraph(_g)
       partitions.append(_g)
 
    failure_edges = []
+   partition_nodes = []
    for p in partitions:
+      before = len(g.nodes())
       g = nx.disjoint_union(g, p)
+      partition_nodes.append(g.nodes()[before:])
       while (nx.number_connected_components(g) > 1):
          nodes = []
          for c in nx.connected_components(g):
@@ -154,6 +160,7 @@ if __name__ == "__main__":
 
    print failure_edges
    print nx.number_connected_components(g)
+   print partition_nodes
    s1 = numpy.random.randint(args.n)
    s2 = numpy.random.randint(args.n)
    idx = 0
@@ -161,7 +168,7 @@ if __name__ == "__main__":
       out = gen_graph(g, args.n, args.m,
                       args.nh, args.nc, \
                       st, ht, ct, runfile, \
-                      args.gfile, s1, s2, failure_edges)
+                      args.gfile, s1, s2, failure_edges, partition_nodes)
       
       f = open(args.file+str(idx)+".yaml", 'w')
       f.write(yaml.dump(out))
