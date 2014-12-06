@@ -4,7 +4,7 @@ outprefix=$2
 recovery=$3
 SEED="42"
 SAMPLINGRATE="1000"
-ENDTIME="140000.0"
+ENDTIME="600000.0"
 for idx in 0 3 4 5
   do
     file="$prefix$idx"
