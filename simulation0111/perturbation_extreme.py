@@ -43,8 +43,9 @@ def TransformTrace (links, fail_links, nfailures, mttf, mttr, stable, end_time):
       new_trace.append("%f %s up"%(t, l))
       up_links.add(l)
     ctime = t
-  assert(ctime < end_time)
-  ctime = end_time
+  if ctime < end_time:
+    ctime = end_time
+  # Otherwise end instantly
   new_trace.append("%f end"%ctime)
   return (ctime, new_trace)
 
