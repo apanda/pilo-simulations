@@ -71,10 +71,10 @@ def Main (args):
     # If no fail links then just use links
     links = topo_yaml['links']
 
-    if 'crit_links' in topo_yaml:
-      fail_links = topo_yaml['crit_links']
-    elif 'fail_links' in topo_yaml:
+    if 'fail_links' in topo_yaml:
       fail_links = topo_yaml['fail_links']
+    else:
+      fail_links = links
 
     for mean in np.arange(begin, end, step):
       Singleton.clear()

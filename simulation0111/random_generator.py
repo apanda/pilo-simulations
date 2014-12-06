@@ -199,7 +199,8 @@ if __name__ == "__main__":
                       args.nh, args.nc, \
                       st, ht, ct, runfile, \
                       args.gfile, s1, s2, failure_edges, partition_nodes)
-      out["crit_links"] = find_critical_links(out)
+      if args.partition == 1:
+         out["fail_links"] = find_critical_links(out)
       f = open(args.file+str(idx)+".yaml", 'w')
       f.write(yaml.dump(out))
       f.close()
