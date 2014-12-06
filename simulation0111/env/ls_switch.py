@@ -103,9 +103,18 @@ class LSController (LinkStateSwitch, ControllerTrait):
       if packet.dest_id == ControlPacket.AllCtrlId or packet.dest_id == self.name:
         #print "%s received a control packet type %d"%(self.name, packet.message_type)
         self.processControlMessage(link, source, packet)
+        delay = self.ctx.config.ControlLatency
         if packet.message_type in self.switchboard:
-          delay = self.ctx.config.ControlLatency
           self.ctx.schedule_task(delay, lambda: self.switchboard[packet.message_type](packet, packet.src_id, *packet.message))
+          # Send out an acknowledgment for receiving this packet (don't add ACK types to the switchboard, that would be
+          # bad
+          p = ControlPacket(self.cpkt_id, self.name, packet.src_id, ControlPacket.ControlAck, [packet.id])
+          #print p
+          #print p.message_type
+          self.sendControlPacket(p)
+        elif  packet.message_type == ControlPacket.ControlAck:
+          # Don't ack ack packets
+          pass
         else:
           self.UnknownPacket(source, packet)
   def sendControlPacket(self, packet):
@@ -134,6 +143,6 @@ class LSController (LinkStateSwitch, ControllerTrait):
   def PacketIn(self, pkt, src, switch, source, packet):
     raise NotImplementedError
   def UnknownPacket(self, src, packet):
-    print "%s unknown message type %d"%(self.name, packet.message_type) 
+    print "%s unknown message type %s"%(self.name, packet) 
   def NotifyNackUpdate(self, src, packet):
     raise NotImplementedError

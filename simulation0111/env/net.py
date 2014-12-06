@@ -34,6 +34,8 @@ class Link (object):
     def deliverInternal(link, source, dest, packet):
       if link.up:
         dest.receive(link, source, packet)
+      else:
+        source.NotifyDrop(source, packet)
       #else:
         #print "Dropping packet for link from %s-%s"%(source, dest) #FIXME: Use logging
     pkt = copy(packet)

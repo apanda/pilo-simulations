@@ -1,6 +1,7 @@
 from . import Context, FloodPacket, Link, ControlPacket, ControllerTrait
 class Switch (object):
   """A simple match based switch, with no layer A functionality."""
+  RETRY_INTERVAL = 100
   def __init__ (self, name, ctx):
     self.name = name
     self.ctx = ctx
@@ -8,6 +9,8 @@ class Switch (object):
     self.rules = {}
     self.links = set()
     self.ctrl_messages = set()
+    # A control notification is unacked as long as at least one controller hasn't seen it.
+    self.unacked_ctrl = {}
     # This is a hack to avoid flooding infinitely since I don't want to implement
     # spanning tree. This is a bad hack to put in, but I am lazy.
     self.flooded_pkts = set()
@@ -15,7 +18,8 @@ class Switch (object):
     self.drop_callback = None
     self.ctrl_switchboard = {
       ControlPacket.UpdateRules: self.updateRules,
-      ControlPacket.ForwardPacket: self.forwardPacket
+      ControlPacket.ForwardPacket: self.forwardPacket,
+      ControlPacket.ControlAck: self.ackControl
     }
 
   def __repr__ (self):
@@ -29,6 +33,30 @@ class Switch (object):
     p = ControlPacket(self.cpkt_id, self.name, controller, type, args)
     self.cpkt_id += 1
     self.Flood(None, p)
+
+  def ackControl (self, source, id):
+    # Remove id
+    if id in self.unacked_ctrl:
+      del self.unacked_ctrl[id]
+
+  def relSend (self, id, p):
+    self.unacked_ctrl[id] = p
+    self.Flood(None, p)
+    self.ctx.schedule_task(Switch.RETRY_INTERVAL, 
+                             lambda: self.retryControlSend(id))
+
+  def sendToControllerReliable (self, type, args, controller = None):
+    """For now flood and send to all controllers, in some sense
+       all controllers need to correctly update their view, etc."""
+    if not controller:
+      controller = ControlPacket.AllCtrlId
+    p = ControlPacket(self.cpkt_id, self.name, controller, type, args)
+    self.relSend(self.cpkt_id, p)
+    self.cpkt_id += 1
+
+  def retryControlSend (self, id):
+    if id in self.unacked_ctrl:
+      self.relSend(id, self.unacked_ctrl[id])
 
   def updateRules (self, source, match_action_pairs):
     delay = self.ctx.config.UpdateDelay
@@ -46,7 +74,7 @@ class Switch (object):
 
   def anounceToController (self):
     #print "%s anouncing to controller switch up"%(self.name)
-    self.sendToController(ControlPacket.NotifySwitchUp, [self])
+    self.sendToControllerReliable(ControlPacket.NotifySwitchUp, [self])
 
   def Flood (self, link, packet):
     for l in self.links:
@@ -90,10 +118,13 @@ class Switch (object):
       self.ctx.schedule_task(delay, \
               lambda: self.rules[match].Send(self, packet))
     else:
-      # Dropping packet
-      if self.drop_callback:
-        self.drop_callback(self, source, packet)
-      self.sendToController(ControlPacket.PacketIn, [self, source, packet])
+      self.NotifyDrop (source, packet)
+      self.sendToControllerReliable(ControlPacket.PacketIn, [self, source, packet])
+
+  def NotifyDrop (self, source, packet):
+    # Dropping packet
+    if self.drop_callback:
+      self.drop_callback(self, source, packet)
   
   def forwardPacket (self, link, packet):
     delay = self.ctx.config.SwitchLatency
@@ -102,11 +133,11 @@ class Switch (object):
 
   def NotifyDown (self, link):
     self.links.remove(link)
-    self.sendToController(ControlPacket.NotifyLinkDown, [self, link])
+    self.sendToControllerReliable(ControlPacket.NotifyLinkDown, [self, link])
 
   def NotifyUp (self, link):
     self.links.add(link)
-    self.sendToController(ControlPacket.NotifyLinkUp, [self, link])
+    self.sendToControllerReliable(ControlPacket.NotifyLinkUp, [self, link])
 
 class VersionedSwitch (Switch):
   def __init__ (self, name, ctx):
