@@ -109,7 +109,7 @@ def gen_graph(g, n, m, hosts, ctrlrs, stype, htype, ctype, runfile, gfile, s1, s
             out[host_id]['args'][key] = config_args[htype][key]
       s = numpy.random.randint(n)
       out['links'].append("s%d-%s"%(s+1, host_id))
-   ctrlr_per_partition = min(1, ctrlrs/len(pnodes))
+   #ctrlr_per_partition = min(1, ctrlrs/len(pnodes))
    numpy.random.seed(s2)
    for ctrl in xrange(0, ctrlrs):
       ctrl_id = 'c%d'%(ctrl + 1)
@@ -121,7 +121,8 @@ def gen_graph(g, n, m, hosts, ctrlrs, stype, htype, ctype, runfile, gfile, s1, s
                out[ctrl_id]['args']['address'] = host + ctrl + 1
             else:
                out[ctrl_id]['args'][key] = config_args[ctype][key]
-      partition_for_ctrl = ctrl / ctrlr_per_partition 
+      # assign controllers to partitions in order
+      partition_for_ctrl = ctrl % len(pnodes)
       s = numpy.random.randint(len(partition_nodes[partition_for_ctrl]))
       s = partition_nodes[partition_for_ctrl][s]
       out['links'].append("s%d-%s"%(s+1, ctrl_id))
@@ -198,7 +199,8 @@ if __name__ == "__main__":
                       args.nh, args.nc, \
                       st, ht, ct, runfile, \
                       args.gfile, s1, s2, failure_edges, partition_nodes)
-      out["crit_links"] = find_critical_links(out)
+      if args.partition == 1:
+         out["fail_links"] = find_critical_links(out)
       f = open(args.file+str(idx)+".yaml", 'w')
       f.write(yaml.dump(out))
       f.close()
