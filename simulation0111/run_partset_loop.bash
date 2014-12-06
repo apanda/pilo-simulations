@@ -5,6 +5,6 @@ outpfx=$3
 
 #for i in $arg
   #do
-./run_ex.bash simulation_tests/partset$i/partset$i $3/partset$i $mttr
+./run_ex.bash simulation_tests/partset$arg/partset$arg $outpfx/partset$arg $mttr
 wait
 #done
