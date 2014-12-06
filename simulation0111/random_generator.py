@@ -33,7 +33,7 @@ def draw_graph(out, gfile):
    import matplotlib.pyplot as plt
    G = nx.Graph()
    for key in out:
-      if key == "runfile" or key == "fail_links":
+      if key == "runfile" or key == "fail_links" or key == "crit_links":
          continue
       if key == "links":
          links = out[key]
@@ -55,6 +55,34 @@ def draw_graph(out, gfile):
       labels[x[0]] = x[0]
    nx.draw_networkx_labels(G, pos, labels)
    plt.savefig(gfile)
+
+def find_critical_links(out):
+   # for a graph, find the critical links that would cause reachability problems
+   # if they fail
+   G = nx.Graph()
+   for key in out:
+      if key == "runfile" or key == "fail_links":
+         continue
+      if key == "links":
+         links = out[key]
+         for l in links:
+            p = l.split('-')
+            G.add_edge(p[1], p[0], type="link")
+      else:
+         G.add_node(key, node_type=out[key]['type'])
+   sp = nx.shortest_paths.all_pairs_shortest_path(G)
+   
+   crit_links = []
+   for (source, paths) in sp.iteritems():
+      if source.startswith('h'):
+         for (dest, path) in paths.iteritems():
+            p = path[1:-1]
+            if dest.startswith('h') and source != dest and len(p) > 1:
+               for idx in xrange(len(p) - 1):
+                  l = "%s-%s" % (p[idx], p[idx+1])
+                  if l in out["links"] and l not in crit_links:
+                     crit_links.append(l)
+   return crit_links
 
 def gen_graph(g, n, m, hosts, ctrlrs, stype, htype, ctype, runfile, gfile, s1, s2, flinks):
    """Generate a graph with n switches (and m edges per node on average), host hosts
@@ -100,6 +128,7 @@ def gen_graph(g, n, m, hosts, ctrlrs, stype, htype, ctype, runfile, gfile, s1, s
       out['fail_links'] = flinks
    else:
       out['fail_links'] = out['links']
+
    return out
 
 def fixGraph(_g):
@@ -162,7 +191,8 @@ if __name__ == "__main__":
                       args.nh, args.nc, \
                       st, ht, ct, runfile, \
                       args.gfile, s1, s2, failure_edges)
-      
+
+      out["crit_links"] = find_critical_links(out)
       f = open(args.file+str(idx)+".yaml", 'w')
       f.write(yaml.dump(out))
       f.close()
@@ -170,3 +200,4 @@ if __name__ == "__main__":
 
    if args.gfile != "":
       draw_graph(out, args.gfile)
+

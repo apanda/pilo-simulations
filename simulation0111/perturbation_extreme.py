@@ -7,7 +7,7 @@ from env import Singleton
 from collections import defaultdict
 import yaml
 """Generate a trace with links fail and are recovered at a time independent of failure"""
-def TransformTrace (links, nfailures, mttf, mttr, stable, end_time):
+def TransformTrace (links, fail_links, nfailures, mttf, mttr, stable, end_time):
   new_trace = []
   ctime = 0.0
   for link in links:
@@ -27,8 +27,11 @@ def TransformTrace (links, nfailures, mttf, mttr, stable, end_time):
     if len(up_links) == 0:
       # Nothing to fail
       continue
-    to_fail = random.choice(list(up_links))
-    up_links.remove(to_fail)
+    while True:
+      to_fail = random.choice(list(fail_links))
+      if to_fail in up_links:
+        up_links.remove(to_fail)
+        break
     new_trace.append("%f %s down"%(ctime, to_fail))
     recovery_time = random.exponential(mttr)
     assert(recovery_time) > 0
@@ -66,10 +69,12 @@ def Main (args):
     topo_yaml = yaml.load(topo)
 
     # If no fail links then just use links
-    if 'fail_links' in topo_yaml:
-      links = topo_yaml['fail_links']
-    else: 
-      links = topo_yaml['links']
+    links = topo_yaml['links']
+
+    if 'crit_links' in topo_yaml:
+      fail_links = topo_yaml['crit_links']
+    elif 'fail_links' in topo_yaml:
+      fail_links = topo_yaml['fail_links']
 
     for mean in np.arange(begin, end, step):
       Singleton.clear()
@@ -78,7 +83,7 @@ def Main (args):
       random.seed(seed)
       print "mean_perturb %f"%(mean)
       print "generating trace"
-      (end_time, new_trace) = TransformTrace(links, links_to_fail, mean, mean_recovery, stable, end_time)
+      (end_time, new_trace) = TransformTrace(links, fail_links, links_to_fail, mean, mean_recovery, stable, end_time)
       print "done generating trace"
       print "TRACE TRACE TRACE"
       for t in new_trace:

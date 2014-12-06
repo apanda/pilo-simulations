@@ -158,6 +158,8 @@ class Simulation (object):
     del setup['links']
     if 'fail_links' in setup:
       del setup['fail_links']
+    if 'crit_links' in setup:
+      del setup['crit_links']
     self.objs = {}
     for s, d in setup.iteritems():
       self.objs[s] = eval(d['type'])(s, self.ctx, **d['args']) if 'args' in d \
