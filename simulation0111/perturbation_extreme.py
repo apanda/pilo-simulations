@@ -90,7 +90,7 @@ def Main (args):
       for t in new_trace:
         print t
       print "TRACE TRACE TRACE"
-      sim.Setup(topo, new_trace, True)
+      sim.Setup(topo, new_trace, False)
       for time in np.arange(stable, end_time, sampling_rate):
         sim.scheduleCheck(time)
       # Measure latency less often
