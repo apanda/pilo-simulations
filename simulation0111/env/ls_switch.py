@@ -85,6 +85,7 @@ class LSController (LinkStateSwitch, ControllerTrait):
   """Generic controller with link state based layer A"""
   def __init__ (self, name, ctx, address):
     super(LSController, self).__init__(name, ctx)
+    self.cpkts_seen = set()
     self.switchboard = {
      ControlPacket.NotifySwitchUp: self.NotifySwitchUp,
      ControlPacket.NotifyLinkDown: self.NotifyLinkDown,
@@ -101,22 +102,24 @@ class LSController (LinkStateSwitch, ControllerTrait):
     if isinstance(packet, ControlPacket):
       # Received a control packet
       if packet.dest_id == ControlPacket.AllCtrlId or packet.dest_id == self.name:
-        #print "%s received a control packet type %d"%(self.name, packet.message_type)
-        self.processControlMessage(link, source, packet)
-        delay = self.ctx.config.ControlLatency
-        if packet.message_type in self.switchboard:
-          self.ctx.schedule_task(delay, lambda: self.switchboard[packet.message_type](packet, packet.src_id, *packet.message))
-          # Send out an acknowledgment for receiving this packet (don't add ACK types to the switchboard, that would be
-          # bad
-          p = ControlPacket(self.cpkt_id, self.name, packet.src_id, ControlPacket.ControlAck, [packet.id])
-          #print p
-          #print p.message_type
-          self.sendControlPacket(p)
-        elif  packet.message_type == ControlPacket.ControlAck:
-          # Don't ack ack packets
-          pass
-        else:
-          self.UnknownPacket(source, packet)
+        if (packet.src_id, packet.id) not in self.cpkts_seen:
+          self.cpkts_seen.add((packet.src_id, packet.id))
+          #print "%s received a control packet type %d"%(self.name, packet.message_type)
+          self.processControlMessage(link, source, packet)
+          delay = self.ctx.config.ControlLatency
+          if packet.message_type in self.switchboard:
+            self.ctx.schedule_task(delay, lambda: self.switchboard[packet.message_type](packet, packet.src_id, *packet.message))
+            # Send out an acknowledgment for receiving this packet (don't add ACK types to the switchboard, that would be
+            # bad
+            p = ControlPacket(self.cpkt_id, self.name, packet.src_id, ControlPacket.ControlAck, [packet.id])
+            #print p
+            #print p.message_type
+            self.sendControlPacket(p)
+          elif  packet.message_type == ControlPacket.ControlAck:
+            # Don't ack ack packets
+            pass
+          else:
+            self.UnknownPacket(source, packet)
   def sendControlPacket(self, packet):
     delay = self.ctx.config.ControlLatency
     self.ctx.schedule_task(delay, lambda: self.Send(packet))
