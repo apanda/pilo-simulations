@@ -1,6 +1,7 @@
 from env import *
 import networkx as nx
 class LSLeaderControl (LSController):
+  NACK_DELAY = 100.0 # Wait for a bit before trying things again.
   def __init__ (self, name, ctx, address):
     super(LSLeaderControl, self).__init__(name, ctx, address)
     self.hosts = set()
@@ -82,6 +83,8 @@ class LSLeaderControl (LSController):
     self.ComputeAndUpdatePaths()
 
   def NotifyNackUpdate (self, packet, src):
-    if self.currentLeader(src) == self.name:
-    # The update was not accepted, but this controller should still be leader. Let us try updating again.
-      self.ComputeAndUpdatePaths()
+    def NotifyNackInternal ():
+      if self.currentLeader(src) == self.name:
+      # The update was not accepted, but this controller should still be leader. Let us try updating again.
+        self.ComputeAndUpdatePaths()
+    self.ctx.schedule_task(LSLeaderControl.NACK_DELAY, NotifyNackInternal)
