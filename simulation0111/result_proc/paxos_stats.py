@@ -38,7 +38,7 @@ for l in f:
     elif p[1] == "not_available": 
       not_avail += 1
     
-if mean and len(components) > 0:
+if mean:
   print "%f %d %d %f"%(mean, \
                     avail, \
                     not_avail, \
