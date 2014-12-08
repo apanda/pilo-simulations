@@ -84,11 +84,13 @@ def find_critical_links(out):
                      crit_links.append(l)
    return crit_links
 
-def gen_graph(g, n, m, hosts, ctrlrs, stype, htype, ctype, runfile, gfile, s1, s2, flinks, pnodes):
+def gen_graph(g, n, m, hosts, ctrlrs, stype, htype, ctype, runfile, gfile, s1, s2, pnodes, is_oob):
    """Generate a graph with n switches (and m edges per node on average), host hosts
    and controller controllers.
    Hosts and controllers are singly connected"""
    out = {"runfile": runfile}
+   out['fail_links'] = []
+
    for node in g.nodes_iter():
       sname = 's%d'%(node + 1)
       out[sname] = {'type': stype} 
@@ -109,7 +111,7 @@ def gen_graph(g, n, m, hosts, ctrlrs, stype, htype, ctype, runfile, gfile, s1, s
             out[host_id]['args'][key] = config_args[htype][key]
       s = numpy.random.randint(n)
       out['links'].append("s%d-%s"%(s+1, host_id))
-   #ctrlr_per_partition = min(1, ctrlrs/len(pnodes))
+
    numpy.random.seed(s2)
    for ctrl in xrange(0, ctrlrs):
       ctrl_id = 'c%d'%(ctrl + 1)
@@ -121,16 +123,23 @@ def gen_graph(g, n, m, hosts, ctrlrs, stype, htype, ctype, runfile, gfile, s1, s
                out[ctrl_id]['args']['address'] = host + ctrl + 1
             else:
                out[ctrl_id]['args'][key] = config_args[ctype][key]
-      # assign controllers to partitions in order
-      partition_for_ctrl = ctrl % len(pnodes)
-      s = numpy.random.randint(len(partition_nodes[partition_for_ctrl]))
-      s = partition_nodes[partition_for_ctrl][s]
-      out['links'].append("s%d-%s"%(s+1, ctrl_id))
-
-   if flinks:
-      out['fail_links'] = flinks
-   else:
-      out['fail_links'] = out['links']
+      if is_oob:
+         numpy.random.seed(s2)
+         s = numpy.random.randint(len(g.nodes()))
+         l = "s%d-%s" % (s+1, ctrl_id)
+         out['links'].append(l)
+         for ctrl2 in xrange(ctrl, ctrlrs):
+            ctrl2_id = 'c%d'%(ctrl2 + 1)
+            # connect controllers with each other
+            if ctrl == ctrl2:
+               continue
+            out['links'].append("%s-%s" % (ctrl_id, ctrl2_id))
+      else:
+         # assign controllers to partitions in order
+         partition_for_ctrl = ctrl % len(pnodes)
+         s = numpy.random.randint(len(partition_nodes[partition_for_ctrl]))
+         s = partition_nodes[partition_for_ctrl][s]
+         out['links'].append("s%d-%s"%(s+1, ctrl_id))
 
    return out
 
@@ -160,6 +169,8 @@ if __name__ == "__main__":
    parser.add_argument("-w", dest="waxman", action="store_true", help="Generate Waxman graph") 
    parser.add_argument("-p", type=int, dest="partition", default=1,
                        help="If specified, generates p densely connected components that are loosely connected with few links")
+   parser.add_argument("-oob", dest="is_oob", action="store_true", help="Are controllers 'out-of-band'?")
+   parser.add_argument("--fail_crit", dest="fail_crit", action="store_true", help="Should we fail critical links?")
    parser.set_defaults(waxman = False)
    args = parser.parse_args()
    g = nx.erdos_renyi_graph(0, 0)
@@ -198,9 +209,17 @@ if __name__ == "__main__":
       out = gen_graph(g, args.n, args.m,
                       args.nh, args.nc, \
                       st, ht, ct, runfile, \
-                      args.gfile, s1, s2, failure_edges, partition_nodes)
-      if args.partition == 1:
-         out["fail_links"] = find_critical_links(out)
+                      args.gfile, s1, s2, partition_nodes, args.is_oob)
+      if args.partition > 1:
+         for l in failure_edges:
+            out["fail_links"].append(l)
+      elif args.fail_crit:
+         crit_links = find_critical_links(out)
+         for l in crit_links:
+            out["fail_links"].append(l)
+      else:
+         for l in out["links"]:
+            out["fail_links"].append(l)
       f = open(args.file+str(idx)+".yaml", 'w')
       f.write(yaml.dump(out))
       f.close()
