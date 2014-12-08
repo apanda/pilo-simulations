@@ -3,7 +3,7 @@ prefix=$1
 outprefix=$2
 recovery=$3
 SEED="42"
-SAMPLINGRATE="1000"
+SAMPLINGRATE="25000"
 ENDTIME="600000.0"
 for idx in 0 3 4 5
   do
