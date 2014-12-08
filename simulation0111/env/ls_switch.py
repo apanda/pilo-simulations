@@ -70,7 +70,7 @@ class LSLeaderSwitch (LinkStateSwitch):
   def updateRules (self, source, match_action_pairs):
     if source != self.currentLeader:
       #packet = ControlPacket(self.cpkt_id, self.name, source, ControlPacket.NackUpdateRules, []) 
-      self.Flood(None, packet)
+      #self.Flood(None, packet)
       self.cpkt_id += 1
     else:
       super(LSLeaderSwitch, self).updateRules(source, match_action_pairs)
