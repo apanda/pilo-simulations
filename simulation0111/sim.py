@@ -277,7 +277,7 @@ class Simulation (object):
 
   def Report (self, show_converge):
     print "Rule Changes"
-    for (t, w) in self.rule_change_notification:
+    for (t, w) in self.rule_changes:
       print "%f %s change"%(t, w)
     if self.packets_sent > 0:
       print "%f %d packets sent total %d recved (Loss %f%%)"%(self.ctx.now, \
