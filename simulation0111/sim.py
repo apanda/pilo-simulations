@@ -147,7 +147,53 @@ class Simulation (object):
   def RuleChangeNotification (self, name): 
     self.rule_changes.append((self.ctx.now, name))
 
-  def Setup (self, simulation_setup, trace, retry_send = False):
+  def calcConvergeTime(self, t1, t2, converge_time = -1):
+    # calculate the exact time that the network becomes stable:
+    # switch states and controller states match with the physical network
+    converged = True
+
+    # controllers should be consistent with each other and the underlying graph
+    for c in self.controller_names:
+      ctrl = self.objs[c]
+      if not nx.is_isomorphic(self.graph, ctrl.graph):
+        converged = False
+        break
+    # switches should also be consistent with each other and the controllers
+    if converged:
+      c = self.objs[self.controller_names[0]]
+      rules = {}
+      for s in self.switch_names:
+        rules[s] = {}
+      sp = nx.shortest_paths.all_pairs_shortest_path(c.graph)
+      for host in c.hosts:
+        for h2 in c.hosts:
+          if h2 == host:
+            continue
+          if h2.name in sp[host.name]:
+            p = SourceDestinationPacket(host.address, h2.address)
+            path = zip(sp[host.name][h2.name], \
+                       sp[host.name][h2.name][1:])
+            for (a, b) in path[1:]:
+              link = c.graph[a][b]['link']
+              rules[a][p.pack()] = link
+
+      for s in self.switch_names:
+        sw = self.objs[s]
+        if rules[s] != sw.rules:
+          print self.ctx.now, s, len(rules), len(sw.rules)
+          converged = False
+          break
+
+    if converged:
+      if converge_time == -1:
+        print "CONVERGE_TIME: ", t1, t2, self.ctx.now
+        self.ctx.schedule_task(10, lambda: self.calcConvergeTime(t1, t2, self.ctx.now))
+      else:
+        self.ctx.schedule_task(10, lambda: self.calcConvergeTime(t1, t2, converge_time))
+    else:
+      self.ctx.schedule_task(10, lambda: self.calcConvergeTime(t1, t2, -1))
+
+  def Setup (self, simulation_setup, trace, retry_send = False, converge_time = True):
     self.ctx = Context()
 
     setup = yaml.load(simulation_setup)
@@ -187,6 +233,8 @@ class Simulation (object):
       p = l.split('-')
       self.link_objs[l] = Link(self.ctx, self.objs[p[0]], self.objs[p[1]])
       self.link_objs['%s-%s'%(p[1], p[0])] = self.link_objs[l]
+    first_link_event = None
+    last_link_event = None
     for ev in trace:
       if ev.startswith("//"):
         continue
@@ -201,6 +249,10 @@ class Simulation (object):
           self.scheduleLinkDown(time, link)
         else:
           print "Unknown request"
+        if converge_time:
+          if first_link_event is None:
+            first_link_event = time
+          last_link_event = time
       elif parts[1] == 'end':
         # End of simulation time.
         self.ctx.final_time = time
@@ -213,6 +265,9 @@ class Simulation (object):
           self.scheduleSend(time, host, addr_a, addr_b)
         else:
           print "Unknown request"
+    if converge_time:
+      print "Scheduling converge time at ", last_link_event
+      self.ctx.schedule_task(last_link_event, lambda: self.calcConvergeTime(first_link_event, last_link_event, -1))
   def Run (self):
     if self.check_always:
       self.ctx.post_task_check = self.checkAllPaths
