@@ -7,7 +7,7 @@ import matplotlib
 
 config = [
    # Controller type, switch type, host type
-   ("LSLeaderControl", "LSLeaderSwitch", "Host", "controllers"),
+   ("LSLeaderControl", "LinkStateSwitch", "Host", "controllers"),
    ("CoordinatingControl", "LS2PCSwitch", "Host", "controllers"),
    ("HBControl", "HBSwitch", "HBHost", "controllers"), 
    ("LSGossipControl", "LinkStateSwitch", "Host", "controllers"),
