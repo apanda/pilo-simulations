@@ -157,6 +157,11 @@ class Simulation (object):
       ctrl = self.objs[c]
       if not nx.is_isomorphic(self.graph, ctrl.graph):
         converged = False
+        cgraph = nx.Graph(ctrl.graph)
+        node_diff = set(self.graph.nodes()) - set(cgraph.nodes())
+        cgraph.add_nodes_from(list(node_diff))
+        diff = nx.difference(self.graph, cgraph)
+        #print "%f %s not converged %s"%(self.ctx.now, ctrl.name, diff.edges())
         break
     # switches should also be consistent with each other and the controllers
     if converged:

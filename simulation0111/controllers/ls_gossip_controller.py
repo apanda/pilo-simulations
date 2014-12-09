@@ -7,6 +7,10 @@ class LSGossipControl (LSController):
     self._controllers = set([self.name])
     self.announcements = set()
     self.connected_to_controller = {self.name: True}
+  
+  @property
+  def hosts (self):
+    return self._hosts
 
   def PacketIn(self, pkt, src, switch, source, packet):
     pass
