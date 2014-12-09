@@ -14,6 +14,7 @@ class Switch (object):
     # This is a hack to avoid flooding infinitely since I don't want to implement
     # spanning tree. This is a bad hack to put in, but I am lazy.
     self.flooded_pkts = set()
+    self.rule_change_notification = None
     self.cpkt_id = 0
     self.drop_callback = None
     self.ctrl_switchboard = {
@@ -60,8 +61,15 @@ class Switch (object):
 
   def updateRules (self, source, match_action_pairs):
     delay = self.ctx.config.UpdateDelay
+    def updateRules ():
+      if self.rule_change_notification:
+        for (r, l) in match_action_pairs:
+          if r not in self.rules or l != self.rules[r]:
+            self.rule_change_notification(self.name)
+      self.rules.update(match_action_pairs)
+
     self.ctx.schedule_task(delay, \
-            lambda: self.rules.update(match_action_pairs))
+            updateRules)
   
   def processSwitchInformation (self, source):
     p = ControlPacket(self.cpkt_id, \

@@ -21,6 +21,7 @@ class Simulation (object):
     self.hosts = []
     self.address_to_host = {}
     self.latency_at_time = {}
+    self.rule_changes = []
     self.packets_sent = 0
     self.packets_recved = 0
     self.reachability_at_time = {}
@@ -143,6 +144,9 @@ class Simulation (object):
         length += 1
       self.reachability_at_time[self.ctx.now] = (tried, connected, length)
 
+  def RuleChangeNotification (self, name): 
+    self.rule_changes.append((self.ctx.now, name))
+
   def Setup (self, simulation_setup, trace, retry_send = False):
     self.ctx = Context()
 
@@ -177,6 +181,7 @@ class Simulation (object):
         self.switch_names.append(s)
         if retry_send:
           self.objs[s].drop_callback = self.DropCallback
+        self.objs[s].rule_change_notification = self.RuleChangeNotification
     self.link_objs = {}
     for l in links:
       p = l.split('-')
@@ -216,6 +221,9 @@ class Simulation (object):
     print "Done replay, left %d items"%(self.ctx.queue.qsize()) 
 
   def Report (self, show_converge):
+    print "Rule Changes"
+    for (t, w) in self.rule_change_notification:
+      print "%f %s change"%(t, w)
     if self.packets_sent > 0:
       print "%f %d packets sent total %d recved (Loss %f%%)"%(self.ctx.now, \
                                    self.packets_sent, \
