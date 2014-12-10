@@ -160,9 +160,13 @@ class Simulation (object):
         cgraph = nx.Graph(ctrl.graph)
         node_diff = set(self.graph.nodes()) - set(cgraph.nodes())
         cgraph.add_nodes_from(list(node_diff))
+        node_diff = set(cgraph.nodes()) - set(self.graph.nodes())
+        self.graph.add_nodes_from(list(node_diff))
         diff = nx.difference(self.graph, cgraph)
         #print "%f %s not converged %s"%(self.ctx.now, ctrl.name, diff.edges())
         break
+      else:
+        print "%f %s converged"%(self.ctx.now, ctrl.name)
     # switches should also be consistent with each other and the controllers
     if converged:
       c = self.objs[self.controller_names[0]]

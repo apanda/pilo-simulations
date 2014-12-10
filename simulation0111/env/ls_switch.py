@@ -50,13 +50,13 @@ class LinkStateSwitch (Switch):
 
   def processControlMessage (self, link, source, packet):
     #print "%f %s CtrlMessage"%(self.ctx.now, self.name)
-    if packet.dest_id == ControlPacket.AllCtrlId:
-      if packet.message_type == ControlPacket.NotifyLinkUp:
-        (switch, link) = packet.message
-        self.addLink(link)
-      elif packet.message_type == ControlPacket.NotifyLinkDown:
-        (switch, link) = packet.message
-        self.removeLink(link)
+    #if packet.dest_id == ControlPacket.AllCtrlId:
+      #if packet.message_type == ControlPacket.NotifyLinkUp:
+        #(switch, link) = packet.message
+        #self.addLink(link)
+      #elif packet.message_type == ControlPacket.NotifyLinkDown:
+        #(switch, link) = packet.message
+        #self.removeLink(link)
     return super(LinkStateSwitch, self).processControlMessage(link, source, packet)
 
 class LSLeaderSwitch (LinkStateSwitch):

@@ -41,6 +41,7 @@ class LSLeaderControl (LSController):
 
   def NotifyLinkUp (self, pkt, src, switch, link):
     #print "%f Heard about link %s"%(self.ctx.now, link)
+    self.addLink(link)
     assert(switch.name in self.graph)
     if isinstance(switch, HostTrait):
       self.hosts.add(switch)
@@ -55,6 +56,7 @@ class LSLeaderControl (LSController):
 
   def NotifyLinkDown (self, pkt, src, switch, link):
     #print "%f Heard about link down %s"%(self.ctx.now, link)
+    self.removeLink(link)
     assert(switch.name in self.graph)
     if isinstance(switch, HostTrait):
       self.hosts.append(switch)

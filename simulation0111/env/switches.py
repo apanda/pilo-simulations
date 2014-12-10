@@ -72,6 +72,7 @@ class Switch (object):
             updateRules)
   
   def processSwitchInformation (self, source):
+    print "%f %s recved get switch information from %s"%(self.ctx.now, self.name, source)
     p = ControlPacket(self.cpkt_id, \
             self.name, \
             source, \
