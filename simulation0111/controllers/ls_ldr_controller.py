@@ -6,6 +6,7 @@ class LSLeaderControl (LSController):
     super(LSLeaderControl, self).__init__(name, ctx, address)
     self.hosts = set()
     self.controllers = set([self.name])
+    self._nodes = set()
 
   def PacketIn(self, pkt, src, switch, source, packet):
     pass
@@ -32,26 +33,33 @@ class LSLeaderControl (LSController):
 
   def NotifySwitchUp (self, pkt, src, switch):
     # Not sure this is necessary?
+    should_ask = (switch not in self._nodes)
+    self._nodes.add(switch)
     if isinstance(switch, HostTrait):
       self.hosts.add(switch)
     if isinstance(switch, ControllerTrait):
       self.controllers.add(switch.name)
     self.ComputeAndUpdatePaths()
+    if should_ask:
+      self.GetSwitchInformation()
     #self.graph[switch.name]['obj'] = switch
 
   def NotifyLinkUp (self, pkt, src, switch, link):
     #print "%f Heard about link %s"%(self.ctx.now, link)
+    components_before = nx.connected_components(self.graph)
     self.addLink(link)
+    components_after = nx.connected_components(self.graph)
     assert(switch.name in self.graph)
     if isinstance(switch, HostTrait):
       self.hosts.add(switch)
     if isinstance(switch, ControllerTrait):
       self.controllers.add(switch.name)
     self.ComputeAndUpdatePaths()
-    if link.a.name == self.name or link.b.name == self.name:
+    #if link.a.name == self.name or link.b.name == self.name:
       # Something changed for us, find out (essentially we know for sure
       # we need to query information). Actually we should probably query all
       # the time when a link comes up (stuff has changed)
+    if components_before != components_after:
       self.GetSwitchInformation()
 
   def NotifyLinkDown (self, pkt, src, switch, link):
