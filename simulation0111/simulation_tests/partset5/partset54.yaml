@@ -1,0 +1,308 @@
+c1:
+  args: {address: 50}
+  type: LSPaxosOracleControl
+c10:
+  args: {address: 59}
+  type: LSPaxosOracleControl
+c2:
+  args: {address: 51}
+  type: LSPaxosOracleControl
+c3:
+  args: {address: 52}
+  type: LSPaxosOracleControl
+c4:
+  args: {address: 53}
+  type: LSPaxosOracleControl
+c5:
+  args: {address: 54}
+  type: LSPaxosOracleControl
+c6:
+  args: {address: 55}
+  type: LSPaxosOracleControl
+c7:
+  args: {address: 56}
+  type: LSPaxosOracleControl
+c8:
+  args: {address: 57}
+  type: LSPaxosOracleControl
+c9:
+  args: {address: 58}
+  type: LSPaxosOracleControl
+fail_links: [s9-s7, s3-s1, s9-s4, s4-s5, s4-s6, s9-s10, s9-s11, s2-s12, s10-s13, s8-s14,
+  s5-s15, s13-s16, s5-s17, s8-s18, s17-s19, s1-s20, s16-s21, s8-s22, s13-s23, s17-s24,
+  s12-s25, s3-s26, s23-s27, s4-s28, s12-s29, s15-s30, s4-s31, s1-s32, s30-s33, s35-s34,
+  s29-s36, s23-s37, s17-s38, s22-s39, s11-s40, s7-s50, s41-s42, s4-s43, s6-s44, s30-s45,
+  s50-s46, s31-s47, s24-s48, s11-s49, s48-s57, s41-s51, s39-s52, s47-s53, s46-s54,
+  s30-s56, s29-s58, s20-s59, s51-s60, s60-s68, s30-s62, s59-s63, s50-s64, s36-s65,
+  s41-s66, s44-s67, s66-s69, s61-s70, s10-s71, s46-s72, s44-s73, s39-s74, s33-s75,
+  s24-s76, s51-s77, s29-s78, s36-s79, s60-s80, s71-s81, s19-s82, s19-s83, s39-s84,
+  s3-s85, s3-s86, s22-s87, s23-s88, s49-s89, s77-s90, s65-s92, s38-s98, s60-s93, s31-s94,
+  s44-s95, s42-s96, s50-s99, s38-s100]
+h1:
+  args: {address: 1}
+  type: Host
+h10:
+  args: {address: 10}
+  type: Host
+h11:
+  args: {address: 11}
+  type: Host
+h12:
+  args: {address: 12}
+  type: Host
+h13:
+  args: {address: 13}
+  type: Host
+h14:
+  args: {address: 14}
+  type: Host
+h15:
+  args: {address: 15}
+  type: Host
+h16:
+  args: {address: 16}
+  type: Host
+h17:
+  args: {address: 17}
+  type: Host
+h18:
+  args: {address: 18}
+  type: Host
+h19:
+  args: {address: 19}
+  type: Host
+h2:
+  args: {address: 2}
+  type: Host
+h20:
+  args: {address: 20}
+  type: Host
+h21:
+  args: {address: 21}
+  type: Host
+h22:
+  args: {address: 22}
+  type: Host
+h23:
+  args: {address: 23}
+  type: Host
+h24:
+  args: {address: 24}
+  type: Host
+h25:
+  args: {address: 25}
+  type: Host
+h26:
+  args: {address: 26}
+  type: Host
+h27:
+  args: {address: 27}
+  type: Host
+h28:
+  args: {address: 28}
+  type: Host
+h29:
+  args: {address: 29}
+  type: Host
+h3:
+  args: {address: 3}
+  type: Host
+h30:
+  args: {address: 30}
+  type: Host
+h31:
+  args: {address: 31}
+  type: Host
+h32:
+  args: {address: 32}
+  type: Host
+h33:
+  args: {address: 33}
+  type: Host
+h34:
+  args: {address: 34}
+  type: Host
+h35:
+  args: {address: 35}
+  type: Host
+h36:
+  args: {address: 36}
+  type: Host
+h37:
+  args: {address: 37}
+  type: Host
+h38:
+  args: {address: 38}
+  type: Host
+h39:
+  args: {address: 39}
+  type: Host
+h4:
+  args: {address: 4}
+  type: Host
+h40:
+  args: {address: 40}
+  type: Host
+h41:
+  args: {address: 41}
+  type: Host
+h42:
+  args: {address: 42}
+  type: Host
+h43:
+  args: {address: 43}
+  type: Host
+h44:
+  args: {address: 44}
+  type: Host
+h45:
+  args: {address: 45}
+  type: Host
+h46:
+  args: {address: 46}
+  type: Host
+h47:
+  args: {address: 47}
+  type: Host
+h48:
+  args: {address: 48}
+  type: Host
+h49:
+  args: {address: 49}
+  type: Host
+h5:
+  args: {address: 5}
+  type: Host
+h50:
+  args: {address: 50}
+  type: Host
+h6:
+  args: {address: 6}
+  type: Host
+h7:
+  args: {address: 7}
+  type: Host
+h8:
+  args: {address: 8}
+  type: Host
+h9:
+  args: {address: 9}
+  type: Host
+links: [s1-s3, s1-s20, s1-s32, s2-s12, s2-s8, s3-s26, s3-s85, s3-s86, s3-s7, s4-s5,
+  s4-s6, s4-s9, s4-s43, s4-s28, s4-s31, s5-s17, s5-s15, s6-s44, s7-s9, s7-s50, s8-s9,
+  s8-s14, s8-s22, s8-s18, s9-s10, s9-s11, s10-s13, s10-s71, s11-s49, s11-s40, s12-s25,
+  s12-s29, s13-s23, s13-s16, s15-s30, s16-s21, s17-s19, s17-s38, s17-s24, s19-s82,
+  s19-s83, s20-s59, s22-s87, s22-s39, s23-s37, s23-s27, s23-s88, s24-s76, s24-s48,
+  s29-s36, s29-s78, s29-s58, s30-s33, s30-s45, s30-s62, s30-s56, s31-s35, s31-s94,
+  s31-s47, s33-s75, s34-s35, s36-s65, s36-s79, s38-s98, s38-s100, s39-s74, s39-s84,
+  s39-s52, s41-s50, s41-s51, s41-s66, s41-s42, s42-s96, s44-s73, s44-s67, s44-s95,
+  s46-s50, s46-s54, s46-s72, s47-s53, s48-s57, s49-s89, s50-s99, s50-s64, s51-s60,
+  s51-s77, s55-s57, s59-s63, s60-s68, s60-s93, s60-s80, s61-s68, s61-s70, s65-s92,
+  s66-s69, s71-s81, s77-s90, s91-s92, s97-s98, s31-h1, s92-h2, s10-h3, s74-h4, s63-h5,
+  s5-h6, s10-h7, s29-h8, s38-h9, s12-h10, s32-h11, s10-h12, s36-h13, s36-h14, s41-h15,
+  s75-h16, s95-h17, s96-h18, s38-h19, s54-h20, s51-h21, s100-h22, s40-h23, s32-h24,
+  s22-h25, s47-h26, s66-h27, s43-h28, s95-h29, s35-h30, s26-h31, s71-h32, s80-h33,
+  s72-h34, s42-h35, s11-h36, s28-h37, s87-h38, s42-h39, s86-h40, s63-h41, s22-h42,
+  s82-h43, s36-h44, s35-h45, s87-h46, s88-h47, s33-h48, s50-h49, s30-h50, s2-c1, s20-c2,
+  s26-c3, s37-c4, s45-c5, s51-c6, s64-c7, s78-c8, s81-c9, s94-c10]
+runfile: controllers
+s1: {type: LinkStateSwitch}
+s10: {type: LinkStateSwitch}
+s100: {type: LinkStateSwitch}
+s11: {type: LinkStateSwitch}
+s12: {type: LinkStateSwitch}
+s13: {type: LinkStateSwitch}
+s14: {type: LinkStateSwitch}
+s15: {type: LinkStateSwitch}
+s16: {type: LinkStateSwitch}
+s17: {type: LinkStateSwitch}
+s18: {type: LinkStateSwitch}
+s19: {type: LinkStateSwitch}
+s2: {type: LinkStateSwitch}
+s20: {type: LinkStateSwitch}
+s21: {type: LinkStateSwitch}
+s22: {type: LinkStateSwitch}
+s23: {type: LinkStateSwitch}
+s24: {type: LinkStateSwitch}
+s25: {type: LinkStateSwitch}
+s26: {type: LinkStateSwitch}
+s27: {type: LinkStateSwitch}
+s28: {type: LinkStateSwitch}
+s29: {type: LinkStateSwitch}
+s3: {type: LinkStateSwitch}
+s30: {type: LinkStateSwitch}
+s31: {type: LinkStateSwitch}
+s32: {type: LinkStateSwitch}
+s33: {type: LinkStateSwitch}
+s34: {type: LinkStateSwitch}
+s35: {type: LinkStateSwitch}
+s36: {type: LinkStateSwitch}
+s37: {type: LinkStateSwitch}
+s38: {type: LinkStateSwitch}
+s39: {type: LinkStateSwitch}
+s4: {type: LinkStateSwitch}
+s40: {type: LinkStateSwitch}
+s41: {type: LinkStateSwitch}
+s42: {type: LinkStateSwitch}
+s43: {type: LinkStateSwitch}
+s44: {type: LinkStateSwitch}
+s45: {type: LinkStateSwitch}
+s46: {type: LinkStateSwitch}
+s47: {type: LinkStateSwitch}
+s48: {type: LinkStateSwitch}
+s49: {type: LinkStateSwitch}
+s5: {type: LinkStateSwitch}
+s50: {type: LinkStateSwitch}
+s51: {type: LinkStateSwitch}
+s52: {type: LinkStateSwitch}
+s53: {type: LinkStateSwitch}
+s54: {type: LinkStateSwitch}
+s55: {type: LinkStateSwitch}
+s56: {type: LinkStateSwitch}
+s57: {type: LinkStateSwitch}
+s58: {type: LinkStateSwitch}
+s59: {type: LinkStateSwitch}
+s6: {type: LinkStateSwitch}
+s60: {type: LinkStateSwitch}
+s61: {type: LinkStateSwitch}
+s62: {type: LinkStateSwitch}
+s63: {type: LinkStateSwitch}
+s64: {type: LinkStateSwitch}
+s65: {type: LinkStateSwitch}
+s66: {type: LinkStateSwitch}
+s67: {type: LinkStateSwitch}
+s68: {type: LinkStateSwitch}
+s69: {type: LinkStateSwitch}
+s7: {type: LinkStateSwitch}
+s70: {type: LinkStateSwitch}
+s71: {type: LinkStateSwitch}
+s72: {type: LinkStateSwitch}
+s73: {type: LinkStateSwitch}
+s74: {type: LinkStateSwitch}
+s75: {type: LinkStateSwitch}
+s76: {type: LinkStateSwitch}
+s77: {type: LinkStateSwitch}
+s78: {type: LinkStateSwitch}
+s79: {type: LinkStateSwitch}
+s8: {type: LinkStateSwitch}
+s80: {type: LinkStateSwitch}
+s81: {type: LinkStateSwitch}
+s82: {type: LinkStateSwitch}
+s83: {type: LinkStateSwitch}
+s84: {type: LinkStateSwitch}
+s85: {type: LinkStateSwitch}
+s86: {type: LinkStateSwitch}
+s87: {type: LinkStateSwitch}
+s88: {type: LinkStateSwitch}
+s89: {type: LinkStateSwitch}
+s9: {type: LinkStateSwitch}
+s90: {type: LinkStateSwitch}
+s91: {type: LinkStateSwitch}
+s92: {type: LinkStateSwitch}
+s93: {type: LinkStateSwitch}
+s94: {type: LinkStateSwitch}
+s95: {type: LinkStateSwitch}
+s96: {type: LinkStateSwitch}
+s97: {type: LinkStateSwitch}
+s98: {type: LinkStateSwitch}
+s99: {type: LinkStateSwitch}
