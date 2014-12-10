@@ -165,8 +165,6 @@ class Simulation (object):
         diff = nx.difference(self.graph, cgraph)
         #print "%f %s not converged %s"%(self.ctx.now, ctrl.name, diff.edges())
         break
-      else:
-        print "%f %s converged"%(self.ctx.now, ctrl.name)
     # switches should also be consistent with each other and the controllers
     if converged:
       c = self.objs[self.controller_names[0]]
@@ -189,13 +187,13 @@ class Simulation (object):
       for s in self.switch_names:
         sw = self.objs[s]
         if rules[s] != sw.rules:
-          print self.ctx.now, s, len(rules), len(sw.rules)
+          #print self.ctx.now, s, len(rules), len(sw.rules)
           converged = False
           break
 
     if converged:
       if converge_time == -1:
-        print "CONVERGE_TIME: ", t1, t2, self.ctx.now
+        #print "CONVERGE_TIME: ", t1, t2, self.ctx.now
         self.ctx.schedule_task(10, lambda: self.calcConvergeTime(t1, t2, self.ctx.now))
       else:
         self.ctx.schedule_task(10, lambda: self.calcConvergeTime(t1, t2, converge_time))
