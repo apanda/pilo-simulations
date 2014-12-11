@@ -174,8 +174,10 @@ class Simulation (object):
         node_diff = set(cgraph.nodes()) - set(self.graph.nodes())
         self.graph.add_nodes_from(list(node_diff))
         diff = nx.difference(self.graph, cgraph)
-        #print "%f %s not converged %s"%(self.ctx.now, ctrl.name, diff.edges())
-        break
+        print "%f %s not converged %s"%(self.ctx.now, ctrl.name, diff.edges())
+        #break
+      else: 
+        print "%f %s converged"%(self.ctx.now, ctrl.name)
     # switches should also be consistent with each other and the controllers
     if converged:
       c = self.objs[self.controller_names[0]]
@@ -198,7 +200,7 @@ class Simulation (object):
       for s in self.switch_names:
         sw = self.objs[s]
         if rules[s] != sw.rules:
-          #print self.ctx.now, s, len(rules), len(sw.rules)
+          print self.ctx.now, s, len(rules), len(sw.rules)
           converged = False
           break
 
@@ -296,6 +298,12 @@ class Simulation (object):
     print "Done replay, left %d items"%(self.ctx.queue.qsize()) 
 
   def Report (self, show_converge):
+    print "Messages"
+    for c in self.controller_names:
+      print "%s"%c
+      ctrl_msgs = self.objs[c].update_messages
+      for k in sorted(ctrl_msgs.keys()):
+        print "    %s %d"%(k, ctrl_msgs[k])
     print "Rule Changes"
     for (t, w) in self.rule_changes:
       print "%f %s change"%(t, w)

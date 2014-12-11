@@ -8,6 +8,8 @@ class CoordinationOracleControl (LSController):
     self.controllers = set([self.name])
     self.oracle = CoordinationOracle()
     self.oracle.RegisterController(self)
+    self.update_messages = {}
+    self.reason = None
 
   def PacketIn(self, pkt, src, switch, source, packet):
     pass
@@ -75,6 +77,7 @@ class CoordinationOracleControl (LSController):
     assert(False)
   
   def NotifyOracleDecision (self, log):
+    self.reason = "NotifyOracleDecision"
     # Just process all to get us to a good state
     self.graph.clear()
     self.hosts.clear()
@@ -90,4 +93,4 @@ class CoordinationOracleControl (LSController):
       else:
         print "Unknown entry entry"
     self.ComputeAndUpdatePaths()
-
+    self.reason = None

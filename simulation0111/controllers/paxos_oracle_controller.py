@@ -8,6 +8,8 @@ class LSPaxosOracleControl (LSController):
     self.controllers = set([self.name])
     self.oracle = PaxosOracle()
     self.oracle.RegisterController(self)
+    self.update_messages = {}
+    self.reason = None
 
   def PacketIn(self, pkt, src, switch, source, packet):
     pass
@@ -33,6 +35,7 @@ class LSPaxosOracleControl (LSController):
           for (a, b) in path[1:]:
             link = self.graph[a][b]['link']
             if self.currentLeader(a) == self.name:
+              self.update_messages[self.reason] = self.update_messages.get(self.reason, 0) + 1
               self.UpdateRules(a, [(p.pack(), link)])
   
   def addLink (self, link):
@@ -78,6 +81,7 @@ class LSPaxosOracleControl (LSController):
     assert(False)
   
   def NotifyOracleDecision (self, log):
+    self.reason = "NotifyOracleDecision"
     # Just process all to get us to a good state
     self.graph.clear()
     self.hosts.clear()
@@ -94,4 +98,4 @@ class LSPaxosOracleControl (LSController):
       else:
         print "Unknown entry entry"
     self.ComputeAndUpdatePaths()
-
+    self.reason = None

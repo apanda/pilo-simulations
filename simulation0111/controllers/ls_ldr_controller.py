@@ -7,6 +7,8 @@ class LSLeaderControl (LSController):
     self.hosts = set()
     self.controllers = set([self.name])
     self._nodes = set()
+    self.update_messages = {}
+    self.reason = None
 
   def PacketIn(self, pkt, src, switch, source, packet):
     pass
@@ -29,6 +31,7 @@ class LSLeaderControl (LSController):
           for (a, b) in path[1:]:
             link = self.graph[a][b]['link']
             if self.currentLeader(a) == self.name:
+              self.update_messages[self.reason] = self.update_messages.get(self.reason, 0) + 1
               self.UpdateRules(a, [(p.pack(), link)])
 
   def NotifySwitchUp (self, pkt, src, switch):
@@ -39,9 +42,11 @@ class LSLeaderControl (LSController):
       self.hosts.add(switch)
     if isinstance(switch, ControllerTrait):
       self.controllers.add(switch.name)
+    self.reason = "NotifySwitchUp"
     self.ComputeAndUpdatePaths()
     if should_ask:
       self.GetSwitchInformation()
+    self.reason = None
     #self.graph[switch.name]['obj'] = switch
 
   def NotifyLinkUp (self, pkt, src, switch, link):
@@ -54,6 +59,7 @@ class LSLeaderControl (LSController):
       self.hosts.add(switch)
     if isinstance(switch, ControllerTrait):
       self.controllers.add(switch.name)
+    self.reason = "NotifyLinkUp"
     self.ComputeAndUpdatePaths()
     #if link.a.name == self.name or link.b.name == self.name:
       # Something changed for us, find out (essentially we know for sure
@@ -61,6 +67,7 @@ class LSLeaderControl (LSController):
       # the time when a link comes up (stuff has changed)
     if components_before != components_after:
       self.GetSwitchInformation()
+    self.reason = None
 
   def NotifyLinkDown (self, pkt, src, switch, link):
     #print "%f Heard about link down %s"%(self.ctx.now, link)
@@ -68,11 +75,14 @@ class LSLeaderControl (LSController):
     assert(switch.name in self.graph)
     if isinstance(switch, HostTrait):
       self.hosts.append(switch)
+    self.reason = "NotifyLinkDown"
     if isinstance(switch, ControllerTrait):
       self.controllers.add(switch.name)
     self.ComputeAndUpdatePaths()
+    self.reason = None
 
   def NotifySwitchInformation (self, pkt, src, switch, links):
+    has_changed = False
     if isinstance(switch, HostTrait):
       self.hosts.add(switch)
     if isinstance(switch, ControllerTrait):
@@ -85,12 +95,17 @@ class LSLeaderControl (LSController):
     n_set = set(neighbors)
     for neighbor in neighbors:
       if neighbor not in gn_set:
+        has_changed = True
         self.graph.add_edge(switch.name, neighbor, link=neighbor_to_link[neighbor])
     for neighbor in g_neighbors:
       if neighbor not in n_set:
+        has_changed = True
         self.graph.remove_edge(switch.name, neighbor)
     assert(switch.name in self.graph)
-    self.ComputeAndUpdatePaths()
+    self.reason = "NotifySwitchInformation"
+    if has_changed:
+      self.ComputeAndUpdatePaths()
+    self.reason = None
 
   def NotifyNackUpdate (self, packet, src):
     def NotifyNackInternal ():

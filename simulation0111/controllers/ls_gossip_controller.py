@@ -8,6 +8,8 @@ class LSGossipControl (LSController):
     self._controllers = set([self.name])
     self.announcements = set()
     #self.connected_to_node = {self.name: True}
+    self.update_messages = {}
+    self.reason = None
   
   @property
   def hosts (self):
@@ -37,21 +39,11 @@ class LSGossipControl (LSController):
                     sp[host.name][h2.name][1:])
           for (a, b) in path[1:]:
             link = self.graph[a][b]['link']
-            if self.currentLeader(a) == self.name:
-              #print "%f %s updating %s (%s - %s), leader %s"% \
-                   #(self.ctx.now, self.name, a, host.name, \
-                            #h2.name, self.currentLeader(a))
-              self.UpdateRules(a, [(p.pack(), link)])
-            #else:
-              #print "%f %s not updating %s (%s - %s), not leader (ldr %s)"% \
-                   #(self.ctx.now, self.name, a, host.name, \
-                            #h2.name, self.currentLeader(a))
+            self.update_messages[self.reason] = self.update_messages.get(self.reason, 0) + 1
+            self.UpdateRules(a, [(p.pack(), link)])
   
   def Gossip (self):
     pass
-    #announcements = list(self.announcements)
-    #self.sendToController(ControlPacket.SwitchInformation, \
-                          #[announcements])
   
   def NotifySwitchUp (self, pkt, src, switch):
     #print "%f %s SUP updating controllers are %s"%(self.ctx.now, self.name, self._controllers)
@@ -60,6 +52,7 @@ class LSGossipControl (LSController):
     if isinstance(switch, HostTrait) and switch not in self._hosts:
       self._hosts.add(switch)
 
+    self.reason = "NotifySwitchUp"
     if isinstance(switch, ControllerTrait) and swith.name not in self._controllers:
       self._controllers.add(switch.name)
       #print "%f %s learnt new controller, controllers are %s"%(self.ctx.now, self.name, self._controllers)
@@ -70,8 +63,10 @@ class LSGossipControl (LSController):
     if switch not in self._nodes:
       self.GetSwitchInformation()
     self._nodes.add(switch)
+    self.reason = None
 
   def NotifyLinkUp (self, pkt, src, switch, link):
+    self.reason = "NotifyLinkUp"
     components_before = nx.connected_components(self.graph)
     self.addLink(link)
     components_after = nx.connected_components(self.graph)
@@ -86,9 +81,10 @@ class LSGossipControl (LSController):
     self.ComputeAndUpdatePaths()
     if components_before != components_after:
       self.GetSwitchInformation()
+    self.reason = None
 
   def NotifyLinkDown (self, pkt, src, switch, link):
-    # This is new
+    self.reason = "NotifyLinkDown"
     self.removeLink(link)
     self.announcements.add((pkt.id, ControlPacket.NotifyLinkDown, src, switch, link))
     assert(switch.name in self.graph)
@@ -99,8 +95,11 @@ class LSGossipControl (LSController):
       self._controllers.add(switch.name)
       #print "%f %s learnt new controller, controllers are %s"%(self.ctx.now, self.name, self._controllers)
     self.ComputeAndUpdatePaths()
+    self.reason = None
 
   def NotifySwitchInformation (self, pkt, src, switch, links):
+    self.reason = "NotifySwitchInformation"
+    has_changed = False
     if isinstance(switch, HostTrait):
       self.hosts.add(switch)
     if isinstance(switch, ControllerTrait):
@@ -113,9 +112,13 @@ class LSGossipControl (LSController):
     n_set = set(neighbors)
     for neighbor in neighbors:
       if neighbor not in gn_set:
+        has_changed = True
         self.graph.add_edge(switch.name, neighbor, link=neighbor_to_link[neighbor])
     for neighbor in g_neighbors:
       if neighbor not in n_set:
+        has_changed = True
         self.graph.remove_edge(switch.name, neighbor)
     assert(switch.name in self.graph)
-    self.ComputeAndUpdatePaths()
+    if has_changed:
+      self.ComputeAndUpdatePaths()
+    self.reason = None
