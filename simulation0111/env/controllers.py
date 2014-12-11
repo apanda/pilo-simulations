@@ -12,6 +12,7 @@ class Controller (Host, ControllerTrait):
      ControlPacket.GetSwitchInformation: self.processSwitchInformation
     }
     self.cpkt_id = 0
+    self.ctrl_callback = None
   def receive (self, link, source, packet):
     if isinstance(packet, ControlPacket):
       # Received a control packet

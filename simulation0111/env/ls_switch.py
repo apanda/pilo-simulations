@@ -96,7 +96,10 @@ class LSController (LinkStateSwitch, ControllerTrait):
      ControlPacket.NackUpdateRules: self.NotifyNackUpdate
     }
     self.cpkt_id = 0
+    self.ctrl_callback = None
   def Send (self, packet):
+    if isinstance(packet, ControlPacket) and self.ctrl_callback:
+      self.ctrl_callback(self.name, packet.message_type)
     super(LSController, self).Flood(None, packet)
   def receive (self, link, source, packet):
     if isinstance(packet, ControlPacket):

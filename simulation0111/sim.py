@@ -25,6 +25,7 @@ class Simulation (object):
     self.packets_sent = 0
     self.packets_recved = 0
     self.reachability_at_time = {}
+    self.count_ctrl_packets = {}
     # A mechanism for oracles to get a hold of the current graph
     self.graph = nx.Graph()  
     self.host_names = []
@@ -69,6 +70,13 @@ class Simulation (object):
         self.sent_packet_host[packet].Send(packet)
       else:
         self.unaccounted_packets.remove(packet)
+
+  def CountCtrlCallback(self, name, mtype):
+    if name not in self.count_ctrl_packets:
+      self.count_ctrl_packets[name] = {}
+    if mtype not in self.count_ctrl_packets[name]:
+      self.count_ctrl_packets[name][mtype] = 0
+    self.count_ctrl_packets[name][mtype] += 1
   
   def Send(self, host, src, dest):
     #print "%f sending %d %d"%(self.ctx.now, src, dest)
@@ -98,6 +106,9 @@ class Simulation (object):
   def checkAllPaths (self):
     """For now this assumes singly homed hosts"""
     if self.ctx.now <= 0.0:
+      return
+    if len(self.count_ctrl_packets) > 0:
+      print self.ctx.now, self.count_ctrl_packets
       return
     tried = 0
     connected = 0
@@ -193,14 +204,14 @@ class Simulation (object):
 
     if converged:
       if converge_time == -1:
-        #print "CONVERGE_TIME: ", t1, t2, self.ctx.now
+        print "CONVERGE_TIME: ", t1, t2, self.ctx.now
         self.ctx.schedule_task(10, lambda: self.calcConvergeTime(t1, t2, self.ctx.now))
       else:
         self.ctx.schedule_task(10, lambda: self.calcConvergeTime(t1, t2, converge_time))
     else:
       self.ctx.schedule_task(10, lambda: self.calcConvergeTime(t1, t2, -1))
 
-  def Setup (self, simulation_setup, trace, retry_send = False, converge_time = True):
+  def Setup (self, simulation_setup, trace, retry_send = False, converge_time = True, count_ctrl_packet = False):
     self.ctx = Context()
 
     setup = yaml.load(simulation_setup)
@@ -224,6 +235,8 @@ class Simulation (object):
       self.graph.add_node(s)
       if isinstance(self.objs[s], ControllerTrait):
         self.controller_names.append(s)
+        if count_ctrl_packet:
+          self.objs[s].ctrl_callback = self.CountCtrlCallback
       elif isinstance(self.objs[s], HostTrait):
         self.objs[s].send_callback = self.HostSendCallback
         self.objs[s].recv_callback = self.HostRecvCallback
@@ -311,4 +324,4 @@ class Simulation (object):
                 reachable, \
                 perc, \
                 components)
-
+      
