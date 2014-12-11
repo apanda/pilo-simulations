@@ -109,7 +109,6 @@ class Simulation (object):
       return
     if len(self.count_ctrl_packets) > 0:
       print self.ctx.now, self.count_ctrl_packets
-      return
     tried = 0
     connected = 0
     latencies = []
@@ -213,7 +212,7 @@ class Simulation (object):
     else:
       self.ctx.schedule_task(10, lambda: self.calcConvergeTime(t1, t2, -1))
 
-  def Setup (self, simulation_setup, trace, retry_send = False, converge_time = True, count_ctrl_packet = False):
+  def Setup (self, simulation_setup, trace, retry_send = False, converge_time = False, count_ctrl_packet = True):
     self.ctx = Context()
 
     setup = yaml.load(simulation_setup)
