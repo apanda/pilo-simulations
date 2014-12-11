@@ -212,7 +212,7 @@ class Simulation (object):
     else:
       self.ctx.schedule_task(10, lambda: self.calcConvergeTime(t1, t2, -1))
 
-  def Setup (self, simulation_setup, trace, retry_send = False, converge_time = False, count_ctrl_packet = True):
+  def Setup (self, simulation_setup, trace, retry_send = False, converge_time = False, count_ctrl_packet = False):
     self.ctx = Context()
 
     setup = yaml.load(simulation_setup)
