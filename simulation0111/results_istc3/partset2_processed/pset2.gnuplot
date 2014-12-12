@@ -30,15 +30,15 @@ set ylabel  "Reachability"
 set xlabel "Perturbation"
 set xrange [] reverse
 set output "pset_perc.pdf"
-plot "pset2.ele" using 1:7:3:5 w yerrorbars pt 7 lc 0 lt 2 title "ELE",\
-     "pset2.ele" using 1:7 w lines lc 0 lt 2 notitle,\
-     "pset2.gos" using 1:7:3:5 w yerrorbars lc 3 lt 2 title "Gossip",\
-     "pset2.gos" using 1:7 w lines lc 3 lt 2 notitle,\
-     "pset2.paxos" using 1:7:3:5 w yerrorbars lc 9 lt 10 title "Paxos", \
-     "pset2.paxos" using 1:7 w lines lc 9 lt 10 notitle, \
-     "pset2.ideal" using 1:7:3:5 w yerrorbars lc 5 lt 13 title "Ideal Coord", \
-     "pset2.ideal" using 1:7 w lines lc 5 lt 13 notitle, \
-     "pset2_paxos_avail" using 1:4 w lines lc 0 lt -1 title "Paxos Availability" 
+plot sprintf("%s.ele", filename) using 1:7:3:5 w yerrorbars pt 7 lc 0 lt 2 title "ELE",\
+     sprintf("%s.ele", filename) using 1:7 w lines lc 0 lt 2 notitle,\
+     sprintf("%s.gos", filename) using 1:7:3:5 w yerrorbars lc 3 lt 2 title "Gossip",\
+     sprintf("%s.gos", filename) using 1:7 w lines lc 3 lt 2 notitle,\
+     sprintf("%s.paxos", filename) using 1:7:3:5 w yerrorbars lc 9 lt 10 title "Paxos", \
+     sprintf("%s.paxos", filename) using 1:7 w lines lc 9 lt 10 notitle, \
+     sprintf("%s.ideal", filename) using 1:7:3:5 w yerrorbars lc 5 lt 13 title "Ideal Coord", \
+     sprintf("%s.ideal", filename) using 1:7 w lines lc 5 lt 13 notitle, \
+     sprintf("%s.avail", filename) using 1:4 w lines lc 0 lt -1 title "Paxos Availability" 
      #"pset_links" using 1:7:3:5 w yerrorbars lc rgb "#d95f0e" lt 0 title "Components" axes x1y2
 reset
 
@@ -68,13 +68,13 @@ set xrange [] reverse
 set yrange [0:100]
 set output "pset_mean.pdf"
 
-plot "pset2.ele" using 1:7:(1.96 * sqrt($8)) w yerrorbars lc 0 lt 2 title "ELE",\
-     "pset2.ele" using 1:7:(1.96 * sqrt($8)) w l lc 0 lt 2 notitle,\
-     "pset2.gos" using 1:7:(1.96 * sqrt($8)) w yerrorbars lc 3 lt 2 title "Gossip",\
-     "pset2.gos" using 1:7:(1.96 * sqrt($8)) w l lc 3 lt 2 notitle,\
-     "pset2.paxos" using 1:7:(1.96*sqrt($8)) w yerrorbars lc 9 lt 10 title "Paxos", \
-     "pset2.paxos" using 1:7:(1.96*sqrt($8)) w l lc 9 lt 10 notitle, \
-     "pset2.ideal" using 1:7:(1.96*sqrt($8)) w yerrorbars lc 5 lt 13 title "Paxos", \
-     "pset2.ideal" using 1:7:(1.96*sqrt($8)) w l lc 5 lt 13 notitle, \
-     "pset2_paxos_avail" using 1:4 w lines lc 0 lt -1 title "Paxos Availability" 
+plot sprintf("%s.ele", filename) using 1:7:(1.96 * sqrt($8)) w yerrorbars lc 0 lt 2 title "ELE",\
+     sprintf("%s.ele", filename) using 1:7:(1.96 * sqrt($8)) w l lc 0 lt 2 notitle,\
+     sprintf("%s.gos", filename) using 1:7:(1.96 * sqrt($8)) w yerrorbars lc 3 lt 2 title "Gossip",\
+     sprintf("%s.gos", filename) using 1:7:(1.96 * sqrt($8)) w l lc 3 lt 2 notitle,\
+     sprintf("%s.paxos", filename) using 1:7:(1.96*sqrt($8)) w yerrorbars lc 9 lt 10 title "Paxos", \
+     sprintf("%s.paxos", filename) using 1:7:(1.96*sqrt($8)) w l lc 9 lt 10 notitle, \
+     sprintf("%s.ideal", filename) using 1:7:(1.96*sqrt($8)) w yerrorbars lc 5 lt 13 title "Paxos", \
+     sprintf("%s.ideal", filename) using 1:7:(1.96*sqrt($8)) w l lc 5 lt 13 notitle, \
+     sprintf("%s_paxos_avail", filename) using 1:4 w lines lc 0 lt -1 title "Paxos Availability" 
 reset
