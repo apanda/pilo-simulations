@@ -1,0 +1,2147 @@
+Setting simulation_tests/partset2/partset24.yaml 750.000000 250 750.000000 1200000.000000 150.000000 300.000000 150.000000 25000.000000 42
+mean_perturb 150.000000
+generating trace
+done generating trace
+TRACE TRACE TRACE
+0.000000 s1-s2 up
+0.000000 s1-s3 up
+0.000000 s1-s7 up
+0.000000 s2-s20 up
+0.000000 s3-s16 up
+0.000000 s3-s4 up
+0.000000 s3-s8 up
+0.000000 s4-s17 up
+0.000000 s4-s19 up
+0.000000 s4-s5 up
+0.000000 s4-s6 up
+0.000000 s5-s13 up
+0.000000 s7-s12 up
+0.000000 s8-s11 up
+0.000000 s9-s10 up
+0.000000 s9-s12 up
+0.000000 s11-s14 up
+0.000000 s12-s18 up
+0.000000 s14-s15 up
+0.000000 s10-h1 up
+0.000000 s15-h2 up
+0.000000 s6-h3 up
+0.000000 s2-h4 up
+0.000000 s5-h5 up
+0.000000 s5-h6 up
+0.000000 s10-h7 up
+0.000000 s1-h8 up
+0.000000 s17-h9 up
+0.000000 s15-h10 up
+0.000000 s4-c1 up
+0.000000 s5-c2 up
+0.000000 s10-c3 up
+0.000000 s15-c4 up
+0.000000 s20-c5 up
+806.181018 s4-s17 down
+895.979790 s3-s8 down
+910.976028 s5-s13 down
+1001.143280 s3-s4 down
+1016.742761 s3-s4 up
+1146.629757 s11-s14 down
+1146.746572 s1-s2 down
+1225.460037 s4-s19 down
+1285.439183 s12-s18 down
+1299.030148 s3-s4 down
+1338.696351 s3-s8 up
+1401.076279 s9-s10 down
+1418.811869 s1-s2 up
+1451.524227 s9-s10 up
+1484.166983 s12-s18 up
+1543.409109 s3-s16 down
+1589.101175 s1-s3 down
+1655.124049 s3-s8 down
+1780.103286 s4-s5 down
+1783.434678 s4-s19 up
+1793.740288 s4-s17 up
+1893.407497 s1-s7 down
+1930.989485 s4-s5 up
+1978.562546 s2-s20 down
+2068.247671 s1-s7 up
+2119.487388 s4-s5 down
+2257.768523 s7-s12 down
+2335.893662 s12-s18 down
+2361.324026 s3-s8 up
+2416.847482 s14-s15 down
+2419.399176 s5-s13 up
+2453.664247 s1-s3 up
+2530.771092 s14-s15 up
+2537.177029 s1-s2 down
+2548.996987 s1-s2 up
+2600.687251 s5-s13 down
+2707.388544 s1-s2 down
+2766.960453 s5-s13 up
+2773.295609 s3-s4 up
+2782.657789 s3-s16 up
+2802.778197 s4-s5 up
+2846.333676 s9-s10 down
+2891.520849 s7-s12 up
+2973.839462 s1-s3 down
+3029.462200 s4-s6 down
+3049.044666 s1-s3 up
+3097.746579 s2-s20 up
+3125.095821 s3-s4 down
+3143.034958 s3-s16 down
+3238.811404 s11-s14 up
+3251.294386 s3-s8 down
+3282.249700 s3-s8 up
+3357.893819 s8-s11 down
+3367.617548 s12-s18 up
+3388.151700 s3-s8 down
+3405.865635 s1-s2 up
+3472.643035 s4-s5 down
+3510.036870 s14-s15 down
+3540.496053 s1-s3 down
+3584.841106 s1-s7 down
+3604.395421 s3-s4 up
+3617.607172 s5-s13 down
+3635.920365 s1-s2 down
+3733.073883 s3-s4 down
+3738.306190 s3-s4 up
+3791.869603 s8-s11 up
+3809.685979 s11-s14 down
+3834.929635 s4-s19 down
+3871.948539 s3-s8 up
+3873.016947 s3-s4 down
+3874.147297 s1-s2 up
+3885.249769 s4-s19 up
+3911.661711 s5-s13 up
+3915.743021 s12-s18 down
+3938.350653 s3-s8 down
+4010.369038 s4-s6 up
+4019.595942 s11-s14 up
+4041.991313 s2-s20 down
+4042.182993 s1-s7 up
+4082.053820 s3-s8 up
+4092.174416 s14-s15 up
+4141.464792 s3-s4 up
+4143.344831 s8-s11 down
+4242.342438 s4-s19 down
+4256.307853 s11-s14 down
+4274.827201 s1-s3 up
+4367.090359 s8-s11 up
+4388.703305 s3-s4 down
+4450.000222 s4-s19 up
+4515.702476 s1-s2 down
+4528.323471 s7-s12 down
+4560.463636 s3-s16 up
+4628.671709 s1-s3 down
+4694.805973 s9-s10 up
+4726.465898 s3-s16 down
+4838.439609 s3-s8 down
+4869.140008 s11-s14 up
+4884.648727 s1-s7 down
+4957.660050 s4-s17 down
+4986.946498 s4-s19 down
+5020.383739 s4-s19 up
+5021.692080 s3-s16 up
+5116.641208 s12-s18 up
+5136.129075 s9-s10 down
+5185.741621 s3-s16 down
+5258.592183 s4-s5 up
+5286.185496 s1-s2 up
+5292.578017 s3-s4 up
+5330.284617 s8-s11 down
+5405.769618 s2-s20 up
+5434.689087 s4-s19 down
+5455.182287 s12-s18 down
+5466.380125 s4-s17 up
+5499.658808 s3-s4 down
+5511.658174 s1-s3 up
+5591.385865 s4-s5 down
+5682.350669 s7-s12 up
+5688.880454 s11-s14 down
+5693.022970 s1-s3 down
+5721.653133 s3-s4 up
+5767.045000 s1-s3 up
+5779.764991 s4-s17 down
+5795.685755 s3-s8 up
+5798.824068 s1-s2 down
+5839.555506 s4-s6 down
+5965.858967 s3-s4 down
+6058.777808 s12-s18 up
+6074.772667 s14-s15 down
+6114.703759 s4-s17 up
+6181.961933 s1-s3 down
+6196.042926 s7-s12 down
+6291.783515 s3-s8 down
+6297.906310 s4-s6 up
+6357.134450 s12-s18 down
+6375.159147 s4-s6 down
+6387.579753 s1-s3 up
+6421.871143 s2-s20 down
+6441.146196 s5-s13 down
+6449.326095 s4-s6 up
+6486.691934 s12-s18 up
+6499.061592 s1-s3 down
+6528.868472 s1-s3 up
+6591.799675 s4-s6 down
+6712.824886 s12-s18 down
+6726.762053 s3-s4 up
+6750.327353 s4-s17 down
+6764.082975 s3-s4 down
+6792.098314 s4-s5 up
+6815.282463 s12-s18 up
+6815.545860 s4-s17 up
+6816.720227 s1-s3 down
+6829.445884 s12-s18 down
+6850.907368 s4-s19 up
+6880.356790 s1-s3 up
+6961.499879 s4-s5 down
+7060.744557 s2-s20 up
+7067.727059 s4-s19 down
+7094.545608 s3-s8 up
+7118.448683 s1-s2 up
+7132.624033 s4-s19 up
+7146.982577 s4-s17 down
+7226.137743 s2-s20 down
+7258.659109 s1-s2 down
+7284.838932 s4-s5 up
+7321.619298 s11-s14 up
+7346.306256 s4-s19 down
+7362.472910 s2-s20 up
+7393.754720 s8-s11 up
+7407.987264 s1-s3 down
+7430.482205 s9-s10 up
+7472.767384 s1-s3 up
+7539.486487 s2-s20 down
+7562.049021 s1-s3 down
+7582.126839 s8-s11 down
+7590.186702 s1-s3 up
+7592.438000 s4-s19 up
+7619.229054 s9-s10 down
+7633.366972 s4-s6 up
+7722.951312 s9-s10 up
+7736.373133 s3-s16 up
+7762.336708 s4-s5 down
+7778.256596 s1-s7 up
+7863.091811 s1-s3 down
+7880.125449 s11-s14 down
+7957.039502 s4-s5 up
+7999.414739 s1-s2 up
+8025.321514 s4-s19 down
+8029.638916 s4-s6 down
+8133.237481 s4-s19 up
+8135.250881 s3-s8 down
+8137.432581 s1-s7 down
+8195.657157 s1-s3 up
+8232.929229 s1-s2 down
+8241.628229 s7-s12 up
+8245.210294 s3-s8 up
+8292.410646 s4-s19 down
+8314.471669 s1-s3 down
+8321.035365 s12-s18 up
+8366.583680 s7-s12 down
+8404.046973 s3-s4 up
+8471.058900 s9-s10 down
+8515.483416 s7-s12 up
+8569.741556 s5-s13 up
+8605.191489 s3-s16 down
+8653.428904 s5-s13 down
+8662.590598 s4-s5 down
+8693.201230 s14-s15 up
+8755.938141 s4-s6 up
+8774.829551 s3-s8 down
+8801.091397 s9-s10 up
+8810.273499 s4-s17 up
+8839.970758 s1-s7 up
+8901.495652 s14-s15 down
+8905.661068 s3-s16 up
+8954.617653 s4-s17 down
+9003.205850 s8-s11 up
+9037.706694 s4-s17 up
+9041.751543 s1-s3 up
+9065.228434 s3-s4 down
+9137.165749 s4-s17 down
+9151.314031 s11-s14 up
+9220.827089 s7-s12 down
+9239.964134 s9-s10 down
+9374.911244 s1-s3 down
+9381.083032 s1-s2 up
+9449.648399 s1-s7 down
+9485.232417 s12-s18 down
+9513.217471 s4-s6 down
+9530.023306 s11-s14 down
+9548.704990 s9-s10 up
+9585.047106 s1-s3 up
+9616.606074 s12-s18 up
+9644.603076 s7-s12 up
+9646.390301 s3-s8 up
+9675.222416 s1-s2 down
+9702.156353 s11-s14 up
+9754.698420 s3-s16 down
+9841.884153 s8-s11 down
+9850.076775 s3-s4 up
+9893.291985 s4-s5 up
+9924.222450 s1-s3 down
+10010.120946 s3-s16 up
+10045.703617 s9-s10 down
+10135.049428 s3-s4 down
+10138.360606 s4-s17 up
+10147.773155 s1-s7 up
+10216.069967 s1-s3 up
+10274.478800 s11-s14 down
+10414.419510 s1-s3 down
+10415.763545 s14-s15 up
+10424.393950 s7-s12 down
+10431.608146 s3-s16 down
+10438.440394 s8-s11 up
+10456.831904 s3-s4 up
+10532.053458 s4-s19 up
+10555.378048 s4-s5 down
+10555.949064 s5-s13 up
+10564.386367 s1-s3 up
+10643.624049 s3-s8 down
+10668.322191 s11-s14 up
+10674.779604 s1-s2 up
+10778.574166 s1-s7 down
+10812.693088 s2-s20 up
+10840.441651 s4-s5 up
+10844.385867 s1-s2 down
+10979.322053 s1-s3 down
+11042.567766 s1-s2 up
+11115.292870 s3-s4 down
+11116.753284 s9-s10 up
+11165.528712 s4-s17 down
+11239.842256 s4-s5 down
+11352.702724 s1-s2 down
+11360.613879 s1-s7 up
+11378.283379 s1-s2 up
+11383.406921 s7-s12 up
+11438.186177 s8-s11 down
+11551.381471 s1-s7 down
+11567.533840 s1-s3 up
+11581.876382 s3-s8 up
+11608.204705 s14-s15 down
+11636.952827 s3-s16 up
+11667.797799 s7-s12 down
+11702.185508 s11-s14 down
+11704.015969 s5-s13 down
+11710.489428 s14-s15 up
+11789.614141 s7-s12 up
+11828.035793 s3-s16 down
+11856.350567 s3-s4 up
+11949.072695 s8-s11 up
+11964.813655 s7-s12 down
+12056.531790 s12-s18 down
+12128.062966 s1-s7 up
+12194.906697 s8-s11 down
+12251.072003 s9-s10 down
+12361.538638 s1-s2 down
+12389.416282 s5-s13 up
+12451.672666 s1-s2 up
+12493.559485 s7-s12 up
+12509.264818 s3-s4 down
+12542.199095 s4-s6 up
+12543.822868 s3-s16 up
+12589.874158 s5-s13 down
+12659.729177 s1-s3 down
+12664.977881 s9-s10 up
+12747.206907 s4-s17 up
+12747.789410 s3-s8 down
+12752.871284 s1-s2 down
+12810.604625 s11-s14 up
+12839.959537 s2-s20 down
+12866.664932 s9-s10 down
+12883.493281 s3-s8 up
+12890.098389 s3-s4 up
+12928.858550 s7-s12 down
+12951.184845 s12-s18 up
+12987.375110 s9-s10 up
+13018.166303 s14-s15 down
+13082.184639 s4-s19 down
+13090.397222 s1-s2 up
+13110.110395 s4-s19 up
+13152.994681 s3-s16 down
+13232.141840 s4-s19 down
+13301.239955 s8-s11 up
+13316.087890 s1-s2 down
+13327.413394 s3-s4 down
+13368.025095 s3-s8 down
+13372.089494 s4-s17 down
+13397.940635 s14-s15 up
+13452.018700 s7-s12 up
+13505.208567 s12-s18 down
+13605.421337 s8-s11 down
+13616.215491 s4-s19 up
+13621.345779 s1-s2 up
+13636.604275 s4-s6 down
+13656.910685 s2-s20 up
+13672.461692 s8-s11 up
+13675.517790 s11-s14 down
+13677.890035 s3-s4 up
+13727.296612 s9-s10 down
+13771.466476 s4-s19 down
+13844.581156 s2-s20 down
+13861.625348 s2-s20 up
+13884.815434 s12-s18 up
+13884.882760 s7-s12 down
+13945.265266 s14-s15 down
+13950.308879 s4-s6 up
+14004.097066 s4-s17 up
+14047.742845 s1-s7 down
+14065.405507 s4-s6 down
+14091.972542 s3-s16 up
+14156.990658 s9-s10 up
+14174.762432 s3-s8 up
+14189.866778 s8-s11 down
+14229.419348 s3-s8 down
+14303.000113 s8-s11 up
+14355.135392 s3-s16 down
+14380.077898 s1-s2 down
+14391.213891 s3-s16 up
+14444.899105 s1-s2 up
+14470.550714 s3-s4 down
+14512.449298 s5-s13 up
+14530.048120 s1-s2 down
+14539.676845 s1-s3 up
+14611.024537 s5-s13 down
+14754.309984 s1-s3 down
+14765.989974 s1-s2 up
+14784.982532 s7-s12 up
+14825.445580 s9-s10 down
+14826.614450 s14-s15 up
+14855.821983 s4-s6 up
+14868.165033 s3-s8 up
+14884.028460 s9-s10 up
+14934.673894 s7-s12 down
+14971.634199 s2-s20 down
+15007.378524 s11-s14 up
+15075.838669 s4-s6 down
+15147.876720 s4-s6 up
+15213.435706 s8-s11 down
+15291.630806 s11-s14 down
+15292.845172 s4-s19 up
+15362.641893 s7-s12 up
+15422.572681 s4-s6 down
+15486.604418 s1-s3 up
+15549.952029 s4-s17 down
+15557.691400 s12-s18 down
+15584.777702 s3-s8 down
+15610.679344 s3-s8 up
+15689.390742 s9-s10 down
+15706.683045 s3-s8 down
+15785.048231 s4-s19 down
+15793.572879 s4-s5 up
+15839.752819 s14-s15 down
+15849.841892 s9-s10 up
+15877.133190 s11-s14 up
+15890.409240 s1-s7 up
+15899.809326 s14-s15 up
+15944.196135 s7-s12 down
+16004.868953 s4-s5 down
+16016.115458 s5-s13 up
+16052.681828 s1-s2 down
+16093.179569 s8-s11 up
+16145.061306 s1-s3 down
+16162.107916 s3-s8 up
+16163.588867 s1-s3 up
+16176.525372 s2-s20 up
+16275.576137 s14-s15 down
+16306.488058 s4-s6 up
+16380.443642 s7-s12 up
+16416.436292 s3-s8 down
+16423.584322 s3-s8 up
+16424.338867 s11-s14 down
+16436.060841 s4-s17 up
+16555.390435 s8-s11 down
+16572.773519 s4-s19 up
+16605.846004 s4-s6 down
+16606.347958 s3-s16 down
+16627.525304 s8-s11 up
+16707.023295 s3-s4 up
+16734.271232 s2-s20 down
+16740.585210 s4-s17 down
+16798.234207 s5-s13 down
+16840.148928 s14-s15 up
+16870.649818 s3-s16 up
+16933.817106 s2-s20 up
+16945.583785 s1-s3 down
+17082.655576 s1-s3 up
+17094.259078 s7-s12 down
+17159.250020 s4-s17 up
+17164.988548 s11-s14 up
+17177.941953 s4-s5 up
+17191.706076 s14-s15 down
+17198.747879 s9-s10 down
+17287.869878 s14-s15 up
+17315.685550 s1-s7 down
+17353.497977 s9-s10 up
+17410.152239 s4-s19 down
+17464.292746 s5-s13 up
+17499.743350 s8-s11 down
+17502.879068 s12-s18 up
+17573.421301 s3-s4 down
+17594.183268 s4-s6 up
+17607.087387 s4-s17 down
+17633.702979 s4-s17 up
+17681.203072 s1-s2 up
+17741.325603 s4-s6 down
+17813.285030 s4-s6 up
+17872.944732 s9-s10 down
+17906.988314 s9-s10 up
+17957.915857 s4-s19 up
+18000.773762 s4-s17 down
+18042.831627 s8-s11 up
+18083.402368 s1-s3 down
+18139.305645 s4-s6 down
+18176.815900 s4-s6 up
+18219.196023 s12-s18 down
+18230.615652 s4-s19 down
+18278.233576 s4-s19 up
+18363.051593 s14-s15 down
+18477.163243 s1-s3 up
+18494.846090 s1-s2 down
+18518.906106 s5-s13 down
+18525.655880 s1-s7 up
+18596.037702 s14-s15 up
+18623.240470 s1-s2 up
+18658.419659 s4-s5 down
+18723.442121 s5-s13 up
+18771.327155 s3-s8 down
+18799.458138 s4-s17 up
+18842.356053 s3-s4 up
+18915.524448 s8-s11 down
+18965.792276 s2-s20 down
+19018.997379 s8-s11 up
+19081.448619 s12-s18 up
+19090.612403 s11-s14 down
+19095.417164 s11-s14 up
+19133.668123 s3-s16 down
+19217.644770 s1-s3 down
+19239.266077 s7-s12 up
+19298.642577 s3-s4 down
+19341.144019 s8-s11 down
+19381.371973 s4-s5 up
+19401.753006 s3-s4 up
+19430.044621 s3-s16 up
+19467.162244 s4-s17 down
+19482.538703 s4-s5 down
+19598.166820 s4-s19 down
+19625.685274 s4-s5 up
+19704.452620 s1-s2 down
+19715.656783 s3-s16 down
+19749.201799 s1-s2 up
+19765.687418 s8-s11 up
+19860.988461 s4-s5 down
+19950.147840 s11-s14 down
+19968.818507 s11-s14 up
+19971.497916 s1-s3 up
+20243.467843 s2-s20 up
+20371.827325 s3-s8 up
+20643.173658 s4-s5 up
+20703.640334 s4-s19 up
+21483.657976 s4-s17 up
+22438.302564 s3-s16 up
+1200000.000000 end
+TRACE TRACE TRACE
+c3 registered with Paxos Oracle
+c2 registered with Paxos Oracle
+c1 registered with Paxos Oracle
+c5 registered with Paxos Oracle
+c4 registered with Paxos Oracle
+Starting replay
+paxos available
+paxos available
+paxos available
+paxos available
+paxos available
+paxos available
+paxos available
+paxos available
+paxos available
+paxos available
+paxos available
+paxos available
+paxos available
+paxos available
+paxos available
+paxos available
+paxos available
+paxos available
+paxos available
+paxos available
+paxos available
+paxos available
+paxos available
+paxos available
+paxos available
+paxos available
+paxos available
+paxos available
+paxos available
+paxos available
+paxos available
+paxos available
+paxos available
+paxos available
+paxos available
+paxos available
+paxos available
+paxos available
+paxos available
+paxos available
+paxos available
+paxos available
+paxos available
+paxos available
+paxos available
+paxos available
+paxos available
+paxos available
+paxos available
+paxos available
+paxos available
+paxos available
+paxos available
+paxos available
+paxos available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos available
+paxos available
+paxos available
+paxos available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos not_available
+paxos available
+paxos available
+paxos available
+paxos available
+paxos available
+paxos available
+paxos available
+paxos available
+paxos available
+paxos available
+paxos available
+paxos available
+paxos available
+paxos available
+paxos available
+paxos available
+paxos available
+paxos available
+paxos available
+paxos available
+paxos available
+paxos available
+paxos available
+paxos available
+paxos available
+paxos available
+Done replay, left 20078 items
+Messages
+c3
+    NotifyOracleDecision 52
+c2
+    NotifyOracleDecision 34
+c1
+    NotifyOracleDecision 672
+c5
+    NotifyOracleDecision 60
+c4
+    NotifyOracleDecision 56
+Rule Changes
+1277.764461 s4 change
+1284.229102 s4 change
+1289.739360 s4 change
+1310.262103 s4 change
+1340.059064 s4 change
+1346.434993 s4 change
+1352.096014 s4 change
+1356.082828 s4 change
+1357.321680 s5 change
+1363.070127 s4 change
+1363.208145 s4 change
+1364.263127 s4 change
+1365.317150 s4 change
+1366.049288 s4 change
+1367.544817 s5 change
+1369.135856 s4 change
+1375.645381 s4 change
+1375.827120 s4 change
+1375.965365 s4 change
+1376.546344 s4 change
+1376.896870 s5 change
+1391.586261 s5 change
+1398.704969 s5 change
+1409.377024 s5 change
+1430.076710 s5 change
+1434.442760 s6 change
+1435.319316 s6 change
+1440.905926 s6 change
+1441.632159 s6 change
+1445.009870 s6 change
+1447.541075 s5 change
+1449.805670 s5 change
+1450.966872 s6 change
+1453.830629 s5 change
+1455.675562 s6 change
+1461.686622 s5 change
+1464.115748 s5 change
+1466.923092 s5 change
+1469.463498 s5 change
+1473.233702 s6 change
+17369.779218 s15 change
+17385.793515 s15 change
+17472.514274 s17 change
+17492.471358 s17 change
+20361.818060 s10 change
+20384.745552 s10 change
+21464.541462 s2 change
+21498.611991 s2 change
+21561.691563 s1 change
+21561.976724 s1 change
+22617.124354 s17 change
+22626.769980 s17 change
+22656.059894 s17 change
+22671.992224 s17 change
+1200000.001758 4320 packets sent total 846 recved (Loss 80.416667%)
+Latency
+750.000000 
+25750.000000 156.37776004 159.290508826 179.880512578 180.694327402 194.813490127 212.310394221 294.865947479 318.107923549 353.619989062 371.316455891 380.253434982 388.258940376 396.015221915 400.835809593 411.381756635 415.250145658 430.534474701 443.436923176
+50750.000000 169.528510071 179.485959931 185.646105971 193.055537897 197.912983017 204.048493387 287.255445344 299.76112961 310.004625425 324.719817287 351.447183074 365.045099303 375.019071031 376.996030293 408.309738599 419.996167076 441.353334816 445.291039656
+75750.000000 127.599312425 183.801667253 198.321328816 199.680929205 205.06513377 206.436985489 302.373188089 327.576657484 361.791929487 364.328474398 377.705667554 383.817459198 393.799436772 394.21963725 398.418802991 401.199275213 405.651253942 406.641299498
+100750.000000 165.212639248 170.488627884 188.695816481 198.766810525 204.792215247 219.731090132 284.742268331 316.494336874 356.658008392 360.618378363 365.482979771 366.105014875 369.344965418 377.280933245 378.361034309 384.385209835 391.2157004 420.426924966
+125750.000000 179.401042978 182.553500861 183.22825966 192.245871335 200.098392034 217.571950495 280.94409519 298.813306877 346.621453967 359.993950203 364.055222412 373.995474813 376.906872595 384.03066293 387.683101075 402.6256551 411.034496803 426.045809812
+150750.000000 161.878295824 169.500126082 181.776379623 189.712407708 198.329238731 210.383867573 252.989361508 303.822986468 322.151218894 346.538215924 357.624407265 361.794264778 367.873215862 385.668568288 387.25817989 409.34602998 412.884323356 421.823208435
+175750.000000 177.421248492 186.069233477 192.480112024 195.4471911 197.729488568 201.850115573 239.900914755 271.482284564 350.68838298 354.397077426 369.56253759 378.156981353 380.675139929 385.23876498 403.854046921 405.652429429 412.649039996 414.261718613
+200750.000000 158.698507838 158.857647116 160.286899618 175.27179283 191.064584209 241.799479909 249.763141718 280.332302506 354.526922272 359.798201846 372.266938173 381.940851523 404.563998322 405.413325939 415.406154204 417.185062758 420.203302039 420.231295922
+225750.000000 161.557957503 168.227733024 177.889499048 183.804463586 186.359215152 207.831782054 271.9626589 280.772126426 326.447489722 337.862236668 348.006049622 350.372331796 381.452252616 399.32545068 407.951369057 421.010433428 426.680671644 454.383349984
+250750.000000 168.760735474 183.038314245 184.836230408 189.58991468 208.547348406 214.815014502 256.918413902 311.905935739 314.728572624 329.746092855 361.938524141 363.461305119 365.649439518 365.864051771 382.226685911 387.369077397 392.6238001 414.018067091
+275750.000000 192.771055149 208.535605531 218.811585034 225.174683418 227.189373148 228.987479463 247.636028135 309.126561248 313.00873259 365.331610988 366.08202522 375.935337472 385.135294243 388.297904577 391.637540408 393.403075497 402.359589816 419.703467637
+300750.000000 162.03415316 174.735407129 198.548181059 202.037877041 203.598862695 222.030358967 281.484625725 292.366401488 332.753525824 338.412550138 340.902813351 353.084886964 355.420345009 391.553809896 393.762763012 401.419853205 410.697529665 415.874967186
+325750.000000 171.198927367 183.499166627 192.105855039 213.542261756 216.803329923 228.336734588 277.915787726 295.19569529 339.703088688 352.605105621 352.681101427 366.789774701 387.755498244 388.733996926 391.093186491 399.079525022 402.13544741 421.706429647
+350750.000000 137.88240298 158.823642017 170.887132992 174.337911705 194.950218431 211.507837005 292.753220392 304.01261454 343.837290588 359.04332433 378.571557427 391.444955618 393.16055283 394.132065807 403.308136075 414.184514589 422.184728644 427.321966573
+375750.000000 159.686028261 169.043481651 172.424987674 190.389823237 195.11858102 217.515167186 283.020538292 310.675620102 338.654655914 344.713388744 346.760795788 355.423679309 357.809919442 372.468309235 374.718070697 380.776401367 393.669364317 403.165971059
+400750.000000 155.20525463 193.596138465 201.795812408 201.831720083 203.805579721 204.820813386 265.886149561 322.790174186 354.413556576 359.429319765 387.853810497 388.077698719 392.222593662 395.149230013 400.745874452 404.13687341 406.997927683 415.316905851
+425750.000000 142.8371277 172.713615996 175.020212305 186.593520741 206.431866316 225.613534604 252.069573994 271.972146593 344.192750821 349.292630691 367.266250078 378.243758435 378.82704402 387.495678336 392.843304123 401.034103623 417.836287871 427.226994371
+450750.000000 166.887704275 172.760447229 173.152773566 189.411816955 194.327688986 207.781200182 257.695770772 266.101583707 306.110091728 350.905133598 353.719833684 356.381887586 368.916907927 378.276905292 388.474226339 397.23862689 399.354902731 429.051117241
+475750.000000 160.785354138 166.628255739 170.02164871 174.382627934 179.395104061 188.60190013 248.546784708 264.710345153 308.977284599 375.606005435 377.264144017 380.339555556 382.602639645 385.447349683 401.09923464 404.694307034 405.856366605 408.398205111
+500750.000000 164.487590099 167.989639362 169.482447867 172.82740104 181.579093673 198.498969682 274.510451161 317.028646147 329.665117844 352.546129315 381.353825627 381.390429148 383.053112565 383.364784657 390.401281082 395.848900369 398.888077798 400.755802208
+525750.000000 179.220598785 191.320184077 194.811431403 196.609656734 203.164691341 209.51575187 286.52241074 324.657810025 351.210352608 351.733897131 361.217055868 367.206413181 367.876550818 375.364428527 381.497702215 384.069448476 401.022576338 407.86887117
+550750.000000 155.627716734 169.996137951 176.114835516 178.233572751 187.513483323 192.202901272 219.29463727 311.891581919 341.618594569 347.26510444 348.557060447 352.919718765 353.593731595 369.965482631 370.545820791 384.047447657 393.647716212 396.349765603
+575750.000000 174.074509016 174.267999866 183.305550558 183.791607843 190.416634584 214.886015627 244.908517042 249.674022678 346.180030334 363.955024107 375.764057992 384.550354558 387.200445968 388.004606206 394.659850039 402.529804025 403.969988934 452.628083466
+600750.000000 171.380708985 171.46358024 173.378685312 188.211369517 206.467045898 209.286329396 273.851766439 306.09311947 331.777758664 357.004369113 372.962719576 376.528229601 386.296503313 387.971723083 406.58673385 415.047731001 424.074238801 433.103306432
+625750.000000 171.142210317 179.163641265 201.280604524 208.650903992 218.472403927 220.835838091 292.820135464 315.330173671 346.757859489 349.766774356 360.643461474 386.041746488 394.756961729 398.657998432 412.444360222 420.167942837 431.530958412 455.35895091
+650750.000000 181.951207057 184.105852773 186.738235682 198.605318172 219.236578724 234.990846078 277.160552432 312.852489299 334.256680411 359.605336373 361.18982608 364.129440929 368.754576324 381.396829855 382.901782252 403.368765117 410.494172733 433.394285561
+675750.000000 159.234391183 164.427694241 180.819351263 182.151306068 187.739149346 214.898587366 266.737262562 289.294498263 306.043419479 358.493053291 365.18022893 368.053355573 372.976875248 397.828790314 400.241206078 402.908252626 410.194827429 417.304300023
+700750.000000 113.636172334 162.450533086 181.330013874 182.746604859 195.457698001 198.068847231 255.417284057 288.073543079 360.722171567 361.71343939 362.468057957 372.289946187 377.444641931 389.162194291 398.648183876 401.870366188 407.510827189 423.37744737
+725750.000000 171.052587918 190.497674868 204.933654454 209.008018864 213.677529288 219.456424215 224.459395307 333.577824225 338.337118474 350.826787599 359.77795172 363.643942378 376.583264622 377.764381291 386.630776138 391.112480477 410.269528351 410.85106943
+750750.000000 172.554095855 184.475553931 189.606638408 201.504718282 206.185882233 213.040382613 256.722485489 302.524946208 332.461101783 346.175476389 371.616007325 376.482139224 376.495396378 376.807460831 397.624964284 397.906726628 419.201190968 419.24513185
+775750.000000 162.194419716 180.062791398 190.566059157 197.076385772 206.903751581 220.402865957 281.118003523 312.551033532 342.137974266 357.901486811 367.544546875 367.942125638 371.688845665 389.22936343 393.301813165 410.710441325 416.422908374 441.377878005
+800750.000000 135.607892082 174.87751481 178.649171965 199.728161491 202.675696439 212.210844816 289.174816862 299.407721692 335.311771798 338.3651292 356.226810941 366.835695738 367.506241087 378.676361729 404.423687372 412.111922544 424.32550788 444.487307827
+825750.000000 179.706442668 197.759943324 203.413018505 216.182871976 216.826630069 224.231656433 302.988101928 303.889345597 331.925258071 366.751887116 375.233309668 377.262537965 383.511277356 389.052161842 389.602854588 407.238466385 413.403897234 436.309911122
+850750.000000 180.772509339 185.566727252 203.944255978 221.590649512 225.177819727 227.381232418 274.500372187 292.970002586 305.404528477 323.753692953 354.945879527 361.625156097 375.510449582 384.24753475 388.840961873 395.59877904 404.390503128 420.978148172
+875750.000000 156.826604221 165.909942275 170.713017963 193.481456344 207.54609479 232.368187643 266.071004052 290.849788027 332.065554134 333.965325526 340.853725637 343.433131408 360.955926647 360.97872081 372.338045251 374.215787713 415.571819337 418.614740496
+900750.000000 178.508946354 182.502053059 196.171364487 197.683088854 221.864826249 223.485721952 306.735229142 325.645753168 327.012829722 340.237266737 344.246160322 346.413469313 355.138522542 374.243495377 378.772215838 382.736723467 392.465437736 430.109170653
+925750.000000 165.353807171 177.873774226 189.924649777 197.867144615 214.672040763 223.037418969 298.645753174 300.202308037 366.847795207 372.314116893 377.03257917 378.748396039 385.897776948 390.558047872 395.243680261 395.530670955 399.389522861 413.348851172
+950750.000000 171.217217142 189.032196337 189.954787644 210.923975249 219.225820441 238.522679566 298.354647768 316.066407104 329.594147658 343.926763994 360.108725002 373.183576368 376.312287963 378.332385803 387.645732088 409.22542575 420.386004602 427.583430483
+975750.000000 157.75479015 171.690383932 173.443882581 196.439749308 204.256294837 205.023574176 285.560280256 288.619068559 332.526418055 348.52325034 351.975045293 360.855430945 361.180454204 369.28923017 371.761019861 377.709469984 380.892771036 410.483487093
+1000750.000000 146.680194684 157.018545279 180.999667022 184.110842669 203.178596716 204.125062678 299.048315963 299.717637254 357.642188304 358.541321118 366.651568235 371.015072014 383.468118552 391.570117346 396.820443494 398.93874931 399.426757259 413.850726083
+1025750.000000 137.575384963 181.813864923 192.016862758 204.289865484 206.28821092 206.42636879 274.778734693 285.511979076 371.519719283 375.375622209 387.240892942 395.83722467 401.084204466 403.172276605 403.677246943 404.756489877 406.464575603 435.533930801
+1050750.000000 174.452068207 185.218266173 205.222464932 208.179949817 215.374294375 218.38351054 226.971873686 271.704716783 327.997225656 341.453039913 359.585272698 367.422675621 379.784022068 381.127409803 381.247171849 387.164666494 390.969230602 419.874245512
+1075750.000000 170.342612199 181.706331255 188.87162386 190.153781654 198.637548717 203.094328234 278.736561609 305.850099406 319.150324893 344.602485109 359.055110909 359.230106026 364.994729699 372.901323917 374.604910032 375.272156753 375.784730974 403.554651049
+1100750.000000 174.731493774 189.93247652 194.274496139 198.55899072 200.412959192 211.030816015 284.576521426 297.105710316 330.862456777 349.33655364 370.816071465 372.588794926 373.159419054 378.416895505 388.944752119 392.535781847 401.191345124 403.230705911
+1125750.000000 145.042480103 150.774760847 181.07062648 192.264635327 199.200671194 199.443826133 283.947810556 300.678842355 354.804986252 374.760182639 376.967141065 389.673904219 389.812405014 393.818198072 396.526327295 405.056954692 411.248857812 411.76220181
+1150750.000000 148.103006843 174.278636914 177.214781238 187.835157752 203.240304713 211.823890758 234.201079313 323.071249454 341.51216671 348.266055933 366.811143534 376.367406825 378.622122716 389.870184486 400.082511151 401.979269843 402.397655266 405.385103861
+1175750.000000 168.944578583 177.883498969 178.225478777 180.8669091 182.040977541 203.002146683 246.742900076 292.538516048 343.638911176 363.054766343 366.401972547 370.621969291 388.852070341 392.652864086 398.931486444 400.16581136 400.204648074 451.121704356
+1200000.001758 1199250.00176 1199250.00176 1199250.00176 1199250.00176 1199250.00176 1199250.00176 1199250.00176 1199250.00176 1199250.00176 1199250.00176 1199250.00176 1199250.00176 1199250.00176 1199250.00176 1199250.00176 1199250.00176 1199250.00176 1199250.00176 1199250.00176 1199250.00176 1199250.00176 1199250.00176 1199250.00176 1199250.00176 1199250.00176 1199250.00176 1199250.00176 1199250.00176 1199250.00176 1199250.00176 1199250.00176 1199250.00176 1199250.00176 1199250.00176 1199250.00176 1199250.00176 1199250.00176 1199250.00176 1199250.00176 1199250.00176 1199250.00176 1199250.00176 1199250.00176 1199250.00176 1199250.00176 1199250.00176 1199250.00176 1199250.00176 1199250.00176 1199250.00176 1199250.00176 1199250.00176 1199250.00176 1199250.00176 1199250.00176 1199250.00176 1199250.00176 1199250.00176 1199250.00176 1199250.00176 1199250.00176 1199250.00176 1199250.00176 1199250.00176 1199250.00176 1199250.00176 1199250.00176 1199250.00176 1199250.00176 1199250.00176 1199250.00176 1199250.00176 1199250.00176 1199250.00176 1199250.00176 1199250.00176 1199250.00176 1199250.00176 1199250.00176 1199250.00176 1199250.00176 1199250.00176 1199250.00176 1199250.00176 1199250.00176 1199250.00176 1199250.00176 1199250.00176 1199250.00176 1199250.00176 1174250.00176 1174250.00176 1174250.00176 1174250.00176 1174250.00176 1174250.00176 1174250.00176 1174250.00176 1174250.00176 1174250.00176 1174250.00176 1174250.00176 1174250.00176 1174250.00176 1174250.00176 1174250.00176 1174250.00176 1174250.00176 1174250.00176 1174250.00176 1174250.00176 1174250.00176 1174250.00176 1174250.00176 1174250.00176 1174250.00176 1174250.00176 1174250.00176 1174250.00176 1174250.00176 1174250.00176 1174250.00176 1174250.00176 1174250.00176 1174250.00176 1174250.00176 1174250.00176 1174250.00176 1174250.00176 1174250.00176 1174250.00176 1174250.00176 1174250.00176 1174250.00176 1174250.00176 1174250.00176 1174250.00176 1174250.00176 1174250.00176 1174250.00176 1174250.00176 1174250.00176 1174250.00176 1174250.00176 1174250.00176 1174250.00176 1174250.00176 1174250.00176 1174250.00176 1174250.00176 1174250.00176 1174250.00176 1174250.00176 1174250.00176 1174250.00176 1174250.00176 1174250.00176 1174250.00176 1174250.00176 1174250.00176 1174250.00176 1174250.00176 1149250.00176 1149250.00176 1149250.00176 1149250.00176 1149250.00176 1149250.00176 1149250.00176 1149250.00176 1149250.00176 1149250.00176 1149250.00176 1149250.00176 1149250.00176 1149250.00176 1149250.00176 1149250.00176 1149250.00176 1149250.00176 1149250.00176 1149250.00176 1149250.00176 1149250.00176 1149250.00176 1149250.00176 1149250.00176 1149250.00176 1149250.00176 1149250.00176 1149250.00176 1149250.00176 1149250.00176 1149250.00176 1149250.00176 1149250.00176 1149250.00176 1149250.00176 1149250.00176 1149250.00176 1149250.00176 1149250.00176 1149250.00176 1149250.00176 1149250.00176 1149250.00176 1149250.00176 1149250.00176 1149250.00176 1149250.00176 1149250.00176 1149250.00176 1149250.00176 1149250.00176 1149250.00176 1149250.00176 1149250.00176 1149250.00176 1149250.00176 1149250.00176 1149250.00176 1149250.00176 1149250.00176 1149250.00176 1149250.00176 1149250.00176 1149250.00176 1149250.00176 1149250.00176 1149250.00176 1149250.00176 1149250.00176 1149250.00176 1149250.00176 1124250.00176 1124250.00176 1124250.00176 1124250.00176 1124250.00176 1124250.00176 1124250.00176 1124250.00176 1124250.00176 1124250.00176 1124250.00176 1124250.00176 1124250.00176 1124250.00176 1124250.00176 1124250.00176 1124250.00176 1124250.00176 1124250.00176 1124250.00176 1124250.00176 1124250.00176 1124250.00176 1124250.00176 1124250.00176 1124250.00176 1124250.00176 1124250.00176 1124250.00176 1124250.00176 1124250.00176 1124250.00176 1124250.00176 1124250.00176 1124250.00176 1124250.00176 1124250.00176 1124250.00176 1124250.00176 1124250.00176 1124250.00176 1124250.00176 1124250.00176 1124250.00176 1124250.00176 1124250.00176 1124250.00176 1124250.00176 1124250.00176 1124250.00176 1124250.00176 1124250.00176 1124250.00176 1124250.00176 1124250.00176 1124250.00176 1124250.00176 1124250.00176 1124250.00176 1124250.00176 1124250.00176 1124250.00176 1124250.00176 1124250.00176 1124250.00176 1124250.00176 1124250.00176 1124250.00176 1124250.00176 1124250.00176 1124250.00176 1124250.00176 1099250.00176 1099250.00176 1099250.00176 1099250.00176 1099250.00176 1099250.00176 1099250.00176 1099250.00176 1099250.00176 1099250.00176 1099250.00176 1099250.00176 1099250.00176 1099250.00176 1099250.00176 1099250.00176 1099250.00176 1099250.00176 1099250.00176 1099250.00176 1099250.00176 1099250.00176 1099250.00176 1099250.00176 1099250.00176 1099250.00176 1099250.00176 1099250.00176 1099250.00176 1099250.00176 1099250.00176 1099250.00176 1099250.00176 1099250.00176 1099250.00176 1099250.00176 1099250.00176 1099250.00176 1099250.00176 1099250.00176 1099250.00176 1099250.00176 1099250.00176 1099250.00176 1099250.00176 1099250.00176 1099250.00176 1099250.00176 1099250.00176 1099250.00176 1099250.00176 1099250.00176 1099250.00176 1099250.00176 1099250.00176 1099250.00176 1099250.00176 1099250.00176 1099250.00176 1099250.00176 1099250.00176 1099250.00176 1099250.00176 1099250.00176 1099250.00176 1099250.00176 1099250.00176 1099250.00176 1099250.00176 1099250.00176 1099250.00176 1099250.00176 1074250.00176 1074250.00176 1074250.00176 1074250.00176 1074250.00176 1074250.00176 1074250.00176 1074250.00176 1074250.00176 1074250.00176 1074250.00176 1074250.00176 1074250.00176 1074250.00176 1074250.00176 1074250.00176 1074250.00176 1074250.00176 1074250.00176 1074250.00176 1074250.00176 1074250.00176 1074250.00176 1074250.00176 1074250.00176 1074250.00176 1074250.00176 1074250.00176 1074250.00176 1074250.00176 1074250.00176 1074250.00176 1074250.00176 1074250.00176 1074250.00176 1074250.00176 1074250.00176 1074250.00176 1074250.00176 1074250.00176 1074250.00176 1074250.00176 1074250.00176 1074250.00176 1074250.00176 1074250.00176 1074250.00176 1074250.00176 1074250.00176 1074250.00176 1074250.00176 1074250.00176 1074250.00176 1074250.00176 1074250.00176 1074250.00176 1074250.00176 1074250.00176 1074250.00176 1074250.00176 1074250.00176 1074250.00176 1074250.00176 1074250.00176 1074250.00176 1074250.00176 1074250.00176 1074250.00176 1074250.00176 1074250.00176 1074250.00176 1074250.00176 1049250.00176 1049250.00176 1049250.00176 1049250.00176 1049250.00176 1049250.00176 1049250.00176 1049250.00176 1049250.00176 1049250.00176 1049250.00176 1049250.00176 1049250.00176 1049250.00176 1049250.00176 1049250.00176 1049250.00176 1049250.00176 1049250.00176 1049250.00176 1049250.00176 1049250.00176 1049250.00176 1049250.00176 1049250.00176 1049250.00176 1049250.00176 1049250.00176 1049250.00176 1049250.00176 1049250.00176 1049250.00176 1049250.00176 1049250.00176 1049250.00176 1049250.00176 1049250.00176 1049250.00176 1049250.00176 1049250.00176 1049250.00176 1049250.00176 1049250.00176 1049250.00176 1049250.00176 1049250.00176 1049250.00176 1049250.00176 1049250.00176 1049250.00176 1049250.00176 1049250.00176 1049250.00176 1049250.00176 1049250.00176 1049250.00176 1049250.00176 1049250.00176 1049250.00176 1049250.00176 1049250.00176 1049250.00176 1049250.00176 1049250.00176 1049250.00176 1049250.00176 1049250.00176 1049250.00176 1049250.00176 1049250.00176 1049250.00176 1049250.00176 1024250.00176 1024250.00176 1024250.00176 1024250.00176 1024250.00176 1024250.00176 1024250.00176 1024250.00176 1024250.00176 1024250.00176 1024250.00176 1024250.00176 1024250.00176 1024250.00176 1024250.00176 1024250.00176 1024250.00176 1024250.00176 1024250.00176 1024250.00176 1024250.00176 1024250.00176 1024250.00176 1024250.00176 1024250.00176 1024250.00176 1024250.00176 1024250.00176 1024250.00176 1024250.00176 1024250.00176 1024250.00176 1024250.00176 1024250.00176 1024250.00176 1024250.00176 1024250.00176 1024250.00176 1024250.00176 1024250.00176 1024250.00176 1024250.00176 1024250.00176 1024250.00176 1024250.00176 1024250.00176 1024250.00176 1024250.00176 1024250.00176 1024250.00176 1024250.00176 1024250.00176 1024250.00176 1024250.00176 1024250.00176 1024250.00176 1024250.00176 1024250.00176 1024250.00176 1024250.00176 1024250.00176 1024250.00176 1024250.00176 1024250.00176 1024250.00176 1024250.00176 1024250.00176 1024250.00176 1024250.00176 1024250.00176 1024250.00176 1024250.00176 999250.001758 999250.001758 999250.001758 999250.001758 999250.001758 999250.001758 999250.001758 999250.001758 999250.001758 999250.001758 999250.001758 999250.001758 999250.001758 999250.001758 999250.001758 999250.001758 999250.001758 999250.001758 999250.001758 999250.001758 999250.001758 999250.001758 999250.001758 999250.001758 999250.001758 999250.001758 999250.001758 999250.001758 999250.001758 999250.001758 999250.001758 999250.001758 999250.001758 999250.001758 999250.001758 999250.001758 999250.001758 999250.001758 999250.001758 999250.001758 999250.001758 999250.001758 999250.001758 999250.001758 999250.001758 999250.001758 999250.001758 999250.001758 999250.001758 999250.001758 999250.001758 999250.001758 999250.001758 999250.001758 999250.001758 999250.001758 999250.001758 999250.001758 999250.001758 999250.001758 999250.001758 999250.001758 999250.001758 999250.001758 999250.001758 999250.001758 999250.001758 999250.001758 999250.001758 999250.001758 999250.001758 999250.001758 974250.001758 974250.001758 974250.001758 974250.001758 974250.001758 974250.001758 974250.001758 974250.001758 974250.001758 974250.001758 974250.001758 974250.001758 974250.001758 974250.001758 974250.001758 974250.001758 974250.001758 974250.001758 974250.001758 974250.001758 974250.001758 974250.001758 974250.001758 974250.001758 974250.001758 974250.001758 974250.001758 974250.001758 974250.001758 974250.001758 974250.001758 974250.001758 974250.001758 974250.001758 974250.001758 974250.001758 974250.001758 974250.001758 974250.001758 974250.001758 974250.001758 974250.001758 974250.001758 974250.001758 974250.001758 974250.001758 974250.001758 974250.001758 974250.001758 974250.001758 974250.001758 974250.001758 974250.001758 974250.001758 974250.001758 974250.001758 974250.001758 974250.001758 974250.001758 974250.001758 974250.001758 974250.001758 974250.001758 974250.001758 974250.001758 974250.001758 974250.001758 974250.001758 974250.001758 974250.001758 974250.001758 974250.001758 949250.001758 949250.001758 949250.001758 949250.001758 949250.001758 949250.001758 949250.001758 949250.001758 949250.001758 949250.001758 949250.001758 949250.001758 949250.001758 949250.001758 949250.001758 949250.001758 949250.001758 949250.001758 949250.001758 949250.001758 949250.001758 949250.001758 949250.001758 949250.001758 949250.001758 949250.001758 949250.001758 949250.001758 949250.001758 949250.001758 949250.001758 949250.001758 949250.001758 949250.001758 949250.001758 949250.001758 949250.001758 949250.001758 949250.001758 949250.001758 949250.001758 949250.001758 949250.001758 949250.001758 949250.001758 949250.001758 949250.001758 949250.001758 949250.001758 949250.001758 949250.001758 949250.001758 949250.001758 949250.001758 949250.001758 949250.001758 949250.001758 949250.001758 949250.001758 949250.001758 949250.001758 949250.001758 949250.001758 949250.001758 949250.001758 949250.001758 949250.001758 949250.001758 949250.001758 949250.001758 949250.001758 949250.001758 924250.001758 924250.001758 924250.001758 924250.001758 924250.001758 924250.001758 924250.001758 924250.001758 924250.001758 924250.001758 924250.001758 924250.001758 924250.001758 924250.001758 924250.001758 924250.001758 924250.001758 924250.001758 924250.001758 924250.001758 924250.001758 924250.001758 924250.001758 924250.001758 924250.001758 924250.001758 924250.001758 924250.001758 924250.001758 924250.001758 924250.001758 924250.001758 924250.001758 924250.001758 924250.001758 924250.001758 924250.001758 924250.001758 924250.001758 924250.001758 924250.001758 924250.001758 924250.001758 924250.001758 924250.001758 924250.001758 924250.001758 924250.001758 924250.001758 924250.001758 924250.001758 924250.001758 924250.001758 924250.001758 924250.001758 924250.001758 924250.001758 924250.001758 924250.001758 924250.001758 924250.001758 924250.001758 924250.001758 924250.001758 924250.001758 924250.001758 924250.001758 924250.001758 924250.001758 924250.001758 924250.001758 924250.001758 899250.001758 899250.001758 899250.001758 899250.001758 899250.001758 899250.001758 899250.001758 899250.001758 899250.001758 899250.001758 899250.001758 899250.001758 899250.001758 899250.001758 899250.001758 899250.001758 899250.001758 899250.001758 899250.001758 899250.001758 899250.001758 899250.001758 899250.001758 899250.001758 899250.001758 899250.001758 899250.001758 899250.001758 899250.001758 899250.001758 899250.001758 899250.001758 899250.001758 899250.001758 899250.001758 899250.001758 899250.001758 899250.001758 899250.001758 899250.001758 899250.001758 899250.001758 899250.001758 899250.001758 899250.001758 899250.001758 899250.001758 899250.001758 899250.001758 899250.001758 899250.001758 899250.001758 899250.001758 899250.001758 899250.001758 899250.001758 899250.001758 899250.001758 899250.001758 899250.001758 899250.001758 899250.001758 899250.001758 899250.001758 899250.001758 899250.001758 899250.001758 899250.001758 899250.001758 899250.001758 899250.001758 899250.001758 874250.001758 874250.001758 874250.001758 874250.001758 874250.001758 874250.001758 874250.001758 874250.001758 874250.001758 874250.001758 874250.001758 874250.001758 874250.001758 874250.001758 874250.001758 874250.001758 874250.001758 874250.001758 874250.001758 874250.001758 874250.001758 874250.001758 874250.001758 874250.001758 874250.001758 874250.001758 874250.001758 874250.001758 874250.001758 874250.001758 874250.001758 874250.001758 874250.001758 874250.001758 874250.001758 874250.001758 874250.001758 874250.001758 874250.001758 874250.001758 874250.001758 874250.001758 874250.001758 874250.001758 874250.001758 874250.001758 874250.001758 874250.001758 874250.001758 874250.001758 874250.001758 874250.001758 874250.001758 874250.001758 874250.001758 874250.001758 874250.001758 874250.001758 874250.001758 874250.001758 874250.001758 874250.001758 874250.001758 874250.001758 874250.001758 874250.001758 874250.001758 874250.001758 874250.001758 874250.001758 874250.001758 874250.001758 849250.001758 849250.001758 849250.001758 849250.001758 849250.001758 849250.001758 849250.001758 849250.001758 849250.001758 849250.001758 849250.001758 849250.001758 849250.001758 849250.001758 849250.001758 849250.001758 849250.001758 849250.001758 849250.001758 849250.001758 849250.001758 849250.001758 849250.001758 849250.001758 849250.001758 849250.001758 849250.001758 849250.001758 849250.001758 849250.001758 849250.001758 849250.001758 849250.001758 849250.001758 849250.001758 849250.001758 849250.001758 849250.001758 849250.001758 849250.001758 849250.001758 849250.001758 849250.001758 849250.001758 849250.001758 849250.001758 849250.001758 849250.001758 849250.001758 849250.001758 849250.001758 849250.001758 849250.001758 849250.001758 849250.001758 849250.001758 849250.001758 849250.001758 849250.001758 849250.001758 849250.001758 849250.001758 849250.001758 849250.001758 849250.001758 849250.001758 849250.001758 849250.001758 849250.001758 849250.001758 849250.001758 849250.001758 824250.001758 824250.001758 824250.001758 824250.001758 824250.001758 824250.001758 824250.001758 824250.001758 824250.001758 824250.001758 824250.001758 824250.001758 824250.001758 824250.001758 824250.001758 824250.001758 824250.001758 824250.001758 824250.001758 824250.001758 824250.001758 824250.001758 824250.001758 824250.001758 824250.001758 824250.001758 824250.001758 824250.001758 824250.001758 824250.001758 824250.001758 824250.001758 824250.001758 824250.001758 824250.001758 824250.001758 824250.001758 824250.001758 824250.001758 824250.001758 824250.001758 824250.001758 824250.001758 824250.001758 824250.001758 824250.001758 824250.001758 824250.001758 824250.001758 824250.001758 824250.001758 824250.001758 824250.001758 824250.001758 824250.001758 824250.001758 824250.001758 824250.001758 824250.001758 824250.001758 824250.001758 824250.001758 824250.001758 824250.001758 824250.001758 824250.001758 824250.001758 824250.001758 824250.001758 824250.001758 824250.001758 824250.001758 799250.001758 799250.001758 799250.001758 799250.001758 799250.001758 799250.001758 799250.001758 799250.001758 799250.001758 799250.001758 799250.001758 799250.001758 799250.001758 799250.001758 799250.001758 799250.001758 799250.001758 799250.001758 799250.001758 799250.001758 799250.001758 799250.001758 799250.001758 799250.001758 799250.001758 799250.001758 799250.001758 799250.001758 799250.001758 799250.001758 799250.001758 799250.001758 799250.001758 799250.001758 799250.001758 799250.001758 799250.001758 799250.001758 799250.001758 799250.001758 799250.001758 799250.001758 799250.001758 799250.001758 799250.001758 799250.001758 799250.001758 799250.001758 799250.001758 799250.001758 799250.001758 799250.001758 799250.001758 799250.001758 799250.001758 799250.001758 799250.001758 799250.001758 799250.001758 799250.001758 799250.001758 799250.001758 799250.001758 799250.001758 799250.001758 799250.001758 799250.001758 799250.001758 799250.001758 799250.001758 799250.001758 799250.001758 774250.001758 774250.001758 774250.001758 774250.001758 774250.001758 774250.001758 774250.001758 774250.001758 774250.001758 774250.001758 774250.001758 774250.001758 774250.001758 774250.001758 774250.001758 774250.001758 774250.001758 774250.001758 774250.001758 774250.001758 774250.001758 774250.001758 774250.001758 774250.001758 774250.001758 774250.001758 774250.001758 774250.001758 774250.001758 774250.001758 774250.001758 774250.001758 774250.001758 774250.001758 774250.001758 774250.001758 774250.001758 774250.001758 774250.001758 774250.001758 774250.001758 774250.001758 774250.001758 774250.001758 774250.001758 774250.001758 774250.001758 774250.001758 774250.001758 774250.001758 774250.001758 774250.001758 774250.001758 774250.001758 774250.001758 774250.001758 774250.001758 774250.001758 774250.001758 774250.001758 774250.001758 774250.001758 774250.001758 774250.001758 774250.001758 774250.001758 774250.001758 774250.001758 774250.001758 774250.001758 774250.001758 774250.001758 749250.001758 749250.001758 749250.001758 749250.001758 749250.001758 749250.001758 749250.001758 749250.001758 749250.001758 749250.001758 749250.001758 749250.001758 749250.001758 749250.001758 749250.001758 749250.001758 749250.001758 749250.001758 749250.001758 749250.001758 749250.001758 749250.001758 749250.001758 749250.001758 749250.001758 749250.001758 749250.001758 749250.001758 749250.001758 749250.001758 749250.001758 749250.001758 749250.001758 749250.001758 749250.001758 749250.001758 749250.001758 749250.001758 749250.001758 749250.001758 749250.001758 749250.001758 749250.001758 749250.001758 749250.001758 749250.001758 749250.001758 749250.001758 749250.001758 749250.001758 749250.001758 749250.001758 749250.001758 749250.001758 749250.001758 749250.001758 749250.001758 749250.001758 749250.001758 749250.001758 749250.001758 749250.001758 749250.001758 749250.001758 749250.001758 749250.001758 749250.001758 749250.001758 749250.001758 749250.001758 749250.001758 749250.001758 724250.001758 724250.001758 724250.001758 724250.001758 724250.001758 724250.001758 724250.001758 724250.001758 724250.001758 724250.001758 724250.001758 724250.001758 724250.001758 724250.001758 724250.001758 724250.001758 724250.001758 724250.001758 724250.001758 724250.001758 724250.001758 724250.001758 724250.001758 724250.001758 724250.001758 724250.001758 724250.001758 724250.001758 724250.001758 724250.001758 724250.001758 724250.001758 724250.001758 724250.001758 724250.001758 724250.001758 724250.001758 724250.001758 724250.001758 724250.001758 724250.001758 724250.001758 724250.001758 724250.001758 724250.001758 724250.001758 724250.001758 724250.001758 724250.001758 724250.001758 724250.001758 724250.001758 724250.001758 724250.001758 724250.001758 724250.001758 724250.001758 724250.001758 724250.001758 724250.001758 724250.001758 724250.001758 724250.001758 724250.001758 724250.001758 724250.001758 724250.001758 724250.001758 724250.001758 724250.001758 724250.001758 724250.001758 699250.001758 699250.001758 699250.001758 699250.001758 699250.001758 699250.001758 699250.001758 699250.001758 699250.001758 699250.001758 699250.001758 699250.001758 699250.001758 699250.001758 699250.001758 699250.001758 699250.001758 699250.001758 699250.001758 699250.001758 699250.001758 699250.001758 699250.001758 699250.001758 699250.001758 699250.001758 699250.001758 699250.001758 699250.001758 699250.001758 699250.001758 699250.001758 699250.001758 699250.001758 699250.001758 699250.001758 699250.001758 699250.001758 699250.001758 699250.001758 699250.001758 699250.001758 699250.001758 699250.001758 699250.001758 699250.001758 699250.001758 699250.001758 699250.001758 699250.001758 699250.001758 699250.001758 699250.001758 699250.001758 699250.001758 699250.001758 699250.001758 699250.001758 699250.001758 699250.001758 699250.001758 699250.001758 699250.001758 699250.001758 699250.001758 699250.001758 699250.001758 699250.001758 699250.001758 699250.001758 699250.001758 699250.001758 674250.001758 674250.001758 674250.001758 674250.001758 674250.001758 674250.001758 674250.001758 674250.001758 674250.001758 674250.001758 674250.001758 674250.001758 674250.001758 674250.001758 674250.001758 674250.001758 674250.001758 674250.001758 674250.001758 674250.001758 674250.001758 674250.001758 674250.001758 674250.001758 674250.001758 674250.001758 674250.001758 674250.001758 674250.001758 674250.001758 674250.001758 674250.001758 674250.001758 674250.001758 674250.001758 674250.001758 674250.001758 674250.001758 674250.001758 674250.001758 674250.001758 674250.001758 674250.001758 674250.001758 674250.001758 674250.001758 674250.001758 674250.001758 674250.001758 674250.001758 674250.001758 674250.001758 674250.001758 674250.001758 674250.001758 674250.001758 674250.001758 674250.001758 674250.001758 674250.001758 674250.001758 674250.001758 674250.001758 674250.001758 674250.001758 674250.001758 674250.001758 674250.001758 674250.001758 674250.001758 674250.001758 674250.001758 649250.001758 649250.001758 649250.001758 649250.001758 649250.001758 649250.001758 649250.001758 649250.001758 649250.001758 649250.001758 649250.001758 649250.001758 649250.001758 649250.001758 649250.001758 649250.001758 649250.001758 649250.001758 649250.001758 649250.001758 649250.001758 649250.001758 649250.001758 649250.001758 649250.001758 649250.001758 649250.001758 649250.001758 649250.001758 649250.001758 649250.001758 649250.001758 649250.001758 649250.001758 649250.001758 649250.001758 649250.001758 649250.001758 649250.001758 649250.001758 649250.001758 649250.001758 649250.001758 649250.001758 649250.001758 649250.001758 649250.001758 649250.001758 649250.001758 649250.001758 649250.001758 649250.001758 649250.001758 649250.001758 649250.001758 649250.001758 649250.001758 649250.001758 649250.001758 649250.001758 649250.001758 649250.001758 649250.001758 649250.001758 649250.001758 649250.001758 649250.001758 649250.001758 649250.001758 649250.001758 649250.001758 649250.001758 624250.001758 624250.001758 624250.001758 624250.001758 624250.001758 624250.001758 624250.001758 624250.001758 624250.001758 624250.001758 624250.001758 624250.001758 624250.001758 624250.001758 624250.001758 624250.001758 624250.001758 624250.001758 624250.001758 624250.001758 624250.001758 624250.001758 624250.001758 624250.001758 624250.001758 624250.001758 624250.001758 624250.001758 624250.001758 624250.001758 624250.001758 624250.001758 624250.001758 624250.001758 624250.001758 624250.001758 624250.001758 624250.001758 624250.001758 624250.001758 624250.001758 624250.001758 624250.001758 624250.001758 624250.001758 624250.001758 624250.001758 624250.001758 624250.001758 624250.001758 624250.001758 624250.001758 624250.001758 624250.001758 624250.001758 624250.001758 624250.001758 624250.001758 624250.001758 624250.001758 624250.001758 624250.001758 624250.001758 624250.001758 624250.001758 624250.001758 624250.001758 624250.001758 624250.001758 624250.001758 624250.001758 624250.001758 599250.001758 599250.001758 599250.001758 599250.001758 599250.001758 599250.001758 599250.001758 599250.001758 599250.001758 599250.001758 599250.001758 599250.001758 599250.001758 599250.001758 599250.001758 599250.001758 599250.001758 599250.001758 599250.001758 599250.001758 599250.001758 599250.001758 599250.001758 599250.001758 599250.001758 599250.001758 599250.001758 599250.001758 599250.001758 599250.001758 599250.001758 599250.001758 599250.001758 599250.001758 599250.001758 599250.001758 599250.001758 599250.001758 599250.001758 599250.001758 599250.001758 599250.001758 599250.001758 599250.001758 599250.001758 599250.001758 599250.001758 599250.001758 599250.001758 599250.001758 599250.001758 599250.001758 599250.001758 599250.001758 599250.001758 599250.001758 599250.001758 599250.001758 599250.001758 599250.001758 599250.001758 599250.001758 599250.001758 599250.001758 599250.001758 599250.001758 599250.001758 599250.001758 599250.001758 599250.001758 599250.001758 599250.001758 574250.001758 574250.001758 574250.001758 574250.001758 574250.001758 574250.001758 574250.001758 574250.001758 574250.001758 574250.001758 574250.001758 574250.001758 574250.001758 574250.001758 574250.001758 574250.001758 574250.001758 574250.001758 574250.001758 574250.001758 574250.001758 574250.001758 574250.001758 574250.001758 574250.001758 574250.001758 574250.001758 574250.001758 574250.001758 574250.001758 574250.001758 574250.001758 574250.001758 574250.001758 574250.001758 574250.001758 574250.001758 574250.001758 574250.001758 574250.001758 574250.001758 574250.001758 574250.001758 574250.001758 574250.001758 574250.001758 574250.001758 574250.001758 574250.001758 574250.001758 574250.001758 574250.001758 574250.001758 574250.001758 574250.001758 574250.001758 574250.001758 574250.001758 574250.001758 574250.001758 574250.001758 574250.001758 574250.001758 574250.001758 574250.001758 574250.001758 574250.001758 574250.001758 574250.001758 574250.001758 574250.001758 574250.001758 549250.001758 549250.001758 549250.001758 549250.001758 549250.001758 549250.001758 549250.001758 549250.001758 549250.001758 549250.001758 549250.001758 549250.001758 549250.001758 549250.001758 549250.001758 549250.001758 549250.001758 549250.001758 549250.001758 549250.001758 549250.001758 549250.001758 549250.001758 549250.001758 549250.001758 549250.001758 549250.001758 549250.001758 549250.001758 549250.001758 549250.001758 549250.001758 549250.001758 549250.001758 549250.001758 549250.001758 549250.001758 549250.001758 549250.001758 549250.001758 549250.001758 549250.001758 549250.001758 549250.001758 549250.001758 549250.001758 549250.001758 549250.001758 549250.001758 549250.001758 549250.001758 549250.001758 549250.001758 549250.001758 549250.001758 549250.001758 549250.001758 549250.001758 549250.001758 549250.001758 549250.001758 549250.001758 549250.001758 549250.001758 549250.001758 549250.001758 549250.001758 549250.001758 549250.001758 549250.001758 549250.001758 549250.001758 524250.001758 524250.001758 524250.001758 524250.001758 524250.001758 524250.001758 524250.001758 524250.001758 524250.001758 524250.001758 524250.001758 524250.001758 524250.001758 524250.001758 524250.001758 524250.001758 524250.001758 524250.001758 524250.001758 524250.001758 524250.001758 524250.001758 524250.001758 524250.001758 524250.001758 524250.001758 524250.001758 524250.001758 524250.001758 524250.001758 524250.001758 524250.001758 524250.001758 524250.001758 524250.001758 524250.001758 524250.001758 524250.001758 524250.001758 524250.001758 524250.001758 524250.001758 524250.001758 524250.001758 524250.001758 524250.001758 524250.001758 524250.001758 524250.001758 524250.001758 524250.001758 524250.001758 524250.001758 524250.001758 524250.001758 524250.001758 524250.001758 524250.001758 524250.001758 524250.001758 524250.001758 524250.001758 524250.001758 524250.001758 524250.001758 524250.001758 524250.001758 524250.001758 524250.001758 524250.001758 524250.001758 524250.001758 499250.001758 499250.001758 499250.001758 499250.001758 499250.001758 499250.001758 499250.001758 499250.001758 499250.001758 499250.001758 499250.001758 499250.001758 499250.001758 499250.001758 499250.001758 499250.001758 499250.001758 499250.001758 499250.001758 499250.001758 499250.001758 499250.001758 499250.001758 499250.001758 499250.001758 499250.001758 499250.001758 499250.001758 499250.001758 499250.001758 499250.001758 499250.001758 499250.001758 499250.001758 499250.001758 499250.001758 499250.001758 499250.001758 499250.001758 499250.001758 499250.001758 499250.001758 499250.001758 499250.001758 499250.001758 499250.001758 499250.001758 499250.001758 499250.001758 499250.001758 499250.001758 499250.001758 499250.001758 499250.001758 499250.001758 499250.001758 499250.001758 499250.001758 499250.001758 499250.001758 499250.001758 499250.001758 499250.001758 499250.001758 499250.001758 499250.001758 499250.001758 499250.001758 499250.001758 499250.001758 499250.001758 499250.001758 474250.001758 474250.001758 474250.001758 474250.001758 474250.001758 474250.001758 474250.001758 474250.001758 474250.001758 474250.001758 474250.001758 474250.001758 474250.001758 474250.001758 474250.001758 474250.001758 474250.001758 474250.001758 474250.001758 474250.001758 474250.001758 474250.001758 474250.001758 474250.001758 474250.001758 474250.001758 474250.001758 474250.001758 474250.001758 474250.001758 474250.001758 474250.001758 474250.001758 474250.001758 474250.001758 474250.001758 474250.001758 474250.001758 474250.001758 474250.001758 474250.001758 474250.001758 474250.001758 474250.001758 474250.001758 474250.001758 474250.001758 474250.001758 474250.001758 474250.001758 474250.001758 474250.001758 474250.001758 474250.001758 474250.001758 474250.001758 474250.001758 474250.001758 474250.001758 474250.001758 474250.001758 474250.001758 474250.001758 474250.001758 474250.001758 474250.001758 474250.001758 474250.001758 474250.001758 474250.001758 474250.001758 474250.001758 449250.001758 449250.001758 449250.001758 449250.001758 449250.001758 449250.001758 449250.001758 449250.001758 449250.001758 449250.001758 449250.001758 449250.001758 449250.001758 449250.001758 449250.001758 449250.001758 449250.001758 449250.001758 449250.001758 449250.001758 449250.001758 449250.001758 449250.001758 449250.001758 449250.001758 449250.001758 449250.001758 449250.001758 449250.001758 449250.001758 449250.001758 449250.001758 449250.001758 449250.001758 449250.001758 449250.001758 449250.001758 449250.001758 449250.001758 449250.001758 449250.001758 449250.001758 449250.001758 449250.001758 449250.001758 449250.001758 449250.001758 449250.001758 449250.001758 449250.001758 449250.001758 449250.001758 449250.001758 449250.001758 449250.001758 449250.001758 449250.001758 449250.001758 449250.001758 449250.001758 449250.001758 449250.001758 449250.001758 449250.001758 449250.001758 449250.001758 449250.001758 449250.001758 449250.001758 449250.001758 449250.001758 449250.001758 424250.001758 424250.001758 424250.001758 424250.001758 424250.001758 424250.001758 424250.001758 424250.001758 424250.001758 424250.001758 424250.001758 424250.001758 424250.001758 424250.001758 424250.001758 424250.001758 424250.001758 424250.001758 424250.001758 424250.001758 424250.001758 424250.001758 424250.001758 424250.001758 424250.001758 424250.001758 424250.001758 424250.001758 424250.001758 424250.001758 424250.001758 424250.001758 424250.001758 424250.001758 424250.001758 424250.001758 424250.001758 424250.001758 424250.001758 424250.001758 424250.001758 424250.001758 424250.001758 424250.001758 424250.001758 424250.001758 424250.001758 424250.001758 424250.001758 424250.001758 424250.001758 424250.001758 424250.001758 424250.001758 424250.001758 424250.001758 424250.001758 424250.001758 424250.001758 424250.001758 424250.001758 424250.001758 424250.001758 424250.001758 424250.001758 424250.001758 424250.001758 424250.001758 424250.001758 424250.001758 424250.001758 424250.001758 399250.001758 399250.001758 399250.001758 399250.001758 399250.001758 399250.001758 399250.001758 399250.001758 399250.001758 399250.001758 399250.001758 399250.001758 399250.001758 399250.001758 399250.001758 399250.001758 399250.001758 399250.001758 399250.001758 399250.001758 399250.001758 399250.001758 399250.001758 399250.001758 399250.001758 399250.001758 399250.001758 399250.001758 399250.001758 399250.001758 399250.001758 399250.001758 399250.001758 399250.001758 399250.001758 399250.001758 399250.001758 399250.001758 399250.001758 399250.001758 399250.001758 399250.001758 399250.001758 399250.001758 399250.001758 399250.001758 399250.001758 399250.001758 399250.001758 399250.001758 399250.001758 399250.001758 399250.001758 399250.001758 399250.001758 399250.001758 399250.001758 399250.001758 399250.001758 399250.001758 399250.001758 399250.001758 399250.001758 399250.001758 399250.001758 399250.001758 399250.001758 399250.001758 399250.001758 399250.001758 399250.001758 399250.001758 374250.001758 374250.001758 374250.001758 374250.001758 374250.001758 374250.001758 374250.001758 374250.001758 374250.001758 374250.001758 374250.001758 374250.001758 374250.001758 374250.001758 374250.001758 374250.001758 374250.001758 374250.001758 374250.001758 374250.001758 374250.001758 374250.001758 374250.001758 374250.001758 374250.001758 374250.001758 374250.001758 374250.001758 374250.001758 374250.001758 374250.001758 374250.001758 374250.001758 374250.001758 374250.001758 374250.001758 374250.001758 374250.001758 374250.001758 374250.001758 374250.001758 374250.001758 374250.001758 374250.001758 374250.001758 374250.001758 374250.001758 374250.001758 374250.001758 374250.001758 374250.001758 374250.001758 374250.001758 374250.001758 374250.001758 374250.001758 374250.001758 374250.001758 374250.001758 374250.001758 374250.001758 374250.001758 374250.001758 374250.001758 374250.001758 374250.001758 374250.001758 374250.001758 374250.001758 374250.001758 374250.001758 374250.001758 349250.001758 349250.001758 349250.001758 349250.001758 349250.001758 349250.001758 349250.001758 349250.001758 349250.001758 349250.001758 349250.001758 349250.001758 349250.001758 349250.001758 349250.001758 349250.001758 349250.001758 349250.001758 349250.001758 349250.001758 349250.001758 349250.001758 349250.001758 349250.001758 349250.001758 349250.001758 349250.001758 349250.001758 349250.001758 349250.001758 349250.001758 349250.001758 349250.001758 349250.001758 349250.001758 349250.001758 349250.001758 349250.001758 349250.001758 349250.001758 349250.001758 349250.001758 349250.001758 349250.001758 349250.001758 349250.001758 349250.001758 349250.001758 349250.001758 349250.001758 349250.001758 349250.001758 349250.001758 349250.001758 349250.001758 349250.001758 349250.001758 349250.001758 349250.001758 349250.001758 349250.001758 349250.001758 349250.001758 349250.001758 349250.001758 349250.001758 349250.001758 349250.001758 349250.001758 349250.001758 349250.001758 349250.001758 324250.001758 324250.001758 324250.001758 324250.001758 324250.001758 324250.001758 324250.001758 324250.001758 324250.001758 324250.001758 324250.001758 324250.001758 324250.001758 324250.001758 324250.001758 324250.001758 324250.001758 324250.001758 324250.001758 324250.001758 324250.001758 324250.001758 324250.001758 324250.001758 324250.001758 324250.001758 324250.001758 324250.001758 324250.001758 324250.001758 324250.001758 324250.001758 324250.001758 324250.001758 324250.001758 324250.001758 324250.001758 324250.001758 324250.001758 324250.001758 324250.001758 324250.001758 324250.001758 324250.001758 324250.001758 324250.001758 324250.001758 324250.001758 324250.001758 324250.001758 324250.001758 324250.001758 324250.001758 324250.001758 324250.001758 324250.001758 324250.001758 324250.001758 324250.001758 324250.001758 324250.001758 324250.001758 324250.001758 324250.001758 324250.001758 324250.001758 324250.001758 324250.001758 324250.001758 324250.001758 324250.001758 324250.001758 299250.001758 299250.001758 299250.001758 299250.001758 299250.001758 299250.001758 299250.001758 299250.001758 299250.001758 299250.001758 299250.001758 299250.001758 299250.001758 299250.001758 299250.001758 299250.001758 299250.001758 299250.001758 299250.001758 299250.001758 299250.001758 299250.001758 299250.001758 299250.001758 299250.001758 299250.001758 299250.001758 299250.001758 299250.001758 299250.001758 299250.001758 299250.001758 299250.001758 299250.001758 299250.001758 299250.001758 299250.001758 299250.001758 299250.001758 299250.001758 299250.001758 299250.001758 299250.001758 299250.001758 299250.001758 299250.001758 299250.001758 299250.001758 299250.001758 299250.001758 299250.001758 299250.001758 299250.001758 299250.001758 299250.001758 299250.001758 299250.001758 299250.001758 299250.001758 299250.001758 299250.001758 299250.001758 299250.001758 299250.001758 299250.001758 299250.001758 299250.001758 299250.001758 299250.001758 299250.001758 299250.001758 299250.001758 274250.001758 274250.001758 274250.001758 274250.001758 274250.001758 274250.001758 274250.001758 274250.001758 274250.001758 274250.001758 274250.001758 274250.001758 274250.001758 274250.001758 274250.001758 274250.001758 274250.001758 274250.001758 274250.001758 274250.001758 274250.001758 274250.001758 274250.001758 274250.001758 274250.001758 274250.001758 274250.001758 274250.001758 274250.001758 274250.001758 274250.001758 274250.001758 274250.001758 274250.001758 274250.001758 274250.001758 274250.001758 274250.001758 274250.001758 274250.001758 274250.001758 274250.001758 274250.001758 274250.001758 274250.001758 274250.001758 274250.001758 274250.001758 274250.001758 274250.001758 274250.001758 274250.001758 274250.001758 274250.001758 274250.001758 274250.001758 274250.001758 274250.001758 274250.001758 274250.001758 274250.001758 274250.001758 274250.001758 274250.001758 274250.001758 274250.001758 274250.001758 274250.001758 274250.001758 274250.001758 274250.001758 274250.001758 249250.001758 249250.001758 249250.001758 249250.001758 249250.001758 249250.001758 249250.001758 249250.001758 249250.001758 249250.001758 249250.001758 249250.001758 249250.001758 249250.001758 249250.001758 249250.001758 249250.001758 249250.001758 249250.001758 249250.001758 249250.001758 249250.001758 249250.001758 249250.001758 249250.001758 249250.001758 249250.001758 249250.001758 249250.001758 249250.001758 249250.001758 249250.001758 249250.001758 249250.001758 249250.001758 249250.001758 249250.001758 249250.001758 249250.001758 249250.001758 249250.001758 249250.001758 249250.001758 249250.001758 249250.001758 249250.001758 249250.001758 249250.001758 249250.001758 249250.001758 249250.001758 249250.001758 249250.001758 249250.001758 249250.001758 249250.001758 249250.001758 249250.001758 249250.001758 249250.001758 249250.001758 249250.001758 249250.001758 249250.001758 249250.001758 249250.001758 249250.001758 249250.001758 249250.001758 249250.001758 249250.001758 249250.001758 224250.001758 224250.001758 224250.001758 224250.001758 224250.001758 224250.001758 224250.001758 224250.001758 224250.001758 224250.001758 224250.001758 224250.001758 224250.001758 224250.001758 224250.001758 224250.001758 224250.001758 224250.001758 224250.001758 224250.001758 224250.001758 224250.001758 224250.001758 224250.001758 224250.001758 224250.001758 224250.001758 224250.001758 224250.001758 224250.001758 224250.001758 224250.001758 224250.001758 224250.001758 224250.001758 224250.001758 224250.001758 224250.001758 224250.001758 224250.001758 224250.001758 224250.001758 224250.001758 224250.001758 224250.001758 224250.001758 224250.001758 224250.001758 224250.001758 224250.001758 224250.001758 224250.001758 224250.001758 224250.001758 224250.001758 224250.001758 224250.001758 224250.001758 224250.001758 224250.001758 224250.001758 224250.001758 224250.001758 224250.001758 224250.001758 224250.001758 224250.001758 224250.001758 224250.001758 224250.001758 224250.001758 224250.001758 199250.001758 199250.001758 199250.001758 199250.001758 199250.001758 199250.001758 199250.001758 199250.001758 199250.001758 199250.001758 199250.001758 199250.001758 199250.001758 199250.001758 199250.001758 199250.001758 199250.001758 199250.001758 199250.001758 199250.001758 199250.001758 199250.001758 199250.001758 199250.001758 199250.001758 199250.001758 199250.001758 199250.001758 199250.001758 199250.001758 199250.001758 199250.001758 199250.001758 199250.001758 199250.001758 199250.001758 199250.001758 199250.001758 199250.001758 199250.001758 199250.001758 199250.001758 199250.001758 199250.001758 199250.001758 199250.001758 199250.001758 199250.001758 199250.001758 199250.001758 199250.001758 199250.001758 199250.001758 199250.001758 199250.001758 199250.001758 199250.001758 199250.001758 199250.001758 199250.001758 199250.001758 199250.001758 199250.001758 199250.001758 199250.001758 199250.001758 199250.001758 199250.001758 199250.001758 199250.001758 199250.001758 199250.001758 174250.001758 174250.001758 174250.001758 174250.001758 174250.001758 174250.001758 174250.001758 174250.001758 174250.001758 174250.001758 174250.001758 174250.001758 174250.001758 174250.001758 174250.001758 174250.001758 174250.001758 174250.001758 174250.001758 174250.001758 174250.001758 174250.001758 174250.001758 174250.001758 174250.001758 174250.001758 174250.001758 174250.001758 174250.001758 174250.001758 174250.001758 174250.001758 174250.001758 174250.001758 174250.001758 174250.001758 174250.001758 174250.001758 174250.001758 174250.001758 174250.001758 174250.001758 174250.001758 174250.001758 174250.001758 174250.001758 174250.001758 174250.001758 174250.001758 174250.001758 174250.001758 174250.001758 174250.001758 174250.001758 174250.001758 174250.001758 174250.001758 174250.001758 174250.001758 174250.001758 174250.001758 174250.001758 174250.001758 174250.001758 174250.001758 174250.001758 174250.001758 174250.001758 174250.001758 174250.001758 174250.001758 174250.001758 149250.001758 149250.001758 149250.001758 149250.001758 149250.001758 149250.001758 149250.001758 149250.001758 149250.001758 149250.001758 149250.001758 149250.001758 149250.001758 149250.001758 149250.001758 149250.001758 149250.001758 149250.001758 149250.001758 149250.001758 149250.001758 149250.001758 149250.001758 149250.001758 149250.001758 149250.001758 149250.001758 149250.001758 149250.001758 149250.001758 149250.001758 149250.001758 149250.001758 149250.001758 149250.001758 149250.001758 149250.001758 149250.001758 149250.001758 149250.001758 149250.001758 149250.001758 149250.001758 149250.001758 149250.001758 149250.001758 149250.001758 149250.001758 149250.001758 149250.001758 149250.001758 149250.001758 149250.001758 149250.001758 149250.001758 149250.001758 149250.001758 149250.001758 149250.001758 149250.001758 149250.001758 149250.001758 149250.001758 149250.001758 149250.001758 149250.001758 149250.001758 149250.001758 149250.001758 149250.001758 149250.001758 149250.001758 124250.001758 124250.001758 124250.001758 124250.001758 124250.001758 124250.001758 124250.001758 124250.001758 124250.001758 124250.001758 124250.001758 124250.001758 124250.001758 124250.001758 124250.001758 124250.001758 124250.001758 124250.001758 124250.001758 124250.001758 124250.001758 124250.001758 124250.001758 124250.001758 124250.001758 124250.001758 124250.001758 124250.001758 124250.001758 124250.001758 124250.001758 124250.001758 124250.001758 124250.001758 124250.001758 124250.001758 124250.001758 124250.001758 124250.001758 124250.001758 124250.001758 124250.001758 124250.001758 124250.001758 124250.001758 124250.001758 124250.001758 124250.001758 124250.001758 124250.001758 124250.001758 124250.001758 124250.001758 124250.001758 124250.001758 124250.001758 124250.001758 124250.001758 124250.001758 124250.001758 124250.001758 124250.001758 124250.001758 124250.001758 124250.001758 124250.001758 124250.001758 124250.001758 124250.001758 124250.001758 124250.001758 124250.001758 99250.0017579 99250.0017579 99250.0017579 99250.0017579 99250.0017579 99250.0017579 99250.0017579 99250.0017579 99250.0017579 99250.0017579 99250.0017579 99250.0017579 99250.0017579 99250.0017579 99250.0017579 99250.0017579 99250.0017579 99250.0017579 99250.0017579 99250.0017579 99250.0017579 99250.0017579 99250.0017579 99250.0017579 99250.0017579 99250.0017579 99250.0017579 99250.0017579 99250.0017579 99250.0017579 99250.0017579 99250.0017579 99250.0017579 99250.0017579 99250.0017579 99250.0017579 99250.0017579 99250.0017579 99250.0017579 99250.0017579 99250.0017579 99250.0017579 99250.0017579 99250.0017579 99250.0017579 99250.0017579 99250.0017579 99250.0017579 99250.0017579 99250.0017579 99250.0017579 99250.0017579 99250.0017579 99250.0017579 99250.0017579 99250.0017579 99250.0017579 99250.0017579 99250.0017579 99250.0017579 99250.0017579 99250.0017579 99250.0017579 99250.0017579 99250.0017579 99250.0017579 99250.0017579 99250.0017579 99250.0017579 99250.0017579 99250.0017579 99250.0017579 74250.0017579 74250.0017579 74250.0017579 74250.0017579 74250.0017579 74250.0017579 74250.0017579 74250.0017579 74250.0017579 74250.0017579 74250.0017579 74250.0017579 74250.0017579 74250.0017579 74250.0017579 74250.0017579 74250.0017579 74250.0017579 74250.0017579 74250.0017579 74250.0017579 74250.0017579 74250.0017579 74250.0017579 74250.0017579 74250.0017579 74250.0017579 74250.0017579 74250.0017579 74250.0017579 74250.0017579 74250.0017579 74250.0017579 74250.0017579 74250.0017579 74250.0017579 74250.0017579 74250.0017579 74250.0017579 74250.0017579 74250.0017579 74250.0017579 74250.0017579 74250.0017579 74250.0017579 74250.0017579 74250.0017579 74250.0017579 74250.0017579 74250.0017579 74250.0017579 74250.0017579 74250.0017579 74250.0017579 74250.0017579 74250.0017579 74250.0017579 74250.0017579 74250.0017579 74250.0017579 74250.0017579 74250.0017579 74250.0017579 74250.0017579 74250.0017579 74250.0017579 74250.0017579 74250.0017579 74250.0017579 74250.0017579 74250.0017579 74250.0017579 49250.0017579 49250.0017579 49250.0017579 49250.0017579 49250.0017579 49250.0017579 49250.0017579 49250.0017579 49250.0017579 49250.0017579 49250.0017579 49250.0017579 49250.0017579 49250.0017579 49250.0017579 49250.0017579 49250.0017579 49250.0017579 49250.0017579 49250.0017579 49250.0017579 49250.0017579 49250.0017579 49250.0017579 49250.0017579 49250.0017579 49250.0017579 49250.0017579 49250.0017579 49250.0017579 49250.0017579 49250.0017579 49250.0017579 49250.0017579 49250.0017579 49250.0017579 49250.0017579 49250.0017579 49250.0017579 49250.0017579 49250.0017579 49250.0017579 49250.0017579 49250.0017579 49250.0017579 49250.0017579 49250.0017579 49250.0017579 49250.0017579 49250.0017579 49250.0017579 49250.0017579 49250.0017579 49250.0017579 49250.0017579 49250.0017579 49250.0017579 49250.0017579 49250.0017579 49250.0017579 49250.0017579 49250.0017579 49250.0017579 49250.0017579 49250.0017579 49250.0017579 49250.0017579 49250.0017579 49250.0017579 49250.0017579 49250.0017579 49250.0017579 24250.0017579 24250.0017579 24250.0017579 24250.0017579 24250.0017579 24250.0017579 24250.0017579 24250.0017579 24250.0017579 24250.0017579 24250.0017579 24250.0017579 24250.0017579 24250.0017579 24250.0017579 24250.0017579 24250.0017579 24250.0017579 24250.0017579 24250.0017579 24250.0017579 24250.0017579 24250.0017579 24250.0017579 24250.0017579 24250.0017579 24250.0017579 24250.0017579 24250.0017579 24250.0017579 24250.0017579 24250.0017579 24250.0017579 24250.0017579 24250.0017579 24250.0017579 24250.0017579 24250.0017579 24250.0017579 24250.0017579 24250.0017579 24250.0017579 24250.0017579 24250.0017579 24250.0017579 24250.0017579 24250.0017579 24250.0017579 24250.0017579 24250.0017579 24250.0017579 24250.0017579 24250.0017579 24250.0017579 24250.0017579 24250.0017579 24250.0017579 24250.0017579 24250.0017579 24250.0017579 24250.0017579 24250.0017579 24250.0017579 24250.0017579 24250.0017579 24250.0017579 24250.0017579 24250.0017579 24250.0017579 24250.0017579 24250.0017579 24250.0017579
+Convergence
+750.000000 90 0 0.000000 1
+25750.000000 90 18 20.000000 1
+50750.000000 90 18 20.000000 1
+75750.000000 90 18 20.000000 1
+100750.000000 90 18 20.000000 1
+125750.000000 90 18 20.000000 1
+150750.000000 90 18 20.000000 1
+175750.000000 90 18 20.000000 1
+200750.000000 90 18 20.000000 1
+225750.000000 90 18 20.000000 1
+250750.000000 90 18 20.000000 1
+275750.000000 90 18 20.000000 1
+300750.000000 90 18 20.000000 1
+325750.000000 90 18 20.000000 1
+350750.000000 90 18 20.000000 1
+375750.000000 90 18 20.000000 1
+400750.000000 90 18 20.000000 1
+425750.000000 90 18 20.000000 1
+450750.000000 90 18 20.000000 1
+475750.000000 90 18 20.000000 1
+500750.000000 90 18 20.000000 1
+525750.000000 90 18 20.000000 1
+550750.000000 90 18 20.000000 1
+575750.000000 90 18 20.000000 1
+600750.000000 90 18 20.000000 1
+625750.000000 90 18 20.000000 1
+650750.000000 90 18 20.000000 1
+675750.000000 90 18 20.000000 1
+700750.000000 90 18 20.000000 1
+725750.000000 90 18 20.000000 1
+750750.000000 90 18 20.000000 1
+775750.000000 90 18 20.000000 1
+800750.000000 90 18 20.000000 1
+825750.000000 90 18 20.000000 1
+850750.000000 90 18 20.000000 1
+875750.000000 90 18 20.000000 1
+900750.000000 90 18 20.000000 1
+925750.000000 90 18 20.000000 1
+950750.000000 90 18 20.000000 1
+975750.000000 90 18 20.000000 1
+1000750.000000 90 18 20.000000 1
+1025750.000000 90 18 20.000000 1
+1050750.000000 90 18 20.000000 1
+1075750.000000 90 18 20.000000 1
+1100750.000000 90 18 20.000000 1
+1125750.000000 90 18 20.000000 1
+1150750.000000 90 18 20.000000 1
+1175750.000000 90 18 20.000000 1
