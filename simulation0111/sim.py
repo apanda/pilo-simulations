@@ -212,7 +212,11 @@ class Simulation (object):
     else:
       self.ctx.schedule_task(10, lambda: self.calcConvergeTime(t1, t2, -1))
 
-  def Setup (self, simulation_setup, trace, retry_send = False, converge_time = False, count_ctrl_packet = False):
+  def Setup (self, simulation_setup, trace, 
+             retry_send = False, 
+             converge_time = False, 
+             count_ctrl_packet = False, 
+             count_packets = False):
     self.ctx = Context()
 
     setup = yaml.load(simulation_setup)
@@ -252,7 +256,10 @@ class Simulation (object):
     self.link_objs = {}
     for l in links:
       p = l.split('-')
-      self.link_objs[l] = BandwidthLink(self.ctx, self.objs[p[0]], self.objs[p[1]])
+      if count_packets:
+        self.link_objs[l] = BandwidthLink(self.ctx, self.objs[p[0]], self.objs[p[1]])
+      else:
+        self.link_objs[l] = Link(self.ctx, self.objs[p[0]], self.objs[p[1]])
       self.link_objs['%s-%s'%(p[1], p[0])] = self.link_objs[l]
     first_link_event = None
     last_link_event = None
@@ -364,7 +371,7 @@ class Simulation (object):
             total_control_packets[d[mtype]] = 0
           total_control_packets[d[mtype]] += count
           s += count
-        print name, l, l.control_packets, s
+        print name, l, l.control_packets, "total:", s
 
-    if total_control_packets > 0:
+    if len(total_control_packets) > 0:
       print "Total control packets over all links: ", total_control_packets

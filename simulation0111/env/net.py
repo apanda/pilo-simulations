@@ -67,8 +67,7 @@ class BandwidthLink(Link):
     def deliverInternal(link, source, dest, packet):
       if link.up:
         dest.receive(link, source, packet)
-        if self.ctx.now > 3000:
-          self.count(packet)
+        self.count(packet)
       else:
         source.NotifyDrop(source, packet)
 
