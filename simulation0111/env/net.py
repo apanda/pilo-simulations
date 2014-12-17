@@ -1,4 +1,4 @@
-from . import Context, FloodPacket
+from . import Context, FloodPacket, ControlPacket
 from copy import copy
 """
 Network elements, because why not.
@@ -44,3 +44,67 @@ class Link (object):
     self.ctx.schedule_task(delay, \
             lambda: deliverInternal(self, source, other, pkt))
 
+class BandwidthLink(Link):
+  def __init__(self, ctx, ep1, ep2):
+    super(BandwidthLink, self).__init__(ctx, ep1, ep2)
+    self.control_packets = {}
+    self.other_packets = 0
+    self.buf = {ep1: [], ep2: []}
+
+    # bandwidth means that it can process bandwidth packets per proc_rate timesteps
+    self.bandwidth = 10
+    self.proc_rate = 10
+    self.ctx.schedule_task(self.proc_rate, self.Send2)
+
+    self.bandwidth_limit = False
+
+  def Send (self, source, packet):
+    assert source == self.a or source == self.b
+    other = self.b
+    if source == self.b:
+      other = self.a
+
+    def deliverInternal(link, source, dest, packet):
+      if link.up:
+        dest.receive(link, source, packet)
+        if self.ctx.now > 3000:
+          self.count(packet)
+      else:
+        source.NotifyDrop(source, packet)
+
+    pkt = copy(packet)
+    pkt.path = list(packet.path)
+    delay = self.ctx.config.DataLatency
+    if self.bandwidth_limit:
+      self.ctx.schedule_task(delay, 
+                             lambda: self.buf[source].append(pkt))
+    else:
+      self.ctx.schedule_task(delay, \
+                             lambda: deliverInternal(self, source, other, pkt))
+
+  def count(self, packet):
+    if isinstance(packet, ControlPacket):
+      mtype = packet.message_type
+      if mtype not in self.control_packets:
+        self.control_packets[mtype] = 0
+      self.control_packets[mtype] += 1
+    else:
+      self.other_packets += 1
+    
+  def Send2 (self):
+    # dequeue a set of packets
+    for source, q in self.buf.iteritems():
+      dest = self.a
+      if self.a == source:
+        dest = self.b
+      num_packets = min(self.bandwidth, len(q))
+      if self.up:
+        for p in q[:num_packets]:
+          self.count(p)
+          dest.receive(self, source, p)
+      else:
+        for p in q[:num_packets]:
+          source.NotifyDrop(source, p)
+      self.buf[source]= q[num_packets:]
+      
+    self.ctx.schedule_task(self.proc_rate, self.Send2)

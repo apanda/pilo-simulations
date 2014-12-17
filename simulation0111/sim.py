@@ -252,7 +252,7 @@ class Simulation (object):
     self.link_objs = {}
     for l in links:
       p = l.split('-')
-      self.link_objs[l] = Link(self.ctx, self.objs[p[0]], self.objs[p[1]])
+      self.link_objs[l] = BandwidthLink(self.ctx, self.objs[p[0]], self.objs[p[1]])
       self.link_objs['%s-%s'%(p[1], p[0])] = self.link_objs[l]
     first_link_event = None
     last_link_event = None
@@ -331,4 +331,40 @@ class Simulation (object):
                 reachable, \
                 perc, \
                 components)
-      
+
+    total_control_packets = {}
+    d = {1: "ForwardPacket",
+         2: "UpdateRules",
+         3: "NotifySwitchUp",
+         4: "NotifyLinkDown",
+         5: "NotifyLinkUp",
+         6: "PacketIn",
+         7: "GetSwitchInformation",
+         8: "SwitchInformation",
+         9: "SetSwitchLeader",
+         10: "AckSetSwitchLeader",
+         11: "RequestRelinquishLeadership",
+         12: "AckRelinquishLeadership",
+         "ALL": "AllCtrlId",
+         13: "UpdateWaypointRules",
+         14: "Propose",
+         15: "Accept",
+         16: "Decide",
+         17: "ProposeReply",
+         18: "AcceptReply",
+         19: "PaxosMaxSeq",
+         20: "NackUpdateRules",
+         21: "ControlAck"
+       }
+    for name, l in self.link_objs.iteritems():
+      if isinstance(l, BandwidthLink):
+        s = 0
+        for mtype, count in l.control_packets.iteritems():
+          if d[mtype] not in total_control_packets:
+            total_control_packets[d[mtype]] = 0
+          total_control_packets[d[mtype]] += count
+          s += count
+        print name, l, l.control_packets, s
+
+    if total_control_packets > 0:
+      print "Total control packets over all links: ", total_control_packets

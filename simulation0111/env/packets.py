@@ -44,14 +44,14 @@ class ControlPacket (FloodPacket):
   RequestRelinquishLeadership = 11
   AckRelinquishLeadership = 12
   AllCtrlId = "ALL",
-  UpdateWaypointRules = 13,
-  Propose = 14,
-  Accept = 15,
-  Decide = 16,
-  ProposeReply = 17,
-  AcceptReply = 18,
-  PaxosMaxSeq = 19,
-  NackUpdateRules = 20,
+  UpdateWaypointRules = 13
+  Propose = 14
+  Accept = 15
+  Decide = 16
+  ProposeReply = 17
+  AcceptReply = 18
+  PaxosMaxSeq = 19
+  NackUpdateRules = 20
   ControlAck = 21
   def __init__ (self, id, src_id, dest_id, mtype, message):
     super(ControlPacket, self).__init__(id)

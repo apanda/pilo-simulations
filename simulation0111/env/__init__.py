@@ -8,6 +8,7 @@ __all__ = [ "Singleton", \
             "ControlPacket", \
             "HeartbeatPacket", \
             "Link", \
+            "BandwidthLink", \
             "Switch", \
             "Host", \
             "VersionedSwitch", \
@@ -31,7 +32,7 @@ from packets import MarkedSourceDestPacket, \
                     FloodPacket, \
                     ControlPacket, \
                     HeartbeatPacket
-from net import Link
+from net import Link, BandwidthLink
 from switches import Switch, VersionedSwitch 
 from host import Host
 from controllers import Controller
