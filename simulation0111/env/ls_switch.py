@@ -43,10 +43,10 @@ class LinkStateSwitch (Switch):
       self.controllers.add(link.b.name)
     #print "%f %s thinks controller should be %s"%(self.ctx.now, self.name, self.currentLeader)
 
-  def NotifyUp (self, link):
+  def NotifyUp (self, link, first_up):
     #print "%f %s NotifyUp"%(self.ctx.now, self.name)
     self.addLink(link)
-    super(LinkStateSwitch, self).NotifyUp(link)
+    super(LinkStateSwitch, self).NotifyUp(link, first_up)
 
   def processControlMessage (self, link, source, packet):
     #print "%f %s CtrlMessage"%(self.ctx.now, self.name)

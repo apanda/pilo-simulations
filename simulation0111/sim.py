@@ -216,7 +216,7 @@ class Simulation (object):
              retry_send = False, 
              converge_time = False, 
              count_ctrl_packet = False, 
-             count_packets = False):
+             count_packets = True):
     self.ctx = Context()
 
     setup = yaml.load(simulation_setup)

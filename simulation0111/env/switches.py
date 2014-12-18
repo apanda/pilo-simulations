@@ -143,9 +143,11 @@ class Switch (object):
     self.links.remove(link)
     self.sendToControllerReliable(ControlPacket.NotifyLinkDown, [self, link])
 
-  def NotifyUp (self, link):
+  def NotifyUp (self, link, first_up):
     self.links.add(link)
-    self.sendToControllerReliable(ControlPacket.NotifyLinkUp, [self, link])
+    # Notify if up after failure
+    if not first_up:
+      self.sendToControllerReliable(ControlPacket.NotifyLinkUp, [self, link])
 
 class VersionedSwitch (Switch):
   def __init__ (self, name, ctx):

@@ -10,6 +10,7 @@ class LSGossipControl (LSController):
     #self.connected_to_node = {self.name: True}
     self.update_messages = {}
     self.reason = None
+    self.GetSwitchInformation()
   
   @property
   def hosts (self):
@@ -58,10 +59,10 @@ class LSGossipControl (LSController):
       #print "%f %s learnt new controller, controllers are %s"%(self.ctx.now, self.name, self._controllers)
       self.connected_to_node[switch.name] = False
 
-    self.ComputeAndUpdatePaths()
+    #self.ComputeAndUpdatePaths()
 
-    if switch not in self._nodes:
-      self.GetSwitchInformation()
+    #if switch not in self._nodes:
+      #self.GetSwitchInformation()
     self._nodes.add(switch)
     self.reason = None
 

@@ -10,6 +10,7 @@ class Link (object):
     self.a = ep1
     self.b = ep2
     self.up = False
+    self.first_up = True
   def __repr__ (self):
     return "%s--%s"%(self.a, self.b)
   def SetUp (self):
@@ -17,8 +18,10 @@ class Link (object):
       #print "%f %s UP"%(self.ctx.now, self)
       self.up = True # Set link status to up
       delay = self.ctx.config.DetectionDelay
-      self.ctx.schedule_task(delay, lambda: self.a.NotifyUp(self))
-      self.ctx.schedule_task(delay, lambda: self.b.NotifyUp(self))
+      first_up = self.first_up
+      self.first_up = False
+      self.ctx.schedule_task(delay, lambda: self.a.NotifyUp(self, first_up))
+      self.ctx.schedule_task(delay, lambda: self.b.NotifyUp(self, first_up))
   def SetDown (self):
     if self.up:
       #print "%f %s DOWN"%(self.ctx.now, self)
