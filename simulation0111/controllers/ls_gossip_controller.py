@@ -50,12 +50,10 @@ class LSGossipControl (LSController):
       self._hosts.add(switch)
 
     self.reason = "NotifySwitchUp"
-    if isinstance(switch, ControllerTrait) and swith.name not in self._controllers:
+    if isinstance(switch, ControllerTrait) and switch.name not in self._controllers:
       self._controllers.add(switch.name)
-      self.connected_to_node[switch.name] = False
-    #if not isinstance(switch, ControllerTrait) and switch not in self._nodes:
-      #self.GetSwitchInformation()
     self._nodes.add(switch)
+    self.graph.add_node(switch.name)
     self.reason = None
 
   def NotifyLinkUp (self, pkt, version, src, switch, link):

@@ -38,16 +38,15 @@ class LSLeaderControl (LSController):
 
   def NotifySwitchUp (self, pkt, src, switch):
     # Not sure this is necessary?
+    print "%f %s switch up %s"%(self.ctx.now, self.name, switch.name)
     should_ask = (switch not in self._nodes)
     self._nodes.add(switch)
     if isinstance(switch, HostTrait):
       self.hosts.add(switch)
     if isinstance(switch, ControllerTrait):
       self.controllers.add(switch.name)
+    self.graph.add_node(switch.name)
     self.reason = "NotifySwitchUp"
-    #self.ComputeAndUpdatePaths()
-    #if should_ask:
-      #self.GetSwitchInformation()
     self.reason = None
 
   def NotifyLinkUp (self, pkt, version, src, switch, link):
@@ -64,10 +63,6 @@ class LSLeaderControl (LSController):
       self.controllers.add(switch.name)
     self.reason = "NotifyLinkUp"
     self.ComputeAndUpdatePaths()
-    #if link.a.name == self.name or link.b.name == self.name:
-      # Something changed for us, find out (essentially we know for sure
-      # we need to query information). Actually we should probably query all
-      # the time when a link comes up (stuff has changed)
     if components_before != components_after:
       self.GetSwitchInformation()
     self.reason = None
@@ -89,10 +84,6 @@ class LSLeaderControl (LSController):
 
   def NotifySwitchInformation (self, pkt, src, switch, version_links):
     has_changed = False
-    if isinstance(switch, HostTrait):
-      self.hosts.add(switch)
-    if isinstance(switch, ControllerTrait):
-      self.controllers.add(switch.name)
 
     filter_links = []
     for (version, link) in version_links:

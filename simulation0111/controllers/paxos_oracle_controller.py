@@ -40,12 +40,6 @@ class LSPaxosOracleControl (LSController):
               self.update_messages[self.reason] = self.update_messages.get(self.reason, 0) + 1
               self.UpdateRules(a, [(p.pack(), link)])
   
-  def addLink (self, link):
-    pass
-
-  def removeLink (self, link):
-    pass
-
   def UpdateMembers (self, switch):
     self.graph.add_node(switch.name)
     if isinstance(switch, HostTrait):
@@ -65,7 +59,7 @@ class LSPaxosOracleControl (LSController):
     self.UpdateMembers(switch)
     self.oracle.InformOracleEvent(self, (version, src, switch, link, ControlPacket.NotifyLinkDown)) 
 
-  def processSwitchUp (self, pkt, src, switch):
+  def processSwitchUp (self, src, switch):
     self.UpdateMembers(switch)
 
   def processLinkUp (self, version, src, switch, link):
@@ -73,7 +67,7 @@ class LSPaxosOracleControl (LSController):
       return
     self.link_version[link] = version
     self.UpdateMembers(switch)
-    super(LSPaxosOracleControl, self).addLink(link)
+    self.addLink(link)
     #assert(switch.name in self.graph)
 
   def processLinkDown (self, version, src, switch, link): 
@@ -81,7 +75,7 @@ class LSPaxosOracleControl (LSController):
       return
     self.link_version[link] = version
     self.UpdateMembers(switch)
-    super(LSPaxosOracleControl, self).removeLink(link)
+    self.removeLink(link)
     #assert(switch.name in self.graph)
 
 
