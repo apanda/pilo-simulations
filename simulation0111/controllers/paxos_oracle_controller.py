@@ -9,7 +9,9 @@ class LSPaxosOracleControl (LSController):
     self.oracle = PaxosOracle()
     self.oracle.RegisterController(self)
     self.update_messages = {}
+    self.link_version = {}
     self.reason = None
+    self.GetSwitchInformation()
 
   def PacketIn(self, pkt, src, switch, source, packet):
     pass
@@ -53,32 +55,40 @@ class LSPaxosOracleControl (LSController):
 
   def NotifySwitchUp (self, pkt, src, switch):
     self.UpdateMembers(switch)
-    self.oracle.InformOracleEvent(self, (pkt, src, switch, ControlPacket.NotifySwitchUp)) 
+    self.oracle.InformOracleEvent(self, (src, switch, ControlPacket.NotifySwitchUp)) 
 
-  def NotifyLinkUp (self, pkt, src, switch, link):
+  def NotifyLinkUp (self, pkt, version, src, switch, link):
     self.UpdateMembers(switch)
-    self.oracle.InformOracleEvent(self, (pkt, src, switch, link, ControlPacket.NotifyLinkUp)) 
+    self.oracle.InformOracleEvent(self, (version, src, switch, link, ControlPacket.NotifyLinkUp)) 
 
-  def NotifyLinkDown (self, pkt, src, switch, link):
+  def NotifyLinkDown (self, pkt, version, src, switch, link):
     self.UpdateMembers(switch)
-    self.oracle.InformOracleEvent(self, (pkt, src, switch, link, ControlPacket.NotifyLinkDown)) 
+    self.oracle.InformOracleEvent(self, (version, src, switch, link, ControlPacket.NotifyLinkDown)) 
 
   def processSwitchUp (self, pkt, src, switch):
     self.UpdateMembers(switch)
 
-  def processLinkUp (self, pkt, src, switch, link):
+  def processLinkUp (self, version, src, switch, link):
+    if self.link_version.get(version, 0) >= version:
+      return
+    self.link_version[link] = version
     self.UpdateMembers(switch)
     super(LSPaxosOracleControl, self).addLink(link)
     #assert(switch.name in self.graph)
 
-  def processLinkDown (self, pkt, src, switch, link): 
+  def processLinkDown (self, version, src, switch, link): 
+    if self.link_version.get(version, 0) >= version:
+      return
+    self.link_version[link] = version
     self.UpdateMembers(switch)
     super(LSPaxosOracleControl, self).removeLink(link)
     #assert(switch.name in self.graph)
 
 
-  def NotifySwitchInformation (self, pkt, src, switch, links):
-    assert(False)
+  def NotifySwitchInformation (self, pkt, src, switch, version_links):
+    for (v, l) in version_links:
+      if self.link_version.get(l, 0) < v:
+        self.oracle.InformOracleEvent(self, (v, src, switch, l, ControlPacket.NotifyLinkUp))
   
   def NotifyOracleDecision (self, log):
     self.reason = "NotifyOracleDecision"
@@ -86,6 +96,7 @@ class LSPaxosOracleControl (LSController):
     self.graph.clear()
     self.hosts.clear()
     self.controllers.clear()
+    self.link_version = {}
     self.controllers.add(self.name)
     for prop in sorted(log.keys()):
       entry = log[prop]
