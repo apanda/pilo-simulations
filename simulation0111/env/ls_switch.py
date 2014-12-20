@@ -24,16 +24,6 @@ class LinkStateSwitch (Switch):
       self.g.add_node(link.a.name)
     if link.b.name not in self.g:
       self.g.add_node(link.b.name)
-    #print "%f %s thinks controller should be %s"%(self.ctx.now, self.name, self.currentLeader)
-
-  def updateRules (self, source, match_action_pairs):
-      super(LinkStateSwitch, self).updateRules(source, match_action_pairs)
-
-
-  def NotifyDown (self, link):
-    #print "%f %s NotifyDown"%(self.ctx.now, self.name)
-    self.removeLink(link)
-    super(LinkStateSwitch, self).NotifyDown(link)
 
   def addLink (self, link):
     self.g.add_edge(link.a.name, link.b.name, link=link)
@@ -41,22 +31,18 @@ class LinkStateSwitch (Switch):
       self.controllers.add(link.a.name)
     if isinstance(link.b, ControllerTrait):
       self.controllers.add(link.b.name)
-    #print "%f %s thinks controller should be %s"%(self.ctx.now, self.name, self.currentLeader)
 
-  def NotifyUp (self, link, first_up):
-    #print "%f %s NotifyUp"%(self.ctx.now, self.name)
-    self.addLink(link)
-    super(LinkStateSwitch, self).NotifyUp(link, first_up)
+  def updateRules (self, source, match_action_pairs):
+      super(LinkStateSwitch, self).updateRules(source, match_action_pairs)
+
+
+  def NotifyDown (self, link, version):
+    super(LinkStateSwitch, self).NotifyDown(link, version)
+
+  def NotifyUp (self, link, first_up, version):
+    super(LinkStateSwitch, self).NotifyUp(link, first_up, version)
 
   def processControlMessage (self, link, source, packet):
-    #print "%f %s CtrlMessage"%(self.ctx.now, self.name)
-    #if packet.dest_id == ControlPacket.AllCtrlId:
-      #if packet.message_type == ControlPacket.NotifyLinkUp:
-        #(switch, link) = packet.message
-        #self.addLink(link)
-      #elif packet.message_type == ControlPacket.NotifyLinkDown:
-        #(switch, link) = packet.message
-        #self.removeLink(link)
     return super(LinkStateSwitch, self).processControlMessage(link, source, packet)
 
 class LSLeaderSwitch (LinkStateSwitch):
@@ -66,12 +52,13 @@ class LSLeaderSwitch (LinkStateSwitch):
   def __init__ (self, name, ctx):
     super(LSLeaderSwitch, self).__init__(name, ctx)
     self.cpkt_id = 1
+    self.link_version = {}
   
   def updateRules (self, source, match_action_pairs):
     if source != self.currentLeader:
+      self.cpkt_id += 1
       #packet = ControlPacket(self.cpkt_id, self.name, source, ControlPacket.NackUpdateRules, []) 
       #self.Flood(None, packet)
-      self.cpkt_id += 1
     else:
       super(LSLeaderSwitch, self).updateRules(source, match_action_pairs)
 
@@ -80,6 +67,19 @@ class LSLeaderSwitch (LinkStateSwitch):
     for c in sorted(list(self.controllers)):
       if nx.has_path(self.g, c, self.name):
         return c #Find the first connected controller
+  
+  def processControlMessage (self, link, source, packet):
+    if packet.dest_id == ControlPacket.AllCtrlId:
+      if packet.message_type == ControlPacket.NotifyLinkUp:
+        (version, switch, link) = packet.message
+        if self.link_version.get(link, 0) < version:
+          self.link_version[link] = version
+          self.addLink(link)
+      elif packet.message_type == Controlacket.NotifyLinkDown:
+        if self.link_version.get(link, 0) < version:
+          self.link_version[link] = version
+          self.removeLink(link)
+    return super(LSLeaderSwitch, self).processControlMessage(link, source, packet)
 
 class LSController (LinkStateSwitch, ControllerTrait):
   """Generic controller with link state based layer A"""
@@ -97,17 +97,18 @@ class LSController (LinkStateSwitch, ControllerTrait):
     }
     self.cpkt_id = 0
     self.ctrl_callback = None
+
   def Send (self, packet):
     if isinstance(packet, ControlPacket) and self.ctrl_callback:
       self.ctrl_callback(self.name, packet.message_type)
     super(LSController, self).Flood(None, packet)
+
   def receive (self, link, source, packet):
     if isinstance(packet, ControlPacket):
       # Received a control packet
       if packet.dest_id == ControlPacket.AllCtrlId or packet.dest_id == self.name:
         if (packet.src_id, packet.id) not in self.cpkts_seen:
           self.cpkts_seen.add((packet.src_id, packet.id))
-          #print "%s received a control packet type %d"%(self.name, packet.message_type)
           self.processControlMessage(link, source, packet)
           delay = self.ctx.config.ControlLatency
           if packet.message_type in self.switchboard:
@@ -126,23 +127,27 @@ class LSController (LinkStateSwitch, ControllerTrait):
   def sendControlPacket(self, packet):
     delay = self.ctx.config.ControlLatency
     self.ctx.schedule_task(delay, lambda: self.Send(packet))
+
   def ForwardPacket (self, switch, link, packet):
     cpacket = ControlPacket(self.cpkt_id, self.name, switch, ControlPacket.ForwardPacket, [link, packet]) 
     self.cpkt_id += 1
     self.sendControlPacket(cpacket)
+
   def UpdateRules (self, switch, pairs):
     cpacket = ControlPacket(self.cpkt_id, self.name, switch, ControlPacket.UpdateRules, [pairs]) 
     self.cpkt_id += 1
     self.sendControlPacket(cpacket)
+
   def GetSwitchInformation (self):
     cpacket = ControlPacket(self.cpkt_id, self.name, ControlPacket.AllCtrlId, ControlPacket.GetSwitchInformation, []) 
     self.cpkt_id += 1
     self.sendControlPacket(cpacket)
+
   def NotifySwitchUp (self, pkt, source, switch):
     raise NotImplementedError
-  def NotifyLinkDown (self, pkt, source, switch, link):
+  def NotifyLinkDown (self, pkt, version, source, switch, link):
     raise NotImplementedError
-  def NotifyLinkUp (self, pkt, source, switch, link):
+  def NotifyLinkUp (self, pkt, version, source, switch, link):
     raise NotImplementedError
   def NotifySwitchInformation (self, pkt, source, switch, links):
     raise NotImplementedError

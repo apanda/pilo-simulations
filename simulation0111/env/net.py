@@ -11,6 +11,7 @@ class Link (object):
     self.b = ep2
     self.up = False
     self.first_up = True
+    self.version = 0 # Add a version number to link events, so that we can get commutativity or whatever else.
   def __repr__ (self):
     return "%s--%s"%(self.a, self.b)
   def SetUp (self):
@@ -20,15 +21,17 @@ class Link (object):
       delay = self.ctx.config.DetectionDelay
       first_up = self.first_up
       self.first_up = False
-      self.ctx.schedule_task(delay, lambda: self.a.NotifyUp(self, first_up))
-      self.ctx.schedule_task(delay, lambda: self.b.NotifyUp(self, first_up))
+      self.version += 1
+      self.ctx.schedule_task(delay, lambda: self.a.NotifyUp(self, first_up, self.version))
+      self.ctx.schedule_task(delay, lambda: self.b.NotifyUp(self, first_up, self.version))
   def SetDown (self):
     if self.up:
       #print "%f %s DOWN"%(self.ctx.now, self)
       self.up = False # Set link status to down
       delay = self.ctx.config.DetectionDelay
-      self.ctx.schedule_task(delay, lambda: self.a.NotifyDown(self))
-      self.ctx.schedule_task(delay, lambda: self.b.NotifyDown(self))
+      self.version += 1
+      self.ctx.schedule_task(delay, lambda: self.a.NotifyDown(self, self.version))
+      self.ctx.schedule_task(delay, lambda: self.b.NotifyDown(self, self.version))
   def Send (self, source, packet):
     assert source == self.a or source == self.b
     other = self.b

@@ -7,10 +7,10 @@ class LSGossipControl (LSController):
     self._nodes = set()
     self._controllers = set([self.name])
     self.announcements = set()
-    #self.connected_to_node = {self.name: True}
     self.update_messages = {}
     self.reason = None
     self.GetSwitchInformation()
+    self.link_version = {}
   
   @property
   def hosts (self):
@@ -20,17 +20,13 @@ class LSGossipControl (LSController):
     pass
 
   def currentLeader (self, switch):
-    #print "%f %s controllers are %s"%(self.ctx.now, self.name, self._controllers)
     for c in sorted(list(self._controllers)):
       if nx.has_path(self.graph, c, switch):
         return c #Find the first connected controller
 
   def ComputeAndUpdatePaths (self):
-    #print "%f %s compute and update paths"%(self.ctx.now, self.name)
-    #print "%f %s hosts are %s"%(self.ctx.now, self. name, self._hosts)
     sp = nx.shortest_paths.all_pairs_shortest_path(self.graph)
     for host in self._hosts:
-      #print "%f %s connectivity %s %s"%(self.ctx.now, self. name, host.name, sp[host.name])
       for h2 in self._hosts:
         if h2 == host:
           continue
@@ -56,17 +52,16 @@ class LSGossipControl (LSController):
     self.reason = "NotifySwitchUp"
     if isinstance(switch, ControllerTrait) and swith.name not in self._controllers:
       self._controllers.add(switch.name)
-      #print "%f %s learnt new controller, controllers are %s"%(self.ctx.now, self.name, self._controllers)
       self.connected_to_node[switch.name] = False
-
-    #self.ComputeAndUpdatePaths()
-
-    #if switch not in self._nodes:
+    #if not isinstance(switch, ControllerTrait) and switch not in self._nodes:
       #self.GetSwitchInformation()
     self._nodes.add(switch)
     self.reason = None
 
-  def NotifyLinkUp (self, pkt, src, switch, link):
+  def NotifyLinkUp (self, pkt, version, src, switch, link):
+    if self.link_version.get(link, 0) >= version:
+      return # Skip since we already saw this
+    self.link_version[link] = version
     self.reason = "NotifyLinkUp"
     components_before = nx.connected_components(self.graph)
     self.addLink(link)
@@ -84,7 +79,10 @@ class LSGossipControl (LSController):
       self.GetSwitchInformation()
     self.reason = None
 
-  def NotifyLinkDown (self, pkt, src, switch, link):
+  def NotifyLinkDown (self, pkt, version, src, switch, link):
+    if self.link_version.get(link, 0) >= version:
+      return # Skip since we already saw this
+    self.link_version[link] = version
     self.reason = "NotifyLinkDown"
     self.removeLink(link)
     self.announcements.add((pkt.id, ControlPacket.NotifyLinkDown, src, switch, link))
@@ -94,17 +92,31 @@ class LSGossipControl (LSController):
       self._hosts.append(switch)
     if isinstance(switch, ControllerTrait) and switch.name not in self._controllers:
       self._controllers.add(switch.name)
-      #print "%f %s learnt new controller, controllers are %s"%(self.ctx.now, self.name, self._controllers)
     self.ComputeAndUpdatePaths()
     self.reason = None
 
-  def NotifySwitchInformation (self, pkt, src, switch, links):
+  def NotifySwitchInformation (self, pkt, src, switch, version_links):
+    # Switch information
     self.reason = "NotifySwitchInformation"
     has_changed = False
     if isinstance(switch, HostTrait):
       self.hosts.add(switch)
     if isinstance(switch, ControllerTrait):
       self.controllers.add(switch.name)
+
+    filter_links = []
+    for (version, link) in version_links:
+      if self.link_version.get(link, 0) > version:
+        # We have newer information, record that we want to filter this information
+        filter_links.append(link)
+      else:
+        self.link_version[link] = version
+
+    filter_links = set(filter_links)
+    version_links = filter(lambda (v, l): l not in filter_links, version_links)
+
+    links = map(lambda (v, l): l, version_links)
+
     neighbors = map(lambda l: l.a.name if l.b.name == switch.name else l.b.name, links)
     neighbor_to_link = dict(zip(neighbors, links))
     self.graph.add_node(switch.name)

@@ -76,7 +76,8 @@ class Switch (object):
             self.name, \
             source, \
             ControlPacket.SwitchInformation, \
-            [self, list(self.links)])
+            [self, \
+              map(lambda l: (l.version, l), list(self.links))])
     self.cpkt_id += 1
     self.Flood(None, p)
 
@@ -139,35 +140,12 @@ class Switch (object):
     self.ctx.schedule_task(delay, \
             lambda: link.Send(self, packet))
 
-  def NotifyDown (self, link):
+  def NotifyDown (self, link, version):
     self.links.remove(link)
-    self.sendToControllerReliable(ControlPacket.NotifyLinkDown, [self, link])
+    self.sendToControllerReliable(ControlPacket.NotifyLinkDown, [version, self, link])
 
-  def NotifyUp (self, link, first_up):
+  def NotifyUp (self, link, first_up, version):
     self.links.add(link)
     # Notify if up after failure
     if not first_up:
-      self.sendToControllerReliable(ControlPacket.NotifyLinkUp, [self, link])
-
-class VersionedSwitch (Switch):
-  def __init__ (self, name, ctx):
-    self.version = 0
-    super(VersionedSwitch, self).__init__(name, ctx)
-
-  def updateRules (self, (version, match_action_pairs)):
-    if version >= self.version:
-      self.version = version
-      super(VersionedSwitch, self).updateRules(match_action_pairs)
-
-  def anounceToController (self):
-    delay = self.ctx.config.ControlLatency
-    self.ctx.schedule_task(delay,
-            lambda: self.controller.NotifySwitchUp((self.version, self)))
-
-  def NotifyDown (self, link):
-    self.version += 1
-    super(VersionedSwitch, self).NotifyDown((self.version, link))
-
-  def NotifyUp (self, link):
-    self.version += 1
-    super(VersionedSwitch, self).NotifyUp((self.version, link))
+      self.sendToControllerReliable(ControlPacket.NotifyLinkUp, [version, self, link])

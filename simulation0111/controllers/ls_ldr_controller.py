@@ -9,6 +9,8 @@ class LSLeaderControl (LSController):
     self._nodes = set()
     self.update_messages = {}
     self.reason = None
+    self.GetSwitchInformation()
+    self.link_version = {}
 
   def PacketIn(self, pkt, src, switch, source, packet):
     pass
@@ -43,14 +45,15 @@ class LSLeaderControl (LSController):
     if isinstance(switch, ControllerTrait):
       self.controllers.add(switch.name)
     self.reason = "NotifySwitchUp"
-    self.ComputeAndUpdatePaths()
-    if should_ask:
-      self.GetSwitchInformation()
+    #self.ComputeAndUpdatePaths()
+    #if should_ask:
+      #self.GetSwitchInformation()
     self.reason = None
-    #self.graph[switch.name]['obj'] = switch
 
-  def NotifyLinkUp (self, pkt, src, switch, link):
-    #print "%f Heard about link %s"%(self.ctx.now, link)
+  def NotifyLinkUp (self, pkt, version, src, switch, link):
+    if self.link_version.get(link, 0) >= version:
+      return # Skip since we already saw this
+    self.link_version[link] = version
     components_before = nx.connected_components(self.graph)
     self.addLink(link)
     components_after = nx.connected_components(self.graph)
@@ -69,8 +72,11 @@ class LSLeaderControl (LSController):
       self.GetSwitchInformation()
     self.reason = None
 
-  def NotifyLinkDown (self, pkt, src, switch, link):
-    #print "%f Heard about link down %s"%(self.ctx.now, link)
+  def NotifyLinkDown (self, pkt, version, src, switch, link):
+    if self.link_version.get(link, 0) >= version:
+      return # Skip since we already saw this
+    self.link_version[link] = version
+
     self.removeLink(link)
     assert(switch.name in self.graph)
     if isinstance(switch, HostTrait):
@@ -81,12 +87,26 @@ class LSLeaderControl (LSController):
     self.ComputeAndUpdatePaths()
     self.reason = None
 
-  def NotifySwitchInformation (self, pkt, src, switch, links):
+  def NotifySwitchInformation (self, pkt, src, switch, version_links):
     has_changed = False
     if isinstance(switch, HostTrait):
       self.hosts.add(switch)
     if isinstance(switch, ControllerTrait):
       self.controllers.add(switch.name)
+
+    filter_links = []
+    for (version, link) in version_links:
+      if self.link_version.get(link, 0) > version:
+        # We have newer information, record that we want to filter this information
+        filter_links.append(link)
+      else:
+        self.link_version[link] = version
+
+    filter_links = set(filter_links)
+    version_links = filter(lambda (v, l): l not in filter_links, version_links)
+
+    links = map(lambda (v, l): l, version_links)
+
     neighbors = map(lambda l: l.a.name if l.b.name == switch.name else l.b.name, links)
     neighbor_to_link = dict(zip(neighbors, links))
     self.graph.add_node(switch.name)
