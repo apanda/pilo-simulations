@@ -11,6 +11,8 @@ class LSLeaderControl (LSController):
     self.reason = None
     self.GetSwitchInformation()
     self.link_version = {}
+    self.current_rules = set([])
+    self.waiting_time = 100
 
   def PacketIn(self, pkt, src, switch, source, packet):
     pass
@@ -20,7 +22,11 @@ class LSLeaderControl (LSController):
       if nx.has_path(self.graph, c, switch):
         return c #Find the first connected controller
 
-  def ComputeAndUpdatePaths (self):
+  def ComputeAndUpdatePaths(self):
+    self.ctx.schedule_task(self.waiting_time, self.ComputeAndUpdatePathsInternal)
+
+  def ComputeAndUpdatePathsInternal (self):
+    current_rules = set([])
     sp = nx.shortest_paths.all_pairs_shortest_path(self.graph)
     for host in self.hosts:
       for h2 in self.hosts:
@@ -34,7 +40,10 @@ class LSLeaderControl (LSController):
             link = self.graph[a][b]['link']
             if self.currentLeader(a) == self.name:
               self.update_messages[self.reason] = self.update_messages.get(self.reason, 0) + 1
-              self.UpdateRules(a, [(p.pack(), link)])
+              if (a, p.pack(), link) not in self.current_rules:
+                self.UpdateRules(a, [(p.pack(), link)])
+              current_rules.add((a, p.pack(), link))
+    self.current_rules = current_rules
 
   def NotifySwitchUp (self, pkt, src, switch):
     # Not sure this is necessary?

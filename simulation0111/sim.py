@@ -216,7 +216,7 @@ class Simulation (object):
              retry_send = False, 
              converge_time = False, 
              count_ctrl_packet = False, 
-             count_packets = True):
+             count_packets = -1):
     self.ctx = Context()
 
     setup = yaml.load(simulation_setup)
@@ -256,8 +256,8 @@ class Simulation (object):
     self.link_objs = {}
     for l in links:
       p = l.split('-')
-      if count_packets:
-        self.link_objs[l] = BandwidthLink(self.ctx, self.objs[p[0]], self.objs[p[1]])
+      if count_packets > -1:
+        self.link_objs[l] = BandwidthLink(self.ctx, self.objs[p[0]], self.objs[p[1]], count_packets)
       else:
         self.link_objs[l] = Link(self.ctx, self.objs[p[0]], self.objs[p[1]])
       self.link_objs['%s-%s'%(p[1], p[0])] = self.link_objs[l]

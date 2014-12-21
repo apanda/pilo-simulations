@@ -51,7 +51,7 @@ class Link (object):
             lambda: deliverInternal(self, source, other, pkt))
 
 class BandwidthLink(Link):
-  def __init__(self, ctx, ep1, ep2):
+  def __init__(self, ctx, ep1, ep2, count_start_time):
     super(BandwidthLink, self).__init__(ctx, ep1, ep2)
     self.control_packets = {}
     self.other_packets = 0
@@ -61,8 +61,13 @@ class BandwidthLink(Link):
     self.bandwidth = 10
     self.proc_rate = 10
     self.ctx.schedule_task(self.proc_rate, self.Send2)
+    self.max_in_flight = self.bandwidth * 20 * 55
 
     self.bandwidth_limit = False
+    self.count_start_time = count_start_time
+
+  def canSend(self, source):
+    return (self.buf[source] < self.max_in_flight)
 
   def Send (self, source, packet):
     assert source == self.a or source == self.b
@@ -73,7 +78,8 @@ class BandwidthLink(Link):
     def deliverInternal(link, source, dest, packet):
       if link.up:
         dest.receive(link, source, packet)
-        self.count(packet)
+        if self.ctx.now > self.count_start_time:
+          self.count(packet)
       else:
         source.NotifyDrop(source, packet)
 
