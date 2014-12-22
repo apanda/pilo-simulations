@@ -12,7 +12,7 @@ class LSLeaderControl (LSController):
     self.GetSwitchInformation()
     self.link_version = {}
     self.current_rules = set([])
-    self.waiting_time = 100
+    self.waiting_time = ctx.config.controller_nagle_time
 
   def PacketIn(self, pkt, src, switch, source, packet):
     pass
@@ -23,7 +23,10 @@ class LSLeaderControl (LSController):
         return c #Find the first connected controller
 
   def ComputeAndUpdatePaths(self):
-    self.ctx.schedule_task(self.waiting_time, self.ComputeAndUpdatePathsInternal)
+    if self.waiting_time > 0.0:
+      self.ctx.schedule_task(self.waiting_time, self.ComputeAndUpdatePathsInternal)
+    else:
+      self.ComputeAndUpdatePathsInternal()
 
   def ComputeAndUpdatePathsInternal (self):
     current_rules = set([])

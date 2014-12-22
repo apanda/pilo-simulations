@@ -112,6 +112,11 @@ class Config (object):
     if 'control_processing_latency' in configs:
       self.control_proc = Config.distributions[configs['control_processing_latency']['distro']]\
                                 (configs['control_processing_latency'])
+    if 'controller_naggle_time' in configs:
+      self.controller_nagle_time = float(configs['controller_naggle_time'])
+    else:
+      # Turn it off by default
+      self.controller_nagle_time = 0.0
   @property
   def ControlLatency(self):
     return self.control_dist.next

@@ -21,3 +21,4 @@ update_delay:
 control_processing_latency:
    distro: exponential
    shape: 20.0
+controller_naggle_time: 0.0
