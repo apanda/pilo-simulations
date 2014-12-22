@@ -14,6 +14,7 @@ def TransformTrace (links, fail_links, nfailures, mttf, mttr, stable, end_time):
     new_trace.append("%f %s up"%(ctime, link))
   ctime += stable
   up_links = set(links)
+  down_links = set()
   set_up_at = defaultdict(list)
   for fail in xrange(nfailures):
     ctime = ctime + mttf * random.ranf()
@@ -24,30 +25,37 @@ def TransformTrace (links, fail_links, nfailures, mttf, mttr, stable, end_time):
           new_trace.append("%f %s up"%(t, l))
           set_up.append(l)
         del(set_up_at[t])
-    if len(up_links) == 0:
+
+    to_fail = None
+    failable_links = set(fail_links) - set(down_links)
+
+    if len(failable_links) == 0:
       # Nothing to fail
-      continue
-    while True:
-      to_fail = random.choice(list(fail_links))
-      if to_fail in up_links:
-        up_links.remove(to_fail)
-        break
-    new_trace.append("%f %s down"%(ctime, to_fail))
-    recovery_time = random.exponential(mttr)
-    assert(recovery_time) > 0
-    set_up_at[ctime + recovery_time].append(to_fail)
+      min_time = sorted(set_up_at.keys())[0]
+      ctime = min_time 
+    else: 
+      to_fail = random.choice(list(failable_links))
+      up_links.remove(to_fail)
+      down_links.add(to_fail)
+      new_trace.append("%f %s down"%(ctime, to_fail))
+      recovery_time = random.exponential(mttr)
+      assert(recovery_time) > 0
+      set_up_at[ctime + recovery_time].append(to_fail)
+
     for l in set_up:
+      new_trace.append("%f %s up"%(t, l))
       up_links.add(l)
+      down_links.remove(l)
+
   for t in sorted(set_up_at.keys()):
     for l in set_up_at[t]:
       new_trace.append("%f %s up"%(t, l))
       up_links.add(l)
     ctime = t
-  if ctime < end_time:
-    ctime = end_time
+
   # Otherwise end instantly
-  new_trace.append("%f end"%ctime)
-  return (ctime, new_trace)
+  new_trace.append("%f end"%end_time)
+  return (end_time, new_trace)
 
 def Main (args):
   show_converge = True
