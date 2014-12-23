@@ -12,6 +12,7 @@ def TransformTrace (links, fail_links, mttf, mttr, stable, end_time):
   ctime = 0.0
   for link in links:
     new_trace.append("%f %s up"%(ctime, link))
+  new_trace.append("1.0 compute_and_update") 
   ctime += stable
   up_links = set(links)
   down_links = set()

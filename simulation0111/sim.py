@@ -35,6 +35,7 @@ class Simulation (object):
     self.latency_check = False
 
   def Clear (self):
+    self.objs = {}
     self.unaccounted_packets = list()
     self.sent_packet_time = {}
     self.hosts = []
@@ -92,16 +93,32 @@ class Simulation (object):
   def scheduleSend (self, time, host, src, dest):
     self.ctx.schedule_task(time, lambda: self.Send(host, src, dest))
 
+  def computeAndInstallPaths (self):
+    paths = nx.shortest_paths.all_pairs_shortest_path(self.graph)
+    for (ha, hb) in permutations(self.host_names, 2):
+      if hb in paths[ha]:
+        ha_addr = self.objs[ha].address
+        hb_addr = self.objs[hb].address
+        pkt = SourceDestinationPacket(ha_addr, hb_addr)
+        path = paths[ha][hb][1:]
+        for p in xrange(len(path) - 1):
+          link = self.link_objs["%s-%s"%(path[p], path[p+1])]
+          self.objs[path[p]].rules.update([(pkt.pack(), link)])
+
   def scheduleLinkUp (self, time, link):
     def LinkUpFunc ():
       self.graph.add_edge(*link.split("-"))
       self.link_objs[link].SetUp()
     self.ctx.schedule_task(time, LinkUpFunc)
+
   def scheduleLinkDown (self, time, link):
     def LinkDnFunc ():
       self.graph.remove_edge(*link.split("-"))
       self.link_objs[link].SetDown()
     self.ctx.schedule_task(time, LinkDnFunc)
+  
+  def scheduleOracleCompute (self, time):
+    self.ctx.schedule_task(time, self.computeAndInstallPaths)
   
   def checkAllPaths (self):
     """For now this assumes singly homed hosts"""
@@ -285,6 +302,8 @@ class Simulation (object):
       elif parts[1] == 'end':
         # End of simulation time.
         self.ctx.final_time = time
+      elif parts[1] == 'compute_and_update':
+        self.scheduleOracleCompute(time)
       else:
         # Dealing with host
         host = parts[1]
