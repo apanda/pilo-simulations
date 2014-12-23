@@ -107,6 +107,7 @@ class Simulation (object):
     """For now this assumes singly homed hosts"""
     if self.ctx.now <= 0.0:
       return
+    print "%f checking path"%(self.ctx.now)
     if len(self.count_ctrl_packets) > 0:
       print self.ctx.now, self.count_ctrl_packets
     tried = 0
