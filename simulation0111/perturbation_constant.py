@@ -7,12 +7,13 @@ from env import Singleton
 from collections import defaultdict
 import yaml
 """Generate a trace with links fail and are recovered at a time independent of failure"""
-def TransformTrace (links, fail_links, mttf, mttr, stable, end_time):
+def TransformTrace (links, fail_links, mttf, mttr, stable, end_time, bootstrap):
   new_trace = []
   ctime = 0.0
   for link in links:
     new_trace.append("%f %s up"%(ctime, link))
-  new_trace.append("1.0 compute_and_update") 
+  if bootstrap:
+    new_trace.append("1.0 compute_and_update") 
   ctime += stable
   up_links = set(links)
   down_links = set()
@@ -62,9 +63,9 @@ def TransformTrace (links, fail_links, mttf, mttr, stable, end_time):
 
 def Main (args):
   show_converge = True
-  if len(args) != 9:
+  if len(args) != 10:
     print >>sys.stderr, "Usage: perturbation_constant.py setup stable_time mean_recovery end_time " + \
-                                " begin_mean_perturb end_mean_perturn step_mean_perturb sampling_rate seed"
+                                " begin_mean_perturb end_mean_perturn step_mean_perturb sampling_rate seed bootstrap"
   else:
     topo = open(args[0]).read()
     stable = float(args[1])
@@ -75,6 +76,7 @@ def Main (args):
     step = float(args[6])
     sampling_rate = float(args[7])
     seed = int(args[8])
+    bootstrap = (args[9].lower() == "true")
     print "Setting %s %f %f %f %f %f %f %f %d"%(args[0], stable, mean_recovery, end_time, begin, end,\
             step, sampling_rate, seed)
     topo_yaml = yaml.load(topo)
@@ -94,7 +96,7 @@ def Main (args):
       random.seed(seed)
       print "mean_perturb %f"%(mean)
       print "generating trace"
-      (end_time, new_trace) = TransformTrace(links, fail_links, mean, mean_recovery, stable, end_time)
+      (end_time, new_trace) = TransformTrace(links, fail_links, mean, mean_recovery, stable, end_time, bootstrap)
       print "done generating trace"
       print "TRACE TRACE TRACE"
       for t in new_trace:
