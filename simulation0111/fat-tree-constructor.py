@@ -29,16 +29,16 @@ config_args =  \
  "Controller2PC": {"addr": True}
 }
 
-def FatTree (arity):
+def FatTree (start_switch, start_host, arity):
   ncore_switches = (arity / 2) ** 2
   pods = arity
   hosts = []
   links = []
   switches = []
-  switches_assigned_so_far = ncore_switches
-  hosts_assigned_so_far = 0
+  hosts_assigned_so_far = start_host
   for s in xrange(ncore_switches):
-    switches.append('s%d'%s)
+    switches.append('s%d'%(start_switch + s))
+  switches_assigned_so_far = start_switch + ncore_switches
   
   for p in xrange(0, pods):
     # Agg singly connected to core
@@ -48,7 +48,8 @@ def FatTree (arity):
       aggs.append(agg + switches_assigned_so_far)
       switches.append('s%d'%(agg + switches_assigned_so_far))
       for agg_connect in xrange(0, arity / 2):
-        links.append("%s-%s"%(switches[(arity/2)*agg + agg_connect], switches[agg + switches_assigned_so_far]))
+        links.append("%s-%s"%(switches[(arity/2)*agg + agg_connect], \
+                switches[agg + switches_assigned_so_far - start_switch]))
     switches_assigned_so_far += (arity/2)
     
     tors = []
@@ -56,14 +57,15 @@ def FatTree (arity):
       tors.append(tor + switches_assigned_so_far)
       switches.append('s%d'%(tor + switches_assigned_so_far))
       for agg in aggs:
-        links.append("%s-%s"%((switches[agg], switches[tor + switches_assigned_so_far])))
+        links.append("%s-%s"%((switches[agg - start_switch], \
+             switches[tor + switches_assigned_so_far - start_switch])))
 
     switches_assigned_so_far += (arity/2)
 
     for tor in tors:
       for host in xrange(0, arity / 2):
         hosts.append('h%d'%(host + hosts_assigned_so_far))
-        links.append("%s-%s"%(switches[tor], hosts[host + hosts_assigned_so_far]))
+        links.append("%s-%s"%(switches[tor - start_switch], hosts[host + hosts_assigned_so_far - start_host]))
       hosts_assigned_so_far += (arity / 2)
   return (hosts, switches, links)
 
@@ -101,15 +103,36 @@ if __name__ == "__main__":
   parser = argparse.ArgumentParser(description="Run this script to generate a YAML setup file with" \
                                    " random network graph")
   parser.add_argument("-n", type=int, help="Arity of fat tree")
-  parser.add_argument("-nc", type=int, help="Number of controllers")
+  parser.add_argument("-nc", type=int, help="Number of controllers per partition")
+  parser.add_argument("-r", type=int, help="Number of partitions (repeated instances of fat tree)")
   parser.add_argument("-f", dest="file", default="", help="Output file name stem")
   args = parser.parse_args()
-  (hosts, switches, links) = FatTree(args.n)
-  controllers = random.sample(hosts, args.nc)
-  hosts = list(set(hosts) - set(controllers))
+  all_controllers = []
+  all_hosts = []
+  all_switches = []
+  all_links = []
+  nswitches = 0
+  nhosts = 0
+  partition_switches = []
+  for p in xrange(args.r):
+    (hosts, switches, links) = FatTree(nswitches, nhosts, args.n)
+    nswitches += len(switches)
+    nhosts += len(hosts)
+    controllers = random.sample(hosts, args.nc)
+    hosts = list(set(hosts) - set(controllers))
+    all_hosts.extend(hosts)
+    all_controllers.extend(controllers)
+    all_switches.extend(switches)
+    all_links.extend(links)
+    for partition in partition_switches:
+      sw = random.choice(partition)
+      sw2 = random.choice(switches)
+      all_links.append("%s-%s"%(sw, sw2))
+    partition_switches.append(switches)
+
   idx = 0 
   for (ct, st, ht, runfile) in config:
-    out = WriteGraph(hosts, controllers, switches, links, ct, st, ht, runfile)
+    out = WriteGraph(all_hosts, all_controllers, all_switches, all_links, ct, st, ht, runfile)
     f = open(args.file+str(idx)+".yaml", 'w')
     f.write(yaml.dump(out))
     f.close()
