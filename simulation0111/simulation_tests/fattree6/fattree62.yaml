@@ -1,0 +1,352 @@
+fail_links: [s0-s4, s1-s4, s2-s5, s3-s5, s4-s6, s5-s6, s4-s7, s5-s7, s0-s8, s1-s8,
+  s2-s9, s3-s9, s8-s10, s9-s10, s8-s11, s9-s11, s0-s12, s1-s12, s2-s13, s3-s13, s12-s14,
+  s13-s14, s12-s15, s13-s15, s0-s16, s1-s16, s2-s17, s3-s17, s16-s18, s17-s18, s16-s19,
+  s17-s19, s20-s24, s21-s24, s22-s25, s23-s25, s24-s26, s25-s26, s24-s27, s25-s27,
+  s20-s28, s21-s28, s22-s29, s23-s29, s28-s30, s29-s30, s28-s31, s29-s31, s20-s32,
+  s21-s32, s22-s33, s23-s33, s32-s34, s33-s34, s32-s35, s33-s35, s20-s36, s21-s36,
+  s22-s37, s23-s37, s36-s38, s37-s38, s36-s39, s37-s39, s40-s44, s41-s44, s42-s45,
+  s43-s45, s44-s46, s45-s46, s44-s47, s45-s47, s40-s48, s41-s48, s42-s49, s43-s49,
+  s48-s50, s49-s50, s48-s51, s49-s51, s40-s52, s41-s52, s42-s53, s43-s53, s52-s54,
+  s53-s54, s52-s55, s53-s55, s40-s56, s41-s56, s42-s57, s43-s57, s56-s58, s57-s58,
+  s56-s59, s57-s59]
+h0:
+  args: {address: 5}
+  type: HBHost
+h1:
+  args: {address: 6}
+  type: HBHost
+h10:
+  args: {address: 11}
+  type: HBHost
+h11:
+  args: {address: 12}
+  type: HBHost
+h12:
+  args: {address: 15}
+  type: HBHost
+h13:
+  args: {address: 14}
+  type: HBHost
+h14:
+  args: {address: 13}
+  type: HBHost
+h15:
+  args: {address: 46, epoch: 5000, send_rate: 1000}
+  type: HBControl
+h16:
+  args: {address: 25}
+  type: HBHost
+h17:
+  args: {address: 26}
+  type: HBHost
+h18:
+  args: {address: 16}
+  type: HBHost
+h19:
+  args: {address: 17}
+  type: HBHost
+h2:
+  args: {address: 3}
+  type: HBHost
+h20:
+  args: {address: 24}
+  type: HBHost
+h21:
+  args: {address: 23}
+  type: HBHost
+h22:
+  args: {address: 30}
+  type: HBHost
+h23:
+  args: {address: 29}
+  type: HBHost
+h24:
+  args: {address: 20}
+  type: HBHost
+h25:
+  args: {address: 19}
+  type: HBHost
+h26:
+  args: {address: 22}
+  type: HBHost
+h27:
+  args: {address: 21}
+  type: HBHost
+h28:
+  args: {address: 18}
+  type: HBHost
+h29:
+  args: {address: 47, epoch: 5000, send_rate: 1000}
+  type: HBControl
+h3:
+  args: {address: 4}
+  type: HBHost
+h30:
+  args: {address: 27}
+  type: HBHost
+h31:
+  args: {address: 28}
+  type: HBHost
+h32:
+  args: {address: 31}
+  type: HBHost
+h33:
+  args: {address: 32}
+  type: HBHost
+h34:
+  args: {address: 40}
+  type: HBHost
+h35:
+  args: {address: 33}
+  type: HBHost
+h36:
+  args: {address: 38}
+  type: HBHost
+h37:
+  args: {address: 39}
+  type: HBHost
+h38:
+  args: {address: 43}
+  type: HBHost
+h39:
+  args: {address: 44}
+  type: HBHost
+h4:
+  args: {address: 9}
+  type: HBHost
+h40:
+  args: {address: 41}
+  type: HBHost
+h41:
+  args: {address: 48, epoch: 5000, send_rate: 1000}
+  type: HBControl
+h42:
+  args: {address: 45}
+  type: HBHost
+h43:
+  args: {address: 42}
+  type: HBHost
+h44:
+  args: {address: 37}
+  type: HBHost
+h45:
+  args: {address: 36}
+  type: HBHost
+h46:
+  args: {address: 35}
+  type: HBHost
+h47:
+  args: {address: 34}
+  type: HBHost
+h5:
+  args: {address: 10}
+  type: HBHost
+h6:
+  args: {address: 7}
+  type: HBHost
+h7:
+  args: {address: 8}
+  type: HBHost
+h8:
+  args: {address: 1}
+  type: HBHost
+h9:
+  args: {address: 2}
+  type: HBHost
+links: [s0-s4, s1-s4, s2-s5, s3-s5, s4-s6, s5-s6, s4-s7, s5-s7, s6-h0, s6-h1, s7-h2,
+  s7-h3, s0-s8, s1-s8, s2-s9, s3-s9, s8-s10, s9-s10, s8-s11, s9-s11, s10-h4, s10-h5,
+  s11-h6, s11-h7, s0-s12, s1-s12, s2-s13, s3-s13, s12-s14, s13-s14, s12-s15, s13-s15,
+  s14-h8, s14-h9, s15-h10, s15-h11, s0-s16, s1-s16, s2-s17, s3-s17, s16-s18, s17-s18,
+  s16-s19, s17-s19, s18-h12, s18-h13, s19-h14, s19-h15, s20-s24, s21-s24, s22-s25,
+  s23-s25, s24-s26, s25-s26, s24-s27, s25-s27, s26-h16, s26-h17, s27-h18, s27-h19,
+  s20-s28, s21-s28, s22-s29, s23-s29, s28-s30, s29-s30, s28-s31, s29-s31, s30-h20,
+  s30-h21, s31-h22, s31-h23, s20-s32, s21-s32, s22-s33, s23-s33, s32-s34, s33-s34,
+  s32-s35, s33-s35, s34-h24, s34-h25, s35-h26, s35-h27, s20-s36, s21-s36, s22-s37,
+  s23-s37, s36-s38, s37-s38, s36-s39, s37-s39, s38-h28, s38-h29, s39-h30, s39-h31,
+  s40-s44, s41-s44, s42-s45, s43-s45, s44-s46, s45-s46, s44-s47, s45-s47, s46-h32,
+  s46-h33, s47-h34, s47-h35, s40-s48, s41-s48, s42-s49, s43-s49, s48-s50, s49-s50,
+  s48-s51, s49-s51, s50-h36, s50-h37, s51-h38, s51-h39, s40-s52, s41-s52, s42-s53,
+  s43-s53, s52-s54, s53-s54, s52-s55, s53-s55, s54-h40, s54-h41, s55-h42, s55-h43,
+  s40-s56, s41-s56, s42-s57, s43-s57, s56-s58, s57-s58, s56-s59, s57-s59, s58-h44,
+  s58-h45, s59-h46, s59-h47]
+runfile: controllers
+s0:
+  args: {epoch: 5000, send_rate: 1000}
+  type: HBSwitch
+s1:
+  args: {epoch: 5000, send_rate: 1000}
+  type: HBSwitch
+s10:
+  args: {epoch: 5000, send_rate: 1000}
+  type: HBSwitch
+s11:
+  args: {epoch: 5000, send_rate: 1000}
+  type: HBSwitch
+s12:
+  args: {epoch: 5000, send_rate: 1000}
+  type: HBSwitch
+s13:
+  args: {epoch: 5000, send_rate: 1000}
+  type: HBSwitch
+s14:
+  args: {epoch: 5000, send_rate: 1000}
+  type: HBSwitch
+s15:
+  args: {epoch: 5000, send_rate: 1000}
+  type: HBSwitch
+s16:
+  args: {epoch: 5000, send_rate: 1000}
+  type: HBSwitch
+s17:
+  args: {epoch: 5000, send_rate: 1000}
+  type: HBSwitch
+s18:
+  args: {epoch: 5000, send_rate: 1000}
+  type: HBSwitch
+s19:
+  args: {epoch: 5000, send_rate: 1000}
+  type: HBSwitch
+s2:
+  args: {epoch: 5000, send_rate: 1000}
+  type: HBSwitch
+s20:
+  args: {epoch: 5000, send_rate: 1000}
+  type: HBSwitch
+s21:
+  args: {epoch: 5000, send_rate: 1000}
+  type: HBSwitch
+s22:
+  args: {epoch: 5000, send_rate: 1000}
+  type: HBSwitch
+s23:
+  args: {epoch: 5000, send_rate: 1000}
+  type: HBSwitch
+s24:
+  args: {epoch: 5000, send_rate: 1000}
+  type: HBSwitch
+s25:
+  args: {epoch: 5000, send_rate: 1000}
+  type: HBSwitch
+s26:
+  args: {epoch: 5000, send_rate: 1000}
+  type: HBSwitch
+s27:
+  args: {epoch: 5000, send_rate: 1000}
+  type: HBSwitch
+s28:
+  args: {epoch: 5000, send_rate: 1000}
+  type: HBSwitch
+s29:
+  args: {epoch: 5000, send_rate: 1000}
+  type: HBSwitch
+s3:
+  args: {epoch: 5000, send_rate: 1000}
+  type: HBSwitch
+s30:
+  args: {epoch: 5000, send_rate: 1000}
+  type: HBSwitch
+s31:
+  args: {epoch: 5000, send_rate: 1000}
+  type: HBSwitch
+s32:
+  args: {epoch: 5000, send_rate: 1000}
+  type: HBSwitch
+s33:
+  args: {epoch: 5000, send_rate: 1000}
+  type: HBSwitch
+s34:
+  args: {epoch: 5000, send_rate: 1000}
+  type: HBSwitch
+s35:
+  args: {epoch: 5000, send_rate: 1000}
+  type: HBSwitch
+s36:
+  args: {epoch: 5000, send_rate: 1000}
+  type: HBSwitch
+s37:
+  args: {epoch: 5000, send_rate: 1000}
+  type: HBSwitch
+s38:
+  args: {epoch: 5000, send_rate: 1000}
+  type: HBSwitch
+s39:
+  args: {epoch: 5000, send_rate: 1000}
+  type: HBSwitch
+s4:
+  args: {epoch: 5000, send_rate: 1000}
+  type: HBSwitch
+s40:
+  args: {epoch: 5000, send_rate: 1000}
+  type: HBSwitch
+s41:
+  args: {epoch: 5000, send_rate: 1000}
+  type: HBSwitch
+s42:
+  args: {epoch: 5000, send_rate: 1000}
+  type: HBSwitch
+s43:
+  args: {epoch: 5000, send_rate: 1000}
+  type: HBSwitch
+s44:
+  args: {epoch: 5000, send_rate: 1000}
+  type: HBSwitch
+s45:
+  args: {epoch: 5000, send_rate: 1000}
+  type: HBSwitch
+s46:
+  args: {epoch: 5000, send_rate: 1000}
+  type: HBSwitch
+s47:
+  args: {epoch: 5000, send_rate: 1000}
+  type: HBSwitch
+s48:
+  args: {epoch: 5000, send_rate: 1000}
+  type: HBSwitch
+s49:
+  args: {epoch: 5000, send_rate: 1000}
+  type: HBSwitch
+s5:
+  args: {epoch: 5000, send_rate: 1000}
+  type: HBSwitch
+s50:
+  args: {epoch: 5000, send_rate: 1000}
+  type: HBSwitch
+s51:
+  args: {epoch: 5000, send_rate: 1000}
+  type: HBSwitch
+s52:
+  args: {epoch: 5000, send_rate: 1000}
+  type: HBSwitch
+s53:
+  args: {epoch: 5000, send_rate: 1000}
+  type: HBSwitch
+s54:
+  args: {epoch: 5000, send_rate: 1000}
+  type: HBSwitch
+s55:
+  args: {epoch: 5000, send_rate: 1000}
+  type: HBSwitch
+s56:
+  args: {epoch: 5000, send_rate: 1000}
+  type: HBSwitch
+s57:
+  args: {epoch: 5000, send_rate: 1000}
+  type: HBSwitch
+s58:
+  args: {epoch: 5000, send_rate: 1000}
+  type: HBSwitch
+s59:
+  args: {epoch: 5000, send_rate: 1000}
+  type: HBSwitch
+s6:
+  args: {epoch: 5000, send_rate: 1000}
+  type: HBSwitch
+s7:
+  args: {epoch: 5000, send_rate: 1000}
+  type: HBSwitch
+s8:
+  args: {epoch: 5000, send_rate: 1000}
+  type: HBSwitch
+s9:
+  args: {epoch: 5000, send_rate: 1000}
+  type: HBSwitch

@@ -1,0 +1,232 @@
+fail_links: [s0-s4, s1-s4, s2-s5, s3-s5, s4-s6, s5-s6, s4-s7, s5-s7, s0-s8, s1-s8,
+  s2-s9, s3-s9, s8-s10, s9-s10, s8-s11, s9-s11, s0-s12, s1-s12, s2-s13, s3-s13, s12-s14,
+  s13-s14, s12-s15, s13-s15, s0-s16, s1-s16, s2-s17, s3-s17, s16-s18, s17-s18, s16-s19,
+  s17-s19, s20-s24, s21-s24, s22-s25, s23-s25, s24-s26, s25-s26, s24-s27, s25-s27,
+  s20-s28, s21-s28, s22-s29, s23-s29, s28-s30, s29-s30, s28-s31, s29-s31, s20-s32,
+  s21-s32, s22-s33, s23-s33, s32-s34, s33-s34, s32-s35, s33-s35, s20-s36, s21-s36,
+  s22-s37, s23-s37, s36-s38, s37-s38, s36-s39, s37-s39, s40-s44, s41-s44, s42-s45,
+  s43-s45, s44-s46, s45-s46, s44-s47, s45-s47, s40-s48, s41-s48, s42-s49, s43-s49,
+  s48-s50, s49-s50, s48-s51, s49-s51, s40-s52, s41-s52, s42-s53, s43-s53, s52-s54,
+  s53-s54, s52-s55, s53-s55, s40-s56, s41-s56, s42-s57, s43-s57, s56-s58, s57-s58,
+  s56-s59, s57-s59]
+h0:
+  args: {address: 5}
+  type: Host
+h1:
+  args: {address: 6}
+  type: Host
+h10:
+  args: {address: 11}
+  type: Host
+h11:
+  args: {address: 12}
+  type: Host
+h12:
+  args: {address: 15}
+  type: Host
+h13:
+  args: {address: 14}
+  type: Host
+h14:
+  args: {address: 13}
+  type: Host
+h15:
+  args: {address: 46}
+  type: CoordinatingControl
+h16:
+  args: {address: 25}
+  type: Host
+h17:
+  args: {address: 26}
+  type: Host
+h18:
+  args: {address: 16}
+  type: Host
+h19:
+  args: {address: 17}
+  type: Host
+h2:
+  args: {address: 3}
+  type: Host
+h20:
+  args: {address: 24}
+  type: Host
+h21:
+  args: {address: 23}
+  type: Host
+h22:
+  args: {address: 30}
+  type: Host
+h23:
+  args: {address: 29}
+  type: Host
+h24:
+  args: {address: 20}
+  type: Host
+h25:
+  args: {address: 19}
+  type: Host
+h26:
+  args: {address: 22}
+  type: Host
+h27:
+  args: {address: 21}
+  type: Host
+h28:
+  args: {address: 18}
+  type: Host
+h29:
+  args: {address: 47}
+  type: CoordinatingControl
+h3:
+  args: {address: 4}
+  type: Host
+h30:
+  args: {address: 27}
+  type: Host
+h31:
+  args: {address: 28}
+  type: Host
+h32:
+  args: {address: 31}
+  type: Host
+h33:
+  args: {address: 32}
+  type: Host
+h34:
+  args: {address: 40}
+  type: Host
+h35:
+  args: {address: 33}
+  type: Host
+h36:
+  args: {address: 38}
+  type: Host
+h37:
+  args: {address: 39}
+  type: Host
+h38:
+  args: {address: 43}
+  type: Host
+h39:
+  args: {address: 44}
+  type: Host
+h4:
+  args: {address: 9}
+  type: Host
+h40:
+  args: {address: 41}
+  type: Host
+h41:
+  args: {address: 48}
+  type: CoordinatingControl
+h42:
+  args: {address: 45}
+  type: Host
+h43:
+  args: {address: 42}
+  type: Host
+h44:
+  args: {address: 37}
+  type: Host
+h45:
+  args: {address: 36}
+  type: Host
+h46:
+  args: {address: 35}
+  type: Host
+h47:
+  args: {address: 34}
+  type: Host
+h5:
+  args: {address: 10}
+  type: Host
+h6:
+  args: {address: 7}
+  type: Host
+h7:
+  args: {address: 8}
+  type: Host
+h8:
+  args: {address: 1}
+  type: Host
+h9:
+  args: {address: 2}
+  type: Host
+links: [s0-s4, s1-s4, s2-s5, s3-s5, s4-s6, s5-s6, s4-s7, s5-s7, s6-h0, s6-h1, s7-h2,
+  s7-h3, s0-s8, s1-s8, s2-s9, s3-s9, s8-s10, s9-s10, s8-s11, s9-s11, s10-h4, s10-h5,
+  s11-h6, s11-h7, s0-s12, s1-s12, s2-s13, s3-s13, s12-s14, s13-s14, s12-s15, s13-s15,
+  s14-h8, s14-h9, s15-h10, s15-h11, s0-s16, s1-s16, s2-s17, s3-s17, s16-s18, s17-s18,
+  s16-s19, s17-s19, s18-h12, s18-h13, s19-h14, s19-h15, s20-s24, s21-s24, s22-s25,
+  s23-s25, s24-s26, s25-s26, s24-s27, s25-s27, s26-h16, s26-h17, s27-h18, s27-h19,
+  s20-s28, s21-s28, s22-s29, s23-s29, s28-s30, s29-s30, s28-s31, s29-s31, s30-h20,
+  s30-h21, s31-h22, s31-h23, s20-s32, s21-s32, s22-s33, s23-s33, s32-s34, s33-s34,
+  s32-s35, s33-s35, s34-h24, s34-h25, s35-h26, s35-h27, s20-s36, s21-s36, s22-s37,
+  s23-s37, s36-s38, s37-s38, s36-s39, s37-s39, s38-h28, s38-h29, s39-h30, s39-h31,
+  s40-s44, s41-s44, s42-s45, s43-s45, s44-s46, s45-s46, s44-s47, s45-s47, s46-h32,
+  s46-h33, s47-h34, s47-h35, s40-s48, s41-s48, s42-s49, s43-s49, s48-s50, s49-s50,
+  s48-s51, s49-s51, s50-h36, s50-h37, s51-h38, s51-h39, s40-s52, s41-s52, s42-s53,
+  s43-s53, s52-s54, s53-s54, s52-s55, s53-s55, s54-h40, s54-h41, s55-h42, s55-h43,
+  s40-s56, s41-s56, s42-s57, s43-s57, s56-s58, s57-s58, s56-s59, s57-s59, s58-h44,
+  s58-h45, s59-h46, s59-h47]
+runfile: controllers
+s0: {type: LS2PCSwitch}
+s1: {type: LS2PCSwitch}
+s10: {type: LS2PCSwitch}
+s11: {type: LS2PCSwitch}
+s12: {type: LS2PCSwitch}
+s13: {type: LS2PCSwitch}
+s14: {type: LS2PCSwitch}
+s15: {type: LS2PCSwitch}
+s16: {type: LS2PCSwitch}
+s17: {type: LS2PCSwitch}
+s18: {type: LS2PCSwitch}
+s19: {type: LS2PCSwitch}
+s2: {type: LS2PCSwitch}
+s20: {type: LS2PCSwitch}
+s21: {type: LS2PCSwitch}
+s22: {type: LS2PCSwitch}
+s23: {type: LS2PCSwitch}
+s24: {type: LS2PCSwitch}
+s25: {type: LS2PCSwitch}
+s26: {type: LS2PCSwitch}
+s27: {type: LS2PCSwitch}
+s28: {type: LS2PCSwitch}
+s29: {type: LS2PCSwitch}
+s3: {type: LS2PCSwitch}
+s30: {type: LS2PCSwitch}
+s31: {type: LS2PCSwitch}
+s32: {type: LS2PCSwitch}
+s33: {type: LS2PCSwitch}
+s34: {type: LS2PCSwitch}
+s35: {type: LS2PCSwitch}
+s36: {type: LS2PCSwitch}
+s37: {type: LS2PCSwitch}
+s38: {type: LS2PCSwitch}
+s39: {type: LS2PCSwitch}
+s4: {type: LS2PCSwitch}
+s40: {type: LS2PCSwitch}
+s41: {type: LS2PCSwitch}
+s42: {type: LS2PCSwitch}
+s43: {type: LS2PCSwitch}
+s44: {type: LS2PCSwitch}
+s45: {type: LS2PCSwitch}
+s46: {type: LS2PCSwitch}
+s47: {type: LS2PCSwitch}
+s48: {type: LS2PCSwitch}
+s49: {type: LS2PCSwitch}
+s5: {type: LS2PCSwitch}
+s50: {type: LS2PCSwitch}
+s51: {type: LS2PCSwitch}
+s52: {type: LS2PCSwitch}
+s53: {type: LS2PCSwitch}
+s54: {type: LS2PCSwitch}
+s55: {type: LS2PCSwitch}
+s56: {type: LS2PCSwitch}
+s57: {type: LS2PCSwitch}
+s58: {type: LS2PCSwitch}
+s59: {type: LS2PCSwitch}
+s6: {type: LS2PCSwitch}
+s7: {type: LS2PCSwitch}
+s8: {type: LS2PCSwitch}
+s9: {type: LS2PCSwitch}

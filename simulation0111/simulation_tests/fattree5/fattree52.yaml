@@ -1,0 +1,68 @@
+fail_links: [s0-s1, s1-s2, s0-s3, s3-s4, s5-s6, s6-s7, s5-s8, s8-s9, s10-s11, s11-s12,
+  s10-s13, s13-s14]
+h0:
+  args: {address: 4, epoch: 5000, send_rate: 1000}
+  type: HBControl
+h1:
+  args: {address: 1}
+  type: HBHost
+h2:
+  args: {address: 5, epoch: 5000, send_rate: 1000}
+  type: HBControl
+h3:
+  args: {address: 2}
+  type: HBHost
+h4:
+  args: {address: 6, epoch: 5000, send_rate: 1000}
+  type: HBControl
+h5:
+  args: {address: 3}
+  type: HBHost
+links: [s0-s1, s1-s2, s2-h0, s0-s3, s3-s4, s4-h1, s5-s6, s6-s7, s7-h2, s5-s8, s8-s9,
+  s9-h3, s10-s11, s11-s12, s12-h4, s10-s13, s13-s14, s14-h5]
+runfile: controllers
+s0:
+  args: {epoch: 5000, send_rate: 1000}
+  type: HBSwitch
+s1:
+  args: {epoch: 5000, send_rate: 1000}
+  type: HBSwitch
+s10:
+  args: {epoch: 5000, send_rate: 1000}
+  type: HBSwitch
+s11:
+  args: {epoch: 5000, send_rate: 1000}
+  type: HBSwitch
+s12:
+  args: {epoch: 5000, send_rate: 1000}
+  type: HBSwitch
+s13:
+  args: {epoch: 5000, send_rate: 1000}
+  type: HBSwitch
+s14:
+  args: {epoch: 5000, send_rate: 1000}
+  type: HBSwitch
+s2:
+  args: {epoch: 5000, send_rate: 1000}
+  type: HBSwitch
+s3:
+  args: {epoch: 5000, send_rate: 1000}
+  type: HBSwitch
+s4:
+  args: {epoch: 5000, send_rate: 1000}
+  type: HBSwitch
+s5:
+  args: {epoch: 5000, send_rate: 1000}
+  type: HBSwitch
+s6:
+  args: {epoch: 5000, send_rate: 1000}
+  type: HBSwitch
+s7:
+  args: {epoch: 5000, send_rate: 1000}
+  type: HBSwitch
+s8:
+  args: {epoch: 5000, send_rate: 1000}
+  type: HBSwitch
+s9:
+  args: {epoch: 5000, send_rate: 1000}
+  type: HBSwitch

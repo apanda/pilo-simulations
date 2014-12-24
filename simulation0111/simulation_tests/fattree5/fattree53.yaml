@@ -1,0 +1,38 @@
+fail_links: [s0-s1, s1-s2, s0-s3, s3-s4, s5-s6, s6-s7, s5-s8, s8-s9, s10-s11, s11-s12,
+  s10-s13, s13-s14]
+h0:
+  args: {address: 4}
+  type: LSGossipControl
+h1:
+  args: {address: 1}
+  type: Host
+h2:
+  args: {address: 5}
+  type: LSGossipControl
+h3:
+  args: {address: 2}
+  type: Host
+h4:
+  args: {address: 6}
+  type: LSGossipControl
+h5:
+  args: {address: 3}
+  type: Host
+links: [s0-s1, s1-s2, s2-h0, s0-s3, s3-s4, s4-h1, s5-s6, s6-s7, s7-h2, s5-s8, s8-s9,
+  s9-h3, s10-s11, s11-s12, s12-h4, s10-s13, s13-s14, s14-h5]
+runfile: controllers
+s0: {type: LinkStateSwitch}
+s1: {type: LinkStateSwitch}
+s10: {type: LinkStateSwitch}
+s11: {type: LinkStateSwitch}
+s12: {type: LinkStateSwitch}
+s13: {type: LinkStateSwitch}
+s14: {type: LinkStateSwitch}
+s2: {type: LinkStateSwitch}
+s3: {type: LinkStateSwitch}
+s4: {type: LinkStateSwitch}
+s5: {type: LinkStateSwitch}
+s6: {type: LinkStateSwitch}
+s7: {type: LinkStateSwitch}
+s8: {type: LinkStateSwitch}
+s9: {type: LinkStateSwitch}
