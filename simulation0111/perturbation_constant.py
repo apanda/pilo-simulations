@@ -105,10 +105,10 @@ def Main (args):
       sim.Setup(topo, new_trace, False)
       for time in np.arange(stable, end_time, sampling_rate):
         sim.scheduleCheck(time)
-      # Measure latency less often
-      for time in np.arange(stable, end_time, sampling_rate):
-        for (ha, hb) in permutations(sim.hosts, 2):
-          sim.scheduleSend(time, ha.name, ha.address, hb.address)
+      ## Measure latency less often
+      #for time in np.arange(stable, end_time, sampling_rate):
+        #for (ha, hb) in permutations(sim.hosts, 2):
+          #sim.scheduleSend(time, ha.name, ha.address, hb.address)
       sim.Run()
       sim.Report(show_converge)
       sim.Clear()
