@@ -109,7 +109,6 @@ class Simulation (object):
     # Compute the set of all links currently in use.
     switches = map(lambda s: self.objs[s], self.switch_names)
     links = list(chain.from_iterable(imap(lambda s: s.rules.values(), switches)))
-    print switches[0].rules
     return list(set(links))
 
   def scheduleLinkUp (self, time, link):
@@ -128,7 +127,7 @@ class Simulation (object):
     # Schedule a link currently in use to come down and then up
     def LinkDnFunc ():
       links = self.allUsedLinks()
-      links = filter(lambda l: ((l.a not in self.hosts) and (l.b not in self.hosts)), links)
+      links = filter(lambda l: ((l.up) and (l.a not in self.hosts) and (l.b not in self.hosts)), links)
       if len(links) == 0:
         print "%f link down requested no link found"%(self.ctx.now)
         return
