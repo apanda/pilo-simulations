@@ -13,7 +13,7 @@ class Link (object):
     self.first_up = True
     self.version = 0 # Add a version number to link events, so that we can get commutativity or whatever else.
   def __repr__ (self):
-    return "%s--%s"%(self.a, self.b)
+    return "%s-%s"%(self.a, self.b)
   def SetUp (self):
     if not self.up:
       #print "%f %s UP"%(self.ctx.now, self)

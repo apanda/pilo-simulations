@@ -2,8 +2,8 @@ from env import *
 import networkx as nx
 import yaml
 import sys
-from itertools import permutations
-
+from itertools import permutations, chain, imap
+import numpy.random as random
 """A mechanism to run simulations on a particular trace. The command can be run as
    python simulator.py format.yaml trace check_simulation_hbldr
    format.yaml is the topology
@@ -104,6 +104,13 @@ class Simulation (object):
         for p in xrange(len(path) - 1):
           link = self.link_objs["%s-%s"%(path[p], path[p+1])]
           self.objs[path[p]].rules.update([(pkt.pack(), link)])
+  
+  def allUsedLinks (self):
+    # Compute the set of all links currently in use.
+    switches = map(lambda s: self.objs[s], self.switch_names)
+    links = list(chain.from_iterable(imap(lambda s: s.rules.values(), switches)))
+    print switches[0].rules
+    return list(set(links))
 
   def scheduleLinkUp (self, time, link):
     def LinkUpFunc ():
@@ -117,6 +124,22 @@ class Simulation (object):
       self.link_objs[link].SetDown()
     self.ctx.schedule_task(time, LinkDnFunc)
   
+  def scheduleUsedLinkDown (self, time, uptime):
+    # Schedule a link currently in use to come down and then up
+    def LinkDnFunc ():
+      links = self.allUsedLinks()
+      links = filter(lambda l: ((l.a not in self.hosts) and (l.b not in self.hosts)), links)
+      if len(links) == 0:
+        print "%f link down requested no link found"%(self.ctx.now)
+        return
+      link = random.choice(links)
+      self.graph.remove_edge(*str(link).split("-"))
+      print "%f failing %s"%(self.ctx.now, str(link))
+      print "%f repairing %s"%(self.ctx.now + uptime, str(link))
+      link.SetDown()
+      self.scheduleLinkUp(uptime, str(link))
+    self.ctx.schedule_task(time, LinkDnFunc) 
+
   def scheduleOracleCompute (self, time):
     self.ctx.schedule_task(time, self.computeAndInstallPaths)
   
@@ -304,6 +327,9 @@ class Simulation (object):
         self.ctx.final_time = time
       elif parts[1] == 'compute_and_update':
         self.scheduleOracleCompute(time)
+      elif parts[1] == 'down_active':
+        uptime = float(parts[2])
+        self.scheduleUsedLinkDown(time, uptime)
       else:
         # Dealing with host
         host = parts[1]
