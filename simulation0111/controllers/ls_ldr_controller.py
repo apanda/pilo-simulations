@@ -51,7 +51,6 @@ class LSLeaderControl (LSController):
   def NotifySwitchUp (self, pkt, src, switch):
     # Not sure this is necessary?
     print "%f %s switch up %s"%(self.ctx.now, self.name, switch.name)
-    should_ask = (switch not in self._nodes)
     self._nodes.add(switch)
     if isinstance(switch, HostTrait):
       self.hosts.add(switch)

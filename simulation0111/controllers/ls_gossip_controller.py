@@ -6,7 +6,6 @@ class LSGossipControl (LSController):
     self._hosts = set()
     self._nodes = set()
     self._controllers = set([self.name])
-    self.announcements = set()
     self.update_messages = {}
     self.reason = None
     self.GetSwitchInformation()
@@ -44,7 +43,6 @@ class LSGossipControl (LSController):
   
   def NotifySwitchUp (self, pkt, src, switch):
     #print "%f %s SUP updating controllers are %s"%(self.ctx.now, self.name, self._controllers)
-    self.announcements.add((pkt.id, ControlPacket.NotifySwitchUp, src, switch))
     # Not sure this is necessary?
     if isinstance(switch, HostTrait) and switch not in self._hosts:
       self._hosts.add(switch)
@@ -64,7 +62,6 @@ class LSGossipControl (LSController):
     components_before = nx.connected_components(self.graph)
     self.addLink(link)
     components_after = nx.connected_components(self.graph)
-    self.announcements.add((pkt.id, ControlPacket.NotifyLinkUp, src, switch, link))
     assert(switch.name in self.graph)
     self._nodes.add(switch)
     if isinstance(switch, HostTrait):
@@ -83,7 +80,6 @@ class LSGossipControl (LSController):
     self.link_version[link] = version
     self.reason = "NotifyLinkDown"
     self.removeLink(link)
-    self.announcements.add((pkt.id, ControlPacket.NotifyLinkDown, src, switch, link))
     assert(switch.name in self.graph)
     self._nodes.add(switch)
     if isinstance(switch, HostTrait):

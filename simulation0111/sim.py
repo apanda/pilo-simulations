@@ -94,6 +94,7 @@ class Simulation (object):
     self.ctx.schedule_task(time, lambda: self.Send(host, src, dest))
 
   def computeAndInstallPaths (self):
+    # Install paths for switches
     paths = nx.shortest_paths.all_pairs_shortest_path(self.graph)
     for (ha, hb) in permutations(self.host_names, 2):
       if hb in paths[ha]:
@@ -104,6 +105,21 @@ class Simulation (object):
         for p in xrange(len(path) - 1):
           link = self.link_objs["%s-%s"%(path[p], path[p+1])]
           self.objs[path[p]].rules.update([(pkt.pack(), link)])
+    # Notify controllers of all switches.
+    for c in self.controller_names:
+      c = self.objs[c]
+      for n in self.objs.itervalues():
+        # This only works for ls based controllers. 
+        c.NotifySwitchUp(None, None, n) 
+    # Bootstrap controllers with all the information they should have from switches
+    switch_information_packets = {}
+    for s in self.switch_names:
+      s = self.objs[s]
+      switch_information_packets[s] = map(lambda l: (l.version, l), list(s.links))
+    for c in self.controller_names:
+      c = self.objs[c]
+      for (s, vl) in switch_information_packets.iteritems():
+        c.NotifySwitchInformation(None, None, s, vl)
   
   def allUsedLinks (self):
     # Compute the set of all links currently in use.
