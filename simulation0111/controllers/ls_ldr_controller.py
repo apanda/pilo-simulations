@@ -61,7 +61,7 @@ class LSLeaderControl (LSController):
     self.reason = "NotifySwitchUp"
     self.reason = None
 
-  def NotifyLinkUp (self, pkt, version, src, switch, link):
+  def NotifyLinkUp (self, pkt, src, version, switch, link):
     if self.link_version.get(link, 0) >= version:
       return # Skip since we already saw this
     self.link_version[link] = version
@@ -79,7 +79,7 @@ class LSLeaderControl (LSController):
       self.GetSwitchInformation()
     self.reason = None
 
-  def NotifyLinkDown (self, pkt, version, src, switch, link):
+  def NotifyLinkDown (self, pkt, src, version, switch, link):
     if self.link_version.get(link, 0) >= version:
       return # Skip since we already saw this
     self.link_version[link] = version
@@ -87,7 +87,7 @@ class LSLeaderControl (LSController):
     self.removeLink(link)
     assert(switch.name in self.graph)
     if isinstance(switch, HostTrait):
-      self.hosts.append(switch)
+      self.hosts.add(switch)
     self.reason = "NotifyLinkDown"
     if isinstance(switch, ControllerTrait):
       self.controllers.add(switch.name)

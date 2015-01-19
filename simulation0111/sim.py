@@ -33,6 +33,7 @@ class Simulation (object):
     self.controller_names = []
     self.check_always = True
     self.latency_check = False
+    self.policy = None
 
   def Clear (self):
     self.objs = {}
@@ -141,6 +142,54 @@ class Simulation (object):
 
   def scheduleOracleCompute (self, time):
     self.ctx.schedule_task(time, self.computeAndInstallPaths)
+
+  def countPacketsPerLink (self):
+    total_control_packets = {}
+    d = {1: "ForwardPacket",
+         2: "UpdateRules",
+         3: "NotifySwitchUp",
+         4: "NotifyLinkDown",
+         5: "NotifyLinkUp",
+         6: "PacketIn",
+         7: "GetSwitchInformation",
+         8: "SwitchInformation",
+         9: "SetSwitchLeader",
+         10: "AckSetSwitchLeader",
+         11: "RequestRelinquishLeadership",
+         12: "AckRelinquishLeadership",
+         "ALL": "AllCtrlId",
+         13: "UpdateWaypointRules",
+         14: "Propose",
+         15: "Accept",
+         16: "Decide",
+         17: "ProposeReply",
+         18: "AcceptReply",
+         19: "PaxosMaxSeq",
+         20: "NackUpdateRules",
+         21: "ControlAck"
+       }
+
+    print "CountPacketsPerLink start"
+    for name, l in self.link_objs.iteritems():
+      if isinstance(l, BandwidthLink):
+        s = 0
+        for mtype, count in l.control_packets.iteritems():
+          if d[mtype] not in total_control_packets:
+            total_control_packets[d[mtype]] = 0
+          total_control_packets[d[mtype]] += count
+          s += count
+        print name, l, l.control_packets, "total:", s
+
+    if len(total_control_packets) > 0:
+      print "Total control packets over all links: ", total_control_packets
+
+    for name, l in self.link_objs.iteritems():
+      if isinstance(l, BandwidthLink):
+        print name, l, "data packets:", l.other_packets
+
+    print "CountPacketsPerLink finish"
+
+    self.ctx.schedule_task(1000, self.countPacketsPerLink)
   
   def checkAllPaths (self):
     """For now this assumes singly homed hosts"""
@@ -218,7 +267,7 @@ class Simulation (object):
       else: 
         print "%f %s converged"%(self.ctx.now, ctrl.name)
     # switches should also be consistent with each other and the controllers
-    if converged:
+    if converged and self.policy is None:
       c = self.objs[self.controller_names[0]]
       rules = {}
       for s in self.switch_names:
@@ -242,6 +291,9 @@ class Simulation (object):
           print self.ctx.now, s, len(rules), len(sw.rules)
           converged = False
           break
+    elif converged and self.policy['name'] == "load_balancing":
+      c = self.objs[self.controller_names[0]]
+      correct_rules = c.ComputePaths()
 
     if converged:
       if converge_time == -1:
@@ -254,7 +306,7 @@ class Simulation (object):
 
   def Setup (self, simulation_setup, trace, 
              retry_send = False, 
-             converge_time = False, 
+             converge_time = True, 
              count_ctrl_packet = False, 
              count_packets = -1):
     self.ctx = Context()
@@ -269,14 +321,38 @@ class Simulation (object):
     del setup["runfile"]
     links = setup['links']
     del setup['links']
+    policy = {}
+    if 'policy' in setup:
+      policy["name"] = setup['policy']['name']
+      policy["args"] = setup['policy']['args']
+      del setup['policy']
     if 'fail_links' in setup:
       del setup['fail_links']
     if 'crit_links' in setup:
       del setup['crit_links']
     self.objs = {}
+    controller_temp = []
     for s, d in setup.iteritems():
-      self.objs[s] = eval(d['type'])(s, self.ctx, **d['args']) if 'args' in d \
+      # hard-coded madness
+      if 'name' in policy and policy['name'] == "load_balancing":
+          if d['type'] == "LSGossipControl" or d['type'] == "HBControl" \
+             or d['type'] == "LSLeaderControl" or d['type'] == "LSPaxosOracleControl" \
+             or d['type'] == "CoordinatingOracleControl":
+            controller_class = LBControllerClass(eval(d['type']))
+            self.objs[s] = controller_class(s, self.ctx, **d['args']) if 'args' in d \
+                           else controller_class(s, self.ctx)
+            controller_temp.append(self.objs[s])
+          elif d['type'] == "LinkStateSwitch" or d['type'] == "LS2PCSwitch":
+            switch_class = LBSwitchClass(eval(d['type']))
+            self.objs[s] = switch_class(s, self.ctx, **d['args']) if 'args' in d \
+                           else switch_class(s, self.ctx)
+          else:
+            self.objs[s] = eval(d['type'])(s, self.ctx, **d['args']) if 'args' in d \
+                           else eval(d['type'])(s, self.ctx)
+      else:
+        self.objs[s] = eval(d['type'])(s, self.ctx, **d['args']) if 'args' in d \
                        else eval(d['type'])(s, self.ctx)
+
       self.graph.add_node(s)
       if isinstance(self.objs[s], ControllerTrait):
         self.controller_names.append(s)
@@ -293,6 +369,41 @@ class Simulation (object):
         if retry_send:
           self.objs[s].drop_callback = self.DropCallback
         self.objs[s].rule_change_notification = self.RuleChangeNotification
+
+    if 'name' in policy and policy['name'] == "load_balancing":
+      lb_rules = []
+      for source_host, dest_host in policy['args'].iteritems():
+        s_addr, d_addr = None, None
+        for n, obj in self.objs.iteritems():
+          if obj.name == source_host:
+            s_addr = obj.address
+          if obj.name == dest_host:
+            d_addr = obj.address
+
+          for l in links:
+            p = l.split('-')
+            if p[0] == source_host or p[1] == source_host:
+              encap_switch = p[1] if p[0] == source_host else p[0]
+              self.objs[encap_switch].role = LoadBalancingSwitch.ENCAP
+            elif p[0] == dest_host or p[1] == dest_host:
+              decap_switch = p[1] if p[0] == dest_host else p[0]
+              self.objs[decap_switch].role = LoadBalancingSwitch.DECAP
+
+        if s_addr is not None and d_addr is not None:
+          lb_rules.append({})
+          d = lb_rules[-1]
+          d["source"] = s_addr
+          d["dest"] = d_addr
+          d["encap"] = encap_switch
+          self.objs[encap_switch].lb_rules.add(s_addr)
+          d["decap"] = decap_switch
+          self.objs[decap_switch].lb_rules.add(d_addr)
+
+      # installs policy in controllers
+      for c in controller_temp:
+        c.AddLBRules(lb_rules)
+      self.policy = policy
+
     self.link_objs = {}
     for l in links:
       p = l.split('-')
@@ -301,6 +412,9 @@ class Simulation (object):
       else:
         self.link_objs[l] = Link(self.ctx, self.objs[p[0]], self.objs[p[1]])
       self.link_objs['%s-%s'%(p[1], p[0])] = self.link_objs[l]
+
+    if count_packets > -1:
+      self.ctx.schedule_task(1000, self.countPacketsPerLink)
     first_link_event = None
     last_link_event = None
     for ev in trace:
@@ -383,40 +497,3 @@ class Simulation (object):
                 reachable, \
                 perc, \
                 components)
-
-    total_control_packets = {}
-    d = {1: "ForwardPacket",
-         2: "UpdateRules",
-         3: "NotifySwitchUp",
-         4: "NotifyLinkDown",
-         5: "NotifyLinkUp",
-         6: "PacketIn",
-         7: "GetSwitchInformation",
-         8: "SwitchInformation",
-         9: "SetSwitchLeader",
-         10: "AckSetSwitchLeader",
-         11: "RequestRelinquishLeadership",
-         12: "AckRelinquishLeadership",
-         "ALL": "AllCtrlId",
-         13: "UpdateWaypointRules",
-         14: "Propose",
-         15: "Accept",
-         16: "Decide",
-         17: "ProposeReply",
-         18: "AcceptReply",
-         19: "PaxosMaxSeq",
-         20: "NackUpdateRules",
-         21: "ControlAck"
-       }
-    for name, l in self.link_objs.iteritems():
-      if isinstance(l, BandwidthLink):
-        s = 0
-        for mtype, count in l.control_packets.iteritems():
-          if d[mtype] not in total_control_packets:
-            total_control_packets[d[mtype]] = 0
-          total_control_packets[d[mtype]] += count
-          s += count
-        print name, l, l.control_packets, "total:", s
-
-    if len(total_control_packets) > 0:
-      print "Total control packets over all links: ", total_control_packets

@@ -10,12 +10,13 @@ __all__ = ["LSLeaderControl", \
            "CoordinationOracle", \
            "Oracle2PC", \
            "Controller2PC", \
-           "ControllerLag2PC"]
+           "ControllerLag2PC", \
+           "LBControllerClass"]
 from ls_ldr_controller import LSLeaderControl
 from hb_ldr_controller import HBControl
 from ls_2pc_controller import CoordinatingControl
 from ls_gossip_controller import LSGossipControl
-from waypoint_controller import WpControlClass
+from waypoint_controller import WpControlClass, LBControllerClass
 from paxos_controller import PaxosInst, PaxosController
 from paxos_oracle import PaxosOracle
 from paxos_oracle_controller import LSPaxosOracleControl

@@ -111,3 +111,11 @@ class HeartbeatPacket (FloodPacket):
   def pack (self):
     return struct.pack("s", \
              self.src)
+
+class EncapSourceDestPacket (SourceDestinationPacket):
+  def __init__(self, tunnel_id, pkt):
+    super(EncapSourceDestPacket, self).__init__(pkt.source, pkt.destination)
+    self.tunnel_id = tunnel_id
+    self.pkt = pkt
+  def pack (self):
+    return super(EncapSourceDestPacket, self).pack() + struct.pack("h", self.tunnel_id)

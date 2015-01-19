@@ -11,7 +11,7 @@ class Link (object):
     self.b = ep2
     self.up = False
     self.first_up = True
-    self.version = 0 # Add a version number to link events, so that we can get commutativity or whatever else.
+    self.version = 1 # Add a version number to link events, so that we can get commutativity or whatever else.
   def __repr__ (self):
     return "%s-%s"%(self.a, self.b)
   def SetUp (self):
