@@ -262,10 +262,11 @@ class Simulation (object):
         node_diff = set(cgraph.nodes()) - set(self.graph.nodes())
         self.graph.add_nodes_from(list(node_diff))
         diff = nx.difference(self.graph, cgraph)
-        print "%f %s not converged %s"%(self.ctx.now, ctrl.name, diff.edges())
+        #print "%f %s not converged %s"%(self.ctx.now, ctrl.name, diff.edges())
         #break
       else: 
-        print "%f %s converged"%(self.ctx.now, ctrl.name)
+        pass
+        #print "%f %s converged"%(self.ctx.now, ctrl.name)
     # switches should also be consistent with each other and the controllers
     if converged and self.policy is None:
       c = self.objs[self.controller_names[0]]
@@ -294,6 +295,17 @@ class Simulation (object):
     elif converged and self.policy['name'] == "load_balancing":
       c = self.objs[self.controller_names[0]]
       correct_rules = c.ComputePaths()
+      for s in correct_rules.keys():
+        sw = self.objs[s]
+        temp_dict = {}
+
+        for (p, l) in correct_rules[s]:
+          temp_dict[p] = l
+
+        if temp_dict != sw.rules:
+          converged = False
+          #print "[not converged] two sets of rules not equal"
+          break
 
     if converged:
       if converge_time == -1:
@@ -372,7 +384,8 @@ class Simulation (object):
 
     if 'name' in policy and policy['name'] == "load_balancing":
       lb_rules = []
-      for source_host, dest_host in policy['args'].iteritems():
+      for key, bw in policy['args'].iteritems():
+        (source_host, dest_host) = key.split('-')
         s_addr, d_addr = None, None
         for n, obj in self.objs.iteritems():
           if obj.name == source_host:
@@ -394,10 +407,13 @@ class Simulation (object):
           d = lb_rules[-1]
           d["source"] = s_addr
           d["dest"] = d_addr
+          d["sname"] = source_host
+          d["dname"] = dest_host
           d["encap"] = encap_switch
           self.objs[encap_switch].lb_rules.add(s_addr)
           d["decap"] = decap_switch
           self.objs[decap_switch].lb_rules.add(d_addr)
+          d["bw"] = bw
 
       # installs policy in controllers
       for c in controller_temp:

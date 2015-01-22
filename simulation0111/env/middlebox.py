@@ -72,13 +72,27 @@ class LoadBalancingSwitch(object):
       return self.receiveSD(link, source, packet)
     return packet
 
+  def weighted_choice(self, choices):
+    total = sum(choices)
+    r = random.uniform(0, total)
+    upto = 0
+    for idx in range(len(choices)):
+      w = choices[idx]
+      if upto + w > r:
+        return idx
+      upto += w
+    assert False, "Shouldn't get here"
+
   def receiveSD(self, link, source, packet):
     if self.role == LoadBalancingSwitch.ENCAP:
-      if packet.source in self.lb_rules:
-        # split into two tunnels
-        tunnel_id = random.randrange(0, 2, 1)
-        pkt = EncapSourceDestPacket(tunnel_id, packet)
-        return pkt
+      tunnel_id = 0
+      test_pkt = EncapSourceDestPacket(tunnel_id, packet)
+      if test_pkt.info() in self.rules:
+        # need to forward this packet based on the rules
+        tunnel_id = self.weighted_choice(self.rules[test_pkt.info()])
+        ret_pkt = EncapSourceDestPacket(tunnel_id+1, packet)
+        print self, "forwarding", self.rules[test_pkt.info()]
+        return ret_pkt
       else:
         return packet
 

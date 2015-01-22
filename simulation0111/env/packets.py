@@ -119,3 +119,5 @@ class EncapSourceDestPacket (SourceDestinationPacket):
     self.pkt = pkt
   def pack (self):
     return super(EncapSourceDestPacket, self).pack() + struct.pack("h", self.tunnel_id)
+  def info (self):
+    return super(EncapSourceDestPacket, self).pack() + "info"
