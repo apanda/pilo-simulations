@@ -42,9 +42,6 @@ class LinkStateSwitch (Switch):
   def NotifyUp (self, link, first_up, version):
     super(LinkStateSwitch, self).NotifyUp(link, first_up, version)
 
-  def processControlMessage (self, link, source, packet):
-    return super(LinkStateSwitch, self).processControlMessage(link, source, packet)
-
 class LSLeaderSwitch (LinkStateSwitch):
   """A switch which builds on the leader switch from above by adding a Layer B that
      is responsible for figuring out the current leader, and only allows changes 

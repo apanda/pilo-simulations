@@ -8,12 +8,15 @@ class Host (Switch, HostTrait):
     self.send_callback = None
     self.recv_callback = None
 
-  def receive (self, link, source, packet):
+  def receive (self, packet):
     if isinstance(packet, SourceDestinationPacket):
       if self.recv_callback:
         self.recv_callback(self, packet)
     elif isinstance(packet, ControlPacket):
-      self.processControlMessage (link, source, packet)
+      self.processControlMessage (packet)
+
+  def phy_receive (self, link, source, packet):
+    self.recv(packet)
 
   def Send (self, packet):
     if isinstance(packet, SourceDestinationPacket) and self.send_callback:

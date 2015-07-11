@@ -1,0 +1,24 @@
+data_link_latency:
+    distro: normal
+    mean: 55.0
+    stdev: 10.0
+control_link_latency:
+    distro: normal
+    mean: 2.0
+    stdev: 10.0
+switch_processing_latency:
+    distro: normal
+    mean: 40.0
+    stdev: 10.0
+detection_delay:
+    distro: constant
+    mean: 5.0
+    stdev: 10.0
+update_delay:
+    distro: constant
+    mean: 5.0
+    stdev: 10.0
+control_processing_latency:
+   distro: exponential
+   shape: 20.0
+controller_naggle_time: 0.0

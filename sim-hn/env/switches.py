@@ -1,4 +1,4 @@
-from . import Context, FloodPacket, Link, ControlPacket, ControllerTrait
+from . import Context, FloodPacket, Link, ControlPacket, ControllerTrait, ConnectionManager
 class Switch (object):
   """A simple match based switch, with no layer A functionality."""
   RETRY_INTERVAL = 100
@@ -21,12 +21,16 @@ class Switch (object):
       ControlPacket.ForwardPacket: self.forwardPacket,
       ControlPacket.ControlAck: self.ackControl
     }
+    self.conn_man = ConnectionManager(self)
     self.anounceToController()
 
   def __repr__ (self):
     return self.name
 
   def sendToController (self, type, args, controller = None):
+    self.floodToController (type, args, controller)
+
+  def floodToController (self, type, args, controller = None):
     """For now flood and send to all controllers, in some sense
        all controllers need to correctly update their view, etc."""
     if not controller:
@@ -46,7 +50,7 @@ class Switch (object):
     self.ctx.schedule_task(Switch.RETRY_INTERVAL, 
                              lambda: self.retryControlSend(id))
 
-  def sendToControllerReliable (self, type, args, controller = None):
+  def floodToControllerReliable (self, type, args, controller = None):
     """For now flood and send to all controllers, in some sense
        all controllers need to correctly update their view, etc."""
     if not controller:
@@ -59,7 +63,16 @@ class Switch (object):
     if id in self.unacked_ctrl:
       self.relSend(id, self.unacked_ctrl[id])
 
-  def updateRules (self, source, match_action_pairs):
+  def newControllerRule(self, controller, link):
+    pass
+
+  def updateRules (self, source, dest_action_pairs):
+    print "Updating rules for %s"%(dest_action_pairs)
+    match_action_pairs = []
+    for (r, l) in dest_action_pairs:
+      match_action_pairs.append((r.name, l))
+      if isinstance(r, ControllerTrait):
+        self.newControllerRule(r, l)
     if self.rule_change_notification:
       for (r, l) in match_action_pairs:
         if r not in self.rules or l != self.rules[r]:
@@ -77,8 +90,8 @@ class Switch (object):
     self.Flood(None, p)
 
   def anounceToController (self):
-    #print "%s anouncing to controller switch up"%(self.name)
-    self.sendToControllerReliable(ControlPacket.NotifySwitchUp, [self])
+    # Does not make sense to do this through not flooding.
+    self.floodToControllerReliable(ControlPacket.NotifySwitchUp, [self])
 
   def Flood (self, link, packet):
     for l in self.links:
@@ -87,7 +100,7 @@ class Switch (object):
         (lambda l1: self.ctx.schedule_task(delay, \
                 lambda: l1.Send(self, packet)))(l)
 
-  def processControlMessage (self, link, source, packet):
+  def processControlMessage (self, packet):
     """Process message and decide whether to flood or not"""
     if packet.message_type == ControlPacket.GetSwitchInformation:
       if packet not in self.ctrl_messages:
@@ -101,14 +114,19 @@ class Switch (object):
       return False # Processed, no point in processing again
     return True
 
-  def receive (self, link, source, packet):
+  def receive (self, packet):
+    if isinstance(packet, ControlPacket):
+      print "Received control packet"
+      self.processControlMessage(packet)
+
+  def phy_receive (self, link, source, packet):
     packet.ttl -= 1
     packet.path.append(self.name)
     if packet.ttl == 0:
       #print "%f Dropping due to TTL %s %s"%(self.ctx.now, packet, type(packet))
       return
     if isinstance(packet, ControlPacket):
-      if not self.processControlMessage(link, source, packet):
+      if not self.processControlMessage(packet):
         return # Ensuring no flooding
     if isinstance(packet, FloodPacket):
       if packet not in self.flooded_pkts:
@@ -116,17 +134,21 @@ class Switch (object):
         self.flooded_pkts.add(packet)
         self.Flood (link, packet)
       return
-    match = packet.pack()
+    if isinstance(packet, ConnectionManager) and packet.destination == self.name:
+      self.conn_man.ReceivePacket(packet)
+      return
+    # Switch to destination based rules
+    match = packet.destination
     if match in self.rules:
       delay = self.ctx.config.SwitchLatency
       self.ctx.schedule_task(delay, \
               lambda: self.rules[match].Send(self, packet))
     else:
       self.NotifyDrop (source, packet)
-      self.sendToControllerReliable(ControlPacket.PacketIn, [self, source, packet])
+      self.sendToController(ControlPacket.PacketIn, [self, source, packet])
 
   def Send (self, packet):
-    match = packet.pack()
+    match = packet.destination
     if match in self.rules:
       delay = self.ctx.config.SwitchLatency
       link = self.rules[match]
@@ -146,10 +168,10 @@ class Switch (object):
 
   def NotifyDown (self, link, version):
     self.links.remove(link)
-    self.sendToControllerReliable(ControlPacket.NotifyLinkDown, [version, self, link])
+    self.sendToController(ControlPacket.NotifyLinkDown, [version, self, link])
 
   def NotifyUp (self, link, first_up, version):
     self.links.add(link)
     # Notify if up after failure
-    if not first_up:
-      self.sendToControllerReliable(ControlPacket.NotifyLinkUp, [version, self, link])
+    #if not first_up:
+    self.sendToController(ControlPacket.NotifyLinkUp, [version, self, link])

@@ -11,20 +11,13 @@ __all__ = [ "Singleton", \
             "BandwidthLink", \
             "Switch", \
             "Host", \
-            "LSController", \
             "Controller", \
             "FloodPacket", \
             "ConnectionPacket", \
-            "HBSwitch", \
-            "LSLeaderSwitch", \
-            "LinkStateSwitch", \
-            "LS2PCSwitch", \
-            "LS2PCController", \
-            "HBLeaderSwitch", \
-            "HBController", \
-            "HBHost", \
-            "WaypointSwitchClass", \
-            "WaypointHostClass"]
+            "ConnectionManager", \
+            "Connection", \
+            "ConnectionSwitch", \
+            "LinkStateSwitch"]
 from utils import Singleton
 from context import Context, Config, ControllerTrait, HostTrait
 from packets import MarkedSourceDestPacket, \
@@ -33,12 +26,11 @@ from packets import MarkedSourceDestPacket, \
                     ControlPacket, \
                     HeartbeatPacket, \
                     ConnectionPacket
+from connection import Connection, \
+                       ConnectionManager
 from net import Link, BandwidthLink
 from switches import Switch
 from host import Host
 from controllers import Controller
-from heartbeat_switch import HBSwitch, HBHost, HBController
-from ls_switch import LinkStateSwitch, LSLeaderSwitch, LSController
-from ls_2pc import LS2PCSwitch, LS2PCController
-from heartbeat_ldrswitch import HBLeaderSwitch
-from waypoint import *
+from connection_switch import ConnectionSwitch
+from ls_switch import LinkStateSwitch
