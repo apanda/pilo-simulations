@@ -9,7 +9,7 @@ class LSGossipControl (LSController):
     self._controllers = set([self.name])
     self.update_messages = {}
     self.reason = None
-    self.GetSwitchInformation()
+    #self.GetSwitchInformation()
     self.link_version = {}
     self.switch_tables = defaultdict(lambda: defaultdict(lambda: None))
   

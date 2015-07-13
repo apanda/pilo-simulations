@@ -341,10 +341,17 @@ class Simulation (object):
           else:
             assert(False)
     if no_bootstrap:
+      tables = None
       for ctrl in controllers:
         print "Computing for %s"%ctrl
-        tables = ctrl.ComputeNoInstall().items()
-
+        tables = ctrl.ComputeNoInstall()
+      # Install rules
+      for (s, tbl) in tables.iteritems():
+        sw = self.objs[s]
+        rcn = sw.rule_change_notification
+        sw.rule_change_notification = None
+        sw.updateRules(None, tbl)
+        sw.rule_change_notification = rcn
     # Controller check
     #for ctrl in controllers:
       #assert((not no_bootstrap) or nx.is_isomorphic(self.graph, ctrl.graph))
