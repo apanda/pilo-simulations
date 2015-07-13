@@ -52,6 +52,18 @@ class PaxosOracle (object):
     controller.ctx.schedule_task(latency, \
                     lambda: self.ProposeAndAccept(controller, prop_count, event))
 
+  def InformOracleEventNoCompute (self, controller, event):
+    if event in self.already_proposed:
+      self.proposers[event].add(controller.name)
+    else:
+      self.already_proposed.add(event)
+      self.proposed.append(event)
+      self.proposers[event] = set([controller.name])
+      prop_count = self.proposal_count
+      self.proposal_count += 1
+      self.prop_count[event] = prop_count
+      self.already_accepted.add(event)
+
   def ProposeAndAccept (self, controller, prop_count, event):
     if event in self.already_accepted:
       return

@@ -9,10 +9,16 @@ class LSGossipControl (LSController):
     self._controllers = set([self.name])
     self.update_messages = {}
     self.reason = None
+    self.switch_update_duratiton = ctx.config.controller_switch_info_delay
+    self.ctx.schedule_task(self.switch_update_duratiton, lambda: self.periodic_switch_update())
     #self.GetSwitchInformation()
     self.link_version = {}
     self.switch_tables = defaultdict(lambda: defaultdict(lambda: None))
   
+  def periodic_switch_update (self):
+    self.GetSwitchInformation()
+    self.ctx.schedule_task(self.switch_update_duratiton, lambda: self.periodic_switch_update())
+
   @property
   def hosts (self):
     return self._hosts
@@ -50,8 +56,12 @@ class LSGossipControl (LSController):
 
   def ComputeAndUpdatePaths (self):
     #print "Computing paths now"
+    #print "%f computing paths"%(self.ctx.now)
     updates = self.ComputeNoInstall()
+    #if len(updates) == 0:
+      #print "%f no updates"%self.ctx.now
     for a in updates.iterkeys():
+      #print "%f %s updating %s with len %d"%(self.ctx.now, self.name, a, len(updates[a]))
       #print "Update to %s with len %d"%(a, len(updates[a]))
       self.update_messages[self.reason] = self.update_messages.get(self.reason, 0) + 1
       self.UpdateRules(a, updates[a])
@@ -59,6 +69,9 @@ class LSGossipControl (LSController):
   def Gossip (self):
     pass
   
+  def SwitchUpNoCompute (self, switch):
+    self.NotifySwitchUp(None, None, switch)
+
   def NotifySwitchUp (self, pkt, src, switch):
     #print "%f %s SUP updating controllers are %s"%(self.ctx.now, self.name, self._controllers)
     # Not sure this is necessary?
@@ -83,7 +96,9 @@ class LSGossipControl (LSController):
       self._controllers.add(switch.name)
 
   def NotifyLinkUp (self, pkt, version, src, switch, link):
+    #print "%f %s notify link up %s"%(self.ctx.now, self.name, link)
     if self.link_version.get(link, 0) >= version:
+      #print "%f Skipping because of link version"%self.ctx.now
       return # Skip since we already saw this
 
     components_before = nx.connected_components(self.graph)
@@ -95,6 +110,8 @@ class LSGossipControl (LSController):
 
     components_after = nx.connected_components(self.graph)
     assert(switch.name in self.graph)
+    
+    #print "%f Computing link updates"%self.ctx.now
 
     self.ComputeAndUpdatePaths()
     if components_before != components_after:
@@ -102,7 +119,9 @@ class LSGossipControl (LSController):
     self.reason = None
 
   def NotifyLinkDown (self, pkt, version, src, switch, link):
+    #print "%f %s notify link down %s"%(self.ctx.now, self.name, link)
     if self.link_version.get(link, 0) >= version:
+      #print "%f Skipping because of link version"%self.ctx.now
       return # Skip since we already saw this
     self.link_version[link] = version
     self.reason = "NotifyLinkDown"
@@ -113,6 +132,7 @@ class LSGossipControl (LSController):
       self._hosts.append(switch)
     if isinstance(switch, ControllerTrait) and switch.name not in self._controllers:
       self._controllers.add(switch.name)
+    #print "%f Computing link updates"%self.ctx.now
     self.ComputeAndUpdatePaths()
     self.reason = None
 

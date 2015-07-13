@@ -19,56 +19,56 @@ def TransformTrace (links, fail_links, mttf, mttr, stable, end_time, bootstrap):
   down_links = set()
   set_up_at = defaultdict(list)
 
-  #while ctime < end_time: 
-    #ctime = ctime + mttf * random.ranf()
-    #set_up = list()
-    #for t in sorted(set_up_at.keys()):
-      #if t < ctime:
-        #for l in set_up_at[t]:
-          #new_trace.append("%f %s up"%(t, l))
-          #set_up.append(l)
-        #del(set_up_at[t])
+  while ctime < end_time: 
+    ctime = ctime + mttf * random.ranf()
+    set_up = list()
+    for t in sorted(set_up_at.keys()):
+      if t < ctime:
+        for l in set_up_at[t]:
+          new_trace.append("%f %s up"%(t, l))
+          set_up.append(l)
+        del(set_up_at[t])
 
-    #to_fail = None
-    #failable_links = set(fail_links) - set(down_links)
+    to_fail = None
+    failable_links = set(fail_links) - set(down_links)
 
-    #try:
-      #if len(failable_links) == 0:
-        ## Nothing to fail
-        #min_time = sorted(set_up_at.keys())[0]
-        #ctime = min_time 
-      #else: 
-        #to_fail = random.choice(list(failable_links))
-        #if to_fail in down_links:
-          #continue
-        #if to_fail not in up_links:
-          #parts = to_fail.split('-')
-          #to_fail = "%s-%s"%(parts[1], parts[0])
-        #if to_fail in down_links:
-          #continue
-        #up_links.remove(to_fail)
-        #down_links.add(to_fail)
-        #new_trace.append("%f %s down"%(ctime, to_fail))
-        #recovery_time = random.exponential(mttr)
-        #assert(recovery_time) > 0
-        #set_up_at[ctime + recovery_time].append(to_fail)
-    #except:
-      #print to_fail
-      #print up_links
-      #print down_links
-      #raise
+    try:
+      if len(failable_links) == 0:
+        # Nothing to fail
+        min_time = sorted(set_up_at.keys())[0]
+        ctime = min_time 
+      else: 
+        to_fail = random.choice(list(failable_links))
+        if to_fail in down_links:
+          continue
+        if to_fail not in up_links:
+          parts = to_fail.split('-')
+          to_fail = "%s-%s"%(parts[1], parts[0])
+        if to_fail in down_links:
+          continue
+        up_links.remove(to_fail)
+        down_links.add(to_fail)
+        new_trace.append("%f %s down"%(ctime, to_fail))
+        recovery_time = random.exponential(mttr)
+        assert(recovery_time) > 0
+        set_up_at[ctime + recovery_time].append(to_fail)
+    except:
+      print to_fail
+      print up_links
+      print down_links
+      raise
 
     #for l in set_up:
       #new_trace.append("%f %s up"%(t, l))
       #up_links.add(l)
       #down_links.remove(l)
 
-  #for t in sorted(set_up_at.keys()):
-    #for l in set_up_at[t]:
-      #new_trace.append("%f %s up"%(t, l))
-      #up_links.add(l)
-      #down_links.remove(l)
-    #ctime = t
+  for t in sorted(set_up_at.keys()):
+    for l in set_up_at[t]:
+      new_trace.append("%f %s up"%(t, l))
+      up_links.add(l)
+      down_links.remove(l)
+    ctime = t
 
   # Otherwise end instantly
   new_trace.append("%f end"%end_time)

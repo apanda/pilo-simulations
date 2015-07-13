@@ -117,6 +117,11 @@ class Config (object):
     else:
       # Turn it off by default
       self.controller_nagle_time = 0.0
+
+    if 'controller_switch_info_delay' in configs:
+      self.controller_switch_info_delay = float(configs['controller_switch_info_delay'])
+    else:
+      self.controller_switch_info_delay = 60.0
   @property
   def ControlLatency(self):
     return self.control_dist.next

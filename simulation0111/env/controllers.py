@@ -31,6 +31,7 @@ class Controller (Host, ControllerTrait):
     self.cpkt_id += 1
     self.sendControlPacket(cpacket)
   def UpdateRules (self, switch, pairs):
+    print "%f sending update message with type %d and len %d"%(self.ctx.now, ControlPacket.UpdateRules, len(pairs))
     cpacket = ControlPacket(self.cpkt_id, self.name, switch, ControlPacket.UpdateRules, [pairs]) 
     self.cpkt_id += 1
     self.sendControlPacket(cpacket)

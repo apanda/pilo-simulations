@@ -40,6 +40,15 @@ class CoordinationOracle (object):
     controller.ctx.schedule_task(latency, \
                     lambda: self.ProposeAndAccept(controller, prop_count, event))
 
+  def InformOracleEventNoCompute (self, controller, event):
+    if event in self.already_proposed:
+      self.proposers[event].add(controller.name)
+    else:
+      self.already_proposed.add(event)
+      self.proposed.append(event)
+      self.proposers[event] = set([controller.name])
+      self.prop_count[event] = prop_count
+
   def ProposeAndAccept (self, controller, prop_count, event):
     # Someone already proposed this, just record that a new proposer has shown up
     if event in self.already_proposed:

@@ -162,7 +162,6 @@ class Simulation (object):
     """For now this assumes singly homed hosts"""
     if self.ctx.now <= 0.0:
       return
-    print "%f checking path"%(self.ctx.now)
     if len(self.count_ctrl_packets) > 0:
       print self.ctx.now, self.count_ctrl_packets
     tried = 0
@@ -209,7 +208,7 @@ class Simulation (object):
       length += 1
     if tried > 0:
       self.reachability_at_time[self.ctx.now] = (tried, connected, length)
-    print "%f checking path %d %d %d"%(self.ctx.now, tried, connected, length)
+    print "%f checking path %d %d"%(self.ctx.now, tried, connected)
 
   def RuleChangeNotification (self, name): 
     self.rule_changes.append((self.ctx.now, name))
@@ -315,9 +314,10 @@ class Simulation (object):
         self.objs[s].rule_change_notification = self.RuleChangeNotification
     self.link_objs = {}
     if no_bootstrap:
+      print "Informing controller of nodes"
       for node in self.objs.itervalues():
         for ctrl in controllers:
-          ctrl.NotifySwitchUp(None, None, node)
+          ctrl.SwitchUpNoCompute(node)
     for l in links:
       p = l.split('-')
       if count_packets > -1:
@@ -334,6 +334,7 @@ class Simulation (object):
         self.objs[p[1]].NotifyUp(self.link_objs[l], True, 0)
         # This is only really safe for link state switches and controllers
         for ctrl in controllers:
+          print "%s being informed of %s"%(ctrl, self.link_objs[l])
           if p[0] in self.switch_names:
             ctrl.LinkUpNoCompute(0, self.objs[p[0]], self.link_objs[l])
           elif p[1] in self.switch_names:
