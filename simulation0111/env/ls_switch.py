@@ -33,10 +33,12 @@ class LinkStateSwitch (Switch):
       self.controllers.add(link.b.name)
 
   def updateRules (self, source, match_action_pairs):
+      print "%f received rule update %s"%(self.ctx.now, self.name)
       super(LinkStateSwitch, self).updateRules(source, match_action_pairs)
 
 
   def NotifyDown (self, link, version):
+    print "%f %s notifying down for %s"%(self.ctx.now, self.name, str(link))
     super(LinkStateSwitch, self).NotifyDown(link, version)
 
   def NotifyUp (self, link, first_up, version):

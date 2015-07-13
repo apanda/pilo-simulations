@@ -208,7 +208,7 @@ class Simulation (object):
       length += 1
     if tried > 0:
       self.reachability_at_time[self.ctx.now] = (tried, connected, length)
-    print "%f checking path %d %d"%(self.ctx.now, tried, connected)
+    #print "%f checking path %d %d"%(self.ctx.now, tried, connected)
 
   def RuleChangeNotification (self, name): 
     self.rule_changes.append((self.ctx.now, name))
@@ -279,6 +279,7 @@ class Simulation (object):
     controllers = []
     setup = yaml.load(simulation_setup)
     other_includes = setup['runfile']
+    paths_thru_link = {}
     other = __import__ (other_includes)
     for l in dir(other):
       if not l.startswith('__'):
@@ -352,11 +353,9 @@ class Simulation (object):
         rcn = sw.rule_change_notification
         sw.rule_change_notification = None
         sw.updateRules(None, tbl)
+        for (match, link) in tbl:
+          paths_thru_link[link] = paths_thru_link.get(link, 0) + 1
         sw.rule_change_notification = rcn
-    # Controller check
-    #for ctrl in controllers:
-      #assert((not no_bootstrap) or nx.is_isomorphic(self.graph, ctrl.graph))
-
     first_link_event = None
     last_link_event = None
     for ev in trace:
@@ -397,6 +396,7 @@ class Simulation (object):
     if converge_time:
       print "Scheduling converge time at ", last_link_event
       self.ctx.schedule_task(last_link_event, lambda: self.calcConvergeTime(first_link_event, last_link_event, -1))
+    return paths_thru_link
 
   def Run (self):
     if self.check_always:

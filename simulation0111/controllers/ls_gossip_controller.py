@@ -62,8 +62,8 @@ class LSGossipControl (LSController):
     #if len(updates) == 0:
       #print "%f no updates"%self.ctx.now
     for a in updates.iterkeys():
-      #print "%f %s updating %s with len %d"%(self.ctx.now, self.name, a, len(updates[a]))
-      #print "Update to %s with len %d"%(a, len(updates[a]))
+      print "%f %s updating %s with len %d"%(self.ctx.now, self.name, a, len(updates[a]))
+      print "       Update to %s with len %d"%(a, len(updates[a]))
       self.update_messages[self.reason] = self.update_messages.get(self.reason, 0) + 1
       self.UpdateRules(a, updates[a])
   
@@ -120,9 +120,9 @@ class LSGossipControl (LSController):
     self.reason = None
 
   def NotifyLinkDown (self, pkt, version, src, switch, link):
-    #print "%f %s notify link down %s"%(self.ctx.now, self.name, link)
+    print "%f %s notify link down %s"%(self.ctx.now, self.name, link)
     if self.link_version.get(link, 0) >= version:
-      #print "%f Skipping because of link version"%self.ctx.now
+      print "%f Skipping because of link version"%self.ctx.now
       return # Skip since we already saw this
     self.link_version[link] = version
     self.reason = "NotifyLinkDown"
@@ -133,7 +133,7 @@ class LSGossipControl (LSController):
       self._hosts.append(switch)
     if isinstance(switch, ControllerTrait) and switch.name not in self._controllers:
       self._controllers.add(switch.name)
-    #print "%f Computing link updates"%self.ctx.now
+    print "%f Computing link updates"%self.ctx.now
     self.ComputeAndUpdatePaths()
     self.reason = None
 

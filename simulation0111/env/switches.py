@@ -149,6 +149,7 @@ class Switch (object):
 
   def NotifyDown (self, link, version):
     self.links.remove(link)
+    print "%f %s notifying down for %s reliably"%(self.ctx.now, self.name, str(link))
     self.sendToControllerReliable(ControlPacket.NotifyLinkDown, [version, self, link])
 
   def NotifyUp (self, link, first_up, version):
