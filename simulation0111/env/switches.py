@@ -77,7 +77,7 @@ class Switch (object):
     p.size += (3 * 32 * len(self.links))
     self.cpkt_id += 1
     self.Flood(None, p)
-    print "%f switch information for %s %d"%(self.ctx.now, self.name, p.size)
+    #print "%f switch information for %s %d"%(self.ctx.now, self.name, p.size)
 
   def anounceToController (self):
     #print "%s anouncing to controller switch up"%(self.name)
