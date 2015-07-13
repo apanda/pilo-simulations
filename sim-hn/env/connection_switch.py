@@ -13,8 +13,6 @@ class ConnectionSwitch(Switch):
     print "New controller connection"
 
   def sendToController (self , type, args, controller = None):
-    print "CS send to switch called"
-    traceback.print_stack()
     if not controller:
       controller = ControlPacket.AllCtrlId
     # Mark this packet as not currently flooding.

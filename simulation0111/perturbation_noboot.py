@@ -10,10 +10,10 @@ import yaml
 def TransformTrace (links, fail_links, mttf, mttr, stable, end_time, bootstrap):
   new_trace = []
   ctime = 0.0
-  for link in links:
-    new_trace.append("%f %s up"%(ctime, link))
+  #for link in links:
+    #new_trace.append("%f %s up"%(ctime, link))
   if bootstrap:
-    new_trace.append("1.0 compute_and_update") 
+    new_trace.append("0.0 compute_and_update") 
   ctime += stable
   up_links = set(links)
   down_links = set()
@@ -115,7 +115,7 @@ def Main (args):
       for t in new_trace:
         print t
       print "TRACE TRACE TRACE"
-      sim.Setup(topo, new_trace, False, count_ctrl_packet=True, count_packets=1)
+      sim.Setup(topo, new_trace, False, count_ctrl_packet=True, count_packets=1, no_bootstrap = True)
       for time in np.arange(stable, end_time, sampling_rate):
         sim.scheduleCheck(time)
       ## Measure latency less often

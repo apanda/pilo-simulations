@@ -45,11 +45,12 @@ class Controller (Host, ControllerTrait):
     self.cpkt_id += 1
     self.sendControlPacket(cpacket)
   def NotifySwitchUp (self, source, switch):
+    #print "%d Notified switch up"%self.ctx.now
     raise NotImplementedError
   def NotifyLinkDown (self, version, source, switch, link):
     raise NotImplementedError
   def NotifyLinkUp (self, version, source, switch, link):
-    print "Notifying link up"
+    #print "%d Link up"%self.ctx.now
     raise NotImplementedError
   def NotifySwitchInformation (self, source, switch, links):
     raise NotImplementedError

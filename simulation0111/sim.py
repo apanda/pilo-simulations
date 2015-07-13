@@ -204,11 +204,12 @@ class Simulation (object):
         else:
           #print "%f %s %s not connected at %s, path %s"%(self.ctx.now, ha.name, hb.name, current.name, visited)
           pass
+    length = 0
+    for g in nx.connected_components(self.graph):
+      length += 1
     if tried > 0:
-      length = 0
-      for g in nx.connected_components(self.graph):
-        length += 1
       self.reachability_at_time[self.ctx.now] = (tried, connected, length)
+    print "%f checking path %d %d %d"%(self.ctx.now, tried, connected, length)
 
   def RuleChangeNotification (self, name): 
     self.rule_changes.append((self.ctx.now, name))
@@ -272,9 +273,11 @@ class Simulation (object):
              retry_send = False, 
              converge_time = False, 
              count_ctrl_packet = False, 
-             count_packets = -1):
+             count_packets = -1,
+             no_bootstrap = False):
     self.ctx = Context()
 
+    controllers = []
     setup = yaml.load(simulation_setup)
     other_includes = setup['runfile']
     other = __import__ (other_includes)
@@ -295,6 +298,7 @@ class Simulation (object):
                        else eval(d['type'])(s, self.ctx)
       self.graph.add_node(s)
       if isinstance(self.objs[s], ControllerTrait):
+        controllers.append(self.objs[s])
         self.controller_names.append(s)
         if count_ctrl_packet:
           self.objs[s].ctrl_callback = self.CountCtrlCallback
@@ -310,13 +314,41 @@ class Simulation (object):
           self.objs[s].drop_callback = self.DropCallback
         self.objs[s].rule_change_notification = self.RuleChangeNotification
     self.link_objs = {}
+    if no_bootstrap:
+      for node in self.objs.itervalues():
+        for ctrl in controllers:
+          ctrl.NotifySwitchUp(None, None, node)
     for l in links:
       p = l.split('-')
       if count_packets > -1:
-        self.link_objs[l] = BandwidthLink(self.ctx, self.objs[p[0]], self.objs[p[1]], count_packets)
+        self.link_objs[l] = BandwidthLink(self.ctx, self.objs[p[0]], self.objs[p[1]], count_packets, \
+            is_up = no_bootstrap)
       else:
-        self.link_objs[l] = Link(self.ctx, self.objs[p[0]], self.objs[p[1]])
+        self.link_objs[l] = Link(self.ctx, self.objs[p[0]], self.objs[p[1]], is_up = no_bootstrap)
       self.link_objs['%s-%s'%(p[1], p[0])] = self.link_objs[l]
+      # No bootstrap means we have this already
+      if no_bootstrap:
+        self.graph.add_edge(p[0], p[1])
+        # As do the switches.
+        self.objs[p[0]].NotifyUp(self.link_objs[l], True, 0) 
+        self.objs[p[1]].NotifyUp(self.link_objs[l], True, 0)
+        # This is only really safe for link state switches and controllers
+        for ctrl in controllers:
+          if p[0] in self.switch_names:
+            ctrl.LinkUpNoCompute(0, self.objs[p[0]], self.link_objs[l])
+          elif p[1] in self.switch_names:
+            ctrl.LinkUpNoCompute(0, self.objs[p[1]], self.link_objs[l])
+          else:
+            assert(False)
+    if no_bootstrap:
+      for ctrl in controllers:
+        print "Computing for %s"%ctrl
+        tables = ctrl.ComputeNoInstall().items()
+
+    # Controller check
+    #for ctrl in controllers:
+      #assert((not no_bootstrap) or nx.is_isomorphic(self.graph, ctrl.graph))
+
     first_link_event = None
     last_link_event = None
     for ev in trace:
@@ -357,6 +389,7 @@ class Simulation (object):
     if converge_time:
       print "Scheduling converge time at ", last_link_event
       self.ctx.schedule_task(last_link_event, lambda: self.calcConvergeTime(first_link_event, last_link_event, -1))
+
   def Run (self):
     if self.check_always:
       self.ctx.post_task_check = self.checkAllPaths

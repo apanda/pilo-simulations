@@ -5,12 +5,12 @@ Network elements, because why not.
 """
 class Link (object):
   """Represents a link, delays packets and calls receive on the other side"""
-  def __init__ (self, ctx, ep1, ep2):
+  def __init__ (self, ctx, ep1, ep2, is_up = False):
     self.ctx = ctx
     self.a = ep1
     self.b = ep2
-    self.up = False
-    self.first_up = True
+    self.up = is_up
+    self.first_up = (not is_up)
     self.version = 0 # Add a version number to link events, so that we can get commutativity or whatever else.
   def __repr__ (self):
     return "%s-%s"%(self.a, self.b)
@@ -51,8 +51,8 @@ class Link (object):
             lambda: deliverInternal(self, source, other, pkt))
 
 class BandwidthLink(Link):
-  def __init__(self, ctx, ep1, ep2, count_start_time):
-    super(BandwidthLink, self).__init__(ctx, ep1, ep2)
+  def __init__(self, ctx, ep1, ep2, count_start_time, is_up = False):
+    super(BandwidthLink, self).__init__(ctx, ep1, ep2, is_up)
     self.control_packets = {}
     self.other_packets = 0
     self.buf = {ep1: [], ep2: []}

@@ -1,4 +1,5 @@
 from . import Context, FloodPacket, Link, ControlPacket, ControllerTrait, ConnectionManager
+import traceback
 class Switch (object):
   """A simple match based switch, with no layer A functionality."""
   RETRY_INTERVAL = 100
@@ -67,7 +68,7 @@ class Switch (object):
     pass
 
   def updateRules (self, source, dest_action_pairs):
-    print "Updating rules for %s"%(dest_action_pairs)
+    print "%d %s Updating rules for %s"%(self.ctx.now, self.name, dest_action_pairs)
     match_action_pairs = []
     for (r, l) in dest_action_pairs:
       match_action_pairs.append((r.name, l))
@@ -91,9 +92,10 @@ class Switch (object):
 
   def anounceToController (self):
     # Does not make sense to do this through not flooding.
-    self.floodToControllerReliable(ControlPacket.NotifySwitchUp, [self])
+    self.floodToController(ControlPacket.NotifySwitchUp, [self])
 
   def Flood (self, link, packet):
+    print "%d %s is flooding %s"%(self.ctx.now, self.name, str(self.links))
     for l in self.links:
       if l is not link: 
         delay = self.ctx.config.SwitchLatency
@@ -102,6 +104,7 @@ class Switch (object):
 
   def processControlMessage (self, packet):
     """Process message and decide whether to flood or not"""
+    print "%d %s processing control message %s %s"%(self.ctx.now, self.name, str(packet), packet.dest_id)
     if packet.message_type == ControlPacket.GetSwitchInformation:
       if packet not in self.ctrl_messages:
         self.ctrl_messages.add(packet)
@@ -120,6 +123,7 @@ class Switch (object):
       self.processControlMessage(packet)
 
   def phy_receive (self, link, source, packet):
+    print "%d %s received %s"%(self.ctx.now, self.name, str(packet))
     packet.ttl -= 1
     packet.path.append(self.name)
     if packet.ttl == 0:

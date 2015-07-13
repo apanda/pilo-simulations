@@ -17,7 +17,8 @@ __all__ = [ "Singleton", \
             "ConnectionManager", \
             "Connection", \
             "ConnectionSwitch", \
-            "LinkStateSwitch"]
+            "LinkStateSwitch", \
+            "ConnectionController"]
 from utils import Singleton
 from context import Context, Config, ControllerTrait, HostTrait
 from packets import MarkedSourceDestPacket, \
@@ -34,3 +35,4 @@ from host import Host
 from controllers import Controller
 from connection_switch import ConnectionSwitch
 from ls_switch import LinkStateSwitch
+from conn_controller import ConnectionController

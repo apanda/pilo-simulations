@@ -21,7 +21,7 @@ class Switch (object):
       ControlPacket.ForwardPacket: self.forwardPacket,
       ControlPacket.ControlAck: self.ackControl
     }
-    self.anounceToController()
+    #self.anounceToController()
 
   def __repr__ (self):
     return self.name

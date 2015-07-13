@@ -1,5 +1,6 @@
 from env import *
 import networkx as nx
+from collections import defaultdict
 class LSGossipControl (LSController):
   def __init__ (self, name, ctx, address):
     super(LSGossipControl, self).__init__(name, ctx, address)
@@ -10,6 +11,7 @@ class LSGossipControl (LSController):
     self.reason = None
     self.GetSwitchInformation()
     self.link_version = {}
+    self.switch_tables = defaultdict(lambda: defaultdict(lambda: None))
   
   @property
   def hosts (self):
@@ -23,20 +25,36 @@ class LSGossipControl (LSController):
       if nx.has_path(self.graph, c, switch):
         return c #Find the first connected controller
 
-  def ComputeAndUpdatePaths (self):
+  def ComputeNoInstall (self):
+    updates = defaultdict(lambda: [])
     sp = nx.shortest_paths.all_pairs_shortest_path(self.graph)
     for host in self._hosts:
       for h2 in self._hosts:
         if h2 == host:
           continue
         if h2.name in sp[host.name]:
+          #print "Found path between %s and %s"%(host.name, h2.name)
           p = SourceDestinationPacket(host.address, h2.address)
           path = zip(sp[host.name][h2.name], \
                     sp[host.name][h2.name][1:])
           for (a, b) in path[1:]:
             link = self.graph[a][b]['link']
-            self.update_messages[self.reason] = self.update_messages.get(self.reason, 0) + 1
-            self.UpdateRules(a, [(p.pack(), link)])
+            if self.switch_tables[a][p.pack()] != link:
+              updates[a].append((p.pack(), link))
+              self.switch_tables[a][p.pack()] = link
+    return updates
+    #for a in updates.iterkeys():
+      ##print "Update to %s with len %d"%(a, len(updates[a]))
+      #self.update_messages[self.reason] = self.update_messages.get(self.reason, 0) + 1
+      #self.UpdateRules(a, updates[a])
+
+  def ComputeAndUpdatePaths (self):
+    #print "Computing paths now"
+    updates = self.ComputeNoInstall()
+    for a in updates.iterkeys():
+      #print "Update to %s with len %d"%(a, len(updates[a]))
+      self.update_messages[self.reason] = self.update_messages.get(self.reason, 0) + 1
+      self.UpdateRules(a, updates[a])
   
   def Gossip (self):
     pass
@@ -54,21 +72,30 @@ class LSGossipControl (LSController):
     self.graph.add_node(switch.name)
     self.reason = None
 
-  def NotifyLinkUp (self, pkt, version, src, switch, link):
-    if self.link_version.get(link, 0) >= version:
-      return # Skip since we already saw this
+  def LinkUpNoCompute (self, version, switch, link):
     self.link_version[link] = version
-    self.reason = "NotifyLinkUp"
-    components_before = nx.connected_components(self.graph)
     self.addLink(link)
-    components_after = nx.connected_components(self.graph)
-    assert(switch.name in self.graph)
+
     self._nodes.add(switch)
     if isinstance(switch, HostTrait):
       self._hosts.add(switch)
     if isinstance(switch, ControllerTrait) and switch.name not in self._controllers:
       self._controllers.add(switch.name)
-      #print "%f %s learnt new controller, controllers are %s"%(self.ctx.now, self.name, self._controllers)
+
+  def NotifyLinkUp (self, pkt, version, src, switch, link):
+    if self.link_version.get(link, 0) >= version:
+      return # Skip since we already saw this
+
+    components_before = nx.connected_components(self.graph)
+
+    self.LinkUpNoCompute(version, switch, link)
+
+    self.reason = "NotifyLinkUp"
+    assert(switch.name in self.graph)
+
+    components_after = nx.connected_components(self.graph)
+    assert(switch.name in self.graph)
+
     self.ComputeAndUpdatePaths()
     if components_before != components_after:
       self.GetSwitchInformation()
