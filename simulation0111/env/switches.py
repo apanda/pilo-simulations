@@ -52,6 +52,7 @@ class Switch (object):
     if not controller:
       controller = ControlPacket.AllCtrlId
     p = ControlPacket(self.cpkt_id, self.name, controller, type, args)
+    p.size += 64
     self.relSend(self.cpkt_id, p)
     self.cpkt_id += 1
 
@@ -73,8 +74,10 @@ class Switch (object):
             ControlPacket.SwitchInformation, \
             [self, \
               map(lambda l: (l.version, l), list(self.links))])
+    p.size += (3 * 32 * len(self.links))
     self.cpkt_id += 1
     self.Flood(None, p)
+    print "%f switch information for %s %d"%(self.ctx.now, self.name, p.size)
 
   def anounceToController (self):
     #print "%s anouncing to controller switch up"%(self.name)

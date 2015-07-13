@@ -113,6 +113,7 @@ class LSController (LinkStateSwitch, ControllerTrait):
             # Send out an acknowledgment for receiving this packet (don't add ACK types to the switchboard, that would be
             # bad
             p = ControlPacket(self.cpkt_id, self.name, packet.src_id, ControlPacket.ControlAck, [packet.id])
+            p.size += 32
             #print p
             #print p.message_type
             self.sendControlPacket(p)
@@ -127,11 +128,13 @@ class LSController (LinkStateSwitch, ControllerTrait):
 
   def ForwardPacket (self, switch, link, packet):
     cpacket = ControlPacket(self.cpkt_id, self.name, switch, ControlPacket.ForwardPacket, [link, packet]) 
+    cpacket.size += 64 + 64
     self.cpkt_id += 1
     self.sendControlPacket(cpacket)
 
   def UpdateRules (self, switch, pairs):
     cpacket = ControlPacket(self.cpkt_id, self.name, switch, ControlPacket.UpdateRules, [pairs]) 
+    cpacket.size += (64 * len(pairs))
     self.cpkt_id += 1
     self.sendControlPacket(cpacket)
 

@@ -61,6 +61,7 @@ class ControlPacket (FloodPacket):
     self.message_type = mtype
     self.message = message
     self.flooding = flooding
+    self.size = 32 + 32 + 8 # Source, dest, type
   def __str__ (self):
     return 'CP %s %s'%(str(self.id), self.src_id)
   def __hash__ (self):

@@ -1,0 +1,248 @@
+c1:
+  args: {address: 53}
+  type: LSGossipControl
+c2:
+  args: {address: 52}
+  type: LSGossipControl
+c3:
+  args: {address: 51}
+  type: LSGossipControl
+c4:
+  args: {address: 54}
+  type: LSGossipControl
+fail_links: [inr230-inr201, inr220-inr201, inr220-inr202, inr230-inr202, inr205-inr201,
+  inr205-inr202, inr330-c2, inr390-inr201, inr390-inr202, inr350-inr201, inr350-inr202,
+  inr001-inr202, inr001-inr201, inr44-inr157, inr330-inr201, inr210-inr202, inr210-inr201,
+  inr281-inr280, inr304-inr202, inr240-c1, inr304-inr201, inr250-inr202, inr299-inr201,
+  inr299-inr202, inr280-inr202, inr280-inr201, inr240-inr202, inr210-inr211, inr240-inr201,
+  inr320-inr202, inr320-inr201, inr43-inr157, inr202-inr203, inr36-inr202, inr36-inr201,
+  inr157-inr350, inr235-inr202, inr235-inr201, inr157-inr45, inr38-inr201, inr38-inr202,
+  inr290-inr202, inr290-inr201, inr220-c4, inr281-inr201, inr360-inr202, inr360-inr201,
+  inr281-inr202, inr157-inr51, inr31-inr202, inr31-inr201, inr260-inr201, inr260-inr202,
+  inr203-c3, inr667-inr201, inr667-inr202, inr33-inr201, inr33-inr202, inr202-inr341,
+  inr202-inr340, inr011-inr001, inr011-inr002, inr201-inr203, inr201-inr206, inr330-inr202,
+  inr001-inr002, inr380-inr201, inr380-inr202, inr211-inr201, inr211-inr202, inr157-inr250,
+  inr157-inr67, inr250-inr201, inr370-inr202, inr202-inr201, inr370-inr201, inr202-inr206,
+  inr32-inr202, inr32-inr201, inr34-inr201, inr34-inr202, inr201-inr340, inr201-inr341,
+  inr306-inr206, inr002-inr202, inr306-inr202, inr306-inr201, inr002-inr201, inr157-inr78,
+  inr157-inr71]
+h1:
+  args: {address: 5}
+  type: Host
+h10:
+  args: {address: 42}
+  type: Host
+h11:
+  args: {address: 43}
+  type: Host
+h12:
+  args: {address: 44}
+  type: Host
+h13:
+  args: {address: 45}
+  type: Host
+h14:
+  args: {address: 46}
+  type: Host
+h15:
+  args: {address: 47}
+  type: Host
+h16:
+  args: {address: 48}
+  type: Host
+h17:
+  args: {address: 49}
+  type: Host
+h18:
+  args: {address: 40}
+  type: Host
+h19:
+  args: {address: 41}
+  type: Host
+h2:
+  args: {address: 3}
+  type: Host
+h20:
+  args: {address: 27}
+  type: Host
+h21:
+  args: {address: 26}
+  type: Host
+h22:
+  args: {address: 29}
+  type: Host
+h23:
+  args: {address: 28}
+  type: Host
+h24:
+  args: {address: 23}
+  type: Host
+h25:
+  args: {address: 22}
+  type: Host
+h26:
+  args: {address: 25}
+  type: Host
+h27:
+  args: {address: 24}
+  type: Host
+h28:
+  args: {address: 21}
+  type: Host
+h29:
+  args: {address: 20}
+  type: Host
+h3:
+  args: {address: 4}
+  type: Host
+h30:
+  args: {address: 32}
+  type: Host
+h31:
+  args: {address: 33}
+  type: Host
+h32:
+  args: {address: 30}
+  type: Host
+h33:
+  args: {address: 31}
+  type: Host
+h34:
+  args: {address: 36}
+  type: Host
+h35:
+  args: {address: 37}
+  type: Host
+h36:
+  args: {address: 34}
+  type: Host
+h37:
+  args: {address: 35}
+  type: Host
+h38:
+  args: {address: 38}
+  type: Host
+h39:
+  args: {address: 39}
+  type: Host
+h4:
+  args: {address: 8}
+  type: Host
+h40:
+  args: {address: 17}
+  type: Host
+h41:
+  args: {address: 16}
+  type: Host
+h42:
+  args: {address: 15}
+  type: Host
+h43:
+  args: {address: 14}
+  type: Host
+h44:
+  args: {address: 13}
+  type: Host
+h45:
+  args: {address: 12}
+  type: Host
+h46:
+  args: {address: 11}
+  type: Host
+h47:
+  args: {address: 10}
+  type: Host
+h48:
+  args: {address: 19}
+  type: Host
+h49:
+  args: {address: 18}
+  type: Host
+h5:
+  args: {address: 9}
+  type: Host
+h50:
+  args: {address: 50}
+  type: Host
+h6:
+  args: {address: 6}
+  type: Host
+h7:
+  args: {address: 7}
+  type: Host
+h8:
+  args: {address: 1}
+  type: Host
+h9:
+  args: {address: 2}
+  type: Host
+inr001: {type: LinkStateSwitch}
+inr002: {type: LinkStateSwitch}
+inr011: {type: LinkStateSwitch}
+inr157: {type: LinkStateSwitch}
+inr201: {type: LinkStateSwitch}
+inr202: {type: LinkStateSwitch}
+inr203: {type: LinkStateSwitch}
+inr205: {type: LinkStateSwitch}
+inr206: {type: LinkStateSwitch}
+inr210: {type: LinkStateSwitch}
+inr211: {type: LinkStateSwitch}
+inr220: {type: LinkStateSwitch}
+inr230: {type: LinkStateSwitch}
+inr235: {type: LinkStateSwitch}
+inr240: {type: LinkStateSwitch}
+inr250: {type: LinkStateSwitch}
+inr260: {type: LinkStateSwitch}
+inr280: {type: LinkStateSwitch}
+inr281: {type: LinkStateSwitch}
+inr290: {type: LinkStateSwitch}
+inr299: {type: LinkStateSwitch}
+inr304: {type: LinkStateSwitch}
+inr306: {type: LinkStateSwitch}
+inr31: {type: LinkStateSwitch}
+inr32: {type: LinkStateSwitch}
+inr320: {type: LinkStateSwitch}
+inr33: {type: LinkStateSwitch}
+inr330: {type: LinkStateSwitch}
+inr34: {type: LinkStateSwitch}
+inr340: {type: LinkStateSwitch}
+inr341: {type: LinkStateSwitch}
+inr350: {type: LinkStateSwitch}
+inr36: {type: LinkStateSwitch}
+inr360: {type: LinkStateSwitch}
+inr370: {type: LinkStateSwitch}
+inr38: {type: LinkStateSwitch}
+inr380: {type: LinkStateSwitch}
+inr390: {type: LinkStateSwitch}
+inr43: {type: LinkStateSwitch}
+inr44: {type: LinkStateSwitch}
+inr45: {type: LinkStateSwitch}
+inr51: {type: LinkStateSwitch}
+inr667: {type: LinkStateSwitch}
+inr67: {type: LinkStateSwitch}
+inr71: {type: LinkStateSwitch}
+inr78: {type: LinkStateSwitch}
+links: [inr001-h18, inr230-inr201, inr220-inr201, inr220-inr202, inr230-inr202, inr205-inr201,
+  inr205-inr202, inr44-h1, inr330-c2, inr390-inr201, inr390-inr202, inr350-inr201,
+  inr350-inr202, inr78-h50, inr001-inr202, inr001-inr201, inr44-inr157, inr330-inr201,
+  inr67-h20, inr210-inr202, inr210-inr201, inr340-h48, inr281-inr280, inr44-h36, inr38-h30,
+  inr304-inr202, inr240-c1, inr304-inr201, inr31-h34, inr250-inr202, inr299-inr201,
+  inr299-inr202, inr45-h7, inr43-h6, inr280-inr202, inr280-inr201, inr240-inr202,
+  inr210-inr211, inr240-inr201, inr320-inr202, inr320-inr201, inr43-inr157, inr202-inr203,
+  inr36-inr202, inr36-inr201, inr157-inr350, inr51-h13, inr380-h21, inr235-inr202,
+  inr235-inr201, inr157-inr45, inr43-h47, inr360-h37, inr203-h8, inr38-inr201, inr38-inr202,
+  inr370-h39, inr290-inr202, inr290-inr201, inr220-c4, inr281-inr201, inr360-inr202,
+  inr360-inr201, inr281-inr202, inr203-h43, inr157-inr51, inr203-h44, inr205-h26,
+  inr31-inr202, inr31-inr201, inr260-inr201, inr260-inr202, inr33-h27, inr290-h3,
+  inr205-h9, inr203-c3, inr320-h31, inr667-inr201, inr667-inr202, inr32-h32, inr280-h15,
+  inr33-inr201, inr33-inr202, inr202-inr341, inr202-inr340, inr011-inr001, inr011-inr002,
+  inr320-h28, inr201-inr203, inr201-inr206, inr330-inr202, inr281-h10, inr001-inr002,
+  inr281-h17, inr260-h4, inr001-h33, inr380-inr201, inr380-inr202, inr36-h45, inr36-h46,
+  inr36-h40, inr36-h41, inr211-inr201, inr205-h49, inr235-h22, inr211-inr202, inr205-h42,
+  inr43-h12, inr43-h11, inr320-h19, inr210-h23, inr002-h25, inr157-inr250, inr157-inr67,
+  inr250-inr201, inr299-h2, inr370-inr202, inr202-inr201, inr370-inr201, inr202-inr206,
+  inr220-h5, inr38-h16, inr36-h38, inr32-inr202, inr32-inr201, inr260-h24, inr34-inr201,
+  inr34-inr202, inr201-inr340, inr201-inr341, inr306-inr206, inr002-inr202, inr306-inr202,
+  inr306-inr201, inr002-inr201, inr157-inr78, inr220-h29, inr380-h14, inr157-inr71,
+  inr78-h35]
+runfile: controllers

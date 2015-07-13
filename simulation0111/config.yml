@@ -22,4 +22,4 @@ control_processing_latency:
    distro: exponential
    shape: 20.0
 controller_naggle_time: 0.0
-controller_switch_info_delay: 300.0
+controller_switch_info_delay: 600.0

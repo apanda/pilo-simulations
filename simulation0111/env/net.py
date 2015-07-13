@@ -54,6 +54,8 @@ class BandwidthLink(Link):
   def __init__(self, ctx, ep1, ep2, count_start_time, is_up = False):
     super(BandwidthLink, self).__init__(ctx, ep1, ep2, is_up)
     self.control_packets = {}
+    self.control_bits = 0
+    self.control_bits_by_type = {}
     self.other_packets = 0
     self.buf = {ep1: [], ep2: []}
 
@@ -98,7 +100,10 @@ class BandwidthLink(Link):
       mtype = packet.message_type
       if mtype not in self.control_packets:
         self.control_packets[mtype] = 0
+        self.control_bits_by_type[mtype] = 0
       self.control_packets[mtype] += 1
+      self.control_bits += packet.size
+      self.control_bits_by_type[mtype] += packet.size
     else:
       self.other_packets += 1
     

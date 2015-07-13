@@ -465,15 +465,21 @@ class Simulation (object):
          20: "NackUpdateRules",
          21: "ControlAck"
        }
+    total_bits = 0
+    total_control_bits = {}
     for name, l in self.link_objs.iteritems():
       if isinstance(l, BandwidthLink):
         s = 0
         for mtype, count in l.control_packets.iteritems():
           if d[mtype] not in total_control_packets:
             total_control_packets[d[mtype]] = 0
+            total_control_bits[d[mtype]] = 0
           total_control_packets[d[mtype]] += count
+          total_control_bits[d[mtype]] += l.control_bits_by_type[mtype]
           s += count
-        print name, l, l.control_packets, "total:", s
+        total_bits += l.control_bits
+        print name, l, l.control_packets, "total:", s, "bits:", l.control_bits
 
     if len(total_control_packets) > 0:
-      print "Total control packets over all links: ", total_control_packets
+      print "Total control packets over all links: ", total_control_packets, " bytes: ", total_bits
+      print "Total control bits over all links: ", total_control_bits

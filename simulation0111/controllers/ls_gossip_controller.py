@@ -16,6 +16,7 @@ class LSGossipControl (LSController):
     self.switch_tables = defaultdict(lambda: defaultdict(lambda: None))
   
   def periodic_switch_update (self):
+    print "%f Requesting switch info %s"%(self.ctx.now, self.name)
     self.GetSwitchInformation()
     self.ctx.schedule_task(self.switch_update_duratiton, lambda: self.periodic_switch_update())
 
