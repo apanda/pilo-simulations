@@ -10,10 +10,6 @@ import yaml
 def TransformTrace (links, fail_links, mttf, mttr, stable, end_time, bootstrap):
   new_trace = []
   ctime = 0.0
-  #for link in links:
-    #new_trace.append("%f %s up"%(ctime, link))
-  if bootstrap:
-    new_trace.append("0.0 compute_and_update") 
   ctime += stable
   up_links = set(links)
   down_links = set()
@@ -57,11 +53,9 @@ def TransformTrace (links, fail_links, mttf, mttr, stable, end_time, bootstrap):
       print up_links
       print down_links
       raise
-
-    #for l in set_up:
-      #new_trace.append("%f %s up"%(t, l))
-      #up_links.add(l)
-      #down_links.remove(l)
+    for l in set_up:
+      up_links.add(l)
+      down_links.remove(l)
 
   for t in sorted(set_up_at.keys()):
     for l in set_up_at[t]:
