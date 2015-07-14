@@ -54,6 +54,8 @@ class ControlPacket (FloodPacket):
   NackUpdateRules = 20
   ControlAck = 21
   AckRuleUpdate = 22
+  Gossip = 23
+  GossipReply = 24
   def __init__ (self, id, src_id, dest_id, mtype, message, flooding = True):
     super(ControlPacket, self).__init__(id)
     self.src_id = src_id

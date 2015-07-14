@@ -1,6 +1,98 @@
 from env import *
 import networkx as nx
 from collections import defaultdict
+
+class LogEntry(object):
+  def __init__(self, switch_id, link_id, event_id, state):
+    pass
+
+class Log(object):
+  def __init__(self, gc_param):
+    self.log = {}
+    self.gc_param = gc_param
+
+  def add_event(self, switch_id, link_id, event_id, state):
+    if switch_id not in self.log:
+      self.log[switch_id] = {}
+    if link_id not in self.log[switch_id]:
+      self.log[switch_id][link_id] = {}
+    if event_id not in self.log[switch_id][link_id]:
+      self.log[switch_id][link_id][event_id] = state
+    
+  def iterate(self):
+    for switch_id in sorted(self.log.keys()):
+      for link_id in sorted(self.log[switch_id].keys()):
+        for event_id in sorted(self.log[switch_id][link_id].keys()):
+          state = self.log[switch_id][link_id][event_id]
+          yield event_id, state
+
+  def get_switches(self):
+    return self.log.keys()
+
+  def find_gaps(self, switch_id):
+    event_list = {}
+    for link_id in sorted(self.log[switch_id].keys()):
+      event_list[link_id] = []
+      last_event_id = None
+      el = sorted(self.log[switch_id][link_id].keys())
+      for event_id in el:
+        if last_event_id is None:
+          event_list[link_id].append(event_id)
+        elif event_id - last_event_id > 1:
+          state = self.log[switch_id][link_id][event_id]
+          event_list[link_id].append((last_event_id, event_id))
+        elif event_id == el[-1]:
+          event_list[link_id].append(event_id)
+        last_event_id = event_id
+    return event_list
+
+  def get_smaller_events(self, switch_id, link_id, low):
+    ret = []
+    if switch_id in self.log:
+      if link_id in self.log[switch_id]:
+        for event_id, state in self.log[switch_id][link_id].iteritems():
+          if event_id < low:
+            ret.append((event_id, state))
+    return ret
+
+  def get_larger_events(self, switch_id, link_id, high):
+    ret = []
+    if switch_id in self.log:
+      if link_id in self.log[switch_id]:
+        for event_id, state in self.log[switch_id][link_id].iteritems():
+          if event_id > high:
+            ret.append((event_id, state))
+    return ret
+
+  def get_gap_events(self, switch_id, link_id, low, high):
+    ret = []
+    if switch_id in self.log:
+      if link_id in self.log[switch_id]:
+        for event_id, state in self.log[switch_id][link_id].iteritems():
+          if event_id > low and event_id < high:
+            ret.append((event_id, state))
+    return ret
+
+  def gc(self):
+    for switch_id in sorted(self.log.keys()):
+      for link_id in sorted(self.log[switch_id].keys()):
+        l = sorted(self.log[switch_id][link_id].keys())
+        l.reverse()
+        if len(l) > self.gc_param:
+          l = l[self.gc_param:]
+          for k in l:
+            del self.log[switch_id][link_id][k]
+
+  def __str__(self):
+    ret = ""
+    for switch_id in sorted(self.log.keys()):
+      for link_id in sorted(self.log[switch_id].keys()):
+        for event_id in sorted(self.log[switch_id][link_id].keys()):
+          state = self.log[switch_id][link_id][event_id]
+          s = str(switch_id) + '\t' + str(link_id) + '\t' + str(event_id) + '\t' + str(state) + '\n'
+          ret += s
+    return ret
+
 class LSGossipControl (LSController):
   def __init__ (self, name, ctx, address):
     super(LSGossipControl, self).__init__(name, ctx, address)
@@ -14,6 +106,14 @@ class LSGossipControl (LSController):
     #self.GetSwitchInformation()
     self.link_version = {}
     self.switch_tables = defaultdict(lambda: defaultdict(lambda: None))
+
+    # Gossip
+    self.switchboard[ControlPacket.Gossip] = self.GossipReply
+    self.switchboard[ControlPacket.GossipReply] = self.GossipReceive
+    self.log = Log(5)
+    self.gossip_period = ctx.config.gossip_period
+    self.ctx.schedule_task(self.gossip_period, lambda: self.Gossip())
+    self.ctx.schedule_task(self.gossip_period, lambda: self.GossipGC())
   
   def periodic_switch_update (self):
     print "%f Requesting switch info %s"%(self.ctx.now, self.name)
@@ -66,10 +166,50 @@ class LSGossipControl (LSController):
       print "       Update to %s with len %d"%(a, len(updates[a]))
       self.update_messages[self.reason] = self.update_messages.get(self.reason, 0) + 1
       self.UpdateRules(a, updates[a])
-  
+
+  def GossipReceive(self, pkt, src, s, link_events):
+    # s must be in self.log.switches
+    for link_id, event_list in link_events.iteritems():
+      for e in event_list:
+        self.log.add_event(s, link_id, e[0], e[1])
+
+  def GossipReply(self, pkt, src, s, event_list):
+    ret = {}
+    if s in self.log.get_switches():
+      for link_id, el in event_list.iteritems():
+        ret[link_id] = []
+        for e in el:
+          if e == el[0]:
+            ret[link_id] = self.log.get_smaller_events(s, link_id, e)
+          elif e == el[-1]:
+            ret[link_id] = self.log.get_larger_events(s, link_id, e)
+          else:
+            ret[link_id] = self.log.get_gap_events(s, link_id, e[0], e[1])
+            
+    cpacket = ControlPacket(self.cpkt_id, self.name, src, ControlPacket.GossipReply, [s, ret])
+    self.cpkt_id += 1
+    self.sendControlPacket(cpacket)
+
+  def GossipHelper(self):
+    switches = self.log.get_switches()
+    for s in switches:
+      event_list = self.log.find_gaps(s)
+      cpacket = ControlPacket(self.cpkt_id, self.name, ControlPacket.AllCtrlId, ControlPacket.Gossip, [s, event_list])
+      self.cpkt_id += 1
+      self.sendControlPacket(cpacket)
+    print self.name, " Current log\n"
+    print self.log
+   
   def Gossip (self):
-    pass
-  
+    #print "Gossip called", self.gossip_period
+    self.GossipHelper()
+    self.ctx.schedule_task(self.gossip_period, lambda: self.Gossip())
+
+  def GossipGC(self):
+    # GCs the log
+    self.log.gc()
+    self.ctx.schedule_task(self.gossip_period, lambda: self.GossipGC())
+
   def SwitchUpNoCompute (self, switch):
     self.NotifySwitchUp(None, None, switch)
 
@@ -96,8 +236,10 @@ class LSGossipControl (LSController):
     if isinstance(switch, ControllerTrait) and switch.name not in self._controllers:
       self._controllers.add(switch.name)
 
-  def NotifyLinkUp (self, pkt, version, src, switch, link):
-    #print "%f %s notify link up %s"%(self.ctx.now, self.name, link)
+    self.log.add_event(switch, link, version, True)
+
+  def NotifyLinkUp (self, pkt, src, version, switch, link):
+    print "%f %s notify link up %s"%(self.ctx.now, self.name, link), " version: ", version
     if self.link_version.get(link, 0) >= version:
       #print "%f Skipping because of link version"%self.ctx.now
       return # Skip since we already saw this
@@ -119,8 +261,11 @@ class LSGossipControl (LSController):
       self.GetSwitchInformation()
     self.reason = None
 
-  def NotifyLinkDown (self, pkt, version, src, switch, link):
-    print "%f %s notify link down %s"%(self.ctx.now, self.name, link)
+    # store state in log
+    self.log.add_event(switch.name, link, version, True)
+
+  def NotifyLinkDown (self, pkt, src, version, switch, link):
+    print "%f %s notify link down %s"%(self.ctx.now, self.name, link), " version: ", version
     if self.link_version.get(link, 0) >= version:
       print "%f Skipping because of link version"%self.ctx.now
       return # Skip since we already saw this
@@ -136,6 +281,10 @@ class LSGossipControl (LSController):
     print "%f Computing link updates"%self.ctx.now
     self.ComputeAndUpdatePaths()
     self.reason = None
+
+    # store state in log
+    self.log.add_event(switch.name, link, version, False)
+    
 
   def NotifySwitchInformation (self, pkt, src, switch, version_links):
     # Switch information
