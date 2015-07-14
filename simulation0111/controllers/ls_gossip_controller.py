@@ -38,10 +38,10 @@ class Log(object):
       for event_id in el:
         if last_event_id is None:
           event_list[link_id].append(event_id)
-        elif event_id - last_event_id > 1:
+        if last_event_id is not None and event_id - last_event_id > 1:
           state = self.log[switch_id][link_id][event_id]
           event_list[link_id].append((last_event_id, event_id))
-        elif event_id == el[-1]:
+        if event_id == el[-1]:
           event_list[link_id].append(event_id)
         last_event_id = event_id
     return event_list
@@ -185,7 +185,11 @@ class LSGossipControl (LSController):
             ret[link_id] = self.log.get_larger_events(s, link_id, e)
           else:
             ret[link_id] = self.log.get_gap_events(s, link_id, e[0], e[1])
-            
+    
+    pkt_size = 32
+    for link_id, el in ret.iteritems():
+      pkt_size += 64 + len(el) * (65)
+
     cpacket = ControlPacket(self.cpkt_id, self.name, src, ControlPacket.GossipReply, [s, ret])
     self.cpkt_id += 1
     self.sendControlPacket(cpacket)
@@ -195,6 +199,11 @@ class LSGossipControl (LSController):
     for s in switches:
       event_list = self.log.find_gaps(s)
       cpacket = ControlPacket(self.cpkt_id, self.name, ControlPacket.AllCtrlId, ControlPacket.Gossip, [s, event_list])
+      # todo: calculate this number
+      pkt_size = 32
+      for link_id, el in event_list.iteritems():
+        pkt_size += 64 + 64 * 2 + (len(el) - 2) * (65)
+      cpacket.size += pkt_size
       self.cpkt_id += 1
       self.sendControlPacket(cpacket)
     print self.name, " Current log\n"

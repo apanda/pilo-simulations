@@ -1,0 +1,4516 @@
+Setting bt/bt4.yaml 0.000000 10000.000000 1000.000000 128.000000 1024.000000 1024.000000 1.000000 42 config_bt.yml
+mean_perturb 128.000000
+generating trace
+done generating trace
+TRACE TRACE TRACE
+1000.000000 end
+TRACE TRACE TRACE
+LS Paxos control c3
+c3 registered with Paxos Oracle
+LS Paxos control c4
+c4 registered with Paxos Oracle
+LS Paxos control c1
+c1 registered with Paxos Oracle
+LS Paxos control c2
+c2 registered with Paxos Oracle
+Informing controller of nodes
+c3 being informed of inr001-h18
+c4 being informed of inr001-h18
+c1 being informed of inr001-h18
+c2 being informed of inr001-h18
+c3 being informed of inr230-inr201
+c4 being informed of inr230-inr201
+c1 being informed of inr230-inr201
+c2 being informed of inr230-inr201
+c3 being informed of inr220-inr201
+c4 being informed of inr220-inr201
+c1 being informed of inr220-inr201
+c2 being informed of inr220-inr201
+c3 being informed of inr220-inr202
+c4 being informed of inr220-inr202
+c1 being informed of inr220-inr202
+c2 being informed of inr220-inr202
+c3 being informed of inr230-inr202
+c4 being informed of inr230-inr202
+c1 being informed of inr230-inr202
+c2 being informed of inr230-inr202
+c3 being informed of inr205-inr201
+c4 being informed of inr205-inr201
+c1 being informed of inr205-inr201
+c2 being informed of inr205-inr201
+c3 being informed of inr205-inr202
+c4 being informed of inr205-inr202
+c1 being informed of inr205-inr202
+c2 being informed of inr205-inr202
+c3 being informed of inr44-h1
+c4 being informed of inr44-h1
+c1 being informed of inr44-h1
+c2 being informed of inr44-h1
+c3 being informed of inr330-c2
+c4 being informed of inr330-c2
+c1 being informed of inr330-c2
+c2 being informed of inr330-c2
+c3 being informed of inr390-inr201
+c4 being informed of inr390-inr201
+c1 being informed of inr390-inr201
+c2 being informed of inr390-inr201
+c3 being informed of inr390-inr202
+c4 being informed of inr390-inr202
+c1 being informed of inr390-inr202
+c2 being informed of inr390-inr202
+c3 being informed of inr350-inr201
+c4 being informed of inr350-inr201
+c1 being informed of inr350-inr201
+c2 being informed of inr350-inr201
+c3 being informed of inr350-inr202
+c4 being informed of inr350-inr202
+c1 being informed of inr350-inr202
+c2 being informed of inr350-inr202
+c3 being informed of inr78-h50
+c4 being informed of inr78-h50
+c1 being informed of inr78-h50
+c2 being informed of inr78-h50
+c3 being informed of inr001-inr202
+c4 being informed of inr001-inr202
+c1 being informed of inr001-inr202
+c2 being informed of inr001-inr202
+c3 being informed of inr001-inr201
+c4 being informed of inr001-inr201
+c1 being informed of inr001-inr201
+c2 being informed of inr001-inr201
+c3 being informed of inr44-inr157
+c4 being informed of inr44-inr157
+c1 being informed of inr44-inr157
+c2 being informed of inr44-inr157
+c3 being informed of inr330-inr201
+c4 being informed of inr330-inr201
+c1 being informed of inr330-inr201
+c2 being informed of inr330-inr201
+c3 being informed of inr67-h20
+c4 being informed of inr67-h20
+c1 being informed of inr67-h20
+c2 being informed of inr67-h20
+c3 being informed of inr210-inr202
+c4 being informed of inr210-inr202
+c1 being informed of inr210-inr202
+c2 being informed of inr210-inr202
+c3 being informed of inr210-inr201
+c4 being informed of inr210-inr201
+c1 being informed of inr210-inr201
+c2 being informed of inr210-inr201
+c3 being informed of inr340-h48
+c4 being informed of inr340-h48
+c1 being informed of inr340-h48
+c2 being informed of inr340-h48
+c3 being informed of inr281-inr280
+c4 being informed of inr281-inr280
+c1 being informed of inr281-inr280
+c2 being informed of inr281-inr280
+c3 being informed of inr44-h36
+c4 being informed of inr44-h36
+c1 being informed of inr44-h36
+c2 being informed of inr44-h36
+c3 being informed of inr38-h30
+c4 being informed of inr38-h30
+c1 being informed of inr38-h30
+c2 being informed of inr38-h30
+c3 being informed of inr304-inr202
+c4 being informed of inr304-inr202
+c1 being informed of inr304-inr202
+c2 being informed of inr304-inr202
+c3 being informed of inr240-c1
+c4 being informed of inr240-c1
+c1 being informed of inr240-c1
+c2 being informed of inr240-c1
+c3 being informed of inr304-inr201
+c4 being informed of inr304-inr201
+c1 being informed of inr304-inr201
+c2 being informed of inr304-inr201
+c3 being informed of inr31-h34
+c4 being informed of inr31-h34
+c1 being informed of inr31-h34
+c2 being informed of inr31-h34
+c3 being informed of inr250-inr202
+c4 being informed of inr250-inr202
+c1 being informed of inr250-inr202
+c2 being informed of inr250-inr202
+c3 being informed of inr299-inr201
+c4 being informed of inr299-inr201
+c1 being informed of inr299-inr201
+c2 being informed of inr299-inr201
+c3 being informed of inr299-inr202
+c4 being informed of inr299-inr202
+c1 being informed of inr299-inr202
+c2 being informed of inr299-inr202
+c3 being informed of inr45-h7
+c4 being informed of inr45-h7
+c1 being informed of inr45-h7
+c2 being informed of inr45-h7
+c3 being informed of inr43-h6
+c4 being informed of inr43-h6
+c1 being informed of inr43-h6
+c2 being informed of inr43-h6
+c3 being informed of inr280-inr202
+c4 being informed of inr280-inr202
+c1 being informed of inr280-inr202
+c2 being informed of inr280-inr202
+c3 being informed of inr280-inr201
+c4 being informed of inr280-inr201
+c1 being informed of inr280-inr201
+c2 being informed of inr280-inr201
+c3 being informed of inr240-inr202
+c4 being informed of inr240-inr202
+c1 being informed of inr240-inr202
+c2 being informed of inr240-inr202
+c3 being informed of inr210-inr211
+c4 being informed of inr210-inr211
+c1 being informed of inr210-inr211
+c2 being informed of inr210-inr211
+c3 being informed of inr240-inr201
+c4 being informed of inr240-inr201
+c1 being informed of inr240-inr201
+c2 being informed of inr240-inr201
+c3 being informed of inr320-inr202
+c4 being informed of inr320-inr202
+c1 being informed of inr320-inr202
+c2 being informed of inr320-inr202
+c3 being informed of inr320-inr201
+c4 being informed of inr320-inr201
+c1 being informed of inr320-inr201
+c2 being informed of inr320-inr201
+c3 being informed of inr43-inr157
+c4 being informed of inr43-inr157
+c1 being informed of inr43-inr157
+c2 being informed of inr43-inr157
+c3 being informed of inr202-inr203
+c4 being informed of inr202-inr203
+c1 being informed of inr202-inr203
+c2 being informed of inr202-inr203
+c3 being informed of inr36-inr202
+c4 being informed of inr36-inr202
+c1 being informed of inr36-inr202
+c2 being informed of inr36-inr202
+c3 being informed of inr36-inr201
+c4 being informed of inr36-inr201
+c1 being informed of inr36-inr201
+c2 being informed of inr36-inr201
+c3 being informed of inr157-inr350
+c4 being informed of inr157-inr350
+c1 being informed of inr157-inr350
+c2 being informed of inr157-inr350
+c3 being informed of inr51-h13
+c4 being informed of inr51-h13
+c1 being informed of inr51-h13
+c2 being informed of inr51-h13
+c3 being informed of inr380-h21
+c4 being informed of inr380-h21
+c1 being informed of inr380-h21
+c2 being informed of inr380-h21
+c3 being informed of inr235-inr202
+c4 being informed of inr235-inr202
+c1 being informed of inr235-inr202
+c2 being informed of inr235-inr202
+c3 being informed of inr235-inr201
+c4 being informed of inr235-inr201
+c1 being informed of inr235-inr201
+c2 being informed of inr235-inr201
+c3 being informed of inr157-inr45
+c4 being informed of inr157-inr45
+c1 being informed of inr157-inr45
+c2 being informed of inr157-inr45
+c3 being informed of inr43-h47
+c4 being informed of inr43-h47
+c1 being informed of inr43-h47
+c2 being informed of inr43-h47
+c3 being informed of inr360-h37
+c4 being informed of inr360-h37
+c1 being informed of inr360-h37
+c2 being informed of inr360-h37
+c3 being informed of inr203-h8
+c4 being informed of inr203-h8
+c1 being informed of inr203-h8
+c2 being informed of inr203-h8
+c3 being informed of inr38-inr201
+c4 being informed of inr38-inr201
+c1 being informed of inr38-inr201
+c2 being informed of inr38-inr201
+c3 being informed of inr38-inr202
+c4 being informed of inr38-inr202
+c1 being informed of inr38-inr202
+c2 being informed of inr38-inr202
+c3 being informed of inr370-h39
+c4 being informed of inr370-h39
+c1 being informed of inr370-h39
+c2 being informed of inr370-h39
+c3 being informed of inr290-inr202
+c4 being informed of inr290-inr202
+c1 being informed of inr290-inr202
+c2 being informed of inr290-inr202
+c3 being informed of inr290-inr201
+c4 being informed of inr290-inr201
+c1 being informed of inr290-inr201
+c2 being informed of inr290-inr201
+c3 being informed of inr220-c4
+c4 being informed of inr220-c4
+c1 being informed of inr220-c4
+c2 being informed of inr220-c4
+c3 being informed of inr281-inr201
+c4 being informed of inr281-inr201
+c1 being informed of inr281-inr201
+c2 being informed of inr281-inr201
+c3 being informed of inr360-inr202
+c4 being informed of inr360-inr202
+c1 being informed of inr360-inr202
+c2 being informed of inr360-inr202
+c3 being informed of inr360-inr201
+c4 being informed of inr360-inr201
+c1 being informed of inr360-inr201
+c2 being informed of inr360-inr201
+c3 being informed of inr281-inr202
+c4 being informed of inr281-inr202
+c1 being informed of inr281-inr202
+c2 being informed of inr281-inr202
+c3 being informed of inr203-h43
+c4 being informed of inr203-h43
+c1 being informed of inr203-h43
+c2 being informed of inr203-h43
+c3 being informed of inr157-inr51
+c4 being informed of inr157-inr51
+c1 being informed of inr157-inr51
+c2 being informed of inr157-inr51
+c3 being informed of inr203-h44
+c4 being informed of inr203-h44
+c1 being informed of inr203-h44
+c2 being informed of inr203-h44
+c3 being informed of inr205-h26
+c4 being informed of inr205-h26
+c1 being informed of inr205-h26
+c2 being informed of inr205-h26
+c3 being informed of inr31-inr202
+c4 being informed of inr31-inr202
+c1 being informed of inr31-inr202
+c2 being informed of inr31-inr202
+c3 being informed of inr31-inr201
+c4 being informed of inr31-inr201
+c1 being informed of inr31-inr201
+c2 being informed of inr31-inr201
+c3 being informed of inr260-inr201
+c4 being informed of inr260-inr201
+c1 being informed of inr260-inr201
+c2 being informed of inr260-inr201
+c3 being informed of inr260-inr202
+c4 being informed of inr260-inr202
+c1 being informed of inr260-inr202
+c2 being informed of inr260-inr202
+c3 being informed of inr33-h27
+c4 being informed of inr33-h27
+c1 being informed of inr33-h27
+c2 being informed of inr33-h27
+c3 being informed of inr290-h3
+c4 being informed of inr290-h3
+c1 being informed of inr290-h3
+c2 being informed of inr290-h3
+c3 being informed of inr205-h9
+c4 being informed of inr205-h9
+c1 being informed of inr205-h9
+c2 being informed of inr205-h9
+c3 being informed of inr203-c3
+c4 being informed of inr203-c3
+c1 being informed of inr203-c3
+c2 being informed of inr203-c3
+c3 being informed of inr320-h31
+c4 being informed of inr320-h31
+c1 being informed of inr320-h31
+c2 being informed of inr320-h31
+c3 being informed of inr667-inr201
+c4 being informed of inr667-inr201
+c1 being informed of inr667-inr201
+c2 being informed of inr667-inr201
+c3 being informed of inr667-inr202
+c4 being informed of inr667-inr202
+c1 being informed of inr667-inr202
+c2 being informed of inr667-inr202
+c3 being informed of inr32-h32
+c4 being informed of inr32-h32
+c1 being informed of inr32-h32
+c2 being informed of inr32-h32
+c3 being informed of inr280-h15
+c4 being informed of inr280-h15
+c1 being informed of inr280-h15
+c2 being informed of inr280-h15
+c3 being informed of inr33-inr201
+c4 being informed of inr33-inr201
+c1 being informed of inr33-inr201
+c2 being informed of inr33-inr201
+c3 being informed of inr33-inr202
+c4 being informed of inr33-inr202
+c1 being informed of inr33-inr202
+c2 being informed of inr33-inr202
+c3 being informed of inr202-inr341
+c4 being informed of inr202-inr341
+c1 being informed of inr202-inr341
+c2 being informed of inr202-inr341
+c3 being informed of inr202-inr340
+c4 being informed of inr202-inr340
+c1 being informed of inr202-inr340
+c2 being informed of inr202-inr340
+c3 being informed of inr011-inr001
+c4 being informed of inr011-inr001
+c1 being informed of inr011-inr001
+c2 being informed of inr011-inr001
+c3 being informed of inr011-inr002
+c4 being informed of inr011-inr002
+c1 being informed of inr011-inr002
+c2 being informed of inr011-inr002
+c3 being informed of inr320-h28
+c4 being informed of inr320-h28
+c1 being informed of inr320-h28
+c2 being informed of inr320-h28
+c3 being informed of inr201-inr203
+c4 being informed of inr201-inr203
+c1 being informed of inr201-inr203
+c2 being informed of inr201-inr203
+c3 being informed of inr201-inr206
+c4 being informed of inr201-inr206
+c1 being informed of inr201-inr206
+c2 being informed of inr201-inr206
+c3 being informed of inr330-inr202
+c4 being informed of inr330-inr202
+c1 being informed of inr330-inr202
+c2 being informed of inr330-inr202
+c3 being informed of inr281-h10
+c4 being informed of inr281-h10
+c1 being informed of inr281-h10
+c2 being informed of inr281-h10
+c3 being informed of inr001-inr002
+c4 being informed of inr001-inr002
+c1 being informed of inr001-inr002
+c2 being informed of inr001-inr002
+c3 being informed of inr281-h17
+c4 being informed of inr281-h17
+c1 being informed of inr281-h17
+c2 being informed of inr281-h17
+c3 being informed of inr260-h4
+c4 being informed of inr260-h4
+c1 being informed of inr260-h4
+c2 being informed of inr260-h4
+c3 being informed of inr001-h33
+c4 being informed of inr001-h33
+c1 being informed of inr001-h33
+c2 being informed of inr001-h33
+c3 being informed of inr380-inr201
+c4 being informed of inr380-inr201
+c1 being informed of inr380-inr201
+c2 being informed of inr380-inr201
+c3 being informed of inr380-inr202
+c4 being informed of inr380-inr202
+c1 being informed of inr380-inr202
+c2 being informed of inr380-inr202
+c3 being informed of inr36-h45
+c4 being informed of inr36-h45
+c1 being informed of inr36-h45
+c2 being informed of inr36-h45
+c3 being informed of inr36-h46
+c4 being informed of inr36-h46
+c1 being informed of inr36-h46
+c2 being informed of inr36-h46
+c3 being informed of inr36-h40
+c4 being informed of inr36-h40
+c1 being informed of inr36-h40
+c2 being informed of inr36-h40
+c3 being informed of inr36-h41
+c4 being informed of inr36-h41
+c1 being informed of inr36-h41
+c2 being informed of inr36-h41
+c3 being informed of inr211-inr201
+c4 being informed of inr211-inr201
+c1 being informed of inr211-inr201
+c2 being informed of inr211-inr201
+c3 being informed of inr205-h49
+c4 being informed of inr205-h49
+c1 being informed of inr205-h49
+c2 being informed of inr205-h49
+c3 being informed of inr235-h22
+c4 being informed of inr235-h22
+c1 being informed of inr235-h22
+c2 being informed of inr235-h22
+c3 being informed of inr211-inr202
+c4 being informed of inr211-inr202
+c1 being informed of inr211-inr202
+c2 being informed of inr211-inr202
+c3 being informed of inr205-h42
+c4 being informed of inr205-h42
+c1 being informed of inr205-h42
+c2 being informed of inr205-h42
+c3 being informed of inr43-h12
+c4 being informed of inr43-h12
+c1 being informed of inr43-h12
+c2 being informed of inr43-h12
+c3 being informed of inr43-h11
+c4 being informed of inr43-h11
+c1 being informed of inr43-h11
+c2 being informed of inr43-h11
+c3 being informed of inr320-h19
+c4 being informed of inr320-h19
+c1 being informed of inr320-h19
+c2 being informed of inr320-h19
+c3 being informed of inr210-h23
+c4 being informed of inr210-h23
+c1 being informed of inr210-h23
+c2 being informed of inr210-h23
+c3 being informed of inr002-h25
+c4 being informed of inr002-h25
+c1 being informed of inr002-h25
+c2 being informed of inr002-h25
+c3 being informed of inr157-inr250
+c4 being informed of inr157-inr250
+c1 being informed of inr157-inr250
+c2 being informed of inr157-inr250
+c3 being informed of inr157-inr67
+c4 being informed of inr157-inr67
+c1 being informed of inr157-inr67
+c2 being informed of inr157-inr67
+c3 being informed of inr250-inr201
+c4 being informed of inr250-inr201
+c1 being informed of inr250-inr201
+c2 being informed of inr250-inr201
+c3 being informed of inr299-h2
+c4 being informed of inr299-h2
+c1 being informed of inr299-h2
+c2 being informed of inr299-h2
+c3 being informed of inr370-inr202
+c4 being informed of inr370-inr202
+c1 being informed of inr370-inr202
+c2 being informed of inr370-inr202
+c3 being informed of inr202-inr201
+c4 being informed of inr202-inr201
+c1 being informed of inr202-inr201
+c2 being informed of inr202-inr201
+c3 being informed of inr370-inr201
+c4 being informed of inr370-inr201
+c1 being informed of inr370-inr201
+c2 being informed of inr370-inr201
+c3 being informed of inr202-inr206
+c4 being informed of inr202-inr206
+c1 being informed of inr202-inr206
+c2 being informed of inr202-inr206
+c3 being informed of inr220-h5
+c4 being informed of inr220-h5
+c1 being informed of inr220-h5
+c2 being informed of inr220-h5
+c3 being informed of inr38-h16
+c4 being informed of inr38-h16
+c1 being informed of inr38-h16
+c2 being informed of inr38-h16
+c3 being informed of inr36-h38
+c4 being informed of inr36-h38
+c1 being informed of inr36-h38
+c2 being informed of inr36-h38
+c3 being informed of inr32-inr202
+c4 being informed of inr32-inr202
+c1 being informed of inr32-inr202
+c2 being informed of inr32-inr202
+c3 being informed of inr32-inr201
+c4 being informed of inr32-inr201
+c1 being informed of inr32-inr201
+c2 being informed of inr32-inr201
+c3 being informed of inr260-h24
+c4 being informed of inr260-h24
+c1 being informed of inr260-h24
+c2 being informed of inr260-h24
+c3 being informed of inr34-inr201
+c4 being informed of inr34-inr201
+c1 being informed of inr34-inr201
+c2 being informed of inr34-inr201
+c3 being informed of inr34-inr202
+c4 being informed of inr34-inr202
+c1 being informed of inr34-inr202
+c2 being informed of inr34-inr202
+c3 being informed of inr201-inr340
+c4 being informed of inr201-inr340
+c1 being informed of inr201-inr340
+c2 being informed of inr201-inr340
+c3 being informed of inr201-inr341
+c4 being informed of inr201-inr341
+c1 being informed of inr201-inr341
+c2 being informed of inr201-inr341
+c3 being informed of inr306-inr206
+c4 being informed of inr306-inr206
+c1 being informed of inr306-inr206
+c2 being informed of inr306-inr206
+c3 being informed of inr002-inr202
+c4 being informed of inr002-inr202
+c1 being informed of inr002-inr202
+c2 being informed of inr002-inr202
+c3 being informed of inr306-inr202
+c4 being informed of inr306-inr202
+c1 being informed of inr306-inr202
+c2 being informed of inr306-inr202
+c3 being informed of inr306-inr201
+c4 being informed of inr306-inr201
+c1 being informed of inr306-inr201
+c2 being informed of inr306-inr201
+c3 being informed of inr002-inr201
+c4 being informed of inr002-inr201
+c1 being informed of inr002-inr201
+c2 being informed of inr002-inr201
+c3 being informed of inr157-inr78
+c4 being informed of inr157-inr78
+c1 being informed of inr157-inr78
+c2 being informed of inr157-inr78
+c3 being informed of inr220-h29
+c4 being informed of inr220-h29
+c1 being informed of inr220-h29
+c2 being informed of inr220-h29
+c3 being informed of inr380-h14
+c4 being informed of inr380-h14
+c1 being informed of inr380-h14
+c2 being informed of inr380-h14
+c3 being informed of inr157-inr71
+c4 being informed of inr157-inr71
+c1 being informed of inr157-inr71
+c2 being informed of inr157-inr71
+c3 being informed of inr78-h35
+c4 being informed of inr78-h35
+c1 being informed of inr78-h35
+c2 being informed of inr78-h35
+Computing for c3
+Computing for c4
+Computing for c1
+Computing for c2
+0.000000 received rule update inr67
+0.000000 received rule update inr44
+0.000000 received rule update inr45
+0.000000 received rule update inr235
+0.000000 received rule update inr299
+0.000000 received rule update inr370
+0.000000 received rule update inr210
+0.000000 received rule update inr290
+0.000000 received rule update inr001
+0.000000 received rule update inr002
+0.000000 received rule update inr350
+0.000000 received rule update inr38
+0.000000 received rule update inr51
+0.000000 received rule update inr31
+0.000000 received rule update inr33
+0.000000 received rule update inr32
+0.000000 received rule update inr78
+0.000000 received rule update inr36
+0.000000 received rule update inr220
+0.000000 received rule update inr157
+0.000000 received rule update inr203
+0.000000 received rule update inr202
+0.000000 received rule update inr201
+0.000000 received rule update inr43
+0.000000 received rule update inr320
+0.000000 received rule update inr205
+0.000000 received rule update inr281
+0.000000 received rule update inr280
+0.000000 received rule update inr360
+0.000000 received rule update inr260
+0.000000 received rule update inr340
+0.000000 received rule update inr250
+0.000000 received rule update inr380
+Starting replay
+2.000000 inr350 notifying down for inr157-inr350
+2.000000 inr350 notifying down for inr157-inr350 reliably
+2.000000 inr157 notifying down for inr157-inr350
+2.000000 inr157 notifying down for inr157-inr350 reliably
+7.0 {'c2': {21: 1}, 'c1': {21: 1}}
+8.0 {'c3': {21: 2}, 'c2': {21: 1}, 'c1': {21: 1}, 'c4': {21: 1}}
+9.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {21: 2}, 'c4': {21: 2}}
+10.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {21: 2}, 'c4': {21: 2}}
+11.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {21: 2}, 'c4': {21: 2}}
+12.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {21: 2}, 'c4': {21: 2}}
+13.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {21: 2}, 'c4': {21: 2}}
+14.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {21: 2}, 'c4': {21: 2}}
+15.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {21: 2}, 'c4': {21: 2}}
+16.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {21: 2}, 'c4': {21: 2}}
+paxos available
+16.423135 c1 updating inr250 with len 769
+Update to inr250 with len 769
+16.423135 c1 updating inr202 with len 407
+Update to inr202 with len 407
+16.423135 c1 updating inr201 with len 50
+Update to inr201 with len 50
+16.423135 c1 updating inr157 with len 351
+Update to inr157 with len 351
+16.423135 c3 updating inr250 with len 769
+Update to inr250 with len 769
+16.423135 c3 updating inr202 with len 407
+Update to inr202 with len 407
+16.423135 c3 updating inr201 with len 50
+Update to inr201 with len 50
+16.423135 c3 updating inr157 with len 351
+Update to inr157 with len 351
+16.423135 c2 updating inr250 with len 769
+Update to inr250 with len 769
+16.423135 c2 updating inr202 with len 407
+Update to inr202 with len 407
+16.423135 c2 updating inr201 with len 50
+Update to inr201 with len 50
+16.423135 c2 updating inr157 with len 351
+Update to inr157 with len 351
+16.423135 c4 updating inr250 with len 769
+Update to inr250 with len 769
+16.423135 c4 updating inr202 with len 407
+Update to inr202 with len 407
+16.423135 c4 updating inr201 with len 50
+Update to inr201 with len 50
+16.423135 c4 updating inr157 with len 351
+Update to inr157 with len 351
+paxos available
+17.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {21: 2}, 'c4': {21: 2}}
+18.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+19.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+19.459598 received rule update inr202
+20.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+20.687200 received rule update inr201
+20.698382 received rule update inr250
+21.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+22.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+22.747155 received rule update inr157
+23.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+24.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+25.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+26.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+27.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+28.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+29.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+30.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+31.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+32.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+33.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+34.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+35.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+36.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+37.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+38.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+39.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+40.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+41.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+42.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+43.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+44.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+45.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+46.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+47.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+48.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+49.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+50.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+51.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+52.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+53.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+54.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+55.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+56.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+57.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+58.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+59.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+60.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+61.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+62.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+63.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+64.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+65.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+66.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+67.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+68.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+69.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+70.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+71.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+72.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+73.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+74.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+75.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+76.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+77.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+78.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+79.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+80.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+81.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+82.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+83.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+84.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+85.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+86.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+87.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+88.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+89.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+90.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+91.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+92.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+93.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+94.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+95.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+96.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+97.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+98.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+99.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+100.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+101.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+102.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+103.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+104.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+105.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+106.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+107.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+108.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+109.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+110.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+111.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+112.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+113.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+114.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+115.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+116.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+117.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+118.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+119.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+120.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+121.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+122.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+123.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+124.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+125.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+126.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+127.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+128.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+129.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+130.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+131.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+132.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+133.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+134.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+135.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+136.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+137.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+138.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+139.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+140.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+141.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+142.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+143.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+144.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+145.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+146.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+147.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+148.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+149.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+150.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+151.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+152.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+153.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+154.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+155.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+156.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+157.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+158.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+159.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+160.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+161.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+162.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+163.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+164.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+165.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+166.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+167.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+168.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+169.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+170.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+171.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+172.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+173.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+174.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+175.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+176.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+177.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+178.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+179.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+180.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+181.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+182.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+183.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+184.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+185.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+186.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+187.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+188.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+189.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+190.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+191.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+192.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+193.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+194.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+195.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+196.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+197.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+198.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+199.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+200.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+201.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+202.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+203.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+204.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+205.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+206.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+207.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+208.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+209.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+210.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+211.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+212.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+213.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+214.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+215.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+216.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+217.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+218.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+219.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+220.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+221.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+222.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+223.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+224.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+225.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+226.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+227.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+228.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+229.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+230.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+231.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+232.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+233.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+234.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+235.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+236.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+237.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+238.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+239.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+240.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+241.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+242.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+243.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+244.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+245.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+246.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+247.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+248.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+249.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+250.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+251.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+252.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+253.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+254.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+255.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+256.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+257.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+258.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+259.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+260.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+261.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+262.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+263.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+264.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+265.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+266.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+267.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+268.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+269.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+270.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+271.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+272.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+273.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+274.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+275.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+276.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+277.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+278.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+279.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+280.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+281.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+282.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+283.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+284.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+285.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+286.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+287.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+288.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+289.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+290.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+291.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+292.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+293.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+294.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+295.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+296.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+297.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+298.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+299.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+300.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+301.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+302.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+303.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+304.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+305.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+306.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+307.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+308.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+309.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+310.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+311.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+312.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+313.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+314.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+315.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+316.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+317.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+318.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+319.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+320.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+321.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+322.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+323.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+324.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+325.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+326.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+327.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+328.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+329.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+330.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+331.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+332.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+333.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+334.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+335.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+336.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+337.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+338.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+339.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+340.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+341.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+342.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+343.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+344.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+345.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+346.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+347.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+348.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+349.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+350.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+351.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+352.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+353.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+354.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+355.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+356.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+357.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+358.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+359.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+360.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+361.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+362.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+363.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+364.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+365.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+366.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+367.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+368.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+369.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+370.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+371.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+372.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+373.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+374.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+375.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+376.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+377.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+378.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+379.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+380.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+381.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+382.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+383.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+384.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+385.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+386.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+387.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+388.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+389.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+390.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+391.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+392.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+393.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+394.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+395.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+396.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+397.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+398.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+399.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+400.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+401.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+402.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+403.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+404.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+405.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+406.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+407.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+408.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+409.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+410.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+411.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+412.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+413.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+414.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+415.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+416.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+417.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+418.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+419.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+420.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+421.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+422.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+423.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+424.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+425.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+426.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+427.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+428.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+429.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+430.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+431.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+432.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+433.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+434.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+435.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+436.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+437.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+438.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+439.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+440.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+441.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+442.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+443.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+444.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+445.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+446.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+447.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+448.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+449.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+450.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+451.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+452.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+453.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+454.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+455.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+456.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+457.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+458.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+459.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+460.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+461.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+462.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+463.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+464.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+465.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+466.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+467.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+468.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+469.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+470.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+471.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+472.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+473.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+474.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+475.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+476.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+477.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+478.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+479.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+480.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+481.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+482.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+483.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+484.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+485.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+486.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+487.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+488.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+489.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+490.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+491.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+492.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+493.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+494.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+495.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+496.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+497.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+498.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+499.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+500.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+501.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+502.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+503.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+504.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+505.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+506.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+507.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+508.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+509.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+510.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+511.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+512.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+513.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+514.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+515.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+516.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+517.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+518.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+519.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+520.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+521.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+522.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+523.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+524.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+525.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+526.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+527.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+528.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+529.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+530.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+531.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+532.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+533.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+534.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+535.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+536.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+537.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+538.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+539.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+540.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+541.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+542.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+543.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+544.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+545.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+546.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+547.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+548.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+549.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+550.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+551.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+552.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+553.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+554.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+555.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+556.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+557.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+558.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+559.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+560.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+561.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+562.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+563.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+564.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+565.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+566.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+567.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+568.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+569.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+570.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+571.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+572.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+573.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+574.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+575.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+576.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+577.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+578.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+579.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+580.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+581.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+582.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+583.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+584.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+585.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+586.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+587.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+588.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+589.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+590.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+591.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+592.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+593.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+594.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+595.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+596.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+597.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+598.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+599.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+600.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+601.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+602.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+603.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+604.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+605.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+606.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+607.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+608.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+609.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+610.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+611.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+612.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+613.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+614.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+615.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+616.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+617.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+618.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+619.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+620.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+621.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+622.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+623.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+624.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+625.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+626.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+627.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+628.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+629.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+630.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+631.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+632.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+633.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+634.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+635.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+636.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+637.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+638.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+639.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+640.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+641.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+642.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+643.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+644.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+645.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+646.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+647.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+648.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+649.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+650.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+651.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+652.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+653.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+654.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+655.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+656.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+657.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+658.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+659.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+660.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+661.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+662.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+663.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+664.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+665.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+666.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+667.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+668.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+669.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+670.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+671.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+672.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+673.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+674.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+675.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+676.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+677.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+678.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+679.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+680.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+681.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+682.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+683.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+684.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+685.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+686.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+687.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+688.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+689.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+690.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+691.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+692.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+693.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+694.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+695.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+696.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+697.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+698.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+699.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+700.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+701.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+702.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+703.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+704.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+705.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+706.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+707.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+708.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+709.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+710.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+711.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+712.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+713.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+714.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+715.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+716.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+717.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+718.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+719.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+720.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+721.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+722.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+723.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+724.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+725.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+726.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+727.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+728.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+729.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+730.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+731.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+732.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+733.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+734.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+735.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+736.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+737.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+738.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+739.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+740.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+741.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+742.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+743.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+744.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+745.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+746.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+747.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+748.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+749.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+750.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+751.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+752.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+753.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+754.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+755.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+756.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+757.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+758.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+759.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+760.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+761.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+762.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+763.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+764.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+765.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+766.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+767.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+768.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+769.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+770.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+771.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+772.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+773.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+774.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+775.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+776.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+777.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+778.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+779.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+780.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+781.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+782.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+783.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+784.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+785.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+786.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+787.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+788.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+789.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+790.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+791.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+792.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+793.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+794.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+795.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+796.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+797.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+798.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+799.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+800.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+801.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+802.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+803.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+804.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+805.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+806.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+807.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+808.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+809.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+810.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+811.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+812.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+813.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+814.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+815.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+816.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+817.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+818.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+819.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+820.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+821.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+822.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+823.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+824.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+825.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+826.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+827.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+828.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+829.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+830.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+831.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+832.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+833.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+834.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+835.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+836.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+837.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+838.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+839.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+840.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+841.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+842.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+843.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+844.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+845.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+846.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+847.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+848.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+849.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+850.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+851.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+852.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+853.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+854.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+855.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+856.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+857.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+858.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+859.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+860.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+861.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+862.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+863.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+864.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+865.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+866.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+867.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+868.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+869.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+870.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+871.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+872.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+873.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+874.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+875.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+876.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+877.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+878.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+879.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+880.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+881.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+882.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+883.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+884.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+885.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+886.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+887.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+888.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+889.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+890.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+891.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+892.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+893.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+894.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+895.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+896.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+897.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+898.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+899.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+900.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+901.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+902.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+903.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+904.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+905.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+906.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+907.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+908.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+909.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+910.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+911.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+912.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+913.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+914.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+915.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+916.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+917.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+918.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+919.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+920.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+921.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+922.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+923.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+924.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+925.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+926.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+927.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+928.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+929.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+930.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+931.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+932.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+933.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+934.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+935.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+936.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+937.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+938.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+939.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+940.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+941.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+942.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+943.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+944.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+945.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+946.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+947.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+948.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+949.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+950.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+951.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+952.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+953.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+954.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+955.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+956.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+957.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+958.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+959.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+960.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+961.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+962.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+963.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+964.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+965.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+966.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+967.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+968.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+969.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+970.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+971.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+972.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+973.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+974.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+975.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+976.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+977.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+978.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+979.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+980.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+981.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+982.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+983.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+984.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+985.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+986.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+987.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+988.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+989.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+990.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+991.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+992.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+993.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+994.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+995.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+996.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+997.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+998.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+999.0 {'c3': {21: 2}, 'c2': {21: 2}, 'c1': {2: 4, 21: 2}, 'c4': {21: 2}}
+Done replay, left 140 items
+Messages
+c3
+c4
+c1
+    NotifyOracleDecision 4
+c2
+Rule Changes
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+19.459598 inr202 change
+20.687200 inr201 change
+20.687200 inr201 change
+20.687200 inr201 change
+20.687200 inr201 change
+20.687200 inr201 change
+20.687200 inr201 change
+20.687200 inr201 change
+20.687200 inr201 change
+20.687200 inr201 change
+20.687200 inr201 change
+20.687200 inr201 change
+20.687200 inr201 change
+20.687200 inr201 change
+20.687200 inr201 change
+20.687200 inr201 change
+20.687200 inr201 change
+20.687200 inr201 change
+20.687200 inr201 change
+20.687200 inr201 change
+20.687200 inr201 change
+20.687200 inr201 change
+20.687200 inr201 change
+20.687200 inr201 change
+20.687200 inr201 change
+20.687200 inr201 change
+20.687200 inr201 change
+20.687200 inr201 change
+20.687200 inr201 change
+20.687200 inr201 change
+20.687200 inr201 change
+20.687200 inr201 change
+20.687200 inr201 change
+20.687200 inr201 change
+20.687200 inr201 change
+20.687200 inr201 change
+20.687200 inr201 change
+20.687200 inr201 change
+20.687200 inr201 change
+20.687200 inr201 change
+20.687200 inr201 change
+20.687200 inr201 change
+20.687200 inr201 change
+20.687200 inr201 change
+20.687200 inr201 change
+20.687200 inr201 change
+20.687200 inr201 change
+20.687200 inr201 change
+20.687200 inr201 change
+20.687200 inr201 change
+20.687200 inr201 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+20.698382 inr250 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+22.747155 inr157 change
+Convergence
+1.000000 2450 2450 100.000000 1
+2.000000 2450 1681 68.612245 1
+3.000000 2450 1681 68.612245 1
+4.000000 2450 1681 68.612245 1
+5.000000 2450 1681 68.612245 1
+6.000000 2450 1681 68.612245 1
+7.000000 2450 1681 68.612245 1
+8.000000 2450 1681 68.612245 1
+9.000000 2450 1681 68.612245 1
+10.000000 2450 1681 68.612245 1
+11.000000 2450 1681 68.612245 1
+12.000000 2450 1681 68.612245 1
+13.000000 2450 1681 68.612245 1
+14.000000 2450 1681 68.612245 1
+15.000000 2450 1681 68.612245 1
+16.000000 2450 1681 68.612245 1
+17.000000 2450 1681 68.612245 1
+18.000000 2450 1681 68.612245 1
+19.000000 2450 1681 68.612245 1
+20.000000 2450 1681 68.612245 1
+21.000000 2450 2099 85.673469 1
+22.000000 2450 2099 85.673469 1
+23.000000 2450 2450 100.000000 1
+24.000000 2450 2450 100.000000 1
+25.000000 2450 2450 100.000000 1
+26.000000 2450 2450 100.000000 1
+27.000000 2450 2450 100.000000 1
+28.000000 2450 2450 100.000000 1
+29.000000 2450 2450 100.000000 1
+30.000000 2450 2450 100.000000 1
+31.000000 2450 2450 100.000000 1
+32.000000 2450 2450 100.000000 1
+33.000000 2450 2450 100.000000 1
+34.000000 2450 2450 100.000000 1
+35.000000 2450 2450 100.000000 1
+36.000000 2450 2450 100.000000 1
+37.000000 2450 2450 100.000000 1
+38.000000 2450 2450 100.000000 1
+39.000000 2450 2450 100.000000 1
+40.000000 2450 2450 100.000000 1
+41.000000 2450 2450 100.000000 1
+42.000000 2450 2450 100.000000 1
+43.000000 2450 2450 100.000000 1
+44.000000 2450 2450 100.000000 1
+45.000000 2450 2450 100.000000 1
+46.000000 2450 2450 100.000000 1
+47.000000 2450 2450 100.000000 1
+48.000000 2450 2450 100.000000 1
+49.000000 2450 2450 100.000000 1
+50.000000 2450 2450 100.000000 1
+51.000000 2450 2450 100.000000 1
+52.000000 2450 2450 100.000000 1
+53.000000 2450 2450 100.000000 1
+54.000000 2450 2450 100.000000 1
+55.000000 2450 2450 100.000000 1
+56.000000 2450 2450 100.000000 1
+57.000000 2450 2450 100.000000 1
+58.000000 2450 2450 100.000000 1
+59.000000 2450 2450 100.000000 1
+60.000000 2450 2450 100.000000 1
+61.000000 2450 2450 100.000000 1
+62.000000 2450 2450 100.000000 1
+63.000000 2450 2450 100.000000 1
+64.000000 2450 2450 100.000000 1
+65.000000 2450 2450 100.000000 1
+66.000000 2450 2450 100.000000 1
+67.000000 2450 2450 100.000000 1
+68.000000 2450 2450 100.000000 1
+69.000000 2450 2450 100.000000 1
+70.000000 2450 2450 100.000000 1
+71.000000 2450 2450 100.000000 1
+72.000000 2450 2450 100.000000 1
+73.000000 2450 2450 100.000000 1
+74.000000 2450 2450 100.000000 1
+75.000000 2450 2450 100.000000 1
+76.000000 2450 2450 100.000000 1
+77.000000 2450 2450 100.000000 1
+78.000000 2450 2450 100.000000 1
+79.000000 2450 2450 100.000000 1
+80.000000 2450 2450 100.000000 1
+81.000000 2450 2450 100.000000 1
+82.000000 2450 2450 100.000000 1
+83.000000 2450 2450 100.000000 1
+84.000000 2450 2450 100.000000 1
+85.000000 2450 2450 100.000000 1
+86.000000 2450 2450 100.000000 1
+87.000000 2450 2450 100.000000 1
+88.000000 2450 2450 100.000000 1
+89.000000 2450 2450 100.000000 1
+90.000000 2450 2450 100.000000 1
+91.000000 2450 2450 100.000000 1
+92.000000 2450 2450 100.000000 1
+93.000000 2450 2450 100.000000 1
+94.000000 2450 2450 100.000000 1
+95.000000 2450 2450 100.000000 1
+96.000000 2450 2450 100.000000 1
+97.000000 2450 2450 100.000000 1
+98.000000 2450 2450 100.000000 1
+99.000000 2450 2450 100.000000 1
+100.000000 2450 2450 100.000000 1
+101.000000 2450 2450 100.000000 1
+102.000000 2450 2450 100.000000 1
+103.000000 2450 2450 100.000000 1
+104.000000 2450 2450 100.000000 1
+105.000000 2450 2450 100.000000 1
+106.000000 2450 2450 100.000000 1
+107.000000 2450 2450 100.000000 1
+108.000000 2450 2450 100.000000 1
+109.000000 2450 2450 100.000000 1
+110.000000 2450 2450 100.000000 1
+111.000000 2450 2450 100.000000 1
+112.000000 2450 2450 100.000000 1
+113.000000 2450 2450 100.000000 1
+114.000000 2450 2450 100.000000 1
+115.000000 2450 2450 100.000000 1
+116.000000 2450 2450 100.000000 1
+117.000000 2450 2450 100.000000 1
+118.000000 2450 2450 100.000000 1
+119.000000 2450 2450 100.000000 1
+120.000000 2450 2450 100.000000 1
+121.000000 2450 2450 100.000000 1
+122.000000 2450 2450 100.000000 1
+123.000000 2450 2450 100.000000 1
+124.000000 2450 2450 100.000000 1
+125.000000 2450 2450 100.000000 1
+126.000000 2450 2450 100.000000 1
+127.000000 2450 2450 100.000000 1
+128.000000 2450 2450 100.000000 1
+129.000000 2450 2450 100.000000 1
+130.000000 2450 2450 100.000000 1
+131.000000 2450 2450 100.000000 1
+132.000000 2450 2450 100.000000 1
+133.000000 2450 2450 100.000000 1
+134.000000 2450 2450 100.000000 1
+135.000000 2450 2450 100.000000 1
+136.000000 2450 2450 100.000000 1
+137.000000 2450 2450 100.000000 1
+138.000000 2450 2450 100.000000 1
+139.000000 2450 2450 100.000000 1
+140.000000 2450 2450 100.000000 1
+141.000000 2450 2450 100.000000 1
+142.000000 2450 2450 100.000000 1
+143.000000 2450 2450 100.000000 1
+144.000000 2450 2450 100.000000 1
+145.000000 2450 2450 100.000000 1
+146.000000 2450 2450 100.000000 1
+147.000000 2450 2450 100.000000 1
+148.000000 2450 2450 100.000000 1
+149.000000 2450 2450 100.000000 1
+150.000000 2450 2450 100.000000 1
+151.000000 2450 2450 100.000000 1
+152.000000 2450 2450 100.000000 1
+153.000000 2450 2450 100.000000 1
+154.000000 2450 2450 100.000000 1
+155.000000 2450 2450 100.000000 1
+156.000000 2450 2450 100.000000 1
+157.000000 2450 2450 100.000000 1
+158.000000 2450 2450 100.000000 1
+159.000000 2450 2450 100.000000 1
+160.000000 2450 2450 100.000000 1
+161.000000 2450 2450 100.000000 1
+162.000000 2450 2450 100.000000 1
+163.000000 2450 2450 100.000000 1
+164.000000 2450 2450 100.000000 1
+165.000000 2450 2450 100.000000 1
+166.000000 2450 2450 100.000000 1
+167.000000 2450 2450 100.000000 1
+168.000000 2450 2450 100.000000 1
+169.000000 2450 2450 100.000000 1
+170.000000 2450 2450 100.000000 1
+171.000000 2450 2450 100.000000 1
+172.000000 2450 2450 100.000000 1
+173.000000 2450 2450 100.000000 1
+174.000000 2450 2450 100.000000 1
+175.000000 2450 2450 100.000000 1
+176.000000 2450 2450 100.000000 1
+177.000000 2450 2450 100.000000 1
+178.000000 2450 2450 100.000000 1
+179.000000 2450 2450 100.000000 1
+180.000000 2450 2450 100.000000 1
+181.000000 2450 2450 100.000000 1
+182.000000 2450 2450 100.000000 1
+183.000000 2450 2450 100.000000 1
+184.000000 2450 2450 100.000000 1
+185.000000 2450 2450 100.000000 1
+186.000000 2450 2450 100.000000 1
+187.000000 2450 2450 100.000000 1
+188.000000 2450 2450 100.000000 1
+189.000000 2450 2450 100.000000 1
+190.000000 2450 2450 100.000000 1
+191.000000 2450 2450 100.000000 1
+192.000000 2450 2450 100.000000 1
+193.000000 2450 2450 100.000000 1
+194.000000 2450 2450 100.000000 1
+195.000000 2450 2450 100.000000 1
+196.000000 2450 2450 100.000000 1
+197.000000 2450 2450 100.000000 1
+198.000000 2450 2450 100.000000 1
+199.000000 2450 2450 100.000000 1
+200.000000 2450 2450 100.000000 1
+201.000000 2450 2450 100.000000 1
+202.000000 2450 2450 100.000000 1
+203.000000 2450 2450 100.000000 1
+204.000000 2450 2450 100.000000 1
+205.000000 2450 2450 100.000000 1
+206.000000 2450 2450 100.000000 1
+207.000000 2450 2450 100.000000 1
+208.000000 2450 2450 100.000000 1
+209.000000 2450 2450 100.000000 1
+210.000000 2450 2450 100.000000 1
+211.000000 2450 2450 100.000000 1
+212.000000 2450 2450 100.000000 1
+213.000000 2450 2450 100.000000 1
+214.000000 2450 2450 100.000000 1
+215.000000 2450 2450 100.000000 1
+216.000000 2450 2450 100.000000 1
+217.000000 2450 2450 100.000000 1
+218.000000 2450 2450 100.000000 1
+219.000000 2450 2450 100.000000 1
+220.000000 2450 2450 100.000000 1
+221.000000 2450 2450 100.000000 1
+222.000000 2450 2450 100.000000 1
+223.000000 2450 2450 100.000000 1
+224.000000 2450 2450 100.000000 1
+225.000000 2450 2450 100.000000 1
+226.000000 2450 2450 100.000000 1
+227.000000 2450 2450 100.000000 1
+228.000000 2450 2450 100.000000 1
+229.000000 2450 2450 100.000000 1
+230.000000 2450 2450 100.000000 1
+231.000000 2450 2450 100.000000 1
+232.000000 2450 2450 100.000000 1
+233.000000 2450 2450 100.000000 1
+234.000000 2450 2450 100.000000 1
+235.000000 2450 2450 100.000000 1
+236.000000 2450 2450 100.000000 1
+237.000000 2450 2450 100.000000 1
+238.000000 2450 2450 100.000000 1
+239.000000 2450 2450 100.000000 1
+240.000000 2450 2450 100.000000 1
+241.000000 2450 2450 100.000000 1
+242.000000 2450 2450 100.000000 1
+243.000000 2450 2450 100.000000 1
+244.000000 2450 2450 100.000000 1
+245.000000 2450 2450 100.000000 1
+246.000000 2450 2450 100.000000 1
+247.000000 2450 2450 100.000000 1
+248.000000 2450 2450 100.000000 1
+249.000000 2450 2450 100.000000 1
+250.000000 2450 2450 100.000000 1
+251.000000 2450 2450 100.000000 1
+252.000000 2450 2450 100.000000 1
+253.000000 2450 2450 100.000000 1
+254.000000 2450 2450 100.000000 1
+255.000000 2450 2450 100.000000 1
+256.000000 2450 2450 100.000000 1
+257.000000 2450 2450 100.000000 1
+258.000000 2450 2450 100.000000 1
+259.000000 2450 2450 100.000000 1
+260.000000 2450 2450 100.000000 1
+261.000000 2450 2450 100.000000 1
+262.000000 2450 2450 100.000000 1
+263.000000 2450 2450 100.000000 1
+264.000000 2450 2450 100.000000 1
+265.000000 2450 2450 100.000000 1
+266.000000 2450 2450 100.000000 1
+267.000000 2450 2450 100.000000 1
+268.000000 2450 2450 100.000000 1
+269.000000 2450 2450 100.000000 1
+270.000000 2450 2450 100.000000 1
+271.000000 2450 2450 100.000000 1
+272.000000 2450 2450 100.000000 1
+273.000000 2450 2450 100.000000 1
+274.000000 2450 2450 100.000000 1
+275.000000 2450 2450 100.000000 1
+276.000000 2450 2450 100.000000 1
+277.000000 2450 2450 100.000000 1
+278.000000 2450 2450 100.000000 1
+279.000000 2450 2450 100.000000 1
+280.000000 2450 2450 100.000000 1
+281.000000 2450 2450 100.000000 1
+282.000000 2450 2450 100.000000 1
+283.000000 2450 2450 100.000000 1
+284.000000 2450 2450 100.000000 1
+285.000000 2450 2450 100.000000 1
+286.000000 2450 2450 100.000000 1
+287.000000 2450 2450 100.000000 1
+288.000000 2450 2450 100.000000 1
+289.000000 2450 2450 100.000000 1
+290.000000 2450 2450 100.000000 1
+291.000000 2450 2450 100.000000 1
+292.000000 2450 2450 100.000000 1
+293.000000 2450 2450 100.000000 1
+294.000000 2450 2450 100.000000 1
+295.000000 2450 2450 100.000000 1
+296.000000 2450 2450 100.000000 1
+297.000000 2450 2450 100.000000 1
+298.000000 2450 2450 100.000000 1
+299.000000 2450 2450 100.000000 1
+300.000000 2450 2450 100.000000 1
+301.000000 2450 2450 100.000000 1
+302.000000 2450 2450 100.000000 1
+303.000000 2450 2450 100.000000 1
+304.000000 2450 2450 100.000000 1
+305.000000 2450 2450 100.000000 1
+306.000000 2450 2450 100.000000 1
+307.000000 2450 2450 100.000000 1
+308.000000 2450 2450 100.000000 1
+309.000000 2450 2450 100.000000 1
+310.000000 2450 2450 100.000000 1
+311.000000 2450 2450 100.000000 1
+312.000000 2450 2450 100.000000 1
+313.000000 2450 2450 100.000000 1
+314.000000 2450 2450 100.000000 1
+315.000000 2450 2450 100.000000 1
+316.000000 2450 2450 100.000000 1
+317.000000 2450 2450 100.000000 1
+318.000000 2450 2450 100.000000 1
+319.000000 2450 2450 100.000000 1
+320.000000 2450 2450 100.000000 1
+321.000000 2450 2450 100.000000 1
+322.000000 2450 2450 100.000000 1
+323.000000 2450 2450 100.000000 1
+324.000000 2450 2450 100.000000 1
+325.000000 2450 2450 100.000000 1
+326.000000 2450 2450 100.000000 1
+327.000000 2450 2450 100.000000 1
+328.000000 2450 2450 100.000000 1
+329.000000 2450 2450 100.000000 1
+330.000000 2450 2450 100.000000 1
+331.000000 2450 2450 100.000000 1
+332.000000 2450 2450 100.000000 1
+333.000000 2450 2450 100.000000 1
+334.000000 2450 2450 100.000000 1
+335.000000 2450 2450 100.000000 1
+336.000000 2450 2450 100.000000 1
+337.000000 2450 2450 100.000000 1
+338.000000 2450 2450 100.000000 1
+339.000000 2450 2450 100.000000 1
+340.000000 2450 2450 100.000000 1
+341.000000 2450 2450 100.000000 1
+342.000000 2450 2450 100.000000 1
+343.000000 2450 2450 100.000000 1
+344.000000 2450 2450 100.000000 1
+345.000000 2450 2450 100.000000 1
+346.000000 2450 2450 100.000000 1
+347.000000 2450 2450 100.000000 1
+348.000000 2450 2450 100.000000 1
+349.000000 2450 2450 100.000000 1
+350.000000 2450 2450 100.000000 1
+351.000000 2450 2450 100.000000 1
+352.000000 2450 2450 100.000000 1
+353.000000 2450 2450 100.000000 1
+354.000000 2450 2450 100.000000 1
+355.000000 2450 2450 100.000000 1
+356.000000 2450 2450 100.000000 1
+357.000000 2450 2450 100.000000 1
+358.000000 2450 2450 100.000000 1
+359.000000 2450 2450 100.000000 1
+360.000000 2450 2450 100.000000 1
+361.000000 2450 2450 100.000000 1
+362.000000 2450 2450 100.000000 1
+363.000000 2450 2450 100.000000 1
+364.000000 2450 2450 100.000000 1
+365.000000 2450 2450 100.000000 1
+366.000000 2450 2450 100.000000 1
+367.000000 2450 2450 100.000000 1
+368.000000 2450 2450 100.000000 1
+369.000000 2450 2450 100.000000 1
+370.000000 2450 2450 100.000000 1
+371.000000 2450 2450 100.000000 1
+372.000000 2450 2450 100.000000 1
+373.000000 2450 2450 100.000000 1
+374.000000 2450 2450 100.000000 1
+375.000000 2450 2450 100.000000 1
+376.000000 2450 2450 100.000000 1
+377.000000 2450 2450 100.000000 1
+378.000000 2450 2450 100.000000 1
+379.000000 2450 2450 100.000000 1
+380.000000 2450 2450 100.000000 1
+381.000000 2450 2450 100.000000 1
+382.000000 2450 2450 100.000000 1
+383.000000 2450 2450 100.000000 1
+384.000000 2450 2450 100.000000 1
+385.000000 2450 2450 100.000000 1
+386.000000 2450 2450 100.000000 1
+387.000000 2450 2450 100.000000 1
+388.000000 2450 2450 100.000000 1
+389.000000 2450 2450 100.000000 1
+390.000000 2450 2450 100.000000 1
+391.000000 2450 2450 100.000000 1
+392.000000 2450 2450 100.000000 1
+393.000000 2450 2450 100.000000 1
+394.000000 2450 2450 100.000000 1
+395.000000 2450 2450 100.000000 1
+396.000000 2450 2450 100.000000 1
+397.000000 2450 2450 100.000000 1
+398.000000 2450 2450 100.000000 1
+399.000000 2450 2450 100.000000 1
+400.000000 2450 2450 100.000000 1
+401.000000 2450 2450 100.000000 1
+402.000000 2450 2450 100.000000 1
+403.000000 2450 2450 100.000000 1
+404.000000 2450 2450 100.000000 1
+405.000000 2450 2450 100.000000 1
+406.000000 2450 2450 100.000000 1
+407.000000 2450 2450 100.000000 1
+408.000000 2450 2450 100.000000 1
+409.000000 2450 2450 100.000000 1
+410.000000 2450 2450 100.000000 1
+411.000000 2450 2450 100.000000 1
+412.000000 2450 2450 100.000000 1
+413.000000 2450 2450 100.000000 1
+414.000000 2450 2450 100.000000 1
+415.000000 2450 2450 100.000000 1
+416.000000 2450 2450 100.000000 1
+417.000000 2450 2450 100.000000 1
+418.000000 2450 2450 100.000000 1
+419.000000 2450 2450 100.000000 1
+420.000000 2450 2450 100.000000 1
+421.000000 2450 2450 100.000000 1
+422.000000 2450 2450 100.000000 1
+423.000000 2450 2450 100.000000 1
+424.000000 2450 2450 100.000000 1
+425.000000 2450 2450 100.000000 1
+426.000000 2450 2450 100.000000 1
+427.000000 2450 2450 100.000000 1
+428.000000 2450 2450 100.000000 1
+429.000000 2450 2450 100.000000 1
+430.000000 2450 2450 100.000000 1
+431.000000 2450 2450 100.000000 1
+432.000000 2450 2450 100.000000 1
+433.000000 2450 2450 100.000000 1
+434.000000 2450 2450 100.000000 1
+435.000000 2450 2450 100.000000 1
+436.000000 2450 2450 100.000000 1
+437.000000 2450 2450 100.000000 1
+438.000000 2450 2450 100.000000 1
+439.000000 2450 2450 100.000000 1
+440.000000 2450 2450 100.000000 1
+441.000000 2450 2450 100.000000 1
+442.000000 2450 2450 100.000000 1
+443.000000 2450 2450 100.000000 1
+444.000000 2450 2450 100.000000 1
+445.000000 2450 2450 100.000000 1
+446.000000 2450 2450 100.000000 1
+447.000000 2450 2450 100.000000 1
+448.000000 2450 2450 100.000000 1
+449.000000 2450 2450 100.000000 1
+450.000000 2450 2450 100.000000 1
+451.000000 2450 2450 100.000000 1
+452.000000 2450 2450 100.000000 1
+453.000000 2450 2450 100.000000 1
+454.000000 2450 2450 100.000000 1
+455.000000 2450 2450 100.000000 1
+456.000000 2450 2450 100.000000 1
+457.000000 2450 2450 100.000000 1
+458.000000 2450 2450 100.000000 1
+459.000000 2450 2450 100.000000 1
+460.000000 2450 2450 100.000000 1
+461.000000 2450 2450 100.000000 1
+462.000000 2450 2450 100.000000 1
+463.000000 2450 2450 100.000000 1
+464.000000 2450 2450 100.000000 1
+465.000000 2450 2450 100.000000 1
+466.000000 2450 2450 100.000000 1
+467.000000 2450 2450 100.000000 1
+468.000000 2450 2450 100.000000 1
+469.000000 2450 2450 100.000000 1
+470.000000 2450 2450 100.000000 1
+471.000000 2450 2450 100.000000 1
+472.000000 2450 2450 100.000000 1
+473.000000 2450 2450 100.000000 1
+474.000000 2450 2450 100.000000 1
+475.000000 2450 2450 100.000000 1
+476.000000 2450 2450 100.000000 1
+477.000000 2450 2450 100.000000 1
+478.000000 2450 2450 100.000000 1
+479.000000 2450 2450 100.000000 1
+480.000000 2450 2450 100.000000 1
+481.000000 2450 2450 100.000000 1
+482.000000 2450 2450 100.000000 1
+483.000000 2450 2450 100.000000 1
+484.000000 2450 2450 100.000000 1
+485.000000 2450 2450 100.000000 1
+486.000000 2450 2450 100.000000 1
+487.000000 2450 2450 100.000000 1
+488.000000 2450 2450 100.000000 1
+489.000000 2450 2450 100.000000 1
+490.000000 2450 2450 100.000000 1
+491.000000 2450 2450 100.000000 1
+492.000000 2450 2450 100.000000 1
+493.000000 2450 2450 100.000000 1
+494.000000 2450 2450 100.000000 1
+495.000000 2450 2450 100.000000 1
+496.000000 2450 2450 100.000000 1
+497.000000 2450 2450 100.000000 1
+498.000000 2450 2450 100.000000 1
+499.000000 2450 2450 100.000000 1
+500.000000 2450 2450 100.000000 1
+501.000000 2450 2450 100.000000 1
+502.000000 2450 2450 100.000000 1
+503.000000 2450 2450 100.000000 1
+504.000000 2450 2450 100.000000 1
+505.000000 2450 2450 100.000000 1
+506.000000 2450 2450 100.000000 1
+507.000000 2450 2450 100.000000 1
+508.000000 2450 2450 100.000000 1
+509.000000 2450 2450 100.000000 1
+510.000000 2450 2450 100.000000 1
+511.000000 2450 2450 100.000000 1
+512.000000 2450 2450 100.000000 1
+513.000000 2450 2450 100.000000 1
+514.000000 2450 2450 100.000000 1
+515.000000 2450 2450 100.000000 1
+516.000000 2450 2450 100.000000 1
+517.000000 2450 2450 100.000000 1
+518.000000 2450 2450 100.000000 1
+519.000000 2450 2450 100.000000 1
+520.000000 2450 2450 100.000000 1
+521.000000 2450 2450 100.000000 1
+522.000000 2450 2450 100.000000 1
+523.000000 2450 2450 100.000000 1
+524.000000 2450 2450 100.000000 1
+525.000000 2450 2450 100.000000 1
+526.000000 2450 2450 100.000000 1
+527.000000 2450 2450 100.000000 1
+528.000000 2450 2450 100.000000 1
+529.000000 2450 2450 100.000000 1
+530.000000 2450 2450 100.000000 1
+531.000000 2450 2450 100.000000 1
+532.000000 2450 2450 100.000000 1
+533.000000 2450 2450 100.000000 1
+534.000000 2450 2450 100.000000 1
+535.000000 2450 2450 100.000000 1
+536.000000 2450 2450 100.000000 1
+537.000000 2450 2450 100.000000 1
+538.000000 2450 2450 100.000000 1
+539.000000 2450 2450 100.000000 1
+540.000000 2450 2450 100.000000 1
+541.000000 2450 2450 100.000000 1
+542.000000 2450 2450 100.000000 1
+543.000000 2450 2450 100.000000 1
+544.000000 2450 2450 100.000000 1
+545.000000 2450 2450 100.000000 1
+546.000000 2450 2450 100.000000 1
+547.000000 2450 2450 100.000000 1
+548.000000 2450 2450 100.000000 1
+549.000000 2450 2450 100.000000 1
+550.000000 2450 2450 100.000000 1
+551.000000 2450 2450 100.000000 1
+552.000000 2450 2450 100.000000 1
+553.000000 2450 2450 100.000000 1
+554.000000 2450 2450 100.000000 1
+555.000000 2450 2450 100.000000 1
+556.000000 2450 2450 100.000000 1
+557.000000 2450 2450 100.000000 1
+558.000000 2450 2450 100.000000 1
+559.000000 2450 2450 100.000000 1
+560.000000 2450 2450 100.000000 1
+561.000000 2450 2450 100.000000 1
+562.000000 2450 2450 100.000000 1
+563.000000 2450 2450 100.000000 1
+564.000000 2450 2450 100.000000 1
+565.000000 2450 2450 100.000000 1
+566.000000 2450 2450 100.000000 1
+567.000000 2450 2450 100.000000 1
+568.000000 2450 2450 100.000000 1
+569.000000 2450 2450 100.000000 1
+570.000000 2450 2450 100.000000 1
+571.000000 2450 2450 100.000000 1
+572.000000 2450 2450 100.000000 1
+573.000000 2450 2450 100.000000 1
+574.000000 2450 2450 100.000000 1
+575.000000 2450 2450 100.000000 1
+576.000000 2450 2450 100.000000 1
+577.000000 2450 2450 100.000000 1
+578.000000 2450 2450 100.000000 1
+579.000000 2450 2450 100.000000 1
+580.000000 2450 2450 100.000000 1
+581.000000 2450 2450 100.000000 1
+582.000000 2450 2450 100.000000 1
+583.000000 2450 2450 100.000000 1
+584.000000 2450 2450 100.000000 1
+585.000000 2450 2450 100.000000 1
+586.000000 2450 2450 100.000000 1
+587.000000 2450 2450 100.000000 1
+588.000000 2450 2450 100.000000 1
+589.000000 2450 2450 100.000000 1
+590.000000 2450 2450 100.000000 1
+591.000000 2450 2450 100.000000 1
+592.000000 2450 2450 100.000000 1
+593.000000 2450 2450 100.000000 1
+594.000000 2450 2450 100.000000 1
+595.000000 2450 2450 100.000000 1
+596.000000 2450 2450 100.000000 1
+597.000000 2450 2450 100.000000 1
+598.000000 2450 2450 100.000000 1
+599.000000 2450 2450 100.000000 1
+600.000000 2450 2450 100.000000 1
+601.000000 2450 2450 100.000000 1
+602.000000 2450 2450 100.000000 1
+603.000000 2450 2450 100.000000 1
+604.000000 2450 2450 100.000000 1
+605.000000 2450 2450 100.000000 1
+606.000000 2450 2450 100.000000 1
+607.000000 2450 2450 100.000000 1
+608.000000 2450 2450 100.000000 1
+609.000000 2450 2450 100.000000 1
+610.000000 2450 2450 100.000000 1
+611.000000 2450 2450 100.000000 1
+612.000000 2450 2450 100.000000 1
+613.000000 2450 2450 100.000000 1
+614.000000 2450 2450 100.000000 1
+615.000000 2450 2450 100.000000 1
+616.000000 2450 2450 100.000000 1
+617.000000 2450 2450 100.000000 1
+618.000000 2450 2450 100.000000 1
+619.000000 2450 2450 100.000000 1
+620.000000 2450 2450 100.000000 1
+621.000000 2450 2450 100.000000 1
+622.000000 2450 2450 100.000000 1
+623.000000 2450 2450 100.000000 1
+624.000000 2450 2450 100.000000 1
+625.000000 2450 2450 100.000000 1
+626.000000 2450 2450 100.000000 1
+627.000000 2450 2450 100.000000 1
+628.000000 2450 2450 100.000000 1
+629.000000 2450 2450 100.000000 1
+630.000000 2450 2450 100.000000 1
+631.000000 2450 2450 100.000000 1
+632.000000 2450 2450 100.000000 1
+633.000000 2450 2450 100.000000 1
+634.000000 2450 2450 100.000000 1
+635.000000 2450 2450 100.000000 1
+636.000000 2450 2450 100.000000 1
+637.000000 2450 2450 100.000000 1
+638.000000 2450 2450 100.000000 1
+639.000000 2450 2450 100.000000 1
+640.000000 2450 2450 100.000000 1
+641.000000 2450 2450 100.000000 1
+642.000000 2450 2450 100.000000 1
+643.000000 2450 2450 100.000000 1
+644.000000 2450 2450 100.000000 1
+645.000000 2450 2450 100.000000 1
+646.000000 2450 2450 100.000000 1
+647.000000 2450 2450 100.000000 1
+648.000000 2450 2450 100.000000 1
+649.000000 2450 2450 100.000000 1
+650.000000 2450 2450 100.000000 1
+651.000000 2450 2450 100.000000 1
+652.000000 2450 2450 100.000000 1
+653.000000 2450 2450 100.000000 1
+654.000000 2450 2450 100.000000 1
+655.000000 2450 2450 100.000000 1
+656.000000 2450 2450 100.000000 1
+657.000000 2450 2450 100.000000 1
+658.000000 2450 2450 100.000000 1
+659.000000 2450 2450 100.000000 1
+660.000000 2450 2450 100.000000 1
+661.000000 2450 2450 100.000000 1
+662.000000 2450 2450 100.000000 1
+663.000000 2450 2450 100.000000 1
+664.000000 2450 2450 100.000000 1
+665.000000 2450 2450 100.000000 1
+666.000000 2450 2450 100.000000 1
+667.000000 2450 2450 100.000000 1
+668.000000 2450 2450 100.000000 1
+669.000000 2450 2450 100.000000 1
+670.000000 2450 2450 100.000000 1
+671.000000 2450 2450 100.000000 1
+672.000000 2450 2450 100.000000 1
+673.000000 2450 2450 100.000000 1
+674.000000 2450 2450 100.000000 1
+675.000000 2450 2450 100.000000 1
+676.000000 2450 2450 100.000000 1
+677.000000 2450 2450 100.000000 1
+678.000000 2450 2450 100.000000 1
+679.000000 2450 2450 100.000000 1
+680.000000 2450 2450 100.000000 1
+681.000000 2450 2450 100.000000 1
+682.000000 2450 2450 100.000000 1
+683.000000 2450 2450 100.000000 1
+684.000000 2450 2450 100.000000 1
+685.000000 2450 2450 100.000000 1
+686.000000 2450 2450 100.000000 1
+687.000000 2450 2450 100.000000 1
+688.000000 2450 2450 100.000000 1
+689.000000 2450 2450 100.000000 1
+690.000000 2450 2450 100.000000 1
+691.000000 2450 2450 100.000000 1
+692.000000 2450 2450 100.000000 1
+693.000000 2450 2450 100.000000 1
+694.000000 2450 2450 100.000000 1
+695.000000 2450 2450 100.000000 1
+696.000000 2450 2450 100.000000 1
+697.000000 2450 2450 100.000000 1
+698.000000 2450 2450 100.000000 1
+699.000000 2450 2450 100.000000 1
+700.000000 2450 2450 100.000000 1
+701.000000 2450 2450 100.000000 1
+702.000000 2450 2450 100.000000 1
+703.000000 2450 2450 100.000000 1
+704.000000 2450 2450 100.000000 1
+705.000000 2450 2450 100.000000 1
+706.000000 2450 2450 100.000000 1
+707.000000 2450 2450 100.000000 1
+708.000000 2450 2450 100.000000 1
+709.000000 2450 2450 100.000000 1
+710.000000 2450 2450 100.000000 1
+711.000000 2450 2450 100.000000 1
+712.000000 2450 2450 100.000000 1
+713.000000 2450 2450 100.000000 1
+714.000000 2450 2450 100.000000 1
+715.000000 2450 2450 100.000000 1
+716.000000 2450 2450 100.000000 1
+717.000000 2450 2450 100.000000 1
+718.000000 2450 2450 100.000000 1
+719.000000 2450 2450 100.000000 1
+720.000000 2450 2450 100.000000 1
+721.000000 2450 2450 100.000000 1
+722.000000 2450 2450 100.000000 1
+723.000000 2450 2450 100.000000 1
+724.000000 2450 2450 100.000000 1
+725.000000 2450 2450 100.000000 1
+726.000000 2450 2450 100.000000 1
+727.000000 2450 2450 100.000000 1
+728.000000 2450 2450 100.000000 1
+729.000000 2450 2450 100.000000 1
+730.000000 2450 2450 100.000000 1
+731.000000 2450 2450 100.000000 1
+732.000000 2450 2450 100.000000 1
+733.000000 2450 2450 100.000000 1
+734.000000 2450 2450 100.000000 1
+735.000000 2450 2450 100.000000 1
+736.000000 2450 2450 100.000000 1
+737.000000 2450 2450 100.000000 1
+738.000000 2450 2450 100.000000 1
+739.000000 2450 2450 100.000000 1
+740.000000 2450 2450 100.000000 1
+741.000000 2450 2450 100.000000 1
+742.000000 2450 2450 100.000000 1
+743.000000 2450 2450 100.000000 1
+744.000000 2450 2450 100.000000 1
+745.000000 2450 2450 100.000000 1
+746.000000 2450 2450 100.000000 1
+747.000000 2450 2450 100.000000 1
+748.000000 2450 2450 100.000000 1
+749.000000 2450 2450 100.000000 1
+750.000000 2450 2450 100.000000 1
+751.000000 2450 2450 100.000000 1
+752.000000 2450 2450 100.000000 1
+753.000000 2450 2450 100.000000 1
+754.000000 2450 2450 100.000000 1
+755.000000 2450 2450 100.000000 1
+756.000000 2450 2450 100.000000 1
+757.000000 2450 2450 100.000000 1
+758.000000 2450 2450 100.000000 1
+759.000000 2450 2450 100.000000 1
+760.000000 2450 2450 100.000000 1
+761.000000 2450 2450 100.000000 1
+762.000000 2450 2450 100.000000 1
+763.000000 2450 2450 100.000000 1
+764.000000 2450 2450 100.000000 1
+765.000000 2450 2450 100.000000 1
+766.000000 2450 2450 100.000000 1
+767.000000 2450 2450 100.000000 1
+768.000000 2450 2450 100.000000 1
+769.000000 2450 2450 100.000000 1
+770.000000 2450 2450 100.000000 1
+771.000000 2450 2450 100.000000 1
+772.000000 2450 2450 100.000000 1
+773.000000 2450 2450 100.000000 1
+774.000000 2450 2450 100.000000 1
+775.000000 2450 2450 100.000000 1
+776.000000 2450 2450 100.000000 1
+777.000000 2450 2450 100.000000 1
+778.000000 2450 2450 100.000000 1
+779.000000 2450 2450 100.000000 1
+780.000000 2450 2450 100.000000 1
+781.000000 2450 2450 100.000000 1
+782.000000 2450 2450 100.000000 1
+783.000000 2450 2450 100.000000 1
+784.000000 2450 2450 100.000000 1
+785.000000 2450 2450 100.000000 1
+786.000000 2450 2450 100.000000 1
+787.000000 2450 2450 100.000000 1
+788.000000 2450 2450 100.000000 1
+789.000000 2450 2450 100.000000 1
+790.000000 2450 2450 100.000000 1
+791.000000 2450 2450 100.000000 1
+792.000000 2450 2450 100.000000 1
+793.000000 2450 2450 100.000000 1
+794.000000 2450 2450 100.000000 1
+795.000000 2450 2450 100.000000 1
+796.000000 2450 2450 100.000000 1
+797.000000 2450 2450 100.000000 1
+798.000000 2450 2450 100.000000 1
+799.000000 2450 2450 100.000000 1
+800.000000 2450 2450 100.000000 1
+801.000000 2450 2450 100.000000 1
+802.000000 2450 2450 100.000000 1
+803.000000 2450 2450 100.000000 1
+804.000000 2450 2450 100.000000 1
+805.000000 2450 2450 100.000000 1
+806.000000 2450 2450 100.000000 1
+807.000000 2450 2450 100.000000 1
+808.000000 2450 2450 100.000000 1
+809.000000 2450 2450 100.000000 1
+810.000000 2450 2450 100.000000 1
+811.000000 2450 2450 100.000000 1
+812.000000 2450 2450 100.000000 1
+813.000000 2450 2450 100.000000 1
+814.000000 2450 2450 100.000000 1
+815.000000 2450 2450 100.000000 1
+816.000000 2450 2450 100.000000 1
+817.000000 2450 2450 100.000000 1
+818.000000 2450 2450 100.000000 1
+819.000000 2450 2450 100.000000 1
+820.000000 2450 2450 100.000000 1
+821.000000 2450 2450 100.000000 1
+822.000000 2450 2450 100.000000 1
+823.000000 2450 2450 100.000000 1
+824.000000 2450 2450 100.000000 1
+825.000000 2450 2450 100.000000 1
+826.000000 2450 2450 100.000000 1
+827.000000 2450 2450 100.000000 1
+828.000000 2450 2450 100.000000 1
+829.000000 2450 2450 100.000000 1
+830.000000 2450 2450 100.000000 1
+831.000000 2450 2450 100.000000 1
+832.000000 2450 2450 100.000000 1
+833.000000 2450 2450 100.000000 1
+834.000000 2450 2450 100.000000 1
+835.000000 2450 2450 100.000000 1
+836.000000 2450 2450 100.000000 1
+837.000000 2450 2450 100.000000 1
+838.000000 2450 2450 100.000000 1
+839.000000 2450 2450 100.000000 1
+840.000000 2450 2450 100.000000 1
+841.000000 2450 2450 100.000000 1
+842.000000 2450 2450 100.000000 1
+843.000000 2450 2450 100.000000 1
+844.000000 2450 2450 100.000000 1
+845.000000 2450 2450 100.000000 1
+846.000000 2450 2450 100.000000 1
+847.000000 2450 2450 100.000000 1
+848.000000 2450 2450 100.000000 1
+849.000000 2450 2450 100.000000 1
+850.000000 2450 2450 100.000000 1
+851.000000 2450 2450 100.000000 1
+852.000000 2450 2450 100.000000 1
+853.000000 2450 2450 100.000000 1
+854.000000 2450 2450 100.000000 1
+855.000000 2450 2450 100.000000 1
+856.000000 2450 2450 100.000000 1
+857.000000 2450 2450 100.000000 1
+858.000000 2450 2450 100.000000 1
+859.000000 2450 2450 100.000000 1
+860.000000 2450 2450 100.000000 1
+861.000000 2450 2450 100.000000 1
+862.000000 2450 2450 100.000000 1
+863.000000 2450 2450 100.000000 1
+864.000000 2450 2450 100.000000 1
+865.000000 2450 2450 100.000000 1
+866.000000 2450 2450 100.000000 1
+867.000000 2450 2450 100.000000 1
+868.000000 2450 2450 100.000000 1
+869.000000 2450 2450 100.000000 1
+870.000000 2450 2450 100.000000 1
+871.000000 2450 2450 100.000000 1
+872.000000 2450 2450 100.000000 1
+873.000000 2450 2450 100.000000 1
+874.000000 2450 2450 100.000000 1
+875.000000 2450 2450 100.000000 1
+876.000000 2450 2450 100.000000 1
+877.000000 2450 2450 100.000000 1
+878.000000 2450 2450 100.000000 1
+879.000000 2450 2450 100.000000 1
+880.000000 2450 2450 100.000000 1
+881.000000 2450 2450 100.000000 1
+882.000000 2450 2450 100.000000 1
+883.000000 2450 2450 100.000000 1
+884.000000 2450 2450 100.000000 1
+885.000000 2450 2450 100.000000 1
+886.000000 2450 2450 100.000000 1
+887.000000 2450 2450 100.000000 1
+888.000000 2450 2450 100.000000 1
+889.000000 2450 2450 100.000000 1
+890.000000 2450 2450 100.000000 1
+891.000000 2450 2450 100.000000 1
+892.000000 2450 2450 100.000000 1
+893.000000 2450 2450 100.000000 1
+894.000000 2450 2450 100.000000 1
+895.000000 2450 2450 100.000000 1
+896.000000 2450 2450 100.000000 1
+897.000000 2450 2450 100.000000 1
+898.000000 2450 2450 100.000000 1
+899.000000 2450 2450 100.000000 1
+900.000000 2450 2450 100.000000 1
+901.000000 2450 2450 100.000000 1
+902.000000 2450 2450 100.000000 1
+903.000000 2450 2450 100.000000 1
+904.000000 2450 2450 100.000000 1
+905.000000 2450 2450 100.000000 1
+906.000000 2450 2450 100.000000 1
+907.000000 2450 2450 100.000000 1
+908.000000 2450 2450 100.000000 1
+909.000000 2450 2450 100.000000 1
+910.000000 2450 2450 100.000000 1
+911.000000 2450 2450 100.000000 1
+912.000000 2450 2450 100.000000 1
+913.000000 2450 2450 100.000000 1
+914.000000 2450 2450 100.000000 1
+915.000000 2450 2450 100.000000 1
+916.000000 2450 2450 100.000000 1
+917.000000 2450 2450 100.000000 1
+918.000000 2450 2450 100.000000 1
+919.000000 2450 2450 100.000000 1
+920.000000 2450 2450 100.000000 1
+921.000000 2450 2450 100.000000 1
+922.000000 2450 2450 100.000000 1
+923.000000 2450 2450 100.000000 1
+924.000000 2450 2450 100.000000 1
+925.000000 2450 2450 100.000000 1
+926.000000 2450 2450 100.000000 1
+927.000000 2450 2450 100.000000 1
+928.000000 2450 2450 100.000000 1
+929.000000 2450 2450 100.000000 1
+930.000000 2450 2450 100.000000 1
+931.000000 2450 2450 100.000000 1
+932.000000 2450 2450 100.000000 1
+933.000000 2450 2450 100.000000 1
+934.000000 2450 2450 100.000000 1
+935.000000 2450 2450 100.000000 1
+936.000000 2450 2450 100.000000 1
+937.000000 2450 2450 100.000000 1
+938.000000 2450 2450 100.000000 1
+939.000000 2450 2450 100.000000 1
+940.000000 2450 2450 100.000000 1
+941.000000 2450 2450 100.000000 1
+942.000000 2450 2450 100.000000 1
+943.000000 2450 2450 100.000000 1
+944.000000 2450 2450 100.000000 1
+945.000000 2450 2450 100.000000 1
+946.000000 2450 2450 100.000000 1
+947.000000 2450 2450 100.000000 1
+948.000000 2450 2450 100.000000 1
+949.000000 2450 2450 100.000000 1
+950.000000 2450 2450 100.000000 1
+951.000000 2450 2450 100.000000 1
+952.000000 2450 2450 100.000000 1
+953.000000 2450 2450 100.000000 1
+954.000000 2450 2450 100.000000 1
+955.000000 2450 2450 100.000000 1
+956.000000 2450 2450 100.000000 1
+957.000000 2450 2450 100.000000 1
+958.000000 2450 2450 100.000000 1
+959.000000 2450 2450 100.000000 1
+960.000000 2450 2450 100.000000 1
+961.000000 2450 2450 100.000000 1
+962.000000 2450 2450 100.000000 1
+963.000000 2450 2450 100.000000 1
+964.000000 2450 2450 100.000000 1
+965.000000 2450 2450 100.000000 1
+966.000000 2450 2450 100.000000 1
+967.000000 2450 2450 100.000000 1
+968.000000 2450 2450 100.000000 1
+969.000000 2450 2450 100.000000 1
+970.000000 2450 2450 100.000000 1
+971.000000 2450 2450 100.000000 1
+972.000000 2450 2450 100.000000 1
+973.000000 2450 2450 100.000000 1
+974.000000 2450 2450 100.000000 1
+975.000000 2450 2450 100.000000 1
+976.000000 2450 2450 100.000000 1
+977.000000 2450 2450 100.000000 1
+978.000000 2450 2450 100.000000 1
+979.000000 2450 2450 100.000000 1
+980.000000 2450 2450 100.000000 1
+981.000000 2450 2450 100.000000 1
+982.000000 2450 2450 100.000000 1
+983.000000 2450 2450 100.000000 1
+984.000000 2450 2450 100.000000 1
+985.000000 2450 2450 100.000000 1
+986.000000 2450 2450 100.000000 1
+987.000000 2450 2450 100.000000 1
+988.000000 2450 2450 100.000000 1
+989.000000 2450 2450 100.000000 1
+990.000000 2450 2450 100.000000 1
+991.000000 2450 2450 100.000000 1
+992.000000 2450 2450 100.000000 1
+993.000000 2450 2450 100.000000 1
+994.000000 2450 2450 100.000000 1
+995.000000 2450 2450 100.000000 1
+996.000000 2450 2450 100.000000 1
+997.000000 2450 2450 100.000000 1
+998.000000 2450 2450 100.000000 1
+999.000000 2450 2450 100.000000 1
+inr001-h18 inr001-h18 {2: 4, 4: 2, 21: 8} total: 14 bits: 102320
+inr202-inr330 inr330-inr202 {2: 5, 4: 3, 21: 11} total: 19 bits: 125304
+h32-inr32 inr32-h32 {2: 4, 4: 2, 21: 8} total: 14 bits: 102320
+inr202-inr260 inr260-inr202 {2: 5, 4: 4, 21: 13} total: 22 bits: 125648
+inr230-inr201 inr230-inr201 {2: 6, 4: 3, 21: 12} total: 21 bits: 174696
+inr220-inr201 inr220-inr201 {2: 4, 4: 3, 21: 12} total: 19 bits: 102872
+inr220-inr202 inr220-inr202 {2: 6, 4: 3, 21: 10} total: 19 bits: 174488
+inr230-inr202 inr230-inr202 {2: 4, 4: 3, 21: 12} total: 19 bits: 102872
+inr205-inr201 inr205-inr201 {2: 6, 4: 3, 21: 12} total: 21 bits: 174696
+inr205-inr202 inr205-inr202 {2: 4, 4: 3, 21: 12} total: 19 bits: 102872
+h42-inr205 inr205-h42 {2: 4, 4: 2, 21: 8} total: 14 bits: 102320
+inr206-inr306 inr306-inr206 {2: 8, 4: 4, 21: 16} total: 28 bits: 204640
+inr306-inr201 inr306-inr201 {2: 4, 4: 4, 21: 11} total: 19 bits: 102904
+h14-inr380 inr380-h14 {2: 4, 4: 2, 21: 8} total: 14 bits: 102320
+inr201-inr230 inr230-inr201 {2: 6, 4: 3, 21: 12} total: 21 bits: 174696
+inr44-h1 inr44-h1 {2: 2, 4: 2, 21: 4} total: 8 bits: 30080
+inr330-c2 inr330-c2 {2: 4, 4: 2, 21: 8} total: 14 bits: 102320
+inr201-inr235 inr235-inr201 {2: 4, 4: 2, 21: 13} total: 19 bits: 102840
+h29-inr220 inr220-h29 {2: 4, 4: 2, 21: 8} total: 14 bits: 102320
+inr390-inr201 inr390-inr201 {2: 5, 4: 2, 21: 11} total: 18 bits: 151920
+inr390-inr202 inr390-inr202 {2: 5, 4: 4, 21: 13} total: 22 bits: 125648
+inr203-h44 inr203-h44 {2: 4, 4: 2, 21: 8} total: 14 bits: 102320
+inr350-inr201 inr350-inr201 {2: 6, 4: 2, 21: 11} total: 19 bits: 174456
+inr201-inr38 inr38-inr201 {2: 5, 4: 2, 21: 11} total: 18 bits: 151920
+inr201-inr330 inr330-inr201 {2: 5, 4: 3, 21: 11} total: 19 bits: 152056
+inr78-h50 inr78-h50 {2: 2, 4: 2, 21: 4} total: 8 bits: 30080
+inr001-inr202 inr001-inr202 {2: 6, 4: 3, 21: 12} total: 21 bits: 174696
+inr001-inr201 inr001-inr201 {2: 4, 4: 3, 21: 12} total: 19 bits: 102872
+h38-inr36 inr36-h38 {2: 4, 4: 2, 21: 8} total: 14 bits: 102320
+inr44-inr157 inr44-inr157 {2: 2, 4: 2, 21: 4} total: 8 bits: 30080
+inr330-inr201 inr330-inr201 {2: 5, 4: 3, 21: 11} total: 19 bits: 152056
+inr67-h20 inr67-h20 {2: 2, 4: 2, 21: 4} total: 8 bits: 30080
+inr201-inr32 inr32-inr201 {2: 4, 4: 3, 21: 13} total: 20 bits: 102976
+h7-inr45 inr45-h7 {2: 2, 4: 2, 21: 4} total: 8 bits: 30080
+inr210-inr202 inr210-inr202 {2: 5, 4: 3, 21: 11} total: 19 bits: 125304
+inr210-inr201 inr210-inr201 {2: 5, 4: 3, 21: 13} total: 21 bits: 152264
+inr320-h28 inr320-h28 {2: 4, 4: 2, 21: 8} total: 14 bits: 102320
+inr202-inr370 inr370-inr202 {2: 5, 4: 3, 21: 13} total: 21 bits: 125512
+inr78-inr157 inr157-inr78 {2: 2, 4: 2, 21: 4} total: 8 bits: 30080
+inr44-h36 inr44-h36 {2: 2, 4: 2, 21: 4} total: 8 bits: 30080
+inr202-inr304 inr304-inr202 {2: 5, 4: 3, 21: 12} total: 20 bits: 152160
+inr38-h30 inr38-h30 {2: 4, 4: 2, 21: 8} total: 14 bits: 102320
+inr201-inr002 inr002-inr201 {2: 4, 4: 4, 21: 10} total: 18 bits: 102800
+inr201-inr001 inr001-inr201 {2: 4, 4: 3, 21: 12} total: 19 bits: 102872
+inr240-c1 inr240-c1 {2: 4, 4: 2, 21: 8} total: 14 bits: 102320
+inr304-inr201 inr304-inr201 {2: 5, 4: 3, 21: 12} total: 20 bits: 125408
+inr31-inr201 inr31-inr201 {2: 5, 4: 2, 21: 12} total: 19 bits: 152024
+h21-inr380 inr380-h21 {2: 4, 4: 2, 21: 8} total: 14 bits: 102320
+inr304-inr202 inr304-inr202 {2: 5, 4: 3, 21: 12} total: 20 bits: 152160
+inr280-inr281 inr281-inr280 {2: 8, 4: 4, 21: 16} total: 28 bits: 204640
+inr299-inr201 inr299-inr201 {2: 5, 4: 4, 21: 10} total: 19 bits: 152088
+inr299-inr202 inr299-inr202 {2: 5, 4: 2, 21: 14} total: 21 bits: 125480
+inr202-inr380 inr380-inr202 {2: 6, 4: 3, 21: 14} total: 23 bits: 174904
+inr201-inr320 inr320-inr201 {2: 5, 4: 3, 21: 13} total: 21 bits: 152264
+inr202-inr667 inr667-inr202 {2: 4, 4: 3, 21: 15} total: 22 bits: 103184
+inr45-h7 inr45-h7 {2: 2, 4: 2, 21: 4} total: 8 bits: 30080
+c2-inr330 inr330-c2 {2: 4, 4: 2, 21: 8} total: 14 bits: 102320
+h49-inr205 inr205-h49 {2: 4, 4: 2, 21: 8} total: 14 bits: 102320
+inr201-inr206 inr201-inr206 {2: 6, 4: 3, 21: 12} total: 21 bits: 174696
+h22-inr235 inr235-h22 {2: 4, 4: 2, 21: 8} total: 14 bits: 102320
+inr201-inr240 inr240-inr201 {2: 4, 4: 3, 21: 11} total: 18 bits: 102768
+inr202-inr31 inr31-inr202 {2: 5, 4: 4, 21: 12} total: 21 bits: 125544
+inr202-inr32 inr32-inr202 {2: 6, 4: 3, 21: 11} total: 20 bits: 174592
+inr202-inr33 inr33-inr202 {2: 5, 4: 3, 21: 11} total: 19 bits: 125304
+inr280-inr202 inr280-inr202 {2: 5, 4: 2, 21: 13} total: 20 bits: 152128
+inr202-inr36 inr36-inr202 {2: 4, 4: 4, 21: 12} total: 20 bits: 103008
+inr280-inr201 inr280-inr201 {2: 5, 4: 4, 21: 11} total: 20 bits: 125440
+inr202-inr38 inr38-inr202 {2: 5, 4: 4, 21: 13} total: 22 bits: 125648
+h50-inr78 inr78-h50 {2: 2, 4: 2, 21: 4} total: 8 bits: 30080
+inr201-inr34 inr34-inr201 {2: 4, 4: 3, 21: 14} total: 21 bits: 103080
+inr340-inr201 inr201-inr340 {2: 6, 4: 4, 21: 14} total: 24 bits: 175040
+inr250-inr201 inr250-inr201 {2: 5, 4: 3, 21: 12} total: 20 bits: 125408
+inr340-inr202 inr202-inr340 {2: 4, 4: 2, 21: 10} total: 16 bits: 102528
+inr240-inr202 inr240-inr202 {2: 4, 4: 3, 21: 11} total: 18 bits: 102768
+inr210-inr211 inr210-inr211 {2: 8, 4: 4, 21: 16} total: 28 bits: 204640
+h24-inr260 inr260-h24 {2: 4, 4: 2, 21: 8} total: 14 bits: 102320
+inr240-inr201 inr240-inr201 {2: 4, 4: 3, 21: 11} total: 18 bits: 102768
+inr320-inr202 inr320-inr202 {2: 5, 4: 3, 21: 11} total: 19 bits: 125304
+inr320-inr201 inr320-inr201 {2: 5, 4: 3, 21: 13} total: 21 bits: 152264
+inr201-inr390 inr390-inr201 {2: 5, 4: 2, 21: 11} total: 18 bits: 151920
+inr205-h26 inr205-h26 {2: 4, 4: 2, 21: 8} total: 14 bits: 102320
+inr43-h6 inr43-h6 {2: 2, 4: 2, 21: 4} total: 8 bits: 30080
+inr202-inr002 inr002-inr202 {2: 6, 4: 2, 21: 14} total: 22 bits: 174768
+inr43-inr157 inr43-inr157 {2: 2, 4: 2, 21: 4} total: 8 bits: 30080
+inr202-inr001 inr001-inr202 {2: 6, 4: 3, 21: 12} total: 21 bits: 174696
+inr36-inr202 inr36-inr202 {2: 4, 4: 4, 21: 12} total: 20 bits: 103008
+inr201-inr360 inr360-inr201 {2: 5, 4: 3, 21: 9} total: 17 bits: 125096
+inr36-inr201 inr36-inr201 {2: 6, 4: 2, 21: 12} total: 20 bits: 174560
+inr157-inr350 inr157-inr350 {} total: 0 bits: 0
+h11-inr43 inr43-h11 {2: 2, 4: 2, 21: 4} total: 8 bits: 30080
+inr260-h24 inr260-h24 {2: 4, 4: 2, 21: 8} total: 14 bits: 102320
+h40-inr36 inr36-h40 {2: 4, 4: 2, 21: 8} total: 14 bits: 102320
+inr202-inr390 inr390-inr202 {2: 5, 4: 4, 21: 13} total: 22 bits: 125648
+inr45-inr157 inr157-inr45 {2: 2, 4: 2, 21: 4} total: 8 bits: 30080
+h2-inr299 inr299-h2 {2: 4, 4: 2, 21: 8} total: 14 bits: 102320
+inr51-h13 inr51-h13 {2: 2, 4: 2, 21: 4} total: 8 bits: 30080
+inr380-h21 inr380-h21 {2: 4, 4: 2, 21: 8} total: 14 bits: 102320
+h36-inr44 inr44-h36 {2: 2, 4: 2, 21: 4} total: 8 bits: 30080
+inr201-inr250 inr250-inr201 {2: 5, 4: 3, 21: 12} total: 20 bits: 125408
+h18-inr001 inr001-h18 {2: 4, 4: 2, 21: 8} total: 14 bits: 102320
+h35-inr78 inr78-h35 {2: 2, 4: 2, 21: 4} total: 8 bits: 30080
+inr002-h25 inr002-h25 {2: 4, 4: 2, 21: 8} total: 14 bits: 102320
+inr202-inr34 inr34-inr202 {2: 6, 4: 3, 21: 10} total: 19 bits: 174488
+h3-inr290 inr290-h3 {2: 4, 4: 2, 21: 8} total: 14 bits: 102320
+inr350-inr202 inr350-inr202 {2: 4, 4: 3, 21: 9} total: 16 bits: 102560
+h17-inr281 inr281-h17 {2: 4, 4: 2, 21: 8} total: 14 bits: 102320
+inr235-inr202 inr235-inr202 {2: 6, 4: 4, 21: 11} total: 21 bits: 174728
+inr157-inr43 inr43-inr157 {2: 2, 4: 2, 21: 4} total: 8 bits: 30080
+inr157-inr44 inr44-inr157 {2: 2, 4: 2, 21: 4} total: 8 bits: 30080
+inr157-inr45 inr157-inr45 {2: 2, 4: 2, 21: 4} total: 8 bits: 30080
+h46-inr36 inr36-h46 {2: 4, 4: 2, 21: 8} total: 14 bits: 102320
+inr202-inr320 inr320-inr202 {2: 5, 4: 3, 21: 11} total: 19 bits: 125304
+inr43-h47 inr43-h47 {2: 2, 4: 2, 21: 4} total: 8 bits: 30080
+inr202-inr240 inr240-inr202 {2: 4, 4: 3, 21: 11} total: 18 bits: 102768
+inr201-inr211 inr211-inr201 {2: 6, 4: 4, 21: 12} total: 22 bits: 174832
+inr360-h37 inr360-h37 {2: 4, 4: 2, 21: 8} total: 14 bits: 102320
+inr203-h8 inr203-h8 {2: 4, 4: 2, 21: 8} total: 14 bits: 102320
+inr341-inr201 inr201-inr341 {2: 5, 4: 3, 21: 11} total: 19 bits: 152056
+inr38-inr201 inr38-inr201 {2: 5, 4: 2, 21: 11} total: 18 bits: 151920
+inr38-inr202 inr38-inr202 {2: 5, 4: 4, 21: 13} total: 22 bits: 125648
+h16-inr38 inr38-h16 {2: 4, 4: 2, 21: 8} total: 14 bits: 102320
+inr201-inr304 inr304-inr201 {2: 5, 4: 3, 21: 12} total: 20 bits: 125408
+inr290-inr202 inr290-inr202 {2: 5, 4: 4, 21: 12} total: 21 bits: 125544
+inr290-inr201 inr290-inr201 {2: 5, 4: 2, 21: 12} total: 19 bits: 152024
+h12-inr43 inr43-h12 {2: 2, 4: 2, 21: 4} total: 8 bits: 30080
+h8-inr203 inr203-h8 {2: 4, 4: 2, 21: 8} total: 14 bits: 102320
+h15-inr280 inr280-h15 {2: 4, 4: 2, 21: 8} total: 14 bits: 102320
+inr341-inr202 inr202-inr341 {2: 5, 4: 3, 21: 13} total: 21 bits: 125512
+inr201-inr260 inr260-inr201 {2: 5, 4: 2, 21: 11} total: 18 bits: 151920
+inr220-c4 inr220-c4 {2: 4, 4: 2, 21: 8} total: 14 bits: 102320
+inr67-inr157 inr157-inr67 {2: 2, 4: 2, 21: 4} total: 8 bits: 30080
+h9-inr205 inr205-h9 {2: 4, 4: 2, 21: 8} total: 14 bits: 102320
+h41-inr36 inr36-h41 {2: 4, 4: 2, 21: 8} total: 14 bits: 102320
+inr281-inr201 inr281-inr201 {2: 6, 4: 2, 21: 11} total: 19 bits: 174456
+inr360-inr202 inr360-inr202 {2: 5, 4: 3, 21: 15} total: 23 bits: 152472
+inr360-inr201 inr360-inr201 {2: 5, 4: 3, 21: 9} total: 17 bits: 125096
+inr281-inr202 inr281-inr202 {2: 4, 4: 4, 21: 13} total: 21 bits: 103112
+inr201-inr203 inr201-inr203 {2: 6, 4: 3, 21: 13} total: 22 bits: 174800
+inr203-h43 inr203-h43 {2: 4, 4: 2, 21: 8} total: 14 bits: 102320
+inr380-inr201 inr380-inr201 {2: 4, 4: 3, 21: 10} total: 17 bits: 102664
+inr157-inr51 inr157-inr51 {2: 2, 4: 2, 21: 4} total: 8 bits: 30080
+h25-inr002 inr002-h25 {2: 4, 4: 2, 21: 8} total: 14 bits: 102320
+c1-inr240 inr240-c1 {2: 4, 4: 2, 21: 8} total: 14 bits: 102320
+h1-inr44 inr44-h1 {2: 2, 4: 2, 21: 4} total: 8 bits: 30080
+inr202-inr230 inr230-inr202 {2: 4, 4: 3, 21: 12} total: 19 bits: 102872
+inr202-inr306 inr306-inr202 {2: 6, 4: 2, 21: 13} total: 21 bits: 174664
+h19-inr320 inr320-h19 {2: 4, 4: 2, 21: 8} total: 14 bits: 102320
+inr202-inr235 inr235-inr202 {2: 6, 4: 4, 21: 11} total: 21 bits: 174728
+inr31-inr202 inr31-inr202 {2: 5, 4: 4, 21: 12} total: 21 bits: 125544
+inr31-h34 inr31-h34 {2: 4, 4: 2, 21: 8} total: 14 bits: 102320
+inr201-inr370 inr370-inr201 {2: 5, 4: 3, 21: 11} total: 19 bits: 152056
+inr32-inr202 inr32-inr202 {2: 6, 4: 3, 21: 11} total: 20 bits: 174592
+h30-inr38 inr38-h30 {2: 4, 4: 2, 21: 8} total: 14 bits: 102320
+inr350-inr157 inr157-inr350 {} total: 0 bits: 0
+inr260-inr201 inr260-inr201 {2: 5, 4: 2, 21: 11} total: 18 bits: 151920
+inr260-inr202 inr260-inr202 {2: 5, 4: 4, 21: 13} total: 22 bits: 125648
+h47-inr43 inr43-h47 {2: 2, 4: 2, 21: 4} total: 8 bits: 30080
+inr33-h27 inr33-h27 {2: 4, 4: 2, 21: 8} total: 14 bits: 102320
+inr290-h3 inr290-h3 {2: 4, 4: 2, 21: 8} total: 14 bits: 102320
+inr205-h9 inr205-h9 {2: 4, 4: 2, 21: 8} total: 14 bits: 102320
+inr203-c3 inr203-c3 {2: 4, 4: 2, 21: 8} total: 14 bits: 102320
+inr370-h39 inr370-h39 {2: 4, 4: 2, 21: 8} total: 14 bits: 102320
+inr320-h31 inr320-h31 {2: 4, 4: 2, 21: 8} total: 14 bits: 102320
+inr667-inr201 inr667-inr201 {2: 6, 4: 3, 21: 9} total: 18 bits: 174384
+inr206-inr201 inr201-inr206 {2: 6, 4: 3, 21: 12} total: 21 bits: 174696
+inr206-inr202 inr202-inr206 {2: 4, 4: 3, 21: 12} total: 19 bits: 102872
+inr667-inr202 inr667-inr202 {2: 4, 4: 3, 21: 15} total: 22 bits: 103184
+inr250-inr157 inr157-inr250 {2: 3, 4: 2, 21: 8} total: 13 bits: 53032
+inr201-inr306 inr306-inr201 {2: 4, 4: 4, 21: 11} total: 19 bits: 102904
+inr32-h32 inr32-h32 {2: 4, 4: 2, 21: 8} total: 14 bits: 102320
+inr203-inr201 inr201-inr203 {2: 6, 4: 3, 21: 13} total: 22 bits: 174800
+h26-inr205 inr205-h26 {2: 4, 4: 2, 21: 8} total: 14 bits: 102320
+inr36-h46 inr36-h46 {2: 4, 4: 2, 21: 8} total: 14 bits: 102320
+inr36-h45 inr36-h45 {2: 4, 4: 2, 21: 8} total: 14 bits: 102320
+h39-inr370 inr370-h39 {2: 4, 4: 2, 21: 8} total: 14 bits: 102320
+inr201-inr281 inr281-inr201 {2: 6, 4: 2, 21: 11} total: 19 bits: 174456
+inr201-inr280 inr280-inr201 {2: 5, 4: 4, 21: 11} total: 20 bits: 125440
+inr202-inr220 inr220-inr202 {2: 6, 4: 3, 21: 10} total: 19 bits: 174488
+h28-inr320 inr320-h28 {2: 4, 4: 2, 21: 8} total: 14 bits: 102320
+h43-inr203 inr203-h43 {2: 4, 4: 2, 21: 8} total: 14 bits: 102320
+inr280-h15 inr280-h15 {2: 4, 4: 2, 21: 8} total: 14 bits: 102320
+inr33-inr201 inr33-inr201 {2: 5, 4: 3, 21: 13} total: 21 bits: 152264
+h31-inr320 inr320-h31 {2: 4, 4: 2, 21: 8} total: 14 bits: 102320
+inr33-inr202 inr33-inr202 {2: 5, 4: 3, 21: 11} total: 19 bits: 125304
+inr202-inr341 inr202-inr341 {2: 5, 4: 3, 21: 13} total: 21 bits: 125512
+inr202-inr340 inr202-inr340 {2: 4, 4: 2, 21: 10} total: 16 bits: 102528
+inr011-inr001 inr011-inr001 {2: 5, 4: 3, 21: 10} total: 18 bits: 151952
+inr011-inr002 inr011-inr002 {2: 7, 4: 3, 21: 14} total: 24 bits: 155008
+inr340-h48 inr340-h48 {2: 4, 4: 2, 21: 8} total: 14 bits: 102320
+inr002-inr011 inr011-inr002 {2: 7, 4: 3, 21: 14} total: 24 bits: 155008
+inr201-inr202 inr202-inr201 {2: 6, 4: 4, 21: 16} total: 26 bits: 175248
+inr201-inr205 inr205-inr201 {2: 6, 4: 3, 21: 12} total: 21 bits: 174696
+inr281-inr280 inr281-inr280 {2: 8, 4: 4, 21: 16} total: 28 bits: 204640
+inr370-inr201 inr370-inr201 {2: 5, 4: 3, 21: 11} total: 19 bits: 152056
+inr330-inr202 inr330-inr202 {2: 5, 4: 3, 21: 11} total: 19 bits: 125304
+inr281-h10 inr281-h10 {2: 4, 4: 2, 21: 8} total: 14 bits: 102320
+inr001-inr002 inr001-inr002 {2: 8, 4: 4, 21: 16} total: 28 bits: 204640
+inr281-h17 inr281-h17 {2: 4, 4: 2, 21: 8} total: 14 bits: 102320
+h34-inr31 inr31-h34 {2: 4, 4: 2, 21: 8} total: 14 bits: 102320
+c4-inr220 inr220-c4 {2: 4, 4: 2, 21: 8} total: 14 bits: 102320
+inr202-inr250 inr250-inr202 {2: 4, 4: 2, 21: 12} total: 18 bits: 102736
+inr260-h4 inr260-h4 {2: 4, 4: 2, 21: 8} total: 14 bits: 102320
+h13-inr51 inr51-h13 {2: 2, 4: 2, 21: 4} total: 8 bits: 30080
+c3-inr203 inr203-c3 {2: 4, 4: 2, 21: 8} total: 14 bits: 102320
+h5-inr220 inr220-h5 {2: 4, 4: 2, 21: 8} total: 14 bits: 102320
+inr201-inr299 inr299-inr201 {2: 5, 4: 4, 21: 10} total: 19 bits: 152088
+inr202-inr299 inr299-inr202 {2: 5, 4: 2, 21: 14} total: 21 bits: 125480
+inr202-inr211 inr211-inr202 {2: 4, 4: 2, 21: 12} total: 18 bits: 102736
+inr202-inr210 inr210-inr202 {2: 5, 4: 3, 21: 11} total: 19 bits: 125304
+inr203-inr202 inr202-inr203 {2: 4, 4: 3, 21: 9} total: 16 bits: 102560
+inr201-inr290 inr290-inr201 {2: 5, 4: 2, 21: 12} total: 19 bits: 152024
+inr36-h40 inr36-h40 {2: 4, 4: 2, 21: 8} total: 14 bits: 102320
+inr36-h41 inr36-h41 {2: 4, 4: 2, 21: 8} total: 14 bits: 102320
+inr306-inr202 inr306-inr202 {2: 6, 4: 2, 21: 13} total: 21 bits: 174664
+inr201-inr667 inr667-inr201 {2: 6, 4: 3, 21: 9} total: 18 bits: 174384
+h44-inr203 inr203-h44 {2: 4, 4: 2, 21: 8} total: 14 bits: 102320
+inr235-h22 inr235-h22 {2: 4, 4: 2, 21: 8} total: 14 bits: 102320
+inr001-h33 inr001-h33 {2: 4, 4: 2, 21: 8} total: 14 bits: 102320
+inr202-inr350 inr350-inr202 {2: 4, 4: 3, 21: 9} total: 16 bits: 102560
+h20-inr67 inr67-h20 {2: 2, 4: 2, 21: 4} total: 8 bits: 30080
+inr205-h42 inr205-h42 {2: 4, 4: 2, 21: 8} total: 14 bits: 102320
+inr201-inr380 inr380-inr201 {2: 4, 4: 3, 21: 10} total: 17 bits: 102664
+inr002-inr001 inr001-inr002 {2: 8, 4: 4, 21: 16} total: 28 bits: 204640
+inr43-h11 inr43-h11 {2: 2, 4: 2, 21: 4} total: 8 bits: 30080
+inr202-inr290 inr290-inr202 {2: 5, 4: 4, 21: 12} total: 21 bits: 125544
+inr201-inr210 inr210-inr201 {2: 5, 4: 3, 21: 13} total: 21 bits: 152264
+h48-inr340 inr340-h48 {2: 4, 4: 2, 21: 8} total: 14 bits: 102320
+inr320-h19 inr320-h19 {2: 4, 4: 2, 21: 8} total: 14 bits: 102320
+inr235-inr201 inr235-inr201 {2: 4, 4: 2, 21: 13} total: 19 bits: 102840
+inr210-h23 inr210-h23 {2: 4, 4: 2, 21: 8} total: 14 bits: 102320
+inr201-inr350 inr350-inr201 {2: 6, 4: 2, 21: 11} total: 19 bits: 174456
+inr34-inr201 inr34-inr201 {2: 4, 4: 3, 21: 14} total: 21 bits: 103080
+inr43-h12 inr43-h12 {2: 2, 4: 2, 21: 4} total: 8 bits: 30080
+h10-inr281 inr281-h10 {2: 4, 4: 2, 21: 8} total: 14 bits: 102320
+inr211-inr210 inr210-inr211 {2: 8, 4: 4, 21: 16} total: 28 bits: 204640
+inr157-inr250 inr157-inr250 {2: 3, 4: 2, 21: 8} total: 13 bits: 53032
+inr201-inr33 inr33-inr201 {2: 5, 4: 3, 21: 13} total: 21 bits: 152264
+inr250-inr202 inr250-inr202 {2: 4, 4: 2, 21: 12} total: 18 bits: 102736
+inr201-inr31 inr31-inr201 {2: 5, 4: 2, 21: 12} total: 19 bits: 152024
+inr201-inr36 inr36-inr201 {2: 6, 4: 2, 21: 12} total: 20 bits: 174560
+inr299-h2 inr299-h2 {2: 4, 4: 2, 21: 8} total: 14 bits: 102320
+inr370-inr202 inr370-inr202 {2: 5, 4: 3, 21: 13} total: 21 bits: 125512
+inr202-inr201 inr202-inr201 {2: 6, 4: 4, 21: 16} total: 26 bits: 175248
+inr202-inr203 inr202-inr203 {2: 4, 4: 3, 21: 9} total: 16 bits: 102560
+inr202-inr205 inr205-inr202 {2: 4, 4: 3, 21: 12} total: 19 bits: 102872
+inr51-inr157 inr157-inr51 {2: 2, 4: 2, 21: 4} total: 8 bits: 30080
+inr78-h35 inr78-h35 {2: 2, 4: 2, 21: 4} total: 8 bits: 30080
+h37-inr360 inr360-h37 {2: 4, 4: 2, 21: 8} total: 14 bits: 102320
+inr220-h5 inr220-h5 {2: 4, 4: 2, 21: 8} total: 14 bits: 102320
+inr38-h16 inr38-h16 {2: 4, 4: 2, 21: 8} total: 14 bits: 102320
+h27-inr33 inr33-h27 {2: 4, 4: 2, 21: 8} total: 14 bits: 102320
+inr36-h38 inr36-h38 {2: 4, 4: 2, 21: 8} total: 14 bits: 102320
+inr202-inr360 inr360-inr202 {2: 5, 4: 3, 21: 15} total: 23 bits: 152472
+inr71-inr157 inr157-inr71 {2: 2, 4: 2, 21: 4} total: 8 bits: 30080
+inr202-inr280 inr280-inr202 {2: 5, 4: 2, 21: 13} total: 20 bits: 152128
+inr202-inr281 inr281-inr202 {2: 4, 4: 4, 21: 13} total: 21 bits: 103112
+inr32-inr201 inr32-inr201 {2: 4, 4: 3, 21: 13} total: 20 bits: 102976
+inr380-inr202 inr380-inr202 {2: 6, 4: 3, 21: 14} total: 23 bits: 174904
+h45-inr36 inr36-h45 {2: 4, 4: 2, 21: 8} total: 14 bits: 102320
+inr34-inr202 inr34-inr202 {2: 6, 4: 3, 21: 10} total: 19 bits: 174488
+inr201-inr220 inr220-inr201 {2: 4, 4: 3, 21: 12} total: 19 bits: 102872
+h33-inr001 inr001-h33 {2: 4, 4: 2, 21: 8} total: 14 bits: 102320
+inr201-inr340 inr201-inr340 {2: 6, 4: 4, 21: 14} total: 24 bits: 175040
+inr201-inr341 inr201-inr341 {2: 5, 4: 3, 21: 11} total: 19 bits: 152056
+inr202-inr206 inr202-inr206 {2: 4, 4: 3, 21: 12} total: 19 bits: 102872
+inr306-inr206 inr306-inr206 {2: 8, 4: 4, 21: 16} total: 28 bits: 204640
+inr002-inr202 inr002-inr202 {2: 6, 4: 2, 21: 14} total: 22 bits: 174768
+inr211-inr201 inr211-inr201 {2: 6, 4: 4, 21: 12} total: 22 bits: 174832
+inr211-inr202 inr211-inr202 {2: 4, 4: 2, 21: 12} total: 18 bits: 102736
+inr002-inr201 inr002-inr201 {2: 4, 4: 4, 21: 10} total: 18 bits: 102800
+inr157-inr78 inr157-inr78 {2: 2, 4: 2, 21: 4} total: 8 bits: 30080
+inr205-h49 inr205-h49 {2: 4, 4: 2, 21: 8} total: 14 bits: 102320
+inr220-h29 inr220-h29 {2: 4, 4: 2, 21: 8} total: 14 bits: 102320
+inr380-h14 inr380-h14 {2: 4, 4: 2, 21: 8} total: 14 bits: 102320
+inr157-inr71 inr157-inr71 {2: 2, 4: 2, 21: 4} total: 8 bits: 30080
+inr001-inr011 inr011-inr001 {2: 5, 4: 3, 21: 10} total: 18 bits: 151952
+h6-inr43 inr43-h6 {2: 2, 4: 2, 21: 4} total: 8 bits: 30080
+h23-inr210 inr210-h23 {2: 4, 4: 2, 21: 8} total: 14 bits: 102320
+inr157-inr67 inr157-inr67 {2: 2, 4: 2, 21: 4} total: 8 bits: 30080
+h4-inr260 inr260-h4 {2: 4, 4: 2, 21: 8} total: 14 bits: 102320
+Total control packets over all links:  {'NotifyLinkDown': 716, 'ControlAck': 2712, 'UpdateRules': 1216}  bytes:  31774496
+Total control bits over all links:  {'NotifyLinkDown': 97376, 'ControlAck': 282048, 'UpdateRules': 31395072}
