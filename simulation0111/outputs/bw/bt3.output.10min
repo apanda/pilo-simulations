@@ -1,0 +1,1488 @@
+Setting bt/bt3.yaml 0.000000 1800000.000000 300000.000000 600000.000000 10240000.000000 102400000.000000 1000.000000 42 config_bt.yml
+mean_perturb 600000.000000
+generating trace
+done generating trace
+TRACE TRACE TRACE
+224724.071308 inr330-inr201 down
+583919.161827 inr306-inr206 down
+773517.922346 inr306-inr206 up
+2594866.319690 inr330-inr201 up
+300000.000000 end
+TRACE TRACE TRACE
+Informing controller of nodes
+c3 being informed of inr001-h18
+c4 being informed of inr001-h18
+c1 being informed of inr001-h18
+c2 being informed of inr001-h18
+c3 being informed of inr230-inr201
+c4 being informed of inr230-inr201
+c1 being informed of inr230-inr201
+c2 being informed of inr230-inr201
+c3 being informed of inr220-inr201
+c4 being informed of inr220-inr201
+c1 being informed of inr220-inr201
+c2 being informed of inr220-inr201
+c3 being informed of inr220-inr202
+c4 being informed of inr220-inr202
+c1 being informed of inr220-inr202
+c2 being informed of inr220-inr202
+c3 being informed of inr230-inr202
+c4 being informed of inr230-inr202
+c1 being informed of inr230-inr202
+c2 being informed of inr230-inr202
+c3 being informed of inr205-inr201
+c4 being informed of inr205-inr201
+c1 being informed of inr205-inr201
+c2 being informed of inr205-inr201
+c3 being informed of inr205-inr202
+c4 being informed of inr205-inr202
+c1 being informed of inr205-inr202
+c2 being informed of inr205-inr202
+c3 being informed of inr44-h1
+c4 being informed of inr44-h1
+c1 being informed of inr44-h1
+c2 being informed of inr44-h1
+c3 being informed of inr330-c2
+c4 being informed of inr330-c2
+c1 being informed of inr330-c2
+c2 being informed of inr330-c2
+c3 being informed of inr390-inr201
+c4 being informed of inr390-inr201
+c1 being informed of inr390-inr201
+c2 being informed of inr390-inr201
+c3 being informed of inr390-inr202
+c4 being informed of inr390-inr202
+c1 being informed of inr390-inr202
+c2 being informed of inr390-inr202
+c3 being informed of inr350-inr201
+c4 being informed of inr350-inr201
+c1 being informed of inr350-inr201
+c2 being informed of inr350-inr201
+c3 being informed of inr350-inr202
+c4 being informed of inr350-inr202
+c1 being informed of inr350-inr202
+c2 being informed of inr350-inr202
+c3 being informed of inr78-h50
+c4 being informed of inr78-h50
+c1 being informed of inr78-h50
+c2 being informed of inr78-h50
+c3 being informed of inr001-inr202
+c4 being informed of inr001-inr202
+c1 being informed of inr001-inr202
+c2 being informed of inr001-inr202
+c3 being informed of inr001-inr201
+c4 being informed of inr001-inr201
+c1 being informed of inr001-inr201
+c2 being informed of inr001-inr201
+c3 being informed of inr44-inr157
+c4 being informed of inr44-inr157
+c1 being informed of inr44-inr157
+c2 being informed of inr44-inr157
+c3 being informed of inr330-inr201
+c4 being informed of inr330-inr201
+c1 being informed of inr330-inr201
+c2 being informed of inr330-inr201
+c3 being informed of inr67-h20
+c4 being informed of inr67-h20
+c1 being informed of inr67-h20
+c2 being informed of inr67-h20
+c3 being informed of inr210-inr202
+c4 being informed of inr210-inr202
+c1 being informed of inr210-inr202
+c2 being informed of inr210-inr202
+c3 being informed of inr210-inr201
+c4 being informed of inr210-inr201
+c1 being informed of inr210-inr201
+c2 being informed of inr210-inr201
+c3 being informed of inr340-h48
+c4 being informed of inr340-h48
+c1 being informed of inr340-h48
+c2 being informed of inr340-h48
+c3 being informed of inr281-inr280
+c4 being informed of inr281-inr280
+c1 being informed of inr281-inr280
+c2 being informed of inr281-inr280
+c3 being informed of inr44-h36
+c4 being informed of inr44-h36
+c1 being informed of inr44-h36
+c2 being informed of inr44-h36
+c3 being informed of inr38-h30
+c4 being informed of inr38-h30
+c1 being informed of inr38-h30
+c2 being informed of inr38-h30
+c3 being informed of inr304-inr202
+c4 being informed of inr304-inr202
+c1 being informed of inr304-inr202
+c2 being informed of inr304-inr202
+c3 being informed of inr240-c1
+c4 being informed of inr240-c1
+c1 being informed of inr240-c1
+c2 being informed of inr240-c1
+c3 being informed of inr304-inr201
+c4 being informed of inr304-inr201
+c1 being informed of inr304-inr201
+c2 being informed of inr304-inr201
+c3 being informed of inr31-h34
+c4 being informed of inr31-h34
+c1 being informed of inr31-h34
+c2 being informed of inr31-h34
+c3 being informed of inr250-inr202
+c4 being informed of inr250-inr202
+c1 being informed of inr250-inr202
+c2 being informed of inr250-inr202
+c3 being informed of inr299-inr201
+c4 being informed of inr299-inr201
+c1 being informed of inr299-inr201
+c2 being informed of inr299-inr201
+c3 being informed of inr299-inr202
+c4 being informed of inr299-inr202
+c1 being informed of inr299-inr202
+c2 being informed of inr299-inr202
+c3 being informed of inr45-h7
+c4 being informed of inr45-h7
+c1 being informed of inr45-h7
+c2 being informed of inr45-h7
+c3 being informed of inr43-h6
+c4 being informed of inr43-h6
+c1 being informed of inr43-h6
+c2 being informed of inr43-h6
+c3 being informed of inr280-inr202
+c4 being informed of inr280-inr202
+c1 being informed of inr280-inr202
+c2 being informed of inr280-inr202
+c3 being informed of inr280-inr201
+c4 being informed of inr280-inr201
+c1 being informed of inr280-inr201
+c2 being informed of inr280-inr201
+c3 being informed of inr240-inr202
+c4 being informed of inr240-inr202
+c1 being informed of inr240-inr202
+c2 being informed of inr240-inr202
+c3 being informed of inr210-inr211
+c4 being informed of inr210-inr211
+c1 being informed of inr210-inr211
+c2 being informed of inr210-inr211
+c3 being informed of inr240-inr201
+c4 being informed of inr240-inr201
+c1 being informed of inr240-inr201
+c2 being informed of inr240-inr201
+c3 being informed of inr320-inr202
+c4 being informed of inr320-inr202
+c1 being informed of inr320-inr202
+c2 being informed of inr320-inr202
+c3 being informed of inr320-inr201
+c4 being informed of inr320-inr201
+c1 being informed of inr320-inr201
+c2 being informed of inr320-inr201
+c3 being informed of inr43-inr157
+c4 being informed of inr43-inr157
+c1 being informed of inr43-inr157
+c2 being informed of inr43-inr157
+c3 being informed of inr202-inr203
+c4 being informed of inr202-inr203
+c1 being informed of inr202-inr203
+c2 being informed of inr202-inr203
+c3 being informed of inr36-inr202
+c4 being informed of inr36-inr202
+c1 being informed of inr36-inr202
+c2 being informed of inr36-inr202
+c3 being informed of inr36-inr201
+c4 being informed of inr36-inr201
+c1 being informed of inr36-inr201
+c2 being informed of inr36-inr201
+c3 being informed of inr157-inr350
+c4 being informed of inr157-inr350
+c1 being informed of inr157-inr350
+c2 being informed of inr157-inr350
+c3 being informed of inr51-h13
+c4 being informed of inr51-h13
+c1 being informed of inr51-h13
+c2 being informed of inr51-h13
+c3 being informed of inr380-h21
+c4 being informed of inr380-h21
+c1 being informed of inr380-h21
+c2 being informed of inr380-h21
+c3 being informed of inr235-inr202
+c4 being informed of inr235-inr202
+c1 being informed of inr235-inr202
+c2 being informed of inr235-inr202
+c3 being informed of inr235-inr201
+c4 being informed of inr235-inr201
+c1 being informed of inr235-inr201
+c2 being informed of inr235-inr201
+c3 being informed of inr157-inr45
+c4 being informed of inr157-inr45
+c1 being informed of inr157-inr45
+c2 being informed of inr157-inr45
+c3 being informed of inr43-h47
+c4 being informed of inr43-h47
+c1 being informed of inr43-h47
+c2 being informed of inr43-h47
+c3 being informed of inr360-h37
+c4 being informed of inr360-h37
+c1 being informed of inr360-h37
+c2 being informed of inr360-h37
+c3 being informed of inr203-h8
+c4 being informed of inr203-h8
+c1 being informed of inr203-h8
+c2 being informed of inr203-h8
+c3 being informed of inr38-inr201
+c4 being informed of inr38-inr201
+c1 being informed of inr38-inr201
+c2 being informed of inr38-inr201
+c3 being informed of inr38-inr202
+c4 being informed of inr38-inr202
+c1 being informed of inr38-inr202
+c2 being informed of inr38-inr202
+c3 being informed of inr370-h39
+c4 being informed of inr370-h39
+c1 being informed of inr370-h39
+c2 being informed of inr370-h39
+c3 being informed of inr290-inr202
+c4 being informed of inr290-inr202
+c1 being informed of inr290-inr202
+c2 being informed of inr290-inr202
+c3 being informed of inr290-inr201
+c4 being informed of inr290-inr201
+c1 being informed of inr290-inr201
+c2 being informed of inr290-inr201
+c3 being informed of inr220-c4
+c4 being informed of inr220-c4
+c1 being informed of inr220-c4
+c2 being informed of inr220-c4
+c3 being informed of inr281-inr201
+c4 being informed of inr281-inr201
+c1 being informed of inr281-inr201
+c2 being informed of inr281-inr201
+c3 being informed of inr360-inr202
+c4 being informed of inr360-inr202
+c1 being informed of inr360-inr202
+c2 being informed of inr360-inr202
+c3 being informed of inr360-inr201
+c4 being informed of inr360-inr201
+c1 being informed of inr360-inr201
+c2 being informed of inr360-inr201
+c3 being informed of inr281-inr202
+c4 being informed of inr281-inr202
+c1 being informed of inr281-inr202
+c2 being informed of inr281-inr202
+c3 being informed of inr203-h43
+c4 being informed of inr203-h43
+c1 being informed of inr203-h43
+c2 being informed of inr203-h43
+c3 being informed of inr157-inr51
+c4 being informed of inr157-inr51
+c1 being informed of inr157-inr51
+c2 being informed of inr157-inr51
+c3 being informed of inr203-h44
+c4 being informed of inr203-h44
+c1 being informed of inr203-h44
+c2 being informed of inr203-h44
+c3 being informed of inr205-h26
+c4 being informed of inr205-h26
+c1 being informed of inr205-h26
+c2 being informed of inr205-h26
+c3 being informed of inr31-inr202
+c4 being informed of inr31-inr202
+c1 being informed of inr31-inr202
+c2 being informed of inr31-inr202
+c3 being informed of inr31-inr201
+c4 being informed of inr31-inr201
+c1 being informed of inr31-inr201
+c2 being informed of inr31-inr201
+c3 being informed of inr260-inr201
+c4 being informed of inr260-inr201
+c1 being informed of inr260-inr201
+c2 being informed of inr260-inr201
+c3 being informed of inr260-inr202
+c4 being informed of inr260-inr202
+c1 being informed of inr260-inr202
+c2 being informed of inr260-inr202
+c3 being informed of inr33-h27
+c4 being informed of inr33-h27
+c1 being informed of inr33-h27
+c2 being informed of inr33-h27
+c3 being informed of inr290-h3
+c4 being informed of inr290-h3
+c1 being informed of inr290-h3
+c2 being informed of inr290-h3
+c3 being informed of inr205-h9
+c4 being informed of inr205-h9
+c1 being informed of inr205-h9
+c2 being informed of inr205-h9
+c3 being informed of inr203-c3
+c4 being informed of inr203-c3
+c1 being informed of inr203-c3
+c2 being informed of inr203-c3
+c3 being informed of inr320-h31
+c4 being informed of inr320-h31
+c1 being informed of inr320-h31
+c2 being informed of inr320-h31
+c3 being informed of inr667-inr201
+c4 being informed of inr667-inr201
+c1 being informed of inr667-inr201
+c2 being informed of inr667-inr201
+c3 being informed of inr667-inr202
+c4 being informed of inr667-inr202
+c1 being informed of inr667-inr202
+c2 being informed of inr667-inr202
+c3 being informed of inr32-h32
+c4 being informed of inr32-h32
+c1 being informed of inr32-h32
+c2 being informed of inr32-h32
+c3 being informed of inr280-h15
+c4 being informed of inr280-h15
+c1 being informed of inr280-h15
+c2 being informed of inr280-h15
+c3 being informed of inr33-inr201
+c4 being informed of inr33-inr201
+c1 being informed of inr33-inr201
+c2 being informed of inr33-inr201
+c3 being informed of inr33-inr202
+c4 being informed of inr33-inr202
+c1 being informed of inr33-inr202
+c2 being informed of inr33-inr202
+c3 being informed of inr202-inr341
+c4 being informed of inr202-inr341
+c1 being informed of inr202-inr341
+c2 being informed of inr202-inr341
+c3 being informed of inr202-inr340
+c4 being informed of inr202-inr340
+c1 being informed of inr202-inr340
+c2 being informed of inr202-inr340
+c3 being informed of inr011-inr001
+c4 being informed of inr011-inr001
+c1 being informed of inr011-inr001
+c2 being informed of inr011-inr001
+c3 being informed of inr011-inr002
+c4 being informed of inr011-inr002
+c1 being informed of inr011-inr002
+c2 being informed of inr011-inr002
+c3 being informed of inr320-h28
+c4 being informed of inr320-h28
+c1 being informed of inr320-h28
+c2 being informed of inr320-h28
+c3 being informed of inr201-inr203
+c4 being informed of inr201-inr203
+c1 being informed of inr201-inr203
+c2 being informed of inr201-inr203
+c3 being informed of inr201-inr206
+c4 being informed of inr201-inr206
+c1 being informed of inr201-inr206
+c2 being informed of inr201-inr206
+c3 being informed of inr330-inr202
+c4 being informed of inr330-inr202
+c1 being informed of inr330-inr202
+c2 being informed of inr330-inr202
+c3 being informed of inr281-h10
+c4 being informed of inr281-h10
+c1 being informed of inr281-h10
+c2 being informed of inr281-h10
+c3 being informed of inr001-inr002
+c4 being informed of inr001-inr002
+c1 being informed of inr001-inr002
+c2 being informed of inr001-inr002
+c3 being informed of inr281-h17
+c4 being informed of inr281-h17
+c1 being informed of inr281-h17
+c2 being informed of inr281-h17
+c3 being informed of inr260-h4
+c4 being informed of inr260-h4
+c1 being informed of inr260-h4
+c2 being informed of inr260-h4
+c3 being informed of inr001-h33
+c4 being informed of inr001-h33
+c1 being informed of inr001-h33
+c2 being informed of inr001-h33
+c3 being informed of inr380-inr201
+c4 being informed of inr380-inr201
+c1 being informed of inr380-inr201
+c2 being informed of inr380-inr201
+c3 being informed of inr380-inr202
+c4 being informed of inr380-inr202
+c1 being informed of inr380-inr202
+c2 being informed of inr380-inr202
+c3 being informed of inr36-h45
+c4 being informed of inr36-h45
+c1 being informed of inr36-h45
+c2 being informed of inr36-h45
+c3 being informed of inr36-h46
+c4 being informed of inr36-h46
+c1 being informed of inr36-h46
+c2 being informed of inr36-h46
+c3 being informed of inr36-h40
+c4 being informed of inr36-h40
+c1 being informed of inr36-h40
+c2 being informed of inr36-h40
+c3 being informed of inr36-h41
+c4 being informed of inr36-h41
+c1 being informed of inr36-h41
+c2 being informed of inr36-h41
+c3 being informed of inr211-inr201
+c4 being informed of inr211-inr201
+c1 being informed of inr211-inr201
+c2 being informed of inr211-inr201
+c3 being informed of inr205-h49
+c4 being informed of inr205-h49
+c1 being informed of inr205-h49
+c2 being informed of inr205-h49
+c3 being informed of inr235-h22
+c4 being informed of inr235-h22
+c1 being informed of inr235-h22
+c2 being informed of inr235-h22
+c3 being informed of inr211-inr202
+c4 being informed of inr211-inr202
+c1 being informed of inr211-inr202
+c2 being informed of inr211-inr202
+c3 being informed of inr205-h42
+c4 being informed of inr205-h42
+c1 being informed of inr205-h42
+c2 being informed of inr205-h42
+c3 being informed of inr43-h12
+c4 being informed of inr43-h12
+c1 being informed of inr43-h12
+c2 being informed of inr43-h12
+c3 being informed of inr43-h11
+c4 being informed of inr43-h11
+c1 being informed of inr43-h11
+c2 being informed of inr43-h11
+c3 being informed of inr320-h19
+c4 being informed of inr320-h19
+c1 being informed of inr320-h19
+c2 being informed of inr320-h19
+c3 being informed of inr210-h23
+c4 being informed of inr210-h23
+c1 being informed of inr210-h23
+c2 being informed of inr210-h23
+c3 being informed of inr002-h25
+c4 being informed of inr002-h25
+c1 being informed of inr002-h25
+c2 being informed of inr002-h25
+c3 being informed of inr157-inr250
+c4 being informed of inr157-inr250
+c1 being informed of inr157-inr250
+c2 being informed of inr157-inr250
+c3 being informed of inr157-inr67
+c4 being informed of inr157-inr67
+c1 being informed of inr157-inr67
+c2 being informed of inr157-inr67
+c3 being informed of inr250-inr201
+c4 being informed of inr250-inr201
+c1 being informed of inr250-inr201
+c2 being informed of inr250-inr201
+c3 being informed of inr299-h2
+c4 being informed of inr299-h2
+c1 being informed of inr299-h2
+c2 being informed of inr299-h2
+c3 being informed of inr370-inr202
+c4 being informed of inr370-inr202
+c1 being informed of inr370-inr202
+c2 being informed of inr370-inr202
+c3 being informed of inr202-inr201
+c4 being informed of inr202-inr201
+c1 being informed of inr202-inr201
+c2 being informed of inr202-inr201
+c3 being informed of inr370-inr201
+c4 being informed of inr370-inr201
+c1 being informed of inr370-inr201
+c2 being informed of inr370-inr201
+c3 being informed of inr202-inr206
+c4 being informed of inr202-inr206
+c1 being informed of inr202-inr206
+c2 being informed of inr202-inr206
+c3 being informed of inr220-h5
+c4 being informed of inr220-h5
+c1 being informed of inr220-h5
+c2 being informed of inr220-h5
+c3 being informed of inr38-h16
+c4 being informed of inr38-h16
+c1 being informed of inr38-h16
+c2 being informed of inr38-h16
+c3 being informed of inr36-h38
+c4 being informed of inr36-h38
+c1 being informed of inr36-h38
+c2 being informed of inr36-h38
+c3 being informed of inr32-inr202
+c4 being informed of inr32-inr202
+c1 being informed of inr32-inr202
+c2 being informed of inr32-inr202
+c3 being informed of inr32-inr201
+c4 being informed of inr32-inr201
+c1 being informed of inr32-inr201
+c2 being informed of inr32-inr201
+c3 being informed of inr260-h24
+c4 being informed of inr260-h24
+c1 being informed of inr260-h24
+c2 being informed of inr260-h24
+c3 being informed of inr34-inr201
+c4 being informed of inr34-inr201
+c1 being informed of inr34-inr201
+c2 being informed of inr34-inr201
+c3 being informed of inr34-inr202
+c4 being informed of inr34-inr202
+c1 being informed of inr34-inr202
+c2 being informed of inr34-inr202
+c3 being informed of inr201-inr340
+c4 being informed of inr201-inr340
+c1 being informed of inr201-inr340
+c2 being informed of inr201-inr340
+c3 being informed of inr201-inr341
+c4 being informed of inr201-inr341
+c1 being informed of inr201-inr341
+c2 being informed of inr201-inr341
+c3 being informed of inr306-inr206
+c4 being informed of inr306-inr206
+c1 being informed of inr306-inr206
+c2 being informed of inr306-inr206
+c3 being informed of inr002-inr202
+c4 being informed of inr002-inr202
+c1 being informed of inr002-inr202
+c2 being informed of inr002-inr202
+c3 being informed of inr306-inr202
+c4 being informed of inr306-inr202
+c1 being informed of inr306-inr202
+c2 being informed of inr306-inr202
+c3 being informed of inr306-inr201
+c4 being informed of inr306-inr201
+c1 being informed of inr306-inr201
+c2 being informed of inr306-inr201
+c3 being informed of inr002-inr201
+c4 being informed of inr002-inr201
+c1 being informed of inr002-inr201
+c2 being informed of inr002-inr201
+c3 being informed of inr157-inr78
+c4 being informed of inr157-inr78
+c1 being informed of inr157-inr78
+c2 being informed of inr157-inr78
+c3 being informed of inr220-h29
+c4 being informed of inr220-h29
+c1 being informed of inr220-h29
+c2 being informed of inr220-h29
+c3 being informed of inr380-h14
+c4 being informed of inr380-h14
+c1 being informed of inr380-h14
+c2 being informed of inr380-h14
+c3 being informed of inr157-inr71
+c4 being informed of inr157-inr71
+c1 being informed of inr157-inr71
+c2 being informed of inr157-inr71
+c3 being informed of inr78-h35
+c4 being informed of inr78-h35
+c1 being informed of inr78-h35
+c2 being informed of inr78-h35
+Computing for c3
+Computing for c4
+Computing for c1
+Computing for c2
+0.000000 received rule update inr67
+0.000000 received rule update inr44
+0.000000 received rule update inr45
+0.000000 received rule update inr370
+0.000000 received rule update inr350
+0.000000 received rule update inr235
+0.000000 received rule update inr210
+0.000000 received rule update inr290
+0.000000 received rule update inr001
+0.000000 received rule update inr002
+0.000000 received rule update inr299
+0.000000 received rule update inr38
+0.000000 received rule update inr51
+0.000000 received rule update inr31
+0.000000 received rule update inr33
+0.000000 received rule update inr32
+0.000000 received rule update inr78
+0.000000 received rule update inr36
+0.000000 received rule update inr220
+0.000000 received rule update inr157
+0.000000 received rule update inr203
+0.000000 received rule update inr202
+0.000000 received rule update inr201
+0.000000 received rule update inr43
+0.000000 received rule update inr320
+0.000000 received rule update inr205
+0.000000 received rule update inr281
+0.000000 received rule update inr280
+0.000000 received rule update inr360
+0.000000 received rule update inr260
+0.000000 received rule update inr340
+0.000000 received rule update inr250
+0.000000 received rule update inr380
+Starting replay
+31000.0 {'c3': {24: 129, 21: 250, 23: 43}, 'c2': {24: 129, 21: 251, 23: 43}, 'c1': {24: 129, 21: 249, 23: 43}, 'c4': {24: 129, 21: 248, 23: 43}}
+32000.0 {'c3': {24: 129, 21: 250, 23: 43}, 'c2': {24: 129, 21: 251, 23: 43}, 'c1': {24: 129, 21: 249, 23: 43}, 'c4': {24: 129, 21: 248, 23: 43}}
+33000.0 {'c3': {24: 129, 21: 250, 23: 43}, 'c2': {24: 129, 21: 251, 23: 43}, 'c1': {24: 129, 21: 249, 23: 43}, 'c4': {24: 129, 21: 248, 23: 43}}
+34000.0 {'c3': {24: 129, 21: 250, 23: 43}, 'c2': {24: 129, 21: 251, 23: 43}, 'c1': {24: 129, 21: 249, 23: 43}, 'c4': {24: 129, 21: 248, 23: 43}}
+35000.0 {'c3': {24: 129, 21: 250, 23: 43}, 'c2': {24: 129, 21: 251, 23: 43}, 'c1': {24: 129, 21: 249, 23: 43}, 'c4': {24: 129, 21: 248, 23: 43}}
+36000.0 {'c3': {24: 129, 21: 250, 23: 43}, 'c2': {24: 129, 21: 251, 23: 43}, 'c1': {24: 129, 21: 249, 23: 43}, 'c4': {24: 129, 21: 248, 23: 43}}
+37000.0 {'c3': {24: 129, 21: 250, 23: 43}, 'c2': {24: 129, 21: 251, 23: 43}, 'c1': {24: 129, 21: 249, 23: 43}, 'c4': {24: 129, 21: 248, 23: 43}}
+38000.0 {'c3': {24: 129, 21: 250, 23: 43}, 'c2': {24: 129, 21: 251, 23: 43}, 'c1': {24: 129, 21: 249, 23: 43}, 'c4': {24: 129, 21: 248, 23: 43}}
+39000.0 {'c3': {24: 129, 21: 250, 23: 43}, 'c2': {24: 129, 21: 251, 23: 43}, 'c1': {24: 129, 21: 249, 23: 43}, 'c4': {24: 129, 21: 248, 23: 43}}
+40000.0 {'c3': {24: 129, 21: 250, 23: 43}, 'c2': {24: 129, 21: 251, 23: 43}, 'c1': {24: 129, 21: 249, 23: 43}, 'c4': {24: 129, 21: 248, 23: 43}}
+41000.0 {'c3': {24: 129, 21: 250, 23: 43}, 'c2': {24: 129, 21: 251, 23: 43}, 'c1': {24: 129, 21: 249, 23: 43}, 'c4': {24: 129, 21: 248, 23: 43}}
+42000.0 {'c3': {24: 129, 21: 250, 23: 43}, 'c2': {24: 129, 21: 251, 23: 43}, 'c1': {24: 129, 21: 249, 23: 43}, 'c4': {24: 129, 21: 248, 23: 43}}
+43000.0 {'c3': {24: 129, 21: 250, 23: 43}, 'c2': {24: 129, 21: 251, 23: 43}, 'c1': {24: 129, 21: 249, 23: 43}, 'c4': {24: 129, 21: 248, 23: 43}}
+44000.0 {'c3': {24: 129, 21: 250, 23: 43}, 'c2': {24: 129, 21: 251, 23: 43}, 'c1': {24: 129, 21: 249, 23: 43}, 'c4': {24: 129, 21: 248, 23: 43}}
+45000.0 {'c3': {24: 129, 21: 250, 23: 43}, 'c2': {24: 129, 21: 251, 23: 43}, 'c1': {24: 129, 21: 249, 23: 43}, 'c4': {24: 129, 21: 248, 23: 43}}
+46000.0 {'c3': {24: 129, 21: 250, 23: 43}, 'c2': {24: 129, 21: 251, 23: 43}, 'c1': {24: 129, 21: 249, 23: 43}, 'c4': {24: 129, 21: 248, 23: 43}}
+47000.0 {'c3': {24: 129, 21: 250, 23: 43}, 'c2': {24: 129, 21: 251, 23: 43}, 'c1': {24: 129, 21: 249, 23: 43}, 'c4': {24: 129, 21: 248, 23: 43}}
+48000.0 {'c3': {24: 129, 21: 250, 23: 43}, 'c2': {24: 129, 21: 251, 23: 43}, 'c1': {24: 129, 21: 249, 23: 43}, 'c4': {24: 129, 21: 248, 23: 43}}
+49000.0 {'c3': {24: 129, 21: 250, 23: 43}, 'c2': {24: 129, 21: 251, 23: 43}, 'c1': {24: 129, 21: 249, 23: 43}, 'c4': {24: 129, 21: 248, 23: 43}}
+50000.0 {'c3': {24: 129, 21: 250, 23: 43}, 'c2': {24: 129, 21: 251, 23: 43}, 'c1': {24: 129, 21: 249, 23: 43}, 'c4': {24: 129, 21: 248, 23: 43}}
+51000.0 {'c3': {24: 129, 21: 250, 23: 43}, 'c2': {24: 129, 21: 251, 23: 43}, 'c1': {24: 129, 21: 249, 23: 43}, 'c4': {24: 129, 21: 248, 23: 43}}
+52000.0 {'c3': {24: 129, 21: 250, 23: 43}, 'c2': {24: 129, 21: 251, 23: 43}, 'c1': {24: 129, 21: 249, 23: 43}, 'c4': {24: 129, 21: 248, 23: 43}}
+53000.0 {'c3': {24: 129, 21: 250, 23: 43}, 'c2': {24: 129, 21: 251, 23: 43}, 'c1': {24: 129, 21: 249, 23: 43}, 'c4': {24: 129, 21: 248, 23: 43}}
+54000.0 {'c3': {24: 129, 21: 250, 23: 43}, 'c2': {24: 129, 21: 251, 23: 43}, 'c1': {24: 129, 21: 249, 23: 43}, 'c4': {24: 129, 21: 248, 23: 43}}
+55000.0 {'c3': {24: 129, 21: 250, 23: 43}, 'c2': {24: 129, 21: 251, 23: 43}, 'c1': {24: 129, 21: 249, 23: 43}, 'c4': {24: 129, 21: 248, 23: 43}}
+56000.0 {'c3': {24: 129, 21: 250, 23: 43}, 'c2': {24: 129, 21: 251, 23: 43}, 'c1': {24: 129, 21: 249, 23: 43}, 'c4': {24: 129, 21: 248, 23: 43}}
+57000.0 {'c3': {24: 129, 21: 250, 23: 43}, 'c2': {24: 129, 21: 251, 23: 43}, 'c1': {24: 129, 21: 249, 23: 43}, 'c4': {24: 129, 21: 248, 23: 43}}
+58000.0 {'c3': {24: 129, 21: 250, 23: 43}, 'c2': {24: 129, 21: 251, 23: 43}, 'c1': {24: 129, 21: 249, 23: 43}, 'c4': {24: 129, 21: 248, 23: 43}}
+59000.0 {'c3': {24: 129, 21: 250, 23: 43}, 'c2': {24: 129, 21: 251, 23: 43}, 'c1': {24: 129, 21: 249, 23: 43}, 'c4': {24: 129, 21: 248, 23: 43}}
+60000.0 {'c3': {24: 129, 21: 250, 23: 43}, 'c2': {24: 129, 21: 251, 23: 43}, 'c1': {24: 129, 21: 249, 23: 43}, 'c4': {24: 129, 21: 248, 23: 43}}
+61000.0 {'c3': {24: 255, 21: 496, 23: 86}, 'c2': {24: 255, 21: 493, 23: 86}, 'c1': {24: 255, 21: 496, 23: 86}, 'c4': {24: 255, 21: 491, 23: 86}}
+62000.0 {'c3': {24: 255, 21: 496, 23: 86}, 'c2': {24: 255, 21: 493, 23: 86}, 'c1': {24: 255, 21: 496, 23: 86}, 'c4': {24: 255, 21: 491, 23: 86}}
+63000.0 {'c3': {24: 255, 21: 496, 23: 86}, 'c2': {24: 255, 21: 493, 23: 86}, 'c1': {24: 255, 21: 496, 23: 86}, 'c4': {24: 255, 21: 491, 23: 86}}
+64000.0 {'c3': {24: 255, 21: 496, 23: 86}, 'c2': {24: 255, 21: 493, 23: 86}, 'c1': {24: 255, 21: 496, 23: 86}, 'c4': {24: 255, 21: 491, 23: 86}}
+65000.0 {'c3': {24: 255, 21: 496, 23: 86}, 'c2': {24: 255, 21: 493, 23: 86}, 'c1': {24: 255, 21: 496, 23: 86}, 'c4': {24: 255, 21: 491, 23: 86}}
+66000.0 {'c3': {24: 255, 21: 496, 23: 86}, 'c2': {24: 255, 21: 493, 23: 86}, 'c1': {24: 255, 21: 496, 23: 86}, 'c4': {24: 255, 21: 491, 23: 86}}
+67000.0 {'c3': {24: 255, 21: 496, 23: 86}, 'c2': {24: 255, 21: 493, 23: 86}, 'c1': {24: 255, 21: 496, 23: 86}, 'c4': {24: 255, 21: 491, 23: 86}}
+68000.0 {'c3': {24: 255, 21: 496, 23: 86}, 'c2': {24: 255, 21: 493, 23: 86}, 'c1': {24: 255, 21: 496, 23: 86}, 'c4': {24: 255, 21: 491, 23: 86}}
+69000.0 {'c3': {24: 255, 21: 496, 23: 86}, 'c2': {24: 255, 21: 493, 23: 86}, 'c1': {24: 255, 21: 496, 23: 86}, 'c4': {24: 255, 21: 491, 23: 86}}
+70000.0 {'c3': {24: 255, 21: 496, 23: 86}, 'c2': {24: 255, 21: 493, 23: 86}, 'c1': {24: 255, 21: 496, 23: 86}, 'c4': {24: 255, 21: 491, 23: 86}}
+71000.0 {'c3': {24: 255, 21: 496, 23: 86}, 'c2': {24: 255, 21: 493, 23: 86}, 'c1': {24: 255, 21: 496, 23: 86}, 'c4': {24: 255, 21: 491, 23: 86}}
+72000.0 {'c3': {24: 255, 21: 496, 23: 86}, 'c2': {24: 255, 21: 493, 23: 86}, 'c1': {24: 255, 21: 496, 23: 86}, 'c4': {24: 255, 21: 491, 23: 86}}
+73000.0 {'c3': {24: 255, 21: 496, 23: 86}, 'c2': {24: 255, 21: 493, 23: 86}, 'c1': {24: 255, 21: 496, 23: 86}, 'c4': {24: 255, 21: 491, 23: 86}}
+74000.0 {'c3': {24: 255, 21: 496, 23: 86}, 'c2': {24: 255, 21: 493, 23: 86}, 'c1': {24: 255, 21: 496, 23: 86}, 'c4': {24: 255, 21: 491, 23: 86}}
+75000.0 {'c3': {24: 255, 21: 496, 23: 86}, 'c2': {24: 255, 21: 493, 23: 86}, 'c1': {24: 255, 21: 496, 23: 86}, 'c4': {24: 255, 21: 491, 23: 86}}
+76000.0 {'c3': {24: 255, 21: 496, 23: 86}, 'c2': {24: 255, 21: 493, 23: 86}, 'c1': {24: 255, 21: 496, 23: 86}, 'c4': {24: 255, 21: 491, 23: 86}}
+77000.0 {'c3': {24: 255, 21: 496, 23: 86}, 'c2': {24: 255, 21: 493, 23: 86}, 'c1': {24: 255, 21: 496, 23: 86}, 'c4': {24: 255, 21: 491, 23: 86}}
+78000.0 {'c3': {24: 255, 21: 496, 23: 86}, 'c2': {24: 255, 21: 493, 23: 86}, 'c1': {24: 255, 21: 496, 23: 86}, 'c4': {24: 255, 21: 491, 23: 86}}
+79000.0 {'c3': {24: 255, 21: 496, 23: 86}, 'c2': {24: 255, 21: 493, 23: 86}, 'c1': {24: 255, 21: 496, 23: 86}, 'c4': {24: 255, 21: 491, 23: 86}}
+80000.0 {'c3': {24: 255, 21: 496, 23: 86}, 'c2': {24: 255, 21: 493, 23: 86}, 'c1': {24: 255, 21: 496, 23: 86}, 'c4': {24: 255, 21: 491, 23: 86}}
+81000.0 {'c3': {24: 255, 21: 496, 23: 86}, 'c2': {24: 255, 21: 493, 23: 86}, 'c1': {24: 255, 21: 496, 23: 86}, 'c4': {24: 255, 21: 491, 23: 86}}
+82000.0 {'c3': {24: 255, 21: 496, 23: 86}, 'c2': {24: 255, 21: 493, 23: 86}, 'c1': {24: 255, 21: 496, 23: 86}, 'c4': {24: 255, 21: 491, 23: 86}}
+83000.0 {'c3': {24: 255, 21: 496, 23: 86}, 'c2': {24: 255, 21: 493, 23: 86}, 'c1': {24: 255, 21: 496, 23: 86}, 'c4': {24: 255, 21: 491, 23: 86}}
+84000.0 {'c3': {24: 255, 21: 496, 23: 86}, 'c2': {24: 255, 21: 493, 23: 86}, 'c1': {24: 255, 21: 496, 23: 86}, 'c4': {24: 255, 21: 491, 23: 86}}
+85000.0 {'c3': {24: 255, 21: 496, 23: 86}, 'c2': {24: 255, 21: 493, 23: 86}, 'c1': {24: 255, 21: 496, 23: 86}, 'c4': {24: 255, 21: 491, 23: 86}}
+86000.0 {'c3': {24: 255, 21: 496, 23: 86}, 'c2': {24: 255, 21: 493, 23: 86}, 'c1': {24: 255, 21: 496, 23: 86}, 'c4': {24: 255, 21: 491, 23: 86}}
+87000.0 {'c3': {24: 255, 21: 496, 23: 86}, 'c2': {24: 255, 21: 493, 23: 86}, 'c1': {24: 255, 21: 496, 23: 86}, 'c4': {24: 255, 21: 491, 23: 86}}
+88000.0 {'c3': {24: 255, 21: 496, 23: 86}, 'c2': {24: 255, 21: 493, 23: 86}, 'c1': {24: 255, 21: 496, 23: 86}, 'c4': {24: 255, 21: 491, 23: 86}}
+89000.0 {'c3': {24: 255, 21: 496, 23: 86}, 'c2': {24: 255, 21: 493, 23: 86}, 'c1': {24: 255, 21: 496, 23: 86}, 'c4': {24: 255, 21: 491, 23: 86}}
+90000.0 {'c3': {24: 255, 21: 496, 23: 86}, 'c2': {24: 255, 21: 493, 23: 86}, 'c1': {24: 255, 21: 496, 23: 86}, 'c4': {24: 255, 21: 491, 23: 86}}
+91000.0 {'c3': {24: 381, 21: 739, 23: 129}, 'c2': {24: 381, 21: 732, 23: 129}, 'c1': {24: 381, 21: 738, 23: 129}, 'c4': {24: 381, 21: 736, 23: 129}}
+92000.0 {'c3': {24: 381, 21: 739, 23: 129}, 'c2': {24: 381, 21: 732, 23: 129}, 'c1': {24: 381, 21: 738, 23: 129}, 'c4': {24: 381, 21: 736, 23: 129}}
+93000.0 {'c3': {24: 381, 21: 739, 23: 129}, 'c2': {24: 381, 21: 732, 23: 129}, 'c1': {24: 381, 21: 738, 23: 129}, 'c4': {24: 381, 21: 736, 23: 129}}
+94000.0 {'c3': {24: 381, 21: 739, 23: 129}, 'c2': {24: 381, 21: 732, 23: 129}, 'c1': {24: 381, 21: 738, 23: 129}, 'c4': {24: 381, 21: 736, 23: 129}}
+95000.0 {'c3': {24: 381, 21: 739, 23: 129}, 'c2': {24: 381, 21: 732, 23: 129}, 'c1': {24: 381, 21: 738, 23: 129}, 'c4': {24: 381, 21: 736, 23: 129}}
+96000.0 {'c3': {24: 381, 21: 739, 23: 129}, 'c2': {24: 381, 21: 732, 23: 129}, 'c1': {24: 381, 21: 738, 23: 129}, 'c4': {24: 381, 21: 736, 23: 129}}
+97000.0 {'c3': {24: 381, 21: 739, 23: 129}, 'c2': {24: 381, 21: 732, 23: 129}, 'c1': {24: 381, 21: 738, 23: 129}, 'c4': {24: 381, 21: 736, 23: 129}}
+98000.0 {'c3': {24: 381, 21: 739, 23: 129}, 'c2': {24: 381, 21: 732, 23: 129}, 'c1': {24: 381, 21: 738, 23: 129}, 'c4': {24: 381, 21: 736, 23: 129}}
+99000.0 {'c3': {24: 381, 21: 739, 23: 129}, 'c2': {24: 381, 21: 732, 23: 129}, 'c1': {24: 381, 21: 738, 23: 129}, 'c4': {24: 381, 21: 736, 23: 129}}
+100000.0 {'c3': {24: 381, 21: 739, 23: 129}, 'c2': {24: 381, 21: 732, 23: 129}, 'c1': {24: 381, 21: 738, 23: 129}, 'c4': {24: 381, 21: 736, 23: 129}}
+101000.0 {'c3': {24: 381, 21: 739, 23: 129}, 'c2': {24: 381, 21: 732, 23: 129}, 'c1': {24: 381, 21: 738, 23: 129}, 'c4': {24: 381, 21: 736, 23: 129}}
+102000.0 {'c3': {24: 381, 21: 739, 23: 129}, 'c2': {24: 381, 21: 732, 23: 129}, 'c1': {24: 381, 21: 738, 23: 129}, 'c4': {24: 381, 21: 736, 23: 129}}
+103000.0 {'c3': {24: 381, 21: 739, 23: 129}, 'c2': {24: 381, 21: 732, 23: 129}, 'c1': {24: 381, 21: 738, 23: 129}, 'c4': {24: 381, 21: 736, 23: 129}}
+104000.0 {'c3': {24: 381, 21: 739, 23: 129}, 'c2': {24: 381, 21: 732, 23: 129}, 'c1': {24: 381, 21: 738, 23: 129}, 'c4': {24: 381, 21: 736, 23: 129}}
+105000.0 {'c3': {24: 381, 21: 739, 23: 129}, 'c2': {24: 381, 21: 732, 23: 129}, 'c1': {24: 381, 21: 738, 23: 129}, 'c4': {24: 381, 21: 736, 23: 129}}
+106000.0 {'c3': {24: 381, 21: 739, 23: 129}, 'c2': {24: 381, 21: 732, 23: 129}, 'c1': {24: 381, 21: 738, 23: 129}, 'c4': {24: 381, 21: 736, 23: 129}}
+107000.0 {'c3': {24: 381, 21: 739, 23: 129}, 'c2': {24: 381, 21: 732, 23: 129}, 'c1': {24: 381, 21: 738, 23: 129}, 'c4': {24: 381, 21: 736, 23: 129}}
+108000.0 {'c3': {24: 381, 21: 739, 23: 129}, 'c2': {24: 381, 21: 732, 23: 129}, 'c1': {24: 381, 21: 738, 23: 129}, 'c4': {24: 381, 21: 736, 23: 129}}
+109000.0 {'c3': {24: 381, 21: 739, 23: 129}, 'c2': {24: 381, 21: 732, 23: 129}, 'c1': {24: 381, 21: 738, 23: 129}, 'c4': {24: 381, 21: 736, 23: 129}}
+110000.0 {'c3': {24: 381, 21: 739, 23: 129}, 'c2': {24: 381, 21: 732, 23: 129}, 'c1': {24: 381, 21: 738, 23: 129}, 'c4': {24: 381, 21: 736, 23: 129}}
+111000.0 {'c3': {24: 381, 21: 739, 23: 129}, 'c2': {24: 381, 21: 732, 23: 129}, 'c1': {24: 381, 21: 738, 23: 129}, 'c4': {24: 381, 21: 736, 23: 129}}
+112000.0 {'c3': {24: 381, 21: 739, 23: 129}, 'c2': {24: 381, 21: 732, 23: 129}, 'c1': {24: 381, 21: 738, 23: 129}, 'c4': {24: 381, 21: 736, 23: 129}}
+113000.0 {'c3': {24: 381, 21: 739, 23: 129}, 'c2': {24: 381, 21: 732, 23: 129}, 'c1': {24: 381, 21: 738, 23: 129}, 'c4': {24: 381, 21: 736, 23: 129}}
+114000.0 {'c3': {24: 381, 21: 739, 23: 129}, 'c2': {24: 381, 21: 732, 23: 129}, 'c1': {24: 381, 21: 738, 23: 129}, 'c4': {24: 381, 21: 736, 23: 129}}
+115000.0 {'c3': {24: 381, 21: 739, 23: 129}, 'c2': {24: 381, 21: 732, 23: 129}, 'c1': {24: 381, 21: 738, 23: 129}, 'c4': {24: 381, 21: 736, 23: 129}}
+116000.0 {'c3': {24: 381, 21: 739, 23: 129}, 'c2': {24: 381, 21: 732, 23: 129}, 'c1': {24: 381, 21: 738, 23: 129}, 'c4': {24: 381, 21: 736, 23: 129}}
+117000.0 {'c3': {24: 381, 21: 739, 23: 129}, 'c2': {24: 381, 21: 732, 23: 129}, 'c1': {24: 381, 21: 738, 23: 129}, 'c4': {24: 381, 21: 736, 23: 129}}
+118000.0 {'c3': {24: 381, 21: 739, 23: 129}, 'c2': {24: 381, 21: 732, 23: 129}, 'c1': {24: 381, 21: 738, 23: 129}, 'c4': {24: 381, 21: 736, 23: 129}}
+119000.0 {'c3': {24: 381, 21: 739, 23: 129}, 'c2': {24: 381, 21: 732, 23: 129}, 'c1': {24: 381, 21: 738, 23: 129}, 'c4': {24: 381, 21: 736, 23: 129}}
+120000.0 {'c3': {24: 381, 21: 739, 23: 129}, 'c2': {24: 381, 21: 732, 23: 129}, 'c1': {24: 381, 21: 738, 23: 129}, 'c4': {24: 381, 21: 736, 23: 129}}
+121000.0 {'c3': {24: 507, 21: 978, 23: 172}, 'c2': {24: 507, 21: 980, 23: 172}, 'c1': {24: 507, 21: 980, 23: 172}, 'c4': {24: 507, 21: 981, 23: 172}}
+122000.0 {'c3': {24: 507, 21: 978, 23: 172}, 'c2': {24: 507, 21: 980, 23: 172}, 'c1': {24: 507, 21: 980, 23: 172}, 'c4': {24: 507, 21: 981, 23: 172}}
+123000.0 {'c3': {24: 507, 21: 978, 23: 172}, 'c2': {24: 507, 21: 980, 23: 172}, 'c1': {24: 507, 21: 980, 23: 172}, 'c4': {24: 507, 21: 981, 23: 172}}
+124000.0 {'c3': {24: 507, 21: 978, 23: 172}, 'c2': {24: 507, 21: 980, 23: 172}, 'c1': {24: 507, 21: 980, 23: 172}, 'c4': {24: 507, 21: 981, 23: 172}}
+125000.0 {'c3': {24: 507, 21: 978, 23: 172}, 'c2': {24: 507, 21: 980, 23: 172}, 'c1': {24: 507, 21: 980, 23: 172}, 'c4': {24: 507, 21: 981, 23: 172}}
+126000.0 {'c3': {24: 507, 21: 978, 23: 172}, 'c2': {24: 507, 21: 980, 23: 172}, 'c1': {24: 507, 21: 980, 23: 172}, 'c4': {24: 507, 21: 981, 23: 172}}
+127000.0 {'c3': {24: 507, 21: 978, 23: 172}, 'c2': {24: 507, 21: 980, 23: 172}, 'c1': {24: 507, 21: 980, 23: 172}, 'c4': {24: 507, 21: 981, 23: 172}}
+128000.0 {'c3': {24: 507, 21: 978, 23: 172}, 'c2': {24: 507, 21: 980, 23: 172}, 'c1': {24: 507, 21: 980, 23: 172}, 'c4': {24: 507, 21: 981, 23: 172}}
+129000.0 {'c3': {24: 507, 21: 978, 23: 172}, 'c2': {24: 507, 21: 980, 23: 172}, 'c1': {24: 507, 21: 980, 23: 172}, 'c4': {24: 507, 21: 981, 23: 172}}
+130000.0 {'c3': {24: 507, 21: 978, 23: 172}, 'c2': {24: 507, 21: 980, 23: 172}, 'c1': {24: 507, 21: 980, 23: 172}, 'c4': {24: 507, 21: 981, 23: 172}}
+131000.0 {'c3': {24: 507, 21: 978, 23: 172}, 'c2': {24: 507, 21: 980, 23: 172}, 'c1': {24: 507, 21: 980, 23: 172}, 'c4': {24: 507, 21: 981, 23: 172}}
+132000.0 {'c3': {24: 507, 21: 978, 23: 172}, 'c2': {24: 507, 21: 980, 23: 172}, 'c1': {24: 507, 21: 980, 23: 172}, 'c4': {24: 507, 21: 981, 23: 172}}
+133000.0 {'c3': {24: 507, 21: 978, 23: 172}, 'c2': {24: 507, 21: 980, 23: 172}, 'c1': {24: 507, 21: 980, 23: 172}, 'c4': {24: 507, 21: 981, 23: 172}}
+134000.0 {'c3': {24: 507, 21: 978, 23: 172}, 'c2': {24: 507, 21: 980, 23: 172}, 'c1': {24: 507, 21: 980, 23: 172}, 'c4': {24: 507, 21: 981, 23: 172}}
+135000.0 {'c3': {24: 507, 21: 978, 23: 172}, 'c2': {24: 507, 21: 980, 23: 172}, 'c1': {24: 507, 21: 980, 23: 172}, 'c4': {24: 507, 21: 981, 23: 172}}
+136000.0 {'c3': {24: 507, 21: 978, 23: 172}, 'c2': {24: 507, 21: 980, 23: 172}, 'c1': {24: 507, 21: 980, 23: 172}, 'c4': {24: 507, 21: 981, 23: 172}}
+137000.0 {'c3': {24: 507, 21: 978, 23: 172}, 'c2': {24: 507, 21: 980, 23: 172}, 'c1': {24: 507, 21: 980, 23: 172}, 'c4': {24: 507, 21: 981, 23: 172}}
+138000.0 {'c3': {24: 507, 21: 978, 23: 172}, 'c2': {24: 507, 21: 980, 23: 172}, 'c1': {24: 507, 21: 980, 23: 172}, 'c4': {24: 507, 21: 981, 23: 172}}
+139000.0 {'c3': {24: 507, 21: 978, 23: 172}, 'c2': {24: 507, 21: 980, 23: 172}, 'c1': {24: 507, 21: 980, 23: 172}, 'c4': {24: 507, 21: 981, 23: 172}}
+140000.0 {'c3': {24: 507, 21: 978, 23: 172}, 'c2': {24: 507, 21: 980, 23: 172}, 'c1': {24: 507, 21: 980, 23: 172}, 'c4': {24: 507, 21: 981, 23: 172}}
+141000.0 {'c3': {24: 507, 21: 978, 23: 172}, 'c2': {24: 507, 21: 980, 23: 172}, 'c1': {24: 507, 21: 980, 23: 172}, 'c4': {24: 507, 21: 981, 23: 172}}
+142000.0 {'c3': {24: 507, 21: 978, 23: 172}, 'c2': {24: 507, 21: 980, 23: 172}, 'c1': {24: 507, 21: 980, 23: 172}, 'c4': {24: 507, 21: 981, 23: 172}}
+143000.0 {'c3': {24: 507, 21: 978, 23: 172}, 'c2': {24: 507, 21: 980, 23: 172}, 'c1': {24: 507, 21: 980, 23: 172}, 'c4': {24: 507, 21: 981, 23: 172}}
+144000.0 {'c3': {24: 507, 21: 978, 23: 172}, 'c2': {24: 507, 21: 980, 23: 172}, 'c1': {24: 507, 21: 980, 23: 172}, 'c4': {24: 507, 21: 981, 23: 172}}
+145000.0 {'c3': {24: 507, 21: 978, 23: 172}, 'c2': {24: 507, 21: 980, 23: 172}, 'c1': {24: 507, 21: 980, 23: 172}, 'c4': {24: 507, 21: 981, 23: 172}}
+146000.0 {'c3': {24: 507, 21: 978, 23: 172}, 'c2': {24: 507, 21: 980, 23: 172}, 'c1': {24: 507, 21: 980, 23: 172}, 'c4': {24: 507, 21: 981, 23: 172}}
+147000.0 {'c3': {24: 507, 21: 978, 23: 172}, 'c2': {24: 507, 21: 980, 23: 172}, 'c1': {24: 507, 21: 980, 23: 172}, 'c4': {24: 507, 21: 981, 23: 172}}
+148000.0 {'c3': {24: 507, 21: 978, 23: 172}, 'c2': {24: 507, 21: 980, 23: 172}, 'c1': {24: 507, 21: 980, 23: 172}, 'c4': {24: 507, 21: 981, 23: 172}}
+149000.0 {'c3': {24: 507, 21: 978, 23: 172}, 'c2': {24: 507, 21: 980, 23: 172}, 'c1': {24: 507, 21: 980, 23: 172}, 'c4': {24: 507, 21: 981, 23: 172}}
+150000.0 {'c3': {24: 507, 21: 978, 23: 172}, 'c2': {24: 507, 21: 980, 23: 172}, 'c1': {24: 507, 21: 980, 23: 172}, 'c4': {24: 507, 21: 981, 23: 172}}
+151000.0 {'c3': {24: 633, 21: 1222, 23: 215}, 'c2': {24: 633, 21: 1220, 23: 215}, 'c1': {24: 633, 21: 1223, 23: 215}, 'c4': {24: 633, 21: 1223, 23: 215}}
+152000.0 {'c3': {24: 633, 21: 1222, 23: 215}, 'c2': {24: 633, 21: 1220, 23: 215}, 'c1': {24: 633, 21: 1223, 23: 215}, 'c4': {24: 633, 21: 1223, 23: 215}}
+153000.0 {'c3': {24: 633, 21: 1222, 23: 215}, 'c2': {24: 633, 21: 1220, 23: 215}, 'c1': {24: 633, 21: 1223, 23: 215}, 'c4': {24: 633, 21: 1223, 23: 215}}
+154000.0 {'c3': {24: 633, 21: 1222, 23: 215}, 'c2': {24: 633, 21: 1220, 23: 215}, 'c1': {24: 633, 21: 1223, 23: 215}, 'c4': {24: 633, 21: 1223, 23: 215}}
+155000.0 {'c3': {24: 633, 21: 1222, 23: 215}, 'c2': {24: 633, 21: 1220, 23: 215}, 'c1': {24: 633, 21: 1223, 23: 215}, 'c4': {24: 633, 21: 1223, 23: 215}}
+156000.0 {'c3': {24: 633, 21: 1222, 23: 215}, 'c2': {24: 633, 21: 1220, 23: 215}, 'c1': {24: 633, 21: 1223, 23: 215}, 'c4': {24: 633, 21: 1223, 23: 215}}
+157000.0 {'c3': {24: 633, 21: 1222, 23: 215}, 'c2': {24: 633, 21: 1220, 23: 215}, 'c1': {24: 633, 21: 1223, 23: 215}, 'c4': {24: 633, 21: 1223, 23: 215}}
+158000.0 {'c3': {24: 633, 21: 1222, 23: 215}, 'c2': {24: 633, 21: 1220, 23: 215}, 'c1': {24: 633, 21: 1223, 23: 215}, 'c4': {24: 633, 21: 1223, 23: 215}}
+159000.0 {'c3': {24: 633, 21: 1222, 23: 215}, 'c2': {24: 633, 21: 1220, 23: 215}, 'c1': {24: 633, 21: 1223, 23: 215}, 'c4': {24: 633, 21: 1223, 23: 215}}
+160000.0 {'c3': {24: 633, 21: 1222, 23: 215}, 'c2': {24: 633, 21: 1220, 23: 215}, 'c1': {24: 633, 21: 1223, 23: 215}, 'c4': {24: 633, 21: 1223, 23: 215}}
+161000.0 {'c3': {24: 633, 21: 1222, 23: 215}, 'c2': {24: 633, 21: 1220, 23: 215}, 'c1': {24: 633, 21: 1223, 23: 215}, 'c4': {24: 633, 21: 1223, 23: 215}}
+162000.0 {'c3': {24: 633, 21: 1222, 23: 215}, 'c2': {24: 633, 21: 1220, 23: 215}, 'c1': {24: 633, 21: 1223, 23: 215}, 'c4': {24: 633, 21: 1223, 23: 215}}
+163000.0 {'c3': {24: 633, 21: 1222, 23: 215}, 'c2': {24: 633, 21: 1220, 23: 215}, 'c1': {24: 633, 21: 1223, 23: 215}, 'c4': {24: 633, 21: 1223, 23: 215}}
+164000.0 {'c3': {24: 633, 21: 1222, 23: 215}, 'c2': {24: 633, 21: 1220, 23: 215}, 'c1': {24: 633, 21: 1223, 23: 215}, 'c4': {24: 633, 21: 1223, 23: 215}}
+165000.0 {'c3': {24: 633, 21: 1222, 23: 215}, 'c2': {24: 633, 21: 1220, 23: 215}, 'c1': {24: 633, 21: 1223, 23: 215}, 'c4': {24: 633, 21: 1223, 23: 215}}
+166000.0 {'c3': {24: 633, 21: 1222, 23: 215}, 'c2': {24: 633, 21: 1220, 23: 215}, 'c1': {24: 633, 21: 1223, 23: 215}, 'c4': {24: 633, 21: 1223, 23: 215}}
+167000.0 {'c3': {24: 633, 21: 1222, 23: 215}, 'c2': {24: 633, 21: 1220, 23: 215}, 'c1': {24: 633, 21: 1223, 23: 215}, 'c4': {24: 633, 21: 1223, 23: 215}}
+168000.0 {'c3': {24: 633, 21: 1222, 23: 215}, 'c2': {24: 633, 21: 1220, 23: 215}, 'c1': {24: 633, 21: 1223, 23: 215}, 'c4': {24: 633, 21: 1223, 23: 215}}
+169000.0 {'c3': {24: 633, 21: 1222, 23: 215}, 'c2': {24: 633, 21: 1220, 23: 215}, 'c1': {24: 633, 21: 1223, 23: 215}, 'c4': {24: 633, 21: 1223, 23: 215}}
+170000.0 {'c3': {24: 633, 21: 1222, 23: 215}, 'c2': {24: 633, 21: 1220, 23: 215}, 'c1': {24: 633, 21: 1223, 23: 215}, 'c4': {24: 633, 21: 1223, 23: 215}}
+171000.0 {'c3': {24: 633, 21: 1222, 23: 215}, 'c2': {24: 633, 21: 1220, 23: 215}, 'c1': {24: 633, 21: 1223, 23: 215}, 'c4': {24: 633, 21: 1223, 23: 215}}
+172000.0 {'c3': {24: 633, 21: 1222, 23: 215}, 'c2': {24: 633, 21: 1220, 23: 215}, 'c1': {24: 633, 21: 1223, 23: 215}, 'c4': {24: 633, 21: 1223, 23: 215}}
+173000.0 {'c3': {24: 633, 21: 1222, 23: 215}, 'c2': {24: 633, 21: 1220, 23: 215}, 'c1': {24: 633, 21: 1223, 23: 215}, 'c4': {24: 633, 21: 1223, 23: 215}}
+174000.0 {'c3': {24: 633, 21: 1222, 23: 215}, 'c2': {24: 633, 21: 1220, 23: 215}, 'c1': {24: 633, 21: 1223, 23: 215}, 'c4': {24: 633, 21: 1223, 23: 215}}
+175000.0 {'c3': {24: 633, 21: 1222, 23: 215}, 'c2': {24: 633, 21: 1220, 23: 215}, 'c1': {24: 633, 21: 1223, 23: 215}, 'c4': {24: 633, 21: 1223, 23: 215}}
+176000.0 {'c3': {24: 633, 21: 1222, 23: 215}, 'c2': {24: 633, 21: 1220, 23: 215}, 'c1': {24: 633, 21: 1223, 23: 215}, 'c4': {24: 633, 21: 1223, 23: 215}}
+177000.0 {'c3': {24: 633, 21: 1222, 23: 215}, 'c2': {24: 633, 21: 1220, 23: 215}, 'c1': {24: 633, 21: 1223, 23: 215}, 'c4': {24: 633, 21: 1223, 23: 215}}
+178000.0 {'c3': {24: 633, 21: 1222, 23: 215}, 'c2': {24: 633, 21: 1220, 23: 215}, 'c1': {24: 633, 21: 1223, 23: 215}, 'c4': {24: 633, 21: 1223, 23: 215}}
+179000.0 {'c3': {24: 633, 21: 1222, 23: 215}, 'c2': {24: 633, 21: 1220, 23: 215}, 'c1': {24: 633, 21: 1223, 23: 215}, 'c4': {24: 633, 21: 1223, 23: 215}}
+180000.0 {'c3': {24: 633, 21: 1222, 23: 215}, 'c2': {24: 633, 21: 1220, 23: 215}, 'c1': {24: 633, 21: 1223, 23: 215}, 'c4': {24: 633, 21: 1223, 23: 215}}
+181000.0 {'c3': {24: 759, 21: 1463, 23: 258}, 'c2': {24: 759, 21: 1461, 23: 258}, 'c1': {24: 759, 21: 1464, 23: 258}, 'c4': {24: 759, 21: 1468, 23: 258}}
+182000.0 {'c3': {24: 759, 21: 1463, 23: 258}, 'c2': {24: 759, 21: 1461, 23: 258}, 'c1': {24: 759, 21: 1464, 23: 258}, 'c4': {24: 759, 21: 1468, 23: 258}}
+183000.0 {'c3': {24: 759, 21: 1463, 23: 258}, 'c2': {24: 759, 21: 1461, 23: 258}, 'c1': {24: 759, 21: 1464, 23: 258}, 'c4': {24: 759, 21: 1468, 23: 258}}
+184000.0 {'c3': {24: 759, 21: 1463, 23: 258}, 'c2': {24: 759, 21: 1461, 23: 258}, 'c1': {24: 759, 21: 1464, 23: 258}, 'c4': {24: 759, 21: 1468, 23: 258}}
+185000.0 {'c3': {24: 759, 21: 1463, 23: 258}, 'c2': {24: 759, 21: 1461, 23: 258}, 'c1': {24: 759, 21: 1464, 23: 258}, 'c4': {24: 759, 21: 1468, 23: 258}}
+186000.0 {'c3': {24: 759, 21: 1463, 23: 258}, 'c2': {24: 759, 21: 1461, 23: 258}, 'c1': {24: 759, 21: 1464, 23: 258}, 'c4': {24: 759, 21: 1468, 23: 258}}
+187000.0 {'c3': {24: 759, 21: 1463, 23: 258}, 'c2': {24: 759, 21: 1461, 23: 258}, 'c1': {24: 759, 21: 1464, 23: 258}, 'c4': {24: 759, 21: 1468, 23: 258}}
+188000.0 {'c3': {24: 759, 21: 1463, 23: 258}, 'c2': {24: 759, 21: 1461, 23: 258}, 'c1': {24: 759, 21: 1464, 23: 258}, 'c4': {24: 759, 21: 1468, 23: 258}}
+189000.0 {'c3': {24: 759, 21: 1463, 23: 258}, 'c2': {24: 759, 21: 1461, 23: 258}, 'c1': {24: 759, 21: 1464, 23: 258}, 'c4': {24: 759, 21: 1468, 23: 258}}
+190000.0 {'c3': {24: 759, 21: 1463, 23: 258}, 'c2': {24: 759, 21: 1461, 23: 258}, 'c1': {24: 759, 21: 1464, 23: 258}, 'c4': {24: 759, 21: 1468, 23: 258}}
+191000.0 {'c3': {24: 759, 21: 1463, 23: 258}, 'c2': {24: 759, 21: 1461, 23: 258}, 'c1': {24: 759, 21: 1464, 23: 258}, 'c4': {24: 759, 21: 1468, 23: 258}}
+192000.0 {'c3': {24: 759, 21: 1463, 23: 258}, 'c2': {24: 759, 21: 1461, 23: 258}, 'c1': {24: 759, 21: 1464, 23: 258}, 'c4': {24: 759, 21: 1468, 23: 258}}
+193000.0 {'c3': {24: 759, 21: 1463, 23: 258}, 'c2': {24: 759, 21: 1461, 23: 258}, 'c1': {24: 759, 21: 1464, 23: 258}, 'c4': {24: 759, 21: 1468, 23: 258}}
+194000.0 {'c3': {24: 759, 21: 1463, 23: 258}, 'c2': {24: 759, 21: 1461, 23: 258}, 'c1': {24: 759, 21: 1464, 23: 258}, 'c4': {24: 759, 21: 1468, 23: 258}}
+195000.0 {'c3': {24: 759, 21: 1463, 23: 258}, 'c2': {24: 759, 21: 1461, 23: 258}, 'c1': {24: 759, 21: 1464, 23: 258}, 'c4': {24: 759, 21: 1468, 23: 258}}
+196000.0 {'c3': {24: 759, 21: 1463, 23: 258}, 'c2': {24: 759, 21: 1461, 23: 258}, 'c1': {24: 759, 21: 1464, 23: 258}, 'c4': {24: 759, 21: 1468, 23: 258}}
+197000.0 {'c3': {24: 759, 21: 1463, 23: 258}, 'c2': {24: 759, 21: 1461, 23: 258}, 'c1': {24: 759, 21: 1464, 23: 258}, 'c4': {24: 759, 21: 1468, 23: 258}}
+198000.0 {'c3': {24: 759, 21: 1463, 23: 258}, 'c2': {24: 759, 21: 1461, 23: 258}, 'c1': {24: 759, 21: 1464, 23: 258}, 'c4': {24: 759, 21: 1468, 23: 258}}
+199000.0 {'c3': {24: 759, 21: 1463, 23: 258}, 'c2': {24: 759, 21: 1461, 23: 258}, 'c1': {24: 759, 21: 1464, 23: 258}, 'c4': {24: 759, 21: 1468, 23: 258}}
+200000.0 {'c3': {24: 759, 21: 1463, 23: 258}, 'c2': {24: 759, 21: 1461, 23: 258}, 'c1': {24: 759, 21: 1464, 23: 258}, 'c4': {24: 759, 21: 1468, 23: 258}}
+201000.0 {'c3': {24: 759, 21: 1463, 23: 258}, 'c2': {24: 759, 21: 1461, 23: 258}, 'c1': {24: 759, 21: 1464, 23: 258}, 'c4': {24: 759, 21: 1468, 23: 258}}
+202000.0 {'c3': {24: 759, 21: 1463, 23: 258}, 'c2': {24: 759, 21: 1461, 23: 258}, 'c1': {24: 759, 21: 1464, 23: 258}, 'c4': {24: 759, 21: 1468, 23: 258}}
+203000.0 {'c3': {24: 759, 21: 1463, 23: 258}, 'c2': {24: 759, 21: 1461, 23: 258}, 'c1': {24: 759, 21: 1464, 23: 258}, 'c4': {24: 759, 21: 1468, 23: 258}}
+204000.0 {'c3': {24: 759, 21: 1463, 23: 258}, 'c2': {24: 759, 21: 1461, 23: 258}, 'c1': {24: 759, 21: 1464, 23: 258}, 'c4': {24: 759, 21: 1468, 23: 258}}
+205000.0 {'c3': {24: 759, 21: 1463, 23: 258}, 'c2': {24: 759, 21: 1461, 23: 258}, 'c1': {24: 759, 21: 1464, 23: 258}, 'c4': {24: 759, 21: 1468, 23: 258}}
+206000.0 {'c3': {24: 759, 21: 1463, 23: 258}, 'c2': {24: 759, 21: 1461, 23: 258}, 'c1': {24: 759, 21: 1464, 23: 258}, 'c4': {24: 759, 21: 1468, 23: 258}}
+207000.0 {'c3': {24: 759, 21: 1463, 23: 258}, 'c2': {24: 759, 21: 1461, 23: 258}, 'c1': {24: 759, 21: 1464, 23: 258}, 'c4': {24: 759, 21: 1468, 23: 258}}
+208000.0 {'c3': {24: 759, 21: 1463, 23: 258}, 'c2': {24: 759, 21: 1461, 23: 258}, 'c1': {24: 759, 21: 1464, 23: 258}, 'c4': {24: 759, 21: 1468, 23: 258}}
+209000.0 {'c3': {24: 759, 21: 1463, 23: 258}, 'c2': {24: 759, 21: 1461, 23: 258}, 'c1': {24: 759, 21: 1464, 23: 258}, 'c4': {24: 759, 21: 1468, 23: 258}}
+210000.0 {'c3': {24: 759, 21: 1463, 23: 258}, 'c2': {24: 759, 21: 1461, 23: 258}, 'c1': {24: 759, 21: 1464, 23: 258}, 'c4': {24: 759, 21: 1468, 23: 258}}
+211000.0 {'c3': {24: 885, 21: 1696, 23: 301}, 'c2': {24: 885, 21: 1704, 23: 301}, 'c1': {24: 885, 21: 1709, 23: 301}, 'c4': {24: 885, 21: 1712, 23: 301}}
+212000.0 {'c3': {24: 885, 21: 1696, 23: 301}, 'c2': {24: 885, 21: 1704, 23: 301}, 'c1': {24: 885, 21: 1709, 23: 301}, 'c4': {24: 885, 21: 1712, 23: 301}}
+213000.0 {'c3': {24: 885, 21: 1696, 23: 301}, 'c2': {24: 885, 21: 1704, 23: 301}, 'c1': {24: 885, 21: 1709, 23: 301}, 'c4': {24: 885, 21: 1712, 23: 301}}
+214000.0 {'c3': {24: 885, 21: 1696, 23: 301}, 'c2': {24: 885, 21: 1704, 23: 301}, 'c1': {24: 885, 21: 1709, 23: 301}, 'c4': {24: 885, 21: 1712, 23: 301}}
+215000.0 {'c3': {24: 885, 21: 1696, 23: 301}, 'c2': {24: 885, 21: 1704, 23: 301}, 'c1': {24: 885, 21: 1709, 23: 301}, 'c4': {24: 885, 21: 1712, 23: 301}}
+216000.0 {'c3': {24: 885, 21: 1696, 23: 301}, 'c2': {24: 885, 21: 1704, 23: 301}, 'c1': {24: 885, 21: 1709, 23: 301}, 'c4': {24: 885, 21: 1712, 23: 301}}
+217000.0 {'c3': {24: 885, 21: 1696, 23: 301}, 'c2': {24: 885, 21: 1704, 23: 301}, 'c1': {24: 885, 21: 1709, 23: 301}, 'c4': {24: 885, 21: 1712, 23: 301}}
+218000.0 {'c3': {24: 885, 21: 1696, 23: 301}, 'c2': {24: 885, 21: 1704, 23: 301}, 'c1': {24: 885, 21: 1709, 23: 301}, 'c4': {24: 885, 21: 1712, 23: 301}}
+219000.0 {'c3': {24: 885, 21: 1696, 23: 301}, 'c2': {24: 885, 21: 1704, 23: 301}, 'c1': {24: 885, 21: 1709, 23: 301}, 'c4': {24: 885, 21: 1712, 23: 301}}
+220000.0 {'c3': {24: 885, 21: 1696, 23: 301}, 'c2': {24: 885, 21: 1704, 23: 301}, 'c1': {24: 885, 21: 1709, 23: 301}, 'c4': {24: 885, 21: 1712, 23: 301}}
+221000.0 {'c3': {24: 885, 21: 1696, 23: 301}, 'c2': {24: 885, 21: 1704, 23: 301}, 'c1': {24: 885, 21: 1709, 23: 301}, 'c4': {24: 885, 21: 1712, 23: 301}}
+222000.0 {'c3': {24: 885, 21: 1696, 23: 301}, 'c2': {24: 885, 21: 1704, 23: 301}, 'c1': {24: 885, 21: 1709, 23: 301}, 'c4': {24: 885, 21: 1712, 23: 301}}
+223000.0 {'c3': {24: 885, 21: 1696, 23: 301}, 'c2': {24: 885, 21: 1704, 23: 301}, 'c1': {24: 885, 21: 1709, 23: 301}, 'c4': {24: 885, 21: 1712, 23: 301}}
+224000.0 {'c3': {24: 885, 21: 1696, 23: 301}, 'c2': {24: 885, 21: 1704, 23: 301}, 'c1': {24: 885, 21: 1709, 23: 301}, 'c4': {24: 885, 21: 1712, 23: 301}}
+224724.071308 inr330 notifying down for inr330-inr201
+224724.071308 inr330 notifying down for inr330-inr201 reliably
+224724.071308 inr201 notifying down for inr330-inr201
+224724.071308 inr201 notifying down for inr330-inr201 reliably
+224726.214825 c2 notify link down inr330-inr201  version:  1
+224726.214825 Computing link updates
+224727.194660 c4 notify link down inr330-inr201  version:  1
+224727.194660 Computing link updates
+224727.629460 c3 notify link down inr330-inr201  version:  1
+224727.629460 Computing link updates
+224728.062395 c1 notify link down inr330-inr201  version:  1
+224728.062395 Computing link updates
+224729.105539 c2 notify link down inr330-inr201  version:  1
+224729.105539 Skipping because of link version
+224729.424333 c4 notify link down inr330-inr201  version:  1
+224729.424333 Skipping because of link version
+224729.456984 c1 notify link down inr330-inr201  version:  1
+224729.456984 Skipping because of link version
+224729.778148 c3 notify link down inr330-inr201  version:  1
+224729.778148 Skipping because of link version
+225000.0 {'c3': {24: 885, 21: 1698, 23: 301}, 'c2': {24: 885, 21: 1706, 23: 301}, 'c1': {24: 885, 21: 1711, 23: 301}, 'c4': {24: 885, 21: 1714, 23: 301}}
+226000.0 {'c3': {24: 885, 21: 1698, 23: 301}, 'c2': {24: 885, 21: 1706, 23: 301}, 'c1': {24: 885, 21: 1711, 23: 301}, 'c4': {24: 885, 21: 1714, 23: 301}}
+227000.0 {'c3': {24: 885, 21: 1698, 23: 301}, 'c2': {24: 885, 21: 1706, 23: 301}, 'c1': {24: 885, 21: 1711, 23: 301}, 'c4': {24: 885, 21: 1714, 23: 301}}
+228000.0 {'c3': {24: 885, 21: 1698, 23: 301}, 'c2': {24: 885, 21: 1706, 23: 301}, 'c1': {24: 885, 21: 1711, 23: 301}, 'c4': {24: 885, 21: 1714, 23: 301}}
+229000.0 {'c3': {24: 885, 21: 1698, 23: 301}, 'c2': {24: 885, 21: 1706, 23: 301}, 'c1': {24: 885, 21: 1711, 23: 301}, 'c4': {24: 885, 21: 1714, 23: 301}}
+230000.0 {'c3': {24: 885, 21: 1698, 23: 301}, 'c2': {24: 885, 21: 1706, 23: 301}, 'c1': {24: 885, 21: 1711, 23: 301}, 'c4': {24: 885, 21: 1714, 23: 301}}
+231000.0 {'c3': {24: 885, 21: 1698, 23: 301}, 'c2': {24: 885, 21: 1706, 23: 301}, 'c1': {24: 885, 21: 1711, 23: 301}, 'c4': {24: 885, 21: 1714, 23: 301}}
+232000.0 {'c3': {24: 885, 21: 1698, 23: 301}, 'c2': {24: 885, 21: 1706, 23: 301}, 'c1': {24: 885, 21: 1711, 23: 301}, 'c4': {24: 885, 21: 1714, 23: 301}}
+233000.0 {'c3': {24: 885, 21: 1698, 23: 301}, 'c2': {24: 885, 21: 1706, 23: 301}, 'c1': {24: 885, 21: 1711, 23: 301}, 'c4': {24: 885, 21: 1714, 23: 301}}
+234000.0 {'c3': {24: 885, 21: 1698, 23: 301}, 'c2': {24: 885, 21: 1706, 23: 301}, 'c1': {24: 885, 21: 1711, 23: 301}, 'c4': {24: 885, 21: 1714, 23: 301}}
+235000.0 {'c3': {24: 885, 21: 1698, 23: 301}, 'c2': {24: 885, 21: 1706, 23: 301}, 'c1': {24: 885, 21: 1711, 23: 301}, 'c4': {24: 885, 21: 1714, 23: 301}}
+236000.0 {'c3': {24: 885, 21: 1698, 23: 301}, 'c2': {24: 885, 21: 1706, 23: 301}, 'c1': {24: 885, 21: 1711, 23: 301}, 'c4': {24: 885, 21: 1714, 23: 301}}
+237000.0 {'c3': {24: 885, 21: 1698, 23: 301}, 'c2': {24: 885, 21: 1706, 23: 301}, 'c1': {24: 885, 21: 1711, 23: 301}, 'c4': {24: 885, 21: 1714, 23: 301}}
+238000.0 {'c3': {24: 885, 21: 1698, 23: 301}, 'c2': {24: 885, 21: 1706, 23: 301}, 'c1': {24: 885, 21: 1711, 23: 301}, 'c4': {24: 885, 21: 1714, 23: 301}}
+239000.0 {'c3': {24: 885, 21: 1698, 23: 301}, 'c2': {24: 885, 21: 1706, 23: 301}, 'c1': {24: 885, 21: 1711, 23: 301}, 'c4': {24: 885, 21: 1714, 23: 301}}
+240000.0 {'c3': {24: 885, 21: 1698, 23: 301}, 'c2': {24: 885, 21: 1706, 23: 301}, 'c1': {24: 885, 21: 1711, 23: 301}, 'c4': {24: 885, 21: 1714, 23: 301}}
+241000.0 {'c3': {24: 1014, 21: 1942, 23: 345}, 'c2': {24: 1014, 21: 1958, 23: 345}, 'c1': {24: 1014, 21: 1957, 23: 345}, 'c4': {24: 1014, 21: 1962, 23: 345}}
+242000.0 {'c3': {24: 1014, 21: 1942, 23: 345}, 'c2': {24: 1014, 21: 1958, 23: 345}, 'c1': {24: 1014, 21: 1957, 23: 345}, 'c4': {24: 1014, 21: 1962, 23: 345}}
+243000.0 {'c3': {24: 1014, 21: 1942, 23: 345}, 'c2': {24: 1014, 21: 1958, 23: 345}, 'c1': {24: 1014, 21: 1957, 23: 345}, 'c4': {24: 1014, 21: 1962, 23: 345}}
+244000.0 {'c3': {24: 1014, 21: 1942, 23: 345}, 'c2': {24: 1014, 21: 1958, 23: 345}, 'c1': {24: 1014, 21: 1957, 23: 345}, 'c4': {24: 1014, 21: 1962, 23: 345}}
+245000.0 {'c3': {24: 1014, 21: 1942, 23: 345}, 'c2': {24: 1014, 21: 1958, 23: 345}, 'c1': {24: 1014, 21: 1957, 23: 345}, 'c4': {24: 1014, 21: 1962, 23: 345}}
+246000.0 {'c3': {24: 1014, 21: 1942, 23: 345}, 'c2': {24: 1014, 21: 1958, 23: 345}, 'c1': {24: 1014, 21: 1957, 23: 345}, 'c4': {24: 1014, 21: 1962, 23: 345}}
+247000.0 {'c3': {24: 1014, 21: 1942, 23: 345}, 'c2': {24: 1014, 21: 1958, 23: 345}, 'c1': {24: 1014, 21: 1957, 23: 345}, 'c4': {24: 1014, 21: 1962, 23: 345}}
+248000.0 {'c3': {24: 1014, 21: 1942, 23: 345}, 'c2': {24: 1014, 21: 1958, 23: 345}, 'c1': {24: 1014, 21: 1957, 23: 345}, 'c4': {24: 1014, 21: 1962, 23: 345}}
+249000.0 {'c3': {24: 1014, 21: 1942, 23: 345}, 'c2': {24: 1014, 21: 1958, 23: 345}, 'c1': {24: 1014, 21: 1957, 23: 345}, 'c4': {24: 1014, 21: 1962, 23: 345}}
+250000.0 {'c3': {24: 1014, 21: 1942, 23: 345}, 'c2': {24: 1014, 21: 1958, 23: 345}, 'c1': {24: 1014, 21: 1957, 23: 345}, 'c4': {24: 1014, 21: 1962, 23: 345}}
+251000.0 {'c3': {24: 1014, 21: 1942, 23: 345}, 'c2': {24: 1014, 21: 1958, 23: 345}, 'c1': {24: 1014, 21: 1957, 23: 345}, 'c4': {24: 1014, 21: 1962, 23: 345}}
+252000.0 {'c3': {24: 1014, 21: 1942, 23: 345}, 'c2': {24: 1014, 21: 1958, 23: 345}, 'c1': {24: 1014, 21: 1957, 23: 345}, 'c4': {24: 1014, 21: 1962, 23: 345}}
+253000.0 {'c3': {24: 1014, 21: 1942, 23: 345}, 'c2': {24: 1014, 21: 1958, 23: 345}, 'c1': {24: 1014, 21: 1957, 23: 345}, 'c4': {24: 1014, 21: 1962, 23: 345}}
+254000.0 {'c3': {24: 1014, 21: 1942, 23: 345}, 'c2': {24: 1014, 21: 1958, 23: 345}, 'c1': {24: 1014, 21: 1957, 23: 345}, 'c4': {24: 1014, 21: 1962, 23: 345}}
+255000.0 {'c3': {24: 1014, 21: 1942, 23: 345}, 'c2': {24: 1014, 21: 1958, 23: 345}, 'c1': {24: 1014, 21: 1957, 23: 345}, 'c4': {24: 1014, 21: 1962, 23: 345}}
+256000.0 {'c3': {24: 1014, 21: 1942, 23: 345}, 'c2': {24: 1014, 21: 1958, 23: 345}, 'c1': {24: 1014, 21: 1957, 23: 345}, 'c4': {24: 1014, 21: 1962, 23: 345}}
+257000.0 {'c3': {24: 1014, 21: 1942, 23: 345}, 'c2': {24: 1014, 21: 1958, 23: 345}, 'c1': {24: 1014, 21: 1957, 23: 345}, 'c4': {24: 1014, 21: 1962, 23: 345}}
+258000.0 {'c3': {24: 1014, 21: 1942, 23: 345}, 'c2': {24: 1014, 21: 1958, 23: 345}, 'c1': {24: 1014, 21: 1957, 23: 345}, 'c4': {24: 1014, 21: 1962, 23: 345}}
+259000.0 {'c3': {24: 1014, 21: 1942, 23: 345}, 'c2': {24: 1014, 21: 1958, 23: 345}, 'c1': {24: 1014, 21: 1957, 23: 345}, 'c4': {24: 1014, 21: 1962, 23: 345}}
+260000.0 {'c3': {24: 1014, 21: 1942, 23: 345}, 'c2': {24: 1014, 21: 1958, 23: 345}, 'c1': {24: 1014, 21: 1957, 23: 345}, 'c4': {24: 1014, 21: 1962, 23: 345}}
+261000.0 {'c3': {24: 1014, 21: 1942, 23: 345}, 'c2': {24: 1014, 21: 1958, 23: 345}, 'c1': {24: 1014, 21: 1957, 23: 345}, 'c4': {24: 1014, 21: 1962, 23: 345}}
+262000.0 {'c3': {24: 1014, 21: 1942, 23: 345}, 'c2': {24: 1014, 21: 1958, 23: 345}, 'c1': {24: 1014, 21: 1957, 23: 345}, 'c4': {24: 1014, 21: 1962, 23: 345}}
+263000.0 {'c3': {24: 1014, 21: 1942, 23: 345}, 'c2': {24: 1014, 21: 1958, 23: 345}, 'c1': {24: 1014, 21: 1957, 23: 345}, 'c4': {24: 1014, 21: 1962, 23: 345}}
+264000.0 {'c3': {24: 1014, 21: 1942, 23: 345}, 'c2': {24: 1014, 21: 1958, 23: 345}, 'c1': {24: 1014, 21: 1957, 23: 345}, 'c4': {24: 1014, 21: 1962, 23: 345}}
+265000.0 {'c3': {24: 1014, 21: 1942, 23: 345}, 'c2': {24: 1014, 21: 1958, 23: 345}, 'c1': {24: 1014, 21: 1957, 23: 345}, 'c4': {24: 1014, 21: 1962, 23: 345}}
+266000.0 {'c3': {24: 1014, 21: 1942, 23: 345}, 'c2': {24: 1014, 21: 1958, 23: 345}, 'c1': {24: 1014, 21: 1957, 23: 345}, 'c4': {24: 1014, 21: 1962, 23: 345}}
+267000.0 {'c3': {24: 1014, 21: 1942, 23: 345}, 'c2': {24: 1014, 21: 1958, 23: 345}, 'c1': {24: 1014, 21: 1957, 23: 345}, 'c4': {24: 1014, 21: 1962, 23: 345}}
+268000.0 {'c3': {24: 1014, 21: 1942, 23: 345}, 'c2': {24: 1014, 21: 1958, 23: 345}, 'c1': {24: 1014, 21: 1957, 23: 345}, 'c4': {24: 1014, 21: 1962, 23: 345}}
+269000.0 {'c3': {24: 1014, 21: 1942, 23: 345}, 'c2': {24: 1014, 21: 1958, 23: 345}, 'c1': {24: 1014, 21: 1957, 23: 345}, 'c4': {24: 1014, 21: 1962, 23: 345}}
+270000.0 {'c3': {24: 1014, 21: 1942, 23: 345}, 'c2': {24: 1014, 21: 1958, 23: 345}, 'c1': {24: 1014, 21: 1957, 23: 345}, 'c4': {24: 1014, 21: 1962, 23: 345}}
+271000.0 {'c3': {24: 1143, 21: 2190, 23: 389}, 'c2': {24: 1143, 21: 2210, 23: 389}, 'c1': {24: 1143, 21: 2206, 23: 389}, 'c4': {24: 1143, 21: 2213, 23: 389}}
+272000.0 {'c3': {24: 1143, 21: 2190, 23: 389}, 'c2': {24: 1143, 21: 2210, 23: 389}, 'c1': {24: 1143, 21: 2206, 23: 389}, 'c4': {24: 1143, 21: 2213, 23: 389}}
+273000.0 {'c3': {24: 1143, 21: 2190, 23: 389}, 'c2': {24: 1143, 21: 2210, 23: 389}, 'c1': {24: 1143, 21: 2206, 23: 389}, 'c4': {24: 1143, 21: 2213, 23: 389}}
+274000.0 {'c3': {24: 1143, 21: 2190, 23: 389}, 'c2': {24: 1143, 21: 2210, 23: 389}, 'c1': {24: 1143, 21: 2206, 23: 389}, 'c4': {24: 1143, 21: 2213, 23: 389}}
+275000.0 {'c3': {24: 1143, 21: 2190, 23: 389}, 'c2': {24: 1143, 21: 2210, 23: 389}, 'c1': {24: 1143, 21: 2206, 23: 389}, 'c4': {24: 1143, 21: 2213, 23: 389}}
+276000.0 {'c3': {24: 1143, 21: 2190, 23: 389}, 'c2': {24: 1143, 21: 2210, 23: 389}, 'c1': {24: 1143, 21: 2206, 23: 389}, 'c4': {24: 1143, 21: 2213, 23: 389}}
+277000.0 {'c3': {24: 1143, 21: 2190, 23: 389}, 'c2': {24: 1143, 21: 2210, 23: 389}, 'c1': {24: 1143, 21: 2206, 23: 389}, 'c4': {24: 1143, 21: 2213, 23: 389}}
+278000.0 {'c3': {24: 1143, 21: 2190, 23: 389}, 'c2': {24: 1143, 21: 2210, 23: 389}, 'c1': {24: 1143, 21: 2206, 23: 389}, 'c4': {24: 1143, 21: 2213, 23: 389}}
+279000.0 {'c3': {24: 1143, 21: 2190, 23: 389}, 'c2': {24: 1143, 21: 2210, 23: 389}, 'c1': {24: 1143, 21: 2206, 23: 389}, 'c4': {24: 1143, 21: 2213, 23: 389}}
+280000.0 {'c3': {24: 1143, 21: 2190, 23: 389}, 'c2': {24: 1143, 21: 2210, 23: 389}, 'c1': {24: 1143, 21: 2206, 23: 389}, 'c4': {24: 1143, 21: 2213, 23: 389}}
+281000.0 {'c3': {24: 1143, 21: 2190, 23: 389}, 'c2': {24: 1143, 21: 2210, 23: 389}, 'c1': {24: 1143, 21: 2206, 23: 389}, 'c4': {24: 1143, 21: 2213, 23: 389}}
+282000.0 {'c3': {24: 1143, 21: 2190, 23: 389}, 'c2': {24: 1143, 21: 2210, 23: 389}, 'c1': {24: 1143, 21: 2206, 23: 389}, 'c4': {24: 1143, 21: 2213, 23: 389}}
+283000.0 {'c3': {24: 1143, 21: 2190, 23: 389}, 'c2': {24: 1143, 21: 2210, 23: 389}, 'c1': {24: 1143, 21: 2206, 23: 389}, 'c4': {24: 1143, 21: 2213, 23: 389}}
+284000.0 {'c3': {24: 1143, 21: 2190, 23: 389}, 'c2': {24: 1143, 21: 2210, 23: 389}, 'c1': {24: 1143, 21: 2206, 23: 389}, 'c4': {24: 1143, 21: 2213, 23: 389}}
+285000.0 {'c3': {24: 1143, 21: 2190, 23: 389}, 'c2': {24: 1143, 21: 2210, 23: 389}, 'c1': {24: 1143, 21: 2206, 23: 389}, 'c4': {24: 1143, 21: 2213, 23: 389}}
+286000.0 {'c3': {24: 1143, 21: 2190, 23: 389}, 'c2': {24: 1143, 21: 2210, 23: 389}, 'c1': {24: 1143, 21: 2206, 23: 389}, 'c4': {24: 1143, 21: 2213, 23: 389}}
+287000.0 {'c3': {24: 1143, 21: 2190, 23: 389}, 'c2': {24: 1143, 21: 2210, 23: 389}, 'c1': {24: 1143, 21: 2206, 23: 389}, 'c4': {24: 1143, 21: 2213, 23: 389}}
+288000.0 {'c3': {24: 1143, 21: 2190, 23: 389}, 'c2': {24: 1143, 21: 2210, 23: 389}, 'c1': {24: 1143, 21: 2206, 23: 389}, 'c4': {24: 1143, 21: 2213, 23: 389}}
+289000.0 {'c3': {24: 1143, 21: 2190, 23: 389}, 'c2': {24: 1143, 21: 2210, 23: 389}, 'c1': {24: 1143, 21: 2206, 23: 389}, 'c4': {24: 1143, 21: 2213, 23: 389}}
+290000.0 {'c3': {24: 1143, 21: 2190, 23: 389}, 'c2': {24: 1143, 21: 2210, 23: 389}, 'c1': {24: 1143, 21: 2206, 23: 389}, 'c4': {24: 1143, 21: 2213, 23: 389}}
+291000.0 {'c3': {24: 1143, 21: 2190, 23: 389}, 'c2': {24: 1143, 21: 2210, 23: 389}, 'c1': {24: 1143, 21: 2206, 23: 389}, 'c4': {24: 1143, 21: 2213, 23: 389}}
+292000.0 {'c3': {24: 1143, 21: 2190, 23: 389}, 'c2': {24: 1143, 21: 2210, 23: 389}, 'c1': {24: 1143, 21: 2206, 23: 389}, 'c4': {24: 1143, 21: 2213, 23: 389}}
+293000.0 {'c3': {24: 1143, 21: 2190, 23: 389}, 'c2': {24: 1143, 21: 2210, 23: 389}, 'c1': {24: 1143, 21: 2206, 23: 389}, 'c4': {24: 1143, 21: 2213, 23: 389}}
+294000.0 {'c3': {24: 1143, 21: 2190, 23: 389}, 'c2': {24: 1143, 21: 2210, 23: 389}, 'c1': {24: 1143, 21: 2206, 23: 389}, 'c4': {24: 1143, 21: 2213, 23: 389}}
+295000.0 {'c3': {24: 1143, 21: 2190, 23: 389}, 'c2': {24: 1143, 21: 2210, 23: 389}, 'c1': {24: 1143, 21: 2206, 23: 389}, 'c4': {24: 1143, 21: 2213, 23: 389}}
+296000.0 {'c3': {24: 1143, 21: 2190, 23: 389}, 'c2': {24: 1143, 21: 2210, 23: 389}, 'c1': {24: 1143, 21: 2206, 23: 389}, 'c4': {24: 1143, 21: 2213, 23: 389}}
+297000.0 {'c3': {24: 1143, 21: 2190, 23: 389}, 'c2': {24: 1143, 21: 2210, 23: 389}, 'c1': {24: 1143, 21: 2206, 23: 389}, 'c4': {24: 1143, 21: 2213, 23: 389}}
+298000.0 {'c3': {24: 1143, 21: 2190, 23: 389}, 'c2': {24: 1143, 21: 2210, 23: 389}, 'c1': {24: 1143, 21: 2206, 23: 389}, 'c4': {24: 1143, 21: 2213, 23: 389}}
+299000.0 {'c3': {24: 1143, 21: 2190, 23: 389}, 'c2': {24: 1143, 21: 2210, 23: 389}, 'c1': {24: 1143, 21: 2206, 23: 389}, 'c4': {24: 1143, 21: 2213, 23: 389}}
+Done replay, left 199 items
+Messages
+c3
+c4
+c1
+c2
+Rule Changes
+Convergence
+1000.000000 2450 2450 100.000000 1
+2000.000000 2450 2450 100.000000 1
+3000.000000 2450 2450 100.000000 1
+4000.000000 2450 2450 100.000000 1
+5000.000000 2450 2450 100.000000 1
+6000.000000 2450 2450 100.000000 1
+7000.000000 2450 2450 100.000000 1
+8000.000000 2450 2450 100.000000 1
+9000.000000 2450 2450 100.000000 1
+10000.000000 2450 2450 100.000000 1
+11000.000000 2450 2450 100.000000 1
+12000.000000 2450 2450 100.000000 1
+13000.000000 2450 2450 100.000000 1
+14000.000000 2450 2450 100.000000 1
+15000.000000 2450 2450 100.000000 1
+16000.000000 2450 2450 100.000000 1
+17000.000000 2450 2450 100.000000 1
+18000.000000 2450 2450 100.000000 1
+19000.000000 2450 2450 100.000000 1
+20000.000000 2450 2450 100.000000 1
+21000.000000 2450 2450 100.000000 1
+22000.000000 2450 2450 100.000000 1
+23000.000000 2450 2450 100.000000 1
+24000.000000 2450 2450 100.000000 1
+25000.000000 2450 2450 100.000000 1
+26000.000000 2450 2450 100.000000 1
+27000.000000 2450 2450 100.000000 1
+28000.000000 2450 2450 100.000000 1
+29000.000000 2450 2450 100.000000 1
+30000.000000 2450 2450 100.000000 1
+31000.000000 2450 2450 100.000000 1
+32000.000000 2450 2450 100.000000 1
+33000.000000 2450 2450 100.000000 1
+34000.000000 2450 2450 100.000000 1
+35000.000000 2450 2450 100.000000 1
+36000.000000 2450 2450 100.000000 1
+37000.000000 2450 2450 100.000000 1
+38000.000000 2450 2450 100.000000 1
+39000.000000 2450 2450 100.000000 1
+40000.000000 2450 2450 100.000000 1
+41000.000000 2450 2450 100.000000 1
+42000.000000 2450 2450 100.000000 1
+43000.000000 2450 2450 100.000000 1
+44000.000000 2450 2450 100.000000 1
+45000.000000 2450 2450 100.000000 1
+46000.000000 2450 2450 100.000000 1
+47000.000000 2450 2450 100.000000 1
+48000.000000 2450 2450 100.000000 1
+49000.000000 2450 2450 100.000000 1
+50000.000000 2450 2450 100.000000 1
+51000.000000 2450 2450 100.000000 1
+52000.000000 2450 2450 100.000000 1
+53000.000000 2450 2450 100.000000 1
+54000.000000 2450 2450 100.000000 1
+55000.000000 2450 2450 100.000000 1
+56000.000000 2450 2450 100.000000 1
+57000.000000 2450 2450 100.000000 1
+58000.000000 2450 2450 100.000000 1
+59000.000000 2450 2450 100.000000 1
+60000.000000 2450 2450 100.000000 1
+61000.000000 2450 2450 100.000000 1
+62000.000000 2450 2450 100.000000 1
+63000.000000 2450 2450 100.000000 1
+64000.000000 2450 2450 100.000000 1
+65000.000000 2450 2450 100.000000 1
+66000.000000 2450 2450 100.000000 1
+67000.000000 2450 2450 100.000000 1
+68000.000000 2450 2450 100.000000 1
+69000.000000 2450 2450 100.000000 1
+70000.000000 2450 2450 100.000000 1
+71000.000000 2450 2450 100.000000 1
+72000.000000 2450 2450 100.000000 1
+73000.000000 2450 2450 100.000000 1
+74000.000000 2450 2450 100.000000 1
+75000.000000 2450 2450 100.000000 1
+76000.000000 2450 2450 100.000000 1
+77000.000000 2450 2450 100.000000 1
+78000.000000 2450 2450 100.000000 1
+79000.000000 2450 2450 100.000000 1
+80000.000000 2450 2450 100.000000 1
+81000.000000 2450 2450 100.000000 1
+82000.000000 2450 2450 100.000000 1
+83000.000000 2450 2450 100.000000 1
+84000.000000 2450 2450 100.000000 1
+85000.000000 2450 2450 100.000000 1
+86000.000000 2450 2450 100.000000 1
+87000.000000 2450 2450 100.000000 1
+88000.000000 2450 2450 100.000000 1
+89000.000000 2450 2450 100.000000 1
+90000.000000 2450 2450 100.000000 1
+91000.000000 2450 2450 100.000000 1
+92000.000000 2450 2450 100.000000 1
+93000.000000 2450 2450 100.000000 1
+94000.000000 2450 2450 100.000000 1
+95000.000000 2450 2450 100.000000 1
+96000.000000 2450 2450 100.000000 1
+97000.000000 2450 2450 100.000000 1
+98000.000000 2450 2450 100.000000 1
+99000.000000 2450 2450 100.000000 1
+100000.000000 2450 2450 100.000000 1
+101000.000000 2450 2450 100.000000 1
+102000.000000 2450 2450 100.000000 1
+103000.000000 2450 2450 100.000000 1
+104000.000000 2450 2450 100.000000 1
+105000.000000 2450 2450 100.000000 1
+106000.000000 2450 2450 100.000000 1
+107000.000000 2450 2450 100.000000 1
+108000.000000 2450 2450 100.000000 1
+109000.000000 2450 2450 100.000000 1
+110000.000000 2450 2450 100.000000 1
+111000.000000 2450 2450 100.000000 1
+112000.000000 2450 2450 100.000000 1
+113000.000000 2450 2450 100.000000 1
+114000.000000 2450 2450 100.000000 1
+115000.000000 2450 2450 100.000000 1
+116000.000000 2450 2450 100.000000 1
+117000.000000 2450 2450 100.000000 1
+118000.000000 2450 2450 100.000000 1
+119000.000000 2450 2450 100.000000 1
+120000.000000 2450 2450 100.000000 1
+121000.000000 2450 2450 100.000000 1
+122000.000000 2450 2450 100.000000 1
+123000.000000 2450 2450 100.000000 1
+124000.000000 2450 2450 100.000000 1
+125000.000000 2450 2450 100.000000 1
+126000.000000 2450 2450 100.000000 1
+127000.000000 2450 2450 100.000000 1
+128000.000000 2450 2450 100.000000 1
+129000.000000 2450 2450 100.000000 1
+130000.000000 2450 2450 100.000000 1
+131000.000000 2450 2450 100.000000 1
+132000.000000 2450 2450 100.000000 1
+133000.000000 2450 2450 100.000000 1
+134000.000000 2450 2450 100.000000 1
+135000.000000 2450 2450 100.000000 1
+136000.000000 2450 2450 100.000000 1
+137000.000000 2450 2450 100.000000 1
+138000.000000 2450 2450 100.000000 1
+139000.000000 2450 2450 100.000000 1
+140000.000000 2450 2450 100.000000 1
+141000.000000 2450 2450 100.000000 1
+142000.000000 2450 2450 100.000000 1
+143000.000000 2450 2450 100.000000 1
+144000.000000 2450 2450 100.000000 1
+145000.000000 2450 2450 100.000000 1
+146000.000000 2450 2450 100.000000 1
+147000.000000 2450 2450 100.000000 1
+148000.000000 2450 2450 100.000000 1
+149000.000000 2450 2450 100.000000 1
+150000.000000 2450 2450 100.000000 1
+151000.000000 2450 2450 100.000000 1
+152000.000000 2450 2450 100.000000 1
+153000.000000 2450 2450 100.000000 1
+154000.000000 2450 2450 100.000000 1
+155000.000000 2450 2450 100.000000 1
+156000.000000 2450 2450 100.000000 1
+157000.000000 2450 2450 100.000000 1
+158000.000000 2450 2450 100.000000 1
+159000.000000 2450 2450 100.000000 1
+160000.000000 2450 2450 100.000000 1
+161000.000000 2450 2450 100.000000 1
+162000.000000 2450 2450 100.000000 1
+163000.000000 2450 2450 100.000000 1
+164000.000000 2450 2450 100.000000 1
+165000.000000 2450 2450 100.000000 1
+166000.000000 2450 2450 100.000000 1
+167000.000000 2450 2450 100.000000 1
+168000.000000 2450 2450 100.000000 1
+169000.000000 2450 2450 100.000000 1
+170000.000000 2450 2450 100.000000 1
+171000.000000 2450 2450 100.000000 1
+172000.000000 2450 2450 100.000000 1
+173000.000000 2450 2450 100.000000 1
+174000.000000 2450 2450 100.000000 1
+175000.000000 2450 2450 100.000000 1
+176000.000000 2450 2450 100.000000 1
+177000.000000 2450 2450 100.000000 1
+178000.000000 2450 2450 100.000000 1
+179000.000000 2450 2450 100.000000 1
+180000.000000 2450 2450 100.000000 1
+181000.000000 2450 2450 100.000000 1
+182000.000000 2450 2450 100.000000 1
+183000.000000 2450 2450 100.000000 1
+184000.000000 2450 2450 100.000000 1
+185000.000000 2450 2450 100.000000 1
+186000.000000 2450 2450 100.000000 1
+187000.000000 2450 2450 100.000000 1
+188000.000000 2450 2450 100.000000 1
+189000.000000 2450 2450 100.000000 1
+190000.000000 2450 2450 100.000000 1
+191000.000000 2450 2450 100.000000 1
+192000.000000 2450 2450 100.000000 1
+193000.000000 2450 2450 100.000000 1
+194000.000000 2450 2450 100.000000 1
+195000.000000 2450 2450 100.000000 1
+196000.000000 2450 2450 100.000000 1
+197000.000000 2450 2450 100.000000 1
+198000.000000 2450 2450 100.000000 1
+199000.000000 2450 2450 100.000000 1
+200000.000000 2450 2450 100.000000 1
+201000.000000 2450 2450 100.000000 1
+202000.000000 2450 2450 100.000000 1
+203000.000000 2450 2450 100.000000 1
+204000.000000 2450 2450 100.000000 1
+205000.000000 2450 2450 100.000000 1
+206000.000000 2450 2450 100.000000 1
+207000.000000 2450 2450 100.000000 1
+208000.000000 2450 2450 100.000000 1
+209000.000000 2450 2450 100.000000 1
+210000.000000 2450 2450 100.000000 1
+211000.000000 2450 2450 100.000000 1
+212000.000000 2450 2450 100.000000 1
+213000.000000 2450 2450 100.000000 1
+214000.000000 2450 2450 100.000000 1
+215000.000000 2450 2450 100.000000 1
+216000.000000 2450 2450 100.000000 1
+217000.000000 2450 2450 100.000000 1
+218000.000000 2450 2450 100.000000 1
+219000.000000 2450 2450 100.000000 1
+220000.000000 2450 2450 100.000000 1
+221000.000000 2450 2450 100.000000 1
+222000.000000 2450 2450 100.000000 1
+223000.000000 2450 2450 100.000000 1
+224000.000000 2450 2450 100.000000 1
+225000.000000 2450 2450 100.000000 1
+226000.000000 2450 2450 100.000000 1
+227000.000000 2450 2450 100.000000 1
+228000.000000 2450 2450 100.000000 1
+229000.000000 2450 2450 100.000000 1
+230000.000000 2450 2450 100.000000 1
+231000.000000 2450 2450 100.000000 1
+232000.000000 2450 2450 100.000000 1
+233000.000000 2450 2450 100.000000 1
+234000.000000 2450 2450 100.000000 1
+235000.000000 2450 2450 100.000000 1
+236000.000000 2450 2450 100.000000 1
+237000.000000 2450 2450 100.000000 1
+238000.000000 2450 2450 100.000000 1
+239000.000000 2450 2450 100.000000 1
+240000.000000 2450 2450 100.000000 1
+241000.000000 2450 2450 100.000000 1
+242000.000000 2450 2450 100.000000 1
+243000.000000 2450 2450 100.000000 1
+244000.000000 2450 2450 100.000000 1
+245000.000000 2450 2450 100.000000 1
+246000.000000 2450 2450 100.000000 1
+247000.000000 2450 2450 100.000000 1
+248000.000000 2450 2450 100.000000 1
+249000.000000 2450 2450 100.000000 1
+250000.000000 2450 2450 100.000000 1
+251000.000000 2450 2450 100.000000 1
+252000.000000 2450 2450 100.000000 1
+253000.000000 2450 2450 100.000000 1
+254000.000000 2450 2450 100.000000 1
+255000.000000 2450 2450 100.000000 1
+256000.000000 2450 2450 100.000000 1
+257000.000000 2450 2450 100.000000 1
+258000.000000 2450 2450 100.000000 1
+259000.000000 2450 2450 100.000000 1
+260000.000000 2450 2450 100.000000 1
+261000.000000 2450 2450 100.000000 1
+262000.000000 2450 2450 100.000000 1
+263000.000000 2450 2450 100.000000 1
+264000.000000 2450 2450 100.000000 1
+265000.000000 2450 2450 100.000000 1
+266000.000000 2450 2450 100.000000 1
+267000.000000 2450 2450 100.000000 1
+268000.000000 2450 2450 100.000000 1
+269000.000000 2450 2450 100.000000 1
+270000.000000 2450 2450 100.000000 1
+271000.000000 2450 2450 100.000000 1
+272000.000000 2450 2450 100.000000 1
+273000.000000 2450 2450 100.000000 1
+274000.000000 2450 2450 100.000000 1
+275000.000000 2450 2450 100.000000 1
+276000.000000 2450 2450 100.000000 1
+277000.000000 2450 2450 100.000000 1
+278000.000000 2450 2450 100.000000 1
+279000.000000 2450 2450 100.000000 1
+280000.000000 2450 2450 100.000000 1
+281000.000000 2450 2450 100.000000 1
+282000.000000 2450 2450 100.000000 1
+283000.000000 2450 2450 100.000000 1
+284000.000000 2450 2450 100.000000 1
+285000.000000 2450 2450 100.000000 1
+286000.000000 2450 2450 100.000000 1
+287000.000000 2450 2450 100.000000 1
+288000.000000 2450 2450 100.000000 1
+289000.000000 2450 2450 100.000000 1
+290000.000000 2450 2450 100.000000 1
+291000.000000 2450 2450 100.000000 1
+292000.000000 2450 2450 100.000000 1
+293000.000000 2450 2450 100.000000 1
+294000.000000 2450 2450 100.000000 1
+295000.000000 2450 2450 100.000000 1
+296000.000000 2450 2450 100.000000 1
+297000.000000 2450 2450 100.000000 1
+298000.000000 2450 2450 100.000000 1
+299000.000000 2450 2450 100.000000 1
+inr001-h18 inr001-h18 {24: 4572, 4: 2, 21: 1842, 23: 1556} total: 7972 bits: 1652064
+inr202-inr330 inr330-inr202 {24: 5895, 4: 2, 21: 2402, 23: 2013} total: 10312 bits: 2137440
+h32-inr32 inr32-h32 {24: 4572, 4: 2, 21: 1842, 23: 1556} total: 7972 bits: 1652064
+inr202-inr260 inr260-inr202 {24: 6687, 4: 3, 21: 2702, 23: 2284} total: 11676 bits: 2428512
+inr230-inr201 inr230-inr201 {24: 7013, 4: 4, 21: 2806, 23: 2379} total: 12202 bits: 2523696
+inr220-inr201 inr220-inr201 {24: 6450, 4: 4, 21: 2602, 23: 2172} total: 11228 bits: 2309280
+inr220-inr202 inr220-inr202 {24: 6129, 4: 2, 21: 2470, 23: 2108} total: 10709 bits: 2235752
+inr230-inr202 inr230-inr202 {24: 6702, 4: 3, 21: 2716, 23: 2289} total: 11710 bits: 2432144
+inr205-inr201 inr205-inr201 {24: 6965, 4: 4, 21: 2817, 23: 2396} total: 12182 bits: 2535056
+inr205-inr202 inr205-inr202 {24: 6750, 4: 3, 21: 2705, 23: 2272} total: 11730 bits: 2420784
+h42-inr205 inr205-h42 {24: 4572, 4: 2, 21: 1842, 23: 1556} total: 7972 bits: 1652064
+inr206-inr306 inr306-inr206 {24: 9123, 4: 4, 21: 3673, 23: 3103} total: 15903 bits: 3293240
+inr306-inr201 inr306-inr201 {24: 7027, 4: 4, 21: 2778, 23: 2383} total: 12192 bits: 2527008
+h14-inr380 inr380-h14 {24: 4572, 4: 2, 21: 1842, 23: 1556} total: 7972 bits: 1652064
+inr201-inr230 inr230-inr201 {24: 7013, 4: 4, 21: 2806, 23: 2379} total: 12202 bits: 2523696
+inr44-h1 inr44-h1 {24: 4572, 4: 2, 21: 1842, 23: 1556} total: 7972 bits: 1652064
+inr330-c2 inr330-c2 {24: 4572, 4: 2, 21: 3580, 23: 1556} total: 9710 bits: 1832816
+inr201-inr235 inr235-inr201 {24: 7017, 4: 4, 21: 2780, 23: 2349} total: 12150 bits: 2505680
+h29-inr220 inr220-h29 {24: 4572, 4: 2, 21: 1842, 23: 1556} total: 7972 bits: 1652064
+inr390-inr201 inr390-inr201 {24: 7029, 4: 4, 21: 2811, 23: 2353} total: 12197 bits: 2505576
+inr390-inr202 inr390-inr202 {24: 6687, 4: 3, 21: 2711, 23: 2314} total: 11715 bits: 2449656
+inr203-h44 inr203-h44 {24: 4572, 4: 2, 21: 1842, 23: 1556} total: 7972 bits: 1652064
+inr350-inr201 inr350-inr201 {24: 7060, 4: 4, 21: 2808, 23: 2393} total: 12265 bits: 2536616
+inr201-inr38 inr38-inr201 {24: 7054, 4: 4, 21: 2790, 23: 2373} total: 12221 bits: 2518984
+inr201-inr330 inr330-inr201 {24: 4876, 21: 1919, 23: 1656} total: 8451 bits: 1760056
+inr78-h50 inr78-h50 {24: 4572, 4: 2, 21: 1842, 23: 1556} total: 7972 bits: 1652064
+inr001-inr202 inr001-inr202 {24: 6674, 4: 3, 21: 2702, 23: 2279} total: 11658 bits: 2423600
+inr001-inr201 inr001-inr201 {24: 7047, 4: 4, 21: 2820, 23: 2392} total: 12263 bits: 2534904
+h38-inr36 inr36-h38 {24: 4572, 4: 2, 21: 1842, 23: 1556} total: 7972 bits: 1652064
+inr44-inr157 inr44-inr157 {24: 4572, 4: 2, 21: 1842, 23: 1556} total: 7972 bits: 1652064
+inr330-inr201 inr330-inr201 {24: 4876, 21: 1919, 23: 1656} total: 8451 bits: 1760056
+inr67-h20 inr67-h20 {24: 4572, 4: 2, 21: 1842, 23: 1556} total: 7972 bits: 1652064
+inr201-inr32 inr32-inr201 {24: 7019, 4: 3, 21: 2791, 23: 2382} total: 12195 bits: 2530616
+h7-inr45 inr45-h7 {24: 4572, 4: 2, 21: 1842, 23: 1556} total: 7972 bits: 1652064
+inr210-inr202 inr210-inr202 {24: 6707, 4: 3, 21: 2709, 23: 2285} total: 11704 bits: 2430592
+inr210-inr201 inr210-inr201 {24: 7014, 4: 4, 21: 2819, 23: 2386} total: 12223 bits: 2527384
+inr320-h28 inr320-h28 {24: 4572, 4: 2, 21: 1842, 23: 1556} total: 7972 bits: 1652064
+inr202-inr370 inr370-inr202 {24: 6711, 4: 3, 21: 2718, 23: 2282} total: 11714 bits: 2430352
+inr78-inr157 inr157-inr78 {24: 4572, 4: 2, 21: 1842, 23: 1556} total: 7972 bits: 1652064
+inr44-h36 inr44-h36 {24: 4572, 4: 2, 21: 1842, 23: 1556} total: 7972 bits: 1652064
+inr202-inr304 inr304-inr202 {24: 6648, 4: 3, 21: 2721, 23: 2290} total: 11662 bits: 2432336
+inr38-h30 inr38-h30 {24: 4572, 4: 2, 21: 1842, 23: 1556} total: 7972 bits: 1652064
+inr201-inr002 inr002-inr201 {24: 7007, 4: 4, 21: 2780, 23: 2352} total: 12143 bits: 2503544
+inr201-inr001 inr001-inr201 {24: 7047, 4: 4, 21: 2820, 23: 2392} total: 12263 bits: 2534904
+inr240-c1 inr240-c1 {24: 4572, 4: 2, 21: 3586, 23: 1556} total: 9716 bits: 1833440
+inr304-inr201 inr304-inr201 {24: 7067, 4: 4, 21: 2800, 23: 2378} total: 12249 bits: 2523400
+inr31-inr201 inr31-inr201 {24: 6988, 4: 4, 21: 2812, 23: 2357} total: 12161 bits: 2506408
+h21-inr380 inr380-h21 {24: 4572, 4: 2, 21: 1842, 23: 1556} total: 7972 bits: 1652064
+inr304-inr202 inr304-inr202 {24: 6648, 4: 3, 21: 2721, 23: 2290} total: 11662 bits: 2432336
+inr280-inr281 inr281-inr280 {24: 9125, 4: 4, 21: 3677, 23: 3105} total: 15911 bits: 3297848
+inr299-inr201 inr299-inr201 {24: 6994, 4: 4, 21: 2786, 23: 2368} total: 12152 bits: 2513344
+inr299-inr202 inr299-inr202 {24: 6722, 4: 3, 21: 2736, 23: 2300} total: 11761 bits: 2442568
+inr202-inr380 inr380-inr202 {24: 6657, 4: 3, 21: 2759, 23: 2273} total: 11692 bits: 2415776
+inr201-inr320 inr320-inr201 {24: 6988, 4: 4, 21: 2791, 23: 2367} total: 12150 bits: 2504880
+inr202-inr667 inr667-inr202 {24: 6701, 4: 3, 21: 2743, 23: 2283} total: 11730 bits: 2434832
+inr45-h7 inr45-h7 {24: 4572, 4: 2, 21: 1842, 23: 1556} total: 7972 bits: 1652064
+c2-inr330 inr330-c2 {24: 4572, 4: 2, 21: 3580, 23: 1556} total: 9710 bits: 1832816
+h49-inr205 inr205-h49 {24: 4572, 4: 2, 21: 1842, 23: 1556} total: 7972 bits: 1652064
+inr201-inr206 inr201-inr206 {24: 7000, 4: 4, 21: 2778, 23: 2373} total: 12155 bits: 2505976
+h22-inr235 inr235-h22 {24: 4572, 4: 2, 21: 1842, 23: 1556} total: 7972 bits: 1652064
+inr201-inr240 inr240-inr201 {24: 6439, 4: 4, 21: 2546, 23: 2157} total: 11146 bits: 2302064
+inr202-inr31 inr31-inr202 {24: 6727, 4: 3, 21: 2710, 23: 2311} total: 11751 bits: 2449432
+inr202-inr32 inr32-inr202 {24: 6696, 4: 4, 21: 2731, 23: 2286} total: 11717 bits: 2425224
+inr202-inr33 inr33-inr202 {24: 6704, 4: 3, 21: 2727, 23: 2293} total: 11727 bits: 2444408
+inr280-inr202 inr280-inr202 {24: 6661, 4: 3, 21: 2715, 23: 2289} total: 11668 bits: 2421024
+inr202-inr36 inr36-inr202 {24: 6659, 4: 3, 21: 2758, 23: 2286} total: 11706 bits: 2429840
+inr280-inr201 inr280-inr201 {24: 7064, 4: 4, 21: 2808, 23: 2384} total: 12260 bits: 2539040
+inr202-inr38 inr38-inr202 {24: 6659, 4: 3, 21: 2732, 23: 2294} total: 11688 bits: 2436032
+h50-inr78 inr78-h50 {24: 4572, 4: 2, 21: 1842, 23: 1556} total: 7972 bits: 1652064
+inr201-inr34 inr34-inr201 {24: 7025, 4: 4, 21: 2811, 23: 2386} total: 12226 bits: 2532336
+inr340-inr201 inr201-inr340 {24: 7013, 4: 4, 21: 2786, 23: 2364} total: 12167 bits: 2504312
+inr250-inr201 inr250-inr201 {24: 7068, 4: 4, 21: 2798, 23: 2374} total: 12244 bits: 2518048
+inr340-inr202 inr202-inr340 {24: 6701, 4: 3, 21: 2735, 23: 2304} total: 11743 bits: 2451352
+inr240-inr202 inr240-inr202 {24: 6146, 4: 3, 21: 2521, 23: 2126} total: 10796 bits: 2245248
+inr210-inr211 inr210-inr211 {24: 9130, 4: 4, 21: 3674, 23: 3107} total: 15915 bits: 3298872
+h24-inr260 inr260-h24 {24: 4572, 4: 2, 21: 1842, 23: 1556} total: 7972 bits: 1652064
+inr240-inr201 inr240-inr201 {24: 6439, 4: 4, 21: 2546, 23: 2157} total: 11146 bits: 2302064
+inr320-inr202 inr320-inr202 {24: 6727, 4: 3, 21: 2731, 23: 2301} total: 11762 bits: 2450960
+inr320-inr201 inr320-inr201 {24: 6988, 4: 4, 21: 2791, 23: 2367} total: 12150 bits: 2504880
+inr201-inr390 inr390-inr201 {24: 7029, 4: 4, 21: 2811, 23: 2353} total: 12197 bits: 2505576
+inr205-h26 inr205-h26 {24: 4572, 4: 2, 21: 1842, 23: 1556} total: 7972 bits: 1652064
+inr43-h6 inr43-h6 {24: 4572, 4: 2, 21: 1842, 23: 1556} total: 7972 bits: 1652064
+inr202-inr002 inr002-inr202 {24: 6712, 4: 3, 21: 2746, 23: 2317} total: 11778 bits: 2453872
+inr43-inr157 inr43-inr157 {24: 4572, 4: 2, 21: 1842, 23: 1556} total: 7972 bits: 1652064
+inr202-inr001 inr001-inr202 {24: 6674, 4: 3, 21: 2702, 23: 2279} total: 11658 bits: 2423600
+inr36-inr202 inr36-inr202 {24: 6659, 4: 3, 21: 2758, 23: 2286} total: 11706 bits: 2429840
+inr201-inr360 inr360-inr201 {24: 7068, 4: 4, 21: 2805, 23: 2342} total: 12219 bits: 2496632
+inr36-inr201 inr36-inr201 {24: 7056, 4: 4, 21: 2764, 23: 2382} total: 12206 bits: 2526000
+inr157-inr350 inr157-inr350 {24: 6835, 4: 3, 21: 2790, 23: 2329} total: 11957 bits: 2473928
+h11-inr43 inr43-h11 {24: 4572, 4: 2, 21: 1842, 23: 1556} total: 7972 bits: 1652064
+inr260-h24 inr260-h24 {24: 4572, 4: 2, 21: 1842, 23: 1556} total: 7972 bits: 1652064
+h40-inr36 inr36-h40 {24: 4572, 4: 2, 21: 1842, 23: 1556} total: 7972 bits: 1652064
+inr202-inr390 inr390-inr202 {24: 6687, 4: 3, 21: 2711, 23: 2314} total: 11715 bits: 2449656
+inr45-inr157 inr157-inr45 {24: 4572, 4: 2, 21: 1842, 23: 1556} total: 7972 bits: 1652064
+h2-inr299 inr299-h2 {24: 4572, 4: 2, 21: 1842, 23: 1556} total: 7972 bits: 1652064
+inr51-h13 inr51-h13 {24: 4572, 4: 2, 21: 1842, 23: 1556} total: 7972 bits: 1652064
+inr380-h21 inr380-h21 {24: 4572, 4: 2, 21: 1842, 23: 1556} total: 7972 bits: 1652064
+h36-inr44 inr44-h36 {24: 4572, 4: 2, 21: 1842, 23: 1556} total: 7972 bits: 1652064
+inr201-inr250 inr250-inr201 {24: 7068, 4: 4, 21: 2798, 23: 2374} total: 12244 bits: 2518048
+h18-inr001 inr001-h18 {24: 4572, 4: 2, 21: 1842, 23: 1556} total: 7972 bits: 1652064
+h35-inr78 inr78-h35 {24: 4572, 4: 2, 21: 1842, 23: 1556} total: 7972 bits: 1652064
+inr002-h25 inr002-h25 {24: 4572, 4: 2, 21: 1842, 23: 1556} total: 7972 bits: 1652064
+inr202-inr34 inr34-inr202 {24: 6691, 4: 3, 21: 2710, 23: 2282} total: 11686 bits: 2423472
+h3-inr290 inr290-h3 {24: 4572, 4: 2, 21: 1842, 23: 1556} total: 7972 bits: 1652064
+inr350-inr202 inr350-inr202 {24: 6656, 4: 3, 21: 2714, 23: 2275} total: 11648 bits: 2419296
+h17-inr281 inr281-h17 {24: 4572, 4: 2, 21: 1842, 23: 1556} total: 7972 bits: 1652064
+inr235-inr202 inr235-inr202 {24: 6699, 4: 3, 21: 2742, 23: 2319} total: 11763 bits: 2450232
+inr157-inr43 inr43-inr157 {24: 4572, 4: 2, 21: 1842, 23: 1556} total: 7972 bits: 1652064
+inr157-inr44 inr44-inr157 {24: 4572, 4: 2, 21: 1842, 23: 1556} total: 7972 bits: 1652064
+inr157-inr45 inr157-inr45 {24: 4572, 4: 2, 21: 1842, 23: 1556} total: 7972 bits: 1652064
+h46-inr36 inr36-h46 {24: 4572, 4: 2, 21: 1842, 23: 1556} total: 7972 bits: 1652064
+inr202-inr320 inr320-inr202 {24: 6727, 4: 3, 21: 2731, 23: 2301} total: 11762 bits: 2450960
+inr43-h47 inr43-h47 {24: 4572, 4: 2, 21: 1842, 23: 1556} total: 7972 bits: 1652064
+inr202-inr240 inr240-inr202 {24: 6146, 4: 3, 21: 2521, 23: 2126} total: 10796 bits: 2245248
+inr201-inr211 inr211-inr201 {24: 7057, 4: 4, 21: 2796, 23: 2399} total: 12256 bits: 2544992
+inr360-h37 inr360-h37 {24: 4572, 4: 2, 21: 1842, 23: 1556} total: 7972 bits: 1652064
+inr203-h8 inr203-h8 {24: 4572, 4: 2, 21: 1842, 23: 1556} total: 7972 bits: 1652064
+inr341-inr201 inr201-inr341 {24: 7020, 4: 4, 21: 2779, 23: 2399} total: 12202 bits: 2532304
+inr38-inr201 inr38-inr201 {24: 7054, 4: 4, 21: 2790, 23: 2373} total: 12221 bits: 2518984
+inr38-inr202 inr38-inr202 {24: 6659, 4: 3, 21: 2732, 23: 2294} total: 11688 bits: 2436032
+h16-inr38 inr38-h16 {24: 4572, 4: 2, 21: 1842, 23: 1556} total: 7972 bits: 1652064
+inr201-inr304 inr304-inr201 {24: 7067, 4: 4, 21: 2800, 23: 2378} total: 12249 bits: 2523400
+inr290-inr202 inr290-inr202 {24: 6691, 4: 3, 21: 2719, 23: 2307} total: 11720 bits: 2447168
+inr290-inr201 inr290-inr201 {24: 7024, 4: 4, 21: 2803, 23: 2360} total: 12191 bits: 2507992
+h12-inr43 inr43-h12 {24: 4572, 4: 2, 21: 1842, 23: 1556} total: 7972 bits: 1652064
+h8-inr203 inr203-h8 {24: 4572, 4: 2, 21: 1842, 23: 1556} total: 7972 bits: 1652064
+h15-inr280 inr280-h15 {24: 4572, 4: 2, 21: 1842, 23: 1556} total: 7972 bits: 1652064
+inr341-inr202 inr202-inr341 {24: 6694, 4: 3, 21: 2743, 23: 2269} total: 11709 bits: 2423464
+inr201-inr260 inr260-inr201 {24: 7029, 4: 4, 21: 2820, 23: 2384} total: 12237 bits: 2527400
+inr220-c4 inr220-c4 {24: 4572, 4: 2, 21: 3602, 23: 1556} total: 9732 bits: 1835104
+inr67-inr157 inr157-inr67 {24: 4572, 4: 2, 21: 1842, 23: 1556} total: 7972 bits: 1652064
+h9-inr205 inr205-h9 {24: 4572, 4: 2, 21: 1842, 23: 1556} total: 7972 bits: 1652064
+h41-inr36 inr36-h41 {24: 4572, 4: 2, 21: 1842, 23: 1556} total: 7972 bits: 1652064
+inr281-inr201 inr281-inr201 {24: 6985, 4: 4, 21: 2762, 23: 2381} total: 12132 bits: 2522112
+inr360-inr202 inr360-inr202 {24: 6648, 4: 3, 21: 2717, 23: 2326} total: 11694 bits: 2459280
+inr360-inr201 inr360-inr201 {24: 7068, 4: 4, 21: 2805, 23: 2342} total: 12219 bits: 2496632
+inr281-inr202 inr281-inr202 {24: 6741, 4: 3, 21: 2766, 23: 2289} total: 11799 bits: 2435928
+inr201-inr203 inr201-inr203 {24: 6457, 4: 4, 21: 2550, 23: 2184} total: 11195 bits: 2319640
+inr203-h43 inr203-h43 {24: 4572, 4: 2, 21: 1842, 23: 1556} total: 7972 bits: 1652064
+inr380-inr201 inr380-inr201 {24: 7058, 4: 4, 21: 2763, 23: 2395} total: 12220 bits: 2540064
+inr157-inr51 inr157-inr51 {24: 4572, 4: 2, 21: 1842, 23: 1556} total: 7972 bits: 1652064
+h25-inr002 inr002-h25 {24: 4572, 4: 2, 21: 1842, 23: 1556} total: 7972 bits: 1652064
+c1-inr240 inr240-c1 {24: 4572, 4: 2, 21: 3586, 23: 1556} total: 9716 bits: 1833440
+h1-inr44 inr44-h1 {24: 4572, 4: 2, 21: 1842, 23: 1556} total: 7972 bits: 1652064
+inr202-inr230 inr230-inr202 {24: 6702, 4: 3, 21: 2716, 23: 2289} total: 11710 bits: 2432144
+inr202-inr306 inr306-inr202 {24: 6703, 4: 3, 21: 2748, 23: 2289} total: 11743 bits: 2433432
+h19-inr320 inr320-h19 {24: 4572, 4: 2, 21: 1842, 23: 1556} total: 7972 bits: 1652064
+inr202-inr235 inr235-inr202 {24: 6699, 4: 3, 21: 2742, 23: 2319} total: 11763 bits: 2450232
+inr31-inr202 inr31-inr202 {24: 6727, 4: 3, 21: 2710, 23: 2311} total: 11751 bits: 2449432
+inr31-h34 inr31-h34 {24: 4572, 4: 2, 21: 1842, 23: 1556} total: 7972 bits: 1652064
+inr201-inr370 inr370-inr201 {24: 7005, 4: 4, 21: 2803, 23: 2386} total: 12198 bits: 2525456
+inr32-inr202 inr32-inr202 {24: 6696, 4: 4, 21: 2731, 23: 2286} total: 11717 bits: 2425224
+h30-inr38 inr38-h30 {24: 4572, 4: 2, 21: 1842, 23: 1556} total: 7972 bits: 1652064
+inr350-inr157 inr157-inr350 {24: 6835, 4: 3, 21: 2790, 23: 2329} total: 11957 bits: 2473928
+inr260-inr201 inr260-inr201 {24: 7029, 4: 4, 21: 2820, 23: 2384} total: 12237 bits: 2527400
+inr260-inr202 inr260-inr202 {24: 6687, 4: 3, 21: 2702, 23: 2284} total: 11676 bits: 2428512
+h47-inr43 inr43-h47 {24: 4572, 4: 2, 21: 1842, 23: 1556} total: 7972 bits: 1652064
+inr33-h27 inr33-h27 {24: 4572, 4: 2, 21: 1842, 23: 1556} total: 7972 bits: 1652064
+inr290-h3 inr290-h3 {24: 4572, 4: 2, 21: 1842, 23: 1556} total: 7972 bits: 1652064
+inr205-h9 inr205-h9 {24: 4572, 4: 2, 21: 1842, 23: 1556} total: 7972 bits: 1652064
+inr203-c3 inr203-c3 {24: 4572, 4: 2, 21: 3574, 23: 1556} total: 9704 bits: 1832192
+inr370-h39 inr370-h39 {24: 4572, 4: 2, 21: 1842, 23: 1556} total: 7972 bits: 1652064
+inr320-h31 inr320-h31 {24: 4572, 4: 2, 21: 1842, 23: 1556} total: 7972 bits: 1652064
+inr667-inr201 inr667-inr201 {24: 7014, 4: 4, 21: 2778, 23: 2384} total: 12180 bits: 2520224
+inr206-inr201 inr201-inr206 {24: 7000, 4: 4, 21: 2778, 23: 2373} total: 12155 bits: 2505976
+inr206-inr202 inr202-inr206 {24: 6722, 4: 3, 21: 2751, 23: 2300} total: 11776 bits: 2456224
+inr667-inr202 inr667-inr202 {24: 6701, 4: 3, 21: 2743, 23: 2283} total: 11730 bits: 2434832
+inr250-inr157 inr157-inr250 {24: 6881, 4: 3, 21: 2736, 23: 2339} total: 11959 bits: 2482264
+inr201-inr306 inr306-inr201 {24: 7027, 4: 4, 21: 2778, 23: 2383} total: 12192 bits: 2527008
+inr32-h32 inr32-h32 {24: 4572, 4: 2, 21: 1842, 23: 1556} total: 7972 bits: 1652064
+inr203-inr201 inr201-inr203 {24: 6457, 4: 4, 21: 2550, 23: 2184} total: 11195 bits: 2319640
+h26-inr205 inr205-h26 {24: 4572, 4: 2, 21: 1842, 23: 1556} total: 7972 bits: 1652064
+inr36-h46 inr36-h46 {24: 4572, 4: 2, 21: 1842, 23: 1556} total: 7972 bits: 1652064
+inr36-h45 inr36-h45 {24: 4572, 4: 2, 21: 1842, 23: 1556} total: 7972 bits: 1652064
+h39-inr370 inr370-h39 {24: 4572, 4: 2, 21: 1842, 23: 1556} total: 7972 bits: 1652064
+inr201-inr281 inr281-inr201 {24: 6985, 4: 4, 21: 2762, 23: 2381} total: 12132 bits: 2522112
+inr201-inr280 inr280-inr201 {24: 7064, 4: 4, 21: 2808, 23: 2384} total: 12260 bits: 2539040
+inr202-inr220 inr220-inr202 {24: 6129, 4: 2, 21: 2470, 23: 2108} total: 10709 bits: 2235752
+h28-inr320 inr320-h28 {24: 4572, 4: 2, 21: 1842, 23: 1556} total: 7972 bits: 1652064
+h43-inr203 inr203-h43 {24: 4572, 4: 2, 21: 1842, 23: 1556} total: 7972 bits: 1652064
+inr280-h15 inr280-h15 {24: 4572, 4: 2, 21: 1842, 23: 1556} total: 7972 bits: 1652064
+inr33-inr201 inr33-inr201 {24: 7012, 4: 4, 21: 2795, 23: 2375} total: 12186 bits: 2511504
+h31-inr320 inr320-h31 {24: 4572, 4: 2, 21: 1842, 23: 1556} total: 7972 bits: 1652064
+inr33-inr202 inr33-inr202 {24: 6704, 4: 3, 21: 2727, 23: 2293} total: 11727 bits: 2444408
+inr202-inr341 inr202-inr341 {24: 6694, 4: 3, 21: 2743, 23: 2269} total: 11709 bits: 2423464
+inr202-inr340 inr202-inr340 {24: 6701, 4: 3, 21: 2735, 23: 2304} total: 11743 bits: 2451352
+inr011-inr001 inr011-inr001 {24: 6833, 4: 3, 21: 2763, 23: 2309} total: 11908 bits: 2456608
+inr011-inr002 inr011-inr002 {24: 6883, 4: 3, 21: 2763, 23: 2359} total: 12008 bits: 2499584
+inr340-h48 inr340-h48 {24: 4572, 4: 2, 21: 1842, 23: 1556} total: 7972 bits: 1652064
+inr002-inr011 inr011-inr002 {24: 6883, 4: 3, 21: 2763, 23: 2359} total: 12008 bits: 2499584
+inr201-inr202 inr202-inr201 {24: 8878, 4: 3, 21: 3566, 23: 3019} total: 15466 bits: 3204144
+inr201-inr205 inr205-inr201 {24: 6965, 4: 4, 21: 2817, 23: 2396} total: 12182 bits: 2535056
+inr281-inr280 inr281-inr280 {24: 9125, 4: 4, 21: 3677, 23: 3105} total: 15911 bits: 3297848
+inr370-inr201 inr370-inr201 {24: 7005, 4: 4, 21: 2803, 23: 2386} total: 12198 bits: 2525456
+inr330-inr202 inr330-inr202 {24: 5895, 4: 2, 21: 2402, 23: 2013} total: 10312 bits: 2137440
+inr281-h10 inr281-h10 {24: 4572, 4: 2, 21: 1842, 23: 1556} total: 7972 bits: 1652064
+inr001-inr002 inr001-inr002 {24: 9134, 4: 4, 21: 3679, 23: 3107} total: 15924 bits: 3299488
+inr281-h17 inr281-h17 {24: 4572, 4: 2, 21: 1842, 23: 1556} total: 7972 bits: 1652064
+h34-inr31 inr31-h34 {24: 4572, 4: 2, 21: 1842, 23: 1556} total: 7972 bits: 1652064
+c4-inr220 inr220-c4 {24: 4572, 4: 2, 21: 3602, 23: 1556} total: 9732 bits: 1835104
+inr202-inr250 inr250-inr202 {24: 6647, 4: 3, 21: 2724, 23: 2293} total: 11667 bits: 2437496
+inr260-h4 inr260-h4 {24: 4572, 4: 2, 21: 1842, 23: 1556} total: 7972 bits: 1652064
+h13-inr51 inr51-h13 {24: 4572, 4: 2, 21: 1842, 23: 1556} total: 7972 bits: 1652064
+c3-inr203 inr203-c3 {24: 4572, 4: 2, 21: 3574, 23: 1556} total: 9704 bits: 1832192
+h5-inr220 inr220-h5 {24: 4572, 4: 2, 21: 1842, 23: 1556} total: 7972 bits: 1652064
+inr201-inr299 inr299-inr201 {24: 6994, 4: 4, 21: 2786, 23: 2368} total: 12152 bits: 2513344
+inr202-inr299 inr299-inr202 {24: 6722, 4: 3, 21: 2736, 23: 2300} total: 11761 bits: 2442568
+inr202-inr211 inr211-inr202 {24: 6667, 4: 3, 21: 2729, 23: 2269} total: 11668 bits: 2412576
+inr202-inr210 inr210-inr202 {24: 6707, 4: 3, 21: 2709, 23: 2285} total: 11704 bits: 2430592
+inr203-inr202 inr202-inr203 {24: 6124, 4: 3, 21: 2515, 23: 2097} total: 10739 bits: 2225432
+inr201-inr290 inr290-inr201 {24: 7024, 4: 4, 21: 2803, 23: 2360} total: 12191 bits: 2507992
+inr36-h40 inr36-h40 {24: 4572, 4: 2, 21: 1842, 23: 1556} total: 7972 bits: 1652064
+inr36-h41 inr36-h41 {24: 4572, 4: 2, 21: 1842, 23: 1556} total: 7972 bits: 1652064
+inr306-inr202 inr306-inr202 {24: 6703, 4: 3, 21: 2748, 23: 2289} total: 11743 bits: 2433432
+inr201-inr667 inr667-inr201 {24: 7014, 4: 4, 21: 2778, 23: 2384} total: 12180 bits: 2520224
+h44-inr203 inr203-h44 {24: 4572, 4: 2, 21: 1842, 23: 1556} total: 7972 bits: 1652064
+inr235-h22 inr235-h22 {24: 4572, 4: 2, 21: 1842, 23: 1556} total: 7972 bits: 1652064
+inr001-h33 inr001-h33 {24: 4572, 4: 2, 21: 1842, 23: 1556} total: 7972 bits: 1652064
+inr202-inr350 inr350-inr202 {24: 6656, 4: 3, 21: 2714, 23: 2275} total: 11648 bits: 2419296
+h20-inr67 inr67-h20 {24: 4572, 4: 2, 21: 1842, 23: 1556} total: 7972 bits: 1652064
+inr205-h42 inr205-h42 {24: 4572, 4: 2, 21: 1842, 23: 1556} total: 7972 bits: 1652064
+inr201-inr380 inr380-inr201 {24: 7058, 4: 4, 21: 2763, 23: 2395} total: 12220 bits: 2540064
+inr002-inr001 inr001-inr002 {24: 9134, 4: 4, 21: 3679, 23: 3107} total: 15924 bits: 3299488
+inr43-h11 inr43-h11 {24: 4572, 4: 2, 21: 1842, 23: 1556} total: 7972 bits: 1652064
+inr202-inr290 inr290-inr202 {24: 6691, 4: 3, 21: 2719, 23: 2307} total: 11720 bits: 2447168
+inr201-inr210 inr210-inr201 {24: 7014, 4: 4, 21: 2819, 23: 2386} total: 12223 bits: 2527384
+h48-inr340 inr340-h48 {24: 4572, 4: 2, 21: 1842, 23: 1556} total: 7972 bits: 1652064
+inr320-h19 inr320-h19 {24: 4572, 4: 2, 21: 1842, 23: 1556} total: 7972 bits: 1652064
+inr235-inr201 inr235-inr201 {24: 7017, 4: 4, 21: 2780, 23: 2349} total: 12150 bits: 2505680
+inr210-h23 inr210-h23 {24: 4572, 4: 2, 21: 1842, 23: 1556} total: 7972 bits: 1652064
+inr201-inr350 inr350-inr201 {24: 7060, 4: 4, 21: 2808, 23: 2393} total: 12265 bits: 2536616
+inr34-inr201 inr34-inr201 {24: 7025, 4: 4, 21: 2811, 23: 2386} total: 12226 bits: 2532336
+inr43-h12 inr43-h12 {24: 4572, 4: 2, 21: 1842, 23: 1556} total: 7972 bits: 1652064
+h10-inr281 inr281-h10 {24: 4572, 4: 2, 21: 1842, 23: 1556} total: 7972 bits: 1652064
+inr211-inr210 inr210-inr211 {24: 9130, 4: 4, 21: 3674, 23: 3107} total: 15915 bits: 3298872
+inr157-inr250 inr157-inr250 {24: 6881, 4: 3, 21: 2736, 23: 2339} total: 11959 bits: 2482264
+inr201-inr33 inr33-inr201 {24: 7012, 4: 4, 21: 2795, 23: 2375} total: 12186 bits: 2511504
+inr250-inr202 inr250-inr202 {24: 6647, 4: 3, 21: 2724, 23: 2293} total: 11667 bits: 2437496
+inr201-inr31 inr31-inr201 {24: 6988, 4: 4, 21: 2812, 23: 2357} total: 12161 bits: 2506408
+inr201-inr36 inr36-inr201 {24: 7056, 4: 4, 21: 2764, 23: 2382} total: 12206 bits: 2526000
+inr299-h2 inr299-h2 {24: 4572, 4: 2, 21: 1842, 23: 1556} total: 7972 bits: 1652064
+inr370-inr202 inr370-inr202 {24: 6711, 4: 3, 21: 2718, 23: 2282} total: 11714 bits: 2430352
+inr202-inr201 inr202-inr201 {24: 8878, 4: 3, 21: 3566, 23: 3019} total: 15466 bits: 3204144
+inr202-inr203 inr202-inr203 {24: 6124, 4: 3, 21: 2515, 23: 2097} total: 10739 bits: 2225432
+inr202-inr205 inr205-inr202 {24: 6750, 4: 3, 21: 2705, 23: 2272} total: 11730 bits: 2420784
+inr51-inr157 inr157-inr51 {24: 4572, 4: 2, 21: 1842, 23: 1556} total: 7972 bits: 1652064
+inr78-h35 inr78-h35 {24: 4572, 4: 2, 21: 1842, 23: 1556} total: 7972 bits: 1652064
+h37-inr360 inr360-h37 {24: 4572, 4: 2, 21: 1842, 23: 1556} total: 7972 bits: 1652064
+inr220-h5 inr220-h5 {24: 4572, 4: 2, 21: 1842, 23: 1556} total: 7972 bits: 1652064
+inr38-h16 inr38-h16 {24: 4572, 4: 2, 21: 1842, 23: 1556} total: 7972 bits: 1652064
+h27-inr33 inr33-h27 {24: 4572, 4: 2, 21: 1842, 23: 1556} total: 7972 bits: 1652064
+inr36-h38 inr36-h38 {24: 4572, 4: 2, 21: 1842, 23: 1556} total: 7972 bits: 1652064
+inr202-inr360 inr360-inr202 {24: 6648, 4: 3, 21: 2717, 23: 2326} total: 11694 bits: 2459280
+inr71-inr157 inr157-inr71 {24: 4572, 4: 2, 21: 1842, 23: 1556} total: 7972 bits: 1652064
+inr202-inr280 inr280-inr202 {24: 6661, 4: 3, 21: 2715, 23: 2289} total: 11668 bits: 2421024
+inr202-inr281 inr281-inr202 {24: 6741, 4: 3, 21: 2766, 23: 2289} total: 11799 bits: 2435928
+inr32-inr201 inr32-inr201 {24: 7019, 4: 3, 21: 2791, 23: 2382} total: 12195 bits: 2530616
+inr380-inr202 inr380-inr202 {24: 6657, 4: 3, 21: 2759, 23: 2273} total: 11692 bits: 2415776
+h45-inr36 inr36-h45 {24: 4572, 4: 2, 21: 1842, 23: 1556} total: 7972 bits: 1652064
+inr34-inr202 inr34-inr202 {24: 6691, 4: 3, 21: 2710, 23: 2282} total: 11686 bits: 2423472
+inr201-inr220 inr220-inr201 {24: 6450, 4: 4, 21: 2602, 23: 2172} total: 11228 bits: 2309280
+h33-inr001 inr001-h33 {24: 4572, 4: 2, 21: 1842, 23: 1556} total: 7972 bits: 1652064
+inr201-inr340 inr201-inr340 {24: 7013, 4: 4, 21: 2786, 23: 2364} total: 12167 bits: 2504312
+inr201-inr341 inr201-inr341 {24: 7020, 4: 4, 21: 2779, 23: 2399} total: 12202 bits: 2532304
+inr202-inr206 inr202-inr206 {24: 6722, 4: 3, 21: 2751, 23: 2300} total: 11776 bits: 2456224
+inr306-inr206 inr306-inr206 {24: 9123, 4: 4, 21: 3673, 23: 3103} total: 15903 bits: 3293240
+inr002-inr202 inr002-inr202 {24: 6712, 4: 3, 21: 2746, 23: 2317} total: 11778 bits: 2453872
+inr211-inr201 inr211-inr201 {24: 7057, 4: 4, 21: 2796, 23: 2399} total: 12256 bits: 2544992
+inr211-inr202 inr211-inr202 {24: 6667, 4: 3, 21: 2729, 23: 2269} total: 11668 bits: 2412576
+inr002-inr201 inr002-inr201 {24: 7007, 4: 4, 21: 2780, 23: 2352} total: 12143 bits: 2503544
+inr157-inr78 inr157-inr78 {24: 4572, 4: 2, 21: 1842, 23: 1556} total: 7972 bits: 1652064
+inr205-h49 inr205-h49 {24: 4572, 4: 2, 21: 1842, 23: 1556} total: 7972 bits: 1652064
+inr220-h29 inr220-h29 {24: 4572, 4: 2, 21: 1842, 23: 1556} total: 7972 bits: 1652064
+inr380-h14 inr380-h14 {24: 4572, 4: 2, 21: 1842, 23: 1556} total: 7972 bits: 1652064
+inr157-inr71 inr157-inr71 {24: 4572, 4: 2, 21: 1842, 23: 1556} total: 7972 bits: 1652064
+inr001-inr011 inr011-inr001 {24: 6833, 4: 3, 21: 2763, 23: 2309} total: 11908 bits: 2456608
+h6-inr43 inr43-h6 {24: 4572, 4: 2, 21: 1842, 23: 1556} total: 7972 bits: 1652064
+h23-inr210 inr210-h23 {24: 4572, 4: 2, 21: 1842, 23: 1556} total: 7972 bits: 1652064
+inr157-inr67 inr157-inr67 {24: 4572, 4: 2, 21: 1842, 23: 1556} total: 7972 bits: 1652064
+h4-inr260 inr260-h4 {24: 4572, 4: 2, 21: 1842, 23: 1556} total: 7972 bits: 1652064
+Total control packets over all links:  {'NotifyLinkDown': 784, 'ControlAck': 678780, 'GossipReply': 1650936, 'Gossip': 561864}  bytes:  597990880
+Total control bits over all links:  {'NotifyLinkDown': 106624, 'ControlAck': 70593120, 'GossipReply': 118867392, 'Gossip': 408423744}

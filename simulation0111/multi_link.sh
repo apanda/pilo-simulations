@@ -7,7 +7,7 @@ for i in ${!exp[@]}; do
 	e=${exp[$i]}
 	cf=${config_files[$i]}
 	fname=${out_name[$i]}
-	echo "python perturbation_noboot.py $e$num.yaml 0 300000 3600000 600000 600001 3 1 42 true $cf > outputs/multi_link/$fname$num.output"
-	python perturbation_noboot.py $e$num.yaml 0 300000 3600000 600000 600001 3 1 42 true $cf > outputs/multi_link/$fname$num.output
+	echo "python perturbation_noboot.py $e$num.yaml 0 300000 3600000 600000 600001 3 1000 42 true $cf > outputs/multi_link/$fname$num.output"
+	python perturbation_noboot.py $e$num.yaml 0 300000 3600000 600000 600001 3 1000 42 true $cf > outputs/multi_link/$fname$num.output
     done
 done

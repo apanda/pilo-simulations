@@ -1,0 +1,2516 @@
+Setting fat_tree/ft_4_arity/fat_tree_4_arity3.yaml 0.000000 1800000.000000 300000.000000 30000.000000 10240000.000000 10240000.000000 1000.000000 42 config_ft.yml
+mean_perturb 30000.000000
+generating trace
+done generating trace
+TRACE TRACE TRACE
+11236.203565 s4-s7 down
+34626.933574 s8-s11 down
+39306.769184 s0-s4 down
+49318.027518 s3-s5 down
+49935.562347 s1-s16 down
+78092.143617 s9-s11 down
+83594.278913 s2-s13 down
+83806.268069 s1-s4 down
+102161.854911 s17-s19 down
+131374.520476 s12-s14 down
+154929.799318 s0-s8 down
+184426.725892 s16-s18 down
+188183.155186 s17-s19 up
+204835.952050 s8-s10 down
+233302.518168 s0-s16 down
+242440.931243 s5-s6 down
+255645.506055 s2-s17 down
+280641.353407 s17-s19 down
+288404.752855 s9-s10 down
+301159.429090 s13-s15 down
+325911.027633 s8-s10 up
+339951.700406 s8-s11 up
+376003.511338 s4-s7 up
+439314.323367 s9-s11 up
+703407.654666 s1-s4 up
+1022556.186905 s0-s8 up
+1145939.866331 s0-s4 up
+1227456.958624 s12-s14 up
+1725362.265457 s13-s15 up
+1786135.839227 s2-s13 up
+1950525.452248 s2-s17 up
+2265568.138586 s3-s5 up
+2317392.304820 s5-s6 up
+2354169.110537 s1-s16 up
+2822756.695892 s9-s10 up
+3207499.349231 s0-s16 up
+3722663.831285 s16-s18 up
+4601402.550714 s17-s19 up
+300000.000000 end
+TRACE TRACE TRACE
+Informing controller of nodes
+h1 being informed of s0-s4
+h4 being informed of s0-s4
+h10 being informed of s0-s4
+h11 being informed of s0-s4
+h1 being informed of s1-s4
+h4 being informed of s1-s4
+h10 being informed of s1-s4
+h11 being informed of s1-s4
+h1 being informed of s2-s5
+h4 being informed of s2-s5
+h10 being informed of s2-s5
+h11 being informed of s2-s5
+h1 being informed of s3-s5
+h4 being informed of s3-s5
+h10 being informed of s3-s5
+h11 being informed of s3-s5
+h1 being informed of s4-s6
+h4 being informed of s4-s6
+h10 being informed of s4-s6
+h11 being informed of s4-s6
+h1 being informed of s5-s6
+h4 being informed of s5-s6
+h10 being informed of s5-s6
+h11 being informed of s5-s6
+h1 being informed of s4-s7
+h4 being informed of s4-s7
+h10 being informed of s4-s7
+h11 being informed of s4-s7
+h1 being informed of s5-s7
+h4 being informed of s5-s7
+h10 being informed of s5-s7
+h11 being informed of s5-s7
+h1 being informed of s6-h0
+h4 being informed of s6-h0
+h10 being informed of s6-h0
+h11 being informed of s6-h0
+h1 being informed of s6-h1
+h4 being informed of s6-h1
+h10 being informed of s6-h1
+h11 being informed of s6-h1
+h1 being informed of s7-h2
+h4 being informed of s7-h2
+h10 being informed of s7-h2
+h11 being informed of s7-h2
+h1 being informed of s7-h3
+h4 being informed of s7-h3
+h10 being informed of s7-h3
+h11 being informed of s7-h3
+h1 being informed of s0-s8
+h4 being informed of s0-s8
+h10 being informed of s0-s8
+h11 being informed of s0-s8
+h1 being informed of s1-s8
+h4 being informed of s1-s8
+h10 being informed of s1-s8
+h11 being informed of s1-s8
+h1 being informed of s2-s9
+h4 being informed of s2-s9
+h10 being informed of s2-s9
+h11 being informed of s2-s9
+h1 being informed of s3-s9
+h4 being informed of s3-s9
+h10 being informed of s3-s9
+h11 being informed of s3-s9
+h1 being informed of s8-s10
+h4 being informed of s8-s10
+h10 being informed of s8-s10
+h11 being informed of s8-s10
+h1 being informed of s9-s10
+h4 being informed of s9-s10
+h10 being informed of s9-s10
+h11 being informed of s9-s10
+h1 being informed of s8-s11
+h4 being informed of s8-s11
+h10 being informed of s8-s11
+h11 being informed of s8-s11
+h1 being informed of s9-s11
+h4 being informed of s9-s11
+h10 being informed of s9-s11
+h11 being informed of s9-s11
+h1 being informed of s10-h4
+h4 being informed of s10-h4
+h10 being informed of s10-h4
+h11 being informed of s10-h4
+h1 being informed of s10-h5
+h4 being informed of s10-h5
+h10 being informed of s10-h5
+h11 being informed of s10-h5
+h1 being informed of s11-h6
+h4 being informed of s11-h6
+h10 being informed of s11-h6
+h11 being informed of s11-h6
+h1 being informed of s11-h7
+h4 being informed of s11-h7
+h10 being informed of s11-h7
+h11 being informed of s11-h7
+h1 being informed of s0-s12
+h4 being informed of s0-s12
+h10 being informed of s0-s12
+h11 being informed of s0-s12
+h1 being informed of s1-s12
+h4 being informed of s1-s12
+h10 being informed of s1-s12
+h11 being informed of s1-s12
+h1 being informed of s2-s13
+h4 being informed of s2-s13
+h10 being informed of s2-s13
+h11 being informed of s2-s13
+h1 being informed of s3-s13
+h4 being informed of s3-s13
+h10 being informed of s3-s13
+h11 being informed of s3-s13
+h1 being informed of s12-s14
+h4 being informed of s12-s14
+h10 being informed of s12-s14
+h11 being informed of s12-s14
+h1 being informed of s13-s14
+h4 being informed of s13-s14
+h10 being informed of s13-s14
+h11 being informed of s13-s14
+h1 being informed of s12-s15
+h4 being informed of s12-s15
+h10 being informed of s12-s15
+h11 being informed of s12-s15
+h1 being informed of s13-s15
+h4 being informed of s13-s15
+h10 being informed of s13-s15
+h11 being informed of s13-s15
+h1 being informed of s14-h8
+h4 being informed of s14-h8
+h10 being informed of s14-h8
+h11 being informed of s14-h8
+h1 being informed of s14-h9
+h4 being informed of s14-h9
+h10 being informed of s14-h9
+h11 being informed of s14-h9
+h1 being informed of s15-h10
+h4 being informed of s15-h10
+h10 being informed of s15-h10
+h11 being informed of s15-h10
+h1 being informed of s15-h11
+h4 being informed of s15-h11
+h10 being informed of s15-h11
+h11 being informed of s15-h11
+h1 being informed of s0-s16
+h4 being informed of s0-s16
+h10 being informed of s0-s16
+h11 being informed of s0-s16
+h1 being informed of s1-s16
+h4 being informed of s1-s16
+h10 being informed of s1-s16
+h11 being informed of s1-s16
+h1 being informed of s2-s17
+h4 being informed of s2-s17
+h10 being informed of s2-s17
+h11 being informed of s2-s17
+h1 being informed of s3-s17
+h4 being informed of s3-s17
+h10 being informed of s3-s17
+h11 being informed of s3-s17
+h1 being informed of s16-s18
+h4 being informed of s16-s18
+h10 being informed of s16-s18
+h11 being informed of s16-s18
+h1 being informed of s17-s18
+h4 being informed of s17-s18
+h10 being informed of s17-s18
+h11 being informed of s17-s18
+h1 being informed of s16-s19
+h4 being informed of s16-s19
+h10 being informed of s16-s19
+h11 being informed of s16-s19
+h1 being informed of s17-s19
+h4 being informed of s17-s19
+h10 being informed of s17-s19
+h11 being informed of s17-s19
+h1 being informed of s18-h12
+h4 being informed of s18-h12
+h10 being informed of s18-h12
+h11 being informed of s18-h12
+h1 being informed of s18-h13
+h4 being informed of s18-h13
+h10 being informed of s18-h13
+h11 being informed of s18-h13
+h1 being informed of s19-h14
+h4 being informed of s19-h14
+h10 being informed of s19-h14
+h11 being informed of s19-h14
+h1 being informed of s19-h15
+h4 being informed of s19-h15
+h10 being informed of s19-h15
+h11 being informed of s19-h15
+Computing for h1
+Computing for h4
+Computing for h10
+Computing for h11
+0.000000 received rule update s9
+0.000000 received rule update s18
+0.000000 received rule update s3
+0.000000 received rule update s7
+0.000000 received rule update s11
+0.000000 received rule update s10
+0.000000 received rule update s17
+0.000000 received rule update s6
+0.000000 received rule update s5
+0.000000 received rule update s14
+0.000000 received rule update s13
+0.000000 received rule update s19
+Starting replay
+11236.203565 s4 notifying down for s4-s7
+11236.203565 s4 notifying down for s4-s7 reliably
+11236.203565 s7 notifying down for s4-s7
+11236.203565 s7 notifying down for s4-s7 reliably
+11237.687797 h1 notify link down s4-s7  version:  1
+11237.687797 Computing link updates
+11238.002346 h10 notify link down s4-s7  version:  1
+11238.002346 Computing link updates
+11238.062307 h1 notify link down s4-s7  version:  1
+11238.062307 Skipping because of link version
+11238.082876 h4 notify link down s4-s7  version:  1
+11238.082876 Computing link updates
+11238.114274 h10 notify link down s4-s7  version:  1
+11238.114274 Skipping because of link version
+11238.267947 h4 notify link down s4-s7  version:  1
+11238.267947 Skipping because of link version
+11238.281387 h11 notify link down s4-s7  version:  1
+11238.281387 Computing link updates
+11238.557932 h11 notify link down s4-s7  version:  1
+11238.557932 Skipping because of link version
+12000.0 {'h10': {21: 2}, 'h11': {21: 2}, 'h1': {21: 2}, 'h4': {21: 2}}
+13000.0 {'h10': {21: 2}, 'h11': {21: 2}, 'h1': {21: 2}, 'h4': {21: 2}}
+14000.0 {'h10': {21: 2}, 'h11': {21: 2}, 'h1': {21: 2}, 'h4': {21: 2}}
+15000.0 {'h10': {21: 2}, 'h11': {21: 2}, 'h1': {21: 2}, 'h4': {21: 2}}
+16000.0 {'h10': {21: 2}, 'h11': {21: 2}, 'h1': {21: 2}, 'h4': {21: 2}}
+17000.0 {'h10': {21: 2}, 'h11': {21: 2}, 'h1': {21: 2}, 'h4': {21: 2}}
+18000.0 {'h10': {21: 2}, 'h11': {21: 2}, 'h1': {21: 2}, 'h4': {21: 2}}
+19000.0 {'h10': {21: 2}, 'h11': {21: 2}, 'h1': {21: 2}, 'h4': {21: 2}}
+20000.0 {'h10': {21: 2}, 'h11': {21: 2}, 'h1': {21: 2}, 'h4': {21: 2}}
+21000.0 {'h10': {21: 2}, 'h11': {21: 2}, 'h1': {21: 2}, 'h4': {21: 2}}
+22000.0 {'h10': {21: 2}, 'h11': {21: 2}, 'h1': {21: 2}, 'h4': {21: 2}}
+23000.0 {'h10': {21: 2}, 'h11': {21: 2}, 'h1': {21: 2}, 'h4': {21: 2}}
+24000.0 {'h10': {21: 2}, 'h11': {21: 2}, 'h1': {21: 2}, 'h4': {21: 2}}
+25000.0 {'h10': {21: 2}, 'h11': {21: 2}, 'h1': {21: 2}, 'h4': {21: 2}}
+26000.0 {'h10': {21: 2}, 'h11': {21: 2}, 'h1': {21: 2}, 'h4': {21: 2}}
+27000.0 {'h10': {21: 2}, 'h11': {21: 2}, 'h1': {21: 2}, 'h4': {21: 2}}
+28000.0 {'h10': {21: 2}, 'h11': {21: 2}, 'h1': {21: 2}, 'h4': {21: 2}}
+29000.0 {'h10': {21: 2}, 'h11': {21: 2}, 'h1': {21: 2}, 'h4': {21: 2}}
+30000.0 {'h10': {21: 2}, 'h11': {21: 2}, 'h1': {21: 2}, 'h4': {21: 2}}
+31000.0 {'h10': {24: 63, 21: 126, 23: 21}, 'h11': {24: 63, 21: 125, 23: 21}, 'h1': {24: 63, 21: 127, 23: 21}, 'h4': {24: 63, 21: 128, 23: 21}}
+32000.0 {'h10': {24: 63, 21: 126, 23: 21}, 'h11': {24: 63, 21: 125, 23: 21}, 'h1': {24: 63, 21: 127, 23: 21}, 'h4': {24: 63, 21: 128, 23: 21}}
+33000.0 {'h10': {24: 63, 21: 126, 23: 21}, 'h11': {24: 63, 21: 125, 23: 21}, 'h1': {24: 63, 21: 127, 23: 21}, 'h4': {24: 63, 21: 128, 23: 21}}
+34000.0 {'h10': {24: 63, 21: 126, 23: 21}, 'h11': {24: 63, 21: 125, 23: 21}, 'h1': {24: 63, 21: 127, 23: 21}, 'h4': {24: 63, 21: 128, 23: 21}}
+34626.933574 s11 notifying down for s8-s11
+34626.933574 s11 notifying down for s8-s11 reliably
+34626.933574 s8 notifying down for s8-s11
+34626.933574 s8 notifying down for s8-s11 reliably
+34628.167743 h1 notify link down s8-s11  version:  1
+34628.167743 Computing link updates
+34628.288163 h11 notify link down s8-s11  version:  1
+34628.288163 Computing link updates
+34628.652997 h1 notify link down s8-s11  version:  1
+34628.652997 Skipping because of link version
+34628.848633 h11 notify link down s8-s11  version:  1
+34628.848633 Skipping because of link version
+34628.868588 h10 notify link down s8-s11  version:  1
+34628.868588 Computing link updates
+34628.980369 h10 notify link down s8-s11  version:  1
+34628.980369 Skipping because of link version
+34629.119360 h4 notify link down s8-s11  version:  1
+34629.119360 Computing link updates
+34629.309109 h4 notify link down s8-s11  version:  1
+34629.309109 Skipping because of link version
+35000.0 {'h10': {24: 63, 21: 128, 23: 21}, 'h11': {24: 63, 21: 127, 23: 21}, 'h1': {24: 63, 21: 129, 23: 21}, 'h4': {24: 63, 21: 130, 23: 21}}
+36000.0 {'h10': {24: 63, 21: 128, 23: 21}, 'h11': {24: 63, 21: 127, 23: 21}, 'h1': {24: 63, 21: 129, 23: 21}, 'h4': {24: 63, 21: 130, 23: 21}}
+37000.0 {'h10': {24: 63, 21: 128, 23: 21}, 'h11': {24: 63, 21: 127, 23: 21}, 'h1': {24: 63, 21: 129, 23: 21}, 'h4': {24: 63, 21: 130, 23: 21}}
+38000.0 {'h10': {24: 63, 21: 128, 23: 21}, 'h11': {24: 63, 21: 127, 23: 21}, 'h1': {24: 63, 21: 129, 23: 21}, 'h4': {24: 63, 21: 130, 23: 21}}
+39000.0 {'h10': {24: 63, 21: 128, 23: 21}, 'h11': {24: 63, 21: 127, 23: 21}, 'h1': {24: 63, 21: 129, 23: 21}, 'h4': {24: 63, 21: 130, 23: 21}}
+39306.769184 s4 notifying down for s0-s4
+39306.769184 s4 notifying down for s0-s4 reliably
+39306.769184 s0 notifying down for s0-s4
+39306.769184 s0 notifying down for s0-s4 reliably
+39308.269448 h10 notify link down s0-s4  version:  1
+39308.269448 Computing link updates
+39308.414346 h11 notify link down s0-s4  version:  1
+39308.414346 Computing link updates
+39308.433330 h1 notify link down s0-s4  version:  1
+39308.433330 Computing link updates
+39308.468947 h4 notify link down s0-s4  version:  1
+39308.468947 Computing link updates
+39308.469485 h11 notify link down s0-s4  version:  1
+39308.469485 Skipping because of link version
+39308.519904 h4 notify link down s0-s4  version:  1
+39308.519904 Skipping because of link version
+39308.554391 h10 notify link down s0-s4  version:  1
+39308.554391 Skipping because of link version
+39308.638459 h1 notify link down s0-s4  version:  1
+39308.638459 Skipping because of link version
+40000.0 {'h10': {24: 63, 21: 130, 23: 21}, 'h11': {24: 63, 21: 129, 23: 21}, 'h1': {24: 63, 21: 131, 23: 21}, 'h4': {24: 63, 21: 132, 23: 21}}
+41000.0 {'h10': {24: 63, 21: 130, 23: 21}, 'h11': {24: 63, 21: 129, 23: 21}, 'h1': {24: 63, 21: 131, 23: 21}, 'h4': {24: 63, 21: 132, 23: 21}}
+42000.0 {'h10': {24: 63, 21: 130, 23: 21}, 'h11': {24: 63, 21: 129, 23: 21}, 'h1': {24: 63, 21: 131, 23: 21}, 'h4': {24: 63, 21: 132, 23: 21}}
+43000.0 {'h10': {24: 63, 21: 130, 23: 21}, 'h11': {24: 63, 21: 129, 23: 21}, 'h1': {24: 63, 21: 131, 23: 21}, 'h4': {24: 63, 21: 132, 23: 21}}
+44000.0 {'h10': {24: 63, 21: 130, 23: 21}, 'h11': {24: 63, 21: 129, 23: 21}, 'h1': {24: 63, 21: 131, 23: 21}, 'h4': {24: 63, 21: 132, 23: 21}}
+45000.0 {'h10': {24: 63, 21: 130, 23: 21}, 'h11': {24: 63, 21: 129, 23: 21}, 'h1': {24: 63, 21: 131, 23: 21}, 'h4': {24: 63, 21: 132, 23: 21}}
+46000.0 {'h10': {24: 63, 21: 130, 23: 21}, 'h11': {24: 63, 21: 129, 23: 21}, 'h1': {24: 63, 21: 131, 23: 21}, 'h4': {24: 63, 21: 132, 23: 21}}
+47000.0 {'h10': {24: 63, 21: 130, 23: 21}, 'h11': {24: 63, 21: 129, 23: 21}, 'h1': {24: 63, 21: 131, 23: 21}, 'h4': {24: 63, 21: 132, 23: 21}}
+48000.0 {'h10': {24: 63, 21: 130, 23: 21}, 'h11': {24: 63, 21: 129, 23: 21}, 'h1': {24: 63, 21: 131, 23: 21}, 'h4': {24: 63, 21: 132, 23: 21}}
+49000.0 {'h10': {24: 63, 21: 130, 23: 21}, 'h11': {24: 63, 21: 129, 23: 21}, 'h1': {24: 63, 21: 131, 23: 21}, 'h4': {24: 63, 21: 132, 23: 21}}
+49318.027518 s3 notifying down for s3-s5
+49318.027518 s3 notifying down for s3-s5 reliably
+49318.027518 s5 notifying down for s3-s5
+49318.027518 s5 notifying down for s3-s5 reliably
+49319.370202 h11 notify link down s3-s5  version:  1
+49319.370202 Computing link updates
+49319.370202 h11 updating s13 with len 6
+       Update to s13 with len 6
+49319.370202 h11 updating s2 with len 54
+       Update to s2 with len 54
+49319.370202 h11 updating s9 with len 9
+       Update to s9 with len 9
+49319.370202 h11 updating s17 with len 12
+       Update to s17 with len 12
+49319.370202 h11 updating s5 with len 27
+       Update to s5 with len 27
+49319.536787 h10 notify link down s3-s5  version:  1
+49319.536787 Computing link updates
+49319.536787 h10 updating s13 with len 6
+       Update to s13 with len 6
+49319.536787 h10 updating s2 with len 54
+       Update to s2 with len 54
+49319.536787 h10 updating s9 with len 9
+       Update to s9 with len 9
+49319.536787 h10 updating s17 with len 12
+       Update to s17 with len 12
+49319.536787 h10 updating s5 with len 27
+       Update to s5 with len 27
+49319.563482 h1 notify link down s3-s5  version:  1
+49319.563482 Computing link updates
+49319.563482 h1 updating s13 with len 6
+       Update to s13 with len 6
+49319.563482 h1 updating s2 with len 54
+       Update to s2 with len 54
+49319.563482 h1 updating s9 with len 9
+       Update to s9 with len 9
+49319.563482 h1 updating s17 with len 12
+       Update to s17 with len 12
+49319.563482 h1 updating s5 with len 27
+       Update to s5 with len 27
+49319.637412 h11 notify link down s3-s5  version:  1
+49319.637412 Skipping because of link version
+49319.664870 h4 notify link down s3-s5  version:  1
+49319.664870 Computing link updates
+49319.664870 h4 updating s13 with len 6
+       Update to s13 with len 6
+49319.664870 h4 updating s2 with len 54
+       Update to s2 with len 54
+49319.664870 h4 updating s9 with len 9
+       Update to s9 with len 9
+49319.664870 h4 updating s17 with len 12
+       Update to s17 with len 12
+49319.664870 h4 updating s5 with len 27
+       Update to s5 with len 27
+49319.903873 h10 notify link down s3-s5  version:  1
+49319.903873 Skipping because of link version
+49319.942324 h4 notify link down s3-s5  version:  1
+49319.942324 Skipping because of link version
+49320.275796 h1 notify link down s3-s5  version:  1
+49320.275796 Skipping because of link version
+49320.647446 received rule update s13
+49320.946117 received rule update s5
+49321.030297 received rule update s2
+49321.068173 received rule update s2
+49321.262909 received rule update s5
+49321.294625 received rule update s9
+49321.340420 received rule update s17
+49321.349376 received rule update s5
+49321.373709 received rule update s13
+49321.482662 received rule update s17
+49321.495860 received rule update s9
+49321.503691 received rule update s2
+49321.523719 received rule update s9
+49321.606943 received rule update s9
+49321.648044 received rule update s17
+49321.722622 received rule update s13
+49321.734913 received rule update s13
+49321.737320 received rule update s5
+49321.738947 received rule update s17
+49321.906112 received rule update s2
+49935.562347 s1 notifying down for s1-s16
+49935.562347 s1 notifying down for s1-s16 reliably
+49935.562347 s16 notifying down for s1-s16
+49935.562347 s16 notifying down for s1-s16 reliably
+49937.196415 h10 notify link down s1-s16  version:  1
+49937.196415 Computing link updates
+49937.229392 h11 notify link down s1-s16  version:  1
+49937.229392 Computing link updates
+49937.262007 h1 notify link down s1-s16  version:  1
+49937.262007 Computing link updates
+49937.359848 h4 notify link down s1-s16  version:  1
+49937.359848 Computing link updates
+49937.453934 h4 notify link down s1-s16  version:  1
+49937.453934 Skipping because of link version
+49937.616193 h11 notify link down s1-s16  version:  1
+49937.616193 Skipping because of link version
+49937.692399 h10 notify link down s1-s16  version:  1
+49937.692399 Skipping because of link version
+49937.817587 h1 notify link down s1-s16  version:  1
+49937.817587 Skipping because of link version
+50000.0 {'h10': {24: 63, 2: 5, 21: 134, 23: 21}, 'h11': {24: 63, 2: 5, 21: 133, 23: 21}, 'h1': {24: 63, 2: 5, 21: 135, 23: 21}, 'h4': {24: 63, 2: 5, 21: 136, 23: 21}}
+51000.0 {'h10': {24: 63, 2: 5, 21: 134, 23: 21}, 'h11': {24: 63, 2: 5, 21: 133, 23: 21}, 'h1': {24: 63, 2: 5, 21: 135, 23: 21}, 'h4': {24: 63, 2: 5, 21: 136, 23: 21}}
+52000.0 {'h10': {24: 63, 2: 5, 21: 134, 23: 21}, 'h11': {24: 63, 2: 5, 21: 133, 23: 21}, 'h1': {24: 63, 2: 5, 21: 135, 23: 21}, 'h4': {24: 63, 2: 5, 21: 136, 23: 21}}
+53000.0 {'h10': {24: 63, 2: 5, 21: 134, 23: 21}, 'h11': {24: 63, 2: 5, 21: 133, 23: 21}, 'h1': {24: 63, 2: 5, 21: 135, 23: 21}, 'h4': {24: 63, 2: 5, 21: 136, 23: 21}}
+54000.0 {'h10': {24: 63, 2: 5, 21: 134, 23: 21}, 'h11': {24: 63, 2: 5, 21: 133, 23: 21}, 'h1': {24: 63, 2: 5, 21: 135, 23: 21}, 'h4': {24: 63, 2: 5, 21: 136, 23: 21}}
+55000.0 {'h10': {24: 63, 2: 5, 21: 134, 23: 21}, 'h11': {24: 63, 2: 5, 21: 133, 23: 21}, 'h1': {24: 63, 2: 5, 21: 135, 23: 21}, 'h4': {24: 63, 2: 5, 21: 136, 23: 21}}
+56000.0 {'h10': {24: 63, 2: 5, 21: 134, 23: 21}, 'h11': {24: 63, 2: 5, 21: 133, 23: 21}, 'h1': {24: 63, 2: 5, 21: 135, 23: 21}, 'h4': {24: 63, 2: 5, 21: 136, 23: 21}}
+57000.0 {'h10': {24: 63, 2: 5, 21: 134, 23: 21}, 'h11': {24: 63, 2: 5, 21: 133, 23: 21}, 'h1': {24: 63, 2: 5, 21: 135, 23: 21}, 'h4': {24: 63, 2: 5, 21: 136, 23: 21}}
+58000.0 {'h10': {24: 63, 2: 5, 21: 134, 23: 21}, 'h11': {24: 63, 2: 5, 21: 133, 23: 21}, 'h1': {24: 63, 2: 5, 21: 135, 23: 21}, 'h4': {24: 63, 2: 5, 21: 136, 23: 21}}
+59000.0 {'h10': {24: 63, 2: 5, 21: 134, 23: 21}, 'h11': {24: 63, 2: 5, 21: 133, 23: 21}, 'h1': {24: 63, 2: 5, 21: 135, 23: 21}, 'h4': {24: 63, 2: 5, 21: 136, 23: 21}}
+60000.0 {'h10': {24: 63, 2: 5, 21: 134, 23: 21}, 'h11': {24: 63, 2: 5, 21: 133, 23: 21}, 'h1': {24: 63, 2: 5, 21: 135, 23: 21}, 'h4': {24: 63, 2: 5, 21: 136, 23: 21}}
+61000.0 {'h10': {24: 137, 2: 5, 21: 281, 23: 46}, 'h11': {24: 138, 2: 5, 21: 277, 23: 45}, 'h1': {24: 137, 2: 5, 21: 284, 23: 46}, 'h4': {24: 137, 2: 5, 21: 285, 23: 46}}
+62000.0 {'h10': {24: 137, 2: 5, 21: 281, 23: 46}, 'h11': {24: 138, 2: 5, 21: 277, 23: 45}, 'h1': {24: 137, 2: 5, 21: 284, 23: 46}, 'h4': {24: 137, 2: 5, 21: 285, 23: 46}}
+63000.0 {'h10': {24: 137, 2: 5, 21: 281, 23: 46}, 'h11': {24: 138, 2: 5, 21: 277, 23: 45}, 'h1': {24: 137, 2: 5, 21: 284, 23: 46}, 'h4': {24: 137, 2: 5, 21: 285, 23: 46}}
+64000.0 {'h10': {24: 137, 2: 5, 21: 281, 23: 46}, 'h11': {24: 138, 2: 5, 21: 277, 23: 45}, 'h1': {24: 137, 2: 5, 21: 284, 23: 46}, 'h4': {24: 137, 2: 5, 21: 285, 23: 46}}
+65000.0 {'h10': {24: 137, 2: 5, 21: 281, 23: 46}, 'h11': {24: 138, 2: 5, 21: 277, 23: 45}, 'h1': {24: 137, 2: 5, 21: 284, 23: 46}, 'h4': {24: 137, 2: 5, 21: 285, 23: 46}}
+66000.0 {'h10': {24: 137, 2: 5, 21: 281, 23: 46}, 'h11': {24: 138, 2: 5, 21: 277, 23: 45}, 'h1': {24: 137, 2: 5, 21: 284, 23: 46}, 'h4': {24: 137, 2: 5, 21: 285, 23: 46}}
+67000.0 {'h10': {24: 137, 2: 5, 21: 281, 23: 46}, 'h11': {24: 138, 2: 5, 21: 277, 23: 45}, 'h1': {24: 137, 2: 5, 21: 284, 23: 46}, 'h4': {24: 137, 2: 5, 21: 285, 23: 46}}
+68000.0 {'h10': {24: 137, 2: 5, 21: 281, 23: 46}, 'h11': {24: 138, 2: 5, 21: 277, 23: 45}, 'h1': {24: 137, 2: 5, 21: 284, 23: 46}, 'h4': {24: 137, 2: 5, 21: 285, 23: 46}}
+69000.0 {'h10': {24: 137, 2: 5, 21: 281, 23: 46}, 'h11': {24: 138, 2: 5, 21: 277, 23: 45}, 'h1': {24: 137, 2: 5, 21: 284, 23: 46}, 'h4': {24: 137, 2: 5, 21: 285, 23: 46}}
+70000.0 {'h10': {24: 137, 2: 5, 21: 281, 23: 46}, 'h11': {24: 138, 2: 5, 21: 277, 23: 45}, 'h1': {24: 137, 2: 5, 21: 284, 23: 46}, 'h4': {24: 137, 2: 5, 21: 285, 23: 46}}
+71000.0 {'h10': {24: 137, 2: 5, 21: 281, 23: 46}, 'h11': {24: 138, 2: 5, 21: 277, 23: 45}, 'h1': {24: 137, 2: 5, 21: 284, 23: 46}, 'h4': {24: 137, 2: 5, 21: 285, 23: 46}}
+72000.0 {'h10': {24: 137, 2: 5, 21: 281, 23: 46}, 'h11': {24: 138, 2: 5, 21: 277, 23: 45}, 'h1': {24: 137, 2: 5, 21: 284, 23: 46}, 'h4': {24: 137, 2: 5, 21: 285, 23: 46}}
+73000.0 {'h10': {24: 137, 2: 5, 21: 281, 23: 46}, 'h11': {24: 138, 2: 5, 21: 277, 23: 45}, 'h1': {24: 137, 2: 5, 21: 284, 23: 46}, 'h4': {24: 137, 2: 5, 21: 285, 23: 46}}
+74000.0 {'h10': {24: 137, 2: 5, 21: 281, 23: 46}, 'h11': {24: 138, 2: 5, 21: 277, 23: 45}, 'h1': {24: 137, 2: 5, 21: 284, 23: 46}, 'h4': {24: 137, 2: 5, 21: 285, 23: 46}}
+75000.0 {'h10': {24: 137, 2: 5, 21: 281, 23: 46}, 'h11': {24: 138, 2: 5, 21: 277, 23: 45}, 'h1': {24: 137, 2: 5, 21: 284, 23: 46}, 'h4': {24: 137, 2: 5, 21: 285, 23: 46}}
+76000.0 {'h10': {24: 137, 2: 5, 21: 281, 23: 46}, 'h11': {24: 138, 2: 5, 21: 277, 23: 45}, 'h1': {24: 137, 2: 5, 21: 284, 23: 46}, 'h4': {24: 137, 2: 5, 21: 285, 23: 46}}
+77000.0 {'h10': {24: 137, 2: 5, 21: 281, 23: 46}, 'h11': {24: 138, 2: 5, 21: 277, 23: 45}, 'h1': {24: 137, 2: 5, 21: 284, 23: 46}, 'h4': {24: 137, 2: 5, 21: 285, 23: 46}}
+78000.0 {'h10': {24: 137, 2: 5, 21: 281, 23: 46}, 'h11': {24: 138, 2: 5, 21: 277, 23: 45}, 'h1': {24: 137, 2: 5, 21: 284, 23: 46}, 'h4': {24: 137, 2: 5, 21: 285, 23: 46}}
+78092.143617 s9 notifying down for s9-s11
+78092.143617 s9 notifying down for s9-s11 reliably
+78092.143617 s11 notifying down for s9-s11
+78092.143617 s11 notifying down for s9-s11 reliably
+78093.514840 h4 notify link down s9-s11  version:  1
+78093.514840 Computing link updates
+78094.058666 h1 notify link down s9-s11  version:  1
+78094.058666 Computing link updates
+78094.090790 h11 notify link down s9-s11  version:  1
+78094.090790 Computing link updates
+78094.134642 h10 notify link down s9-s11  version:  1
+78094.134642 Computing link updates
+79000.0 {'h10': {24: 137, 2: 5, 21: 282, 23: 46}, 'h11': {24: 138, 2: 5, 21: 278, 23: 45}, 'h1': {24: 137, 2: 5, 21: 285, 23: 46}, 'h4': {24: 137, 2: 5, 21: 286, 23: 46}}
+80000.0 {'h10': {24: 137, 2: 5, 21: 282, 23: 46}, 'h11': {24: 138, 2: 5, 21: 278, 23: 45}, 'h1': {24: 137, 2: 5, 21: 285, 23: 46}, 'h4': {24: 137, 2: 5, 21: 286, 23: 46}}
+81000.0 {'h10': {24: 137, 2: 5, 21: 282, 23: 46}, 'h11': {24: 138, 2: 5, 21: 278, 23: 45}, 'h1': {24: 137, 2: 5, 21: 285, 23: 46}, 'h4': {24: 137, 2: 5, 21: 286, 23: 46}}
+82000.0 {'h10': {24: 137, 2: 5, 21: 282, 23: 46}, 'h11': {24: 138, 2: 5, 21: 278, 23: 45}, 'h1': {24: 137, 2: 5, 21: 285, 23: 46}, 'h4': {24: 137, 2: 5, 21: 286, 23: 46}}
+83000.0 {'h10': {24: 137, 2: 5, 21: 282, 23: 46}, 'h11': {24: 138, 2: 5, 21: 278, 23: 45}, 'h1': {24: 137, 2: 5, 21: 285, 23: 46}, 'h4': {24: 137, 2: 5, 21: 286, 23: 46}}
+83594.278913 s2 notifying down for s2-s13
+83594.278913 s2 notifying down for s2-s13 reliably
+83594.278913 s13 notifying down for s2-s13
+83594.278913 s13 notifying down for s2-s13 reliably
+83595.534195 h4 notify link down s2-s13  version:  1
+83595.534195 Computing link updates
+83595.534195 h4 updating s9 with len 8
+       Update to s9 with len 8
+83595.534195 h4 updating s13 with len 4
+       Update to s13 with len 4
+83595.534195 h4 updating s12 with len 4
+       Update to s12 with len 4
+83595.534195 h4 updating s1 with len 4
+       Update to s1 with len 4
+83595.534195 h4 updating s6 with len 2
+       Update to s6 with len 2
+83595.534195 h4 updating s14 with len 2
+       Update to s14 with len 2
+83595.534195 h4 updating s3 with len 4
+       Update to s3 with len 4
+83595.534195 h4 updating s2 with len 4
+       Update to s2 with len 4
+83595.534195 h4 updating s4 with len 4
+       Update to s4 with len 4
+83595.812778 h11 notify link down s2-s13  version:  1
+83595.812778 Computing link updates
+83595.812778 h11 updating s9 with len 8
+       Update to s9 with len 8
+83595.812778 h11 updating s13 with len 4
+       Update to s13 with len 4
+83595.812778 h11 updating s12 with len 4
+       Update to s12 with len 4
+83595.812778 h11 updating s1 with len 4
+       Update to s1 with len 4
+83595.812778 h11 updating s6 with len 2
+       Update to s6 with len 2
+83595.812778 h11 updating s14 with len 2
+       Update to s14 with len 2
+83595.812778 h11 updating s3 with len 4
+       Update to s3 with len 4
+83595.812778 h11 updating s2 with len 4
+       Update to s2 with len 4
+83595.812778 h11 updating s4 with len 4
+       Update to s4 with len 4
+83595.975603 h10 notify link down s2-s13  version:  1
+83595.975603 Computing link updates
+83595.975603 h10 updating s9 with len 8
+       Update to s9 with len 8
+83595.975603 h10 updating s13 with len 4
+       Update to s13 with len 4
+83595.975603 h10 updating s12 with len 4
+       Update to s12 with len 4
+83595.975603 h10 updating s1 with len 4
+       Update to s1 with len 4
+83595.975603 h10 updating s6 with len 2
+       Update to s6 with len 2
+83595.975603 h10 updating s14 with len 2
+       Update to s14 with len 2
+83595.975603 h10 updating s3 with len 4
+       Update to s3 with len 4
+83595.975603 h10 updating s2 with len 4
+       Update to s2 with len 4
+83595.975603 h10 updating s4 with len 4
+       Update to s4 with len 4
+83596.153043 h4 notify link down s2-s13  version:  1
+83596.153043 Skipping because of link version
+83596.314077 h10 notify link down s2-s13  version:  1
+83596.314077 Skipping because of link version
+83596.433577 h1 notify link down s2-s13  version:  1
+83596.433577 Computing link updates
+83596.433577 h1 updating s9 with len 8
+       Update to s9 with len 8
+83596.433577 h1 updating s13 with len 4
+       Update to s13 with len 4
+83596.433577 h1 updating s12 with len 4
+       Update to s12 with len 4
+83596.433577 h1 updating s1 with len 4
+       Update to s1 with len 4
+83596.433577 h1 updating s6 with len 2
+       Update to s6 with len 2
+83596.433577 h1 updating s14 with len 2
+       Update to s14 with len 2
+83596.433577 h1 updating s3 with len 4
+       Update to s3 with len 4
+83596.433577 h1 updating s2 with len 4
+       Update to s2 with len 4
+83596.433577 h1 updating s4 with len 4
+       Update to s4 with len 4
+83596.444807 h11 notify link down s2-s13  version:  1
+83596.444807 Skipping because of link version
+83596.847184 received rule update s4
+83596.901226 h1 notify link down s2-s13  version:  1
+83596.901226 Skipping because of link version
+83596.941344 received rule update s3
+83597.066112 received rule update s13
+83597.074265 received rule update s9
+83597.150395 received rule update s4
+83597.168721 received rule update s9
+83597.227319 received rule update s12
+83597.257198 received rule update s3
+83597.259357 received rule update s13
+83597.275626 received rule update s1
+83597.358616 received rule update s14
+83597.471414 received rule update s2
+83597.517226 received rule update s4
+83597.540420 received rule update s6
+83597.560136 received rule update s12
+83597.568372 received rule update s9
+83597.574273 received rule update s14
+83597.622253 received rule update s12
+83597.656005 received rule update s1
+83597.679776 received rule update s2
+83597.680801 received rule update s6
+83597.685868 received rule update s3
+83597.806813 received rule update s13
+83597.899117 received rule update s14
+83597.949320 received rule update s4
+83597.960463 received rule update s6
+83597.999621 received rule update s12
+83598.028183 received rule update s2
+83598.111621 received rule update s1
+83598.124882 received rule update s6
+83598.154859 received rule update s3
+83598.297701 received rule update s14
+83598.310713 received rule update s1
+83598.459305 received rule update s2
+83598.476222 received rule update s13
+83598.505286 received rule update s9
+83806.268069 s4 notifying down for s1-s4
+83806.268069 s4 notifying down for s1-s4 reliably
+83806.268069 s1 notifying down for s1-s4
+83806.268069 s1 notifying down for s1-s4 reliably
+83807.623929 h1 notify link down s1-s4  version:  1
+83807.623929 Computing link updates
+83807.623929 h1 updating s9 with len 4
+       Update to s9 with len 4
+83807.623929 h1 updating s13 with len 2
+       Update to s13 with len 2
+83807.623929 h1 updating s2 with len 2
+       Update to s2 with len 2
+83807.623929 h1 updating s6 with len 2
+       Update to s6 with len 2
+83807.623929 h1 updating s14 with len 2
+       Update to s14 with len 2
+83807.623929 h1 updating s3 with len 2
+       Update to s3 with len 2
+83807.843428 h11 notify link down s1-s4  version:  1
+83807.843428 Computing link updates
+83807.843428 h11 updating s9 with len 4
+       Update to s9 with len 4
+83807.843428 h11 updating s13 with len 2
+       Update to s13 with len 2
+83807.843428 h11 updating s2 with len 2
+       Update to s2 with len 2
+83807.843428 h11 updating s6 with len 2
+       Update to s6 with len 2
+83807.843428 h11 updating s14 with len 2
+       Update to s14 with len 2
+83807.843428 h11 updating s3 with len 2
+       Update to s3 with len 2
+83807.967914 h4 notify link down s1-s4  version:  1
+83807.967914 Computing link updates
+83807.967914 h4 updating s9 with len 4
+       Update to s9 with len 4
+83807.967914 h4 updating s13 with len 2
+       Update to s13 with len 2
+83807.967914 h4 updating s2 with len 2
+       Update to s2 with len 2
+83807.967914 h4 updating s6 with len 2
+       Update to s6 with len 2
+83807.967914 h4 updating s14 with len 2
+       Update to s14 with len 2
+83807.967914 h4 updating s3 with len 2
+       Update to s3 with len 2
+83807.999934 h10 notify link down s1-s4  version:  1
+83807.999934 Computing link updates
+83807.999934 h10 updating s9 with len 4
+       Update to s9 with len 4
+83807.999934 h10 updating s13 with len 2
+       Update to s13 with len 2
+83807.999934 h10 updating s2 with len 2
+       Update to s2 with len 2
+83807.999934 h10 updating s6 with len 2
+       Update to s6 with len 2
+83807.999934 h10 updating s14 with len 2
+       Update to s14 with len 2
+83807.999934 h10 updating s3 with len 2
+       Update to s3 with len 2
+83808.295828 h4 notify link down s1-s4  version:  1
+83808.295828 Skipping because of link version
+83808.330742 h10 notify link down s1-s4  version:  1
+83808.330742 Skipping because of link version
+83808.635212 h1 notify link down s1-s4  version:  1
+83808.635212 Skipping because of link version
+83809.155100 h11 notify link down s1-s4  version:  1
+83809.155100 Skipping because of link version
+83809.205870 received rule update s2
+83809.210350 received rule update s9
+83809.249368 received rule update s6
+83809.276961 received rule update s13
+83809.328082 received rule update s9
+83809.386700 received rule update s9
+83809.432592 received rule update s13
+83809.645585 received rule update s14
+83809.657461 received rule update s2
+83809.675568 received rule update s3
+83809.684552 received rule update s13
+83809.708902 received rule update s3
+83809.805306 received rule update s2
+83809.865975 received rule update s3
+83809.895369 received rule update s14
+83809.929968 received rule update s14
+83809.942082 received rule update s9
+83809.955446 received rule update s2
+83810.004669 received rule update s3
+83810.031039 received rule update s14
+83810.070282 received rule update s6
+83810.092010 received rule update s6
+83810.156553 received rule update s13
+83810.346995 received rule update s6
+84000.0 {'h10': {24: 137, 2: 20, 21: 286, 23: 46}, 'h11': {24: 138, 2: 20, 21: 282, 23: 45}, 'h1': {24: 137, 2: 20, 21: 289, 23: 46}, 'h4': {24: 137, 2: 20, 21: 290, 23: 46}}
+85000.0 {'h10': {24: 137, 2: 20, 21: 286, 23: 46}, 'h11': {24: 138, 2: 20, 21: 282, 23: 45}, 'h1': {24: 137, 2: 20, 21: 289, 23: 46}, 'h4': {24: 137, 2: 20, 21: 290, 23: 46}}
+86000.0 {'h10': {24: 137, 2: 20, 21: 286, 23: 46}, 'h11': {24: 138, 2: 20, 21: 282, 23: 45}, 'h1': {24: 137, 2: 20, 21: 289, 23: 46}, 'h4': {24: 137, 2: 20, 21: 290, 23: 46}}
+87000.0 {'h10': {24: 137, 2: 20, 21: 286, 23: 46}, 'h11': {24: 138, 2: 20, 21: 282, 23: 45}, 'h1': {24: 137, 2: 20, 21: 289, 23: 46}, 'h4': {24: 137, 2: 20, 21: 290, 23: 46}}
+88000.0 {'h10': {24: 137, 2: 20, 21: 286, 23: 46}, 'h11': {24: 138, 2: 20, 21: 282, 23: 45}, 'h1': {24: 137, 2: 20, 21: 289, 23: 46}, 'h4': {24: 137, 2: 20, 21: 290, 23: 46}}
+89000.0 {'h10': {24: 137, 2: 20, 21: 286, 23: 46}, 'h11': {24: 138, 2: 20, 21: 282, 23: 45}, 'h1': {24: 137, 2: 20, 21: 289, 23: 46}, 'h4': {24: 137, 2: 20, 21: 290, 23: 46}}
+90000.0 {'h10': {24: 137, 2: 20, 21: 286, 23: 46}, 'h11': {24: 138, 2: 20, 21: 282, 23: 45}, 'h1': {24: 137, 2: 20, 21: 289, 23: 46}, 'h4': {24: 137, 2: 20, 21: 290, 23: 46}}
+91000.0 {'h10': {24: 219, 2: 20, 21: 447, 23: 74}, 'h11': {24: 221, 2: 20, 21: 443, 23: 72}, 'h1': {24: 220, 2: 20, 21: 453, 23: 73}, 'h4': {24: 219, 2: 20, 21: 453, 23: 74}}
+92000.0 {'h10': {24: 219, 2: 20, 21: 447, 23: 74}, 'h11': {24: 221, 2: 20, 21: 443, 23: 72}, 'h1': {24: 220, 2: 20, 21: 453, 23: 73}, 'h4': {24: 219, 2: 20, 21: 453, 23: 74}}
+93000.0 {'h10': {24: 219, 2: 20, 21: 447, 23: 74}, 'h11': {24: 221, 2: 20, 21: 443, 23: 72}, 'h1': {24: 220, 2: 20, 21: 453, 23: 73}, 'h4': {24: 219, 2: 20, 21: 453, 23: 74}}
+94000.0 {'h10': {24: 219, 2: 20, 21: 447, 23: 74}, 'h11': {24: 221, 2: 20, 21: 443, 23: 72}, 'h1': {24: 220, 2: 20, 21: 453, 23: 73}, 'h4': {24: 219, 2: 20, 21: 453, 23: 74}}
+95000.0 {'h10': {24: 219, 2: 20, 21: 447, 23: 74}, 'h11': {24: 221, 2: 20, 21: 443, 23: 72}, 'h1': {24: 220, 2: 20, 21: 453, 23: 73}, 'h4': {24: 219, 2: 20, 21: 453, 23: 74}}
+96000.0 {'h10': {24: 219, 2: 20, 21: 447, 23: 74}, 'h11': {24: 221, 2: 20, 21: 443, 23: 72}, 'h1': {24: 220, 2: 20, 21: 453, 23: 73}, 'h4': {24: 219, 2: 20, 21: 453, 23: 74}}
+97000.0 {'h10': {24: 219, 2: 20, 21: 447, 23: 74}, 'h11': {24: 221, 2: 20, 21: 443, 23: 72}, 'h1': {24: 220, 2: 20, 21: 453, 23: 73}, 'h4': {24: 219, 2: 20, 21: 453, 23: 74}}
+98000.0 {'h10': {24: 219, 2: 20, 21: 447, 23: 74}, 'h11': {24: 221, 2: 20, 21: 443, 23: 72}, 'h1': {24: 220, 2: 20, 21: 453, 23: 73}, 'h4': {24: 219, 2: 20, 21: 453, 23: 74}}
+99000.0 {'h10': {24: 219, 2: 20, 21: 447, 23: 74}, 'h11': {24: 221, 2: 20, 21: 443, 23: 72}, 'h1': {24: 220, 2: 20, 21: 453, 23: 73}, 'h4': {24: 219, 2: 20, 21: 453, 23: 74}}
+100000.0 {'h10': {24: 219, 2: 20, 21: 447, 23: 74}, 'h11': {24: 221, 2: 20, 21: 443, 23: 72}, 'h1': {24: 220, 2: 20, 21: 453, 23: 73}, 'h4': {24: 219, 2: 20, 21: 453, 23: 74}}
+101000.0 {'h10': {24: 219, 2: 20, 21: 447, 23: 74}, 'h11': {24: 221, 2: 20, 21: 443, 23: 72}, 'h1': {24: 220, 2: 20, 21: 453, 23: 73}, 'h4': {24: 219, 2: 20, 21: 453, 23: 74}}
+102000.0 {'h10': {24: 219, 2: 20, 21: 447, 23: 74}, 'h11': {24: 221, 2: 20, 21: 443, 23: 72}, 'h1': {24: 220, 2: 20, 21: 453, 23: 73}, 'h4': {24: 219, 2: 20, 21: 453, 23: 74}}
+102161.854911 s17 notifying down for s17-s19
+102161.854911 s17 notifying down for s17-s19 reliably
+102161.854911 s19 notifying down for s17-s19
+102161.854911 s19 notifying down for s17-s19 reliably
+102163.291352 h11 notify link down s17-s19  version:  1
+102163.291352 Computing link updates
+102163.291352 h11 updating s19 with len 16
+       Update to s19 with len 16
+102163.291352 h11 updating s18 with len 16
+       Update to s18 with len 16
+102163.291352 h11 updating s10 with len 2
+       Update to s10 with len 2
+102163.291352 h11 updating s12 with len 8
+       Update to s12 with len 8
+102163.291352 h11 updating s0 with len 12
+       Update to s0 with len 12
+102163.291352 h11 updating s17 with len 6
+       Update to s17 with len 6
+102163.291352 h11 updating s16 with len 32
+       Update to s16 with len 32
+102163.291352 h11 updating s14 with len 4
+       Update to s14 with len 4
+102163.291352 h11 updating s8 with len 4
+       Update to s8 with len 4
+102163.496536 h4 notify link down s17-s19  version:  1
+102163.496536 Computing link updates
+102163.496536 h4 updating s19 with len 16
+       Update to s19 with len 16
+102163.496536 h4 updating s18 with len 16
+       Update to s18 with len 16
+102163.496536 h4 updating s10 with len 2
+       Update to s10 with len 2
+102163.496536 h4 updating s12 with len 8
+       Update to s12 with len 8
+102163.496536 h4 updating s0 with len 12
+       Update to s0 with len 12
+102163.496536 h4 updating s17 with len 6
+       Update to s17 with len 6
+102163.496536 h4 updating s16 with len 32
+       Update to s16 with len 32
+102163.496536 h4 updating s14 with len 4
+       Update to s14 with len 4
+102163.496536 h4 updating s8 with len 4
+       Update to s8 with len 4
+102163.702553 h11 notify link down s17-s19  version:  1
+102163.702553 Skipping because of link version
+102163.840044 h10 notify link down s17-s19  version:  1
+102163.840044 Computing link updates
+102163.840044 h10 updating s19 with len 16
+       Update to s19 with len 16
+102163.840044 h10 updating s18 with len 16
+       Update to s18 with len 16
+102163.840044 h10 updating s10 with len 2
+       Update to s10 with len 2
+102163.840044 h10 updating s12 with len 8
+       Update to s12 with len 8
+102163.840044 h10 updating s0 with len 12
+       Update to s0 with len 12
+102163.840044 h10 updating s17 with len 6
+       Update to s17 with len 6
+102163.840044 h10 updating s16 with len 32
+       Update to s16 with len 32
+102163.840044 h10 updating s14 with len 4
+       Update to s14 with len 4
+102163.840044 h10 updating s8 with len 4
+       Update to s8 with len 4
+102163.909683 h1 notify link down s17-s19  version:  1
+102163.909683 Computing link updates
+102163.909683 h1 updating s19 with len 16
+       Update to s19 with len 16
+102163.909683 h1 updating s18 with len 16
+       Update to s18 with len 16
+102163.909683 h1 updating s10 with len 2
+       Update to s10 with len 2
+102163.909683 h1 updating s12 with len 8
+       Update to s12 with len 8
+102163.909683 h1 updating s0 with len 12
+       Update to s0 with len 12
+102163.909683 h1 updating s17 with len 6
+       Update to s17 with len 6
+102163.909683 h1 updating s16 with len 32
+       Update to s16 with len 32
+102163.909683 h1 updating s14 with len 4
+       Update to s14 with len 4
+102163.909683 h1 updating s8 with len 4
+       Update to s8 with len 4
+102164.151230 h10 notify link down s17-s19  version:  1
+102164.151230 Skipping because of link version
+102164.189315 h4 notify link down s17-s19  version:  1
+102164.189315 Skipping because of link version
+102164.590428 h1 notify link down s17-s19  version:  1
+102164.590428 Skipping because of link version
+102164.661181 received rule update s10
+102164.768201 received rule update s14
+102164.784041 received rule update s12
+102164.855175 received rule update s16
+102164.955143 received rule update s0
+102165.040540 received rule update s12
+102165.094190 received rule update s8
+102165.150034 received rule update s16
+102165.211100 received rule update s19
+102165.311291 received rule update s8
+102165.347524 received rule update s17
+102165.353631 received rule update s18
+102165.390902 received rule update s14
+102165.427191 received rule update s17
+102165.431921 received rule update s12
+102165.499471 received rule update s0
+102165.500269 received rule update s10
+102165.541336 received rule update s19
+102165.596218 received rule update s14
+102165.628710 received rule update s0
+102165.640591 received rule update s8
+102165.640748 received rule update s16
+102165.646919 received rule update s18
+102165.677434 received rule update s17
+102165.739022 received rule update s17
+102165.848658 received rule update s10
+102165.898706 received rule update s16
+102166.000421 received rule update s10
+102166.100705 received rule update s19
+102166.106041 received rule update s18
+102166.216040 received rule update s19
+102166.227864 received rule update s8
+102166.243418 received rule update s14
+102166.307942 received rule update s18
+102166.491880 received rule update s12
+102166.631102 received rule update s0
+103000.0 {'h10': {24: 219, 2: 29, 21: 449, 23: 74}, 'h11': {24: 221, 2: 29, 21: 445, 23: 72}, 'h1': {24: 220, 2: 29, 21: 455, 23: 73}, 'h4': {24: 219, 2: 29, 21: 455, 23: 74}}
+104000.0 {'h10': {24: 219, 2: 29, 21: 449, 23: 74}, 'h11': {24: 221, 2: 29, 21: 445, 23: 72}, 'h1': {24: 220, 2: 29, 21: 455, 23: 73}, 'h4': {24: 219, 2: 29, 21: 455, 23: 74}}
+105000.0 {'h10': {24: 219, 2: 29, 21: 449, 23: 74}, 'h11': {24: 221, 2: 29, 21: 445, 23: 72}, 'h1': {24: 220, 2: 29, 21: 455, 23: 73}, 'h4': {24: 219, 2: 29, 21: 455, 23: 74}}
+106000.0 {'h10': {24: 219, 2: 29, 21: 449, 23: 74}, 'h11': {24: 221, 2: 29, 21: 445, 23: 72}, 'h1': {24: 220, 2: 29, 21: 455, 23: 73}, 'h4': {24: 219, 2: 29, 21: 455, 23: 74}}
+107000.0 {'h10': {24: 219, 2: 29, 21: 449, 23: 74}, 'h11': {24: 221, 2: 29, 21: 445, 23: 72}, 'h1': {24: 220, 2: 29, 21: 455, 23: 73}, 'h4': {24: 219, 2: 29, 21: 455, 23: 74}}
+108000.0 {'h10': {24: 219, 2: 29, 21: 449, 23: 74}, 'h11': {24: 221, 2: 29, 21: 445, 23: 72}, 'h1': {24: 220, 2: 29, 21: 455, 23: 73}, 'h4': {24: 219, 2: 29, 21: 455, 23: 74}}
+109000.0 {'h10': {24: 219, 2: 29, 21: 449, 23: 74}, 'h11': {24: 221, 2: 29, 21: 445, 23: 72}, 'h1': {24: 220, 2: 29, 21: 455, 23: 73}, 'h4': {24: 219, 2: 29, 21: 455, 23: 74}}
+110000.0 {'h10': {24: 219, 2: 29, 21: 449, 23: 74}, 'h11': {24: 221, 2: 29, 21: 445, 23: 72}, 'h1': {24: 220, 2: 29, 21: 455, 23: 73}, 'h4': {24: 219, 2: 29, 21: 455, 23: 74}}
+111000.0 {'h10': {24: 219, 2: 29, 21: 449, 23: 74}, 'h11': {24: 221, 2: 29, 21: 445, 23: 72}, 'h1': {24: 220, 2: 29, 21: 455, 23: 73}, 'h4': {24: 219, 2: 29, 21: 455, 23: 74}}
+112000.0 {'h10': {24: 219, 2: 29, 21: 449, 23: 74}, 'h11': {24: 221, 2: 29, 21: 445, 23: 72}, 'h1': {24: 220, 2: 29, 21: 455, 23: 73}, 'h4': {24: 219, 2: 29, 21: 455, 23: 74}}
+113000.0 {'h10': {24: 219, 2: 29, 21: 449, 23: 74}, 'h11': {24: 221, 2: 29, 21: 445, 23: 72}, 'h1': {24: 220, 2: 29, 21: 455, 23: 73}, 'h4': {24: 219, 2: 29, 21: 455, 23: 74}}
+114000.0 {'h10': {24: 219, 2: 29, 21: 449, 23: 74}, 'h11': {24: 221, 2: 29, 21: 445, 23: 72}, 'h1': {24: 220, 2: 29, 21: 455, 23: 73}, 'h4': {24: 219, 2: 29, 21: 455, 23: 74}}
+115000.0 {'h10': {24: 219, 2: 29, 21: 449, 23: 74}, 'h11': {24: 221, 2: 29, 21: 445, 23: 72}, 'h1': {24: 220, 2: 29, 21: 455, 23: 73}, 'h4': {24: 219, 2: 29, 21: 455, 23: 74}}
+116000.0 {'h10': {24: 219, 2: 29, 21: 449, 23: 74}, 'h11': {24: 221, 2: 29, 21: 445, 23: 72}, 'h1': {24: 220, 2: 29, 21: 455, 23: 73}, 'h4': {24: 219, 2: 29, 21: 455, 23: 74}}
+117000.0 {'h10': {24: 219, 2: 29, 21: 449, 23: 74}, 'h11': {24: 221, 2: 29, 21: 445, 23: 72}, 'h1': {24: 220, 2: 29, 21: 455, 23: 73}, 'h4': {24: 219, 2: 29, 21: 455, 23: 74}}
+118000.0 {'h10': {24: 219, 2: 29, 21: 449, 23: 74}, 'h11': {24: 221, 2: 29, 21: 445, 23: 72}, 'h1': {24: 220, 2: 29, 21: 455, 23: 73}, 'h4': {24: 219, 2: 29, 21: 455, 23: 74}}
+119000.0 {'h10': {24: 219, 2: 29, 21: 449, 23: 74}, 'h11': {24: 221, 2: 29, 21: 445, 23: 72}, 'h1': {24: 220, 2: 29, 21: 455, 23: 73}, 'h4': {24: 219, 2: 29, 21: 455, 23: 74}}
+120000.0 {'h10': {24: 219, 2: 29, 21: 449, 23: 74}, 'h11': {24: 221, 2: 29, 21: 445, 23: 72}, 'h1': {24: 220, 2: 29, 21: 455, 23: 73}, 'h4': {24: 219, 2: 29, 21: 455, 23: 74}}
+121000.0 {'h10': {24: 304, 2: 29, 21: 618, 23: 103}, 'h11': {24: 307, 2: 29, 21: 612, 23: 100}, 'h1': {24: 306, 2: 29, 21: 623, 23: 101}, 'h4': {24: 304, 2: 29, 21: 627, 23: 103}}
+122000.0 {'h10': {24: 304, 2: 29, 21: 618, 23: 103}, 'h11': {24: 307, 2: 29, 21: 612, 23: 100}, 'h1': {24: 306, 2: 29, 21: 623, 23: 101}, 'h4': {24: 304, 2: 29, 21: 627, 23: 103}}
+123000.0 {'h10': {24: 304, 2: 29, 21: 618, 23: 103}, 'h11': {24: 307, 2: 29, 21: 612, 23: 100}, 'h1': {24: 306, 2: 29, 21: 623, 23: 101}, 'h4': {24: 304, 2: 29, 21: 627, 23: 103}}
+124000.0 {'h10': {24: 304, 2: 29, 21: 618, 23: 103}, 'h11': {24: 307, 2: 29, 21: 612, 23: 100}, 'h1': {24: 306, 2: 29, 21: 623, 23: 101}, 'h4': {24: 304, 2: 29, 21: 627, 23: 103}}
+125000.0 {'h10': {24: 304, 2: 29, 21: 618, 23: 103}, 'h11': {24: 307, 2: 29, 21: 612, 23: 100}, 'h1': {24: 306, 2: 29, 21: 623, 23: 101}, 'h4': {24: 304, 2: 29, 21: 627, 23: 103}}
+126000.0 {'h10': {24: 304, 2: 29, 21: 618, 23: 103}, 'h11': {24: 307, 2: 29, 21: 612, 23: 100}, 'h1': {24: 306, 2: 29, 21: 623, 23: 101}, 'h4': {24: 304, 2: 29, 21: 627, 23: 103}}
+127000.0 {'h10': {24: 304, 2: 29, 21: 618, 23: 103}, 'h11': {24: 307, 2: 29, 21: 612, 23: 100}, 'h1': {24: 306, 2: 29, 21: 623, 23: 101}, 'h4': {24: 304, 2: 29, 21: 627, 23: 103}}
+128000.0 {'h10': {24: 304, 2: 29, 21: 618, 23: 103}, 'h11': {24: 307, 2: 29, 21: 612, 23: 100}, 'h1': {24: 306, 2: 29, 21: 623, 23: 101}, 'h4': {24: 304, 2: 29, 21: 627, 23: 103}}
+129000.0 {'h10': {24: 304, 2: 29, 21: 618, 23: 103}, 'h11': {24: 307, 2: 29, 21: 612, 23: 100}, 'h1': {24: 306, 2: 29, 21: 623, 23: 101}, 'h4': {24: 304, 2: 29, 21: 627, 23: 103}}
+130000.0 {'h10': {24: 304, 2: 29, 21: 618, 23: 103}, 'h11': {24: 307, 2: 29, 21: 612, 23: 100}, 'h1': {24: 306, 2: 29, 21: 623, 23: 101}, 'h4': {24: 304, 2: 29, 21: 627, 23: 103}}
+131000.0 {'h10': {24: 304, 2: 29, 21: 618, 23: 103}, 'h11': {24: 307, 2: 29, 21: 612, 23: 100}, 'h1': {24: 306, 2: 29, 21: 623, 23: 101}, 'h4': {24: 304, 2: 29, 21: 627, 23: 103}}
+131374.520476 s12 notifying down for s12-s14
+131374.520476 s12 notifying down for s12-s14 reliably
+131374.520476 s14 notifying down for s12-s14
+131374.520476 s14 notifying down for s12-s14 reliably
+131375.451841 h11 notify link down s12-s14  version:  1
+131375.451841 Computing link updates
+131375.451841 h11 updating s13 with len 4
+       Update to s13 with len 4
+131375.451841 h11 updating s18 with len 4
+       Update to s18 with len 4
+131375.451841 h11 updating s16 with len 4
+       Update to s16 with len 4
+131375.451841 h11 updating s15 with len 4
+       Update to s15 with len 4
+131375.451841 h11 updating s14 with len 4
+       Update to s14 with len 4
+131375.995554 h10 notify link down s12-s14  version:  1
+131375.995554 Computing link updates
+131375.995554 h10 updating s13 with len 4
+       Update to s13 with len 4
+131375.995554 h10 updating s18 with len 4
+       Update to s18 with len 4
+131375.995554 h10 updating s16 with len 4
+       Update to s16 with len 4
+131375.995554 h10 updating s15 with len 4
+       Update to s15 with len 4
+131375.995554 h10 updating s14 with len 4
+       Update to s14 with len 4
+131376.027944 h10 notify link down s12-s14  version:  1
+131376.027944 Skipping because of link version
+131376.062987 h4 notify link down s12-s14  version:  1
+131376.062987 Computing link updates
+131376.062987 h4 updating s13 with len 4
+       Update to s13 with len 4
+131376.062987 h4 updating s18 with len 4
+       Update to s18 with len 4
+131376.062987 h4 updating s16 with len 4
+       Update to s16 with len 4
+131376.062987 h4 updating s15 with len 4
+       Update to s15 with len 4
+131376.062987 h4 updating s14 with len 4
+       Update to s14 with len 4
+131376.451203 h4 notify link down s12-s14  version:  1
+131376.451203 Skipping because of link version
+131376.591613 h11 notify link down s12-s14  version:  1
+131376.591613 Skipping because of link version
+131376.614893 received rule update s15
+131376.798151 received rule update s13
+131377.036862 received rule update s15
+131377.048196 h1 notify link down s12-s14  version:  1
+131377.048196 Computing link updates
+131377.048196 h1 updating s13 with len 4
+       Update to s13 with len 4
+131377.048196 h1 updating s18 with len 4
+       Update to s18 with len 4
+131377.048196 h1 updating s16 with len 4
+       Update to s16 with len 4
+131377.048196 h1 updating s15 with len 4
+       Update to s15 with len 4
+131377.048196 h1 updating s14 with len 4
+       Update to s14 with len 4
+131377.106620 h1 notify link down s12-s14  version:  1
+131377.106620 Skipping because of link version
+131377.146744 received rule update s14
+131377.212226 received rule update s16
+131377.256785 received rule update s18
+131377.429010 received rule update s14
+131377.473732 received rule update s13
+131377.863326 received rule update s13
+131378.200051 received rule update s14
+131378.224082 received rule update s15
+131378.287063 received rule update s18
+131378.360550 received rule update s16
+131378.384237 received rule update s18
+131378.463228 received rule update s16
+131379.514052 received rule update s15
+131379.579199 received rule update s13
+131379.643499 received rule update s16
+131379.681702 received rule update s18
+131379.997309 received rule update s14
+132000.0 {'h10': {24: 304, 2: 34, 21: 620, 23: 103}, 'h11': {24: 307, 2: 34, 21: 614, 23: 100}, 'h1': {24: 306, 2: 34, 21: 625, 23: 101}, 'h4': {24: 304, 2: 34, 21: 629, 23: 103}}
+133000.0 {'h10': {24: 304, 2: 34, 21: 620, 23: 103}, 'h11': {24: 307, 2: 34, 21: 614, 23: 100}, 'h1': {24: 306, 2: 34, 21: 625, 23: 101}, 'h4': {24: 304, 2: 34, 21: 629, 23: 103}}
+134000.0 {'h10': {24: 304, 2: 34, 21: 620, 23: 103}, 'h11': {24: 307, 2: 34, 21: 614, 23: 100}, 'h1': {24: 306, 2: 34, 21: 625, 23: 101}, 'h4': {24: 304, 2: 34, 21: 629, 23: 103}}
+135000.0 {'h10': {24: 304, 2: 34, 21: 620, 23: 103}, 'h11': {24: 307, 2: 34, 21: 614, 23: 100}, 'h1': {24: 306, 2: 34, 21: 625, 23: 101}, 'h4': {24: 304, 2: 34, 21: 629, 23: 103}}
+136000.0 {'h10': {24: 304, 2: 34, 21: 620, 23: 103}, 'h11': {24: 307, 2: 34, 21: 614, 23: 100}, 'h1': {24: 306, 2: 34, 21: 625, 23: 101}, 'h4': {24: 304, 2: 34, 21: 629, 23: 103}}
+137000.0 {'h10': {24: 304, 2: 34, 21: 620, 23: 103}, 'h11': {24: 307, 2: 34, 21: 614, 23: 100}, 'h1': {24: 306, 2: 34, 21: 625, 23: 101}, 'h4': {24: 304, 2: 34, 21: 629, 23: 103}}
+138000.0 {'h10': {24: 304, 2: 34, 21: 620, 23: 103}, 'h11': {24: 307, 2: 34, 21: 614, 23: 100}, 'h1': {24: 306, 2: 34, 21: 625, 23: 101}, 'h4': {24: 304, 2: 34, 21: 629, 23: 103}}
+139000.0 {'h10': {24: 304, 2: 34, 21: 620, 23: 103}, 'h11': {24: 307, 2: 34, 21: 614, 23: 100}, 'h1': {24: 306, 2: 34, 21: 625, 23: 101}, 'h4': {24: 304, 2: 34, 21: 629, 23: 103}}
+140000.0 {'h10': {24: 304, 2: 34, 21: 620, 23: 103}, 'h11': {24: 307, 2: 34, 21: 614, 23: 100}, 'h1': {24: 306, 2: 34, 21: 625, 23: 101}, 'h4': {24: 304, 2: 34, 21: 629, 23: 103}}
+141000.0 {'h10': {24: 304, 2: 34, 21: 620, 23: 103}, 'h11': {24: 307, 2: 34, 21: 614, 23: 100}, 'h1': {24: 306, 2: 34, 21: 625, 23: 101}, 'h4': {24: 304, 2: 34, 21: 629, 23: 103}}
+142000.0 {'h10': {24: 304, 2: 34, 21: 620, 23: 103}, 'h11': {24: 307, 2: 34, 21: 614, 23: 100}, 'h1': {24: 306, 2: 34, 21: 625, 23: 101}, 'h4': {24: 304, 2: 34, 21: 629, 23: 103}}
+143000.0 {'h10': {24: 304, 2: 34, 21: 620, 23: 103}, 'h11': {24: 307, 2: 34, 21: 614, 23: 100}, 'h1': {24: 306, 2: 34, 21: 625, 23: 101}, 'h4': {24: 304, 2: 34, 21: 629, 23: 103}}
+144000.0 {'h10': {24: 304, 2: 34, 21: 620, 23: 103}, 'h11': {24: 307, 2: 34, 21: 614, 23: 100}, 'h1': {24: 306, 2: 34, 21: 625, 23: 101}, 'h4': {24: 304, 2: 34, 21: 629, 23: 103}}
+145000.0 {'h10': {24: 304, 2: 34, 21: 620, 23: 103}, 'h11': {24: 307, 2: 34, 21: 614, 23: 100}, 'h1': {24: 306, 2: 34, 21: 625, 23: 101}, 'h4': {24: 304, 2: 34, 21: 629, 23: 103}}
+146000.0 {'h10': {24: 304, 2: 34, 21: 620, 23: 103}, 'h11': {24: 307, 2: 34, 21: 614, 23: 100}, 'h1': {24: 306, 2: 34, 21: 625, 23: 101}, 'h4': {24: 304, 2: 34, 21: 629, 23: 103}}
+147000.0 {'h10': {24: 304, 2: 34, 21: 620, 23: 103}, 'h11': {24: 307, 2: 34, 21: 614, 23: 100}, 'h1': {24: 306, 2: 34, 21: 625, 23: 101}, 'h4': {24: 304, 2: 34, 21: 629, 23: 103}}
+148000.0 {'h10': {24: 304, 2: 34, 21: 620, 23: 103}, 'h11': {24: 307, 2: 34, 21: 614, 23: 100}, 'h1': {24: 306, 2: 34, 21: 625, 23: 101}, 'h4': {24: 304, 2: 34, 21: 629, 23: 103}}
+149000.0 {'h10': {24: 304, 2: 34, 21: 620, 23: 103}, 'h11': {24: 307, 2: 34, 21: 614, 23: 100}, 'h1': {24: 306, 2: 34, 21: 625, 23: 101}, 'h4': {24: 304, 2: 34, 21: 629, 23: 103}}
+150000.0 {'h10': {24: 304, 2: 34, 21: 620, 23: 103}, 'h11': {24: 307, 2: 34, 21: 614, 23: 100}, 'h1': {24: 306, 2: 34, 21: 625, 23: 101}, 'h4': {24: 304, 2: 34, 21: 629, 23: 103}}
+151000.0 {'h10': {24: 392, 2: 34, 21: 796, 23: 133}, 'h11': {24: 396, 2: 34, 21: 788, 23: 129}, 'h1': {24: 395, 2: 34, 21: 799, 23: 130}, 'h4': {24: 392, 2: 34, 21: 806, 23: 133}}
+152000.0 {'h10': {24: 392, 2: 34, 21: 796, 23: 133}, 'h11': {24: 396, 2: 34, 21: 788, 23: 129}, 'h1': {24: 395, 2: 34, 21: 799, 23: 130}, 'h4': {24: 392, 2: 34, 21: 806, 23: 133}}
+153000.0 {'h10': {24: 392, 2: 34, 21: 796, 23: 133}, 'h11': {24: 396, 2: 34, 21: 788, 23: 129}, 'h1': {24: 395, 2: 34, 21: 799, 23: 130}, 'h4': {24: 392, 2: 34, 21: 806, 23: 133}}
+154000.0 {'h10': {24: 392, 2: 34, 21: 796, 23: 133}, 'h11': {24: 396, 2: 34, 21: 788, 23: 129}, 'h1': {24: 395, 2: 34, 21: 799, 23: 130}, 'h4': {24: 392, 2: 34, 21: 806, 23: 133}}
+154929.799318 s8 notifying down for s0-s8
+154929.799318 s8 notifying down for s0-s8 reliably
+154929.799318 s0 notifying down for s0-s8
+154929.799318 s0 notifying down for s0-s8 reliably
+154931.335089 h10 notify link down s0-s8  version:  1
+154931.335089 Computing link updates
+154931.335089 h10 updating s10 with len 2
+       Update to s10 with len 2
+154931.335089 h10 updating s17 with len 2
+       Update to s17 with len 2
+154931.335089 h10 updating s16 with len 2
+       Update to s16 with len 2
+154931.335089 h10 updating s18 with len 4
+       Update to s18 with len 4
+154931.351161 h11 notify link down s0-s8  version:  1
+154931.351161 Computing link updates
+154931.351161 h11 updating s10 with len 2
+       Update to s10 with len 2
+154931.351161 h11 updating s17 with len 2
+       Update to s17 with len 2
+154931.351161 h11 updating s16 with len 2
+       Update to s16 with len 2
+154931.351161 h11 updating s18 with len 4
+       Update to s18 with len 4
+154931.358949 h10 notify link down s0-s8  version:  1
+154931.358949 Skipping because of link version
+154931.403183 h11 notify link down s0-s8  version:  1
+154931.403183 Skipping because of link version
+154931.905440 h4 notify link down s0-s8  version:  1
+154931.905440 Computing link updates
+154931.905440 h4 updating s10 with len 2
+       Update to s10 with len 2
+154931.905440 h4 updating s17 with len 2
+       Update to s17 with len 2
+154931.905440 h4 updating s16 with len 2
+       Update to s16 with len 2
+154931.905440 h4 updating s18 with len 4
+       Update to s18 with len 4
+154932.057960 h1 notify link down s0-s8  version:  1
+154932.057960 Computing link updates
+154932.057960 h1 updating s10 with len 2
+       Update to s10 with len 2
+154932.057960 h1 updating s17 with len 2
+       Update to s17 with len 2
+154932.057960 h1 updating s16 with len 2
+       Update to s16 with len 2
+154932.057960 h1 updating s18 with len 4
+       Update to s18 with len 4
+154932.168015 h1 notify link down s0-s8  version:  1
+154932.168015 Skipping because of link version
+154932.211449 h4 notify link down s0-s8  version:  1
+154932.211449 Skipping because of link version
+154932.930861 received rule update s16
+154933.045164 received rule update s17
+154933.111036 received rule update s18
+154933.211513 received rule update s17
+154933.290345 received rule update s16
+154933.354717 received rule update s10
+154933.446050 received rule update s18
+154933.468870 received rule update s10
+154933.470949 received rule update s10
+154933.663359 received rule update s18
+154933.845977 received rule update s17
+154933.905882 received rule update s10
+154934.311161 received rule update s17
+154934.357433 received rule update s16
+154934.480828 received rule update s18
+154934.552389 received rule update s16
+155000.0 {'h10': {24: 392, 2: 38, 21: 798, 23: 133}, 'h11': {24: 396, 2: 38, 21: 790, 23: 129}, 'h1': {24: 395, 2: 38, 21: 801, 23: 130}, 'h4': {24: 392, 2: 38, 21: 808, 23: 133}}
+156000.0 {'h10': {24: 392, 2: 38, 21: 798, 23: 133}, 'h11': {24: 396, 2: 38, 21: 790, 23: 129}, 'h1': {24: 395, 2: 38, 21: 801, 23: 130}, 'h4': {24: 392, 2: 38, 21: 808, 23: 133}}
+157000.0 {'h10': {24: 392, 2: 38, 21: 798, 23: 133}, 'h11': {24: 396, 2: 38, 21: 790, 23: 129}, 'h1': {24: 395, 2: 38, 21: 801, 23: 130}, 'h4': {24: 392, 2: 38, 21: 808, 23: 133}}
+158000.0 {'h10': {24: 392, 2: 38, 21: 798, 23: 133}, 'h11': {24: 396, 2: 38, 21: 790, 23: 129}, 'h1': {24: 395, 2: 38, 21: 801, 23: 130}, 'h4': {24: 392, 2: 38, 21: 808, 23: 133}}
+159000.0 {'h10': {24: 392, 2: 38, 21: 798, 23: 133}, 'h11': {24: 396, 2: 38, 21: 790, 23: 129}, 'h1': {24: 395, 2: 38, 21: 801, 23: 130}, 'h4': {24: 392, 2: 38, 21: 808, 23: 133}}
+160000.0 {'h10': {24: 392, 2: 38, 21: 798, 23: 133}, 'h11': {24: 396, 2: 38, 21: 790, 23: 129}, 'h1': {24: 395, 2: 38, 21: 801, 23: 130}, 'h4': {24: 392, 2: 38, 21: 808, 23: 133}}
+161000.0 {'h10': {24: 392, 2: 38, 21: 798, 23: 133}, 'h11': {24: 396, 2: 38, 21: 790, 23: 129}, 'h1': {24: 395, 2: 38, 21: 801, 23: 130}, 'h4': {24: 392, 2: 38, 21: 808, 23: 133}}
+162000.0 {'h10': {24: 392, 2: 38, 21: 798, 23: 133}, 'h11': {24: 396, 2: 38, 21: 790, 23: 129}, 'h1': {24: 395, 2: 38, 21: 801, 23: 130}, 'h4': {24: 392, 2: 38, 21: 808, 23: 133}}
+163000.0 {'h10': {24: 392, 2: 38, 21: 798, 23: 133}, 'h11': {24: 396, 2: 38, 21: 790, 23: 129}, 'h1': {24: 395, 2: 38, 21: 801, 23: 130}, 'h4': {24: 392, 2: 38, 21: 808, 23: 133}}
+164000.0 {'h10': {24: 392, 2: 38, 21: 798, 23: 133}, 'h11': {24: 396, 2: 38, 21: 790, 23: 129}, 'h1': {24: 395, 2: 38, 21: 801, 23: 130}, 'h4': {24: 392, 2: 38, 21: 808, 23: 133}}
+165000.0 {'h10': {24: 392, 2: 38, 21: 798, 23: 133}, 'h11': {24: 396, 2: 38, 21: 790, 23: 129}, 'h1': {24: 395, 2: 38, 21: 801, 23: 130}, 'h4': {24: 392, 2: 38, 21: 808, 23: 133}}
+166000.0 {'h10': {24: 392, 2: 38, 21: 798, 23: 133}, 'h11': {24: 396, 2: 38, 21: 790, 23: 129}, 'h1': {24: 395, 2: 38, 21: 801, 23: 130}, 'h4': {24: 392, 2: 38, 21: 808, 23: 133}}
+167000.0 {'h10': {24: 392, 2: 38, 21: 798, 23: 133}, 'h11': {24: 396, 2: 38, 21: 790, 23: 129}, 'h1': {24: 395, 2: 38, 21: 801, 23: 130}, 'h4': {24: 392, 2: 38, 21: 808, 23: 133}}
+168000.0 {'h10': {24: 392, 2: 38, 21: 798, 23: 133}, 'h11': {24: 396, 2: 38, 21: 790, 23: 129}, 'h1': {24: 395, 2: 38, 21: 801, 23: 130}, 'h4': {24: 392, 2: 38, 21: 808, 23: 133}}
+169000.0 {'h10': {24: 392, 2: 38, 21: 798, 23: 133}, 'h11': {24: 396, 2: 38, 21: 790, 23: 129}, 'h1': {24: 395, 2: 38, 21: 801, 23: 130}, 'h4': {24: 392, 2: 38, 21: 808, 23: 133}}
+170000.0 {'h10': {24: 392, 2: 38, 21: 798, 23: 133}, 'h11': {24: 396, 2: 38, 21: 790, 23: 129}, 'h1': {24: 395, 2: 38, 21: 801, 23: 130}, 'h4': {24: 392, 2: 38, 21: 808, 23: 133}}
+171000.0 {'h10': {24: 392, 2: 38, 21: 798, 23: 133}, 'h11': {24: 396, 2: 38, 21: 790, 23: 129}, 'h1': {24: 395, 2: 38, 21: 801, 23: 130}, 'h4': {24: 392, 2: 38, 21: 808, 23: 133}}
+172000.0 {'h10': {24: 392, 2: 38, 21: 798, 23: 133}, 'h11': {24: 396, 2: 38, 21: 790, 23: 129}, 'h1': {24: 395, 2: 38, 21: 801, 23: 130}, 'h4': {24: 392, 2: 38, 21: 808, 23: 133}}
+173000.0 {'h10': {24: 392, 2: 38, 21: 798, 23: 133}, 'h11': {24: 396, 2: 38, 21: 790, 23: 129}, 'h1': {24: 395, 2: 38, 21: 801, 23: 130}, 'h4': {24: 392, 2: 38, 21: 808, 23: 133}}
+174000.0 {'h10': {24: 392, 2: 38, 21: 798, 23: 133}, 'h11': {24: 396, 2: 38, 21: 790, 23: 129}, 'h1': {24: 395, 2: 38, 21: 801, 23: 130}, 'h4': {24: 392, 2: 38, 21: 808, 23: 133}}
+175000.0 {'h10': {24: 392, 2: 38, 21: 798, 23: 133}, 'h11': {24: 396, 2: 38, 21: 790, 23: 129}, 'h1': {24: 395, 2: 38, 21: 801, 23: 130}, 'h4': {24: 392, 2: 38, 21: 808, 23: 133}}
+176000.0 {'h10': {24: 392, 2: 38, 21: 798, 23: 133}, 'h11': {24: 396, 2: 38, 21: 790, 23: 129}, 'h1': {24: 395, 2: 38, 21: 801, 23: 130}, 'h4': {24: 392, 2: 38, 21: 808, 23: 133}}
+177000.0 {'h10': {24: 392, 2: 38, 21: 798, 23: 133}, 'h11': {24: 396, 2: 38, 21: 790, 23: 129}, 'h1': {24: 395, 2: 38, 21: 801, 23: 130}, 'h4': {24: 392, 2: 38, 21: 808, 23: 133}}
+178000.0 {'h10': {24: 392, 2: 38, 21: 798, 23: 133}, 'h11': {24: 396, 2: 38, 21: 790, 23: 129}, 'h1': {24: 395, 2: 38, 21: 801, 23: 130}, 'h4': {24: 392, 2: 38, 21: 808, 23: 133}}
+179000.0 {'h10': {24: 392, 2: 38, 21: 798, 23: 133}, 'h11': {24: 396, 2: 38, 21: 790, 23: 129}, 'h1': {24: 395, 2: 38, 21: 801, 23: 130}, 'h4': {24: 392, 2: 38, 21: 808, 23: 133}}
+180000.0 {'h10': {24: 392, 2: 38, 21: 798, 23: 133}, 'h11': {24: 396, 2: 38, 21: 790, 23: 129}, 'h1': {24: 395, 2: 38, 21: 801, 23: 130}, 'h4': {24: 392, 2: 38, 21: 808, 23: 133}}
+181000.0 {'h10': {24: 480, 2: 38, 21: 975, 23: 163}, 'h11': {24: 485, 2: 38, 21: 959, 23: 158}, 'h1': {24: 484, 2: 38, 21: 977, 23: 159}, 'h4': {24: 480, 2: 38, 21: 983, 23: 163}}
+182000.0 {'h10': {24: 480, 2: 38, 21: 975, 23: 163}, 'h11': {24: 485, 2: 38, 21: 959, 23: 158}, 'h1': {24: 484, 2: 38, 21: 977, 23: 159}, 'h4': {24: 480, 2: 38, 21: 983, 23: 163}}
+183000.0 {'h10': {24: 480, 2: 38, 21: 975, 23: 163}, 'h11': {24: 485, 2: 38, 21: 959, 23: 158}, 'h1': {24: 484, 2: 38, 21: 977, 23: 159}, 'h4': {24: 480, 2: 38, 21: 983, 23: 163}}
+184000.0 {'h10': {24: 480, 2: 38, 21: 975, 23: 163}, 'h11': {24: 485, 2: 38, 21: 959, 23: 158}, 'h1': {24: 484, 2: 38, 21: 977, 23: 159}, 'h4': {24: 480, 2: 38, 21: 983, 23: 163}}
+184426.725892 s16 notifying down for s16-s18
+184426.725892 s16 notifying down for s16-s18 reliably
+184426.725892 s18 notifying down for s16-s18
+184426.725892 s18 notifying down for s16-s18 reliably
+184428.428691 h4 notify link down s16-s18  version:  1
+184428.428691 Computing link updates
+184428.428691 h4 updating s9 with len 12
+       Update to s9 with len 12
+184428.428691 h4 updating s8 with len 8
+       Update to s8 with len 8
+184428.428691 h4 updating s13 with len 14
+       Update to s13 with len 14
+184428.428691 h4 updating s12 with len 28
+       Update to s12 with len 28
+184428.428691 h4 updating s1 with len 10
+       Update to s1 with len 10
+184428.428691 h4 updating s10 with len 8
+       Update to s10 with len 8
+184428.428691 h4 updating s17 with len 4
+       Update to s17 with len 4
+184428.428691 h4 updating s16 with len 16
+       Update to s16 with len 16
+184428.428691 h4 updating s15 with len 18
+       Update to s15 with len 18
+184428.428691 h4 updating s3 with len 14
+       Update to s3 with len 14
+184428.428691 h4 updating s18 with len 4
+       Update to s18 with len 4
+184428.428691 h4 updating s2 with len 6
+       Update to s2 with len 6
+184428.428691 h4 updating s0 with len 22
+       Update to s0 with len 22
+184428.664334 h10 notify link down s16-s18  version:  1
+184428.664334 Computing link updates
+184428.664334 h10 updating s9 with len 12
+       Update to s9 with len 12
+184428.664334 h10 updating s8 with len 8
+       Update to s8 with len 8
+184428.664334 h10 updating s13 with len 14
+       Update to s13 with len 14
+184428.664334 h10 updating s12 with len 28
+       Update to s12 with len 28
+184428.664334 h10 updating s1 with len 10
+       Update to s1 with len 10
+184428.664334 h10 updating s10 with len 8
+       Update to s10 with len 8
+184428.664334 h10 updating s17 with len 4
+       Update to s17 with len 4
+184428.664334 h10 updating s16 with len 16
+       Update to s16 with len 16
+184428.664334 h10 updating s15 with len 18
+       Update to s15 with len 18
+184428.664334 h10 updating s3 with len 14
+       Update to s3 with len 14
+184428.664334 h10 updating s18 with len 4
+       Update to s18 with len 4
+184428.664334 h10 updating s2 with len 6
+       Update to s2 with len 6
+184428.664334 h10 updating s0 with len 22
+       Update to s0 with len 22
+184428.701748 h11 notify link down s16-s18  version:  1
+184428.701748 Computing link updates
+184428.701748 h11 updating s9 with len 12
+       Update to s9 with len 12
+184428.701748 h11 updating s8 with len 8
+       Update to s8 with len 8
+184428.701748 h11 updating s13 with len 14
+       Update to s13 with len 14
+184428.701748 h11 updating s12 with len 28
+       Update to s12 with len 28
+184428.701748 h11 updating s1 with len 10
+       Update to s1 with len 10
+184428.701748 h11 updating s10 with len 8
+       Update to s10 with len 8
+184428.701748 h11 updating s17 with len 4
+       Update to s17 with len 4
+184428.701748 h11 updating s16 with len 16
+       Update to s16 with len 16
+184428.701748 h11 updating s15 with len 18
+       Update to s15 with len 18
+184428.701748 h11 updating s3 with len 14
+       Update to s3 with len 14
+184428.701748 h11 updating s18 with len 4
+       Update to s18 with len 4
+184428.701748 h11 updating s2 with len 6
+       Update to s2 with len 6
+184428.701748 h11 updating s0 with len 22
+       Update to s0 with len 22
+184428.715856 h10 notify link down s16-s18  version:  1
+184428.715856 Skipping because of link version
+184428.852235 h11 notify link down s16-s18  version:  1
+184428.852235 Skipping because of link version
+184428.878886 h1 notify link down s16-s18  version:  1
+184428.878886 Computing link updates
+184428.878886 h1 updating s9 with len 12
+       Update to s9 with len 12
+184428.878886 h1 updating s8 with len 8
+       Update to s8 with len 8
+184428.878886 h1 updating s13 with len 14
+       Update to s13 with len 14
+184428.878886 h1 updating s12 with len 28
+       Update to s12 with len 28
+184428.878886 h1 updating s1 with len 10
+       Update to s1 with len 10
+184428.878886 h1 updating s10 with len 8
+       Update to s10 with len 8
+184428.878886 h1 updating s17 with len 4
+       Update to s17 with len 4
+184428.878886 h1 updating s16 with len 16
+       Update to s16 with len 16
+184428.878886 h1 updating s15 with len 18
+       Update to s15 with len 18
+184428.878886 h1 updating s3 with len 14
+       Update to s3 with len 14
+184428.878886 h1 updating s18 with len 4
+       Update to s18 with len 4
+184428.878886 h1 updating s2 with len 6
+       Update to s2 with len 6
+184428.878886 h1 updating s0 with len 22
+       Update to s0 with len 22
+184428.906330 h4 notify link down s16-s18  version:  1
+184428.906330 Skipping because of link version
+184429.759876 received rule update s8
+184429.768997 received rule update s10
+184429.785383 received rule update s9
+184429.909543 received rule update s2
+184429.976513 received rule update s12
+184430.039257 received rule update s15
+184430.095954 received rule update s12
+184430.145402 received rule update s13
+184430.152624 h1 notify link down s16-s18  version:  1
+184430.152624 Skipping because of link version
+184430.155110 received rule update s15
+184430.240233 received rule update s9
+184430.273394 received rule update s12
+184430.286460 received rule update s17
+184430.293860 received rule update s3
+184430.321172 received rule update s16
+184430.347869 received rule update s1
+184430.355960 received rule update s3
+184430.377103 received rule update s16
+184430.378285 received rule update s13
+184430.403949 received rule update s0
+184430.417976 received rule update s2
+184430.439711 received rule update s1
+184430.465235 received rule update s8
+184430.494862 received rule update s18
+184430.516664 received rule update s0
+184430.523882 received rule update s9
+184430.562316 received rule update s13
+184430.585607 received rule update s18
+184430.648883 received rule update s3
+184430.652200 received rule update s15
+184430.720636 received rule update s8
+184430.751456 received rule update s10
+184430.760938 received rule update s2
+184430.762229 received rule update s18
+184430.766015 received rule update s17
+184430.800652 received rule update s2
+184430.834869 received rule update s18
+184430.853636 received rule update s9
+184430.859938 received rule update s17
+184430.867333 received rule update s10
+184430.999460 received rule update s16
+184431.009805 received rule update s1
+184431.037000 received rule update s10
+184431.129945 received rule update s0
+184431.160935 received rule update s1
+184431.187843 received rule update s8
+184431.245574 received rule update s17
+184431.321200 received rule update s12
+184431.386035 received rule update s3
+184431.523329 received rule update s15
+184431.719432 received rule update s16
+184431.807223 received rule update s0
+184432.157947 received rule update s13
+185000.0 {'h10': {24: 480, 2: 51, 21: 977, 23: 163}, 'h11': {24: 485, 2: 51, 21: 961, 23: 158}, 'h1': {24: 484, 2: 51, 21: 979, 23: 159}, 'h4': {24: 480, 2: 51, 21: 985, 23: 163}}
+186000.0 {'h10': {24: 480, 2: 51, 21: 977, 23: 163}, 'h11': {24: 485, 2: 51, 21: 961, 23: 158}, 'h1': {24: 484, 2: 51, 21: 979, 23: 159}, 'h4': {24: 480, 2: 51, 21: 985, 23: 163}}
+187000.0 {'h10': {24: 480, 2: 51, 21: 977, 23: 163}, 'h11': {24: 485, 2: 51, 21: 961, 23: 158}, 'h1': {24: 484, 2: 51, 21: 979, 23: 159}, 'h4': {24: 480, 2: 51, 21: 985, 23: 163}}
+188000.0 {'h10': {24: 480, 2: 51, 21: 977, 23: 163}, 'h11': {24: 485, 2: 51, 21: 961, 23: 158}, 'h1': {24: 484, 2: 51, 21: 979, 23: 159}, 'h4': {24: 480, 2: 51, 21: 985, 23: 163}}
+188184.750831 h4 notify link up s17-s19  version:  2
+188184.750831 h4 updating s13 with len 4
+       Update to s13 with len 4
+188184.750831 h4 updating s2 with len 6
+       Update to s2 with len 6
+188184.750831 h4 updating s19 with len 16
+       Update to s19 with len 16
+188184.750831 h4 updating s10 with len 2
+       Update to s10 with len 2
+188184.750831 h4 updating s17 with len 12
+       Update to s17 with len 12
+188184.936477 h1 notify link up s17-s19  version:  2
+188184.936477 h1 updating s13 with len 4
+       Update to s13 with len 4
+188184.936477 h1 updating s2 with len 6
+       Update to s2 with len 6
+188184.936477 h1 updating s19 with len 16
+       Update to s19 with len 16
+188184.936477 h1 updating s10 with len 2
+       Update to s10 with len 2
+188184.936477 h1 updating s17 with len 12
+       Update to s17 with len 12
+188185.111525 h11 notify link up s17-s19  version:  2
+188185.111525 h11 updating s13 with len 4
+       Update to s13 with len 4
+188185.111525 h11 updating s2 with len 6
+       Update to s2 with len 6
+188185.111525 h11 updating s19 with len 16
+       Update to s19 with len 16
+188185.111525 h11 updating s10 with len 2
+       Update to s10 with len 2
+188185.111525 h11 updating s17 with len 12
+       Update to s17 with len 12
+188185.311827 h11 notify link up s17-s19  version:  2
+188185.331399 h4 notify link up s17-s19  version:  2
+188185.424222 h10 notify link up s17-s19  version:  2
+188185.424222 h10 updating s13 with len 4
+       Update to s13 with len 4
+188185.424222 h10 updating s2 with len 6
+       Update to s2 with len 6
+188185.424222 h10 updating s19 with len 16
+       Update to s19 with len 16
+188185.424222 h10 updating s10 with len 2
+       Update to s10 with len 2
+188185.424222 h10 updating s17 with len 12
+       Update to s17 with len 12
+188185.697403 h1 notify link up s17-s19  version:  2
+188185.705383 h10 notify link up s17-s19  version:  2
+188186.159770 received rule update s10
+188186.403311 received rule update s13
+188186.435387 received rule update s2
+188186.539535 received rule update s19
+188186.759299 received rule update s17
+188186.789545 received rule update s2
+188186.804383 received rule update s17
+188186.826040 received rule update s19
+188186.846925 received rule update s19
+188186.910118 received rule update s13
+188186.955924 received rule update s10
+188187.167511 received rule update s10
+188187.189965 received rule update s13
+188187.201689 received rule update s19
+188187.266330 received rule update s17
+188187.310565 received rule update s13
+188187.479698 received rule update s2
+188187.516844 received rule update s2
+188187.542628 received rule update s17
+188187.577890 received rule update s10
+189000.0 {'h10': {24: 480, 2: 56, 7: 1, 21: 1017, 23: 163}, 'h11': {24: 485, 2: 56, 7: 1, 21: 1001, 23: 158}, 'h1': {24: 484, 2: 56, 7: 1, 21: 1019, 23: 159}, 'h4': {24: 480, 2: 56, 7: 1, 21: 1025, 23: 163}}
+190000.0 {'h10': {24: 480, 2: 56, 7: 1, 21: 1017, 23: 163}, 'h11': {24: 485, 2: 56, 7: 1, 21: 1001, 23: 158}, 'h1': {24: 484, 2: 56, 7: 1, 21: 1019, 23: 159}, 'h4': {24: 480, 2: 56, 7: 1, 21: 1025, 23: 163}}
+191000.0 {'h10': {24: 480, 2: 56, 7: 1, 21: 1017, 23: 163}, 'h11': {24: 485, 2: 56, 7: 1, 21: 1001, 23: 158}, 'h1': {24: 484, 2: 56, 7: 1, 21: 1019, 23: 159}, 'h4': {24: 480, 2: 56, 7: 1, 21: 1025, 23: 163}}
+192000.0 {'h10': {24: 480, 2: 56, 7: 1, 21: 1017, 23: 163}, 'h11': {24: 485, 2: 56, 7: 1, 21: 1001, 23: 158}, 'h1': {24: 484, 2: 56, 7: 1, 21: 1019, 23: 159}, 'h4': {24: 480, 2: 56, 7: 1, 21: 1025, 23: 163}}
+193000.0 {'h10': {24: 480, 2: 56, 7: 1, 21: 1017, 23: 163}, 'h11': {24: 485, 2: 56, 7: 1, 21: 1001, 23: 158}, 'h1': {24: 484, 2: 56, 7: 1, 21: 1019, 23: 159}, 'h4': {24: 480, 2: 56, 7: 1, 21: 1025, 23: 163}}
+194000.0 {'h10': {24: 480, 2: 56, 7: 1, 21: 1017, 23: 163}, 'h11': {24: 485, 2: 56, 7: 1, 21: 1001, 23: 158}, 'h1': {24: 484, 2: 56, 7: 1, 21: 1019, 23: 159}, 'h4': {24: 480, 2: 56, 7: 1, 21: 1025, 23: 163}}
+195000.0 {'h10': {24: 480, 2: 56, 7: 1, 21: 1017, 23: 163}, 'h11': {24: 485, 2: 56, 7: 1, 21: 1001, 23: 158}, 'h1': {24: 484, 2: 56, 7: 1, 21: 1019, 23: 159}, 'h4': {24: 480, 2: 56, 7: 1, 21: 1025, 23: 163}}
+196000.0 {'h10': {24: 480, 2: 56, 7: 1, 21: 1017, 23: 163}, 'h11': {24: 485, 2: 56, 7: 1, 21: 1001, 23: 158}, 'h1': {24: 484, 2: 56, 7: 1, 21: 1019, 23: 159}, 'h4': {24: 480, 2: 56, 7: 1, 21: 1025, 23: 163}}
+197000.0 {'h10': {24: 480, 2: 56, 7: 1, 21: 1017, 23: 163}, 'h11': {24: 485, 2: 56, 7: 1, 21: 1001, 23: 158}, 'h1': {24: 484, 2: 56, 7: 1, 21: 1019, 23: 159}, 'h4': {24: 480, 2: 56, 7: 1, 21: 1025, 23: 163}}
+198000.0 {'h10': {24: 480, 2: 56, 7: 1, 21: 1017, 23: 163}, 'h11': {24: 485, 2: 56, 7: 1, 21: 1001, 23: 158}, 'h1': {24: 484, 2: 56, 7: 1, 21: 1019, 23: 159}, 'h4': {24: 480, 2: 56, 7: 1, 21: 1025, 23: 163}}
+199000.0 {'h10': {24: 480, 2: 56, 7: 1, 21: 1017, 23: 163}, 'h11': {24: 485, 2: 56, 7: 1, 21: 1001, 23: 158}, 'h1': {24: 484, 2: 56, 7: 1, 21: 1019, 23: 159}, 'h4': {24: 480, 2: 56, 7: 1, 21: 1025, 23: 163}}
+200000.0 {'h10': {24: 480, 2: 56, 7: 1, 21: 1017, 23: 163}, 'h11': {24: 485, 2: 56, 7: 1, 21: 1001, 23: 158}, 'h1': {24: 484, 2: 56, 7: 1, 21: 1019, 23: 159}, 'h4': {24: 480, 2: 56, 7: 1, 21: 1025, 23: 163}}
+201000.0 {'h10': {24: 480, 2: 56, 7: 1, 21: 1017, 23: 163}, 'h11': {24: 485, 2: 56, 7: 1, 21: 1001, 23: 158}, 'h1': {24: 484, 2: 56, 7: 1, 21: 1019, 23: 159}, 'h4': {24: 480, 2: 56, 7: 1, 21: 1025, 23: 163}}
+202000.0 {'h10': {24: 480, 2: 56, 7: 1, 21: 1017, 23: 163}, 'h11': {24: 485, 2: 56, 7: 1, 21: 1001, 23: 158}, 'h1': {24: 484, 2: 56, 7: 1, 21: 1019, 23: 159}, 'h4': {24: 480, 2: 56, 7: 1, 21: 1025, 23: 163}}
+203000.0 {'h10': {24: 480, 2: 56, 7: 1, 21: 1017, 23: 163}, 'h11': {24: 485, 2: 56, 7: 1, 21: 1001, 23: 158}, 'h1': {24: 484, 2: 56, 7: 1, 21: 1019, 23: 159}, 'h4': {24: 480, 2: 56, 7: 1, 21: 1025, 23: 163}}
+204000.0 {'h10': {24: 480, 2: 56, 7: 1, 21: 1017, 23: 163}, 'h11': {24: 485, 2: 56, 7: 1, 21: 1001, 23: 158}, 'h1': {24: 484, 2: 56, 7: 1, 21: 1019, 23: 159}, 'h4': {24: 480, 2: 56, 7: 1, 21: 1025, 23: 163}}
+204835.952050 s8 notifying down for s8-s10
+204835.952050 s8 notifying down for s8-s10 reliably
+204835.952050 s10 notifying down for s8-s10
+204835.952050 s10 notifying down for s8-s10 reliably
+204837.498708 h4 notify link down s8-s10  version:  1
+204837.498708 Computing link updates
+204837.788484 h11 notify link down s8-s10  version:  1
+204837.788484 Computing link updates
+204838.212206 h10 notify link down s8-s10  version:  1
+204838.212206 Computing link updates
+204838.296048 h1 notify link down s8-s10  version:  1
+204838.296048 Computing link updates
+204838.484413 h11 notify link down s8-s10  version:  1
+204838.484413 Skipping because of link version
+204838.495864 h10 notify link down s8-s10  version:  1
+204838.495864 Skipping because of link version
+204838.513346 h4 notify link down s8-s10  version:  1
+204838.513346 Skipping because of link version
+204839.032928 h1 notify link down s8-s10  version:  1
+204839.032928 Skipping because of link version
+205000.0 {'h10': {24: 480, 2: 56, 7: 1, 21: 1019, 23: 163}, 'h11': {24: 485, 2: 56, 7: 1, 21: 1003, 23: 158}, 'h1': {24: 484, 2: 56, 7: 1, 21: 1021, 23: 159}, 'h4': {24: 480, 2: 56, 7: 1, 21: 1027, 23: 163}}
+206000.0 {'h10': {24: 480, 2: 56, 7: 1, 21: 1019, 23: 163}, 'h11': {24: 485, 2: 56, 7: 1, 21: 1003, 23: 158}, 'h1': {24: 484, 2: 56, 7: 1, 21: 1021, 23: 159}, 'h4': {24: 480, 2: 56, 7: 1, 21: 1027, 23: 163}}
+207000.0 {'h10': {24: 480, 2: 56, 7: 1, 21: 1019, 23: 163}, 'h11': {24: 485, 2: 56, 7: 1, 21: 1003, 23: 158}, 'h1': {24: 484, 2: 56, 7: 1, 21: 1021, 23: 159}, 'h4': {24: 480, 2: 56, 7: 1, 21: 1027, 23: 163}}
+208000.0 {'h10': {24: 480, 2: 56, 7: 1, 21: 1019, 23: 163}, 'h11': {24: 485, 2: 56, 7: 1, 21: 1003, 23: 158}, 'h1': {24: 484, 2: 56, 7: 1, 21: 1021, 23: 159}, 'h4': {24: 480, 2: 56, 7: 1, 21: 1027, 23: 163}}
+209000.0 {'h10': {24: 480, 2: 56, 7: 1, 21: 1019, 23: 163}, 'h11': {24: 485, 2: 56, 7: 1, 21: 1003, 23: 158}, 'h1': {24: 484, 2: 56, 7: 1, 21: 1021, 23: 159}, 'h4': {24: 480, 2: 56, 7: 1, 21: 1027, 23: 163}}
+210000.0 {'h10': {24: 480, 2: 56, 7: 1, 21: 1019, 23: 163}, 'h11': {24: 485, 2: 56, 7: 1, 21: 1003, 23: 158}, 'h1': {24: 484, 2: 56, 7: 1, 21: 1021, 23: 159}, 'h4': {24: 480, 2: 56, 7: 1, 21: 1027, 23: 163}}
+211000.0 {'h10': {24: 570, 2: 56, 7: 1, 21: 1193, 23: 193}, 'h11': {24: 576, 2: 56, 7: 1, 21: 1180, 23: 188}, 'h1': {24: 573, 2: 56, 7: 1, 21: 1200, 23: 190}, 'h4': {24: 569, 2: 56, 7: 1, 21: 1206, 23: 194}}
+212000.0 {'h10': {24: 570, 2: 56, 7: 1, 21: 1193, 23: 193}, 'h11': {24: 576, 2: 56, 7: 1, 21: 1180, 23: 188}, 'h1': {24: 573, 2: 56, 7: 1, 21: 1200, 23: 190}, 'h4': {24: 569, 2: 56, 7: 1, 21: 1206, 23: 194}}
+213000.0 {'h10': {24: 570, 2: 56, 7: 1, 21: 1193, 23: 193}, 'h11': {24: 576, 2: 56, 7: 1, 21: 1180, 23: 188}, 'h1': {24: 573, 2: 56, 7: 1, 21: 1200, 23: 190}, 'h4': {24: 569, 2: 56, 7: 1, 21: 1206, 23: 194}}
+214000.0 {'h10': {24: 570, 2: 56, 7: 1, 21: 1193, 23: 193}, 'h11': {24: 576, 2: 56, 7: 1, 21: 1180, 23: 188}, 'h1': {24: 573, 2: 56, 7: 1, 21: 1200, 23: 190}, 'h4': {24: 569, 2: 56, 7: 1, 21: 1206, 23: 194}}
+215000.0 {'h10': {24: 570, 2: 56, 7: 1, 21: 1193, 23: 193}, 'h11': {24: 576, 2: 56, 7: 1, 21: 1180, 23: 188}, 'h1': {24: 573, 2: 56, 7: 1, 21: 1200, 23: 190}, 'h4': {24: 569, 2: 56, 7: 1, 21: 1206, 23: 194}}
+216000.0 {'h10': {24: 570, 2: 56, 7: 1, 21: 1193, 23: 193}, 'h11': {24: 576, 2: 56, 7: 1, 21: 1180, 23: 188}, 'h1': {24: 573, 2: 56, 7: 1, 21: 1200, 23: 190}, 'h4': {24: 569, 2: 56, 7: 1, 21: 1206, 23: 194}}
+217000.0 {'h10': {24: 570, 2: 56, 7: 1, 21: 1193, 23: 193}, 'h11': {24: 576, 2: 56, 7: 1, 21: 1180, 23: 188}, 'h1': {24: 573, 2: 56, 7: 1, 21: 1200, 23: 190}, 'h4': {24: 569, 2: 56, 7: 1, 21: 1206, 23: 194}}
+218000.0 {'h10': {24: 570, 2: 56, 7: 1, 21: 1193, 23: 193}, 'h11': {24: 576, 2: 56, 7: 1, 21: 1180, 23: 188}, 'h1': {24: 573, 2: 56, 7: 1, 21: 1200, 23: 190}, 'h4': {24: 569, 2: 56, 7: 1, 21: 1206, 23: 194}}
+219000.0 {'h10': {24: 570, 2: 56, 7: 1, 21: 1193, 23: 193}, 'h11': {24: 576, 2: 56, 7: 1, 21: 1180, 23: 188}, 'h1': {24: 573, 2: 56, 7: 1, 21: 1200, 23: 190}, 'h4': {24: 569, 2: 56, 7: 1, 21: 1206, 23: 194}}
+220000.0 {'h10': {24: 570, 2: 56, 7: 1, 21: 1193, 23: 193}, 'h11': {24: 576, 2: 56, 7: 1, 21: 1180, 23: 188}, 'h1': {24: 573, 2: 56, 7: 1, 21: 1200, 23: 190}, 'h4': {24: 569, 2: 56, 7: 1, 21: 1206, 23: 194}}
+221000.0 {'h10': {24: 570, 2: 56, 7: 1, 21: 1193, 23: 193}, 'h11': {24: 576, 2: 56, 7: 1, 21: 1180, 23: 188}, 'h1': {24: 573, 2: 56, 7: 1, 21: 1200, 23: 190}, 'h4': {24: 569, 2: 56, 7: 1, 21: 1206, 23: 194}}
+222000.0 {'h10': {24: 570, 2: 56, 7: 1, 21: 1193, 23: 193}, 'h11': {24: 576, 2: 56, 7: 1, 21: 1180, 23: 188}, 'h1': {24: 573, 2: 56, 7: 1, 21: 1200, 23: 190}, 'h4': {24: 569, 2: 56, 7: 1, 21: 1206, 23: 194}}
+223000.0 {'h10': {24: 570, 2: 56, 7: 1, 21: 1193, 23: 193}, 'h11': {24: 576, 2: 56, 7: 1, 21: 1180, 23: 188}, 'h1': {24: 573, 2: 56, 7: 1, 21: 1200, 23: 190}, 'h4': {24: 569, 2: 56, 7: 1, 21: 1206, 23: 194}}
+224000.0 {'h10': {24: 570, 2: 56, 7: 1, 21: 1193, 23: 193}, 'h11': {24: 576, 2: 56, 7: 1, 21: 1180, 23: 188}, 'h1': {24: 573, 2: 56, 7: 1, 21: 1200, 23: 190}, 'h4': {24: 569, 2: 56, 7: 1, 21: 1206, 23: 194}}
+225000.0 {'h10': {24: 570, 2: 56, 7: 1, 21: 1193, 23: 193}, 'h11': {24: 576, 2: 56, 7: 1, 21: 1180, 23: 188}, 'h1': {24: 573, 2: 56, 7: 1, 21: 1200, 23: 190}, 'h4': {24: 569, 2: 56, 7: 1, 21: 1206, 23: 194}}
+226000.0 {'h10': {24: 570, 2: 56, 7: 1, 21: 1193, 23: 193}, 'h11': {24: 576, 2: 56, 7: 1, 21: 1180, 23: 188}, 'h1': {24: 573, 2: 56, 7: 1, 21: 1200, 23: 190}, 'h4': {24: 569, 2: 56, 7: 1, 21: 1206, 23: 194}}
+227000.0 {'h10': {24: 570, 2: 56, 7: 1, 21: 1193, 23: 193}, 'h11': {24: 576, 2: 56, 7: 1, 21: 1180, 23: 188}, 'h1': {24: 573, 2: 56, 7: 1, 21: 1200, 23: 190}, 'h4': {24: 569, 2: 56, 7: 1, 21: 1206, 23: 194}}
+228000.0 {'h10': {24: 570, 2: 56, 7: 1, 21: 1193, 23: 193}, 'h11': {24: 576, 2: 56, 7: 1, 21: 1180, 23: 188}, 'h1': {24: 573, 2: 56, 7: 1, 21: 1200, 23: 190}, 'h4': {24: 569, 2: 56, 7: 1, 21: 1206, 23: 194}}
+229000.0 {'h10': {24: 570, 2: 56, 7: 1, 21: 1193, 23: 193}, 'h11': {24: 576, 2: 56, 7: 1, 21: 1180, 23: 188}, 'h1': {24: 573, 2: 56, 7: 1, 21: 1200, 23: 190}, 'h4': {24: 569, 2: 56, 7: 1, 21: 1206, 23: 194}}
+230000.0 {'h10': {24: 570, 2: 56, 7: 1, 21: 1193, 23: 193}, 'h11': {24: 576, 2: 56, 7: 1, 21: 1180, 23: 188}, 'h1': {24: 573, 2: 56, 7: 1, 21: 1200, 23: 190}, 'h4': {24: 569, 2: 56, 7: 1, 21: 1206, 23: 194}}
+231000.0 {'h10': {24: 570, 2: 56, 7: 1, 21: 1193, 23: 193}, 'h11': {24: 576, 2: 56, 7: 1, 21: 1180, 23: 188}, 'h1': {24: 573, 2: 56, 7: 1, 21: 1200, 23: 190}, 'h4': {24: 569, 2: 56, 7: 1, 21: 1206, 23: 194}}
+232000.0 {'h10': {24: 570, 2: 56, 7: 1, 21: 1193, 23: 193}, 'h11': {24: 576, 2: 56, 7: 1, 21: 1180, 23: 188}, 'h1': {24: 573, 2: 56, 7: 1, 21: 1200, 23: 190}, 'h4': {24: 569, 2: 56, 7: 1, 21: 1206, 23: 194}}
+233000.0 {'h10': {24: 570, 2: 56, 7: 1, 21: 1193, 23: 193}, 'h11': {24: 576, 2: 56, 7: 1, 21: 1180, 23: 188}, 'h1': {24: 573, 2: 56, 7: 1, 21: 1200, 23: 190}, 'h4': {24: 569, 2: 56, 7: 1, 21: 1206, 23: 194}}
+233302.518168 s0 notifying down for s0-s16
+233302.518168 s0 notifying down for s0-s16 reliably
+233302.518168 s16 notifying down for s0-s16
+233302.518168 s16 notifying down for s0-s16 reliably
+233304.145805 h10 notify link down s0-s16  version:  1
+233304.145805 Computing link updates
+233304.506494 h11 notify link down s0-s16  version:  1
+233304.506494 Computing link updates
+233304.657953 h1 notify link down s0-s16  version:  1
+233304.657953 Computing link updates
+233304.804823 h10 notify link down s0-s16  version:  1
+233304.804823 Skipping because of link version
+233304.855302 h4 notify link down s0-s16  version:  1
+233304.855302 Computing link updates
+233304.873095 h11 notify link down s0-s16  version:  1
+233304.873095 Skipping because of link version
+233304.960485 h4 notify link down s0-s16  version:  1
+233304.960485 Skipping because of link version
+233305.411195 h1 notify link down s0-s16  version:  1
+233305.411195 Skipping because of link version
+234000.0 {'h10': {24: 570, 2: 56, 7: 1, 21: 1195, 23: 193}, 'h11': {24: 576, 2: 56, 7: 1, 21: 1182, 23: 188}, 'h1': {24: 573, 2: 56, 7: 1, 21: 1202, 23: 190}, 'h4': {24: 569, 2: 56, 7: 1, 21: 1208, 23: 194}}
+235000.0 {'h10': {24: 570, 2: 56, 7: 1, 21: 1195, 23: 193}, 'h11': {24: 576, 2: 56, 7: 1, 21: 1182, 23: 188}, 'h1': {24: 573, 2: 56, 7: 1, 21: 1202, 23: 190}, 'h4': {24: 569, 2: 56, 7: 1, 21: 1208, 23: 194}}
+236000.0 {'h10': {24: 570, 2: 56, 7: 1, 21: 1195, 23: 193}, 'h11': {24: 576, 2: 56, 7: 1, 21: 1182, 23: 188}, 'h1': {24: 573, 2: 56, 7: 1, 21: 1202, 23: 190}, 'h4': {24: 569, 2: 56, 7: 1, 21: 1208, 23: 194}}
+237000.0 {'h10': {24: 570, 2: 56, 7: 1, 21: 1195, 23: 193}, 'h11': {24: 576, 2: 56, 7: 1, 21: 1182, 23: 188}, 'h1': {24: 573, 2: 56, 7: 1, 21: 1202, 23: 190}, 'h4': {24: 569, 2: 56, 7: 1, 21: 1208, 23: 194}}
+238000.0 {'h10': {24: 570, 2: 56, 7: 1, 21: 1195, 23: 193}, 'h11': {24: 576, 2: 56, 7: 1, 21: 1182, 23: 188}, 'h1': {24: 573, 2: 56, 7: 1, 21: 1202, 23: 190}, 'h4': {24: 569, 2: 56, 7: 1, 21: 1208, 23: 194}}
+239000.0 {'h10': {24: 570, 2: 56, 7: 1, 21: 1195, 23: 193}, 'h11': {24: 576, 2: 56, 7: 1, 21: 1182, 23: 188}, 'h1': {24: 573, 2: 56, 7: 1, 21: 1202, 23: 190}, 'h4': {24: 569, 2: 56, 7: 1, 21: 1208, 23: 194}}
+240000.0 {'h10': {24: 570, 2: 56, 7: 1, 21: 1195, 23: 193}, 'h11': {24: 576, 2: 56, 7: 1, 21: 1182, 23: 188}, 'h1': {24: 573, 2: 56, 7: 1, 21: 1202, 23: 190}, 'h4': {24: 569, 2: 56, 7: 1, 21: 1208, 23: 194}}
+241000.0 {'h10': {24: 661, 2: 56, 7: 1, 21: 1371, 23: 223}, 'h11': {24: 666, 2: 56, 7: 1, 21: 1360, 23: 219}, 'h1': {24: 662, 2: 56, 7: 1, 21: 1382, 23: 222}, 'h4': {24: 659, 2: 56, 7: 1, 21: 1386, 23: 225}}
+242000.0 {'h10': {24: 661, 2: 56, 7: 1, 21: 1371, 23: 223}, 'h11': {24: 666, 2: 56, 7: 1, 21: 1360, 23: 219}, 'h1': {24: 662, 2: 56, 7: 1, 21: 1382, 23: 222}, 'h4': {24: 659, 2: 56, 7: 1, 21: 1386, 23: 225}}
+242440.931243 s6 notifying down for s5-s6
+242440.931243 s6 notifying down for s5-s6 reliably
+242440.931243 s5 notifying down for s5-s6
+242440.931243 s5 notifying down for s5-s6 reliably
+242442.584499 h1 notify link down s5-s6  version:  1
+242442.584499 Computing link updates
+242442.762461 h4 notify link down s5-s6  version:  1
+242442.762461 Computing link updates
+242443.047856 h10 notify link down s5-s6  version:  1
+242443.047856 Computing link updates
+242443.168377 h11 notify link down s5-s6  version:  1
+242443.168377 Computing link updates
+243000.0 {'h10': {24: 661, 2: 56, 7: 1, 21: 1372, 23: 223}, 'h11': {24: 666, 2: 56, 7: 1, 21: 1361, 23: 219}, 'h1': {24: 662, 2: 56, 7: 1, 21: 1383, 23: 222}, 'h4': {24: 659, 2: 56, 7: 1, 21: 1387, 23: 225}}
+244000.0 {'h10': {24: 661, 2: 56, 7: 1, 21: 1372, 23: 223}, 'h11': {24: 666, 2: 56, 7: 1, 21: 1361, 23: 219}, 'h1': {24: 662, 2: 56, 7: 1, 21: 1383, 23: 222}, 'h4': {24: 659, 2: 56, 7: 1, 21: 1387, 23: 225}}
+245000.0 {'h10': {24: 661, 2: 56, 7: 1, 21: 1372, 23: 223}, 'h11': {24: 666, 2: 56, 7: 1, 21: 1361, 23: 219}, 'h1': {24: 662, 2: 56, 7: 1, 21: 1383, 23: 222}, 'h4': {24: 659, 2: 56, 7: 1, 21: 1387, 23: 225}}
+246000.0 {'h10': {24: 661, 2: 56, 7: 1, 21: 1372, 23: 223}, 'h11': {24: 666, 2: 56, 7: 1, 21: 1361, 23: 219}, 'h1': {24: 662, 2: 56, 7: 1, 21: 1383, 23: 222}, 'h4': {24: 659, 2: 56, 7: 1, 21: 1387, 23: 225}}
+247000.0 {'h10': {24: 661, 2: 56, 7: 1, 21: 1372, 23: 223}, 'h11': {24: 666, 2: 56, 7: 1, 21: 1361, 23: 219}, 'h1': {24: 662, 2: 56, 7: 1, 21: 1383, 23: 222}, 'h4': {24: 659, 2: 56, 7: 1, 21: 1387, 23: 225}}
+248000.0 {'h10': {24: 661, 2: 56, 7: 1, 21: 1372, 23: 223}, 'h11': {24: 666, 2: 56, 7: 1, 21: 1361, 23: 219}, 'h1': {24: 662, 2: 56, 7: 1, 21: 1383, 23: 222}, 'h4': {24: 659, 2: 56, 7: 1, 21: 1387, 23: 225}}
+249000.0 {'h10': {24: 661, 2: 56, 7: 1, 21: 1372, 23: 223}, 'h11': {24: 666, 2: 56, 7: 1, 21: 1361, 23: 219}, 'h1': {24: 662, 2: 56, 7: 1, 21: 1383, 23: 222}, 'h4': {24: 659, 2: 56, 7: 1, 21: 1387, 23: 225}}
+250000.0 {'h10': {24: 661, 2: 56, 7: 1, 21: 1372, 23: 223}, 'h11': {24: 666, 2: 56, 7: 1, 21: 1361, 23: 219}, 'h1': {24: 662, 2: 56, 7: 1, 21: 1383, 23: 222}, 'h4': {24: 659, 2: 56, 7: 1, 21: 1387, 23: 225}}
+251000.0 {'h10': {24: 661, 2: 56, 7: 1, 21: 1372, 23: 223}, 'h11': {24: 666, 2: 56, 7: 1, 21: 1361, 23: 219}, 'h1': {24: 662, 2: 56, 7: 1, 21: 1383, 23: 222}, 'h4': {24: 659, 2: 56, 7: 1, 21: 1387, 23: 225}}
+252000.0 {'h10': {24: 661, 2: 56, 7: 1, 21: 1372, 23: 223}, 'h11': {24: 666, 2: 56, 7: 1, 21: 1361, 23: 219}, 'h1': {24: 662, 2: 56, 7: 1, 21: 1383, 23: 222}, 'h4': {24: 659, 2: 56, 7: 1, 21: 1387, 23: 225}}
+253000.0 {'h10': {24: 661, 2: 56, 7: 1, 21: 1372, 23: 223}, 'h11': {24: 666, 2: 56, 7: 1, 21: 1361, 23: 219}, 'h1': {24: 662, 2: 56, 7: 1, 21: 1383, 23: 222}, 'h4': {24: 659, 2: 56, 7: 1, 21: 1387, 23: 225}}
+254000.0 {'h10': {24: 661, 2: 56, 7: 1, 21: 1372, 23: 223}, 'h11': {24: 666, 2: 56, 7: 1, 21: 1361, 23: 219}, 'h1': {24: 662, 2: 56, 7: 1, 21: 1383, 23: 222}, 'h4': {24: 659, 2: 56, 7: 1, 21: 1387, 23: 225}}
+255000.0 {'h10': {24: 661, 2: 56, 7: 1, 21: 1372, 23: 223}, 'h11': {24: 666, 2: 56, 7: 1, 21: 1361, 23: 219}, 'h1': {24: 662, 2: 56, 7: 1, 21: 1383, 23: 222}, 'h4': {24: 659, 2: 56, 7: 1, 21: 1387, 23: 225}}
+255645.506055 s17 notifying down for s2-s17
+255645.506055 s17 notifying down for s2-s17 reliably
+255645.506055 s2 notifying down for s2-s17
+255645.506055 s2 notifying down for s2-s17 reliably
+255647.211944 h10 notify link down s2-s17  version:  1
+255647.211944 Computing link updates
+255647.211944 h10 updating s3 with len 4
+       Update to s3 with len 4
+255647.211944 h10 updating s2 with len 8
+       Update to s2 with len 8
+255647.211944 h10 updating s9 with len 12
+       Update to s9 with len 12
+255647.211944 h10 updating s17 with len 8
+       Update to s17 with len 8
+255647.237702 h4 notify link down s2-s17  version:  1
+255647.237702 Computing link updates
+255647.237702 h4 updating s3 with len 4
+       Update to s3 with len 4
+255647.237702 h4 updating s2 with len 8
+       Update to s2 with len 8
+255647.237702 h4 updating s9 with len 12
+       Update to s9 with len 12
+255647.237702 h4 updating s17 with len 8
+       Update to s17 with len 8
+255647.286919 h4 notify link down s2-s17  version:  1
+255647.286919 Skipping because of link version
+255647.299560 h10 notify link down s2-s17  version:  1
+255647.299560 Skipping because of link version
+255647.333768 h11 notify link down s2-s17  version:  1
+255647.333768 Computing link updates
+255647.333768 h11 updating s3 with len 4
+       Update to s3 with len 4
+255647.333768 h11 updating s2 with len 8
+       Update to s2 with len 8
+255647.333768 h11 updating s9 with len 12
+       Update to s9 with len 12
+255647.333768 h11 updating s17 with len 8
+       Update to s17 with len 8
+255647.640318 h11 notify link down s2-s17  version:  1
+255647.640318 Skipping because of link version
+255648.452552 received rule update s9
+255648.473282 received rule update s3
+255648.930997 received rule update s17
+255648.952410 received rule update s3
+255649.133953 received rule update s17
+255649.213704 received rule update s3
+255649.322854 received rule update s2
+255649.407935 received rule update s17
+255649.488654 received rule update s9
+255649.552711 received rule update s2
+255649.662408 received rule update s9
+255649.941458 received rule update s2
+256000.0 {'h10': {24: 661, 2: 60, 7: 1, 21: 1374, 23: 223}, 'h11': {24: 666, 2: 60, 7: 1, 21: 1363, 23: 219}, 'h1': {24: 662, 2: 56, 7: 1, 21: 1383, 23: 222}, 'h4': {24: 659, 2: 60, 7: 1, 21: 1389, 23: 225}}
+257000.0 {'h10': {24: 661, 2: 60, 7: 1, 21: 1374, 23: 223}, 'h11': {24: 666, 2: 60, 7: 1, 21: 1363, 23: 219}, 'h1': {24: 662, 2: 56, 7: 1, 21: 1383, 23: 222}, 'h4': {24: 659, 2: 60, 7: 1, 21: 1389, 23: 225}}
+258000.0 {'h10': {24: 661, 2: 60, 7: 1, 21: 1374, 23: 223}, 'h11': {24: 666, 2: 60, 7: 1, 21: 1363, 23: 219}, 'h1': {24: 662, 2: 56, 7: 1, 21: 1383, 23: 222}, 'h4': {24: 659, 2: 60, 7: 1, 21: 1389, 23: 225}}
+259000.0 {'h10': {24: 661, 2: 60, 7: 1, 21: 1374, 23: 223}, 'h11': {24: 666, 2: 60, 7: 1, 21: 1363, 23: 219}, 'h1': {24: 662, 2: 56, 7: 1, 21: 1383, 23: 222}, 'h4': {24: 659, 2: 60, 7: 1, 21: 1389, 23: 225}}
+260000.0 {'h10': {24: 661, 2: 60, 7: 1, 21: 1374, 23: 223}, 'h11': {24: 666, 2: 60, 7: 1, 21: 1363, 23: 219}, 'h1': {24: 662, 2: 56, 7: 1, 21: 1383, 23: 222}, 'h4': {24: 659, 2: 60, 7: 1, 21: 1389, 23: 225}}
+261000.0 {'h10': {24: 661, 2: 60, 7: 1, 21: 1374, 23: 223}, 'h11': {24: 666, 2: 60, 7: 1, 21: 1363, 23: 219}, 'h1': {24: 662, 2: 56, 7: 1, 21: 1383, 23: 222}, 'h4': {24: 659, 2: 60, 7: 1, 21: 1389, 23: 225}}
+262000.0 {'h10': {24: 661, 2: 60, 7: 1, 21: 1374, 23: 223}, 'h11': {24: 666, 2: 60, 7: 1, 21: 1363, 23: 219}, 'h1': {24: 662, 2: 56, 7: 1, 21: 1383, 23: 222}, 'h4': {24: 659, 2: 60, 7: 1, 21: 1389, 23: 225}}
+263000.0 {'h10': {24: 661, 2: 60, 7: 1, 21: 1374, 23: 223}, 'h11': {24: 666, 2: 60, 7: 1, 21: 1363, 23: 219}, 'h1': {24: 662, 2: 56, 7: 1, 21: 1383, 23: 222}, 'h4': {24: 659, 2: 60, 7: 1, 21: 1389, 23: 225}}
+264000.0 {'h10': {24: 661, 2: 60, 7: 1, 21: 1374, 23: 223}, 'h11': {24: 666, 2: 60, 7: 1, 21: 1363, 23: 219}, 'h1': {24: 662, 2: 56, 7: 1, 21: 1383, 23: 222}, 'h4': {24: 659, 2: 60, 7: 1, 21: 1389, 23: 225}}
+265000.0 {'h10': {24: 661, 2: 60, 7: 1, 21: 1374, 23: 223}, 'h11': {24: 666, 2: 60, 7: 1, 21: 1363, 23: 219}, 'h1': {24: 662, 2: 56, 7: 1, 21: 1383, 23: 222}, 'h4': {24: 659, 2: 60, 7: 1, 21: 1389, 23: 225}}
+266000.0 {'h10': {24: 661, 2: 60, 7: 1, 21: 1374, 23: 223}, 'h11': {24: 666, 2: 60, 7: 1, 21: 1363, 23: 219}, 'h1': {24: 662, 2: 56, 7: 1, 21: 1383, 23: 222}, 'h4': {24: 659, 2: 60, 7: 1, 21: 1389, 23: 225}}
+267000.0 {'h10': {24: 661, 2: 60, 7: 1, 21: 1374, 23: 223}, 'h11': {24: 666, 2: 60, 7: 1, 21: 1363, 23: 219}, 'h1': {24: 662, 2: 56, 7: 1, 21: 1383, 23: 222}, 'h4': {24: 659, 2: 60, 7: 1, 21: 1389, 23: 225}}
+268000.0 {'h10': {24: 661, 2: 60, 7: 1, 21: 1374, 23: 223}, 'h11': {24: 666, 2: 60, 7: 1, 21: 1363, 23: 219}, 'h1': {24: 662, 2: 56, 7: 1, 21: 1383, 23: 222}, 'h4': {24: 659, 2: 60, 7: 1, 21: 1389, 23: 225}}
+269000.0 {'h10': {24: 661, 2: 60, 7: 1, 21: 1374, 23: 223}, 'h11': {24: 666, 2: 60, 7: 1, 21: 1363, 23: 219}, 'h1': {24: 662, 2: 56, 7: 1, 21: 1383, 23: 222}, 'h4': {24: 659, 2: 60, 7: 1, 21: 1389, 23: 225}}
+270000.0 {'h10': {24: 661, 2: 60, 7: 1, 21: 1374, 23: 223}, 'h11': {24: 666, 2: 60, 7: 1, 21: 1363, 23: 219}, 'h1': {24: 662, 2: 56, 7: 1, 21: 1383, 23: 222}, 'h4': {24: 659, 2: 60, 7: 1, 21: 1389, 23: 225}}
+271000.0 {'h10': {24: 724, 2: 60, 7: 1, 21: 1495, 23: 253}, 'h11': {24: 727, 2: 60, 7: 1, 21: 1485, 23: 251}, 'h1': {24: 662, 2: 56, 7: 1, 21: 1383, 23: 255}, 'h4': {24: 721, 2: 60, 7: 1, 21: 1513, 23: 256}}
+272000.0 {'h10': {24: 724, 2: 60, 7: 1, 21: 1495, 23: 253}, 'h11': {24: 727, 2: 60, 7: 1, 21: 1485, 23: 251}, 'h1': {24: 662, 2: 56, 7: 1, 21: 1383, 23: 255}, 'h4': {24: 721, 2: 60, 7: 1, 21: 1513, 23: 256}}
+273000.0 {'h10': {24: 724, 2: 60, 7: 1, 21: 1495, 23: 253}, 'h11': {24: 727, 2: 60, 7: 1, 21: 1485, 23: 251}, 'h1': {24: 662, 2: 56, 7: 1, 21: 1383, 23: 255}, 'h4': {24: 721, 2: 60, 7: 1, 21: 1513, 23: 256}}
+274000.0 {'h10': {24: 724, 2: 60, 7: 1, 21: 1495, 23: 253}, 'h11': {24: 727, 2: 60, 7: 1, 21: 1485, 23: 251}, 'h1': {24: 662, 2: 56, 7: 1, 21: 1383, 23: 255}, 'h4': {24: 721, 2: 60, 7: 1, 21: 1513, 23: 256}}
+275000.0 {'h10': {24: 724, 2: 60, 7: 1, 21: 1495, 23: 253}, 'h11': {24: 727, 2: 60, 7: 1, 21: 1485, 23: 251}, 'h1': {24: 662, 2: 56, 7: 1, 21: 1383, 23: 255}, 'h4': {24: 721, 2: 60, 7: 1, 21: 1513, 23: 256}}
+276000.0 {'h10': {24: 724, 2: 60, 7: 1, 21: 1495, 23: 253}, 'h11': {24: 727, 2: 60, 7: 1, 21: 1485, 23: 251}, 'h1': {24: 662, 2: 56, 7: 1, 21: 1383, 23: 255}, 'h4': {24: 721, 2: 60, 7: 1, 21: 1513, 23: 256}}
+277000.0 {'h10': {24: 724, 2: 60, 7: 1, 21: 1495, 23: 253}, 'h11': {24: 727, 2: 60, 7: 1, 21: 1485, 23: 251}, 'h1': {24: 662, 2: 56, 7: 1, 21: 1383, 23: 255}, 'h4': {24: 721, 2: 60, 7: 1, 21: 1513, 23: 256}}
+278000.0 {'h10': {24: 724, 2: 60, 7: 1, 21: 1495, 23: 253}, 'h11': {24: 727, 2: 60, 7: 1, 21: 1485, 23: 251}, 'h1': {24: 662, 2: 56, 7: 1, 21: 1383, 23: 255}, 'h4': {24: 721, 2: 60, 7: 1, 21: 1513, 23: 256}}
+279000.0 {'h10': {24: 724, 2: 60, 7: 1, 21: 1495, 23: 253}, 'h11': {24: 727, 2: 60, 7: 1, 21: 1485, 23: 251}, 'h1': {24: 662, 2: 56, 7: 1, 21: 1383, 23: 255}, 'h4': {24: 721, 2: 60, 7: 1, 21: 1513, 23: 256}}
+280000.0 {'h10': {24: 724, 2: 60, 7: 1, 21: 1495, 23: 253}, 'h11': {24: 727, 2: 60, 7: 1, 21: 1485, 23: 251}, 'h1': {24: 662, 2: 56, 7: 1, 21: 1383, 23: 255}, 'h4': {24: 721, 2: 60, 7: 1, 21: 1513, 23: 256}}
+280641.353407 s19 notifying down for s17-s19
+280641.353407 s19 notifying down for s17-s19 reliably
+280641.353407 s17 notifying down for s17-s19
+280641.353407 s17 notifying down for s17-s19 reliably
+280642.804289 h4 notify link down s17-s19  version:  3
+280642.804289 Computing link updates
+280643.061647 h10 notify link down s17-s19  version:  3
+280643.061647 Computing link updates
+280643.112235 h11 notify link down s17-s19  version:  3
+280643.112235 Computing link updates
+281000.0 {'h10': {24: 724, 2: 60, 7: 1, 21: 1496, 23: 253}, 'h11': {24: 727, 2: 60, 7: 1, 21: 1486, 23: 251}, 'h1': {24: 662, 2: 56, 7: 1, 21: 1383, 23: 255}, 'h4': {24: 721, 2: 60, 7: 1, 21: 1514, 23: 256}}
+282000.0 {'h10': {24: 724, 2: 60, 7: 1, 21: 1496, 23: 253}, 'h11': {24: 727, 2: 60, 7: 1, 21: 1486, 23: 251}, 'h1': {24: 662, 2: 56, 7: 1, 21: 1383, 23: 255}, 'h4': {24: 721, 2: 60, 7: 1, 21: 1514, 23: 256}}
+283000.0 {'h10': {24: 724, 2: 60, 7: 1, 21: 1496, 23: 253}, 'h11': {24: 727, 2: 60, 7: 1, 21: 1486, 23: 251}, 'h1': {24: 662, 2: 56, 7: 1, 21: 1383, 23: 255}, 'h4': {24: 721, 2: 60, 7: 1, 21: 1514, 23: 256}}
+284000.0 {'h10': {24: 724, 2: 60, 7: 1, 21: 1496, 23: 253}, 'h11': {24: 727, 2: 60, 7: 1, 21: 1486, 23: 251}, 'h1': {24: 662, 2: 56, 7: 1, 21: 1383, 23: 255}, 'h4': {24: 721, 2: 60, 7: 1, 21: 1514, 23: 256}}
+285000.0 {'h10': {24: 724, 2: 60, 7: 1, 21: 1496, 23: 253}, 'h11': {24: 727, 2: 60, 7: 1, 21: 1486, 23: 251}, 'h1': {24: 662, 2: 56, 7: 1, 21: 1383, 23: 255}, 'h4': {24: 721, 2: 60, 7: 1, 21: 1514, 23: 256}}
+286000.0 {'h10': {24: 724, 2: 60, 7: 1, 21: 1496, 23: 253}, 'h11': {24: 727, 2: 60, 7: 1, 21: 1486, 23: 251}, 'h1': {24: 662, 2: 56, 7: 1, 21: 1383, 23: 255}, 'h4': {24: 721, 2: 60, 7: 1, 21: 1514, 23: 256}}
+287000.0 {'h10': {24: 724, 2: 60, 7: 1, 21: 1496, 23: 253}, 'h11': {24: 727, 2: 60, 7: 1, 21: 1486, 23: 251}, 'h1': {24: 662, 2: 56, 7: 1, 21: 1383, 23: 255}, 'h4': {24: 721, 2: 60, 7: 1, 21: 1514, 23: 256}}
+288000.0 {'h10': {24: 724, 2: 60, 7: 1, 21: 1496, 23: 253}, 'h11': {24: 727, 2: 60, 7: 1, 21: 1486, 23: 251}, 'h1': {24: 662, 2: 56, 7: 1, 21: 1383, 23: 255}, 'h4': {24: 721, 2: 60, 7: 1, 21: 1514, 23: 256}}
+288404.752855 s9 notifying down for s9-s10
+288404.752855 s9 notifying down for s9-s10 reliably
+288404.752855 s10 notifying down for s9-s10
+288404.752855 s10 notifying down for s9-s10 reliably
+288405.779964 h4 notify link down s9-s10  version:  1
+288405.779964 Computing link updates
+288406.629839 h10 notify link down s9-s10  version:  1
+288406.629839 Computing link updates
+288406.763594 h11 notify link down s9-s10  version:  1
+288406.763594 Computing link updates
+289000.0 {'h10': {24: 724, 2: 60, 7: 1, 21: 1497, 23: 253}, 'h11': {24: 727, 2: 60, 7: 1, 21: 1487, 23: 251}, 'h1': {24: 662, 2: 56, 7: 1, 21: 1383, 23: 255}, 'h4': {24: 721, 2: 60, 7: 1, 21: 1515, 23: 256}}
+290000.0 {'h10': {24: 724, 2: 60, 7: 1, 21: 1497, 23: 253}, 'h11': {24: 727, 2: 60, 7: 1, 21: 1487, 23: 251}, 'h1': {24: 662, 2: 56, 7: 1, 21: 1383, 23: 255}, 'h4': {24: 721, 2: 60, 7: 1, 21: 1515, 23: 256}}
+291000.0 {'h10': {24: 724, 2: 60, 7: 1, 21: 1497, 23: 253}, 'h11': {24: 727, 2: 60, 7: 1, 21: 1487, 23: 251}, 'h1': {24: 662, 2: 56, 7: 1, 21: 1383, 23: 255}, 'h4': {24: 721, 2: 60, 7: 1, 21: 1515, 23: 256}}
+292000.0 {'h10': {24: 724, 2: 60, 7: 1, 21: 1497, 23: 253}, 'h11': {24: 727, 2: 60, 7: 1, 21: 1487, 23: 251}, 'h1': {24: 662, 2: 56, 7: 1, 21: 1383, 23: 255}, 'h4': {24: 721, 2: 60, 7: 1, 21: 1515, 23: 256}}
+293000.0 {'h10': {24: 724, 2: 60, 7: 1, 21: 1497, 23: 253}, 'h11': {24: 727, 2: 60, 7: 1, 21: 1487, 23: 251}, 'h1': {24: 662, 2: 56, 7: 1, 21: 1383, 23: 255}, 'h4': {24: 721, 2: 60, 7: 1, 21: 1515, 23: 256}}
+294000.0 {'h10': {24: 724, 2: 60, 7: 1, 21: 1497, 23: 253}, 'h11': {24: 727, 2: 60, 7: 1, 21: 1487, 23: 251}, 'h1': {24: 662, 2: 56, 7: 1, 21: 1383, 23: 255}, 'h4': {24: 721, 2: 60, 7: 1, 21: 1515, 23: 256}}
+295000.0 {'h10': {24: 724, 2: 60, 7: 1, 21: 1497, 23: 253}, 'h11': {24: 727, 2: 60, 7: 1, 21: 1487, 23: 251}, 'h1': {24: 662, 2: 56, 7: 1, 21: 1383, 23: 255}, 'h4': {24: 721, 2: 60, 7: 1, 21: 1515, 23: 256}}
+296000.0 {'h10': {24: 724, 2: 60, 7: 1, 21: 1497, 23: 253}, 'h11': {24: 727, 2: 60, 7: 1, 21: 1487, 23: 251}, 'h1': {24: 662, 2: 56, 7: 1, 21: 1383, 23: 255}, 'h4': {24: 721, 2: 60, 7: 1, 21: 1515, 23: 256}}
+297000.0 {'h10': {24: 724, 2: 60, 7: 1, 21: 1497, 23: 253}, 'h11': {24: 727, 2: 60, 7: 1, 21: 1487, 23: 251}, 'h1': {24: 662, 2: 56, 7: 1, 21: 1383, 23: 255}, 'h4': {24: 721, 2: 60, 7: 1, 21: 1515, 23: 256}}
+298000.0 {'h10': {24: 724, 2: 60, 7: 1, 21: 1497, 23: 253}, 'h11': {24: 727, 2: 60, 7: 1, 21: 1487, 23: 251}, 'h1': {24: 662, 2: 56, 7: 1, 21: 1383, 23: 255}, 'h4': {24: 721, 2: 60, 7: 1, 21: 1515, 23: 256}}
+299000.0 {'h10': {24: 724, 2: 60, 7: 1, 21: 1497, 23: 253}, 'h11': {24: 727, 2: 60, 7: 1, 21: 1487, 23: 251}, 'h1': {24: 662, 2: 56, 7: 1, 21: 1383, 23: 255}, 'h4': {24: 721, 2: 60, 7: 1, 21: 1515, 23: 256}}
+Done replay, left 113 items
+Messages
+h1
+    NotifyLinkDown 51
+    NotifyLinkUp 5
+h4
+    NotifyLinkDown 55
+    NotifyLinkUp 5
+h10
+    NotifyLinkDown 55
+    NotifyLinkUp 5
+h11
+    NotifyLinkDown 55
+    NotifyLinkUp 5
+Rule Changes
+49320.647446 s13 change
+49320.647446 s13 change
+49320.647446 s13 change
+49320.647446 s13 change
+49320.647446 s13 change
+49320.647446 s13 change
+49320.946117 s5 change
+49320.946117 s5 change
+49320.946117 s5 change
+49320.946117 s5 change
+49320.946117 s5 change
+49320.946117 s5 change
+49320.946117 s5 change
+49320.946117 s5 change
+49320.946117 s5 change
+49320.946117 s5 change
+49320.946117 s5 change
+49320.946117 s5 change
+49320.946117 s5 change
+49320.946117 s5 change
+49320.946117 s5 change
+49320.946117 s5 change
+49320.946117 s5 change
+49320.946117 s5 change
+49320.946117 s5 change
+49320.946117 s5 change
+49320.946117 s5 change
+49320.946117 s5 change
+49320.946117 s5 change
+49320.946117 s5 change
+49320.946117 s5 change
+49320.946117 s5 change
+49320.946117 s5 change
+49321.030297 s2 change
+49321.030297 s2 change
+49321.030297 s2 change
+49321.030297 s2 change
+49321.030297 s2 change
+49321.030297 s2 change
+49321.030297 s2 change
+49321.030297 s2 change
+49321.030297 s2 change
+49321.030297 s2 change
+49321.030297 s2 change
+49321.030297 s2 change
+49321.030297 s2 change
+49321.030297 s2 change
+49321.030297 s2 change
+49321.030297 s2 change
+49321.030297 s2 change
+49321.030297 s2 change
+49321.030297 s2 change
+49321.030297 s2 change
+49321.030297 s2 change
+49321.030297 s2 change
+49321.030297 s2 change
+49321.030297 s2 change
+49321.030297 s2 change
+49321.030297 s2 change
+49321.030297 s2 change
+49321.030297 s2 change
+49321.030297 s2 change
+49321.030297 s2 change
+49321.030297 s2 change
+49321.030297 s2 change
+49321.030297 s2 change
+49321.030297 s2 change
+49321.030297 s2 change
+49321.030297 s2 change
+49321.030297 s2 change
+49321.030297 s2 change
+49321.030297 s2 change
+49321.030297 s2 change
+49321.030297 s2 change
+49321.030297 s2 change
+49321.030297 s2 change
+49321.030297 s2 change
+49321.030297 s2 change
+49321.030297 s2 change
+49321.030297 s2 change
+49321.030297 s2 change
+49321.030297 s2 change
+49321.030297 s2 change
+49321.030297 s2 change
+49321.030297 s2 change
+49321.030297 s2 change
+49321.030297 s2 change
+49321.294625 s9 change
+49321.294625 s9 change
+49321.294625 s9 change
+49321.294625 s9 change
+49321.294625 s9 change
+49321.294625 s9 change
+49321.294625 s9 change
+49321.294625 s9 change
+49321.294625 s9 change
+49321.340420 s17 change
+49321.340420 s17 change
+49321.340420 s17 change
+49321.340420 s17 change
+49321.340420 s17 change
+49321.340420 s17 change
+49321.340420 s17 change
+49321.340420 s17 change
+49321.340420 s17 change
+49321.340420 s17 change
+49321.340420 s17 change
+49321.340420 s17 change
+83596.847184 s4 change
+83596.847184 s4 change
+83596.847184 s4 change
+83596.847184 s4 change
+83596.941344 s3 change
+83596.941344 s3 change
+83596.941344 s3 change
+83596.941344 s3 change
+83597.066112 s13 change
+83597.066112 s13 change
+83597.066112 s13 change
+83597.066112 s13 change
+83597.074265 s9 change
+83597.074265 s9 change
+83597.074265 s9 change
+83597.074265 s9 change
+83597.074265 s9 change
+83597.074265 s9 change
+83597.074265 s9 change
+83597.074265 s9 change
+83597.227319 s12 change
+83597.227319 s12 change
+83597.227319 s12 change
+83597.227319 s12 change
+83597.275626 s1 change
+83597.275626 s1 change
+83597.275626 s1 change
+83597.275626 s1 change
+83597.358616 s14 change
+83597.358616 s14 change
+83597.471414 s2 change
+83597.471414 s2 change
+83597.471414 s2 change
+83597.471414 s2 change
+83597.540420 s6 change
+83597.540420 s6 change
+83809.205870 s2 change
+83809.205870 s2 change
+83809.210350 s9 change
+83809.210350 s9 change
+83809.210350 s9 change
+83809.210350 s9 change
+83809.249368 s6 change
+83809.249368 s6 change
+83809.276961 s13 change
+83809.276961 s13 change
+83809.645585 s14 change
+83809.645585 s14 change
+83809.675568 s3 change
+83809.675568 s3 change
+102164.661181 s10 change
+102164.661181 s10 change
+102164.768201 s14 change
+102164.768201 s14 change
+102164.768201 s14 change
+102164.768201 s14 change
+102164.784041 s12 change
+102164.784041 s12 change
+102164.784041 s12 change
+102164.784041 s12 change
+102164.784041 s12 change
+102164.784041 s12 change
+102164.784041 s12 change
+102164.784041 s12 change
+102164.855175 s16 change
+102164.855175 s16 change
+102164.855175 s16 change
+102164.855175 s16 change
+102164.855175 s16 change
+102164.855175 s16 change
+102164.855175 s16 change
+102164.855175 s16 change
+102164.855175 s16 change
+102164.855175 s16 change
+102164.855175 s16 change
+102164.855175 s16 change
+102164.855175 s16 change
+102164.855175 s16 change
+102164.855175 s16 change
+102164.855175 s16 change
+102164.855175 s16 change
+102164.855175 s16 change
+102164.855175 s16 change
+102164.855175 s16 change
+102164.855175 s16 change
+102164.855175 s16 change
+102164.855175 s16 change
+102164.855175 s16 change
+102164.855175 s16 change
+102164.855175 s16 change
+102164.855175 s16 change
+102164.855175 s16 change
+102164.855175 s16 change
+102164.855175 s16 change
+102164.855175 s16 change
+102164.855175 s16 change
+102164.955143 s0 change
+102164.955143 s0 change
+102164.955143 s0 change
+102164.955143 s0 change
+102164.955143 s0 change
+102164.955143 s0 change
+102164.955143 s0 change
+102164.955143 s0 change
+102164.955143 s0 change
+102164.955143 s0 change
+102164.955143 s0 change
+102164.955143 s0 change
+102165.094190 s8 change
+102165.094190 s8 change
+102165.094190 s8 change
+102165.094190 s8 change
+102165.211100 s19 change
+102165.211100 s19 change
+102165.211100 s19 change
+102165.211100 s19 change
+102165.211100 s19 change
+102165.211100 s19 change
+102165.211100 s19 change
+102165.211100 s19 change
+102165.211100 s19 change
+102165.211100 s19 change
+102165.211100 s19 change
+102165.211100 s19 change
+102165.211100 s19 change
+102165.211100 s19 change
+102165.211100 s19 change
+102165.211100 s19 change
+102165.347524 s17 change
+102165.347524 s17 change
+102165.347524 s17 change
+102165.347524 s17 change
+102165.347524 s17 change
+102165.347524 s17 change
+102165.353631 s18 change
+102165.353631 s18 change
+102165.353631 s18 change
+102165.353631 s18 change
+102165.353631 s18 change
+102165.353631 s18 change
+102165.353631 s18 change
+102165.353631 s18 change
+102165.353631 s18 change
+102165.353631 s18 change
+102165.353631 s18 change
+102165.353631 s18 change
+102165.353631 s18 change
+102165.353631 s18 change
+102165.353631 s18 change
+102165.353631 s18 change
+131376.614893 s15 change
+131376.614893 s15 change
+131376.614893 s15 change
+131376.614893 s15 change
+131376.798151 s13 change
+131376.798151 s13 change
+131376.798151 s13 change
+131376.798151 s13 change
+131377.146744 s14 change
+131377.146744 s14 change
+131377.146744 s14 change
+131377.146744 s14 change
+131377.212226 s16 change
+131377.212226 s16 change
+131377.212226 s16 change
+131377.212226 s16 change
+131377.256785 s18 change
+131377.256785 s18 change
+131377.256785 s18 change
+131377.256785 s18 change
+154932.930861 s16 change
+154932.930861 s16 change
+154933.045164 s17 change
+154933.045164 s17 change
+154933.111036 s18 change
+154933.111036 s18 change
+154933.111036 s18 change
+154933.111036 s18 change
+154933.354717 s10 change
+154933.354717 s10 change
+184429.759876 s8 change
+184429.759876 s8 change
+184429.759876 s8 change
+184429.759876 s8 change
+184429.759876 s8 change
+184429.759876 s8 change
+184429.759876 s8 change
+184429.759876 s8 change
+184429.768997 s10 change
+184429.768997 s10 change
+184429.768997 s10 change
+184429.768997 s10 change
+184429.768997 s10 change
+184429.768997 s10 change
+184429.768997 s10 change
+184429.768997 s10 change
+184429.785383 s9 change
+184429.785383 s9 change
+184429.785383 s9 change
+184429.785383 s9 change
+184429.785383 s9 change
+184429.785383 s9 change
+184429.785383 s9 change
+184429.785383 s9 change
+184429.785383 s9 change
+184429.785383 s9 change
+184429.785383 s9 change
+184429.785383 s9 change
+184429.909543 s2 change
+184429.909543 s2 change
+184429.909543 s2 change
+184429.909543 s2 change
+184429.909543 s2 change
+184429.909543 s2 change
+184429.976513 s12 change
+184429.976513 s12 change
+184429.976513 s12 change
+184429.976513 s12 change
+184429.976513 s12 change
+184429.976513 s12 change
+184429.976513 s12 change
+184429.976513 s12 change
+184429.976513 s12 change
+184429.976513 s12 change
+184429.976513 s12 change
+184429.976513 s12 change
+184429.976513 s12 change
+184429.976513 s12 change
+184429.976513 s12 change
+184429.976513 s12 change
+184429.976513 s12 change
+184429.976513 s12 change
+184429.976513 s12 change
+184429.976513 s12 change
+184429.976513 s12 change
+184429.976513 s12 change
+184429.976513 s12 change
+184429.976513 s12 change
+184429.976513 s12 change
+184429.976513 s12 change
+184429.976513 s12 change
+184429.976513 s12 change
+184430.039257 s15 change
+184430.039257 s15 change
+184430.039257 s15 change
+184430.039257 s15 change
+184430.039257 s15 change
+184430.039257 s15 change
+184430.039257 s15 change
+184430.039257 s15 change
+184430.039257 s15 change
+184430.039257 s15 change
+184430.039257 s15 change
+184430.039257 s15 change
+184430.039257 s15 change
+184430.039257 s15 change
+184430.039257 s15 change
+184430.039257 s15 change
+184430.039257 s15 change
+184430.039257 s15 change
+184430.145402 s13 change
+184430.145402 s13 change
+184430.145402 s13 change
+184430.145402 s13 change
+184430.145402 s13 change
+184430.145402 s13 change
+184430.145402 s13 change
+184430.145402 s13 change
+184430.145402 s13 change
+184430.145402 s13 change
+184430.145402 s13 change
+184430.145402 s13 change
+184430.145402 s13 change
+184430.145402 s13 change
+184430.286460 s17 change
+184430.286460 s17 change
+184430.286460 s17 change
+184430.286460 s17 change
+184430.293860 s3 change
+184430.293860 s3 change
+184430.293860 s3 change
+184430.293860 s3 change
+184430.293860 s3 change
+184430.293860 s3 change
+184430.293860 s3 change
+184430.293860 s3 change
+184430.293860 s3 change
+184430.293860 s3 change
+184430.293860 s3 change
+184430.293860 s3 change
+184430.293860 s3 change
+184430.293860 s3 change
+184430.321172 s16 change
+184430.321172 s16 change
+184430.321172 s16 change
+184430.321172 s16 change
+184430.321172 s16 change
+184430.321172 s16 change
+184430.321172 s16 change
+184430.321172 s16 change
+184430.321172 s16 change
+184430.321172 s16 change
+184430.321172 s16 change
+184430.321172 s16 change
+184430.321172 s16 change
+184430.321172 s16 change
+184430.321172 s16 change
+184430.321172 s16 change
+184430.347869 s1 change
+184430.347869 s1 change
+184430.347869 s1 change
+184430.347869 s1 change
+184430.347869 s1 change
+184430.347869 s1 change
+184430.347869 s1 change
+184430.347869 s1 change
+184430.347869 s1 change
+184430.347869 s1 change
+184430.403949 s0 change
+184430.403949 s0 change
+184430.403949 s0 change
+184430.403949 s0 change
+184430.403949 s0 change
+184430.403949 s0 change
+184430.403949 s0 change
+184430.403949 s0 change
+184430.403949 s0 change
+184430.403949 s0 change
+184430.403949 s0 change
+184430.403949 s0 change
+184430.403949 s0 change
+184430.403949 s0 change
+184430.403949 s0 change
+184430.403949 s0 change
+184430.403949 s0 change
+184430.403949 s0 change
+184430.403949 s0 change
+184430.403949 s0 change
+184430.403949 s0 change
+184430.403949 s0 change
+184430.494862 s18 change
+184430.494862 s18 change
+184430.494862 s18 change
+184430.494862 s18 change
+188186.159770 s10 change
+188186.159770 s10 change
+188186.403311 s13 change
+188186.403311 s13 change
+188186.403311 s13 change
+188186.403311 s13 change
+188186.435387 s2 change
+188186.435387 s2 change
+188186.435387 s2 change
+188186.435387 s2 change
+188186.435387 s2 change
+188186.435387 s2 change
+188186.539535 s19 change
+188186.539535 s19 change
+188186.539535 s19 change
+188186.539535 s19 change
+188186.539535 s19 change
+188186.539535 s19 change
+188186.539535 s19 change
+188186.539535 s19 change
+188186.539535 s19 change
+188186.539535 s19 change
+188186.539535 s19 change
+188186.539535 s19 change
+188186.539535 s19 change
+188186.539535 s19 change
+188186.539535 s19 change
+188186.539535 s19 change
+188186.759299 s17 change
+188186.759299 s17 change
+188186.759299 s17 change
+188186.759299 s17 change
+188186.759299 s17 change
+188186.759299 s17 change
+188186.759299 s17 change
+188186.759299 s17 change
+188186.759299 s17 change
+188186.759299 s17 change
+188186.759299 s17 change
+188186.759299 s17 change
+255648.452552 s9 change
+255648.452552 s9 change
+255648.452552 s9 change
+255648.452552 s9 change
+255648.452552 s9 change
+255648.452552 s9 change
+255648.452552 s9 change
+255648.452552 s9 change
+255648.452552 s9 change
+255648.452552 s9 change
+255648.452552 s9 change
+255648.452552 s9 change
+255648.473282 s3 change
+255648.473282 s3 change
+255648.473282 s3 change
+255648.473282 s3 change
+255648.930997 s17 change
+255648.930997 s17 change
+255648.930997 s17 change
+255648.930997 s17 change
+255648.930997 s17 change
+255648.930997 s17 change
+255648.930997 s17 change
+255648.930997 s17 change
+255649.322854 s2 change
+255649.322854 s2 change
+255649.322854 s2 change
+255649.322854 s2 change
+255649.322854 s2 change
+255649.322854 s2 change
+255649.322854 s2 change
+255649.322854 s2 change
+Convergence
+1000.000000 132 132 100.000000 1
+2000.000000 132 132 100.000000 1
+3000.000000 132 132 100.000000 1
+4000.000000 132 132 100.000000 1
+5000.000000 132 132 100.000000 1
+6000.000000 132 132 100.000000 1
+7000.000000 132 132 100.000000 1
+8000.000000 132 132 100.000000 1
+9000.000000 132 132 100.000000 1
+10000.000000 132 132 100.000000 1
+11000.000000 132 132 100.000000 1
+12000.000000 132 132 100.000000 1
+13000.000000 132 132 100.000000 1
+14000.000000 132 132 100.000000 1
+15000.000000 132 132 100.000000 1
+16000.000000 132 132 100.000000 1
+17000.000000 132 132 100.000000 1
+18000.000000 132 132 100.000000 1
+19000.000000 132 132 100.000000 1
+20000.000000 132 132 100.000000 1
+21000.000000 132 132 100.000000 1
+22000.000000 132 132 100.000000 1
+23000.000000 132 132 100.000000 1
+24000.000000 132 132 100.000000 1
+25000.000000 132 132 100.000000 1
+26000.000000 132 132 100.000000 1
+27000.000000 132 132 100.000000 1
+28000.000000 132 132 100.000000 1
+29000.000000 132 132 100.000000 1
+30000.000000 132 132 100.000000 1
+31000.000000 132 132 100.000000 1
+32000.000000 132 132 100.000000 1
+33000.000000 132 132 100.000000 1
+34000.000000 132 132 100.000000 1
+35000.000000 132 132 100.000000 1
+36000.000000 132 132 100.000000 1
+37000.000000 132 132 100.000000 1
+38000.000000 132 132 100.000000 1
+39000.000000 132 132 100.000000 1
+40000.000000 132 132 100.000000 1
+41000.000000 132 132 100.000000 1
+42000.000000 132 132 100.000000 1
+43000.000000 132 132 100.000000 1
+44000.000000 132 132 100.000000 1
+45000.000000 132 132 100.000000 1
+46000.000000 132 132 100.000000 1
+47000.000000 132 132 100.000000 1
+48000.000000 132 132 100.000000 1
+49000.000000 132 132 100.000000 1
+50000.000000 132 132 100.000000 1
+51000.000000 132 132 100.000000 1
+52000.000000 132 132 100.000000 1
+53000.000000 132 132 100.000000 1
+54000.000000 132 132 100.000000 1
+55000.000000 132 132 100.000000 1
+56000.000000 132 132 100.000000 1
+57000.000000 132 132 100.000000 1
+58000.000000 132 132 100.000000 1
+59000.000000 132 132 100.000000 1
+60000.000000 132 132 100.000000 1
+61000.000000 132 132 100.000000 1
+62000.000000 132 132 100.000000 1
+63000.000000 132 132 100.000000 1
+64000.000000 132 132 100.000000 1
+65000.000000 132 132 100.000000 1
+66000.000000 132 132 100.000000 1
+67000.000000 132 132 100.000000 1
+68000.000000 132 132 100.000000 1
+69000.000000 132 132 100.000000 1
+70000.000000 132 132 100.000000 1
+71000.000000 132 132 100.000000 1
+72000.000000 132 132 100.000000 1
+73000.000000 132 132 100.000000 1
+74000.000000 132 132 100.000000 1
+75000.000000 132 132 100.000000 1
+76000.000000 132 132 100.000000 1
+77000.000000 132 132 100.000000 1
+78000.000000 132 132 100.000000 1
+79000.000000 92 92 100.000000 2
+80000.000000 92 92 100.000000 2
+81000.000000 92 92 100.000000 2
+82000.000000 92 92 100.000000 2
+83000.000000 92 92 100.000000 2
+84000.000000 92 92 100.000000 2
+85000.000000 92 92 100.000000 2
+86000.000000 92 92 100.000000 2
+87000.000000 92 92 100.000000 2
+88000.000000 92 92 100.000000 2
+89000.000000 92 92 100.000000 2
+90000.000000 92 92 100.000000 2
+91000.000000 92 92 100.000000 2
+92000.000000 92 92 100.000000 2
+93000.000000 92 92 100.000000 2
+94000.000000 92 92 100.000000 2
+95000.000000 92 92 100.000000 2
+96000.000000 92 92 100.000000 2
+97000.000000 92 92 100.000000 2
+98000.000000 92 92 100.000000 2
+99000.000000 92 92 100.000000 2
+100000.000000 92 92 100.000000 2
+101000.000000 92 92 100.000000 2
+102000.000000 92 92 100.000000 2
+103000.000000 92 92 100.000000 2
+104000.000000 92 92 100.000000 2
+105000.000000 92 92 100.000000 2
+106000.000000 92 92 100.000000 2
+107000.000000 92 92 100.000000 2
+108000.000000 92 92 100.000000 2
+109000.000000 92 92 100.000000 2
+110000.000000 92 92 100.000000 2
+111000.000000 92 92 100.000000 2
+112000.000000 92 92 100.000000 2
+113000.000000 92 92 100.000000 2
+114000.000000 92 92 100.000000 2
+115000.000000 92 92 100.000000 2
+116000.000000 92 92 100.000000 2
+117000.000000 92 92 100.000000 2
+118000.000000 92 92 100.000000 2
+119000.000000 92 92 100.000000 2
+120000.000000 92 92 100.000000 2
+121000.000000 92 92 100.000000 2
+122000.000000 92 92 100.000000 2
+123000.000000 92 92 100.000000 2
+124000.000000 92 92 100.000000 2
+125000.000000 92 92 100.000000 2
+126000.000000 92 92 100.000000 2
+127000.000000 92 92 100.000000 2
+128000.000000 92 92 100.000000 2
+129000.000000 92 92 100.000000 2
+130000.000000 92 92 100.000000 2
+131000.000000 92 92 100.000000 2
+132000.000000 92 92 100.000000 2
+133000.000000 92 92 100.000000 2
+134000.000000 92 92 100.000000 2
+135000.000000 92 92 100.000000 2
+136000.000000 92 92 100.000000 2
+137000.000000 92 92 100.000000 2
+138000.000000 92 92 100.000000 2
+139000.000000 92 92 100.000000 2
+140000.000000 92 92 100.000000 2
+141000.000000 92 92 100.000000 2
+142000.000000 92 92 100.000000 2
+143000.000000 92 92 100.000000 2
+144000.000000 92 92 100.000000 2
+145000.000000 92 92 100.000000 2
+146000.000000 92 92 100.000000 2
+147000.000000 92 92 100.000000 2
+148000.000000 92 92 100.000000 2
+149000.000000 92 92 100.000000 2
+150000.000000 92 92 100.000000 2
+151000.000000 92 92 100.000000 2
+152000.000000 92 92 100.000000 2
+153000.000000 92 92 100.000000 2
+154000.000000 92 92 100.000000 2
+155000.000000 92 92 100.000000 2
+156000.000000 92 92 100.000000 2
+157000.000000 92 92 100.000000 2
+158000.000000 92 92 100.000000 2
+159000.000000 92 92 100.000000 2
+160000.000000 92 92 100.000000 2
+161000.000000 92 92 100.000000 2
+162000.000000 92 92 100.000000 2
+163000.000000 92 92 100.000000 2
+164000.000000 92 92 100.000000 2
+165000.000000 92 92 100.000000 2
+166000.000000 92 92 100.000000 2
+167000.000000 92 92 100.000000 2
+168000.000000 92 92 100.000000 2
+169000.000000 92 92 100.000000 2
+170000.000000 92 92 100.000000 2
+171000.000000 92 92 100.000000 2
+172000.000000 92 92 100.000000 2
+173000.000000 92 92 100.000000 2
+174000.000000 92 92 100.000000 2
+175000.000000 92 92 100.000000 2
+176000.000000 92 92 100.000000 2
+177000.000000 92 92 100.000000 2
+178000.000000 92 92 100.000000 2
+179000.000000 92 92 100.000000 2
+180000.000000 92 92 100.000000 2
+181000.000000 92 92 100.000000 2
+182000.000000 92 92 100.000000 2
+183000.000000 92 92 100.000000 2
+184000.000000 92 92 100.000000 2
+185000.000000 92 92 100.000000 2
+186000.000000 92 92 100.000000 2
+187000.000000 92 92 100.000000 2
+188000.000000 92 92 100.000000 2
+189000.000000 92 92 100.000000 2
+190000.000000 92 92 100.000000 2
+191000.000000 92 92 100.000000 2
+192000.000000 92 92 100.000000 2
+193000.000000 92 92 100.000000 2
+194000.000000 92 92 100.000000 2
+195000.000000 92 92 100.000000 2
+196000.000000 92 92 100.000000 2
+197000.000000 92 92 100.000000 2
+198000.000000 92 92 100.000000 2
+199000.000000 92 92 100.000000 2
+200000.000000 92 92 100.000000 2
+201000.000000 92 92 100.000000 2
+202000.000000 92 92 100.000000 2
+203000.000000 92 92 100.000000 2
+204000.000000 92 92 100.000000 2
+205000.000000 92 92 100.000000 2
+206000.000000 92 92 100.000000 2
+207000.000000 92 92 100.000000 2
+208000.000000 92 92 100.000000 2
+209000.000000 92 92 100.000000 2
+210000.000000 92 92 100.000000 2
+211000.000000 92 92 100.000000 2
+212000.000000 92 92 100.000000 2
+213000.000000 92 92 100.000000 2
+214000.000000 92 92 100.000000 2
+215000.000000 92 92 100.000000 2
+216000.000000 92 92 100.000000 2
+217000.000000 92 92 100.000000 2
+218000.000000 92 92 100.000000 2
+219000.000000 92 92 100.000000 2
+220000.000000 92 92 100.000000 2
+221000.000000 92 92 100.000000 2
+222000.000000 92 92 100.000000 2
+223000.000000 92 92 100.000000 2
+224000.000000 92 92 100.000000 2
+225000.000000 92 92 100.000000 2
+226000.000000 92 92 100.000000 2
+227000.000000 92 92 100.000000 2
+228000.000000 92 92 100.000000 2
+229000.000000 92 92 100.000000 2
+230000.000000 92 92 100.000000 2
+231000.000000 92 92 100.000000 2
+232000.000000 92 92 100.000000 2
+233000.000000 92 92 100.000000 2
+234000.000000 92 92 100.000000 2
+235000.000000 92 92 100.000000 2
+236000.000000 92 92 100.000000 2
+237000.000000 92 92 100.000000 2
+238000.000000 92 92 100.000000 2
+239000.000000 92 92 100.000000 2
+240000.000000 92 92 100.000000 2
+241000.000000 92 92 100.000000 2
+242000.000000 92 92 100.000000 2
+243000.000000 74 74 100.000000 3
+244000.000000 74 74 100.000000 3
+245000.000000 74 74 100.000000 3
+246000.000000 74 74 100.000000 3
+247000.000000 74 74 100.000000 3
+248000.000000 74 74 100.000000 3
+249000.000000 74 74 100.000000 3
+250000.000000 74 74 100.000000 3
+251000.000000 74 74 100.000000 3
+252000.000000 74 74 100.000000 3
+253000.000000 74 74 100.000000 3
+254000.000000 74 74 100.000000 3
+255000.000000 74 74 100.000000 3
+256000.000000 74 74 100.000000 3
+257000.000000 74 74 100.000000 3
+258000.000000 74 74 100.000000 3
+259000.000000 74 74 100.000000 3
+260000.000000 74 74 100.000000 3
+261000.000000 74 74 100.000000 3
+262000.000000 74 74 100.000000 3
+263000.000000 74 74 100.000000 3
+264000.000000 74 74 100.000000 3
+265000.000000 74 74 100.000000 3
+266000.000000 74 74 100.000000 3
+267000.000000 74 74 100.000000 3
+268000.000000 74 74 100.000000 3
+269000.000000 74 74 100.000000 3
+270000.000000 74 74 100.000000 3
+271000.000000 74 74 100.000000 3
+272000.000000 74 74 100.000000 3
+273000.000000 74 74 100.000000 3
+274000.000000 74 74 100.000000 3
+275000.000000 74 74 100.000000 3
+276000.000000 74 74 100.000000 3
+277000.000000 74 74 100.000000 3
+278000.000000 74 74 100.000000 3
+279000.000000 74 74 100.000000 3
+280000.000000 74 74 100.000000 3
+281000.000000 46 46 100.000000 4
+282000.000000 46 46 100.000000 4
+283000.000000 46 46 100.000000 4
+284000.000000 46 46 100.000000 4
+285000.000000 46 46 100.000000 4
+286000.000000 46 46 100.000000 4
+287000.000000 46 46 100.000000 4
+288000.000000 46 46 100.000000 4
+289000.000000 34 34 100.000000 5
+290000.000000 34 34 100.000000 5
+291000.000000 34 34 100.000000 5
+292000.000000 34 34 100.000000 5
+293000.000000 34 34 100.000000 5
+294000.000000 34 34 100.000000 5
+295000.000000 34 34 100.000000 5
+296000.000000 34 34 100.000000 5
+297000.000000 34 34 100.000000 5
+298000.000000 34 34 100.000000 5
+299000.000000 34 34 100.000000 5
+s12-s0 s0-s12 {2: 246, 4: 40, 5: 3, 7: 5, 8: 177, 21: 1179, 23: 1184, 24: 3411} total: 6245 bits: 1164077
+s12-s1 s1-s12 {2: 252, 4: 42, 5: 3, 7: 5, 8: 178, 21: 1169, 23: 1151, 24: 3361} total: 6161 bits: 1154445
+s1-s12 s1-s12 {2: 252, 4: 42, 5: 3, 7: 5, 8: 178, 21: 1169, 23: 1151, 24: 3361} total: 6161 bits: 1154445
+s15-h10 s15-h10 {2: 219, 4: 32, 5: 2, 7: 4, 8: 140, 21: 2188, 23: 982, 24: 2834} total: 6401 bits: 1105293
+s15-h11 s15-h11 {2: 219, 4: 32, 5: 2, 7: 4, 8: 140, 21: 2170, 23: 982, 24: 2834} total: 6383 bits: 1103421
+s9-s11 s9-s11 {24: 663, 2: 16, 4: 11, 21: 197, 23: 229} total: 1116 bits: 218720
+s9-s10 s9-s10 {2: 256, 4: 36, 5: 2, 7: 4, 8: 154, 21: 1324, 23: 1201, 24: 3453} total: 6430 bits: 1198517
+s19-h15 s19-h15 {2: 184, 4: 224, 5: 2, 7: 4, 8: 140, 21: 1032, 23: 982, 24: 2834} total: 5402 bits: 973205
+s14-h9 s14-h9 {2: 193, 4: 32, 5: 2, 7: 4, 8: 140, 21: 1044, 23: 982, 24: 2834} total: 5231 bits: 977149
+s14-h8 s14-h8 {2: 193, 4: 32, 5: 2, 7: 4, 8: 140, 21: 1044, 23: 982, 24: 2834} total: 5231 bits: 977149
+s17-s3 s3-s17 {2: 264, 4: 43, 5: 2, 7: 6, 8: 191, 21: 1251, 23: 1265, 24: 3635} total: 6657 bits: 1258381
+s17-s2 s2-s17 {2: 275, 4: 35, 5: 2, 7: 5, 8: 177, 21: 1441, 23: 1211, 24: 3681} total: 6827 bits: 1247356
+s19-h14 s19-h14 {2: 184, 4: 224, 5: 2, 7: 4, 8: 140, 21: 1032, 23: 982, 24: 2834} total: 5402 bits: 973205
+h3-s7 s7-h3 {2: 205, 4: 32, 5: 2, 7: 4, 8: 140, 21: 1031, 23: 982, 24: 2834} total: 5230 bits: 973333
+s17-s19 s17-s19 {2: 131, 4: 25, 5: 2, 7: 5, 8: 152, 21: 907, 23: 768, 24: 2208} total: 4198 bits: 768310
+s17-s18 s17-s18 {2: 260, 4: 41, 5: 2, 7: 4, 8: 140, 21: 1289, 23: 1199, 24: 3491} total: 6426 bits: 1199637
+s2-s13 s2-s13 {24: 646, 2: 24, 4: 17, 21: 198, 23: 223} total: 1108 bits: 222208
+s9-s3 s3-s9 {2: 245, 4: 44, 5: 2, 7: 4, 8: 173, 21: 1193, 23: 1132, 24: 3344} total: 6137 bits: 1144559
+s9-s2 s2-s9 {2: 260, 4: 41, 5: 4, 7: 5, 8: 175, 21: 1395, 23: 1237, 24: 3502} total: 6619 bits: 1234111
+s2-s17 s2-s17 {2: 275, 4: 35, 5: 2, 7: 5, 8: 177, 21: 1441, 23: 1211, 24: 3681} total: 6827 bits: 1247356
+h5-s10 s10-h5 {2: 207, 4: 32, 5: 2, 7: 4, 8: 140, 21: 1049, 23: 982, 24: 2834} total: 5250 bits: 983669
+s1-s4 s1-s4 {24: 647, 2: 57, 4: 14, 21: 206, 23: 209} total: 1133 bits: 223240
+s1-s8 s1-s8 {2: 251, 4: 38, 5: 3, 7: 4, 8: 166, 21: 1240, 23: 1119, 24: 3273} total: 6094 bits: 1134549
+s1-s16 s1-s16 {24: 375, 2: 29, 4: 10, 21: 139, 23: 124} total: 677 bits: 152840
+s0-s4 s0-s4 {24: 343, 4: 6, 21: 112, 23: 121} total: 582 bits: 103696
+h14-s19 s19-h14 {2: 184, 4: 224, 5: 2, 7: 4, 8: 140, 21: 1032, 23: 982, 24: 2834} total: 5402 bits: 973205
+s3-s17 s3-s17 {2: 264, 4: 43, 5: 2, 7: 6, 8: 191, 21: 1251, 23: 1265, 24: 3635} total: 6657 bits: 1258381
+s5-s7 s5-s7 {2: 205, 4: 32, 5: 2, 7: 4, 8: 140, 21: 1039, 23: 982, 24: 2834} total: 5238 bits: 974165
+s5-s6 s5-s6 {2: 211, 4: 29, 5: 2, 7: 4, 8: 140, 21: 1060, 23: 970, 24: 2850} total: 5266 bits: 982036
+s6-h1 s6-h1 {2: 201, 4: 28, 5: 2, 7: 4, 8: 140, 21: 2214, 23: 922, 24: 2648} total: 6159 bits: 1055165
+s6-h0 s6-h0 {2: 199, 4: 28, 5: 2, 7: 4, 8: 140, 21: 994, 23: 922, 24: 2648} total: 4937 bits: 927885
+s0-s8 s0-s8 {24: 2145, 2: 175, 4: 28, 21: 698, 23: 727} total: 3773 bits: 707464
+s5-s2 s2-s5 {2: 215, 4: 35, 5: 2, 7: 4, 8: 140, 21: 1089, 23: 1015, 24: 2931} total: 5431 bits: 1014333
+h10-s15 s15-h10 {2: 219, 4: 32, 5: 2, 7: 4, 8: 140, 21: 2188, 23: 982, 24: 2834} total: 6401 bits: 1105293
+s4-s0 s0-s4 {24: 343, 4: 6, 21: 112, 23: 121} total: 582 bits: 103696
+s4-s1 s1-s4 {24: 647, 2: 57, 4: 14, 21: 206, 23: 209} total: 1133 bits: 223240
+s4-s6 s4-s6 {2: 208, 4: 32, 5: 2, 7: 4, 8: 140, 21: 1063, 23: 978, 24: 2858} total: 5285 bits: 983565
+s5-s3 s3-s5 {24: 344, 4: 8, 21: 118, 23: 114} total: 584 bits: 101440
+s15-s13 s13-s15 {2: 245, 4: 38, 5: 3, 7: 5, 8: 164, 21: 1137, 23: 1098, 24: 3176} total: 5866 bits: 1109397
+s10-h4 s10-h4 {2: 211, 4: 32, 5: 2, 7: 4, 8: 140, 21: 2403, 23: 982, 24: 2834} total: 6608 bits: 1125669
+s19-s16 s16-s19 {2: 222, 4: 230, 5: 2, 7: 6, 8: 166, 21: 1273, 23: 1184, 24: 3412} total: 6495 bits: 1174845
+s3-s13 s3-s13 {2: 226, 4: 41, 5: 2, 7: 4, 8: 146, 21: 1080, 23: 1025, 24: 2985} total: 5509 bits: 1031629
+h9-s14 s14-h9 {2: 193, 4: 32, 5: 2, 7: 4, 8: 140, 21: 1044, 23: 982, 24: 2834} total: 5231 bits: 977149
+h1-s6 s6-h1 {2: 201, 4: 28, 5: 2, 7: 4, 8: 140, 21: 2214, 23: 922, 24: 2648} total: 6159 bits: 1055165
+s7-h2 s7-h2 {2: 205, 4: 32, 5: 2, 7: 4, 8: 140, 21: 1031, 23: 982, 24: 2834} total: 5230 bits: 973333
+s7-h3 s7-h3 {2: 205, 4: 32, 5: 2, 7: 4, 8: 140, 21: 1031, 23: 982, 24: 2834} total: 5230 bits: 973333
+s7-s5 s5-s7 {2: 205, 4: 32, 5: 2, 7: 4, 8: 140, 21: 1039, 23: 982, 24: 2834} total: 5238 bits: 974165
+s7-s4 s4-s7 {} total: 0 bits: 0
+s3-s5 s3-s5 {24: 344, 4: 8, 21: 118, 23: 114} total: 584 bits: 101440
+s13-s3 s3-s13 {2: 226, 4: 41, 5: 2, 7: 4, 8: 146, 21: 1080, 23: 1025, 24: 2985} total: 5509 bits: 1031629
+s13-s2 s2-s13 {24: 646, 2: 24, 4: 17, 21: 198, 23: 223} total: 1108 bits: 222208
+h8-s14 s14-h8 {2: 193, 4: 32, 5: 2, 7: 4, 8: 140, 21: 1044, 23: 982, 24: 2834} total: 5231 bits: 977149
+s8-s0 s0-s8 {24: 2145, 2: 175, 4: 28, 21: 698, 23: 727} total: 3773 bits: 707464
+s8-s1 s1-s8 {2: 251, 4: 38, 5: 3, 7: 4, 8: 166, 21: 1240, 23: 1119, 24: 3273} total: 6094 bits: 1134549
+s18-h13 s18-h13 {2: 192, 4: 32, 5: 2, 7: 4, 8: 140, 21: 1034, 23: 982, 24: 2834} total: 5220 bits: 971429
+s18-h12 s18-h12 {2: 192, 4: 32, 5: 2, 7: 4, 8: 140, 21: 1034, 23: 982, 24: 2834} total: 5220 bits: 971429
+s6-s4 s4-s6 {2: 208, 4: 32, 5: 2, 7: 4, 8: 140, 21: 1063, 23: 978, 24: 2858} total: 5285 bits: 983565
+s6-s5 s5-s6 {2: 211, 4: 29, 5: 2, 7: 4, 8: 140, 21: 1060, 23: 970, 24: 2850} total: 5266 bits: 982036
+h12-s18 s18-h12 {2: 192, 4: 32, 5: 2, 7: 4, 8: 140, 21: 1034, 23: 982, 24: 2834} total: 5220 bits: 971429
+h15-s19 s19-h15 {2: 184, 4: 224, 5: 2, 7: 4, 8: 140, 21: 1032, 23: 982, 24: 2834} total: 5402 bits: 973205
+s16-s1 s1-s16 {24: 375, 2: 29, 4: 10, 21: 139, 23: 124} total: 677 bits: 152840
+h4-s10 s10-h4 {2: 211, 4: 32, 5: 2, 7: 4, 8: 140, 21: 2403, 23: 982, 24: 2834} total: 6608 bits: 1125669
+s18-s16 s16-s18 {24: 2828, 2: 176, 4: 26, 21: 914, 23: 940} total: 4884 bits: 867424
+h0-s6 s6-h0 {2: 199, 4: 28, 5: 2, 7: 4, 8: 140, 21: 994, 23: 922, 24: 2648} total: 4937 bits: 927885
+h6-s11 s11-h6 {24: 549, 2: 16, 4: 2230, 21: 164, 23: 183} total: 3142 bits: 483728
+h13-s18 s18-h13 {2: 192, 4: 32, 5: 2, 7: 4, 8: 140, 21: 1034, 23: 982, 24: 2834} total: 5220 bits: 971429
+h7-s11 s11-h7 {24: 549, 2: 16, 4: 2230, 21: 164, 23: 183} total: 3142 bits: 483728
+s18-s17 s17-s18 {2: 260, 4: 41, 5: 2, 7: 4, 8: 140, 21: 1289, 23: 1199, 24: 3491} total: 6426 bits: 1199637
+h2-s7 s7-h2 {2: 205, 4: 32, 5: 2, 7: 4, 8: 140, 21: 1031, 23: 982, 24: 2834} total: 5230 bits: 973333
+s3-s9 s3-s9 {2: 245, 4: 44, 5: 2, 7: 4, 8: 173, 21: 1193, 23: 1132, 24: 3344} total: 6137 bits: 1144559
+s8-s10 s8-s10 {2: 242, 4: 26, 5: 2, 7: 6, 8: 162, 21: 1034, 23: 791, 24: 2412} total: 4675 bits: 884792
+s8-s11 s8-s11 {24: 390, 4: 2, 21: 106, 23: 122} total: 620 bits: 106976
+s14-s12 s12-s14 {24: 1842, 2: 139, 4: 23, 21: 616, 23: 605} total: 3225 bits: 601256
+s14-s13 s13-s14 {2: 250, 4: 38, 5: 2, 7: 4, 8: 140, 21: 1230, 23: 1178, 24: 3388} total: 6230 bits: 1176245
+s16-s18 s16-s18 {24: 2828, 2: 176, 4: 26, 21: 914, 23: 940} total: 4884 bits: 867424
+s16-s19 s16-s19 {2: 222, 4: 230, 5: 2, 7: 6, 8: 166, 21: 1273, 23: 1184, 24: 3412} total: 6495 bits: 1174845
+s4-s7 s4-s7 {} total: 0 bits: 0
+s16-s0 s0-s16 {2: 223, 4: 34, 5: 2, 7: 4, 8: 160, 21: 999, 23: 889, 24: 2660} total: 4971 bits: 933018
+s10-h5 s10-h5 {2: 207, 4: 32, 5: 2, 7: 4, 8: 140, 21: 1049, 23: 982, 24: 2834} total: 5250 bits: 983669
+s15-s12 s12-s15 {2: 255, 4: 39, 5: 2, 7: 4, 8: 179, 21: 1175, 23: 1163, 24: 3393} total: 6210 bits: 1160502
+s11-s9 s9-s11 {24: 663, 2: 16, 4: 11, 21: 197, 23: 229} total: 1116 bits: 218720
+s11-s8 s8-s11 {24: 390, 4: 2, 21: 106, 23: 122} total: 620 bits: 106976
+s0-s12 s0-s12 {2: 246, 4: 40, 5: 3, 7: 5, 8: 177, 21: 1179, 23: 1184, 24: 3411} total: 6245 bits: 1164077
+s11-h6 s11-h6 {24: 549, 2: 16, 4: 2230, 21: 164, 23: 183} total: 3142 bits: 483728
+s0-s16 s0-s16 {2: 223, 4: 34, 5: 2, 7: 4, 8: 160, 21: 999, 23: 889, 24: 2660} total: 4971 bits: 933018
+s13-s14 s13-s14 {2: 250, 4: 38, 5: 2, 7: 4, 8: 140, 21: 1230, 23: 1178, 24: 3388} total: 6230 bits: 1176245
+s2-s5 s2-s5 {2: 215, 4: 35, 5: 2, 7: 4, 8: 140, 21: 1089, 23: 1015, 24: 2931} total: 5431 bits: 1014333
+s2-s9 s2-s9 {2: 260, 4: 41, 5: 4, 7: 5, 8: 175, 21: 1395, 23: 1237, 24: 3502} total: 6619 bits: 1234111
+s12-s14 s12-s14 {24: 1842, 2: 139, 4: 23, 21: 616, 23: 605} total: 3225 bits: 601256
+s12-s15 s12-s15 {2: 255, 4: 39, 5: 2, 7: 4, 8: 179, 21: 1175, 23: 1163, 24: 3393} total: 6210 bits: 1160502
+s13-s15 s13-s15 {2: 245, 4: 38, 5: 3, 7: 5, 8: 164, 21: 1137, 23: 1098, 24: 3176} total: 5866 bits: 1109397
+s11-h7 s11-h7 {24: 549, 2: 16, 4: 2230, 21: 164, 23: 183} total: 3142 bits: 483728
+s19-s17 s17-s19 {2: 131, 4: 25, 5: 2, 7: 5, 8: 152, 21: 907, 23: 768, 24: 2208} total: 4198 bits: 768310
+s10-s8 s8-s10 {2: 242, 4: 26, 5: 2, 7: 6, 8: 162, 21: 1034, 23: 791, 24: 2412} total: 4675 bits: 884792
+s10-s9 s9-s10 {2: 256, 4: 36, 5: 2, 7: 4, 8: 154, 21: 1324, 23: 1201, 24: 3453} total: 6430 bits: 1198517
+h11-s15 s15-h11 {2: 219, 4: 32, 5: 2, 7: 4, 8: 140, 21: 2170, 23: 982, 24: 2834} total: 6383 bits: 1103421
+Total control packets over all links:  {'NotifyLinkDown': 12776, 'GossipReply': 233766, 'SwitchInformation': 10640, 'NotifyLinkUp': 152, 'GetSwitchInformation': 304, 'Gossip': 80296, 'UpdateRules': 16788, 'ControlAck': 94998}  bytes:  82585046
+Total control bits over all links:  {'NotifyLinkDown': 1737536, 'GossipReply': 16831152, 'SwitchInformation': 2867328, 'NotifyLinkUp': 20672, 'GetSwitchInformation': 21888, 'Gossip': 40295318, 'UpdateRules': 10931360, 'ControlAck': 9879792}

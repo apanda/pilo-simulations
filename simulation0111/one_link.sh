@@ -8,6 +8,6 @@ for i in ${!exp[@]}; do
 	cf=${config_files[$i]}
 	fname=${out_name[$i]}
 	echo "python perturbation_noboot_1link.py $e$num.yaml 0 10000 1000 128 1024 1024 1 42 true $cf > outputs/$fname$num.output"
-	python perturbation_noboot_1link.py $e$num.yaml 0 10000 1000 128 1024 1024 1 42 true $cf > outputs/$fname$num.output
+	python perturbation_noboot_1link.py $e$num.yaml 0 1000 10000 128 1024 1024 1 42 true $cf > outputs/$fname$num.output
     done
 done

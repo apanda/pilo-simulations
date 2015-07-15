@@ -1,0 +1,2443 @@
+Setting as-topos/12213.yaml 0.000000 1800000.000000 300000.000000 600000.000000 10240000.000000 102400000.000000 1000.000000 42 config_as.yml
+mean_perturb 600000.000000
+generating trace
+done generating trace
+TRACE TRACE TRACE
+224724.071308 s4-s11 down
+589491.379081 s4-s11 up
+692538.671472 s8-s52 down
+997863.438304 s8-s52 up
+300000.000000 end
+TRACE TRACE TRACE
+Informing controller of nodes
+c3 being informed of s84-h6
+c2 being informed of s84-h6
+c1 being informed of s84-h6
+c4 being informed of s84-h6
+c3 being informed of s13-s83
+c2 being informed of s13-s83
+c1 being informed of s13-s83
+c4 being informed of s13-s83
+c3 being informed of s11-s14
+c2 being informed of s11-s14
+c1 being informed of s11-s14
+c4 being informed of s11-s14
+c3 being informed of s11-h48
+c2 being informed of s11-h48
+c1 being informed of s11-h48
+c4 being informed of s11-h48
+c3 being informed of s63-h82
+c2 being informed of s63-h82
+c1 being informed of s63-h82
+c4 being informed of s63-h82
+c3 being informed of s4-h54
+c2 being informed of s4-h54
+c1 being informed of s4-h54
+c4 being informed of s4-h54
+c3 being informed of s69-h49
+c2 being informed of s69-h49
+c1 being informed of s69-h49
+c4 being informed of s69-h49
+c3 being informed of s9-s11
+c2 being informed of s9-s11
+c1 being informed of s9-s11
+c4 being informed of s9-s11
+c3 being informed of s9-s10
+c2 being informed of s9-s10
+c1 being informed of s9-s10
+c4 being informed of s9-s10
+c3 being informed of s9-s13
+c2 being informed of s9-s13
+c1 being informed of s9-s13
+c4 being informed of s9-s13
+c3 being informed of s9-s12
+c2 being informed of s9-s12
+c1 being informed of s9-s12
+c4 being informed of s9-s12
+c3 being informed of s74-h19
+c2 being informed of s74-h19
+c1 being informed of s74-h19
+c4 being informed of s74-h19
+c3 being informed of s39-h91
+c2 being informed of s39-h91
+c1 being informed of s39-h91
+c4 being informed of s39-h91
+c3 being informed of s32-s71
+c2 being informed of s32-s71
+c1 being informed of s32-s71
+c4 being informed of s32-s71
+c3 being informed of s39-s48
+c2 being informed of s39-s48
+c1 being informed of s39-s48
+c4 being informed of s39-s48
+c3 being informed of s37-s41
+c2 being informed of s37-s41
+c1 being informed of s37-s41
+c4 being informed of s37-s41
+c3 being informed of s19-h93
+c2 being informed of s19-h93
+c1 being informed of s19-h93
+c4 being informed of s19-h93
+c3 being informed of s15-s30
+c2 being informed of s15-s30
+c1 being informed of s15-s30
+c4 being informed of s15-s30
+c3 being informed of s43-h31
+c2 being informed of s43-h31
+c1 being informed of s43-h31
+c4 being informed of s43-h31
+c3 being informed of s15-h55
+c2 being informed of s15-h55
+c1 being informed of s15-h55
+c4 being informed of s15-h55
+c3 being informed of s5-s32
+c2 being informed of s5-s32
+c1 being informed of s5-s32
+c4 being informed of s5-s32
+c3 being informed of s30-s62
+c2 being informed of s30-s62
+c1 being informed of s30-s62
+c4 being informed of s30-s62
+c3 being informed of s78-h1
+c2 being informed of s78-h1
+c1 being informed of s78-h1
+c4 being informed of s78-h1
+c3 being informed of s30-s66
+c2 being informed of s30-s66
+c1 being informed of s30-s66
+c4 being informed of s30-s66
+c3 being informed of s68-s70
+c2 being informed of s68-s70
+c1 being informed of s68-s70
+c4 being informed of s68-s70
+c3 being informed of s2-s18
+c2 being informed of s2-s18
+c1 being informed of s2-s18
+c4 being informed of s2-s18
+c3 being informed of s2-s19
+c2 being informed of s2-s19
+c1 being informed of s2-s19
+c4 being informed of s2-s19
+c3 being informed of s67-h33
+c2 being informed of s67-h33
+c1 being informed of s67-h33
+c4 being informed of s67-h33
+c3 being informed of s7-s56
+c2 being informed of s7-s56
+c1 being informed of s7-s56
+c4 being informed of s7-s56
+c3 being informed of s2-s10
+c2 being informed of s2-s10
+c1 being informed of s2-s10
+c4 being informed of s2-s10
+c3 being informed of s51-s85
+c2 being informed of s51-s85
+c1 being informed of s51-s85
+c4 being informed of s51-s85
+c3 being informed of s8-s50
+c2 being informed of s8-s50
+c1 being informed of s8-s50
+c4 being informed of s8-s50
+c3 being informed of s8-s51
+c2 being informed of s8-s51
+c1 being informed of s8-s51
+c4 being informed of s8-s51
+c3 being informed of s8-s52
+c2 being informed of s8-s52
+c1 being informed of s8-s52
+c4 being informed of s8-s52
+c3 being informed of s22-h53
+c2 being informed of s22-h53
+c1 being informed of s22-h53
+c4 being informed of s22-h53
+c3 being informed of s52-h59
+c2 being informed of s52-h59
+c1 being informed of s52-h59
+c4 being informed of s52-h59
+c3 being informed of s32-s34
+c2 being informed of s32-s34
+c1 being informed of s32-s34
+c4 being informed of s32-s34
+c3 being informed of s1-s2
+c2 being informed of s1-s2
+c1 being informed of s1-s2
+c4 being informed of s1-s2
+c3 being informed of s32-s33
+c2 being informed of s32-s33
+c1 being informed of s32-s33
+c4 being informed of s32-s33
+c3 being informed of s18-h41
+c2 being informed of s18-h41
+c1 being informed of s18-h41
+c4 being informed of s18-h41
+c3 being informed of s5-s8
+c2 being informed of s5-s8
+c1 being informed of s5-s8
+c4 being informed of s5-s8
+c3 being informed of s15-s28
+c2 being informed of s15-s28
+c1 being informed of s15-s28
+c4 being informed of s15-s28
+c3 being informed of s5-s9
+c2 being informed of s5-s9
+c1 being informed of s5-s9
+c4 being informed of s5-s9
+c3 being informed of s28-s83
+c2 being informed of s28-s83
+c1 being informed of s28-s83
+c4 being informed of s28-s83
+c3 being informed of s58-s59
+c2 being informed of s58-s59
+c1 being informed of s58-s59
+c4 being informed of s58-s59
+c3 being informed of s29-h38
+c2 being informed of s29-h38
+c1 being informed of s29-h38
+c4 being informed of s29-h38
+c3 being informed of s42-s48
+c2 being informed of s42-s48
+c1 being informed of s42-s48
+c4 being informed of s42-s48
+c3 being informed of s4-h10
+c2 being informed of s4-h10
+c1 being informed of s4-h10
+c4 being informed of s4-h10
+c3 being informed of s33-h90
+c2 being informed of s33-h90
+c1 being informed of s33-h90
+c4 being informed of s33-h90
+c3 being informed of s80-h99
+c2 being informed of s80-h99
+c1 being informed of s80-h99
+c4 being informed of s80-h99
+c3 being informed of s29-h83
+c2 being informed of s29-h83
+c1 being informed of s29-h83
+c4 being informed of s29-h83
+c3 being informed of s24-h65
+c2 being informed of s24-h65
+c1 being informed of s24-h65
+c4 being informed of s24-h65
+c3 being informed of s68-s69
+c2 being informed of s68-s69
+c1 being informed of s68-s69
+c4 being informed of s68-s69
+c3 being informed of s45-s48
+c2 being informed of s45-s48
+c1 being informed of s45-s48
+c4 being informed of s45-s48
+c3 being informed of s73-h71
+c2 being informed of s73-h71
+c1 being informed of s73-h71
+c4 being informed of s73-h71
+c3 being informed of s17-s60
+c2 being informed of s17-s60
+c1 being informed of s17-s60
+c4 being informed of s17-s60
+c3 being informed of s67-h25
+c2 being informed of s67-h25
+c1 being informed of s67-h25
+c4 being informed of s67-h25
+c3 being informed of s10-h13
+c2 being informed of s10-h13
+c1 being informed of s10-h13
+c4 being informed of s10-h13
+c3 being informed of s31-h4
+c2 being informed of s31-h4
+c1 being informed of s31-h4
+c4 being informed of s31-h4
+c3 being informed of s79-h51
+c2 being informed of s79-h51
+c1 being informed of s79-h51
+c4 being informed of s79-h51
+c3 being informed of s7-h58
+c2 being informed of s7-h58
+c1 being informed of s7-h58
+c4 being informed of s7-h58
+c3 being informed of s44-h98
+c2 being informed of s44-h98
+c1 being informed of s44-h98
+c4 being informed of s44-h98
+c3 being informed of s38-h62
+c2 being informed of s38-h62
+c1 being informed of s38-h62
+c4 being informed of s38-h62
+c3 being informed of s8-h15
+c2 being informed of s8-h15
+c1 being informed of s8-h15
+c4 being informed of s8-h15
+c3 being informed of s6-s74
+c2 being informed of s6-s74
+c1 being informed of s6-s74
+c4 being informed of s6-s74
+c3 being informed of s6-s75
+c2 being informed of s6-s75
+c1 being informed of s6-s75
+c4 being informed of s6-s75
+c3 being informed of s6-s76
+c2 being informed of s6-s76
+c1 being informed of s6-s76
+c4 being informed of s6-s76
+c3 being informed of s6-s77
+c2 being informed of s6-s77
+c1 being informed of s6-s77
+c4 being informed of s6-s77
+c3 being informed of s6-s73
+c2 being informed of s6-s73
+c1 being informed of s6-s73
+c4 being informed of s6-s73
+c3 being informed of s4-s14
+c2 being informed of s4-s14
+c1 being informed of s4-s14
+c4 being informed of s4-s14
+c3 being informed of s48-h84
+c2 being informed of s48-h84
+c1 being informed of s48-h84
+c4 being informed of s48-h84
+c3 being informed of s1-h40
+c2 being informed of s1-h40
+c1 being informed of s1-h40
+c4 being informed of s1-h40
+c3 being informed of s50-h64
+c2 being informed of s50-h64
+c1 being informed of s50-h64
+c4 being informed of s50-h64
+c3 being informed of s84-h39
+c2 being informed of s84-h39
+c1 being informed of s84-h39
+c4 being informed of s84-h39
+c3 being informed of s37-s39
+c2 being informed of s37-s39
+c1 being informed of s37-s39
+c4 being informed of s37-s39
+c3 being informed of s44-s53
+c2 being informed of s44-s53
+c1 being informed of s44-s53
+c4 being informed of s44-s53
+c3 being informed of s55-h29
+c2 being informed of s55-h29
+c1 being informed of s55-h29
+c4 being informed of s55-h29
+c3 being informed of s58-h92
+c2 being informed of s58-h92
+c1 being informed of s58-h92
+c4 being informed of s58-h92
+c3 being informed of s71-h52
+c2 being informed of s71-h52
+c1 being informed of s71-h52
+c4 being informed of s71-h52
+c3 being informed of s5-s56
+c2 being informed of s5-s56
+c1 being informed of s5-s56
+c4 being informed of s5-s56
+c3 being informed of s48-h26
+c2 being informed of s48-h26
+c1 being informed of s48-h26
+c4 being informed of s48-h26
+c3 being informed of s73-h68
+c2 being informed of s73-h68
+c1 being informed of s73-h68
+c4 being informed of s73-h68
+c3 being informed of s11-h77
+c2 being informed of s11-h77
+c1 being informed of s11-h77
+c4 being informed of s11-h77
+c3 being informed of s4-s12
+c2 being informed of s4-s12
+c1 being informed of s4-s12
+c4 being informed of s4-s12
+c3 being informed of s15-s83
+c2 being informed of s15-s83
+c1 being informed of s15-s83
+c4 being informed of s15-s83
+c3 being informed of s75-h9
+c2 being informed of s75-h9
+c1 being informed of s75-h9
+c4 being informed of s75-h9
+c3 being informed of s4-s26
+c2 being informed of s4-s26
+c1 being informed of s4-s26
+c4 being informed of s4-s26
+c3 being informed of s77-h94
+c2 being informed of s77-h94
+c1 being informed of s77-h94
+c4 being informed of s77-h94
+c3 being informed of s6-s68
+c2 being informed of s6-s68
+c1 being informed of s6-s68
+c4 being informed of s6-s68
+c3 being informed of s7-s32
+c2 being informed of s7-s32
+c1 being informed of s7-s32
+c4 being informed of s7-s32
+c3 being informed of s32-s59
+c2 being informed of s32-s59
+c1 being informed of s32-s59
+c4 being informed of s32-s59
+c3 being informed of s45-h35
+c2 being informed of s45-h35
+c1 being informed of s45-h35
+c4 being informed of s45-h35
+c3 being informed of s48-h17
+c2 being informed of s48-h17
+c1 being informed of s48-h17
+c4 being informed of s48-h17
+c3 being informed of s37-s42
+c2 being informed of s37-s42
+c1 being informed of s37-s42
+c4 being informed of s37-s42
+c3 being informed of s37-s43
+c2 being informed of s37-s43
+c1 being informed of s37-s43
+c4 being informed of s37-s43
+c3 being informed of s37-s40
+c2 being informed of s37-s40
+c1 being informed of s37-s40
+c4 being informed of s37-s40
+c3 being informed of s3-s8
+c2 being informed of s3-s8
+c1 being informed of s3-s8
+c4 being informed of s3-s8
+c3 being informed of s37-s44
+c2 being informed of s37-s44
+c1 being informed of s37-s44
+c4 being informed of s37-s44
+c3 being informed of s37-s45
+c2 being informed of s37-s45
+c1 being informed of s37-s45
+c4 being informed of s37-s45
+c3 being informed of s42-h27
+c2 being informed of s42-h27
+c1 being informed of s42-h27
+c4 being informed of s42-h27
+c3 being informed of s56-s57
+c2 being informed of s56-s57
+c1 being informed of s56-s57
+c4 being informed of s56-s57
+c3 being informed of s9-h36
+c2 being informed of s9-h36
+c1 being informed of s9-h36
+c4 being informed of s9-h36
+c3 being informed of s38-h78
+c2 being informed of s38-h78
+c1 being informed of s38-h78
+c4 being informed of s38-h78
+c3 being informed of s3-s7
+c2 being informed of s3-s7
+c1 being informed of s3-s7
+c4 being informed of s3-s7
+c3 being informed of s3-s6
+c2 being informed of s3-s6
+c1 being informed of s3-s6
+c4 being informed of s3-s6
+c3 being informed of s7-s9
+c2 being informed of s7-s9
+c1 being informed of s7-s9
+c4 being informed of s7-s9
+c3 being informed of s3-s4
+c2 being informed of s3-s4
+c1 being informed of s3-s4
+c4 being informed of s3-s4
+c3 being informed of s49-h20
+c2 being informed of s49-h20
+c1 being informed of s49-h20
+c4 being informed of s49-h20
+c3 being informed of s34-h34
+c2 being informed of s34-h34
+c1 being informed of s34-h34
+c4 being informed of s34-h34
+c3 being informed of s57-h73
+c2 being informed of s57-h73
+c1 being informed of s57-h73
+c4 being informed of s57-h73
+c3 being informed of s24-h87
+c2 being informed of s24-h87
+c1 being informed of s24-h87
+c4 being informed of s24-h87
+c3 being informed of s16-h63
+c2 being informed of s16-h63
+c1 being informed of s16-h63
+c4 being informed of s16-h63
+c3 being informed of s39-h66
+c2 being informed of s39-h66
+c1 being informed of s39-h66
+c4 being informed of s39-h66
+c3 being informed of s48-s53
+c2 being informed of s48-s53
+c1 being informed of s48-s53
+c4 being informed of s48-s53
+c3 being informed of s6-s8
+c2 being informed of s6-s8
+c1 being informed of s6-s8
+c4 being informed of s6-s8
+c3 being informed of s6-s9
+c2 being informed of s6-s9
+c1 being informed of s6-s9
+c4 being informed of s6-s9
+c3 being informed of s26-c4
+c2 being informed of s26-c4
+c1 being informed of s26-c4
+c4 being informed of s26-c4
+c3 being informed of s32-h81
+c2 being informed of s32-h81
+c1 being informed of s32-h81
+c4 being informed of s32-h81
+c3 being informed of s54-s55
+c2 being informed of s54-s55
+c1 being informed of s54-s55
+c4 being informed of s54-s55
+c3 being informed of s48-h21
+c2 being informed of s48-h21
+c1 being informed of s48-h21
+c4 being informed of s48-h21
+c3 being informed of s32-s61
+c2 being informed of s32-s61
+c1 being informed of s32-s61
+c4 being informed of s32-s61
+c3 being informed of s24-h47
+c2 being informed of s24-h47
+c1 being informed of s24-h47
+c4 being informed of s24-h47
+c3 being informed of s9-h7
+c2 being informed of s9-h7
+c1 being informed of s9-h7
+c4 being informed of s9-h7
+c3 being informed of s29-s30
+c2 being informed of s29-s30
+c1 being informed of s29-s30
+c4 being informed of s29-s30
+c3 being informed of s1-h69
+c2 being informed of s1-h69
+c1 being informed of s1-h69
+c4 being informed of s1-h69
+c3 being informed of s59-h42
+c2 being informed of s59-h42
+c1 being informed of s59-h42
+c4 being informed of s59-h42
+c3 being informed of s55-s67
+c2 being informed of s55-s67
+c1 being informed of s55-s67
+c4 being informed of s55-s67
+c3 being informed of s10-s11
+c2 being informed of s10-s11
+c1 being informed of s10-s11
+c4 being informed of s10-s11
+c3 being informed of s10-s12
+c2 being informed of s10-s12
+c1 being informed of s10-s12
+c4 being informed of s10-s12
+c3 being informed of s10-s14
+c2 being informed of s10-s14
+c1 being informed of s10-s14
+c4 being informed of s10-s14
+c3 being informed of s28-s55
+c2 being informed of s28-s55
+c1 being informed of s28-s55
+c4 being informed of s28-s55
+c3 being informed of s17-h85
+c2 being informed of s17-h85
+c1 being informed of s17-h85
+c4 being informed of s17-h85
+c3 being informed of s7-s77
+c2 being informed of s7-s77
+c1 being informed of s7-s77
+c4 being informed of s7-s77
+c3 being informed of s44-c2
+c2 being informed of s44-c2
+c1 being informed of s44-c2
+c4 being informed of s44-c2
+c3 being informed of s5-s73
+c2 being informed of s5-s73
+c1 being informed of s5-s73
+c4 being informed of s5-s73
+c3 being informed of s39-h80
+c2 being informed of s39-h80
+c1 being informed of s39-h80
+c4 being informed of s39-h80
+c3 being informed of s5-s75
+c2 being informed of s5-s75
+c1 being informed of s5-s75
+c4 being informed of s5-s75
+c3 being informed of s5-s74
+c2 being informed of s5-s74
+c1 being informed of s5-s74
+c4 being informed of s5-s74
+c3 being informed of s72-h22
+c2 being informed of s72-h22
+c1 being informed of s72-h22
+c4 being informed of s72-h22
+c3 being informed of s6-h18
+c2 being informed of s6-h18
+c1 being informed of s6-h18
+c4 being informed of s6-h18
+c3 being informed of s28-s30
+c2 being informed of s28-s30
+c1 being informed of s28-s30
+c4 being informed of s28-s30
+c3 being informed of s67-h72
+c2 being informed of s67-h72
+c1 being informed of s67-h72
+c4 being informed of s67-h72
+c3 being informed of s31-s32
+c2 being informed of s31-s32
+c1 being informed of s31-s32
+c4 being informed of s31-s32
+c3 being informed of s6-h11
+c2 being informed of s6-h11
+c1 being informed of s6-h11
+c4 being informed of s6-h11
+c3 being informed of s34-h97
+c2 being informed of s34-h97
+c1 being informed of s34-h97
+c4 being informed of s34-h97
+c3 being informed of s70-h76
+c2 being informed of s70-h76
+c1 being informed of s70-h76
+c4 being informed of s70-h76
+c3 being informed of s64-h8
+c2 being informed of s64-h8
+c1 being informed of s64-h8
+c4 being informed of s64-h8
+c3 being informed of s10-s26
+c2 being informed of s10-s26
+c1 being informed of s10-s26
+c4 being informed of s10-s26
+c3 being informed of s51-h74
+c2 being informed of s51-h74
+c1 being informed of s51-h74
+c4 being informed of s51-h74
+c3 being informed of s47-s49
+c2 being informed of s47-s49
+c1 being informed of s47-s49
+c4 being informed of s47-s49
+c3 being informed of s47-s48
+c2 being informed of s47-s48
+c1 being informed of s47-s48
+c4 being informed of s47-s48
+c3 being informed of s32-s72
+c2 being informed of s32-s72
+c1 being informed of s32-s72
+c4 being informed of s32-s72
+c3 being informed of s7-s14
+c2 being informed of s7-s14
+c1 being informed of s7-s14
+c4 being informed of s7-s14
+c3 being informed of s10-s28
+c2 being informed of s10-s28
+c1 being informed of s10-s28
+c4 being informed of s10-s28
+c3 being informed of s7-s10
+c2 being informed of s7-s10
+c1 being informed of s7-s10
+c4 being informed of s7-s10
+c3 being informed of s58-h46
+c2 being informed of s58-h46
+c1 being informed of s58-h46
+c4 being informed of s58-h46
+c3 being informed of s69-c1
+c2 being informed of s69-c1
+c1 being informed of s69-c1
+c4 being informed of s69-c1
+c3 being informed of s17-h14
+c2 being informed of s17-h14
+c1 being informed of s17-h14
+c4 being informed of s17-h14
+c3 being informed of s14-s15
+c2 being informed of s14-s15
+c1 being informed of s14-s15
+c4 being informed of s14-s15
+c3 being informed of s1-h16
+c2 being informed of s1-h16
+c1 being informed of s1-h16
+c4 being informed of s1-h16
+c3 being informed of s50-s82
+c2 being informed of s50-s82
+c1 being informed of s50-s82
+c4 being informed of s50-s82
+c3 being informed of s2-s23
+c2 being informed of s2-s23
+c1 being informed of s2-s23
+c4 being informed of s2-s23
+c3 being informed of s2-s22
+c2 being informed of s2-s22
+c1 being informed of s2-s22
+c4 being informed of s2-s22
+c3 being informed of s2-s21
+c2 being informed of s2-s21
+c1 being informed of s2-s21
+c4 being informed of s2-s21
+c3 being informed of s2-s20
+c2 being informed of s2-s20
+c1 being informed of s2-s20
+c4 being informed of s2-s20
+c3 being informed of s4-s11
+c2 being informed of s4-s11
+c1 being informed of s4-s11
+c4 being informed of s4-s11
+c3 being informed of s2-s25
+c2 being informed of s2-s25
+c1 being informed of s2-s25
+c4 being informed of s2-s25
+c3 being informed of s2-s24
+c2 being informed of s2-s24
+c1 being informed of s2-s24
+c4 being informed of s2-s24
+c3 being informed of s21-h37
+c2 being informed of s21-h37
+c1 being informed of s21-h37
+c4 being informed of s21-h37
+c3 being informed of s37-s38
+c2 being informed of s37-s38
+c1 being informed of s37-s38
+c4 being informed of s37-s38
+c3 being informed of s51-s57
+c2 being informed of s51-s57
+c1 being informed of s51-s57
+c4 being informed of s51-s57
+c3 being informed of s52-s84
+c2 being informed of s52-s84
+c1 being informed of s52-s84
+c4 being informed of s52-s84
+c3 being informed of s43-s48
+c2 being informed of s43-s48
+c1 being informed of s43-s48
+c4 being informed of s43-s48
+c3 being informed of s6-h100
+c2 being informed of s6-h100
+c1 being informed of s6-h100
+c4 being informed of s6-h100
+c3 being informed of s21-h56
+c2 being informed of s21-h56
+c1 being informed of s21-h56
+c4 being informed of s21-h56
+c3 being informed of s16-h70
+c2 being informed of s16-h70
+c1 being informed of s16-h70
+c4 being informed of s16-h70
+c3 being informed of s63-s65
+c2 being informed of s63-s65
+c1 being informed of s63-s65
+c4 being informed of s63-s65
+c3 being informed of s63-s64
+c2 being informed of s63-s64
+c1 being informed of s63-s64
+c4 being informed of s63-s64
+c3 being informed of s71-c3
+c2 being informed of s71-c3
+c1 being informed of s71-c3
+c4 being informed of s71-c3
+c3 being informed of s7-s68
+c2 being informed of s7-s68
+c1 being informed of s7-s68
+c4 being informed of s7-s68
+c3 being informed of s47-s51
+c2 being informed of s47-s51
+c1 being informed of s47-s51
+c4 being informed of s47-s51
+c3 being informed of s52-s85
+c2 being informed of s52-s85
+c1 being informed of s52-s85
+c4 being informed of s52-s85
+c3 being informed of s3-s5
+c2 being informed of s3-s5
+c1 being informed of s3-s5
+c4 being informed of s3-s5
+c3 being informed of s5-h75
+c2 being informed of s5-h75
+c1 being informed of s5-h75
+c4 being informed of s5-h75
+c3 being informed of s64-h95
+c2 being informed of s64-h95
+c1 being informed of s64-h95
+c4 being informed of s64-h95
+c3 being informed of s81-s82
+c2 being informed of s81-s82
+c1 being informed of s81-s82
+c4 being informed of s81-s82
+c3 being informed of s47-s50
+c2 being informed of s47-s50
+c1 being informed of s47-s50
+c4 being informed of s47-s50
+c3 being informed of s13-s28
+c2 being informed of s13-s28
+c1 being informed of s13-s28
+c4 being informed of s13-s28
+c3 being informed of s47-s52
+c2 being informed of s47-s52
+c1 being informed of s47-s52
+c4 being informed of s47-s52
+c3 being informed of s8-h89
+c2 being informed of s8-h89
+c1 being informed of s8-h89
+c4 being informed of s8-h89
+c3 being informed of s77-h44
+c2 being informed of s77-h44
+c1 being informed of s77-h44
+c4 being informed of s77-h44
+c3 being informed of s54-h61
+c2 being informed of s54-h61
+c1 being informed of s54-h61
+c4 being informed of s54-h61
+c3 being informed of s13-h3
+c2 being informed of s13-h3
+c1 being informed of s13-h3
+c4 being informed of s13-h3
+c3 being informed of s84-h24
+c2 being informed of s84-h24
+c1 being informed of s84-h24
+c4 being informed of s84-h24
+c3 being informed of s6-s32
+c2 being informed of s6-s32
+c1 being informed of s6-s32
+c4 being informed of s6-s32
+c3 being informed of s8-s80
+c2 being informed of s8-s80
+c1 being informed of s8-s80
+c4 being informed of s8-s80
+c3 being informed of s33-h45
+c2 being informed of s33-h45
+c1 being informed of s33-h45
+c4 being informed of s33-h45
+c3 being informed of s30-h50
+c2 being informed of s30-h50
+c1 being informed of s30-h50
+c4 being informed of s30-h50
+c3 being informed of s41-s48
+c2 being informed of s41-s48
+c1 being informed of s41-s48
+c4 being informed of s41-s48
+c3 being informed of s17-s55
+c2 being informed of s17-s55
+c1 being informed of s17-s55
+c4 being informed of s17-s55
+c3 being informed of s42-h96
+c2 being informed of s42-h96
+c1 being informed of s42-h96
+c4 being informed of s42-h96
+c3 being informed of s16-h30
+c2 being informed of s16-h30
+c1 being informed of s16-h30
+c4 being informed of s16-h30
+c3 being informed of s50-h23
+c2 being informed of s50-h23
+c1 being informed of s50-h23
+c4 being informed of s50-h23
+c3 being informed of s78-h60
+c2 being informed of s78-h60
+c1 being informed of s78-h60
+c4 being informed of s78-h60
+c3 being informed of s8-s73
+c2 being informed of s8-s73
+c1 being informed of s8-s73
+c4 being informed of s8-s73
+c3 being informed of s8-s76
+c2 being informed of s8-s76
+c1 being informed of s8-s76
+c4 being informed of s8-s76
+c3 being informed of s8-s77
+c2 being informed of s8-s77
+c1 being informed of s8-s77
+c4 being informed of s8-s77
+c3 being informed of s8-s74
+c2 being informed of s8-s74
+c1 being informed of s8-s74
+c4 being informed of s8-s74
+c3 being informed of s78-h67
+c2 being informed of s78-h67
+c1 being informed of s78-h67
+c4 being informed of s78-h67
+c3 being informed of s2-s16
+c2 being informed of s2-s16
+c1 being informed of s2-s16
+c4 being informed of s2-s16
+c3 being informed of s8-s78
+c2 being informed of s8-s78
+c1 being informed of s8-s78
+c4 being informed of s8-s78
+c3 being informed of s8-s79
+c2 being informed of s8-s79
+c1 being informed of s8-s79
+c4 being informed of s8-s79
+c3 being informed of s2-s17
+c2 being informed of s2-s17
+c1 being informed of s2-s17
+c4 being informed of s2-s17
+c3 being informed of s7-s79
+c2 being informed of s7-s79
+c1 being informed of s7-s79
+c4 being informed of s7-s79
+c3 being informed of s7-s78
+c2 being informed of s7-s78
+c1 being informed of s7-s78
+c4 being informed of s7-s78
+c3 being informed of s2-s4
+c2 being informed of s2-s4
+c1 being informed of s2-s4
+c4 being informed of s2-s4
+c3 being informed of s7-s73
+c2 being informed of s7-s73
+c1 being informed of s7-s73
+c4 being informed of s7-s73
+c3 being informed of s85-h2
+c2 being informed of s85-h2
+c1 being informed of s85-h2
+c4 being informed of s85-h2
+c3 being informed of s7-s75
+c2 being informed of s7-s75
+c1 being informed of s7-s75
+c4 being informed of s7-s75
+c3 being informed of s7-s74
+c2 being informed of s7-s74
+c1 being informed of s7-s74
+c4 being informed of s7-s74
+c3 being informed of s12-s14
+c2 being informed of s12-s14
+c1 being informed of s12-s14
+c4 being informed of s12-s14
+c3 being informed of s7-s76
+c2 being informed of s7-s76
+c1 being informed of s7-s76
+c4 being informed of s7-s76
+c3 being informed of s47-h88
+c2 being informed of s47-h88
+c1 being informed of s47-h88
+c4 being informed of s47-h88
+c3 being informed of s51-h43
+c2 being informed of s51-h43
+c1 being informed of s51-h43
+c4 being informed of s51-h43
+c3 being informed of s26-s27
+c2 being informed of s26-s27
+c1 being informed of s26-s27
+c4 being informed of s26-s27
+c3 being informed of s19-h86
+c2 being informed of s19-h86
+c1 being informed of s19-h86
+c4 being informed of s19-h86
+c3 being informed of s11-h5
+c2 being informed of s11-h5
+c1 being informed of s11-h5
+c4 being informed of s11-h5
+c3 being informed of s76-h28
+c2 being informed of s76-h28
+c1 being informed of s76-h28
+c4 being informed of s76-h28
+c3 being informed of s13-s14
+c2 being informed of s13-s14
+c1 being informed of s13-s14
+c4 being informed of s13-s14
+c3 being informed of s9-h79
+c2 being informed of s9-h79
+c1 being informed of s9-h79
+c4 being informed of s9-h79
+c3 being informed of s34-h12
+c2 being informed of s34-h12
+c1 being informed of s34-h12
+c4 being informed of s34-h12
+c3 being informed of s33-h57
+c2 being informed of s33-h57
+c1 being informed of s33-h57
+c4 being informed of s33-h57
+c3 being informed of s59-s63
+c2 being informed of s59-s63
+c1 being informed of s59-s63
+c4 being informed of s59-s63
+c3 being informed of s84-h32
+c2 being informed of s84-h32
+c1 being informed of s84-h32
+c4 being informed of s84-h32
+c3 being informed of s46-s47
+c2 being informed of s46-s47
+c1 being informed of s46-s47
+c4 being informed of s46-s47
+Computing for c3
+Computing for c2
+Computing for c1
+Computing for c4
+0.000000 received rule update s49
+0.000000 received rule update s43
+0.000000 received rule update s79
+0.000000 received rule update s80
+0.000000 received rule update s68
+0.000000 received rule update s47
+0.000000 received rule update s84
+0.000000 received rule update s85
+0.000000 received rule update s31
+0.000000 received rule update s22
+0.000000 received rule update s9
+0.000000 received rule update s8
+0.000000 received rule update s56
+0.000000 received rule update s3
+0.000000 received rule update s2
+0.000000 received rule update s1
+0.000000 received rule update s7
+0.000000 received rule update s6
+0.000000 received rule update s5
+0.000000 received rule update s4
+0.000000 received rule update s57
+0.000000 received rule update s78
+0.000000 received rule update s55
+0.000000 received rule update s54
+0.000000 received rule update s53
+0.000000 received rule update s52
+0.000000 received rule update s51
+0.000000 received rule update s50
+0.000000 received rule update s71
+0.000000 received rule update s70
+0.000000 received rule update s73
+0.000000 received rule update s72
+0.000000 received rule update s75
+0.000000 received rule update s37
+0.000000 received rule update s59
+0.000000 received rule update s58
+0.000000 received rule update s12
+0.000000 received rule update s19
+0.000000 received rule update s18
+0.000000 received rule update s39
+0.000000 received rule update s38
+0.000000 received rule update s13
+0.000000 received rule update s34
+0.000000 received rule update s11
+0.000000 received rule update s10
+0.000000 received rule update s17
+0.000000 received rule update s16
+0.000000 received rule update s33
+0.000000 received rule update s32
+0.000000 received rule update s41
+0.000000 received rule update s15
+0.000000 received rule update s14
+0.000000 received rule update s64
+0.000000 received rule update s29
+0.000000 received rule update s30
+0.000000 received rule update s42
+0.000000 received rule update s74
+0.000000 received rule update s44
+0.000000 received rule update s45
+0.000000 received rule update s21
+0.000000 received rule update s77
+0.000000 received rule update s24
+0.000000 received rule update s69
+0.000000 received rule update s83
+0.000000 received rule update s67
+0.000000 received rule update s28
+0.000000 received rule update s76
+0.000000 received rule update s48
+0.000000 received rule update s63
+Starting replay
+31000.0 {'c3': {24: 210, 21: 368, 23: 70}, 'c2': {24: 210, 21: 337, 23: 70}, 'c1': {24: 210, 21: 385, 23: 70}, 'c4': {24: 210, 21: 369, 23: 70}}
+32000.0 {'c3': {24: 210, 21: 368, 23: 70}, 'c2': {24: 210, 21: 337, 23: 70}, 'c1': {24: 210, 21: 385, 23: 70}, 'c4': {24: 210, 21: 369, 23: 70}}
+33000.0 {'c3': {24: 210, 21: 368, 23: 70}, 'c2': {24: 210, 21: 337, 23: 70}, 'c1': {24: 210, 21: 385, 23: 70}, 'c4': {24: 210, 21: 369, 23: 70}}
+34000.0 {'c3': {24: 210, 21: 368, 23: 70}, 'c2': {24: 210, 21: 337, 23: 70}, 'c1': {24: 210, 21: 385, 23: 70}, 'c4': {24: 210, 21: 369, 23: 70}}
+35000.0 {'c3': {24: 210, 21: 368, 23: 70}, 'c2': {24: 210, 21: 337, 23: 70}, 'c1': {24: 210, 21: 385, 23: 70}, 'c4': {24: 210, 21: 369, 23: 70}}
+36000.0 {'c3': {24: 210, 21: 368, 23: 70}, 'c2': {24: 210, 21: 337, 23: 70}, 'c1': {24: 210, 21: 385, 23: 70}, 'c4': {24: 210, 21: 369, 23: 70}}
+37000.0 {'c3': {24: 210, 21: 368, 23: 70}, 'c2': {24: 210, 21: 337, 23: 70}, 'c1': {24: 210, 21: 385, 23: 70}, 'c4': {24: 210, 21: 369, 23: 70}}
+38000.0 {'c3': {24: 210, 21: 368, 23: 70}, 'c2': {24: 210, 21: 337, 23: 70}, 'c1': {24: 210, 21: 385, 23: 70}, 'c4': {24: 210, 21: 369, 23: 70}}
+39000.0 {'c3': {24: 210, 21: 368, 23: 70}, 'c2': {24: 210, 21: 337, 23: 70}, 'c1': {24: 210, 21: 385, 23: 70}, 'c4': {24: 210, 21: 369, 23: 70}}
+40000.0 {'c3': {24: 210, 21: 368, 23: 70}, 'c2': {24: 210, 21: 337, 23: 70}, 'c1': {24: 210, 21: 385, 23: 70}, 'c4': {24: 210, 21: 369, 23: 70}}
+41000.0 {'c3': {24: 210, 21: 368, 23: 70}, 'c2': {24: 210, 21: 337, 23: 70}, 'c1': {24: 210, 21: 385, 23: 70}, 'c4': {24: 210, 21: 369, 23: 70}}
+42000.0 {'c3': {24: 210, 21: 368, 23: 70}, 'c2': {24: 210, 21: 337, 23: 70}, 'c1': {24: 210, 21: 385, 23: 70}, 'c4': {24: 210, 21: 369, 23: 70}}
+43000.0 {'c3': {24: 210, 21: 368, 23: 70}, 'c2': {24: 210, 21: 337, 23: 70}, 'c1': {24: 210, 21: 385, 23: 70}, 'c4': {24: 210, 21: 369, 23: 70}}
+44000.0 {'c3': {24: 210, 21: 368, 23: 70}, 'c2': {24: 210, 21: 337, 23: 70}, 'c1': {24: 210, 21: 385, 23: 70}, 'c4': {24: 210, 21: 369, 23: 70}}
+45000.0 {'c3': {24: 210, 21: 368, 23: 70}, 'c2': {24: 210, 21: 337, 23: 70}, 'c1': {24: 210, 21: 385, 23: 70}, 'c4': {24: 210, 21: 369, 23: 70}}
+46000.0 {'c3': {24: 210, 21: 368, 23: 70}, 'c2': {24: 210, 21: 337, 23: 70}, 'c1': {24: 210, 21: 385, 23: 70}, 'c4': {24: 210, 21: 369, 23: 70}}
+47000.0 {'c3': {24: 210, 21: 368, 23: 70}, 'c2': {24: 210, 21: 337, 23: 70}, 'c1': {24: 210, 21: 385, 23: 70}, 'c4': {24: 210, 21: 369, 23: 70}}
+48000.0 {'c3': {24: 210, 21: 368, 23: 70}, 'c2': {24: 210, 21: 337, 23: 70}, 'c1': {24: 210, 21: 385, 23: 70}, 'c4': {24: 210, 21: 369, 23: 70}}
+49000.0 {'c3': {24: 210, 21: 368, 23: 70}, 'c2': {24: 210, 21: 337, 23: 70}, 'c1': {24: 210, 21: 385, 23: 70}, 'c4': {24: 210, 21: 369, 23: 70}}
+50000.0 {'c3': {24: 210, 21: 368, 23: 70}, 'c2': {24: 210, 21: 337, 23: 70}, 'c1': {24: 210, 21: 385, 23: 70}, 'c4': {24: 210, 21: 369, 23: 70}}
+51000.0 {'c3': {24: 210, 21: 368, 23: 70}, 'c2': {24: 210, 21: 337, 23: 70}, 'c1': {24: 210, 21: 385, 23: 70}, 'c4': {24: 210, 21: 369, 23: 70}}
+52000.0 {'c3': {24: 210, 21: 368, 23: 70}, 'c2': {24: 210, 21: 337, 23: 70}, 'c1': {24: 210, 21: 385, 23: 70}, 'c4': {24: 210, 21: 369, 23: 70}}
+53000.0 {'c3': {24: 210, 21: 368, 23: 70}, 'c2': {24: 210, 21: 337, 23: 70}, 'c1': {24: 210, 21: 385, 23: 70}, 'c4': {24: 210, 21: 369, 23: 70}}
+54000.0 {'c3': {24: 210, 21: 368, 23: 70}, 'c2': {24: 210, 21: 337, 23: 70}, 'c1': {24: 210, 21: 385, 23: 70}, 'c4': {24: 210, 21: 369, 23: 70}}
+55000.0 {'c3': {24: 210, 21: 368, 23: 70}, 'c2': {24: 210, 21: 337, 23: 70}, 'c1': {24: 210, 21: 385, 23: 70}, 'c4': {24: 210, 21: 369, 23: 70}}
+56000.0 {'c3': {24: 210, 21: 368, 23: 70}, 'c2': {24: 210, 21: 337, 23: 70}, 'c1': {24: 210, 21: 385, 23: 70}, 'c4': {24: 210, 21: 369, 23: 70}}
+57000.0 {'c3': {24: 210, 21: 368, 23: 70}, 'c2': {24: 210, 21: 337, 23: 70}, 'c1': {24: 210, 21: 385, 23: 70}, 'c4': {24: 210, 21: 369, 23: 70}}
+58000.0 {'c3': {24: 210, 21: 368, 23: 70}, 'c2': {24: 210, 21: 337, 23: 70}, 'c1': {24: 210, 21: 385, 23: 70}, 'c4': {24: 210, 21: 369, 23: 70}}
+59000.0 {'c3': {24: 210, 21: 368, 23: 70}, 'c2': {24: 210, 21: 337, 23: 70}, 'c1': {24: 210, 21: 385, 23: 70}, 'c4': {24: 210, 21: 369, 23: 70}}
+60000.0 {'c3': {24: 210, 21: 368, 23: 70}, 'c2': {24: 210, 21: 337, 23: 70}, 'c1': {24: 210, 21: 385, 23: 70}, 'c4': {24: 210, 21: 369, 23: 70}}
+61000.0 {'c3': {24: 417, 21: 724, 23: 140}, 'c2': {24: 417, 21: 675, 23: 140}, 'c1': {24: 417, 21: 750, 23: 140}, 'c4': {24: 417, 21: 742, 23: 140}}
+62000.0 {'c3': {24: 417, 21: 724, 23: 140}, 'c2': {24: 417, 21: 675, 23: 140}, 'c1': {24: 417, 21: 750, 23: 140}, 'c4': {24: 417, 21: 742, 23: 140}}
+63000.0 {'c3': {24: 417, 21: 724, 23: 140}, 'c2': {24: 417, 21: 675, 23: 140}, 'c1': {24: 417, 21: 750, 23: 140}, 'c4': {24: 417, 21: 742, 23: 140}}
+64000.0 {'c3': {24: 417, 21: 724, 23: 140}, 'c2': {24: 417, 21: 675, 23: 140}, 'c1': {24: 417, 21: 750, 23: 140}, 'c4': {24: 417, 21: 742, 23: 140}}
+65000.0 {'c3': {24: 417, 21: 724, 23: 140}, 'c2': {24: 417, 21: 675, 23: 140}, 'c1': {24: 417, 21: 750, 23: 140}, 'c4': {24: 417, 21: 742, 23: 140}}
+66000.0 {'c3': {24: 417, 21: 724, 23: 140}, 'c2': {24: 417, 21: 675, 23: 140}, 'c1': {24: 417, 21: 750, 23: 140}, 'c4': {24: 417, 21: 742, 23: 140}}
+67000.0 {'c3': {24: 417, 21: 724, 23: 140}, 'c2': {24: 417, 21: 675, 23: 140}, 'c1': {24: 417, 21: 750, 23: 140}, 'c4': {24: 417, 21: 742, 23: 140}}
+68000.0 {'c3': {24: 417, 21: 724, 23: 140}, 'c2': {24: 417, 21: 675, 23: 140}, 'c1': {24: 417, 21: 750, 23: 140}, 'c4': {24: 417, 21: 742, 23: 140}}
+69000.0 {'c3': {24: 417, 21: 724, 23: 140}, 'c2': {24: 417, 21: 675, 23: 140}, 'c1': {24: 417, 21: 750, 23: 140}, 'c4': {24: 417, 21: 742, 23: 140}}
+70000.0 {'c3': {24: 417, 21: 724, 23: 140}, 'c2': {24: 417, 21: 675, 23: 140}, 'c1': {24: 417, 21: 750, 23: 140}, 'c4': {24: 417, 21: 742, 23: 140}}
+71000.0 {'c3': {24: 417, 21: 724, 23: 140}, 'c2': {24: 417, 21: 675, 23: 140}, 'c1': {24: 417, 21: 750, 23: 140}, 'c4': {24: 417, 21: 742, 23: 140}}
+72000.0 {'c3': {24: 417, 21: 724, 23: 140}, 'c2': {24: 417, 21: 675, 23: 140}, 'c1': {24: 417, 21: 750, 23: 140}, 'c4': {24: 417, 21: 742, 23: 140}}
+73000.0 {'c3': {24: 417, 21: 724, 23: 140}, 'c2': {24: 417, 21: 675, 23: 140}, 'c1': {24: 417, 21: 750, 23: 140}, 'c4': {24: 417, 21: 742, 23: 140}}
+74000.0 {'c3': {24: 417, 21: 724, 23: 140}, 'c2': {24: 417, 21: 675, 23: 140}, 'c1': {24: 417, 21: 750, 23: 140}, 'c4': {24: 417, 21: 742, 23: 140}}
+75000.0 {'c3': {24: 417, 21: 724, 23: 140}, 'c2': {24: 417, 21: 675, 23: 140}, 'c1': {24: 417, 21: 750, 23: 140}, 'c4': {24: 417, 21: 742, 23: 140}}
+76000.0 {'c3': {24: 417, 21: 724, 23: 140}, 'c2': {24: 417, 21: 675, 23: 140}, 'c1': {24: 417, 21: 750, 23: 140}, 'c4': {24: 417, 21: 742, 23: 140}}
+77000.0 {'c3': {24: 417, 21: 724, 23: 140}, 'c2': {24: 417, 21: 675, 23: 140}, 'c1': {24: 417, 21: 750, 23: 140}, 'c4': {24: 417, 21: 742, 23: 140}}
+78000.0 {'c3': {24: 417, 21: 724, 23: 140}, 'c2': {24: 417, 21: 675, 23: 140}, 'c1': {24: 417, 21: 750, 23: 140}, 'c4': {24: 417, 21: 742, 23: 140}}
+79000.0 {'c3': {24: 417, 21: 724, 23: 140}, 'c2': {24: 417, 21: 675, 23: 140}, 'c1': {24: 417, 21: 750, 23: 140}, 'c4': {24: 417, 21: 742, 23: 140}}
+80000.0 {'c3': {24: 417, 21: 724, 23: 140}, 'c2': {24: 417, 21: 675, 23: 140}, 'c1': {24: 417, 21: 750, 23: 140}, 'c4': {24: 417, 21: 742, 23: 140}}
+81000.0 {'c3': {24: 417, 21: 724, 23: 140}, 'c2': {24: 417, 21: 675, 23: 140}, 'c1': {24: 417, 21: 750, 23: 140}, 'c4': {24: 417, 21: 742, 23: 140}}
+82000.0 {'c3': {24: 417, 21: 724, 23: 140}, 'c2': {24: 417, 21: 675, 23: 140}, 'c1': {24: 417, 21: 750, 23: 140}, 'c4': {24: 417, 21: 742, 23: 140}}
+83000.0 {'c3': {24: 417, 21: 724, 23: 140}, 'c2': {24: 417, 21: 675, 23: 140}, 'c1': {24: 417, 21: 750, 23: 140}, 'c4': {24: 417, 21: 742, 23: 140}}
+84000.0 {'c3': {24: 417, 21: 724, 23: 140}, 'c2': {24: 417, 21: 675, 23: 140}, 'c1': {24: 417, 21: 750, 23: 140}, 'c4': {24: 417, 21: 742, 23: 140}}
+85000.0 {'c3': {24: 417, 21: 724, 23: 140}, 'c2': {24: 417, 21: 675, 23: 140}, 'c1': {24: 417, 21: 750, 23: 140}, 'c4': {24: 417, 21: 742, 23: 140}}
+86000.0 {'c3': {24: 417, 21: 724, 23: 140}, 'c2': {24: 417, 21: 675, 23: 140}, 'c1': {24: 417, 21: 750, 23: 140}, 'c4': {24: 417, 21: 742, 23: 140}}
+87000.0 {'c3': {24: 417, 21: 724, 23: 140}, 'c2': {24: 417, 21: 675, 23: 140}, 'c1': {24: 417, 21: 750, 23: 140}, 'c4': {24: 417, 21: 742, 23: 140}}
+88000.0 {'c3': {24: 417, 21: 724, 23: 140}, 'c2': {24: 417, 21: 675, 23: 140}, 'c1': {24: 417, 21: 750, 23: 140}, 'c4': {24: 417, 21: 742, 23: 140}}
+89000.0 {'c3': {24: 417, 21: 724, 23: 140}, 'c2': {24: 417, 21: 675, 23: 140}, 'c1': {24: 417, 21: 750, 23: 140}, 'c4': {24: 417, 21: 742, 23: 140}}
+90000.0 {'c3': {24: 417, 21: 724, 23: 140}, 'c2': {24: 417, 21: 675, 23: 140}, 'c1': {24: 417, 21: 750, 23: 140}, 'c4': {24: 417, 21: 742, 23: 140}}
+91000.0 {'c3': {24: 624, 21: 1106, 23: 210}, 'c2': {24: 624, 21: 1025, 23: 210}, 'c1': {24: 624, 21: 1129, 23: 210}, 'c4': {24: 624, 21: 1108, 23: 210}}
+92000.0 {'c3': {24: 624, 21: 1106, 23: 210}, 'c2': {24: 624, 21: 1025, 23: 210}, 'c1': {24: 624, 21: 1129, 23: 210}, 'c4': {24: 624, 21: 1108, 23: 210}}
+93000.0 {'c3': {24: 624, 21: 1106, 23: 210}, 'c2': {24: 624, 21: 1025, 23: 210}, 'c1': {24: 624, 21: 1129, 23: 210}, 'c4': {24: 624, 21: 1108, 23: 210}}
+94000.0 {'c3': {24: 624, 21: 1106, 23: 210}, 'c2': {24: 624, 21: 1025, 23: 210}, 'c1': {24: 624, 21: 1129, 23: 210}, 'c4': {24: 624, 21: 1108, 23: 210}}
+95000.0 {'c3': {24: 624, 21: 1106, 23: 210}, 'c2': {24: 624, 21: 1025, 23: 210}, 'c1': {24: 624, 21: 1129, 23: 210}, 'c4': {24: 624, 21: 1108, 23: 210}}
+96000.0 {'c3': {24: 624, 21: 1106, 23: 210}, 'c2': {24: 624, 21: 1025, 23: 210}, 'c1': {24: 624, 21: 1129, 23: 210}, 'c4': {24: 624, 21: 1108, 23: 210}}
+97000.0 {'c3': {24: 624, 21: 1106, 23: 210}, 'c2': {24: 624, 21: 1025, 23: 210}, 'c1': {24: 624, 21: 1129, 23: 210}, 'c4': {24: 624, 21: 1108, 23: 210}}
+98000.0 {'c3': {24: 624, 21: 1106, 23: 210}, 'c2': {24: 624, 21: 1025, 23: 210}, 'c1': {24: 624, 21: 1129, 23: 210}, 'c4': {24: 624, 21: 1108, 23: 210}}
+99000.0 {'c3': {24: 624, 21: 1106, 23: 210}, 'c2': {24: 624, 21: 1025, 23: 210}, 'c1': {24: 624, 21: 1129, 23: 210}, 'c4': {24: 624, 21: 1108, 23: 210}}
+100000.0 {'c3': {24: 624, 21: 1106, 23: 210}, 'c2': {24: 624, 21: 1025, 23: 210}, 'c1': {24: 624, 21: 1129, 23: 210}, 'c4': {24: 624, 21: 1108, 23: 210}}
+101000.0 {'c3': {24: 624, 21: 1106, 23: 210}, 'c2': {24: 624, 21: 1025, 23: 210}, 'c1': {24: 624, 21: 1129, 23: 210}, 'c4': {24: 624, 21: 1108, 23: 210}}
+102000.0 {'c3': {24: 624, 21: 1106, 23: 210}, 'c2': {24: 624, 21: 1025, 23: 210}, 'c1': {24: 624, 21: 1129, 23: 210}, 'c4': {24: 624, 21: 1108, 23: 210}}
+103000.0 {'c3': {24: 624, 21: 1106, 23: 210}, 'c2': {24: 624, 21: 1025, 23: 210}, 'c1': {24: 624, 21: 1129, 23: 210}, 'c4': {24: 624, 21: 1108, 23: 210}}
+104000.0 {'c3': {24: 624, 21: 1106, 23: 210}, 'c2': {24: 624, 21: 1025, 23: 210}, 'c1': {24: 624, 21: 1129, 23: 210}, 'c4': {24: 624, 21: 1108, 23: 210}}
+105000.0 {'c3': {24: 624, 21: 1106, 23: 210}, 'c2': {24: 624, 21: 1025, 23: 210}, 'c1': {24: 624, 21: 1129, 23: 210}, 'c4': {24: 624, 21: 1108, 23: 210}}
+106000.0 {'c3': {24: 624, 21: 1106, 23: 210}, 'c2': {24: 624, 21: 1025, 23: 210}, 'c1': {24: 624, 21: 1129, 23: 210}, 'c4': {24: 624, 21: 1108, 23: 210}}
+107000.0 {'c3': {24: 624, 21: 1106, 23: 210}, 'c2': {24: 624, 21: 1025, 23: 210}, 'c1': {24: 624, 21: 1129, 23: 210}, 'c4': {24: 624, 21: 1108, 23: 210}}
+108000.0 {'c3': {24: 624, 21: 1106, 23: 210}, 'c2': {24: 624, 21: 1025, 23: 210}, 'c1': {24: 624, 21: 1129, 23: 210}, 'c4': {24: 624, 21: 1108, 23: 210}}
+109000.0 {'c3': {24: 624, 21: 1106, 23: 210}, 'c2': {24: 624, 21: 1025, 23: 210}, 'c1': {24: 624, 21: 1129, 23: 210}, 'c4': {24: 624, 21: 1108, 23: 210}}
+110000.0 {'c3': {24: 624, 21: 1106, 23: 210}, 'c2': {24: 624, 21: 1025, 23: 210}, 'c1': {24: 624, 21: 1129, 23: 210}, 'c4': {24: 624, 21: 1108, 23: 210}}
+111000.0 {'c3': {24: 624, 21: 1106, 23: 210}, 'c2': {24: 624, 21: 1025, 23: 210}, 'c1': {24: 624, 21: 1129, 23: 210}, 'c4': {24: 624, 21: 1108, 23: 210}}
+112000.0 {'c3': {24: 624, 21: 1106, 23: 210}, 'c2': {24: 624, 21: 1025, 23: 210}, 'c1': {24: 624, 21: 1129, 23: 210}, 'c4': {24: 624, 21: 1108, 23: 210}}
+113000.0 {'c3': {24: 624, 21: 1106, 23: 210}, 'c2': {24: 624, 21: 1025, 23: 210}, 'c1': {24: 624, 21: 1129, 23: 210}, 'c4': {24: 624, 21: 1108, 23: 210}}
+114000.0 {'c3': {24: 624, 21: 1106, 23: 210}, 'c2': {24: 624, 21: 1025, 23: 210}, 'c1': {24: 624, 21: 1129, 23: 210}, 'c4': {24: 624, 21: 1108, 23: 210}}
+115000.0 {'c3': {24: 624, 21: 1106, 23: 210}, 'c2': {24: 624, 21: 1025, 23: 210}, 'c1': {24: 624, 21: 1129, 23: 210}, 'c4': {24: 624, 21: 1108, 23: 210}}
+116000.0 {'c3': {24: 624, 21: 1106, 23: 210}, 'c2': {24: 624, 21: 1025, 23: 210}, 'c1': {24: 624, 21: 1129, 23: 210}, 'c4': {24: 624, 21: 1108, 23: 210}}
+117000.0 {'c3': {24: 624, 21: 1106, 23: 210}, 'c2': {24: 624, 21: 1025, 23: 210}, 'c1': {24: 624, 21: 1129, 23: 210}, 'c4': {24: 624, 21: 1108, 23: 210}}
+118000.0 {'c3': {24: 624, 21: 1106, 23: 210}, 'c2': {24: 624, 21: 1025, 23: 210}, 'c1': {24: 624, 21: 1129, 23: 210}, 'c4': {24: 624, 21: 1108, 23: 210}}
+119000.0 {'c3': {24: 624, 21: 1106, 23: 210}, 'c2': {24: 624, 21: 1025, 23: 210}, 'c1': {24: 624, 21: 1129, 23: 210}, 'c4': {24: 624, 21: 1108, 23: 210}}
+120000.0 {'c3': {24: 624, 21: 1106, 23: 210}, 'c2': {24: 624, 21: 1025, 23: 210}, 'c1': {24: 624, 21: 1129, 23: 210}, 'c4': {24: 624, 21: 1108, 23: 210}}
+121000.0 {'c3': {24: 831, 21: 1481, 23: 280}, 'c2': {24: 831, 21: 1367, 23: 280}, 'c1': {24: 831, 21: 1505, 23: 280}, 'c4': {24: 831, 21: 1487, 23: 280}}
+122000.0 {'c3': {24: 831, 21: 1481, 23: 280}, 'c2': {24: 831, 21: 1367, 23: 280}, 'c1': {24: 831, 21: 1505, 23: 280}, 'c4': {24: 831, 21: 1487, 23: 280}}
+123000.0 {'c3': {24: 831, 21: 1481, 23: 280}, 'c2': {24: 831, 21: 1367, 23: 280}, 'c1': {24: 831, 21: 1505, 23: 280}, 'c4': {24: 831, 21: 1487, 23: 280}}
+124000.0 {'c3': {24: 831, 21: 1481, 23: 280}, 'c2': {24: 831, 21: 1367, 23: 280}, 'c1': {24: 831, 21: 1505, 23: 280}, 'c4': {24: 831, 21: 1487, 23: 280}}
+125000.0 {'c3': {24: 831, 21: 1481, 23: 280}, 'c2': {24: 831, 21: 1367, 23: 280}, 'c1': {24: 831, 21: 1505, 23: 280}, 'c4': {24: 831, 21: 1487, 23: 280}}
+126000.0 {'c3': {24: 831, 21: 1481, 23: 280}, 'c2': {24: 831, 21: 1367, 23: 280}, 'c1': {24: 831, 21: 1505, 23: 280}, 'c4': {24: 831, 21: 1487, 23: 280}}
+127000.0 {'c3': {24: 831, 21: 1481, 23: 280}, 'c2': {24: 831, 21: 1367, 23: 280}, 'c1': {24: 831, 21: 1505, 23: 280}, 'c4': {24: 831, 21: 1487, 23: 280}}
+128000.0 {'c3': {24: 831, 21: 1481, 23: 280}, 'c2': {24: 831, 21: 1367, 23: 280}, 'c1': {24: 831, 21: 1505, 23: 280}, 'c4': {24: 831, 21: 1487, 23: 280}}
+129000.0 {'c3': {24: 831, 21: 1481, 23: 280}, 'c2': {24: 831, 21: 1367, 23: 280}, 'c1': {24: 831, 21: 1505, 23: 280}, 'c4': {24: 831, 21: 1487, 23: 280}}
+130000.0 {'c3': {24: 831, 21: 1481, 23: 280}, 'c2': {24: 831, 21: 1367, 23: 280}, 'c1': {24: 831, 21: 1505, 23: 280}, 'c4': {24: 831, 21: 1487, 23: 280}}
+131000.0 {'c3': {24: 831, 21: 1481, 23: 280}, 'c2': {24: 831, 21: 1367, 23: 280}, 'c1': {24: 831, 21: 1505, 23: 280}, 'c4': {24: 831, 21: 1487, 23: 280}}
+132000.0 {'c3': {24: 831, 21: 1481, 23: 280}, 'c2': {24: 831, 21: 1367, 23: 280}, 'c1': {24: 831, 21: 1505, 23: 280}, 'c4': {24: 831, 21: 1487, 23: 280}}
+133000.0 {'c3': {24: 831, 21: 1481, 23: 280}, 'c2': {24: 831, 21: 1367, 23: 280}, 'c1': {24: 831, 21: 1505, 23: 280}, 'c4': {24: 831, 21: 1487, 23: 280}}
+134000.0 {'c3': {24: 831, 21: 1481, 23: 280}, 'c2': {24: 831, 21: 1367, 23: 280}, 'c1': {24: 831, 21: 1505, 23: 280}, 'c4': {24: 831, 21: 1487, 23: 280}}
+135000.0 {'c3': {24: 831, 21: 1481, 23: 280}, 'c2': {24: 831, 21: 1367, 23: 280}, 'c1': {24: 831, 21: 1505, 23: 280}, 'c4': {24: 831, 21: 1487, 23: 280}}
+136000.0 {'c3': {24: 831, 21: 1481, 23: 280}, 'c2': {24: 831, 21: 1367, 23: 280}, 'c1': {24: 831, 21: 1505, 23: 280}, 'c4': {24: 831, 21: 1487, 23: 280}}
+137000.0 {'c3': {24: 831, 21: 1481, 23: 280}, 'c2': {24: 831, 21: 1367, 23: 280}, 'c1': {24: 831, 21: 1505, 23: 280}, 'c4': {24: 831, 21: 1487, 23: 280}}
+138000.0 {'c3': {24: 831, 21: 1481, 23: 280}, 'c2': {24: 831, 21: 1367, 23: 280}, 'c1': {24: 831, 21: 1505, 23: 280}, 'c4': {24: 831, 21: 1487, 23: 280}}
+139000.0 {'c3': {24: 831, 21: 1481, 23: 280}, 'c2': {24: 831, 21: 1367, 23: 280}, 'c1': {24: 831, 21: 1505, 23: 280}, 'c4': {24: 831, 21: 1487, 23: 280}}
+140000.0 {'c3': {24: 831, 21: 1481, 23: 280}, 'c2': {24: 831, 21: 1367, 23: 280}, 'c1': {24: 831, 21: 1505, 23: 280}, 'c4': {24: 831, 21: 1487, 23: 280}}
+141000.0 {'c3': {24: 831, 21: 1481, 23: 280}, 'c2': {24: 831, 21: 1367, 23: 280}, 'c1': {24: 831, 21: 1505, 23: 280}, 'c4': {24: 831, 21: 1487, 23: 280}}
+142000.0 {'c3': {24: 831, 21: 1481, 23: 280}, 'c2': {24: 831, 21: 1367, 23: 280}, 'c1': {24: 831, 21: 1505, 23: 280}, 'c4': {24: 831, 21: 1487, 23: 280}}
+143000.0 {'c3': {24: 831, 21: 1481, 23: 280}, 'c2': {24: 831, 21: 1367, 23: 280}, 'c1': {24: 831, 21: 1505, 23: 280}, 'c4': {24: 831, 21: 1487, 23: 280}}
+144000.0 {'c3': {24: 831, 21: 1481, 23: 280}, 'c2': {24: 831, 21: 1367, 23: 280}, 'c1': {24: 831, 21: 1505, 23: 280}, 'c4': {24: 831, 21: 1487, 23: 280}}
+145000.0 {'c3': {24: 831, 21: 1481, 23: 280}, 'c2': {24: 831, 21: 1367, 23: 280}, 'c1': {24: 831, 21: 1505, 23: 280}, 'c4': {24: 831, 21: 1487, 23: 280}}
+146000.0 {'c3': {24: 831, 21: 1481, 23: 280}, 'c2': {24: 831, 21: 1367, 23: 280}, 'c1': {24: 831, 21: 1505, 23: 280}, 'c4': {24: 831, 21: 1487, 23: 280}}
+147000.0 {'c3': {24: 831, 21: 1481, 23: 280}, 'c2': {24: 831, 21: 1367, 23: 280}, 'c1': {24: 831, 21: 1505, 23: 280}, 'c4': {24: 831, 21: 1487, 23: 280}}
+148000.0 {'c3': {24: 831, 21: 1481, 23: 280}, 'c2': {24: 831, 21: 1367, 23: 280}, 'c1': {24: 831, 21: 1505, 23: 280}, 'c4': {24: 831, 21: 1487, 23: 280}}
+149000.0 {'c3': {24: 831, 21: 1481, 23: 280}, 'c2': {24: 831, 21: 1367, 23: 280}, 'c1': {24: 831, 21: 1505, 23: 280}, 'c4': {24: 831, 21: 1487, 23: 280}}
+150000.0 {'c3': {24: 831, 21: 1481, 23: 280}, 'c2': {24: 831, 21: 1367, 23: 280}, 'c1': {24: 831, 21: 1505, 23: 280}, 'c4': {24: 831, 21: 1487, 23: 280}}
+151000.0 {'c3': {24: 1038, 21: 1852, 23: 350}, 'c2': {24: 1038, 21: 1712, 23: 350}, 'c1': {24: 1038, 21: 1868, 23: 350}, 'c4': {24: 1038, 21: 1855, 23: 350}}
+152000.0 {'c3': {24: 1038, 21: 1852, 23: 350}, 'c2': {24: 1038, 21: 1712, 23: 350}, 'c1': {24: 1038, 21: 1868, 23: 350}, 'c4': {24: 1038, 21: 1855, 23: 350}}
+153000.0 {'c3': {24: 1038, 21: 1852, 23: 350}, 'c2': {24: 1038, 21: 1712, 23: 350}, 'c1': {24: 1038, 21: 1868, 23: 350}, 'c4': {24: 1038, 21: 1855, 23: 350}}
+154000.0 {'c3': {24: 1038, 21: 1852, 23: 350}, 'c2': {24: 1038, 21: 1712, 23: 350}, 'c1': {24: 1038, 21: 1868, 23: 350}, 'c4': {24: 1038, 21: 1855, 23: 350}}
+155000.0 {'c3': {24: 1038, 21: 1852, 23: 350}, 'c2': {24: 1038, 21: 1712, 23: 350}, 'c1': {24: 1038, 21: 1868, 23: 350}, 'c4': {24: 1038, 21: 1855, 23: 350}}
+156000.0 {'c3': {24: 1038, 21: 1852, 23: 350}, 'c2': {24: 1038, 21: 1712, 23: 350}, 'c1': {24: 1038, 21: 1868, 23: 350}, 'c4': {24: 1038, 21: 1855, 23: 350}}
+157000.0 {'c3': {24: 1038, 21: 1852, 23: 350}, 'c2': {24: 1038, 21: 1712, 23: 350}, 'c1': {24: 1038, 21: 1868, 23: 350}, 'c4': {24: 1038, 21: 1855, 23: 350}}
+158000.0 {'c3': {24: 1038, 21: 1852, 23: 350}, 'c2': {24: 1038, 21: 1712, 23: 350}, 'c1': {24: 1038, 21: 1868, 23: 350}, 'c4': {24: 1038, 21: 1855, 23: 350}}
+159000.0 {'c3': {24: 1038, 21: 1852, 23: 350}, 'c2': {24: 1038, 21: 1712, 23: 350}, 'c1': {24: 1038, 21: 1868, 23: 350}, 'c4': {24: 1038, 21: 1855, 23: 350}}
+160000.0 {'c3': {24: 1038, 21: 1852, 23: 350}, 'c2': {24: 1038, 21: 1712, 23: 350}, 'c1': {24: 1038, 21: 1868, 23: 350}, 'c4': {24: 1038, 21: 1855, 23: 350}}
+161000.0 {'c3': {24: 1038, 21: 1852, 23: 350}, 'c2': {24: 1038, 21: 1712, 23: 350}, 'c1': {24: 1038, 21: 1868, 23: 350}, 'c4': {24: 1038, 21: 1855, 23: 350}}
+162000.0 {'c3': {24: 1038, 21: 1852, 23: 350}, 'c2': {24: 1038, 21: 1712, 23: 350}, 'c1': {24: 1038, 21: 1868, 23: 350}, 'c4': {24: 1038, 21: 1855, 23: 350}}
+163000.0 {'c3': {24: 1038, 21: 1852, 23: 350}, 'c2': {24: 1038, 21: 1712, 23: 350}, 'c1': {24: 1038, 21: 1868, 23: 350}, 'c4': {24: 1038, 21: 1855, 23: 350}}
+164000.0 {'c3': {24: 1038, 21: 1852, 23: 350}, 'c2': {24: 1038, 21: 1712, 23: 350}, 'c1': {24: 1038, 21: 1868, 23: 350}, 'c4': {24: 1038, 21: 1855, 23: 350}}
+165000.0 {'c3': {24: 1038, 21: 1852, 23: 350}, 'c2': {24: 1038, 21: 1712, 23: 350}, 'c1': {24: 1038, 21: 1868, 23: 350}, 'c4': {24: 1038, 21: 1855, 23: 350}}
+166000.0 {'c3': {24: 1038, 21: 1852, 23: 350}, 'c2': {24: 1038, 21: 1712, 23: 350}, 'c1': {24: 1038, 21: 1868, 23: 350}, 'c4': {24: 1038, 21: 1855, 23: 350}}
+167000.0 {'c3': {24: 1038, 21: 1852, 23: 350}, 'c2': {24: 1038, 21: 1712, 23: 350}, 'c1': {24: 1038, 21: 1868, 23: 350}, 'c4': {24: 1038, 21: 1855, 23: 350}}
+168000.0 {'c3': {24: 1038, 21: 1852, 23: 350}, 'c2': {24: 1038, 21: 1712, 23: 350}, 'c1': {24: 1038, 21: 1868, 23: 350}, 'c4': {24: 1038, 21: 1855, 23: 350}}
+169000.0 {'c3': {24: 1038, 21: 1852, 23: 350}, 'c2': {24: 1038, 21: 1712, 23: 350}, 'c1': {24: 1038, 21: 1868, 23: 350}, 'c4': {24: 1038, 21: 1855, 23: 350}}
+170000.0 {'c3': {24: 1038, 21: 1852, 23: 350}, 'c2': {24: 1038, 21: 1712, 23: 350}, 'c1': {24: 1038, 21: 1868, 23: 350}, 'c4': {24: 1038, 21: 1855, 23: 350}}
+171000.0 {'c3': {24: 1038, 21: 1852, 23: 350}, 'c2': {24: 1038, 21: 1712, 23: 350}, 'c1': {24: 1038, 21: 1868, 23: 350}, 'c4': {24: 1038, 21: 1855, 23: 350}}
+172000.0 {'c3': {24: 1038, 21: 1852, 23: 350}, 'c2': {24: 1038, 21: 1712, 23: 350}, 'c1': {24: 1038, 21: 1868, 23: 350}, 'c4': {24: 1038, 21: 1855, 23: 350}}
+173000.0 {'c3': {24: 1038, 21: 1852, 23: 350}, 'c2': {24: 1038, 21: 1712, 23: 350}, 'c1': {24: 1038, 21: 1868, 23: 350}, 'c4': {24: 1038, 21: 1855, 23: 350}}
+174000.0 {'c3': {24: 1038, 21: 1852, 23: 350}, 'c2': {24: 1038, 21: 1712, 23: 350}, 'c1': {24: 1038, 21: 1868, 23: 350}, 'c4': {24: 1038, 21: 1855, 23: 350}}
+175000.0 {'c3': {24: 1038, 21: 1852, 23: 350}, 'c2': {24: 1038, 21: 1712, 23: 350}, 'c1': {24: 1038, 21: 1868, 23: 350}, 'c4': {24: 1038, 21: 1855, 23: 350}}
+176000.0 {'c3': {24: 1038, 21: 1852, 23: 350}, 'c2': {24: 1038, 21: 1712, 23: 350}, 'c1': {24: 1038, 21: 1868, 23: 350}, 'c4': {24: 1038, 21: 1855, 23: 350}}
+177000.0 {'c3': {24: 1038, 21: 1852, 23: 350}, 'c2': {24: 1038, 21: 1712, 23: 350}, 'c1': {24: 1038, 21: 1868, 23: 350}, 'c4': {24: 1038, 21: 1855, 23: 350}}
+178000.0 {'c3': {24: 1038, 21: 1852, 23: 350}, 'c2': {24: 1038, 21: 1712, 23: 350}, 'c1': {24: 1038, 21: 1868, 23: 350}, 'c4': {24: 1038, 21: 1855, 23: 350}}
+179000.0 {'c3': {24: 1038, 21: 1852, 23: 350}, 'c2': {24: 1038, 21: 1712, 23: 350}, 'c1': {24: 1038, 21: 1868, 23: 350}, 'c4': {24: 1038, 21: 1855, 23: 350}}
+180000.0 {'c3': {24: 1038, 21: 1852, 23: 350}, 'c2': {24: 1038, 21: 1712, 23: 350}, 'c1': {24: 1038, 21: 1868, 23: 350}, 'c4': {24: 1038, 21: 1855, 23: 350}}
+181000.0 {'c3': {24: 1245, 21: 2221, 23: 420}, 'c2': {24: 1245, 21: 2058, 23: 420}, 'c1': {24: 1245, 21: 2246, 23: 420}, 'c4': {24: 1245, 21: 2230, 23: 420}}
+182000.0 {'c3': {24: 1245, 21: 2221, 23: 420}, 'c2': {24: 1245, 21: 2058, 23: 420}, 'c1': {24: 1245, 21: 2246, 23: 420}, 'c4': {24: 1245, 21: 2230, 23: 420}}
+183000.0 {'c3': {24: 1245, 21: 2221, 23: 420}, 'c2': {24: 1245, 21: 2058, 23: 420}, 'c1': {24: 1245, 21: 2246, 23: 420}, 'c4': {24: 1245, 21: 2230, 23: 420}}
+184000.0 {'c3': {24: 1245, 21: 2221, 23: 420}, 'c2': {24: 1245, 21: 2058, 23: 420}, 'c1': {24: 1245, 21: 2246, 23: 420}, 'c4': {24: 1245, 21: 2230, 23: 420}}
+185000.0 {'c3': {24: 1245, 21: 2221, 23: 420}, 'c2': {24: 1245, 21: 2058, 23: 420}, 'c1': {24: 1245, 21: 2246, 23: 420}, 'c4': {24: 1245, 21: 2230, 23: 420}}
+186000.0 {'c3': {24: 1245, 21: 2221, 23: 420}, 'c2': {24: 1245, 21: 2058, 23: 420}, 'c1': {24: 1245, 21: 2246, 23: 420}, 'c4': {24: 1245, 21: 2230, 23: 420}}
+187000.0 {'c3': {24: 1245, 21: 2221, 23: 420}, 'c2': {24: 1245, 21: 2058, 23: 420}, 'c1': {24: 1245, 21: 2246, 23: 420}, 'c4': {24: 1245, 21: 2230, 23: 420}}
+188000.0 {'c3': {24: 1245, 21: 2221, 23: 420}, 'c2': {24: 1245, 21: 2058, 23: 420}, 'c1': {24: 1245, 21: 2246, 23: 420}, 'c4': {24: 1245, 21: 2230, 23: 420}}
+189000.0 {'c3': {24: 1245, 21: 2221, 23: 420}, 'c2': {24: 1245, 21: 2058, 23: 420}, 'c1': {24: 1245, 21: 2246, 23: 420}, 'c4': {24: 1245, 21: 2230, 23: 420}}
+190000.0 {'c3': {24: 1245, 21: 2221, 23: 420}, 'c2': {24: 1245, 21: 2058, 23: 420}, 'c1': {24: 1245, 21: 2246, 23: 420}, 'c4': {24: 1245, 21: 2230, 23: 420}}
+191000.0 {'c3': {24: 1245, 21: 2221, 23: 420}, 'c2': {24: 1245, 21: 2058, 23: 420}, 'c1': {24: 1245, 21: 2246, 23: 420}, 'c4': {24: 1245, 21: 2230, 23: 420}}
+192000.0 {'c3': {24: 1245, 21: 2221, 23: 420}, 'c2': {24: 1245, 21: 2058, 23: 420}, 'c1': {24: 1245, 21: 2246, 23: 420}, 'c4': {24: 1245, 21: 2230, 23: 420}}
+193000.0 {'c3': {24: 1245, 21: 2221, 23: 420}, 'c2': {24: 1245, 21: 2058, 23: 420}, 'c1': {24: 1245, 21: 2246, 23: 420}, 'c4': {24: 1245, 21: 2230, 23: 420}}
+194000.0 {'c3': {24: 1245, 21: 2221, 23: 420}, 'c2': {24: 1245, 21: 2058, 23: 420}, 'c1': {24: 1245, 21: 2246, 23: 420}, 'c4': {24: 1245, 21: 2230, 23: 420}}
+195000.0 {'c3': {24: 1245, 21: 2221, 23: 420}, 'c2': {24: 1245, 21: 2058, 23: 420}, 'c1': {24: 1245, 21: 2246, 23: 420}, 'c4': {24: 1245, 21: 2230, 23: 420}}
+196000.0 {'c3': {24: 1245, 21: 2221, 23: 420}, 'c2': {24: 1245, 21: 2058, 23: 420}, 'c1': {24: 1245, 21: 2246, 23: 420}, 'c4': {24: 1245, 21: 2230, 23: 420}}
+197000.0 {'c3': {24: 1245, 21: 2221, 23: 420}, 'c2': {24: 1245, 21: 2058, 23: 420}, 'c1': {24: 1245, 21: 2246, 23: 420}, 'c4': {24: 1245, 21: 2230, 23: 420}}
+198000.0 {'c3': {24: 1245, 21: 2221, 23: 420}, 'c2': {24: 1245, 21: 2058, 23: 420}, 'c1': {24: 1245, 21: 2246, 23: 420}, 'c4': {24: 1245, 21: 2230, 23: 420}}
+199000.0 {'c3': {24: 1245, 21: 2221, 23: 420}, 'c2': {24: 1245, 21: 2058, 23: 420}, 'c1': {24: 1245, 21: 2246, 23: 420}, 'c4': {24: 1245, 21: 2230, 23: 420}}
+200000.0 {'c3': {24: 1245, 21: 2221, 23: 420}, 'c2': {24: 1245, 21: 2058, 23: 420}, 'c1': {24: 1245, 21: 2246, 23: 420}, 'c4': {24: 1245, 21: 2230, 23: 420}}
+201000.0 {'c3': {24: 1245, 21: 2221, 23: 420}, 'c2': {24: 1245, 21: 2058, 23: 420}, 'c1': {24: 1245, 21: 2246, 23: 420}, 'c4': {24: 1245, 21: 2230, 23: 420}}
+202000.0 {'c3': {24: 1245, 21: 2221, 23: 420}, 'c2': {24: 1245, 21: 2058, 23: 420}, 'c1': {24: 1245, 21: 2246, 23: 420}, 'c4': {24: 1245, 21: 2230, 23: 420}}
+203000.0 {'c3': {24: 1245, 21: 2221, 23: 420}, 'c2': {24: 1245, 21: 2058, 23: 420}, 'c1': {24: 1245, 21: 2246, 23: 420}, 'c4': {24: 1245, 21: 2230, 23: 420}}
+204000.0 {'c3': {24: 1245, 21: 2221, 23: 420}, 'c2': {24: 1245, 21: 2058, 23: 420}, 'c1': {24: 1245, 21: 2246, 23: 420}, 'c4': {24: 1245, 21: 2230, 23: 420}}
+205000.0 {'c3': {24: 1245, 21: 2221, 23: 420}, 'c2': {24: 1245, 21: 2058, 23: 420}, 'c1': {24: 1245, 21: 2246, 23: 420}, 'c4': {24: 1245, 21: 2230, 23: 420}}
+206000.0 {'c3': {24: 1245, 21: 2221, 23: 420}, 'c2': {24: 1245, 21: 2058, 23: 420}, 'c1': {24: 1245, 21: 2246, 23: 420}, 'c4': {24: 1245, 21: 2230, 23: 420}}
+207000.0 {'c3': {24: 1245, 21: 2221, 23: 420}, 'c2': {24: 1245, 21: 2058, 23: 420}, 'c1': {24: 1245, 21: 2246, 23: 420}, 'c4': {24: 1245, 21: 2230, 23: 420}}
+208000.0 {'c3': {24: 1245, 21: 2221, 23: 420}, 'c2': {24: 1245, 21: 2058, 23: 420}, 'c1': {24: 1245, 21: 2246, 23: 420}, 'c4': {24: 1245, 21: 2230, 23: 420}}
+209000.0 {'c3': {24: 1245, 21: 2221, 23: 420}, 'c2': {24: 1245, 21: 2058, 23: 420}, 'c1': {24: 1245, 21: 2246, 23: 420}, 'c4': {24: 1245, 21: 2230, 23: 420}}
+210000.0 {'c3': {24: 1245, 21: 2221, 23: 420}, 'c2': {24: 1245, 21: 2058, 23: 420}, 'c1': {24: 1245, 21: 2246, 23: 420}, 'c4': {24: 1245, 21: 2230, 23: 420}}
+211000.0 {'c3': {24: 1452, 21: 2588, 23: 490}, 'c2': {24: 1452, 21: 2401, 23: 490}, 'c1': {24: 1452, 21: 2625, 23: 490}, 'c4': {24: 1452, 21: 2608, 23: 490}}
+212000.0 {'c3': {24: 1452, 21: 2588, 23: 490}, 'c2': {24: 1452, 21: 2401, 23: 490}, 'c1': {24: 1452, 21: 2625, 23: 490}, 'c4': {24: 1452, 21: 2608, 23: 490}}
+213000.0 {'c3': {24: 1452, 21: 2588, 23: 490}, 'c2': {24: 1452, 21: 2401, 23: 490}, 'c1': {24: 1452, 21: 2625, 23: 490}, 'c4': {24: 1452, 21: 2608, 23: 490}}
+214000.0 {'c3': {24: 1452, 21: 2588, 23: 490}, 'c2': {24: 1452, 21: 2401, 23: 490}, 'c1': {24: 1452, 21: 2625, 23: 490}, 'c4': {24: 1452, 21: 2608, 23: 490}}
+215000.0 {'c3': {24: 1452, 21: 2588, 23: 490}, 'c2': {24: 1452, 21: 2401, 23: 490}, 'c1': {24: 1452, 21: 2625, 23: 490}, 'c4': {24: 1452, 21: 2608, 23: 490}}
+216000.0 {'c3': {24: 1452, 21: 2588, 23: 490}, 'c2': {24: 1452, 21: 2401, 23: 490}, 'c1': {24: 1452, 21: 2625, 23: 490}, 'c4': {24: 1452, 21: 2608, 23: 490}}
+217000.0 {'c3': {24: 1452, 21: 2588, 23: 490}, 'c2': {24: 1452, 21: 2401, 23: 490}, 'c1': {24: 1452, 21: 2625, 23: 490}, 'c4': {24: 1452, 21: 2608, 23: 490}}
+218000.0 {'c3': {24: 1452, 21: 2588, 23: 490}, 'c2': {24: 1452, 21: 2401, 23: 490}, 'c1': {24: 1452, 21: 2625, 23: 490}, 'c4': {24: 1452, 21: 2608, 23: 490}}
+219000.0 {'c3': {24: 1452, 21: 2588, 23: 490}, 'c2': {24: 1452, 21: 2401, 23: 490}, 'c1': {24: 1452, 21: 2625, 23: 490}, 'c4': {24: 1452, 21: 2608, 23: 490}}
+220000.0 {'c3': {24: 1452, 21: 2588, 23: 490}, 'c2': {24: 1452, 21: 2401, 23: 490}, 'c1': {24: 1452, 21: 2625, 23: 490}, 'c4': {24: 1452, 21: 2608, 23: 490}}
+221000.0 {'c3': {24: 1452, 21: 2588, 23: 490}, 'c2': {24: 1452, 21: 2401, 23: 490}, 'c1': {24: 1452, 21: 2625, 23: 490}, 'c4': {24: 1452, 21: 2608, 23: 490}}
+222000.0 {'c3': {24: 1452, 21: 2588, 23: 490}, 'c2': {24: 1452, 21: 2401, 23: 490}, 'c1': {24: 1452, 21: 2625, 23: 490}, 'c4': {24: 1452, 21: 2608, 23: 490}}
+223000.0 {'c3': {24: 1452, 21: 2588, 23: 490}, 'c2': {24: 1452, 21: 2401, 23: 490}, 'c1': {24: 1452, 21: 2625, 23: 490}, 'c4': {24: 1452, 21: 2608, 23: 490}}
+224000.0 {'c3': {24: 1452, 21: 2588, 23: 490}, 'c2': {24: 1452, 21: 2401, 23: 490}, 'c1': {24: 1452, 21: 2625, 23: 490}, 'c4': {24: 1452, 21: 2608, 23: 490}}
+224724.071308 s11 notifying down for s4-s11
+224724.071308 s11 notifying down for s4-s11 reliably
+224724.071308 s4 notifying down for s4-s11
+224724.071308 s4 notifying down for s4-s11 reliably
+224815.114775 c4 notify link down s4-s11  version:  1
+224815.114775 Computing link updates
+224815.114775 c4 updating s11 with len 93
+       Update to s11 with len 93
+224815.114775 c4 updating s14 with len 12
+       Update to s14 with len 12
+224815.114775 c4 updating s4 with len 6
+       Update to s4 with len 6
+224815.114775 c4 updating s9 with len 87
+       Update to s9 with len 87
+224815.114775 c4 updating s6 with len 87
+       Update to s6 with len 87
+224852.131323 c4 notify link down s4-s11  version:  1
+224852.131323 Skipping because of link version
+224927.585909 c3 notify link down s4-s11  version:  1
+224927.585909 Computing link updates
+224927.585909 c3 updating s11 with len 93
+       Update to s11 with len 93
+224927.585909 c3 updating s14 with len 12
+       Update to s14 with len 12
+224927.585909 c3 updating s4 with len 6
+       Update to s4 with len 6
+224927.585909 c3 updating s9 with len 87
+       Update to s9 with len 87
+224927.585909 c3 updating s6 with len 87
+       Update to s6 with len 87
+224936.647741 c1 notify link down s4-s11  version:  1
+224936.647741 Computing link updates
+224936.647741 c1 updating s11 with len 93
+       Update to s11 with len 93
+224936.647741 c1 updating s14 with len 12
+       Update to s14 with len 12
+224936.647741 c1 updating s4 with len 6
+       Update to s4 with len 6
+224936.647741 c1 updating s9 with len 87
+       Update to s9 with len 87
+224936.647741 c1 updating s6 with len 87
+       Update to s6 with len 87
+224944.861480 received rule update s4
+224947.296076 received rule update s14
+224950.434013 c1 notify link down s4-s11  version:  1
+224950.434013 Skipping because of link version
+224951.977601 c3 notify link down s4-s11  version:  1
+224951.977601 Skipping because of link version
+224970.103936 received rule update s9
+224974.328033 received rule update s11
+225000.0 {'c3': {24: 1452, 2: 5, 21: 2590, 23: 490}, 'c2': {24: 1452, 21: 2401, 23: 490}, 'c1': {24: 1452, 2: 5, 21: 2627, 23: 490}, 'c4': {24: 1452, 2: 5, 21: 2610, 23: 490}}
+225002.251518 received rule update s6
+225069.070591 received rule update s6
+225091.773190 c2 notify link down s4-s11  version:  1
+225091.773190 Computing link updates
+225091.773190 c2 updating s11 with len 93
+       Update to s11 with len 93
+225091.773190 c2 updating s14 with len 12
+       Update to s14 with len 12
+225091.773190 c2 updating s4 with len 6
+       Update to s4 with len 6
+225091.773190 c2 updating s9 with len 87
+       Update to s9 with len 87
+225091.773190 c2 updating s6 with len 87
+       Update to s6 with len 87
+225094.470774 received rule update s6
+225094.985962 received rule update s9
+225099.530679 c2 notify link down s4-s11  version:  1
+225099.530679 Skipping because of link version
+225110.749481 received rule update s14
+225121.226347 received rule update s9
+225123.615004 received rule update s4
+225130.615131 received rule update s14
+225147.702652 received rule update s11
+225149.701442 received rule update s11
+225153.326839 received rule update s4
+225401.646601 received rule update s4
+225419.093187 received rule update s6
+225421.519581 received rule update s9
+225453.983957 received rule update s11
+225461.237276 received rule update s14
+226000.0 {'c3': {24: 1452, 2: 5, 21: 2590, 23: 490}, 'c2': {24: 1452, 2: 5, 21: 2403, 23: 490}, 'c1': {24: 1452, 2: 5, 21: 2627, 23: 490}, 'c4': {24: 1452, 2: 5, 21: 2610, 23: 490}}
+227000.0 {'c3': {24: 1452, 2: 5, 21: 2590, 23: 490}, 'c2': {24: 1452, 2: 5, 21: 2403, 23: 490}, 'c1': {24: 1452, 2: 5, 21: 2627, 23: 490}, 'c4': {24: 1452, 2: 5, 21: 2610, 23: 490}}
+228000.0 {'c3': {24: 1452, 2: 5, 21: 2590, 23: 490}, 'c2': {24: 1452, 2: 5, 21: 2403, 23: 490}, 'c1': {24: 1452, 2: 5, 21: 2627, 23: 490}, 'c4': {24: 1452, 2: 5, 21: 2610, 23: 490}}
+229000.0 {'c3': {24: 1452, 2: 5, 21: 2590, 23: 490}, 'c2': {24: 1452, 2: 5, 21: 2403, 23: 490}, 'c1': {24: 1452, 2: 5, 21: 2627, 23: 490}, 'c4': {24: 1452, 2: 5, 21: 2610, 23: 490}}
+230000.0 {'c3': {24: 1452, 2: 5, 21: 2590, 23: 490}, 'c2': {24: 1452, 2: 5, 21: 2403, 23: 490}, 'c1': {24: 1452, 2: 5, 21: 2627, 23: 490}, 'c4': {24: 1452, 2: 5, 21: 2610, 23: 490}}
+231000.0 {'c3': {24: 1452, 2: 5, 21: 2590, 23: 490}, 'c2': {24: 1452, 2: 5, 21: 2403, 23: 490}, 'c1': {24: 1452, 2: 5, 21: 2627, 23: 490}, 'c4': {24: 1452, 2: 5, 21: 2610, 23: 490}}
+232000.0 {'c3': {24: 1452, 2: 5, 21: 2590, 23: 490}, 'c2': {24: 1452, 2: 5, 21: 2403, 23: 490}, 'c1': {24: 1452, 2: 5, 21: 2627, 23: 490}, 'c4': {24: 1452, 2: 5, 21: 2610, 23: 490}}
+233000.0 {'c3': {24: 1452, 2: 5, 21: 2590, 23: 490}, 'c2': {24: 1452, 2: 5, 21: 2403, 23: 490}, 'c1': {24: 1452, 2: 5, 21: 2627, 23: 490}, 'c4': {24: 1452, 2: 5, 21: 2610, 23: 490}}
+234000.0 {'c3': {24: 1452, 2: 5, 21: 2590, 23: 490}, 'c2': {24: 1452, 2: 5, 21: 2403, 23: 490}, 'c1': {24: 1452, 2: 5, 21: 2627, 23: 490}, 'c4': {24: 1452, 2: 5, 21: 2610, 23: 490}}
+235000.0 {'c3': {24: 1452, 2: 5, 21: 2590, 23: 490}, 'c2': {24: 1452, 2: 5, 21: 2403, 23: 490}, 'c1': {24: 1452, 2: 5, 21: 2627, 23: 490}, 'c4': {24: 1452, 2: 5, 21: 2610, 23: 490}}
+236000.0 {'c3': {24: 1452, 2: 5, 21: 2590, 23: 490}, 'c2': {24: 1452, 2: 5, 21: 2403, 23: 490}, 'c1': {24: 1452, 2: 5, 21: 2627, 23: 490}, 'c4': {24: 1452, 2: 5, 21: 2610, 23: 490}}
+237000.0 {'c3': {24: 1452, 2: 5, 21: 2590, 23: 490}, 'c2': {24: 1452, 2: 5, 21: 2403, 23: 490}, 'c1': {24: 1452, 2: 5, 21: 2627, 23: 490}, 'c4': {24: 1452, 2: 5, 21: 2610, 23: 490}}
+238000.0 {'c3': {24: 1452, 2: 5, 21: 2590, 23: 490}, 'c2': {24: 1452, 2: 5, 21: 2403, 23: 490}, 'c1': {24: 1452, 2: 5, 21: 2627, 23: 490}, 'c4': {24: 1452, 2: 5, 21: 2610, 23: 490}}
+239000.0 {'c3': {24: 1452, 2: 5, 21: 2590, 23: 490}, 'c2': {24: 1452, 2: 5, 21: 2403, 23: 490}, 'c1': {24: 1452, 2: 5, 21: 2627, 23: 490}, 'c4': {24: 1452, 2: 5, 21: 2610, 23: 490}}
+240000.0 {'c3': {24: 1452, 2: 5, 21: 2590, 23: 490}, 'c2': {24: 1452, 2: 5, 21: 2403, 23: 490}, 'c1': {24: 1452, 2: 5, 21: 2627, 23: 490}, 'c4': {24: 1452, 2: 5, 21: 2610, 23: 490}}
+241000.0 {'c3': {24: 1665, 2: 5, 21: 2975, 23: 561}, 'c2': {24: 1665, 2: 5, 21: 2758, 23: 561}, 'c1': {24: 1665, 2: 5, 21: 3006, 23: 561}, 'c4': {24: 1665, 2: 5, 21: 2985, 23: 561}}
+242000.0 {'c3': {24: 1665, 2: 5, 21: 2975, 23: 561}, 'c2': {24: 1665, 2: 5, 21: 2758, 23: 561}, 'c1': {24: 1665, 2: 5, 21: 3006, 23: 561}, 'c4': {24: 1665, 2: 5, 21: 2985, 23: 561}}
+243000.0 {'c3': {24: 1665, 2: 5, 21: 2975, 23: 561}, 'c2': {24: 1665, 2: 5, 21: 2758, 23: 561}, 'c1': {24: 1665, 2: 5, 21: 3006, 23: 561}, 'c4': {24: 1665, 2: 5, 21: 2985, 23: 561}}
+244000.0 {'c3': {24: 1665, 2: 5, 21: 2975, 23: 561}, 'c2': {24: 1665, 2: 5, 21: 2758, 23: 561}, 'c1': {24: 1665, 2: 5, 21: 3006, 23: 561}, 'c4': {24: 1665, 2: 5, 21: 2985, 23: 561}}
+245000.0 {'c3': {24: 1665, 2: 5, 21: 2975, 23: 561}, 'c2': {24: 1665, 2: 5, 21: 2758, 23: 561}, 'c1': {24: 1665, 2: 5, 21: 3006, 23: 561}, 'c4': {24: 1665, 2: 5, 21: 2985, 23: 561}}
+246000.0 {'c3': {24: 1665, 2: 5, 21: 2975, 23: 561}, 'c2': {24: 1665, 2: 5, 21: 2758, 23: 561}, 'c1': {24: 1665, 2: 5, 21: 3006, 23: 561}, 'c4': {24: 1665, 2: 5, 21: 2985, 23: 561}}
+247000.0 {'c3': {24: 1665, 2: 5, 21: 2975, 23: 561}, 'c2': {24: 1665, 2: 5, 21: 2758, 23: 561}, 'c1': {24: 1665, 2: 5, 21: 3006, 23: 561}, 'c4': {24: 1665, 2: 5, 21: 2985, 23: 561}}
+248000.0 {'c3': {24: 1665, 2: 5, 21: 2975, 23: 561}, 'c2': {24: 1665, 2: 5, 21: 2758, 23: 561}, 'c1': {24: 1665, 2: 5, 21: 3006, 23: 561}, 'c4': {24: 1665, 2: 5, 21: 2985, 23: 561}}
+249000.0 {'c3': {24: 1665, 2: 5, 21: 2975, 23: 561}, 'c2': {24: 1665, 2: 5, 21: 2758, 23: 561}, 'c1': {24: 1665, 2: 5, 21: 3006, 23: 561}, 'c4': {24: 1665, 2: 5, 21: 2985, 23: 561}}
+250000.0 {'c3': {24: 1665, 2: 5, 21: 2975, 23: 561}, 'c2': {24: 1665, 2: 5, 21: 2758, 23: 561}, 'c1': {24: 1665, 2: 5, 21: 3006, 23: 561}, 'c4': {24: 1665, 2: 5, 21: 2985, 23: 561}}
+251000.0 {'c3': {24: 1665, 2: 5, 21: 2975, 23: 561}, 'c2': {24: 1665, 2: 5, 21: 2758, 23: 561}, 'c1': {24: 1665, 2: 5, 21: 3006, 23: 561}, 'c4': {24: 1665, 2: 5, 21: 2985, 23: 561}}
+252000.0 {'c3': {24: 1665, 2: 5, 21: 2975, 23: 561}, 'c2': {24: 1665, 2: 5, 21: 2758, 23: 561}, 'c1': {24: 1665, 2: 5, 21: 3006, 23: 561}, 'c4': {24: 1665, 2: 5, 21: 2985, 23: 561}}
+253000.0 {'c3': {24: 1665, 2: 5, 21: 2975, 23: 561}, 'c2': {24: 1665, 2: 5, 21: 2758, 23: 561}, 'c1': {24: 1665, 2: 5, 21: 3006, 23: 561}, 'c4': {24: 1665, 2: 5, 21: 2985, 23: 561}}
+254000.0 {'c3': {24: 1665, 2: 5, 21: 2975, 23: 561}, 'c2': {24: 1665, 2: 5, 21: 2758, 23: 561}, 'c1': {24: 1665, 2: 5, 21: 3006, 23: 561}, 'c4': {24: 1665, 2: 5, 21: 2985, 23: 561}}
+255000.0 {'c3': {24: 1665, 2: 5, 21: 2975, 23: 561}, 'c2': {24: 1665, 2: 5, 21: 2758, 23: 561}, 'c1': {24: 1665, 2: 5, 21: 3006, 23: 561}, 'c4': {24: 1665, 2: 5, 21: 2985, 23: 561}}
+256000.0 {'c3': {24: 1665, 2: 5, 21: 2975, 23: 561}, 'c2': {24: 1665, 2: 5, 21: 2758, 23: 561}, 'c1': {24: 1665, 2: 5, 21: 3006, 23: 561}, 'c4': {24: 1665, 2: 5, 21: 2985, 23: 561}}
+257000.0 {'c3': {24: 1665, 2: 5, 21: 2975, 23: 561}, 'c2': {24: 1665, 2: 5, 21: 2758, 23: 561}, 'c1': {24: 1665, 2: 5, 21: 3006, 23: 561}, 'c4': {24: 1665, 2: 5, 21: 2985, 23: 561}}
+258000.0 {'c3': {24: 1665, 2: 5, 21: 2975, 23: 561}, 'c2': {24: 1665, 2: 5, 21: 2758, 23: 561}, 'c1': {24: 1665, 2: 5, 21: 3006, 23: 561}, 'c4': {24: 1665, 2: 5, 21: 2985, 23: 561}}
+259000.0 {'c3': {24: 1665, 2: 5, 21: 2975, 23: 561}, 'c2': {24: 1665, 2: 5, 21: 2758, 23: 561}, 'c1': {24: 1665, 2: 5, 21: 3006, 23: 561}, 'c4': {24: 1665, 2: 5, 21: 2985, 23: 561}}
+260000.0 {'c3': {24: 1665, 2: 5, 21: 2975, 23: 561}, 'c2': {24: 1665, 2: 5, 21: 2758, 23: 561}, 'c1': {24: 1665, 2: 5, 21: 3006, 23: 561}, 'c4': {24: 1665, 2: 5, 21: 2985, 23: 561}}
+261000.0 {'c3': {24: 1665, 2: 5, 21: 2975, 23: 561}, 'c2': {24: 1665, 2: 5, 21: 2758, 23: 561}, 'c1': {24: 1665, 2: 5, 21: 3006, 23: 561}, 'c4': {24: 1665, 2: 5, 21: 2985, 23: 561}}
+262000.0 {'c3': {24: 1665, 2: 5, 21: 2975, 23: 561}, 'c2': {24: 1665, 2: 5, 21: 2758, 23: 561}, 'c1': {24: 1665, 2: 5, 21: 3006, 23: 561}, 'c4': {24: 1665, 2: 5, 21: 2985, 23: 561}}
+263000.0 {'c3': {24: 1665, 2: 5, 21: 2975, 23: 561}, 'c2': {24: 1665, 2: 5, 21: 2758, 23: 561}, 'c1': {24: 1665, 2: 5, 21: 3006, 23: 561}, 'c4': {24: 1665, 2: 5, 21: 2985, 23: 561}}
+264000.0 {'c3': {24: 1665, 2: 5, 21: 2975, 23: 561}, 'c2': {24: 1665, 2: 5, 21: 2758, 23: 561}, 'c1': {24: 1665, 2: 5, 21: 3006, 23: 561}, 'c4': {24: 1665, 2: 5, 21: 2985, 23: 561}}
+265000.0 {'c3': {24: 1665, 2: 5, 21: 2975, 23: 561}, 'c2': {24: 1665, 2: 5, 21: 2758, 23: 561}, 'c1': {24: 1665, 2: 5, 21: 3006, 23: 561}, 'c4': {24: 1665, 2: 5, 21: 2985, 23: 561}}
+266000.0 {'c3': {24: 1665, 2: 5, 21: 2975, 23: 561}, 'c2': {24: 1665, 2: 5, 21: 2758, 23: 561}, 'c1': {24: 1665, 2: 5, 21: 3006, 23: 561}, 'c4': {24: 1665, 2: 5, 21: 2985, 23: 561}}
+267000.0 {'c3': {24: 1665, 2: 5, 21: 2975, 23: 561}, 'c2': {24: 1665, 2: 5, 21: 2758, 23: 561}, 'c1': {24: 1665, 2: 5, 21: 3006, 23: 561}, 'c4': {24: 1665, 2: 5, 21: 2985, 23: 561}}
+268000.0 {'c3': {24: 1665, 2: 5, 21: 2975, 23: 561}, 'c2': {24: 1665, 2: 5, 21: 2758, 23: 561}, 'c1': {24: 1665, 2: 5, 21: 3006, 23: 561}, 'c4': {24: 1665, 2: 5, 21: 2985, 23: 561}}
+269000.0 {'c3': {24: 1665, 2: 5, 21: 2975, 23: 561}, 'c2': {24: 1665, 2: 5, 21: 2758, 23: 561}, 'c1': {24: 1665, 2: 5, 21: 3006, 23: 561}, 'c4': {24: 1665, 2: 5, 21: 2985, 23: 561}}
+270000.0 {'c3': {24: 1665, 2: 5, 21: 2975, 23: 561}, 'c2': {24: 1665, 2: 5, 21: 2758, 23: 561}, 'c1': {24: 1665, 2: 5, 21: 3006, 23: 561}, 'c4': {24: 1665, 2: 5, 21: 2985, 23: 561}}
+271000.0 {'c3': {24: 1875, 2: 5, 21: 3359, 23: 632}, 'c2': {24: 1875, 2: 5, 21: 3110, 23: 632}, 'c1': {24: 1875, 2: 5, 21: 3381, 23: 632}, 'c4': {24: 1875, 2: 5, 21: 3368, 23: 632}}
+272000.0 {'c3': {24: 1875, 2: 5, 21: 3359, 23: 632}, 'c2': {24: 1875, 2: 5, 21: 3110, 23: 632}, 'c1': {24: 1875, 2: 5, 21: 3381, 23: 632}, 'c4': {24: 1875, 2: 5, 21: 3368, 23: 632}}
+273000.0 {'c3': {24: 1875, 2: 5, 21: 3359, 23: 632}, 'c2': {24: 1875, 2: 5, 21: 3110, 23: 632}, 'c1': {24: 1875, 2: 5, 21: 3381, 23: 632}, 'c4': {24: 1875, 2: 5, 21: 3368, 23: 632}}
+274000.0 {'c3': {24: 1875, 2: 5, 21: 3359, 23: 632}, 'c2': {24: 1875, 2: 5, 21: 3110, 23: 632}, 'c1': {24: 1875, 2: 5, 21: 3381, 23: 632}, 'c4': {24: 1875, 2: 5, 21: 3368, 23: 632}}
+275000.0 {'c3': {24: 1875, 2: 5, 21: 3359, 23: 632}, 'c2': {24: 1875, 2: 5, 21: 3110, 23: 632}, 'c1': {24: 1875, 2: 5, 21: 3381, 23: 632}, 'c4': {24: 1875, 2: 5, 21: 3368, 23: 632}}
+276000.0 {'c3': {24: 1875, 2: 5, 21: 3359, 23: 632}, 'c2': {24: 1875, 2: 5, 21: 3110, 23: 632}, 'c1': {24: 1875, 2: 5, 21: 3381, 23: 632}, 'c4': {24: 1875, 2: 5, 21: 3368, 23: 632}}
+277000.0 {'c3': {24: 1875, 2: 5, 21: 3359, 23: 632}, 'c2': {24: 1875, 2: 5, 21: 3110, 23: 632}, 'c1': {24: 1875, 2: 5, 21: 3381, 23: 632}, 'c4': {24: 1875, 2: 5, 21: 3368, 23: 632}}
+278000.0 {'c3': {24: 1875, 2: 5, 21: 3359, 23: 632}, 'c2': {24: 1875, 2: 5, 21: 3110, 23: 632}, 'c1': {24: 1875, 2: 5, 21: 3381, 23: 632}, 'c4': {24: 1875, 2: 5, 21: 3368, 23: 632}}
+279000.0 {'c3': {24: 1875, 2: 5, 21: 3359, 23: 632}, 'c2': {24: 1875, 2: 5, 21: 3110, 23: 632}, 'c1': {24: 1875, 2: 5, 21: 3381, 23: 632}, 'c4': {24: 1875, 2: 5, 21: 3368, 23: 632}}
+280000.0 {'c3': {24: 1875, 2: 5, 21: 3359, 23: 632}, 'c2': {24: 1875, 2: 5, 21: 3110, 23: 632}, 'c1': {24: 1875, 2: 5, 21: 3381, 23: 632}, 'c4': {24: 1875, 2: 5, 21: 3368, 23: 632}}
+281000.0 {'c3': {24: 1875, 2: 5, 21: 3359, 23: 632}, 'c2': {24: 1875, 2: 5, 21: 3110, 23: 632}, 'c1': {24: 1875, 2: 5, 21: 3381, 23: 632}, 'c4': {24: 1875, 2: 5, 21: 3368, 23: 632}}
+282000.0 {'c3': {24: 1875, 2: 5, 21: 3359, 23: 632}, 'c2': {24: 1875, 2: 5, 21: 3110, 23: 632}, 'c1': {24: 1875, 2: 5, 21: 3381, 23: 632}, 'c4': {24: 1875, 2: 5, 21: 3368, 23: 632}}
+283000.0 {'c3': {24: 1875, 2: 5, 21: 3359, 23: 632}, 'c2': {24: 1875, 2: 5, 21: 3110, 23: 632}, 'c1': {24: 1875, 2: 5, 21: 3381, 23: 632}, 'c4': {24: 1875, 2: 5, 21: 3368, 23: 632}}
+284000.0 {'c3': {24: 1875, 2: 5, 21: 3359, 23: 632}, 'c2': {24: 1875, 2: 5, 21: 3110, 23: 632}, 'c1': {24: 1875, 2: 5, 21: 3381, 23: 632}, 'c4': {24: 1875, 2: 5, 21: 3368, 23: 632}}
+285000.0 {'c3': {24: 1875, 2: 5, 21: 3359, 23: 632}, 'c2': {24: 1875, 2: 5, 21: 3110, 23: 632}, 'c1': {24: 1875, 2: 5, 21: 3381, 23: 632}, 'c4': {24: 1875, 2: 5, 21: 3368, 23: 632}}
+286000.0 {'c3': {24: 1875, 2: 5, 21: 3359, 23: 632}, 'c2': {24: 1875, 2: 5, 21: 3110, 23: 632}, 'c1': {24: 1875, 2: 5, 21: 3381, 23: 632}, 'c4': {24: 1875, 2: 5, 21: 3368, 23: 632}}
+287000.0 {'c3': {24: 1875, 2: 5, 21: 3359, 23: 632}, 'c2': {24: 1875, 2: 5, 21: 3110, 23: 632}, 'c1': {24: 1875, 2: 5, 21: 3381, 23: 632}, 'c4': {24: 1875, 2: 5, 21: 3368, 23: 632}}
+288000.0 {'c3': {24: 1875, 2: 5, 21: 3359, 23: 632}, 'c2': {24: 1875, 2: 5, 21: 3110, 23: 632}, 'c1': {24: 1875, 2: 5, 21: 3381, 23: 632}, 'c4': {24: 1875, 2: 5, 21: 3368, 23: 632}}
+289000.0 {'c3': {24: 1875, 2: 5, 21: 3359, 23: 632}, 'c2': {24: 1875, 2: 5, 21: 3110, 23: 632}, 'c1': {24: 1875, 2: 5, 21: 3381, 23: 632}, 'c4': {24: 1875, 2: 5, 21: 3368, 23: 632}}
+290000.0 {'c3': {24: 1875, 2: 5, 21: 3359, 23: 632}, 'c2': {24: 1875, 2: 5, 21: 3110, 23: 632}, 'c1': {24: 1875, 2: 5, 21: 3381, 23: 632}, 'c4': {24: 1875, 2: 5, 21: 3368, 23: 632}}
+291000.0 {'c3': {24: 1875, 2: 5, 21: 3359, 23: 632}, 'c2': {24: 1875, 2: 5, 21: 3110, 23: 632}, 'c1': {24: 1875, 2: 5, 21: 3381, 23: 632}, 'c4': {24: 1875, 2: 5, 21: 3368, 23: 632}}
+292000.0 {'c3': {24: 1875, 2: 5, 21: 3359, 23: 632}, 'c2': {24: 1875, 2: 5, 21: 3110, 23: 632}, 'c1': {24: 1875, 2: 5, 21: 3381, 23: 632}, 'c4': {24: 1875, 2: 5, 21: 3368, 23: 632}}
+293000.0 {'c3': {24: 1875, 2: 5, 21: 3359, 23: 632}, 'c2': {24: 1875, 2: 5, 21: 3110, 23: 632}, 'c1': {24: 1875, 2: 5, 21: 3381, 23: 632}, 'c4': {24: 1875, 2: 5, 21: 3368, 23: 632}}
+294000.0 {'c3': {24: 1875, 2: 5, 21: 3359, 23: 632}, 'c2': {24: 1875, 2: 5, 21: 3110, 23: 632}, 'c1': {24: 1875, 2: 5, 21: 3381, 23: 632}, 'c4': {24: 1875, 2: 5, 21: 3368, 23: 632}}
+295000.0 {'c3': {24: 1875, 2: 5, 21: 3359, 23: 632}, 'c2': {24: 1875, 2: 5, 21: 3110, 23: 632}, 'c1': {24: 1875, 2: 5, 21: 3381, 23: 632}, 'c4': {24: 1875, 2: 5, 21: 3368, 23: 632}}
+296000.0 {'c3': {24: 1875, 2: 5, 21: 3359, 23: 632}, 'c2': {24: 1875, 2: 5, 21: 3110, 23: 632}, 'c1': {24: 1875, 2: 5, 21: 3381, 23: 632}, 'c4': {24: 1875, 2: 5, 21: 3368, 23: 632}}
+297000.0 {'c3': {24: 1875, 2: 5, 21: 3359, 23: 632}, 'c2': {24: 1875, 2: 5, 21: 3110, 23: 632}, 'c1': {24: 1875, 2: 5, 21: 3381, 23: 632}, 'c4': {24: 1875, 2: 5, 21: 3368, 23: 632}}
+298000.0 {'c3': {24: 1875, 2: 5, 21: 3359, 23: 632}, 'c2': {24: 1875, 2: 5, 21: 3110, 23: 632}, 'c1': {24: 1875, 2: 5, 21: 3381, 23: 632}, 'c4': {24: 1875, 2: 5, 21: 3368, 23: 632}}
+299000.0 {'c3': {24: 1875, 2: 5, 21: 3359, 23: 632}, 'c2': {24: 1875, 2: 5, 21: 3110, 23: 632}, 'c1': {24: 1875, 2: 5, 21: 3381, 23: 632}, 'c4': {24: 1875, 2: 5, 21: 3368, 23: 632}}
+Done replay, left 321 items
+Messages
+c3
+    NotifyLinkDown 5
+c2
+    NotifyLinkDown 5
+c1
+    NotifyLinkDown 5
+c4
+    NotifyLinkDown 5
+Rule Changes
+224944.861480 s4 change
+224944.861480 s4 change
+224944.861480 s4 change
+224944.861480 s4 change
+224944.861480 s4 change
+224944.861480 s4 change
+224947.296076 s14 change
+224947.296076 s14 change
+224947.296076 s14 change
+224947.296076 s14 change
+224947.296076 s14 change
+224947.296076 s14 change
+224947.296076 s14 change
+224947.296076 s14 change
+224947.296076 s14 change
+224947.296076 s14 change
+224947.296076 s14 change
+224947.296076 s14 change
+224970.103936 s9 change
+224970.103936 s9 change
+224970.103936 s9 change
+224970.103936 s9 change
+224970.103936 s9 change
+224970.103936 s9 change
+224970.103936 s9 change
+224970.103936 s9 change
+224970.103936 s9 change
+224970.103936 s9 change
+224970.103936 s9 change
+224970.103936 s9 change
+224970.103936 s9 change
+224970.103936 s9 change
+224970.103936 s9 change
+224970.103936 s9 change
+224970.103936 s9 change
+224970.103936 s9 change
+224970.103936 s9 change
+224970.103936 s9 change
+224970.103936 s9 change
+224970.103936 s9 change
+224970.103936 s9 change
+224970.103936 s9 change
+224970.103936 s9 change
+224970.103936 s9 change
+224970.103936 s9 change
+224970.103936 s9 change
+224970.103936 s9 change
+224970.103936 s9 change
+224970.103936 s9 change
+224970.103936 s9 change
+224970.103936 s9 change
+224970.103936 s9 change
+224970.103936 s9 change
+224970.103936 s9 change
+224970.103936 s9 change
+224970.103936 s9 change
+224970.103936 s9 change
+224970.103936 s9 change
+224970.103936 s9 change
+224970.103936 s9 change
+224970.103936 s9 change
+224970.103936 s9 change
+224970.103936 s9 change
+224970.103936 s9 change
+224970.103936 s9 change
+224970.103936 s9 change
+224970.103936 s9 change
+224970.103936 s9 change
+224970.103936 s9 change
+224970.103936 s9 change
+224970.103936 s9 change
+224970.103936 s9 change
+224970.103936 s9 change
+224970.103936 s9 change
+224970.103936 s9 change
+224970.103936 s9 change
+224970.103936 s9 change
+224970.103936 s9 change
+224970.103936 s9 change
+224970.103936 s9 change
+224970.103936 s9 change
+224970.103936 s9 change
+224970.103936 s9 change
+224970.103936 s9 change
+224970.103936 s9 change
+224970.103936 s9 change
+224970.103936 s9 change
+224970.103936 s9 change
+224970.103936 s9 change
+224970.103936 s9 change
+224970.103936 s9 change
+224970.103936 s9 change
+224970.103936 s9 change
+224970.103936 s9 change
+224970.103936 s9 change
+224970.103936 s9 change
+224970.103936 s9 change
+224970.103936 s9 change
+224970.103936 s9 change
+224970.103936 s9 change
+224970.103936 s9 change
+224970.103936 s9 change
+224970.103936 s9 change
+224970.103936 s9 change
+224970.103936 s9 change
+224974.328033 s11 change
+224974.328033 s11 change
+224974.328033 s11 change
+224974.328033 s11 change
+224974.328033 s11 change
+224974.328033 s11 change
+224974.328033 s11 change
+224974.328033 s11 change
+224974.328033 s11 change
+224974.328033 s11 change
+224974.328033 s11 change
+224974.328033 s11 change
+224974.328033 s11 change
+224974.328033 s11 change
+224974.328033 s11 change
+224974.328033 s11 change
+224974.328033 s11 change
+224974.328033 s11 change
+224974.328033 s11 change
+224974.328033 s11 change
+224974.328033 s11 change
+224974.328033 s11 change
+224974.328033 s11 change
+224974.328033 s11 change
+224974.328033 s11 change
+224974.328033 s11 change
+224974.328033 s11 change
+224974.328033 s11 change
+224974.328033 s11 change
+224974.328033 s11 change
+224974.328033 s11 change
+224974.328033 s11 change
+224974.328033 s11 change
+224974.328033 s11 change
+224974.328033 s11 change
+224974.328033 s11 change
+224974.328033 s11 change
+224974.328033 s11 change
+224974.328033 s11 change
+224974.328033 s11 change
+224974.328033 s11 change
+224974.328033 s11 change
+224974.328033 s11 change
+224974.328033 s11 change
+224974.328033 s11 change
+224974.328033 s11 change
+224974.328033 s11 change
+224974.328033 s11 change
+224974.328033 s11 change
+224974.328033 s11 change
+224974.328033 s11 change
+224974.328033 s11 change
+224974.328033 s11 change
+224974.328033 s11 change
+224974.328033 s11 change
+224974.328033 s11 change
+224974.328033 s11 change
+224974.328033 s11 change
+224974.328033 s11 change
+224974.328033 s11 change
+224974.328033 s11 change
+224974.328033 s11 change
+224974.328033 s11 change
+224974.328033 s11 change
+224974.328033 s11 change
+224974.328033 s11 change
+224974.328033 s11 change
+224974.328033 s11 change
+224974.328033 s11 change
+224974.328033 s11 change
+224974.328033 s11 change
+224974.328033 s11 change
+224974.328033 s11 change
+224974.328033 s11 change
+224974.328033 s11 change
+224974.328033 s11 change
+224974.328033 s11 change
+224974.328033 s11 change
+224974.328033 s11 change
+224974.328033 s11 change
+224974.328033 s11 change
+224974.328033 s11 change
+224974.328033 s11 change
+224974.328033 s11 change
+224974.328033 s11 change
+224974.328033 s11 change
+224974.328033 s11 change
+224974.328033 s11 change
+224974.328033 s11 change
+224974.328033 s11 change
+224974.328033 s11 change
+224974.328033 s11 change
+224974.328033 s11 change
+225002.251518 s6 change
+225002.251518 s6 change
+225002.251518 s6 change
+225002.251518 s6 change
+225002.251518 s6 change
+225002.251518 s6 change
+225002.251518 s6 change
+225002.251518 s6 change
+225002.251518 s6 change
+225002.251518 s6 change
+225002.251518 s6 change
+225002.251518 s6 change
+225002.251518 s6 change
+225002.251518 s6 change
+225002.251518 s6 change
+225002.251518 s6 change
+225002.251518 s6 change
+225002.251518 s6 change
+225002.251518 s6 change
+225002.251518 s6 change
+225002.251518 s6 change
+225002.251518 s6 change
+225002.251518 s6 change
+225002.251518 s6 change
+225002.251518 s6 change
+225002.251518 s6 change
+225002.251518 s6 change
+225002.251518 s6 change
+225002.251518 s6 change
+225002.251518 s6 change
+225002.251518 s6 change
+225002.251518 s6 change
+225002.251518 s6 change
+225002.251518 s6 change
+225002.251518 s6 change
+225002.251518 s6 change
+225002.251518 s6 change
+225002.251518 s6 change
+225002.251518 s6 change
+225002.251518 s6 change
+225002.251518 s6 change
+225002.251518 s6 change
+225002.251518 s6 change
+225002.251518 s6 change
+225002.251518 s6 change
+225002.251518 s6 change
+225002.251518 s6 change
+225002.251518 s6 change
+225002.251518 s6 change
+225002.251518 s6 change
+225002.251518 s6 change
+225002.251518 s6 change
+225002.251518 s6 change
+225002.251518 s6 change
+225002.251518 s6 change
+225002.251518 s6 change
+225002.251518 s6 change
+225002.251518 s6 change
+225002.251518 s6 change
+225002.251518 s6 change
+225002.251518 s6 change
+225002.251518 s6 change
+225002.251518 s6 change
+225002.251518 s6 change
+225002.251518 s6 change
+225002.251518 s6 change
+225002.251518 s6 change
+225002.251518 s6 change
+225002.251518 s6 change
+225002.251518 s6 change
+225002.251518 s6 change
+225002.251518 s6 change
+225002.251518 s6 change
+225002.251518 s6 change
+225002.251518 s6 change
+225002.251518 s6 change
+225002.251518 s6 change
+225002.251518 s6 change
+225002.251518 s6 change
+225002.251518 s6 change
+225002.251518 s6 change
+225002.251518 s6 change
+225002.251518 s6 change
+225002.251518 s6 change
+225002.251518 s6 change
+225002.251518 s6 change
+225002.251518 s6 change
+Convergence
+1000.000000 9900 9900 100.000000 1
+2000.000000 9900 9900 100.000000 1
+3000.000000 9900 9900 100.000000 1
+4000.000000 9900 9900 100.000000 1
+5000.000000 9900 9900 100.000000 1
+6000.000000 9900 9900 100.000000 1
+7000.000000 9900 9900 100.000000 1
+8000.000000 9900 9900 100.000000 1
+9000.000000 9900 9900 100.000000 1
+10000.000000 9900 9900 100.000000 1
+11000.000000 9900 9900 100.000000 1
+12000.000000 9900 9900 100.000000 1
+13000.000000 9900 9900 100.000000 1
+14000.000000 9900 9900 100.000000 1
+15000.000000 9900 9900 100.000000 1
+16000.000000 9900 9900 100.000000 1
+17000.000000 9900 9900 100.000000 1
+18000.000000 9900 9900 100.000000 1
+19000.000000 9900 9900 100.000000 1
+20000.000000 9900 9900 100.000000 1
+21000.000000 9900 9900 100.000000 1
+22000.000000 9900 9900 100.000000 1
+23000.000000 9900 9900 100.000000 1
+24000.000000 9900 9900 100.000000 1
+25000.000000 9900 9900 100.000000 1
+26000.000000 9900 9900 100.000000 1
+27000.000000 9900 9900 100.000000 1
+28000.000000 9900 9900 100.000000 1
+29000.000000 9900 9900 100.000000 1
+30000.000000 9900 9900 100.000000 1
+31000.000000 9900 9900 100.000000 1
+32000.000000 9900 9900 100.000000 1
+33000.000000 9900 9900 100.000000 1
+34000.000000 9900 9900 100.000000 1
+35000.000000 9900 9900 100.000000 1
+36000.000000 9900 9900 100.000000 1
+37000.000000 9900 9900 100.000000 1
+38000.000000 9900 9900 100.000000 1
+39000.000000 9900 9900 100.000000 1
+40000.000000 9900 9900 100.000000 1
+41000.000000 9900 9900 100.000000 1
+42000.000000 9900 9900 100.000000 1
+43000.000000 9900 9900 100.000000 1
+44000.000000 9900 9900 100.000000 1
+45000.000000 9900 9900 100.000000 1
+46000.000000 9900 9900 100.000000 1
+47000.000000 9900 9900 100.000000 1
+48000.000000 9900 9900 100.000000 1
+49000.000000 9900 9900 100.000000 1
+50000.000000 9900 9900 100.000000 1
+51000.000000 9900 9900 100.000000 1
+52000.000000 9900 9900 100.000000 1
+53000.000000 9900 9900 100.000000 1
+54000.000000 9900 9900 100.000000 1
+55000.000000 9900 9900 100.000000 1
+56000.000000 9900 9900 100.000000 1
+57000.000000 9900 9900 100.000000 1
+58000.000000 9900 9900 100.000000 1
+59000.000000 9900 9900 100.000000 1
+60000.000000 9900 9900 100.000000 1
+61000.000000 9900 9900 100.000000 1
+62000.000000 9900 9900 100.000000 1
+63000.000000 9900 9900 100.000000 1
+64000.000000 9900 9900 100.000000 1
+65000.000000 9900 9900 100.000000 1
+66000.000000 9900 9900 100.000000 1
+67000.000000 9900 9900 100.000000 1
+68000.000000 9900 9900 100.000000 1
+69000.000000 9900 9900 100.000000 1
+70000.000000 9900 9900 100.000000 1
+71000.000000 9900 9900 100.000000 1
+72000.000000 9900 9900 100.000000 1
+73000.000000 9900 9900 100.000000 1
+74000.000000 9900 9900 100.000000 1
+75000.000000 9900 9900 100.000000 1
+76000.000000 9900 9900 100.000000 1
+77000.000000 9900 9900 100.000000 1
+78000.000000 9900 9900 100.000000 1
+79000.000000 9900 9900 100.000000 1
+80000.000000 9900 9900 100.000000 1
+81000.000000 9900 9900 100.000000 1
+82000.000000 9900 9900 100.000000 1
+83000.000000 9900 9900 100.000000 1
+84000.000000 9900 9900 100.000000 1
+85000.000000 9900 9900 100.000000 1
+86000.000000 9900 9900 100.000000 1
+87000.000000 9900 9900 100.000000 1
+88000.000000 9900 9900 100.000000 1
+89000.000000 9900 9900 100.000000 1
+90000.000000 9900 9900 100.000000 1
+91000.000000 9900 9900 100.000000 1
+92000.000000 9900 9900 100.000000 1
+93000.000000 9900 9900 100.000000 1
+94000.000000 9900 9900 100.000000 1
+95000.000000 9900 9900 100.000000 1
+96000.000000 9900 9900 100.000000 1
+97000.000000 9900 9900 100.000000 1
+98000.000000 9900 9900 100.000000 1
+99000.000000 9900 9900 100.000000 1
+100000.000000 9900 9900 100.000000 1
+101000.000000 9900 9900 100.000000 1
+102000.000000 9900 9900 100.000000 1
+103000.000000 9900 9900 100.000000 1
+104000.000000 9900 9900 100.000000 1
+105000.000000 9900 9900 100.000000 1
+106000.000000 9900 9900 100.000000 1
+107000.000000 9900 9900 100.000000 1
+108000.000000 9900 9900 100.000000 1
+109000.000000 9900 9900 100.000000 1
+110000.000000 9900 9900 100.000000 1
+111000.000000 9900 9900 100.000000 1
+112000.000000 9900 9900 100.000000 1
+113000.000000 9900 9900 100.000000 1
+114000.000000 9900 9900 100.000000 1
+115000.000000 9900 9900 100.000000 1
+116000.000000 9900 9900 100.000000 1
+117000.000000 9900 9900 100.000000 1
+118000.000000 9900 9900 100.000000 1
+119000.000000 9900 9900 100.000000 1
+120000.000000 9900 9900 100.000000 1
+121000.000000 9900 9900 100.000000 1
+122000.000000 9900 9900 100.000000 1
+123000.000000 9900 9900 100.000000 1
+124000.000000 9900 9900 100.000000 1
+125000.000000 9900 9900 100.000000 1
+126000.000000 9900 9900 100.000000 1
+127000.000000 9900 9900 100.000000 1
+128000.000000 9900 9900 100.000000 1
+129000.000000 9900 9900 100.000000 1
+130000.000000 9900 9900 100.000000 1
+131000.000000 9900 9900 100.000000 1
+132000.000000 9900 9900 100.000000 1
+133000.000000 9900 9900 100.000000 1
+134000.000000 9900 9900 100.000000 1
+135000.000000 9900 9900 100.000000 1
+136000.000000 9900 9900 100.000000 1
+137000.000000 9900 9900 100.000000 1
+138000.000000 9900 9900 100.000000 1
+139000.000000 9900 9900 100.000000 1
+140000.000000 9900 9900 100.000000 1
+141000.000000 9900 9900 100.000000 1
+142000.000000 9900 9900 100.000000 1
+143000.000000 9900 9900 100.000000 1
+144000.000000 9900 9900 100.000000 1
+145000.000000 9900 9900 100.000000 1
+146000.000000 9900 9900 100.000000 1
+147000.000000 9900 9900 100.000000 1
+148000.000000 9900 9900 100.000000 1
+149000.000000 9900 9900 100.000000 1
+150000.000000 9900 9900 100.000000 1
+151000.000000 9900 9900 100.000000 1
+152000.000000 9900 9900 100.000000 1
+153000.000000 9900 9900 100.000000 1
+154000.000000 9900 9900 100.000000 1
+155000.000000 9900 9900 100.000000 1
+156000.000000 9900 9900 100.000000 1
+157000.000000 9900 9900 100.000000 1
+158000.000000 9900 9900 100.000000 1
+159000.000000 9900 9900 100.000000 1
+160000.000000 9900 9900 100.000000 1
+161000.000000 9900 9900 100.000000 1
+162000.000000 9900 9900 100.000000 1
+163000.000000 9900 9900 100.000000 1
+164000.000000 9900 9900 100.000000 1
+165000.000000 9900 9900 100.000000 1
+166000.000000 9900 9900 100.000000 1
+167000.000000 9900 9900 100.000000 1
+168000.000000 9900 9900 100.000000 1
+169000.000000 9900 9900 100.000000 1
+170000.000000 9900 9900 100.000000 1
+171000.000000 9900 9900 100.000000 1
+172000.000000 9900 9900 100.000000 1
+173000.000000 9900 9900 100.000000 1
+174000.000000 9900 9900 100.000000 1
+175000.000000 9900 9900 100.000000 1
+176000.000000 9900 9900 100.000000 1
+177000.000000 9900 9900 100.000000 1
+178000.000000 9900 9900 100.000000 1
+179000.000000 9900 9900 100.000000 1
+180000.000000 9900 9900 100.000000 1
+181000.000000 9900 9900 100.000000 1
+182000.000000 9900 9900 100.000000 1
+183000.000000 9900 9900 100.000000 1
+184000.000000 9900 9900 100.000000 1
+185000.000000 9900 9900 100.000000 1
+186000.000000 9900 9900 100.000000 1
+187000.000000 9900 9900 100.000000 1
+188000.000000 9900 9900 100.000000 1
+189000.000000 9900 9900 100.000000 1
+190000.000000 9900 9900 100.000000 1
+191000.000000 9900 9900 100.000000 1
+192000.000000 9900 9900 100.000000 1
+193000.000000 9900 9900 100.000000 1
+194000.000000 9900 9900 100.000000 1
+195000.000000 9900 9900 100.000000 1
+196000.000000 9900 9900 100.000000 1
+197000.000000 9900 9900 100.000000 1
+198000.000000 9900 9900 100.000000 1
+199000.000000 9900 9900 100.000000 1
+200000.000000 9900 9900 100.000000 1
+201000.000000 9900 9900 100.000000 1
+202000.000000 9900 9900 100.000000 1
+203000.000000 9900 9900 100.000000 1
+204000.000000 9900 9900 100.000000 1
+205000.000000 9900 9900 100.000000 1
+206000.000000 9900 9900 100.000000 1
+207000.000000 9900 9900 100.000000 1
+208000.000000 9900 9900 100.000000 1
+209000.000000 9900 9900 100.000000 1
+210000.000000 9900 9900 100.000000 1
+211000.000000 9900 9900 100.000000 1
+212000.000000 9900 9900 100.000000 1
+213000.000000 9900 9900 100.000000 1
+214000.000000 9900 9900 100.000000 1
+215000.000000 9900 9900 100.000000 1
+216000.000000 9900 9900 100.000000 1
+217000.000000 9900 9900 100.000000 1
+218000.000000 9900 9900 100.000000 1
+219000.000000 9900 9900 100.000000 1
+220000.000000 9900 9900 100.000000 1
+221000.000000 9900 9900 100.000000 1
+222000.000000 9900 9900 100.000000 1
+223000.000000 9900 9900 100.000000 1
+224000.000000 9900 9900 100.000000 1
+225000.000000 9900 9813 99.121212 1
+226000.000000 9900 9900 100.000000 1
+227000.000000 9900 9900 100.000000 1
+228000.000000 9900 9900 100.000000 1
+229000.000000 9900 9900 100.000000 1
+230000.000000 9900 9900 100.000000 1
+231000.000000 9900 9900 100.000000 1
+232000.000000 9900 9900 100.000000 1
+233000.000000 9900 9900 100.000000 1
+234000.000000 9900 9900 100.000000 1
+235000.000000 9900 9900 100.000000 1
+236000.000000 9900 9900 100.000000 1
+237000.000000 9900 9900 100.000000 1
+238000.000000 9900 9900 100.000000 1
+239000.000000 9900 9900 100.000000 1
+240000.000000 9900 9900 100.000000 1
+241000.000000 9900 9900 100.000000 1
+242000.000000 9900 9900 100.000000 1
+243000.000000 9900 9900 100.000000 1
+244000.000000 9900 9900 100.000000 1
+245000.000000 9900 9900 100.000000 1
+246000.000000 9900 9900 100.000000 1
+247000.000000 9900 9900 100.000000 1
+248000.000000 9900 9900 100.000000 1
+249000.000000 9900 9900 100.000000 1
+250000.000000 9900 9900 100.000000 1
+251000.000000 9900 9900 100.000000 1
+252000.000000 9900 9900 100.000000 1
+253000.000000 9900 9900 100.000000 1
+254000.000000 9900 9900 100.000000 1
+255000.000000 9900 9900 100.000000 1
+256000.000000 9900 9900 100.000000 1
+257000.000000 9900 9900 100.000000 1
+258000.000000 9900 9900 100.000000 1
+259000.000000 9900 9900 100.000000 1
+260000.000000 9900 9900 100.000000 1
+261000.000000 9900 9900 100.000000 1
+262000.000000 9900 9900 100.000000 1
+263000.000000 9900 9900 100.000000 1
+264000.000000 9900 9900 100.000000 1
+265000.000000 9900 9900 100.000000 1
+266000.000000 9900 9900 100.000000 1
+267000.000000 9900 9900 100.000000 1
+268000.000000 9900 9900 100.000000 1
+269000.000000 9900 9900 100.000000 1
+270000.000000 9900 9900 100.000000 1
+271000.000000 9900 9900 100.000000 1
+272000.000000 9900 9900 100.000000 1
+273000.000000 9900 9900 100.000000 1
+274000.000000 9900 9900 100.000000 1
+275000.000000 9900 9900 100.000000 1
+276000.000000 9900 9900 100.000000 1
+277000.000000 9900 9900 100.000000 1
+278000.000000 9900 9900 100.000000 1
+279000.000000 9900 9900 100.000000 1
+280000.000000 9900 9900 100.000000 1
+281000.000000 9900 9900 100.000000 1
+282000.000000 9900 9900 100.000000 1
+283000.000000 9900 9900 100.000000 1
+284000.000000 9900 9900 100.000000 1
+285000.000000 9900 9900 100.000000 1
+286000.000000 9900 9900 100.000000 1
+287000.000000 9900 9900 100.000000 1
+288000.000000 9900 9900 100.000000 1
+289000.000000 9900 9900 100.000000 1
+290000.000000 9900 9900 100.000000 1
+291000.000000 9900 9900 100.000000 1
+292000.000000 9900 9900 100.000000 1
+293000.000000 9900 9900 100.000000 1
+294000.000000 9900 9900 100.000000 1
+295000.000000 9900 9900 100.000000 1
+296000.000000 9900 9900 100.000000 1
+297000.000000 9900 9900 100.000000 1
+298000.000000 9900 9900 100.000000 1
+299000.000000 9900 9900 100.000000 1
+s63-h82 s63-h82 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+h94-s77 s77-h94 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+h89-s8 s8-h89 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s83-s13 s13-s83 {24: 11124, 2: 30, 4: 4, 21: 8365, 23: 3791} total: 23314 bits: 4601488
+s61-s32 s32-s61 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s83-s15 s15-s83 {24: 13989, 2: 35, 4: 2, 21: 10500, 23: 4731} total: 29257 bits: 5768360
+s45-s37 s37-s45 {24: 12072, 2: 30, 4: 4, 21: 9072, 23: 4070} total: 25248 bits: 4975232
+s77-s8 s8-s77 {24: 12985, 2: 34, 4: 4, 21: 9699, 23: 4375} total: 27097 bits: 5337288
+s68-s70 s68-s70 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+h62-s38 s38-h62 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s5-s56 s5-s56 {24: 13642, 2: 38, 4: 4, 21: 10260, 23: 4587} total: 28531 bits: 5615608
+s9-s5 s5-s9 {24: 12320, 2: 31, 4: 3, 21: 9257, 23: 4121} total: 25732 bits: 5021792
+s8-s51 s8-s51 {24: 8884, 2: 25, 4: 3, 21: 6754, 23: 3007} total: 18673 bits: 3681832
+s8-s52 s8-s52 {24: 8781, 2: 23, 4: 2, 21: 6618, 23: 2966} total: 18390 bits: 3622320
+s9-s6 s6-s9 {24: 11569, 2: 25, 4: 3, 21: 8687, 23: 3951} total: 24235 bits: 4766488
+s52-h59 s52-h59 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s32-s34 s32-s34 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s32-s33 s32-s33 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s32-s31 s31-s32 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s24-s2 s2-s24 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+h48-s11 s11-h48 {24: 7500, 2: 16, 4: 4, 21: 5630, 23: 2528} total: 15678 bits: 3065136
+s63-s59 s59-s63 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s5-s9 s5-s9 {24: 12320, 2: 31, 4: 3, 21: 9257, 23: 4121} total: 25732 bits: 5021792
+s5-s8 s5-s8 {24: 12089, 2: 30, 4: 4, 21: 8998, 23: 4060} total: 25181 bits: 4958504
+h56-s21 s21-h56 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s38-h62 s38-h62 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s17-s60 s17-s60 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s67-h25 s67-h25 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s79-h51 s79-h51 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s15-s14 s14-s15 {24: 8291, 2: 22, 4: 2, 21: 6264, 23: 2800} total: 17379 bits: 3420568
+s6-h100 s6-h100 {24: 7500, 2: 16, 4: 2, 21: 5634, 23: 2528} total: 15680 bits: 3066816
+h88-s47 s47-h88 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s69-h49 s69-h49 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s33-s32 s32-s33 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s2-s21 s2-s21 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s59-s32 s32-s59 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+h26-s48 s48-h26 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s77-h94 s77-h94 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+h61-s54 s54-h61 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+h51-s79 s79-h51 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s48-h17 s48-h17 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s82-s50 s50-s82 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s37-s42 s37-s42 {24: 12053, 2: 33, 4: 4, 21: 8972, 23: 4081} total: 25143 bits: 4970968
+s37-s43 s37-s43 {24: 12035, 2: 31, 4: 3, 21: 8956, 23: 4067} total: 25092 bits: 4949184
+s37-s40 s37-s40 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s67-s55 s55-s67 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s37-s44 s37-s44 {24: 12694, 2: 34, 4: 4, 21: 9511, 23: 4263} total: 26506 bits: 5213712
+s37-s45 s37-s45 {24: 12072, 2: 30, 4: 4, 21: 9072, 23: 4070} total: 25248 bits: 4975232
+s42-h27 s42-h27 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s56-s57 s56-s57 {24: 7883, 2: 21, 4: 2, 21: 5921, 23: 2667} total: 16494 bits: 3258672
+h35-s45 s45-h35 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s79-s8 s8-s79 {24: 12874, 2: 34, 4: 4, 21: 9620, 23: 4339} total: 26871 bits: 5300824
+s57-h73 s57-h73 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+h55-s15 s15-h55 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s79-s7 s7-s79 {24: 9311, 2: 24, 4: 2, 21: 7060, 23: 3154} total: 19551 bits: 3858744
+s69-s68 s68-s69 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s48-s53 s48-s53 {24: 7634, 2: 20, 4: 2, 21: 5743, 23: 2560} total: 15959 bits: 3130392
+h83-s29 s29-h83 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s6-s8 s6-s8 {24: 10512, 2: 27, 4: 3, 21: 7830, 23: 3551} total: 21923 bits: 4311928
+s6-s9 s6-s9 {24: 11569, 2: 25, 4: 3, 21: 8687, 23: 3951} total: 24235 bits: 4766488
+s14-s7 s7-s14 {24: 9701, 2: 24, 4: 3, 21: 7294, 23: 3275} total: 20297 bits: 4002216
+s14-s4 s4-s14 {24: 12595, 2: 27, 4: 3, 21: 9455, 23: 4212} total: 26292 bits: 5151040
+s6-s3 s3-s6 {24: 12523, 2: 33, 4: 3, 21: 9420, 23: 4210} total: 26189 bits: 5142056
+h59-s52 s52-h59 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s39-s37 s37-s39 {24: 12034, 2: 32, 4: 3, 21: 9012, 23: 4023} total: 25104 bits: 4921248
+s62-s30 s30-s62 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+h52-s71 s71-h52 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s1-h69 s1-h69 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s59-h42 s59-h42 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+h37-s21 s21-h37 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s20-s2 s2-s20 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s11-s10 s10-s11 {24: 12931, 2: 27, 4: 5, 21: 9703, 23: 4359} total: 27025 bits: 5297800
+s11-s14 s11-s14 {24: 14055, 2: 30, 4: 4, 21: 10534, 23: 4741} total: 29364 bits: 5776448
+s21-h56 s21-h56 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s37-s39 s37-s39 {24: 12034, 2: 32, 4: 3, 21: 9012, 23: 4023} total: 25104 bits: 4921248
+s37-s38 s37-s38 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s55-s28 s28-s55 {24: 7994, 2: 20, 4: 3, 21: 6051, 23: 2691} total: 16759 bits: 3290808
+h13-s10 s10-h13 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s31-s32 s31-s32 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+h18-s6 s6-h18 {24: 7500, 2: 16, 4: 2, 21: 5634, 23: 2528} total: 15680 bits: 3066816
+s34-h97 s34-h97 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+h66-s39 s39-h66 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s64-h8 s64-h8 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s51-h74 s51-h74 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s22-s2 s2-s22 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s32-s72 s32-s72 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s32-s71 s32-s71 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s69-c1 s69-c1 {24: 7500, 2: 20, 4: 2, 21: 7611, 23: 2528} total: 17661 bits: 3294984
+s45-s48 s45-s48 {24: 9314, 2: 25, 4: 2, 21: 7056, 23: 3140} total: 19537 bits: 3844680
+s2-s23 s2-s23 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s2-s22 s2-s22 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s23-s2 s2-s23 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s2-s20 s2-s20 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s2-s25 s2-s25 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s2-s24 s2-s24 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s82-s81 s81-s82 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s11-s4 s4-s11 {24: 10389, 21: 7772, 23: 3488} total: 21649 bits: 4157960
+s44-c2 s44-c2 {24: 7500, 2: 20, 4: 2, 21: 7274, 23: 2528} total: 17324 bits: 3259936
+h53-s22 s22-h53 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s64-s63 s63-s64 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s11-s9 s9-s11 {24: 11664, 2: 27, 4: 5, 21: 8834, 23: 3955} total: 24485 bits: 4797896
+h90-s33 s33-h90 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s59-s58 s58-s59 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s8-h89 s8-h89 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s6-s32 s6-s32 {24: 11167, 2: 29, 4: 4, 21: 8427, 23: 3809} total: 23436 bits: 4627616
+s33-h45 s33-h45 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s26-s4 s4-s26 {24: 11276, 2: 28, 4: 4, 21: 8427, 23: 3802} total: 23537 bits: 4626792
+s41-s48 s41-s48 {24: 9304, 2: 25, 4: 2, 21: 7052, 23: 3140} total: 19523 bits: 3842968
+s17-s55 s17-s55 {24: 14386, 2: 40, 4: 3, 21: 10779, 23: 4866} total: 30074 bits: 5940912
+s73-h71 s73-h71 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s28-s10 s10-s28 {24: 8292, 2: 21, 4: 2, 21: 6251, 23: 2785} total: 17351 bits: 3402104
+s28-s13 s13-s28 {24: 13832, 2: 37, 4: 4, 21: 10364, 23: 4669} total: 28906 bits: 5712688
+h84-s48 s48-h84 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s28-s15 s15-s28 {24: 14142, 2: 35, 4: 4, 21: 10582, 23: 4763} total: 29526 bits: 5818960
+s8-s50 s8-s50 {24: 8755, 2: 23, 4: 2, 21: 6600, 23: 2933} total: 18313 bits: 3585000
+s11-h77 s11-h77 {24: 7500, 2: 16, 4: 4, 21: 5630, 23: 2528} total: 15678 bits: 3065136
+s2-s1 s1-s2 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s2-s4 s2-s4 {24: 12229, 2: 31, 4: 4, 21: 9120, 23: 4114} total: 25498 bits: 5014032
+s9-s7 s7-s9 {24: 13385, 2: 33, 4: 4, 21: 10071, 23: 4480} total: 27973 bits: 5492040
+s24-h47 s24-h47 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s11-h5 s11-h5 {24: 7500, 2: 16, 4: 4, 21: 5630, 23: 2528} total: 15678 bits: 3065136
+s9-h79 s9-h79 {24: 7500, 2: 16, 4: 2, 21: 5634, 23: 2528} total: 15680 bits: 3066816
+s59-s63 s59-s63 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s30-s15 s15-s30 {24: 12254, 2: 30, 4: 2, 21: 9185, 23: 4139} total: 25610 bits: 5027728
+s46-s47 s46-s47 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+h5-s11 s11-h5 {24: 7500, 2: 16, 4: 4, 21: 5630, 23: 2528} total: 15678 bits: 3065136
+s5-s3 s3-s5 {24: 13167, 2: 32, 4: 3, 21: 9936, 23: 4451} total: 27589 bits: 5410120
+s12-s9 s9-s12 {24: 11839, 2: 31, 4: 3, 21: 8840, 23: 3992} total: 24705 bits: 4861256
+s13-s83 s13-s83 {24: 11124, 2: 30, 4: 4, 21: 8365, 23: 3791} total: 23314 bits: 4601488
+h25-s67 s67-h25 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s12-s4 s4-s12 {24: 13356, 2: 29, 4: 4, 21: 10043, 23: 4514} total: 27946 bits: 5497776
+s25-s2 s2-s25 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s74-h19 s74-h19 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s40-s37 s37-s40 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s37-s41 s37-s41 {24: 12003, 2: 34, 4: 4, 21: 8968, 23: 4063} total: 25072 bits: 4965920
+s17-s2 s2-s17 {24: 7620, 2: 20, 4: 2, 21: 5706, 23: 2555} total: 15903 bits: 3125784
+s18-h41 s18-h41 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s5-s32 s5-s32 {24: 11879, 2: 32, 4: 4, 21: 8848, 23: 3960} total: 24723 bits: 4860888
+h95-s64 s64-h95 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s78-h1 s78-h1 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s2-s18 s2-s18 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s2-s19 s2-s19 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s58-h92 s58-h92 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s2-s10 s2-s10 {24: 10262, 2: 25, 4: 2, 21: 7769, 23: 3464} total: 21522 bits: 4246768
+s2-s16 s2-s16 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s2-s17 s2-s17 {24: 7620, 2: 20, 4: 2, 21: 5706, 23: 2555} total: 15903 bits: 3125784
+s22-h53 s22-h53 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+h21-s48 s48-h21 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+h69-s1 s1-h69 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s52-s8 s8-s52 {24: 8781, 2: 23, 4: 2, 21: 6618, 23: 2966} total: 18390 bits: 3622320
+s83-s28 s28-s83 {24: 12365, 2: 34, 4: 4, 21: 9288, 23: 4114} total: 25805 bits: 5069160
+s42-s48 s42-s48 {24: 9317, 2: 25, 4: 2, 21: 7055, 23: 3144} total: 19543 bits: 3844632
+s50-h23 s50-h23 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+h98-s44 s44-h98 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s68-s69 s68-s69 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s54-h61 s54-h61 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+h29-s55 s55-h29 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s10-h13 s10-h13 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s32-s7 s7-s32 {24: 10413, 2: 26, 4: 2, 21: 7901, 23: 3497} total: 21839 bits: 4275640
+s31-h4 s31-h4 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s32-s5 s5-s32 {24: 11879, 2: 32, 4: 4, 21: 8848, 23: 3960} total: 24723 bits: 4860888
+s73-s5 s5-s73 {24: 13992, 2: 39, 4: 4, 21: 10548, 23: 4724} total: 29307 bits: 5782616
+s73-s7 s7-s73 {24: 11516, 2: 29, 4: 2, 21: 8667, 23: 3862} total: 24076 bits: 4709632
+s73-s6 s6-s73 {24: 13356, 2: 33, 4: 4, 21: 10025, 23: 4521} total: 27939 bits: 5494040
+h47-s24 s24-h47 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s6-s74 s6-s74 {24: 13287, 2: 33, 4: 4, 21: 10016, 23: 4487} total: 27827 bits: 5475384
+s6-s75 s6-s75 {24: 12432, 2: 31, 4: 4, 21: 9341, 23: 4235} total: 26043 bits: 5130264
+s6-s76 s6-s76 {24: 12977, 2: 32, 4: 3, 21: 9752, 23: 4411} total: 27175 bits: 5350488
+s85-s51 s51-s85 {24: 11149, 2: 27, 4: 4, 21: 8445, 23: 3770} total: 23395 bits: 4573112
+s73-s8 s8-s73 {24: 13002, 2: 35, 4: 4, 21: 9723, 23: 4393} total: 27157 bits: 5360232
+c4-s26 s26-c4 {24: 7500, 2: 20, 4: 2, 21: 7618, 23: 2528} total: 17668 bits: 3295712
+s44-s53 s44-s53 {24: 7927, 2: 21, 4: 2, 21: 5917, 23: 2686} total: 16553 bits: 3273192
+s55-h29 s55-h29 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s55-s67 s55-s67 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+h67-s78 s78-h67 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s4-s26 s4-s26 {24: 11276, 2: 28, 4: 4, 21: 8427, 23: 3802} total: 23537 bits: 4626792
+s34-h34 s34-h34 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s54-s55 s54-s55 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s45-h35 s45-h35 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s13-h3 s13-h3 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s9-h36 s9-h36 {24: 7500, 2: 16, 4: 2, 21: 5634, 23: 2528} total: 15680 bits: 3066816
+h38-s29 s29-h38 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s21-s2 s2-s21 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s13-s9 s9-s13 {24: 10225, 2: 27, 4: 3, 21: 7682, 23: 3444} total: 21381 bits: 4217320
+s84-h6 s84-h6 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+h23-s50 s50-h23 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s48-h21 s48-h21 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s48-h26 s48-h26 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+h9-s75 s75-h9 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s10-s11 s10-s11 {24: 12931, 2: 27, 4: 5, 21: 9703, 23: 4359} total: 27025 bits: 5297800
+s10-s12 s10-s12 {24: 13127, 2: 34, 4: 3, 21: 9890, 23: 4422} total: 27476 bits: 5413792
+s10-s14 s10-s14 {24: 14021, 2: 33, 4: 4, 21: 10542, 23: 4736} total: 29336 bits: 5778560
+s28-s55 s28-s55 {24: 7994, 2: 20, 4: 3, 21: 6051, 23: 2691} total: 16759 bits: 3290808
+s17-h85 s17-h85 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s5-s73 s5-s73 {24: 13992, 2: 39, 4: 4, 21: 10548, 23: 4724} total: 29307 bits: 5782616
+h31-s43 s43-h31 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s5-s75 s5-s75 {24: 13118, 2: 32, 4: 4, 21: 9835, 23: 4413} total: 27402 bits: 5387856
+s5-s74 s5-s74 {24: 14000, 2: 38, 4: 4, 21: 10542, 23: 4719} total: 29303 bits: 5758552
+s48-s41 s41-s48 {24: 9304, 2: 25, 4: 2, 21: 7052, 23: 3140} total: 19523 bits: 3842968
+s48-s42 s42-s48 {24: 9317, 2: 25, 4: 2, 21: 7055, 23: 3144} total: 19543 bits: 3844632
+s48-s43 s43-s48 {24: 9310, 2: 25, 4: 2, 21: 7046, 23: 3127} total: 19510 bits: 3833168
+s48-s45 s45-s48 {24: 9314, 2: 25, 4: 2, 21: 7056, 23: 3140} total: 19537 bits: 3844680
+s48-s47 s47-s48 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+c2-s44 s44-c2 {24: 7500, 2: 20, 4: 2, 21: 7274, 23: 2528} total: 17324 bits: 3259936
+s47-s49 s47-s49 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s47-s48 s47-s48 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s47-s46 s46-s47 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s7-s14 s7-s14 {24: 9701, 2: 24, 4: 3, 21: 7294, 23: 3275} total: 20297 bits: 4002216
+s68-s7 s7-s68 {24: 10284, 2: 26, 4: 2, 21: 7727, 23: 3428} total: 21467 bits: 4204408
+s7-s10 s7-s10 {24: 8256, 2: 20, 4: 3, 21: 6236, 23: 2786} total: 17301 bits: 3383912
+h2-s85 s85-h2 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+h65-s24 s24-h65 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+h63-s16 s16-h63 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+h85-s17 s17-h85 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s1-h16 s1-h16 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s30-s29 s29-s30 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s75-h9 s75-h9 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s30-s28 s28-s30 {24: 10246, 2: 30, 4: 4, 21: 7715, 23: 3445} total: 21440 bits: 4240192
+h50-s30 s30-h50 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+h93-s19 s19-h93 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s16-h70 s16-h70 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s63-s65 s63-s65 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s63-s64 s63-s64 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s71-c3 s71-c3 {24: 7500, 2: 20, 4: 2, 21: 7617, 23: 2528} total: 17667 bits: 3295608
+s51-s8 s8-s51 {24: 8884, 2: 25, 4: 3, 21: 6754, 23: 3007} total: 18673 bits: 3681832
+h42-s59 s59-h42 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s52-s85 s52-s85 {24: 11351, 2: 33, 4: 2, 21: 8457, 23: 3814} total: 23657 bits: 4695016
+s52-s84 s52-s84 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+h4-s31 s31-h4 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s13-s14 s13-s14 {24: 12730, 2: 27, 4: 3, 21: 9577, 23: 4294} total: 26631 bits: 5209048
+s51-h43 s51-h43 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s30-h50 s30-h50 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s27-s26 s26-s27 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+h17-s48 s48-h17 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s8-s73 s8-s73 {24: 13002, 2: 35, 4: 4, 21: 9723, 23: 4393} total: 27157 bits: 5360232
+s8-s76 s8-s76 {24: 12988, 2: 35, 4: 4, 21: 9689, 23: 4376} total: 27092 bits: 5343936
+h41-s18 s18-h41 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s8-s74 s8-s74 {24: 13003, 2: 35, 4: 4, 21: 9721, 23: 4381} total: 27144 bits: 5355584
+h44-s77 s77-h44 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s8-s78 s8-s78 {24: 12871, 2: 35, 4: 4, 21: 9612, 23: 4337} total: 26859 bits: 5299256
+s8-s79 s8-s79 {24: 12874, 2: 34, 4: 4, 21: 9620, 23: 4339} total: 26871 bits: 5300824
+h64-s50 s50-h64 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s39-h80 s39-h80 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s19-h86 s19-h86 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s10-s2 s2-s10 {24: 10262, 2: 25, 4: 2, 21: 7769, 23: 3464} total: 21522 bits: 4246768
+s49-s47 s47-s49 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s34-h12 s34-h12 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s10-s7 s7-s10 {24: 8256, 2: 20, 4: 3, 21: 6236, 23: 2786} total: 17301 bits: 3383912
+s75-s7 s7-s75 {24: 11676, 2: 30, 4: 2, 21: 8798, 23: 3915} total: 24421 bits: 4800072
+s75-s6 s6-s75 {24: 12432, 2: 31, 4: 4, 21: 9341, 23: 4235} total: 26043 bits: 5130264
+s75-s5 s5-s75 {24: 13118, 2: 32, 4: 4, 21: 9835, 23: 4413} total: 27402 bits: 5387856
+s10-s9 s9-s10 {24: 12574, 2: 32, 4: 4, 21: 9445, 23: 4236} total: 26291 bits: 5177016
+s11-h48 s11-h48 {24: 7500, 2: 16, 4: 4, 21: 5630, 23: 2528} total: 15678 bits: 3065136
+s77-s7 s7-s77 {24: 11195, 2: 27, 4: 2, 21: 8386, 23: 3757} total: 23367 bits: 4582488
+s77-s6 s6-s77 {24: 12978, 2: 34, 4: 4, 21: 9805, 23: 4385} total: 27206 bits: 5348848
+h71-s73 s73-h71 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+h20-s49 s49-h20 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+h81-s32 s32-h81 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s19-s2 s2-s19 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s15-s30 s15-s30 {24: 12254, 2: 30, 4: 2, 21: 9185, 23: 4139} total: 25610 bits: 5027728
+s30-s62 s30-s62 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s68-s6 s6-s68 {24: 10331, 2: 26, 4: 4, 21: 7764, 23: 3519} total: 21644 bits: 4270720
+s30-s66 s30-s66 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+h92-s58 s58-h92 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+h33-s67 s67-h33 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s7-s56 s7-s56 {24: 10271, 2: 26, 4: 2, 21: 7736, 23: 3449} total: 21484 bits: 4218112
+h28-s76 s76-h28 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s84-s52 s52-s84 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s60-s17 s17-s60 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s74-s5 s5-s74 {24: 14000, 2: 38, 4: 4, 21: 10542, 23: 4719} total: 29303 bits: 5758552
+s74-s6 s6-s74 {24: 13287, 2: 33, 4: 4, 21: 10016, 23: 4487} total: 27827 bits: 5475384
+s74-s7 s7-s74 {24: 11540, 2: 30, 4: 2, 21: 8685, 23: 3903} total: 24160 bits: 4768448
+s57-s56 s56-s57 {24: 7883, 2: 21, 4: 2, 21: 5921, 23: 2667} total: 16494 bits: 3258672
+s74-s8 s8-s74 {24: 13003, 2: 35, 4: 4, 21: 9721, 23: 4381} total: 27144 bits: 5355584
+s57-s51 s51-s57 {24: 12724, 2: 34, 4: 3, 21: 9500, 23: 4287} total: 26548 bits: 5246080
+h14-s17 s17-h14 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s71-s32 s32-s71 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+h45-s33 s33-h45 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s4-h10 s4-h10 {24: 7500, 2: 16, 4: 3, 21: 5630, 23: 2528} total: 15677 bits: 3087272
+s29-h83 s29-h83 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+h57-s33 s33-h57 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+h100-s6 s6-h100 {24: 7500, 2: 16, 4: 2, 21: 5634, 23: 2528} total: 15680 bits: 3066816
+s44-s37 s37-s44 {24: 12694, 2: 34, 4: 4, 21: 9511, 23: 4263} total: 26506 bits: 5213712
+s70-h76 s70-h76 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s48-s39 s39-s48 {24: 9303, 2: 25, 4: 2, 21: 7052, 23: 3140} total: 19522 bits: 3843472
+h60-s78 s78-h60 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s8-h15 s8-h15 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+h10-s4 s4-h10 {24: 7500, 2: 16, 4: 3, 21: 5630, 23: 2528} total: 15677 bits: 3087272
+s13-s28 s13-s28 {24: 13832, 2: 37, 4: 4, 21: 10364, 23: 4669} total: 28906 bits: 5712688
+h75-s5 s5-h75 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s48-h84 s48-h84 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s42-s37 s37-s42 {24: 12053, 2: 33, 4: 4, 21: 8972, 23: 4081} total: 25143 bits: 4970968
+s1-h40 s1-h40 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+h11-s6 s6-h11 {24: 7500, 2: 16, 4: 2, 21: 5634, 23: 2528} total: 15680 bits: 3066816
+s70-s68 s68-s70 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s56-s5 s5-s56 {24: 13642, 2: 38, 4: 4, 21: 10260, 23: 4587} total: 28531 bits: 5615608
+s56-s7 s7-s56 {24: 10271, 2: 26, 4: 2, 21: 7736, 23: 3449} total: 21484 bits: 4218112
+s15-s83 s15-s83 {24: 13989, 2: 35, 4: 2, 21: 10500, 23: 4731} total: 29257 bits: 5768360
+h77-s11 s11-h77 {24: 7500, 2: 16, 4: 4, 21: 5630, 23: 2528} total: 15678 bits: 3065136
+s50-s47 s47-s50 {24: 11249, 2: 28, 4: 3, 21: 8410, 23: 3830} total: 23520 bits: 4670976
+s6-s68 s6-s68 {24: 10331, 2: 26, 4: 4, 21: 7764, 23: 3519} total: 21644 bits: 4270720
+s32-s59 s32-s59 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+h49-s69 s69-h49 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s3-s8 s3-s8 {24: 11523, 2: 31, 4: 3, 21: 8671, 23: 3896} total: 24124 bits: 4753152
+s33-h90 s33-h90 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+h6-s84 s84-h6 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s3-s6 s3-s6 {24: 12523, 2: 33, 4: 3, 21: 9420, 23: 4210} total: 26189 bits: 5142056
+s3-s5 s3-s5 {24: 13167, 2: 32, 4: 3, 21: 9936, 23: 4451} total: 27589 bits: 5410120
+s3-s4 s3-s4 {24: 8779, 2: 24, 4: 4, 21: 6568, 23: 2974} total: 18349 bits: 3633896
+s65-s63 s63-s65 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s16-h63 s16-h63 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s55-s54 s54-s55 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s32-h81 s32-h81 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s7-h58 s7-h58 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s9-h7 s9-h7 {24: 7500, 2: 16, 4: 2, 21: 5634, 23: 2528} total: 15680 bits: 3066816
+h91-s39 s39-h91 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s66-s30 s30-s66 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s49-h20 s49-h20 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+h22-s72 s72-h22 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+h86-s19 s19-h86 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+h80-s39 s39-h80 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s6-h18 s6-h18 {24: 7500, 2: 16, 4: 2, 21: 5634, 23: 2528} total: 15680 bits: 3066816
+s28-s30 s28-s30 {24: 10246, 2: 30, 4: 4, 21: 7715, 23: 3445} total: 21440 bits: 4240192
+s43-s37 s37-s43 {24: 12035, 2: 31, 4: 3, 21: 8956, 23: 4067} total: 25092 bits: 4949184
+h43-s51 s51-h43 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s6-h11 s6-h11 {24: 7500, 2: 16, 4: 2, 21: 5634, 23: 2528} total: 15680 bits: 3066816
+s10-s26 s10-s26 {24: 9339, 2: 24, 4: 3, 21: 7072, 23: 3148} total: 19586 bits: 3866512
+s55-s17 s17-s55 {24: 14386, 2: 40, 4: 3, 21: 10779, 23: 4866} total: 30074 bits: 5940912
+s24-h65 s24-h65 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s4-h54 s4-h54 {24: 7500, 2: 16, 4: 3, 21: 5630, 23: 2528} total: 15677 bits: 3087272
+s10-s28 s10-s28 {24: 8292, 2: 21, 4: 2, 21: 6251, 23: 2785} total: 17351 bits: 3402104
+s50-s8 s8-s50 {24: 8755, 2: 23, 4: 2, 21: 6600, 23: 2933} total: 18313 bits: 3585000
+s72-s32 s32-s72 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s4-s14 s4-s14 {24: 12595, 2: 27, 4: 3, 21: 9455, 23: 4212} total: 26292 bits: 5151040
+h1-s78 s78-h1 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s4-s11 s4-s11 {24: 10389, 21: 7772, 23: 3488} total: 21649 bits: 4157960
+s4-s12 s4-s12 {24: 13356, 2: 29, 4: 4, 21: 10043, 23: 4514} total: 27946 bits: 5497776
+s38-s37 s37-s38 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s51-s57 s51-s57 {24: 12724, 2: 34, 4: 3, 21: 9500, 23: 4287} total: 26548 bits: 5246080
+s26-c4 s26-c4 {24: 7500, 2: 20, 4: 2, 21: 7618, 23: 2528} total: 17668 bits: 3295712
+h34-s34 s34-h34 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s3-s7 s3-s7 {24: 13186, 2: 31, 4: 3, 21: 9871, 23: 4408} total: 27499 bits: 5397496
+s7-s68 s7-s68 {24: 10284, 2: 26, 4: 2, 21: 7727, 23: 3428} total: 21467 bits: 4204408
+h73-s57 s57-h73 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s47-s50 s47-s50 {24: 11249, 2: 28, 4: 3, 21: 8410, 23: 3830} total: 23520 bits: 4670976
+s47-s51 s47-s51 {24: 11217, 2: 31, 4: 3, 21: 8398, 23: 3792} total: 23441 bits: 4611656
+s47-s52 s47-s52 {24: 11284, 2: 31, 4: 4, 21: 8422, 23: 3754} total: 23495 bits: 4606904
+s77-h44 s77-h44 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+h3-s13 s13-h3 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s84-h24 s84-h24 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+h39-s84 s84-h39 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s42-h96 s42-h96 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+h97-s34 s34-h97 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+h46-s58 s58-h46 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+h68-s73 s73-h68 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s44-h98 s44-h98 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s80-s8 s8-s80 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s76-s8 s8-s76 {24: 12988, 2: 35, 4: 4, 21: 9689, 23: 4376} total: 27092 bits: 5343936
+s76-s6 s6-s76 {24: 12977, 2: 32, 4: 3, 21: 9752, 23: 4411} total: 27175 bits: 5350488
+s76-s7 s7-s76 {24: 11207, 2: 29, 4: 3, 21: 8464, 23: 3747} total: 23450 bits: 4603376
+c3-s71 s71-c3 {24: 7500, 2: 20, 4: 2, 21: 7617, 23: 2528} total: 17667 bits: 3295608
+s18-s2 s2-s18 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s81-s82 s81-s82 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+h19-s74 s74-h19 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+h24-s84 s84-h24 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s41-s37 s37-s41 {24: 12003, 2: 34, 4: 4, 21: 8968, 23: 4063} total: 25072 bits: 4965920
+s9-s11 s9-s11 {24: 11664, 2: 27, 4: 5, 21: 8834, 23: 3955} total: 24485 bits: 4797896
+s9-s10 s9-s10 {24: 12574, 2: 32, 4: 4, 21: 9445, 23: 4236} total: 26291 bits: 5177016
+s9-s13 s9-s13 {24: 10225, 2: 27, 4: 3, 21: 7682, 23: 3444} total: 21381 bits: 4217320
+s9-s12 s9-s12 {24: 11839, 2: 31, 4: 3, 21: 8840, 23: 3992} total: 24705 bits: 4861256
+s39-h91 s39-h91 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s53-s48 s48-s53 {24: 7634, 2: 20, 4: 2, 21: 5743, 23: 2560} total: 15959 bits: 3130392
+s38-h78 s38-h78 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s19-h93 s19-h93 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s53-s44 s44-s53 {24: 7927, 2: 21, 4: 2, 21: 5917, 23: 2686} total: 16553 bits: 3273192
+h72-s67 s67-h72 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+h30-s16 s16-h30 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s43-h31 s43-h31 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s15-h55 s15-h55 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+h99-s80 s80-h99 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s78-s7 s7-s78 {24: 9315, 2: 23, 4: 2, 21: 7067, 23: 3140} total: 19547 bits: 3842104
+s78-s8 s8-s78 {24: 12871, 2: 35, 4: 4, 21: 9612, 23: 4337} total: 26859 bits: 5299256
+s50-s82 s50-s82 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+h70-s16 s16-h70 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s67-h33 s67-h33 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+h16-s1 s1-h16 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s1-s2 s1-s2 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+c1-s69 s69-c1 {24: 7500, 2: 20, 4: 2, 21: 7611, 23: 2528} total: 17661 bits: 3294984
+s15-s28 s15-s28 {24: 14142, 2: 35, 4: 4, 21: 10582, 23: 4763} total: 29526 bits: 5818960
+s16-h30 s16-h30 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s28-s83 s28-s83 {24: 12365, 2: 34, 4: 4, 21: 9288, 23: 4114} total: 25805 bits: 5069160
+s58-s59 s58-s59 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s29-h38 s29-h38 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s80-h99 s80-h99 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+h78-s38 s38-h78 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s4-s2 s2-s4 {24: 12229, 2: 31, 4: 4, 21: 9120, 23: 4114} total: 25498 bits: 5014032
+s4-s3 s3-s4 {24: 8779, 2: 24, 4: 4, 21: 6568, 23: 2974} total: 18349 bits: 3633896
+h58-s7 s7-h58 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s8-s77 s8-s77 {24: 12985, 2: 34, 4: 4, 21: 9699, 23: 4375} total: 27097 bits: 5337288
+s50-h64 s50-h64 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+h87-s24 s24-h87 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+h15-s8 s8-h15 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s71-h52 s71-h52 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s51-s85 s51-s85 {24: 11149, 2: 27, 4: 4, 21: 8445, 23: 3770} total: 23395 bits: 4573112
+h27-s42 s42-h27 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+h32-s84 s84-h32 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s7-s32 s7-s32 {24: 10413, 2: 26, 4: 2, 21: 7901, 23: 3497} total: 21839 bits: 4275640
+s72-h22 s72-h22 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s7-s79 s7-s79 {24: 9311, 2: 24, 4: 2, 21: 7060, 23: 3154} total: 19551 bits: 3858744
+s7-s3 s3-s7 {24: 13186, 2: 31, 4: 3, 21: 9871, 23: 4408} total: 27499 bits: 5397496
+s26-s10 s10-s26 {24: 9339, 2: 24, 4: 3, 21: 7072, 23: 3148} total: 19586 bits: 3866512
+s7-s9 s7-s9 {24: 13385, 2: 33, 4: 4, 21: 10071, 23: 4480} total: 27973 bits: 5492040
+s24-h87 s24-h87 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s8-s6 s6-s8 {24: 10512, 2: 27, 4: 3, 21: 7830, 23: 3551} total: 21923 bits: 4311928
+s52-s47 s47-s52 {24: 11284, 2: 31, 4: 4, 21: 8422, 23: 3754} total: 23495 bits: 4606904
+s8-s5 s5-s8 {24: 12089, 2: 30, 4: 4, 21: 8998, 23: 4060} total: 25181 bits: 4958504
+s8-s3 s3-s8 {24: 11523, 2: 31, 4: 3, 21: 8671, 23: 3896} total: 24124 bits: 4753152
+h79-s9 s9-h79 {24: 7500, 2: 16, 4: 2, 21: 5634, 23: 2528} total: 15680 bits: 3066816
+h76-s70 s70-h76 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+h74-s51 s51-h74 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s32-s61 s32-s61 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s7-s73 s7-s73 {24: 11516, 2: 29, 4: 2, 21: 8667, 23: 3862} total: 24076 bits: 4709632
+h54-s4 s4-h54 {24: 7500, 2: 16, 4: 3, 21: 5630, 23: 2528} total: 15677 bits: 3087272
+s29-s30 s29-s30 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+h82-s63 s63-h82 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s32-s6 s6-s32 {24: 11167, 2: 29, 4: 4, 21: 8427, 23: 3809} total: 23436 bits: 4627616
+s12-s14 s12-s14 {24: 14072, 2: 34, 4: 4, 21: 10585, 23: 4732} total: 29427 bits: 5781368
+h40-s1 s1-h40 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s67-h72 s67-h72 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s47-h88 s47-h88 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s39-h66 s39-h66 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+h96-s42 s42-h96 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+h7-s9 s9-h7 {24: 7500, 2: 16, 4: 2, 21: 5634, 23: 2528} total: 15680 bits: 3066816
+s17-h14 s17-h14 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s14-s15 s14-s15 {24: 8291, 2: 22, 4: 2, 21: 6264, 23: 2800} total: 17379 bits: 3420568
+s14-s10 s10-s14 {24: 14021, 2: 33, 4: 4, 21: 10542, 23: 4736} total: 29336 bits: 5778560
+s14-s11 s11-s14 {24: 14055, 2: 30, 4: 4, 21: 10534, 23: 4741} total: 29364 bits: 5776448
+s14-s12 s12-s14 {24: 14072, 2: 34, 4: 4, 21: 10585, 23: 4732} total: 29427 bits: 5781368
+s14-s13 s13-s14 {24: 12730, 2: 27, 4: 3, 21: 9577, 23: 4294} total: 26631 bits: 5209048
+s73-h68 s73-h68 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s21-h37 s21-h37 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s43-s48 s43-s48 {24: 9310, 2: 25, 4: 2, 21: 7046, 23: 3127} total: 19510 bits: 3833168
+s16-s2 s2-s16 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s85-s52 s52-s85 {24: 11351, 2: 33, 4: 2, 21: 8457, 23: 3814} total: 23657 bits: 4695016
+s5-h75 s5-h75 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+h36-s9 s9-h36 {24: 7500, 2: 16, 4: 2, 21: 5634, 23: 2528} total: 15680 bits: 3066816
+s51-s47 s47-s51 {24: 11217, 2: 31, 4: 3, 21: 8398, 23: 3792} total: 23441 bits: 4611656
+s6-s77 s6-s77 {24: 12978, 2: 34, 4: 4, 21: 9805, 23: 4385} total: 27206 bits: 5348848
+s8-s80 s8-s80 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s6-s73 s6-s73 {24: 13356, 2: 33, 4: 4, 21: 10025, 23: 4521} total: 27939 bits: 5494040
+s33-h57 s33-h57 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s78-h60 s78-h60 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s78-h67 s78-h67 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s64-h95 s64-h95 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+h8-s64 s64-h8 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s39-s48 s39-s48 {24: 9303, 2: 25, 4: 2, 21: 7052, 23: 3140} total: 19522 bits: 3843472
+s7-s78 s7-s78 {24: 9315, 2: 23, 4: 2, 21: 7067, 23: 3140} total: 19547 bits: 3842104
+s34-s32 s32-s34 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s12-s10 s10-s12 {24: 13127, 2: 34, 4: 3, 21: 9890, 23: 4422} total: 27476 bits: 5413792
+s85-h2 s85-h2 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s7-s75 s7-s75 {24: 11676, 2: 30, 4: 2, 21: 8798, 23: 3915} total: 24421 bits: 4800072
+s7-s74 s7-s74 {24: 11540, 2: 30, 4: 2, 21: 8685, 23: 3903} total: 24160 bits: 4768448
+s7-s77 s7-s77 {24: 11195, 2: 27, 4: 2, 21: 8386, 23: 3757} total: 23367 bits: 4582488
+s7-s76 s7-s76 {24: 11207, 2: 29, 4: 3, 21: 8464, 23: 3747} total: 23450 bits: 4603376
+s58-h46 s58-h46 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s26-s27 s26-s27 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s76-h28 s76-h28 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+h12-s34 s34-h12 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s84-h39 s84-h39 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+s84-h32 s84-h32 {24: 7500, 2: 20, 4: 2, 21: 5634, 23: 2528} total: 15684 bits: 3089376
+Total control packets over all links:  {'NotifyLinkDown': 1166, 'Gossip': 1433632, 'ControlAck': 3210120, 'GossipReply': 4253232, 'UpdateRules': 10976}  bytes:  1752088624
+Total control bits over all links:  {'NotifyLinkDown': 158576, 'Gossip': 1071133952, 'ControlAck': 333852480, 'GossipReply': 306232704, 'UpdateRules': 40710912}

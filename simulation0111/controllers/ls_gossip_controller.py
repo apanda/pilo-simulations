@@ -206,8 +206,8 @@ class LSGossipControl (LSController):
       cpacket.size += pkt_size
       self.cpkt_id += 1
       self.sendControlPacket(cpacket)
-    print self.name, " Current log\n"
-    print self.log
+    #print self.name, " Current log\n"
+    #print self.log
    
   def Gossip (self):
     #print "Gossip called", self.gossip_period
