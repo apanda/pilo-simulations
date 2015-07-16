@@ -1056,43 +1056,43 @@ paxos available
 998711.246935 s1 notifying down for s1-s12
 998711.246935 s1 notifying down for s1-s12 reliably
 paxos available
-998714.676453 h1 updating s11 with len 4
+998714.587484 h1 updating s11 with len 4
 Update to s11 with len 4
-998714.676453 h1 updating s8 with len 4
+998714.587484 h1 updating s8 with len 4
 Update to s8 with len 4
-998714.676453 h1 updating s1 with len 4
+998714.587484 h1 updating s1 with len 4
 Update to s1 with len 4
-998714.676453 h1 updating s4 with len 4
+998714.587484 h1 updating s4 with len 4
 Update to s4 with len 4
-998714.676453 h4 updating s11 with len 4
+998714.587484 h4 updating s11 with len 4
 Update to s11 with len 4
-998714.676453 h4 updating s8 with len 4
+998714.587484 h4 updating s8 with len 4
 Update to s8 with len 4
-998714.676453 h4 updating s1 with len 4
+998714.587484 h4 updating s1 with len 4
 Update to s1 with len 4
-998714.676453 h4 updating s4 with len 4
+998714.587484 h4 updating s4 with len 4
 Update to s4 with len 4
-998714.676453 h10 updating s11 with len 4
+998714.587484 h10 updating s11 with len 4
 Update to s11 with len 4
-998714.676453 h10 updating s8 with len 4
+998714.587484 h10 updating s8 with len 4
 Update to s8 with len 4
-998714.676453 h10 updating s1 with len 4
+998714.587484 h10 updating s1 with len 4
 Update to s1 with len 4
-998714.676453 h10 updating s4 with len 4
+998714.587484 h10 updating s4 with len 4
 Update to s4 with len 4
-998714.676453 h11 updating s11 with len 4
+998714.587484 h11 updating s11 with len 4
 Update to s11 with len 4
-998714.676453 h11 updating s8 with len 4
+998714.587484 h11 updating s8 with len 4
 Update to s8 with len 4
-998714.676453 h11 updating s1 with len 4
+998714.587484 h11 updating s1 with len 4
 Update to s1 with len 4
-998714.676453 h11 updating s4 with len 4
+998714.587484 h11 updating s4 with len 4
 Update to s4 with len 4
 paxos available
-998716.565460 received rule update s11
-998716.592484 received rule update s1
-998716.947724 received rule update s4
-998717.151666 received rule update s8
+998716.013158 received rule update s4
+998716.541646 received rule update s8
+998716.860319 received rule update s11
+998716.960514 received rule update s1
 999000.0 {'h10': {21: 16}, 'h11': {21: 16}, 'h1': {2: 4, 21: 16}, 'h4': {21: 16}}
 1000000.0 {'h10': {21: 16}, 'h11': {21: 16}, 'h1': {2: 4, 21: 16}, 'h4': {21: 16}}
 1001000.0 {'h10': {21: 16}, 'h11': {21: 16}, 'h1': {2: 4, 21: 16}, 'h4': {21: 16}}
@@ -1451,43 +1451,43 @@ paxos available
 1354000.0 {'h10': {21: 16}, 'h11': {21: 16}, 'h1': {2: 4, 21: 16}, 'h4': {21: 16}}
 1355000.0 {'h10': {21: 16}, 'h11': {21: 16}, 'h1': {2: 4, 21: 16}, 'h4': {21: 16}}
 paxos available
-1355738.311913 h1 updating s11 with len 2
+1355738.325113 h1 updating s11 with len 2
 Update to s11 with len 2
-1355738.311913 h1 updating s8 with len 2
+1355738.325113 h1 updating s8 with len 2
 Update to s8 with len 2
-1355738.311913 h1 updating s1 with len 2
+1355738.325113 h1 updating s1 with len 2
 Update to s1 with len 2
-1355738.311913 h1 updating s4 with len 2
+1355738.325113 h1 updating s4 with len 2
 Update to s4 with len 2
-1355738.311913 h4 updating s11 with len 2
+1355738.325113 h4 updating s11 with len 2
 Update to s11 with len 2
-1355738.311913 h4 updating s8 with len 2
+1355738.325113 h4 updating s8 with len 2
 Update to s8 with len 2
-1355738.311913 h4 updating s1 with len 2
+1355738.325113 h4 updating s1 with len 2
 Update to s1 with len 2
-1355738.311913 h4 updating s4 with len 2
+1355738.325113 h4 updating s4 with len 2
 Update to s4 with len 2
-1355738.311913 h10 updating s11 with len 2
+1355738.325113 h10 updating s11 with len 2
 Update to s11 with len 2
-1355738.311913 h10 updating s8 with len 2
+1355738.325113 h10 updating s8 with len 2
 Update to s8 with len 2
-1355738.311913 h10 updating s1 with len 2
+1355738.325113 h10 updating s1 with len 2
 Update to s1 with len 2
-1355738.311913 h10 updating s4 with len 2
+1355738.325113 h10 updating s4 with len 2
 Update to s4 with len 2
-1355738.311913 h11 updating s11 with len 2
+1355738.325113 h11 updating s11 with len 2
 Update to s11 with len 2
-1355738.311913 h11 updating s8 with len 2
+1355738.325113 h11 updating s8 with len 2
 Update to s8 with len 2
-1355738.311913 h11 updating s1 with len 2
+1355738.325113 h11 updating s1 with len 2
 Update to s1 with len 2
-1355738.311913 h11 updating s4 with len 2
+1355738.325113 h11 updating s4 with len 2
 Update to s4 with len 2
 paxos available
-1355739.787861 received rule update s1
-1355739.874852 received rule update s4
-1355740.335536 received rule update s11
-1355740.380341 received rule update s8
+1355739.341645 received rule update s4
+1355740.115853 received rule update s1
+1355740.266422 received rule update s8
+1355740.617799 received rule update s11
 1356000.0 {'h10': {21: 18}, 'h11': {21: 18}, 'h1': {2: 8, 21: 18}, 'h4': {21: 18}}
 1357000.0 {'h10': {21: 18}, 'h11': {21: 18}, 'h1': {2: 8, 21: 18}, 'h4': {21: 18}}
 1358000.0 {'h10': {21: 18}, 'h11': {21: 18}, 'h1': {2: 8, 21: 18}, 'h4': {21: 18}}
@@ -1516,16 +1516,16 @@ paxos available
 1381000.0 {'h10': {21: 18}, 'h11': {21: 18}, 'h1': {2: 8, 21: 18}, 'h4': {21: 18}}
 1382000.0 {'h10': {21: 18}, 'h11': {21: 18}, 'h1': {2: 8, 21: 18}, 'h4': {21: 18}}
 paxos available
-1382753.593449 h1 updating s11 with len 6
+1382753.532449 h1 updating s11 with len 6
 Update to s11 with len 6
-1382753.593449 h4 updating s11 with len 6
+1382753.532449 h4 updating s11 with len 6
 Update to s11 with len 6
-1382753.593449 h10 updating s11 with len 6
+1382753.532449 h10 updating s11 with len 6
 Update to s11 with len 6
-1382753.593449 h11 updating s11 with len 6
+1382753.532449 h11 updating s11 with len 6
 Update to s11 with len 6
 paxos available
-1382755.454311 received rule update s11
+1382755.403208 received rule update s11
 1383000.0 {'h10': {21: 20}, 'h11': {21: 20}, 'h1': {2: 9, 21: 20}, 'h4': {21: 20}}
 1384000.0 {'h10': {21: 20}, 'h11': {21: 20}, 'h1': {2: 9, 21: 20}, 'h4': {21: 20}}
 1385000.0 {'h10': {21: 20}, 'h11': {21: 20}, 'h1': {2: 9, 21: 20}, 'h4': {21: 20}}
@@ -1828,180 +1828,180 @@ paxos available
 1671885.578256 s13 notifying down for s3-s13
 1671885.578256 s13 notifying down for s3-s13 reliably
 paxos available
-1671889.103226 h1 updating s13 with len 20
+1671888.914858 h1 updating s13 with len 20
 Update to s13 with len 20
-1671889.103226 h1 updating s2 with len 40
+1671888.914858 h1 updating s2 with len 40
 Update to s2 with len 40
-1671889.103226 h1 updating s9 with len 6
+1671888.914858 h1 updating s9 with len 6
 Update to s9 with len 6
-1671889.103226 h1 updating s17 with len 8
+1671888.914858 h1 updating s17 with len 8
 Update to s17 with len 8
-1671889.103226 h1 updating s5 with len 6
+1671888.914858 h1 updating s5 with len 6
 Update to s5 with len 6
-1671889.103226 h4 updating s13 with len 20
+1671888.914858 h4 updating s13 with len 20
 Update to s13 with len 20
-1671889.103226 h4 updating s2 with len 40
+1671888.914858 h4 updating s2 with len 40
 Update to s2 with len 40
-1671889.103226 h4 updating s9 with len 6
+1671888.914858 h4 updating s9 with len 6
 Update to s9 with len 6
-1671889.103226 h4 updating s17 with len 8
+1671888.914858 h4 updating s17 with len 8
 Update to s17 with len 8
-1671889.103226 h4 updating s5 with len 6
+1671888.914858 h4 updating s5 with len 6
 Update to s5 with len 6
-1671889.103226 h10 updating s13 with len 20
+1671888.914858 h10 updating s13 with len 20
 Update to s13 with len 20
-1671889.103226 h10 updating s2 with len 40
+1671888.914858 h10 updating s2 with len 40
 Update to s2 with len 40
-1671889.103226 h10 updating s9 with len 6
+1671888.914858 h10 updating s9 with len 6
 Update to s9 with len 6
-1671889.103226 h10 updating s17 with len 8
+1671888.914858 h10 updating s17 with len 8
 Update to s17 with len 8
-1671889.103226 h10 updating s5 with len 6
+1671888.914858 h10 updating s5 with len 6
 Update to s5 with len 6
-1671889.103226 h11 updating s13 with len 20
+1671888.914858 h11 updating s13 with len 20
 Update to s13 with len 20
-1671889.103226 h11 updating s2 with len 40
+1671888.914858 h11 updating s2 with len 40
 Update to s2 with len 40
-1671889.103226 h11 updating s9 with len 6
+1671888.914858 h11 updating s9 with len 6
 Update to s9 with len 6
-1671889.103226 h11 updating s17 with len 8
+1671888.914858 h11 updating s17 with len 8
 Update to s17 with len 8
-1671889.103226 h11 updating s5 with len 6
+1671888.914858 h11 updating s5 with len 6
 Update to s5 with len 6
 paxos available
-1671890.223587 received rule update s5
-1671890.747432 received rule update s9
-1671890.768665 received rule update s13
-1671891.117565 received rule update s2
-1671891.136720 received rule update s17
+1671890.039721 received rule update s5
+1671890.558079 received rule update s13
+1671890.581727 received rule update s9
+1671890.923502 received rule update s17
+1671890.945114 received rule update s2
 1672000.0 {'h10': {21: 26}, 'h11': {21: 26}, 'h1': {2: 14, 21: 26}, 'h4': {21: 26}}
 1673000.0 {'h10': {21: 26}, 'h11': {21: 26}, 'h1': {2: 14, 21: 26}, 'h4': {21: 26}}
 1674000.0 {'h10': {21: 26}, 'h11': {21: 26}, 'h1': {2: 14, 21: 26}, 'h4': {21: 26}}
 1675000.0 {'h10': {21: 26}, 'h11': {21: 26}, 'h1': {2: 14, 21: 26}, 'h4': {21: 26}}
 1676000.0 {'h10': {21: 26}, 'h11': {21: 26}, 'h1': {2: 14, 21: 26}, 'h4': {21: 26}}
-1676125.361388 s5 notifying down for s5-s6
-1676125.361388 s5 notifying down for s5-s6 reliably
 1676125.361388 s6 notifying down for s5-s6
 1676125.361388 s6 notifying down for s5-s6 reliably
+1676125.361388 s5 notifying down for s5-s6
+1676125.361388 s5 notifying down for s5-s6 reliably
 paxos available
-1676128.804691 h1 updating s19 with len 2
+1676128.593424 h1 updating s19 with len 2
 Update to s19 with len 2
-1676128.804691 h1 updating s8 with len 4
+1676128.593424 h1 updating s8 with len 4
 Update to s8 with len 4
-1676128.804691 h1 updating s10 with len 1
+1676128.593424 h1 updating s10 with len 1
 Update to s10 with len 1
-1676128.804691 h1 updating s12 with len 4
+1676128.593424 h1 updating s12 with len 4
 Update to s12 with len 4
-1676128.804691 h1 updating s1 with len 13
+1676128.593424 h1 updating s1 with len 13
 Update to s1 with len 13
-1676128.804691 h1 updating s0 with len 3
+1676128.593424 h1 updating s0 with len 3
 Update to s0 with len 3
-1676128.804691 h1 updating s7 with len 2
+1676128.593424 h1 updating s7 with len 2
 Update to s7 with len 2
-1676128.804691 h1 updating s6 with len 11
+1676128.593424 h1 updating s6 with len 11
 Update to s6 with len 11
-1676128.804691 h1 updating s16 with len 8
+1676128.593424 h1 updating s16 with len 8
 Update to s16 with len 8
-1676128.804691 h1 updating s18 with len 2
+1676128.593424 h1 updating s18 with len 2
 Update to s18 with len 2
-1676128.804691 h1 updating s4 with len 20
+1676128.593424 h1 updating s4 with len 20
 Update to s4 with len 20
-1676128.804691 h1 updating s11 with len 2
+1676128.593424 h1 updating s11 with len 2
 Update to s11 with len 2
-1676128.804691 h1 updating s14 with len 2
+1676128.593424 h1 updating s14 with len 2
 Update to s14 with len 2
-1676128.804691 h4 updating s19 with len 2
+1676128.593424 h4 updating s19 with len 2
 Update to s19 with len 2
-1676128.804691 h4 updating s8 with len 4
+1676128.593424 h4 updating s8 with len 4
 Update to s8 with len 4
-1676128.804691 h4 updating s10 with len 1
+1676128.593424 h4 updating s10 with len 1
 Update to s10 with len 1
-1676128.804691 h4 updating s12 with len 4
+1676128.593424 h4 updating s12 with len 4
 Update to s12 with len 4
-1676128.804691 h4 updating s1 with len 13
+1676128.593424 h4 updating s1 with len 13
 Update to s1 with len 13
-1676128.804691 h4 updating s0 with len 3
+1676128.593424 h4 updating s0 with len 3
 Update to s0 with len 3
-1676128.804691 h4 updating s7 with len 2
+1676128.593424 h4 updating s7 with len 2
 Update to s7 with len 2
-1676128.804691 h4 updating s6 with len 11
+1676128.593424 h4 updating s6 with len 11
 Update to s6 with len 11
-1676128.804691 h4 updating s16 with len 8
+1676128.593424 h4 updating s16 with len 8
 Update to s16 with len 8
-1676128.804691 h4 updating s18 with len 2
+1676128.593424 h4 updating s18 with len 2
 Update to s18 with len 2
-1676128.804691 h4 updating s4 with len 20
+1676128.593424 h4 updating s4 with len 20
 Update to s4 with len 20
-1676128.804691 h4 updating s11 with len 2
+1676128.593424 h4 updating s11 with len 2
 Update to s11 with len 2
-1676128.804691 h4 updating s14 with len 2
+1676128.593424 h4 updating s14 with len 2
 Update to s14 with len 2
-1676128.804691 h10 updating s19 with len 2
+1676128.593424 h10 updating s19 with len 2
 Update to s19 with len 2
-1676128.804691 h10 updating s8 with len 4
+1676128.593424 h10 updating s8 with len 4
 Update to s8 with len 4
-1676128.804691 h10 updating s10 with len 1
+1676128.593424 h10 updating s10 with len 1
 Update to s10 with len 1
-1676128.804691 h10 updating s12 with len 4
+1676128.593424 h10 updating s12 with len 4
 Update to s12 with len 4
-1676128.804691 h10 updating s1 with len 13
+1676128.593424 h10 updating s1 with len 13
 Update to s1 with len 13
-1676128.804691 h10 updating s0 with len 3
+1676128.593424 h10 updating s0 with len 3
 Update to s0 with len 3
-1676128.804691 h10 updating s7 with len 2
+1676128.593424 h10 updating s7 with len 2
 Update to s7 with len 2
-1676128.804691 h10 updating s6 with len 11
+1676128.593424 h10 updating s6 with len 11
 Update to s6 with len 11
-1676128.804691 h10 updating s16 with len 8
+1676128.593424 h10 updating s16 with len 8
 Update to s16 with len 8
-1676128.804691 h10 updating s18 with len 2
+1676128.593424 h10 updating s18 with len 2
 Update to s18 with len 2
-1676128.804691 h10 updating s4 with len 20
+1676128.593424 h10 updating s4 with len 20
 Update to s4 with len 20
-1676128.804691 h10 updating s11 with len 2
+1676128.593424 h10 updating s11 with len 2
 Update to s11 with len 2
-1676128.804691 h10 updating s14 with len 2
+1676128.593424 h10 updating s14 with len 2
 Update to s14 with len 2
-1676128.804691 h11 updating s19 with len 2
+1676128.593424 h11 updating s19 with len 2
 Update to s19 with len 2
-1676128.804691 h11 updating s8 with len 4
+1676128.593424 h11 updating s8 with len 4
 Update to s8 with len 4
-1676128.804691 h11 updating s10 with len 1
+1676128.593424 h11 updating s10 with len 1
 Update to s10 with len 1
-1676128.804691 h11 updating s12 with len 4
+1676128.593424 h11 updating s12 with len 4
 Update to s12 with len 4
-1676128.804691 h11 updating s1 with len 13
+1676128.593424 h11 updating s1 with len 13
 Update to s1 with len 13
-1676128.804691 h11 updating s0 with len 3
+1676128.593424 h11 updating s0 with len 3
 Update to s0 with len 3
-1676128.804691 h11 updating s7 with len 2
+1676128.593424 h11 updating s7 with len 2
 Update to s7 with len 2
-1676128.804691 h11 updating s6 with len 11
+1676128.593424 h11 updating s6 with len 11
 Update to s6 with len 11
-1676128.804691 h11 updating s16 with len 8
+1676128.593424 h11 updating s16 with len 8
 Update to s16 with len 8
-1676128.804691 h11 updating s18 with len 2
+1676128.593424 h11 updating s18 with len 2
 Update to s18 with len 2
-1676128.804691 h11 updating s4 with len 20
+1676128.593424 h11 updating s4 with len 20
 Update to s4 with len 20
-1676128.804691 h11 updating s11 with len 2
+1676128.593424 h11 updating s11 with len 2
 Update to s11 with len 2
-1676128.804691 h11 updating s14 with len 2
+1676128.593424 h11 updating s14 with len 2
 Update to s14 with len 2
 paxos available
-1676130.189451 received rule update s4
-1676130.222943 received rule update s0
-1676130.368146 received rule update s1
-1676130.654705 received rule update s7
-1676130.671518 received rule update s6
-1676130.686699 received rule update s12
-1676130.852369 received rule update s8
-1676130.864472 received rule update s14
-1676130.934346 received rule update s16
-1676130.939739 received rule update s19
-1676130.983171 received rule update s18
-1676131.289522 received rule update s11
-1676131.292951 received rule update s10
+1676129.978184 received rule update s4
+1676130.005937 received rule update s0
+1676130.154980 received rule update s1
+1676130.460251 received rule update s6
+1676130.468786 received rule update s12
+1676130.478563 received rule update s7
+1676130.622119 received rule update s8
+1676130.637936 received rule update s14
+1676130.716510 received rule update s16
+1676130.720882 received rule update s19
+1676130.774083 received rule update s18
+1676131.063516 received rule update s10
+1676131.069534 received rule update s11
 1677000.0 {'h10': {21: 28}, 'h11': {21: 28}, 'h1': {2: 27, 21: 28}, 'h4': {21: 28}}
 1678000.0 {'h10': {21: 28}, 'h11': {21: 28}, 'h1': {2: 27, 21: 28}, 'h4': {21: 28}}
 1679000.0 {'h10': {21: 28}, 'h11': {21: 28}, 'h1': {2: 27, 21: 28}, 'h4': {21: 28}}
@@ -2106,70 +2106,70 @@ paxos available
 1778000.0 {'h10': {21: 28}, 'h11': {21: 28}, 'h1': {2: 27, 21: 28}, 'h4': {21: 28}}
 1779000.0 {'h10': {21: 28}, 'h11': {21: 28}, 'h1': {2: 27, 21: 28}, 'h4': {21: 28}}
 paxos available
-1779395.571516 h1 updating s19 with len 2
+1779395.544615 h1 updating s19 with len 2
 Update to s19 with len 2
-1779395.571516 h1 updating s18 with len 2
+1779395.544615 h1 updating s18 with len 2
 Update to s18 with len 2
-1779395.571516 h1 updating s11 with len 2
+1779395.544615 h1 updating s11 with len 2
 Update to s11 with len 2
-1779395.571516 h1 updating s10 with len 1
+1779395.544615 h1 updating s10 with len 1
 Update to s10 with len 1
-1779395.571516 h1 updating s7 with len 2
+1779395.544615 h1 updating s7 with len 2
 Update to s7 with len 2
-1779395.571516 h1 updating s6 with len 11
+1779395.544615 h1 updating s6 with len 11
 Update to s6 with len 11
-1779395.571516 h1 updating s14 with len 2
+1779395.544615 h1 updating s14 with len 2
 Update to s14 with len 2
-1779395.571516 h4 updating s19 with len 2
+1779395.544615 h4 updating s19 with len 2
 Update to s19 with len 2
-1779395.571516 h4 updating s18 with len 2
+1779395.544615 h4 updating s18 with len 2
 Update to s18 with len 2
-1779395.571516 h4 updating s11 with len 2
+1779395.544615 h4 updating s11 with len 2
 Update to s11 with len 2
-1779395.571516 h4 updating s10 with len 1
+1779395.544615 h4 updating s10 with len 1
 Update to s10 with len 1
-1779395.571516 h4 updating s7 with len 2
+1779395.544615 h4 updating s7 with len 2
 Update to s7 with len 2
-1779395.571516 h4 updating s6 with len 11
+1779395.544615 h4 updating s6 with len 11
 Update to s6 with len 11
-1779395.571516 h4 updating s14 with len 2
+1779395.544615 h4 updating s14 with len 2
 Update to s14 with len 2
-1779395.571516 h10 updating s19 with len 2
+1779395.544615 h10 updating s19 with len 2
 Update to s19 with len 2
-1779395.571516 h10 updating s18 with len 2
+1779395.544615 h10 updating s18 with len 2
 Update to s18 with len 2
-1779395.571516 h10 updating s11 with len 2
+1779395.544615 h10 updating s11 with len 2
 Update to s11 with len 2
-1779395.571516 h10 updating s10 with len 1
+1779395.544615 h10 updating s10 with len 1
 Update to s10 with len 1
-1779395.571516 h10 updating s7 with len 2
+1779395.544615 h10 updating s7 with len 2
 Update to s7 with len 2
-1779395.571516 h10 updating s6 with len 11
+1779395.544615 h10 updating s6 with len 11
 Update to s6 with len 11
-1779395.571516 h10 updating s14 with len 2
+1779395.544615 h10 updating s14 with len 2
 Update to s14 with len 2
-1779395.571516 h11 updating s19 with len 2
+1779395.544615 h11 updating s19 with len 2
 Update to s19 with len 2
-1779395.571516 h11 updating s18 with len 2
+1779395.544615 h11 updating s18 with len 2
 Update to s18 with len 2
-1779395.571516 h11 updating s11 with len 2
+1779395.544615 h11 updating s11 with len 2
 Update to s11 with len 2
-1779395.571516 h11 updating s10 with len 1
+1779395.544615 h11 updating s10 with len 1
 Update to s10 with len 1
-1779395.571516 h11 updating s7 with len 2
+1779395.544615 h11 updating s7 with len 2
 Update to s7 with len 2
-1779395.571516 h11 updating s6 with len 11
+1779395.544615 h11 updating s6 with len 11
 Update to s6 with len 11
-1779395.571516 h11 updating s14 with len 2
+1779395.544615 h11 updating s14 with len 2
 Update to s14 with len 2
 paxos available
-1779396.603925 received rule update s6
-1779396.736035 received rule update s7
-1779397.166648 received rule update s18
-1779397.403631 received rule update s10
-1779397.553868 received rule update s19
-1779397.619101 received rule update s11
-1779397.672914 received rule update s14
+1779396.577024 received rule update s6
+1779396.673785 received rule update s7
+1779397.118679 received rule update s18
+1779397.404612 received rule update s10
+1779397.537206 received rule update s19
+1779397.574722 received rule update s11
+1779397.637251 received rule update s14
 1780000.0 {'h10': {21: 30}, 'h11': {21: 30}, 'h1': {2: 34, 21: 30}, 'h4': {21: 30}}
 1781000.0 {'h10': {21: 30}, 'h11': {21: 30}, 'h1': {2: 34, 21: 30}, 'h4': {21: 30}}
 1782000.0 {'h10': {21: 30}, 'h11': {21: 30}, 'h1': {2: 34, 21: 30}, 'h4': {21: 30}}
@@ -2347,43 +2347,43 @@ paxos available
 1954000.0 {'h10': {21: 30}, 'h11': {21: 30}, 'h1': {2: 34, 21: 30}, 'h4': {21: 30}}
 1955000.0 {'h10': {21: 30}, 'h11': {21: 30}, 'h1': {2: 34, 21: 30}, 'h4': {21: 30}}
 paxos available
-1955645.809268 h1 updating s13 with len 20
+1955646.059982 h1 updating s13 with len 20
 Update to s13 with len 20
-1955645.809268 h1 updating s9 with len 6
+1955646.059982 h1 updating s9 with len 6
 Update to s9 with len 6
-1955645.809268 h1 updating s17 with len 8
+1955646.059982 h1 updating s17 with len 8
 Update to s17 with len 8
-1955645.809268 h1 updating s5 with len 6
+1955646.059982 h1 updating s5 with len 6
 Update to s5 with len 6
-1955645.809268 h4 updating s13 with len 20
+1955646.059982 h4 updating s13 with len 20
 Update to s13 with len 20
-1955645.809268 h4 updating s9 with len 6
+1955646.059982 h4 updating s9 with len 6
 Update to s9 with len 6
-1955645.809268 h4 updating s17 with len 8
+1955646.059982 h4 updating s17 with len 8
 Update to s17 with len 8
-1955645.809268 h4 updating s5 with len 6
+1955646.059982 h4 updating s5 with len 6
 Update to s5 with len 6
-1955645.809268 h10 updating s13 with len 20
+1955646.059982 h10 updating s13 with len 20
 Update to s13 with len 20
-1955645.809268 h10 updating s9 with len 6
+1955646.059982 h10 updating s9 with len 6
 Update to s9 with len 6
-1955645.809268 h10 updating s17 with len 8
+1955646.059982 h10 updating s17 with len 8
 Update to s17 with len 8
-1955645.809268 h10 updating s5 with len 6
+1955646.059982 h10 updating s5 with len 6
 Update to s5 with len 6
-1955645.809268 h11 updating s13 with len 20
+1955646.059982 h11 updating s13 with len 20
 Update to s13 with len 20
-1955645.809268 h11 updating s9 with len 6
+1955646.059982 h11 updating s9 with len 6
 Update to s9 with len 6
-1955645.809268 h11 updating s17 with len 8
+1955646.059982 h11 updating s17 with len 8
 Update to s17 with len 8
-1955645.809268 h11 updating s5 with len 6
+1955646.059982 h11 updating s5 with len 6
 Update to s5 with len 6
 paxos available
-1955647.440969 received rule update s5
-1955647.709296 received rule update s9
-1955647.997784 received rule update s13
-1955648.102567 received rule update s17
+1955647.683959 received rule update s5
+1955647.965264 received rule update s9
+1955648.247223 received rule update s13
+1955648.362356 received rule update s17
 1956000.0 {'h10': {21: 32}, 'h11': {21: 32}, 'h1': {2: 38, 21: 32}, 'h4': {21: 32}}
 1957000.0 {'h10': {21: 32}, 'h11': {21: 32}, 'h1': {2: 38, 21: 32}, 'h4': {21: 32}}
 1958000.0 {'h10': {21: 32}, 'h11': {21: 32}, 'h1': {2: 38, 21: 32}, 'h4': {21: 32}}
@@ -2472,48 +2472,48 @@ paxos available
 2041000.0 {'h10': {21: 32}, 'h11': {21: 32}, 'h1': {2: 38, 21: 32}, 'h4': {21: 32}}
 2042000.0 {'h10': {21: 32}, 'h11': {21: 32}, 'h1': {2: 38, 21: 32}, 'h4': {21: 32}}
 2043000.0 {'h10': {21: 32}, 'h11': {21: 32}, 'h1': {2: 38, 21: 32}, 'h4': {21: 32}}
-2043237.098221 s0 notifying down for s0-s16
-2043237.098221 s0 notifying down for s0-s16 reliably
 2043237.098221 s16 notifying down for s0-s16
 2043237.098221 s16 notifying down for s0-s16 reliably
+2043237.098221 s0 notifying down for s0-s16
+2043237.098221 s0 notifying down for s0-s16 reliably
 paxos available
-2043240.616719 h1 updating s1 with len 4
+2043240.625079 h1 updating s1 with len 4
 Update to s1 with len 4
-2043240.616719 h1 updating s10 with len 4
+2043240.625079 h1 updating s10 with len 4
 Update to s10 with len 4
-2043240.616719 h1 updating s8 with len 4
+2043240.625079 h1 updating s8 with len 4
 Update to s8 with len 4
-2043240.616719 h1 updating s16 with len 4
+2043240.625079 h1 updating s16 with len 4
 Update to s16 with len 4
-2043240.616719 h4 updating s1 with len 4
+2043240.625079 h4 updating s1 with len 4
 Update to s1 with len 4
-2043240.616719 h4 updating s10 with len 4
+2043240.625079 h4 updating s10 with len 4
 Update to s10 with len 4
-2043240.616719 h4 updating s8 with len 4
+2043240.625079 h4 updating s8 with len 4
 Update to s8 with len 4
-2043240.616719 h4 updating s16 with len 4
+2043240.625079 h4 updating s16 with len 4
 Update to s16 with len 4
-2043240.616719 h10 updating s1 with len 4
+2043240.625079 h10 updating s1 with len 4
 Update to s1 with len 4
-2043240.616719 h10 updating s10 with len 4
+2043240.625079 h10 updating s10 with len 4
 Update to s10 with len 4
-2043240.616719 h10 updating s8 with len 4
+2043240.625079 h10 updating s8 with len 4
 Update to s8 with len 4
-2043240.616719 h10 updating s16 with len 4
+2043240.625079 h10 updating s16 with len 4
 Update to s16 with len 4
-2043240.616719 h11 updating s1 with len 4
+2043240.625079 h11 updating s1 with len 4
 Update to s1 with len 4
-2043240.616719 h11 updating s10 with len 4
+2043240.625079 h11 updating s10 with len 4
 Update to s10 with len 4
-2043240.616719 h11 updating s8 with len 4
+2043240.625079 h11 updating s8 with len 4
 Update to s8 with len 4
-2043240.616719 h11 updating s16 with len 4
+2043240.625079 h11 updating s16 with len 4
 Update to s16 with len 4
 paxos available
-2043242.110650 received rule update s16
-2043242.249468 received rule update s1
-2043242.792289 received rule update s10
-2043242.809722 received rule update s8
+2043242.118936 received rule update s16
+2043242.279918 received rule update s1
+2043242.779773 received rule update s10
+2043242.812172 received rule update s8
 2044000.0 {'h10': {21: 34}, 'h11': {21: 34}, 'h1': {2: 42, 21: 34}, 'h4': {21: 34}}
 2045000.0 {'h10': {21: 34}, 'h11': {21: 34}, 'h1': {2: 42, 21: 34}, 'h4': {21: 34}}
 2046000.0 {'h10': {21: 34}, 'h11': {21: 34}, 'h1': {2: 42, 21: 34}, 'h4': {21: 34}}
@@ -2529,16 +2529,16 @@ paxos available
 2056000.0 {'h10': {21: 34}, 'h11': {21: 34}, 'h1': {2: 42, 21: 34}, 'h4': {21: 34}}
 2057000.0 {'h10': {21: 34}, 'h11': {21: 34}, 'h1': {2: 42, 21: 34}, 'h4': {21: 34}}
 paxos available
-2057577.424058 h1 updating s10 with len 4
+2057577.556648 h1 updating s10 with len 4
 Update to s10 with len 4
-2057577.424058 h4 updating s10 with len 4
+2057577.556648 h4 updating s10 with len 4
 Update to s10 with len 4
-2057577.424058 h10 updating s10 with len 4
+2057577.556648 h10 updating s10 with len 4
 Update to s10 with len 4
-2057577.424058 h11 updating s10 with len 4
+2057577.556648 h11 updating s10 with len 4
 Update to s10 with len 4
 paxos available
-2057579.476511 received rule update s10
+2057579.607162 received rule update s10
 2058000.0 {'h10': {21: 36}, 'h11': {21: 36}, 'h1': {2: 43, 21: 36}, 'h4': {21: 36}}
 2059000.0 {'h10': {21: 36}, 'h11': {21: 36}, 'h1': {2: 43, 21: 36}, 'h4': {21: 36}}
 2060000.0 {'h10': {21: 36}, 'h11': {21: 36}, 'h1': {2: 43, 21: 36}, 'h4': {21: 36}}
@@ -3114,124 +3114,124 @@ paxos available
 2627490.409526 s17 notifying down for s17-s18
 2627490.409526 s17 notifying down for s17-s18 reliably
 paxos available
-2627493.903457 h1 updating s19 with len 4
+2627494.078390 h1 updating s19 with len 4
 Update to s19 with len 4
-2627493.903457 h1 updating s18 with len 20
+2627494.078390 h1 updating s18 with len 20
 Update to s18 with len 20
-2627493.903457 h1 updating s12 with len 8
+2627494.078390 h1 updating s12 with len 8
 Update to s12 with len 8
-2627493.903457 h1 updating s1 with len 28
+2627494.078390 h1 updating s1 with len 28
 Update to s1 with len 28
-2627493.903457 h1 updating s10 with len 2
+2627494.078390 h1 updating s10 with len 2
 Update to s10 with len 2
-2627493.903457 h1 updating s7 with len 4
+2627494.078390 h1 updating s7 with len 4
 Update to s7 with len 4
-2627493.903457 h1 updating s6 with len 2
+2627494.078390 h1 updating s6 with len 2
 Update to s6 with len 2
-2627493.903457 h1 updating s16 with len 36
+2627494.078390 h1 updating s16 with len 36
 Update to s16 with len 36
-2627493.903457 h1 updating s8 with len 12
+2627494.078390 h1 updating s8 with len 12
 Update to s8 with len 12
-2627493.903457 h1 updating s0 with len 2
+2627494.078390 h1 updating s0 with len 2
 Update to s0 with len 2
-2627493.903457 h1 updating s4 with len 8
+2627494.078390 h1 updating s4 with len 8
 Update to s4 with len 8
-2627493.903457 h1 updating s11 with len 4
+2627494.078390 h1 updating s11 with len 4
 Update to s11 with len 4
-2627493.903457 h1 updating s14 with len 4
+2627494.078390 h1 updating s14 with len 4
 Update to s14 with len 4
-2627493.903457 h4 updating s19 with len 4
+2627494.078390 h4 updating s19 with len 4
 Update to s19 with len 4
-2627493.903457 h4 updating s18 with len 20
+2627494.078390 h4 updating s18 with len 20
 Update to s18 with len 20
-2627493.903457 h4 updating s12 with len 8
+2627494.078390 h4 updating s12 with len 8
 Update to s12 with len 8
-2627493.903457 h4 updating s1 with len 28
+2627494.078390 h4 updating s1 with len 28
 Update to s1 with len 28
-2627493.903457 h4 updating s10 with len 2
+2627494.078390 h4 updating s10 with len 2
 Update to s10 with len 2
-2627493.903457 h4 updating s7 with len 4
+2627494.078390 h4 updating s7 with len 4
 Update to s7 with len 4
-2627493.903457 h4 updating s6 with len 2
+2627494.078390 h4 updating s6 with len 2
 Update to s6 with len 2
-2627493.903457 h4 updating s16 with len 36
+2627494.078390 h4 updating s16 with len 36
 Update to s16 with len 36
-2627493.903457 h4 updating s8 with len 12
+2627494.078390 h4 updating s8 with len 12
 Update to s8 with len 12
-2627493.903457 h4 updating s0 with len 2
+2627494.078390 h4 updating s0 with len 2
 Update to s0 with len 2
-2627493.903457 h4 updating s4 with len 8
+2627494.078390 h4 updating s4 with len 8
 Update to s4 with len 8
-2627493.903457 h4 updating s11 with len 4
+2627494.078390 h4 updating s11 with len 4
 Update to s11 with len 4
-2627493.903457 h4 updating s14 with len 4
+2627494.078390 h4 updating s14 with len 4
 Update to s14 with len 4
-2627493.903457 h10 updating s19 with len 4
+2627494.078390 h10 updating s19 with len 4
 Update to s19 with len 4
-2627493.903457 h10 updating s18 with len 20
+2627494.078390 h10 updating s18 with len 20
 Update to s18 with len 20
-2627493.903457 h10 updating s12 with len 8
+2627494.078390 h10 updating s12 with len 8
 Update to s12 with len 8
-2627493.903457 h10 updating s1 with len 28
+2627494.078390 h10 updating s1 with len 28
 Update to s1 with len 28
-2627493.903457 h10 updating s10 with len 2
+2627494.078390 h10 updating s10 with len 2
 Update to s10 with len 2
-2627493.903457 h10 updating s7 with len 4
+2627494.078390 h10 updating s7 with len 4
 Update to s7 with len 4
-2627493.903457 h10 updating s6 with len 2
+2627494.078390 h10 updating s6 with len 2
 Update to s6 with len 2
-2627493.903457 h10 updating s16 with len 36
+2627494.078390 h10 updating s16 with len 36
 Update to s16 with len 36
-2627493.903457 h10 updating s8 with len 12
+2627494.078390 h10 updating s8 with len 12
 Update to s8 with len 12
-2627493.903457 h10 updating s0 with len 2
+2627494.078390 h10 updating s0 with len 2
 Update to s0 with len 2
-2627493.903457 h10 updating s4 with len 8
+2627494.078390 h10 updating s4 with len 8
 Update to s4 with len 8
-2627493.903457 h10 updating s11 with len 4
+2627494.078390 h10 updating s11 with len 4
 Update to s11 with len 4
-2627493.903457 h10 updating s14 with len 4
+2627494.078390 h10 updating s14 with len 4
 Update to s14 with len 4
-2627493.903457 h11 updating s19 with len 4
+2627494.078390 h11 updating s19 with len 4
 Update to s19 with len 4
-2627493.903457 h11 updating s18 with len 20
+2627494.078390 h11 updating s18 with len 20
 Update to s18 with len 20
-2627493.903457 h11 updating s12 with len 8
+2627494.078390 h11 updating s12 with len 8
 Update to s12 with len 8
-2627493.903457 h11 updating s1 with len 28
+2627494.078390 h11 updating s1 with len 28
 Update to s1 with len 28
-2627493.903457 h11 updating s10 with len 2
+2627494.078390 h11 updating s10 with len 2
 Update to s10 with len 2
-2627493.903457 h11 updating s7 with len 4
+2627494.078390 h11 updating s7 with len 4
 Update to s7 with len 4
-2627493.903457 h11 updating s6 with len 2
+2627494.078390 h11 updating s6 with len 2
 Update to s6 with len 2
-2627493.903457 h11 updating s16 with len 36
+2627494.078390 h11 updating s16 with len 36
 Update to s16 with len 36
-2627493.903457 h11 updating s8 with len 12
+2627494.078390 h11 updating s8 with len 12
 Update to s8 with len 12
-2627493.903457 h11 updating s0 with len 2
+2627494.078390 h11 updating s0 with len 2
 Update to s0 with len 2
-2627493.903457 h11 updating s4 with len 8
+2627494.078390 h11 updating s4 with len 8
 Update to s4 with len 8
-2627493.903457 h11 updating s11 with len 4
+2627494.078390 h11 updating s11 with len 4
 Update to s11 with len 4
-2627493.903457 h11 updating s14 with len 4
+2627494.078390 h11 updating s14 with len 4
 Update to s14 with len 4
 paxos available
-2627495.303324 received rule update s1
-2627495.545196 received rule update s4
-2627495.548060 received rule update s0
-2627495.576917 received rule update s7
-2627495.707671 received rule update s16
-2627495.741628 received rule update s6
-2627495.765080 received rule update s8
-2627496.000253 received rule update s11
-2627496.016270 received rule update s10
-2627496.043285 received rule update s14
-2627496.068741 received rule update s12
-2627496.072735 received rule update s18
-2627496.261743 received rule update s19
+2627495.069340 received rule update s6
+2627495.736396 received rule update s4
+2627495.771030 received rule update s1
+2627495.827800 received rule update s16
+2627495.830786 received rule update s10
+2627495.843233 received rule update s8
+2627495.936324 received rule update s19
+2627496.019116 received rule update s14
+2627496.135838 received rule update s18
+2627496.151576 received rule update s0
+2627496.167392 received rule update s7
+2627496.175098 received rule update s11
+2627496.548902 received rule update s12
 2628000.0 {'h10': {21: 38}, 'h11': {21: 38}, 'h1': {2: 56, 21: 38}, 'h4': {21: 38}}
 2629000.0 {'h10': {21: 38}, 'h11': {21: 38}, 'h1': {2: 56, 21: 38}, 'h4': {21: 38}}
 2630000.0 {'h10': {21: 38}, 'h11': {21: 38}, 'h1': {2: 56, 21: 38}, 'h4': {21: 38}}
@@ -3416,70 +3416,70 @@ paxos available
 2809000.0 {'h10': {21: 38}, 'h11': {21: 38}, 'h1': {2: 56, 21: 38}, 'h4': {21: 38}}
 2810000.0 {'h10': {21: 38}, 'h11': {21: 38}, 'h1': {2: 56, 21: 38}, 'h4': {21: 38}}
 paxos available
-2810174.221555 h1 updating s19 with len 4
+2810173.912149 h1 updating s19 with len 4
 Update to s19 with len 4
-2810174.221555 h1 updating s18 with len 20
+2810173.912149 h1 updating s18 with len 20
 Update to s18 with len 20
-2810174.221555 h1 updating s11 with len 4
+2810173.912149 h1 updating s11 with len 4
 Update to s11 with len 4
-2810174.221555 h1 updating s10 with len 2
+2810173.912149 h1 updating s10 with len 2
 Update to s10 with len 2
-2810174.221555 h1 updating s7 with len 4
+2810173.912149 h1 updating s7 with len 4
 Update to s7 with len 4
-2810174.221555 h1 updating s6 with len 2
+2810173.912149 h1 updating s6 with len 2
 Update to s6 with len 2
-2810174.221555 h1 updating s14 with len 4
+2810173.912149 h1 updating s14 with len 4
 Update to s14 with len 4
-2810174.221555 h4 updating s19 with len 4
+2810173.912149 h4 updating s19 with len 4
 Update to s19 with len 4
-2810174.221555 h4 updating s18 with len 20
+2810173.912149 h4 updating s18 with len 20
 Update to s18 with len 20
-2810174.221555 h4 updating s11 with len 4
+2810173.912149 h4 updating s11 with len 4
 Update to s11 with len 4
-2810174.221555 h4 updating s10 with len 2
+2810173.912149 h4 updating s10 with len 2
 Update to s10 with len 2
-2810174.221555 h4 updating s7 with len 4
+2810173.912149 h4 updating s7 with len 4
 Update to s7 with len 4
-2810174.221555 h4 updating s6 with len 2
+2810173.912149 h4 updating s6 with len 2
 Update to s6 with len 2
-2810174.221555 h4 updating s14 with len 4
+2810173.912149 h4 updating s14 with len 4
 Update to s14 with len 4
-2810174.221555 h10 updating s19 with len 4
+2810173.912149 h10 updating s19 with len 4
 Update to s19 with len 4
-2810174.221555 h10 updating s18 with len 20
+2810173.912149 h10 updating s18 with len 20
 Update to s18 with len 20
-2810174.221555 h10 updating s11 with len 4
+2810173.912149 h10 updating s11 with len 4
 Update to s11 with len 4
-2810174.221555 h10 updating s10 with len 2
+2810173.912149 h10 updating s10 with len 2
 Update to s10 with len 2
-2810174.221555 h10 updating s7 with len 4
+2810173.912149 h10 updating s7 with len 4
 Update to s7 with len 4
-2810174.221555 h10 updating s6 with len 2
+2810173.912149 h10 updating s6 with len 2
 Update to s6 with len 2
-2810174.221555 h10 updating s14 with len 4
+2810173.912149 h10 updating s14 with len 4
 Update to s14 with len 4
-2810174.221555 h11 updating s19 with len 4
+2810173.912149 h11 updating s19 with len 4
 Update to s19 with len 4
-2810174.221555 h11 updating s18 with len 20
+2810173.912149 h11 updating s18 with len 20
 Update to s18 with len 20
-2810174.221555 h11 updating s11 with len 4
+2810173.912149 h11 updating s11 with len 4
 Update to s11 with len 4
-2810174.221555 h11 updating s10 with len 2
+2810173.912149 h11 updating s10 with len 2
 Update to s10 with len 2
-2810174.221555 h11 updating s7 with len 4
+2810173.912149 h11 updating s7 with len 4
 Update to s7 with len 4
-2810174.221555 h11 updating s6 with len 2
+2810173.912149 h11 updating s6 with len 2
 Update to s6 with len 2
-2810174.221555 h11 updating s14 with len 4
+2810173.912149 h11 updating s14 with len 4
 Update to s14 with len 4
 paxos available
-2810175.414772 received rule update s6
-2810175.608749 received rule update s7
-2810176.113104 received rule update s18
-2810176.210526 received rule update s19
-2810176.272828 received rule update s11
-2810176.390394 received rule update s10
-2810176.506851 received rule update s14
+2810174.909970 received rule update s6
+2810175.536240 received rule update s7
+2810175.915431 received rule update s11
+2810175.917035 received rule update s19
+2810176.232151 received rule update s18
+2810176.310937 received rule update s14
+2810176.471703 received rule update s10
 2811000.0 {'h10': {21: 40}, 'h11': {21: 40}, 'h1': {2: 63, 21: 40}, 'h4': {21: 40}}
 2812000.0 {'h10': {21: 40}, 'h11': {21: 40}, 'h1': {2: 63, 21: 40}, 'h4': {21: 40}}
 2813000.0 {'h10': {21: 40}, 'h11': {21: 40}, 'h1': {2: 63, 21: 40}, 'h4': {21: 40}}
@@ -4285,446 +4285,446 @@ h4
 h10
 h11
 Rule Changes
-998716.565460 s11 change
-998716.565460 s11 change
-998716.565460 s11 change
-998716.565460 s11 change
-998716.592484 s1 change
-998716.592484 s1 change
-998716.592484 s1 change
-998716.592484 s1 change
-998716.947724 s4 change
-998716.947724 s4 change
-998716.947724 s4 change
-998716.947724 s4 change
-998717.151666 s8 change
-998717.151666 s8 change
-998717.151666 s8 change
-998717.151666 s8 change
-1355739.787861 s1 change
-1355739.787861 s1 change
-1355739.874852 s4 change
-1355739.874852 s4 change
-1355740.335536 s11 change
-1355740.335536 s11 change
-1355740.380341 s8 change
-1355740.380341 s8 change
-1382755.454311 s11 change
-1382755.454311 s11 change
-1382755.454311 s11 change
-1382755.454311 s11 change
-1382755.454311 s11 change
-1382755.454311 s11 change
-1671890.223587 s5 change
-1671890.223587 s5 change
-1671890.223587 s5 change
-1671890.223587 s5 change
-1671890.223587 s5 change
-1671890.223587 s5 change
-1671890.747432 s9 change
-1671890.747432 s9 change
-1671890.747432 s9 change
-1671890.747432 s9 change
-1671890.747432 s9 change
-1671890.747432 s9 change
-1671890.768665 s13 change
-1671890.768665 s13 change
-1671890.768665 s13 change
-1671890.768665 s13 change
-1671890.768665 s13 change
-1671890.768665 s13 change
-1671890.768665 s13 change
-1671890.768665 s13 change
-1671890.768665 s13 change
-1671890.768665 s13 change
-1671890.768665 s13 change
-1671890.768665 s13 change
-1671890.768665 s13 change
-1671890.768665 s13 change
-1671890.768665 s13 change
-1671890.768665 s13 change
-1671890.768665 s13 change
-1671890.768665 s13 change
-1671890.768665 s13 change
-1671890.768665 s13 change
-1671891.117565 s2 change
-1671891.117565 s2 change
-1671891.117565 s2 change
-1671891.117565 s2 change
-1671891.117565 s2 change
-1671891.117565 s2 change
-1671891.117565 s2 change
-1671891.117565 s2 change
-1671891.117565 s2 change
-1671891.117565 s2 change
-1671891.117565 s2 change
-1671891.117565 s2 change
-1671891.117565 s2 change
-1671891.117565 s2 change
-1671891.117565 s2 change
-1671891.117565 s2 change
-1671891.117565 s2 change
-1671891.117565 s2 change
-1671891.117565 s2 change
-1671891.117565 s2 change
-1671891.117565 s2 change
-1671891.117565 s2 change
-1671891.117565 s2 change
-1671891.117565 s2 change
-1671891.117565 s2 change
-1671891.117565 s2 change
-1671891.117565 s2 change
-1671891.117565 s2 change
-1671891.117565 s2 change
-1671891.117565 s2 change
-1671891.117565 s2 change
-1671891.117565 s2 change
-1671891.117565 s2 change
-1671891.117565 s2 change
-1671891.117565 s2 change
-1671891.117565 s2 change
-1671891.117565 s2 change
-1671891.117565 s2 change
-1671891.117565 s2 change
-1671891.117565 s2 change
-1671891.136720 s17 change
-1671891.136720 s17 change
-1671891.136720 s17 change
-1671891.136720 s17 change
-1671891.136720 s17 change
-1671891.136720 s17 change
-1671891.136720 s17 change
-1671891.136720 s17 change
-1676130.189451 s4 change
-1676130.189451 s4 change
-1676130.189451 s4 change
-1676130.189451 s4 change
-1676130.189451 s4 change
-1676130.189451 s4 change
-1676130.189451 s4 change
-1676130.189451 s4 change
-1676130.189451 s4 change
-1676130.189451 s4 change
-1676130.189451 s4 change
-1676130.189451 s4 change
-1676130.189451 s4 change
-1676130.189451 s4 change
-1676130.189451 s4 change
-1676130.189451 s4 change
-1676130.189451 s4 change
-1676130.189451 s4 change
-1676130.189451 s4 change
-1676130.189451 s4 change
-1676130.222943 s0 change
-1676130.222943 s0 change
-1676130.222943 s0 change
-1676130.368146 s1 change
-1676130.368146 s1 change
-1676130.368146 s1 change
-1676130.368146 s1 change
-1676130.368146 s1 change
-1676130.368146 s1 change
-1676130.368146 s1 change
-1676130.368146 s1 change
-1676130.368146 s1 change
-1676130.368146 s1 change
-1676130.368146 s1 change
-1676130.368146 s1 change
-1676130.368146 s1 change
-1676130.654705 s7 change
-1676130.654705 s7 change
-1676130.671518 s6 change
-1676130.671518 s6 change
-1676130.671518 s6 change
-1676130.671518 s6 change
-1676130.671518 s6 change
-1676130.671518 s6 change
-1676130.671518 s6 change
-1676130.671518 s6 change
-1676130.671518 s6 change
-1676130.671518 s6 change
-1676130.671518 s6 change
-1676130.686699 s12 change
-1676130.686699 s12 change
-1676130.686699 s12 change
-1676130.686699 s12 change
-1676130.852369 s8 change
-1676130.852369 s8 change
-1676130.852369 s8 change
-1676130.852369 s8 change
-1676130.864472 s14 change
-1676130.864472 s14 change
-1676130.934346 s16 change
-1676130.934346 s16 change
-1676130.934346 s16 change
-1676130.934346 s16 change
-1676130.934346 s16 change
-1676130.934346 s16 change
-1676130.934346 s16 change
-1676130.934346 s16 change
-1676130.939739 s19 change
-1676130.939739 s19 change
-1676130.983171 s18 change
-1676130.983171 s18 change
-1676131.289522 s11 change
-1676131.289522 s11 change
-1676131.292951 s10 change
-1779396.603925 s6 change
-1779396.603925 s6 change
-1779396.603925 s6 change
-1779396.603925 s6 change
-1779396.603925 s6 change
-1779396.603925 s6 change
-1779396.603925 s6 change
-1779396.603925 s6 change
-1779396.603925 s6 change
-1779396.603925 s6 change
-1779396.603925 s6 change
-1779396.736035 s7 change
-1779396.736035 s7 change
-1779397.166648 s18 change
-1779397.166648 s18 change
-1779397.403631 s10 change
-1779397.553868 s19 change
-1779397.553868 s19 change
-1779397.619101 s11 change
-1779397.619101 s11 change
-1779397.672914 s14 change
-1779397.672914 s14 change
-1955647.440969 s5 change
-1955647.440969 s5 change
-1955647.440969 s5 change
-1955647.440969 s5 change
-1955647.440969 s5 change
-1955647.440969 s5 change
-1955647.709296 s9 change
-1955647.709296 s9 change
-1955647.709296 s9 change
-1955647.709296 s9 change
-1955647.709296 s9 change
-1955647.709296 s9 change
-1955647.997784 s13 change
-1955647.997784 s13 change
-1955647.997784 s13 change
-1955647.997784 s13 change
-1955647.997784 s13 change
-1955647.997784 s13 change
-1955647.997784 s13 change
-1955647.997784 s13 change
-1955647.997784 s13 change
-1955647.997784 s13 change
-1955647.997784 s13 change
-1955647.997784 s13 change
-1955647.997784 s13 change
-1955647.997784 s13 change
-1955647.997784 s13 change
-1955647.997784 s13 change
-1955647.997784 s13 change
-1955647.997784 s13 change
-1955647.997784 s13 change
-1955647.997784 s13 change
-1955648.102567 s17 change
-1955648.102567 s17 change
-1955648.102567 s17 change
-1955648.102567 s17 change
-1955648.102567 s17 change
-1955648.102567 s17 change
-1955648.102567 s17 change
-1955648.102567 s17 change
-2043242.110650 s16 change
-2043242.110650 s16 change
-2043242.110650 s16 change
-2043242.110650 s16 change
-2043242.249468 s1 change
-2043242.249468 s1 change
-2043242.249468 s1 change
-2043242.249468 s1 change
-2043242.792289 s10 change
-2043242.792289 s10 change
-2043242.792289 s10 change
-2043242.792289 s10 change
-2043242.809722 s8 change
-2043242.809722 s8 change
-2043242.809722 s8 change
-2043242.809722 s8 change
-2057579.476511 s10 change
-2057579.476511 s10 change
-2057579.476511 s10 change
-2057579.476511 s10 change
-2627495.303324 s1 change
-2627495.303324 s1 change
-2627495.303324 s1 change
-2627495.303324 s1 change
-2627495.303324 s1 change
-2627495.303324 s1 change
-2627495.303324 s1 change
-2627495.303324 s1 change
-2627495.303324 s1 change
-2627495.303324 s1 change
-2627495.303324 s1 change
-2627495.303324 s1 change
-2627495.303324 s1 change
-2627495.303324 s1 change
-2627495.303324 s1 change
-2627495.303324 s1 change
-2627495.303324 s1 change
-2627495.303324 s1 change
-2627495.303324 s1 change
-2627495.303324 s1 change
-2627495.303324 s1 change
-2627495.303324 s1 change
-2627495.303324 s1 change
-2627495.303324 s1 change
-2627495.303324 s1 change
-2627495.303324 s1 change
-2627495.303324 s1 change
-2627495.303324 s1 change
-2627495.545196 s4 change
-2627495.545196 s4 change
-2627495.545196 s4 change
-2627495.545196 s4 change
-2627495.545196 s4 change
-2627495.545196 s4 change
-2627495.545196 s4 change
-2627495.545196 s4 change
-2627495.548060 s0 change
-2627495.548060 s0 change
-2627495.576917 s7 change
-2627495.576917 s7 change
-2627495.576917 s7 change
-2627495.576917 s7 change
-2627495.707671 s16 change
-2627495.707671 s16 change
-2627495.707671 s16 change
-2627495.707671 s16 change
-2627495.707671 s16 change
-2627495.707671 s16 change
-2627495.707671 s16 change
-2627495.707671 s16 change
-2627495.707671 s16 change
-2627495.707671 s16 change
-2627495.707671 s16 change
-2627495.707671 s16 change
-2627495.707671 s16 change
-2627495.707671 s16 change
-2627495.707671 s16 change
-2627495.707671 s16 change
-2627495.707671 s16 change
-2627495.707671 s16 change
-2627495.707671 s16 change
-2627495.707671 s16 change
-2627495.707671 s16 change
-2627495.707671 s16 change
-2627495.707671 s16 change
-2627495.707671 s16 change
-2627495.707671 s16 change
-2627495.707671 s16 change
-2627495.707671 s16 change
-2627495.707671 s16 change
-2627495.707671 s16 change
-2627495.707671 s16 change
-2627495.707671 s16 change
-2627495.707671 s16 change
-2627495.707671 s16 change
-2627495.707671 s16 change
-2627495.707671 s16 change
-2627495.707671 s16 change
-2627495.741628 s6 change
-2627495.741628 s6 change
-2627495.765080 s8 change
-2627495.765080 s8 change
-2627495.765080 s8 change
-2627495.765080 s8 change
-2627495.765080 s8 change
-2627495.765080 s8 change
-2627495.765080 s8 change
-2627495.765080 s8 change
-2627495.765080 s8 change
-2627495.765080 s8 change
-2627495.765080 s8 change
-2627495.765080 s8 change
-2627496.000253 s11 change
-2627496.000253 s11 change
-2627496.000253 s11 change
-2627496.000253 s11 change
-2627496.016270 s10 change
-2627496.016270 s10 change
-2627496.043285 s14 change
-2627496.043285 s14 change
-2627496.043285 s14 change
-2627496.043285 s14 change
-2627496.068741 s12 change
-2627496.068741 s12 change
-2627496.068741 s12 change
-2627496.068741 s12 change
-2627496.068741 s12 change
-2627496.068741 s12 change
-2627496.068741 s12 change
-2627496.068741 s12 change
-2627496.072735 s18 change
-2627496.072735 s18 change
-2627496.072735 s18 change
-2627496.072735 s18 change
-2627496.072735 s18 change
-2627496.072735 s18 change
-2627496.072735 s18 change
-2627496.072735 s18 change
-2627496.072735 s18 change
-2627496.072735 s18 change
-2627496.072735 s18 change
-2627496.072735 s18 change
-2627496.072735 s18 change
-2627496.072735 s18 change
-2627496.072735 s18 change
-2627496.072735 s18 change
-2627496.072735 s18 change
-2627496.072735 s18 change
-2627496.072735 s18 change
-2627496.072735 s18 change
-2627496.261743 s19 change
-2627496.261743 s19 change
-2627496.261743 s19 change
-2627496.261743 s19 change
-2810175.414772 s6 change
-2810175.414772 s6 change
-2810175.608749 s7 change
-2810175.608749 s7 change
-2810175.608749 s7 change
-2810175.608749 s7 change
-2810176.113104 s18 change
-2810176.113104 s18 change
-2810176.113104 s18 change
-2810176.113104 s18 change
-2810176.113104 s18 change
-2810176.113104 s18 change
-2810176.113104 s18 change
-2810176.113104 s18 change
-2810176.113104 s18 change
-2810176.113104 s18 change
-2810176.113104 s18 change
-2810176.113104 s18 change
-2810176.113104 s18 change
-2810176.113104 s18 change
-2810176.113104 s18 change
-2810176.113104 s18 change
-2810176.113104 s18 change
-2810176.113104 s18 change
-2810176.113104 s18 change
-2810176.113104 s18 change
-2810176.210526 s19 change
-2810176.210526 s19 change
-2810176.210526 s19 change
-2810176.210526 s19 change
-2810176.272828 s11 change
-2810176.272828 s11 change
-2810176.272828 s11 change
-2810176.272828 s11 change
-2810176.390394 s10 change
-2810176.390394 s10 change
-2810176.506851 s14 change
-2810176.506851 s14 change
-2810176.506851 s14 change
-2810176.506851 s14 change
+998716.013158 s4 change
+998716.013158 s4 change
+998716.013158 s4 change
+998716.013158 s4 change
+998716.541646 s8 change
+998716.541646 s8 change
+998716.541646 s8 change
+998716.541646 s8 change
+998716.860319 s11 change
+998716.860319 s11 change
+998716.860319 s11 change
+998716.860319 s11 change
+998716.960514 s1 change
+998716.960514 s1 change
+998716.960514 s1 change
+998716.960514 s1 change
+1355739.341645 s4 change
+1355739.341645 s4 change
+1355740.115853 s1 change
+1355740.115853 s1 change
+1355740.266422 s8 change
+1355740.266422 s8 change
+1355740.617799 s11 change
+1355740.617799 s11 change
+1382755.403208 s11 change
+1382755.403208 s11 change
+1382755.403208 s11 change
+1382755.403208 s11 change
+1382755.403208 s11 change
+1382755.403208 s11 change
+1671890.039721 s5 change
+1671890.039721 s5 change
+1671890.039721 s5 change
+1671890.039721 s5 change
+1671890.039721 s5 change
+1671890.039721 s5 change
+1671890.558079 s13 change
+1671890.558079 s13 change
+1671890.558079 s13 change
+1671890.558079 s13 change
+1671890.558079 s13 change
+1671890.558079 s13 change
+1671890.558079 s13 change
+1671890.558079 s13 change
+1671890.558079 s13 change
+1671890.558079 s13 change
+1671890.558079 s13 change
+1671890.558079 s13 change
+1671890.558079 s13 change
+1671890.558079 s13 change
+1671890.558079 s13 change
+1671890.558079 s13 change
+1671890.558079 s13 change
+1671890.558079 s13 change
+1671890.558079 s13 change
+1671890.558079 s13 change
+1671890.581727 s9 change
+1671890.581727 s9 change
+1671890.581727 s9 change
+1671890.581727 s9 change
+1671890.581727 s9 change
+1671890.581727 s9 change
+1671890.923502 s17 change
+1671890.923502 s17 change
+1671890.923502 s17 change
+1671890.923502 s17 change
+1671890.923502 s17 change
+1671890.923502 s17 change
+1671890.923502 s17 change
+1671890.923502 s17 change
+1671890.945114 s2 change
+1671890.945114 s2 change
+1671890.945114 s2 change
+1671890.945114 s2 change
+1671890.945114 s2 change
+1671890.945114 s2 change
+1671890.945114 s2 change
+1671890.945114 s2 change
+1671890.945114 s2 change
+1671890.945114 s2 change
+1671890.945114 s2 change
+1671890.945114 s2 change
+1671890.945114 s2 change
+1671890.945114 s2 change
+1671890.945114 s2 change
+1671890.945114 s2 change
+1671890.945114 s2 change
+1671890.945114 s2 change
+1671890.945114 s2 change
+1671890.945114 s2 change
+1671890.945114 s2 change
+1671890.945114 s2 change
+1671890.945114 s2 change
+1671890.945114 s2 change
+1671890.945114 s2 change
+1671890.945114 s2 change
+1671890.945114 s2 change
+1671890.945114 s2 change
+1671890.945114 s2 change
+1671890.945114 s2 change
+1671890.945114 s2 change
+1671890.945114 s2 change
+1671890.945114 s2 change
+1671890.945114 s2 change
+1671890.945114 s2 change
+1671890.945114 s2 change
+1671890.945114 s2 change
+1671890.945114 s2 change
+1671890.945114 s2 change
+1671890.945114 s2 change
+1676129.978184 s4 change
+1676129.978184 s4 change
+1676129.978184 s4 change
+1676129.978184 s4 change
+1676129.978184 s4 change
+1676129.978184 s4 change
+1676129.978184 s4 change
+1676129.978184 s4 change
+1676129.978184 s4 change
+1676129.978184 s4 change
+1676129.978184 s4 change
+1676129.978184 s4 change
+1676129.978184 s4 change
+1676129.978184 s4 change
+1676129.978184 s4 change
+1676129.978184 s4 change
+1676129.978184 s4 change
+1676129.978184 s4 change
+1676129.978184 s4 change
+1676129.978184 s4 change
+1676130.005937 s0 change
+1676130.005937 s0 change
+1676130.005937 s0 change
+1676130.154980 s1 change
+1676130.154980 s1 change
+1676130.154980 s1 change
+1676130.154980 s1 change
+1676130.154980 s1 change
+1676130.154980 s1 change
+1676130.154980 s1 change
+1676130.154980 s1 change
+1676130.154980 s1 change
+1676130.154980 s1 change
+1676130.154980 s1 change
+1676130.154980 s1 change
+1676130.154980 s1 change
+1676130.460251 s6 change
+1676130.460251 s6 change
+1676130.460251 s6 change
+1676130.460251 s6 change
+1676130.460251 s6 change
+1676130.460251 s6 change
+1676130.460251 s6 change
+1676130.460251 s6 change
+1676130.460251 s6 change
+1676130.460251 s6 change
+1676130.460251 s6 change
+1676130.468786 s12 change
+1676130.468786 s12 change
+1676130.468786 s12 change
+1676130.468786 s12 change
+1676130.478563 s7 change
+1676130.478563 s7 change
+1676130.622119 s8 change
+1676130.622119 s8 change
+1676130.622119 s8 change
+1676130.622119 s8 change
+1676130.637936 s14 change
+1676130.637936 s14 change
+1676130.716510 s16 change
+1676130.716510 s16 change
+1676130.716510 s16 change
+1676130.716510 s16 change
+1676130.716510 s16 change
+1676130.716510 s16 change
+1676130.716510 s16 change
+1676130.716510 s16 change
+1676130.720882 s19 change
+1676130.720882 s19 change
+1676130.774083 s18 change
+1676130.774083 s18 change
+1676131.063516 s10 change
+1676131.069534 s11 change
+1676131.069534 s11 change
+1779396.577024 s6 change
+1779396.577024 s6 change
+1779396.577024 s6 change
+1779396.577024 s6 change
+1779396.577024 s6 change
+1779396.577024 s6 change
+1779396.577024 s6 change
+1779396.577024 s6 change
+1779396.577024 s6 change
+1779396.577024 s6 change
+1779396.577024 s6 change
+1779396.673785 s7 change
+1779396.673785 s7 change
+1779397.118679 s18 change
+1779397.118679 s18 change
+1779397.404612 s10 change
+1779397.537206 s19 change
+1779397.537206 s19 change
+1779397.574722 s11 change
+1779397.574722 s11 change
+1779397.637251 s14 change
+1779397.637251 s14 change
+1955647.683959 s5 change
+1955647.683959 s5 change
+1955647.683959 s5 change
+1955647.683959 s5 change
+1955647.683959 s5 change
+1955647.683959 s5 change
+1955647.965264 s9 change
+1955647.965264 s9 change
+1955647.965264 s9 change
+1955647.965264 s9 change
+1955647.965264 s9 change
+1955647.965264 s9 change
+1955648.247223 s13 change
+1955648.247223 s13 change
+1955648.247223 s13 change
+1955648.247223 s13 change
+1955648.247223 s13 change
+1955648.247223 s13 change
+1955648.247223 s13 change
+1955648.247223 s13 change
+1955648.247223 s13 change
+1955648.247223 s13 change
+1955648.247223 s13 change
+1955648.247223 s13 change
+1955648.247223 s13 change
+1955648.247223 s13 change
+1955648.247223 s13 change
+1955648.247223 s13 change
+1955648.247223 s13 change
+1955648.247223 s13 change
+1955648.247223 s13 change
+1955648.247223 s13 change
+1955648.362356 s17 change
+1955648.362356 s17 change
+1955648.362356 s17 change
+1955648.362356 s17 change
+1955648.362356 s17 change
+1955648.362356 s17 change
+1955648.362356 s17 change
+1955648.362356 s17 change
+2043242.118936 s16 change
+2043242.118936 s16 change
+2043242.118936 s16 change
+2043242.118936 s16 change
+2043242.279918 s1 change
+2043242.279918 s1 change
+2043242.279918 s1 change
+2043242.279918 s1 change
+2043242.779773 s10 change
+2043242.779773 s10 change
+2043242.779773 s10 change
+2043242.779773 s10 change
+2043242.812172 s8 change
+2043242.812172 s8 change
+2043242.812172 s8 change
+2043242.812172 s8 change
+2057579.607162 s10 change
+2057579.607162 s10 change
+2057579.607162 s10 change
+2057579.607162 s10 change
+2627495.069340 s6 change
+2627495.069340 s6 change
+2627495.736396 s4 change
+2627495.736396 s4 change
+2627495.736396 s4 change
+2627495.736396 s4 change
+2627495.736396 s4 change
+2627495.736396 s4 change
+2627495.736396 s4 change
+2627495.736396 s4 change
+2627495.771030 s1 change
+2627495.771030 s1 change
+2627495.771030 s1 change
+2627495.771030 s1 change
+2627495.771030 s1 change
+2627495.771030 s1 change
+2627495.771030 s1 change
+2627495.771030 s1 change
+2627495.771030 s1 change
+2627495.771030 s1 change
+2627495.771030 s1 change
+2627495.771030 s1 change
+2627495.771030 s1 change
+2627495.771030 s1 change
+2627495.771030 s1 change
+2627495.771030 s1 change
+2627495.771030 s1 change
+2627495.771030 s1 change
+2627495.771030 s1 change
+2627495.771030 s1 change
+2627495.771030 s1 change
+2627495.771030 s1 change
+2627495.771030 s1 change
+2627495.771030 s1 change
+2627495.771030 s1 change
+2627495.771030 s1 change
+2627495.771030 s1 change
+2627495.771030 s1 change
+2627495.827800 s16 change
+2627495.827800 s16 change
+2627495.827800 s16 change
+2627495.827800 s16 change
+2627495.827800 s16 change
+2627495.827800 s16 change
+2627495.827800 s16 change
+2627495.827800 s16 change
+2627495.827800 s16 change
+2627495.827800 s16 change
+2627495.827800 s16 change
+2627495.827800 s16 change
+2627495.827800 s16 change
+2627495.827800 s16 change
+2627495.827800 s16 change
+2627495.827800 s16 change
+2627495.827800 s16 change
+2627495.827800 s16 change
+2627495.827800 s16 change
+2627495.827800 s16 change
+2627495.827800 s16 change
+2627495.827800 s16 change
+2627495.827800 s16 change
+2627495.827800 s16 change
+2627495.827800 s16 change
+2627495.827800 s16 change
+2627495.827800 s16 change
+2627495.827800 s16 change
+2627495.827800 s16 change
+2627495.827800 s16 change
+2627495.827800 s16 change
+2627495.827800 s16 change
+2627495.827800 s16 change
+2627495.827800 s16 change
+2627495.827800 s16 change
+2627495.827800 s16 change
+2627495.830786 s10 change
+2627495.830786 s10 change
+2627495.843233 s8 change
+2627495.843233 s8 change
+2627495.843233 s8 change
+2627495.843233 s8 change
+2627495.843233 s8 change
+2627495.843233 s8 change
+2627495.843233 s8 change
+2627495.843233 s8 change
+2627495.843233 s8 change
+2627495.843233 s8 change
+2627495.843233 s8 change
+2627495.843233 s8 change
+2627495.936324 s19 change
+2627495.936324 s19 change
+2627495.936324 s19 change
+2627495.936324 s19 change
+2627496.019116 s14 change
+2627496.019116 s14 change
+2627496.019116 s14 change
+2627496.019116 s14 change
+2627496.135838 s18 change
+2627496.135838 s18 change
+2627496.135838 s18 change
+2627496.135838 s18 change
+2627496.135838 s18 change
+2627496.135838 s18 change
+2627496.135838 s18 change
+2627496.135838 s18 change
+2627496.135838 s18 change
+2627496.135838 s18 change
+2627496.135838 s18 change
+2627496.135838 s18 change
+2627496.135838 s18 change
+2627496.135838 s18 change
+2627496.135838 s18 change
+2627496.135838 s18 change
+2627496.135838 s18 change
+2627496.135838 s18 change
+2627496.135838 s18 change
+2627496.135838 s18 change
+2627496.151576 s0 change
+2627496.151576 s0 change
+2627496.167392 s7 change
+2627496.167392 s7 change
+2627496.167392 s7 change
+2627496.167392 s7 change
+2627496.175098 s11 change
+2627496.175098 s11 change
+2627496.175098 s11 change
+2627496.175098 s11 change
+2627496.548902 s12 change
+2627496.548902 s12 change
+2627496.548902 s12 change
+2627496.548902 s12 change
+2627496.548902 s12 change
+2627496.548902 s12 change
+2627496.548902 s12 change
+2627496.548902 s12 change
+2810174.909970 s6 change
+2810174.909970 s6 change
+2810175.536240 s7 change
+2810175.536240 s7 change
+2810175.536240 s7 change
+2810175.536240 s7 change
+2810175.915431 s11 change
+2810175.915431 s11 change
+2810175.915431 s11 change
+2810175.915431 s11 change
+2810175.917035 s19 change
+2810175.917035 s19 change
+2810175.917035 s19 change
+2810175.917035 s19 change
+2810176.232151 s18 change
+2810176.232151 s18 change
+2810176.232151 s18 change
+2810176.232151 s18 change
+2810176.232151 s18 change
+2810176.232151 s18 change
+2810176.232151 s18 change
+2810176.232151 s18 change
+2810176.232151 s18 change
+2810176.232151 s18 change
+2810176.232151 s18 change
+2810176.232151 s18 change
+2810176.232151 s18 change
+2810176.232151 s18 change
+2810176.232151 s18 change
+2810176.232151 s18 change
+2810176.232151 s18 change
+2810176.232151 s18 change
+2810176.232151 s18 change
+2810176.232151 s18 change
+2810176.310937 s14 change
+2810176.310937 s14 change
+2810176.310937 s14 change
+2810176.310937 s14 change
+2810176.471703 s10 change
+2810176.471703 s10 change
 Convergence
 1000.000000 132 132 100.000000 1
 2000.000000 132 132 100.000000 1
@@ -8325,101 +8325,101 @@ Convergence
 3597000.000000 132 132 100.000000 1
 3598000.000000 132 132 100.000000 1
 3599000.000000 132 132 100.000000 1
-s12-s0 s0-s12 {2: 90, 4: 34, 21: 92, 5: 46098} total: 46314 bits: 6331600
-s12-s1 s1-s12 {2: 66, 4: 31, 21: 77, 5: 33} total: 207 bits: 49880
-s1-s12 s1-s12 {2: 66, 4: 31, 21: 77, 5: 33} total: 207 bits: 49880
+s12-s0 s0-s12 {2: 80, 4: 32, 21: 92, 5: 46102} total: 46306 bits: 6325520
+s12-s1 s1-s12 {2: 72, 4: 34, 21: 76, 5: 30} total: 212 bits: 54432
+s1-s12 s1-s12 {2: 72, 4: 34, 21: 76, 5: 30} total: 212 bits: 54432
 s15-h10 s15-h10 {2: 58, 4: 22, 21: 101, 5: 22} total: 203 bits: 45880
 s15-h11 s15-h11 {2: 58, 4: 22, 21: 101, 5: 22} total: 203 bits: 45880
-s9-s11 s9-s11 {2: 81, 4: 29, 21: 101, 5: 28597} total: 28808 bits: 3945312
-s9-s10 s9-s10 {2: 79, 4: 30, 21: 89, 5: 3598} total: 3796 bits: 544832
+s9-s11 s9-s11 {2: 70, 4: 29, 21: 102, 5: 28596} total: 28797 bits: 3937320
+s9-s10 s9-s10 {2: 74, 4: 30, 21: 100, 5: 3595} total: 3799 bits: 537976
 s19-h15 s19-h15 {2: 54, 4: 22, 21: 72, 5: 22} total: 170 bits: 41808
 s14-h9 s14-h9 {2: 54, 4: 22, 21: 72, 5: 22} total: 170 bits: 41808
 s14-h8 s14-h8 {2: 54, 4: 22, 21: 72, 5: 22} total: 170 bits: 41808
-s17-s3 s3-s17 {2: 91, 4: 37, 21: 109, 5: 34} total: 271 bits: 63960
-s17-s2 s2-s17 {2: 85, 4: 33, 21: 97, 5: 37} total: 252 bits: 62720
+s17-s3 s3-s17 {2: 90, 4: 35, 21: 102, 5: 36} total: 263 bits: 62904
+s17-s2 s2-s17 {2: 88, 4: 34, 21: 105, 5: 34} total: 261 bits: 63944
 s19-h14 s19-h14 {2: 54, 4: 22, 21: 72, 5: 22} total: 170 bits: 41808
 h3-s7 s7-h3 {2: 54, 4: 22, 21: 68, 5: 33166} total: 33310 bits: 4548976
-s17-s19 s17-s19 {2: 79, 4: 29, 21: 100, 5: 33} total: 241 bits: 59016
-s17-s18 s17-s18 {2: 59, 4: 31, 21: 87, 5: 33} total: 210 bits: 44784
-s2-s13 s2-s13 {2: 77, 4: 35, 21: 93, 5: 32} total: 237 bits: 57800
-s9-s3 s3-s9 {2: 94, 4: 32, 21: 92, 5: 32} total: 250 bits: 65296
-s9-s2 s2-s9 {2: 82, 4: 32, 21: 104, 5: 31} total: 249 bits: 58696
-s2-s17 s2-s17 {2: 85, 4: 33, 21: 97, 5: 37} total: 252 bits: 62720
+s17-s19 s17-s19 {2: 83, 4: 32, 21: 96, 5: 33} total: 244 bits: 58656
+s17-s18 s17-s18 {2: 61, 4: 26, 21: 85, 5: 31} total: 203 bits: 44088
+s2-s13 s2-s13 {2: 83, 4: 33, 21: 92, 5: 31} total: 239 bits: 58616
+s9-s3 s3-s9 {2: 91, 4: 35, 21: 102, 5: 29} total: 257 bits: 65736
+s9-s2 s2-s9 {2: 88, 4: 33, 21: 98, 5: 35} total: 254 bits: 60528
+s2-s17 s2-s17 {2: 88, 4: 34, 21: 105, 5: 34} total: 261 bits: 63944
 h5-s10 s10-h5 {2: 52, 4: 22, 21: 69, 5: 3589} total: 3732 bits: 526336
-s1-s4 s1-s4 {2: 58, 4: 54305, 21: 92, 5: 59472} total: 113927 bits: 15512632
-s1-s8 s1-s8 {2: 83, 4: 31, 21: 94, 5: 51941} total: 52149 bits: 7117160
-s1-s16 s1-s16 {2: 83, 4: 35, 21: 101, 5: 33} total: 252 bits: 61888
-s0-s4 s0-s4 {2: 58, 4: 52457, 21: 83, 5: 103695} total: 156293 bits: 21274696
+s1-s4 s1-s4 {2: 58, 4: 54303, 21: 92, 5: 59470} total: 113923 bits: 15512088
+s1-s8 s1-s8 {2: 81, 4: 29, 21: 95, 5: 51945} total: 52150 bits: 7119568
+s1-s16 s1-s16 {2: 80, 4: 34, 21: 100, 5: 36} total: 250 bits: 61648
+s0-s4 s0-s4 {2: 58, 4: 52458, 21: 84, 5: 103697} total: 156297 bits: 21275208
 h14-s19 s19-h14 {2: 54, 4: 22, 21: 72, 5: 22} total: 170 bits: 41808
-s3-s17 s3-s17 {2: 91, 4: 37, 21: 109, 5: 34} total: 271 bits: 63960
-s5-s7 s5-s7 {2: 79, 4: 29, 21: 95, 5: 33180} total: 33383 bits: 4567640
-s5-s6 s5-s6 {2: 47, 4: 25, 21: 85, 5: 31} total: 188 bits: 42304
+s3-s17 s3-s17 {2: 90, 4: 35, 21: 102, 5: 36} total: 263 bits: 62904
+s5-s7 s5-s7 {2: 81, 4: 28, 21: 101, 5: 33172} total: 33382 bits: 4567376
+s5-s6 s5-s6 {2: 47, 4: 29, 21: 77, 5: 32} total: 185 bits: 42152
 s6-h1 s6-h1 {2: 63, 4: 22, 21: 85, 5: 22} total: 192 bits: 47520
 s6-h0 s6-h0 {2: 59, 4: 22, 21: 69, 5: 22} total: 172 bits: 43904
-s0-s8 s0-s8 {2: 78, 4: 26, 21: 95, 5: 96812} total: 97011 bits: 13222264
-s5-s2 s2-s5 {2: 58, 4: 32, 21: 93, 5: 31} total: 214 bits: 47632
+s0-s8 s0-s8 {2: 82, 4: 26, 21: 92, 5: 96809} total: 97009 bits: 13220552
+s5-s2 s2-s5 {2: 59, 4: 30, 21: 89, 5: 34} total: 212 bits: 47552
 h10-s15 s15-h10 {2: 58, 4: 22, 21: 101, 5: 22} total: 203 bits: 45880
-s4-s0 s0-s4 {2: 58, 4: 52457, 21: 83, 5: 103695} total: 156293 bits: 21274696
-s4-s1 s1-s4 {2: 58, 4: 54305, 21: 92, 5: 59472} total: 113927 bits: 15512632
-s4-s6 s4-s6 {2: 55, 4: 46909, 21: 72, 5: 52077} total: 99113 bits: 13499016
-s5-s3 s3-s5 {2: 59, 4: 30, 21: 91, 5: 30} total: 210 bits: 47216
-s15-s13 s13-s15 {2: 81, 4: 31, 21: 87, 5: 30} total: 229 bits: 55688
+s4-s0 s0-s4 {2: 58, 4: 52458, 21: 84, 5: 103697} total: 156297 bits: 21275208
+s4-s1 s1-s4 {2: 58, 4: 54303, 21: 92, 5: 59470} total: 113923 bits: 15512088
+s4-s6 s4-s6 {2: 55, 4: 46909, 21: 79, 5: 52076} total: 99119 bits: 13499608
+s5-s3 s3-s5 {2: 58, 4: 30, 21: 91, 5: 30} total: 209 bits: 47016
+s15-s13 s13-s15 {2: 83, 4: 32, 21: 84, 5: 32} total: 231 bits: 57016
 s10-h4 s10-h4 {2: 52, 4: 22, 21: 99, 5: 3589} total: 3762 bits: 529456
-s19-s16 s16-s19 {2: 80, 4: 26, 21: 103, 5: 26} total: 235 bits: 57912
-s3-s13 s3-s13 {2: 60, 4: 31, 21: 73, 5: 35} total: 199 bits: 46616
+s19-s16 s16-s19 {2: 74, 4: 26, 21: 105, 5: 30} total: 235 bits: 58872
+s3-s13 s3-s13 {2: 55, 4: 30, 21: 73, 5: 33} total: 191 bits: 45336
 h9-s14 s14-h9 {2: 54, 4: 22, 21: 72, 5: 22} total: 170 bits: 41808
 h1-s6 s6-h1 {2: 63, 4: 22, 21: 85, 5: 22} total: 192 bits: 47520
 s7-h2 s7-h2 {2: 54, 4: 22, 21: 68, 5: 33166} total: 33310 bits: 4548976
 s7-h3 s7-h3 {2: 54, 4: 22, 21: 68, 5: 33166} total: 33310 bits: 4548976
-s7-s5 s5-s7 {2: 79, 4: 29, 21: 95, 5: 33180} total: 33383 bits: 4567640
-s7-s4 s4-s7 {2: 73, 4: 54296, 5: 92606, 21: 93} total: 147068 bits: 20027776
-s3-s5 s3-s5 {2: 59, 4: 30, 21: 91, 5: 30} total: 210 bits: 47216
-s13-s3 s3-s13 {2: 60, 4: 31, 21: 73, 5: 35} total: 199 bits: 46616
-s13-s2 s2-s13 {2: 77, 4: 35, 21: 93, 5: 32} total: 237 bits: 57800
+s7-s5 s5-s7 {2: 81, 4: 28, 21: 101, 5: 33172} total: 33382 bits: 4567376
+s7-s4 s4-s7 {2: 71, 4: 54298, 5: 92611, 21: 88} total: 147068 bits: 20027872
+s3-s5 s3-s5 {2: 58, 4: 30, 21: 91, 5: 30} total: 209 bits: 47016
+s13-s3 s3-s13 {2: 55, 4: 30, 21: 73, 5: 33} total: 191 bits: 45336
+s13-s2 s2-s13 {2: 83, 4: 33, 21: 92, 5: 31} total: 239 bits: 58616
 h8-s14 s14-h8 {2: 54, 4: 22, 21: 72, 5: 22} total: 170 bits: 41808
-s8-s0 s0-s8 {2: 78, 4: 26, 21: 95, 5: 96812} total: 97011 bits: 13222264
-s8-s1 s1-s8 {2: 83, 4: 31, 21: 94, 5: 51941} total: 52149 bits: 7117160
+s8-s0 s0-s8 {2: 82, 4: 26, 21: 92, 5: 96809} total: 97009 bits: 13220552
+s8-s1 s1-s8 {2: 81, 4: 29, 21: 95, 5: 51945} total: 52150 bits: 7119568
 s18-h13 s18-h13 {2: 53, 4: 22, 21: 67, 5: 22} total: 164 bits: 36864
 s18-h12 s18-h12 {2: 53, 4: 22, 21: 67, 5: 22} total: 164 bits: 36864
-s6-s4 s4-s6 {2: 55, 4: 46909, 21: 72, 5: 52077} total: 99113 bits: 13499016
-s6-s5 s5-s6 {2: 47, 4: 25, 21: 85, 5: 31} total: 188 bits: 42304
+s6-s4 s4-s6 {2: 55, 4: 46909, 21: 79, 5: 52076} total: 99119 bits: 13499608
+s6-s5 s5-s6 {2: 47, 4: 29, 21: 77, 5: 32} total: 185 bits: 42152
 h12-s18 s18-h12 {2: 53, 4: 22, 21: 67, 5: 22} total: 164 bits: 36864
 h15-s19 s19-h15 {2: 54, 4: 22, 21: 72, 5: 22} total: 170 bits: 41808
-s16-s1 s1-s16 {2: 83, 4: 35, 21: 101, 5: 33} total: 252 bits: 61888
+s16-s1 s1-s16 {2: 80, 4: 34, 21: 100, 5: 36} total: 250 bits: 61648
 h4-s10 s10-h4 {2: 52, 4: 22, 21: 99, 5: 3589} total: 3762 bits: 529456
-s18-s16 s16-s18 {2: 75, 4: 27, 21: 98, 5: 27} total: 227 bits: 51032
+s18-s16 s16-s18 {2: 73, 4: 27, 21: 102, 5: 25} total: 227 bits: 51160
 h0-s6 s6-h0 {2: 59, 4: 22, 21: 69, 5: 22} total: 172 bits: 43904
 h6-s11 s11-h6 {2: 51, 4: 22, 21: 68, 5: 28587} total: 28728 bits: 3925248
 h13-s18 s18-h13 {2: 53, 4: 22, 21: 67, 5: 22} total: 164 bits: 36864
 h7-s11 s11-h7 {2: 51, 4: 22, 21: 68, 5: 28587} total: 28728 bits: 3925248
-s18-s17 s17-s18 {2: 59, 4: 31, 21: 87, 5: 33} total: 210 bits: 44784
+s18-s17 s17-s18 {2: 61, 4: 26, 21: 85, 5: 31} total: 203 bits: 44088
 h2-s7 s7-h2 {2: 54, 4: 22, 21: 68, 5: 33166} total: 33310 bits: 4548976
-s3-s9 s3-s9 {2: 94, 4: 32, 21: 92, 5: 32} total: 250 bits: 65296
-s8-s10 s8-s10 {2: 76, 4: 22, 21: 96, 5: 52615} total: 52809 bits: 7208648
-s8-s11 s8-s11 {2: 73, 4: 26, 21: 93, 5: 80502} total: 80694 bits: 11000720
-s14-s12 s12-s14 {2: 82, 4: 27, 21: 104, 5: 28} total: 241 bits: 61256
-s14-s13 s13-s14 {2: 78, 4: 30, 21: 99, 5: 34} total: 241 bits: 55720
-s16-s18 s16-s18 {2: 75, 4: 27, 21: 98, 5: 27} total: 227 bits: 51032
-s16-s19 s16-s19 {2: 80, 4: 26, 21: 103, 5: 26} total: 235 bits: 57912
-s4-s7 s4-s7 {2: 73, 4: 54296, 5: 92606, 21: 93} total: 147068 bits: 20027776
-s16-s0 s0-s16 {2: 80, 4: 30, 21: 94, 5: 45816} total: 46020 bits: 6283296
+s3-s9 s3-s9 {2: 91, 4: 35, 21: 102, 5: 29} total: 257 bits: 65736
+s8-s10 s8-s10 {2: 80, 4: 24, 21: 84, 5: 52616} total: 52804 bits: 7214624
+s8-s11 s8-s11 {2: 83, 4: 24, 21: 92, 5: 80504} total: 80703 bits: 11008120
+s14-s12 s12-s14 {2: 78, 4: 26, 21: 104, 5: 30} total: 238 bits: 58864
+s14-s13 s13-s14 {2: 78, 4: 30, 21: 100, 5: 31} total: 239 bits: 55544
+s16-s18 s16-s18 {2: 73, 4: 27, 21: 102, 5: 25} total: 227 bits: 51160
+s16-s19 s16-s19 {2: 74, 4: 26, 21: 105, 5: 30} total: 235 bits: 58872
+s4-s7 s4-s7 {2: 71, 4: 54298, 5: 92611, 21: 88} total: 147068 bits: 20027872
+s16-s0 s0-s16 {2: 84, 4: 31, 21: 98, 5: 45814} total: 46027 bits: 6284312
 s10-h5 s10-h5 {2: 52, 4: 22, 21: 69, 5: 3589} total: 3732 bits: 526336
-s15-s12 s12-s15 {2: 80, 4: 25, 21: 90, 5: 28} total: 223 bits: 59320
-s11-s9 s9-s11 {2: 81, 4: 29, 21: 101, 5: 28597} total: 28808 bits: 3945312
-s11-s8 s8-s11 {2: 73, 4: 26, 21: 93, 5: 80502} total: 80694 bits: 11000720
-s0-s12 s0-s12 {2: 90, 4: 34, 21: 92, 5: 46098} total: 46314 bits: 6331600
+s15-s12 s12-s15 {2: 81, 4: 26, 21: 92, 5: 28} total: 227 bits: 60120
+s11-s9 s9-s11 {2: 70, 4: 29, 21: 102, 5: 28596} total: 28797 bits: 3937320
+s11-s8 s8-s11 {2: 83, 4: 24, 21: 92, 5: 80504} total: 80703 bits: 11008120
+s0-s12 s0-s12 {2: 80, 4: 32, 21: 92, 5: 46102} total: 46306 bits: 6325520
 s11-h6 s11-h6 {2: 51, 4: 22, 21: 68, 5: 28587} total: 28728 bits: 3925248
-s0-s16 s0-s16 {2: 80, 4: 30, 21: 94, 5: 45816} total: 46020 bits: 6283296
-s13-s14 s13-s14 {2: 78, 4: 30, 21: 99, 5: 34} total: 241 bits: 55720
-s2-s5 s2-s5 {2: 58, 4: 32, 21: 93, 5: 31} total: 214 bits: 47632
-s2-s9 s2-s9 {2: 82, 4: 32, 21: 104, 5: 31} total: 249 bits: 58696
-s12-s14 s12-s14 {2: 82, 4: 27, 21: 104, 5: 28} total: 241 bits: 61256
-s12-s15 s12-s15 {2: 80, 4: 25, 21: 90, 5: 28} total: 223 bits: 59320
-s13-s15 s13-s15 {2: 81, 4: 31, 21: 87, 5: 30} total: 229 bits: 55688
+s0-s16 s0-s16 {2: 84, 4: 31, 21: 98, 5: 45814} total: 46027 bits: 6284312
+s13-s14 s13-s14 {2: 78, 4: 30, 21: 100, 5: 31} total: 239 bits: 55544
+s2-s5 s2-s5 {2: 59, 4: 30, 21: 89, 5: 34} total: 212 bits: 47552
+s2-s9 s2-s9 {2: 88, 4: 33, 21: 98, 5: 35} total: 254 bits: 60528
+s12-s14 s12-s14 {2: 78, 4: 26, 21: 104, 5: 30} total: 238 bits: 58864
+s12-s15 s12-s15 {2: 81, 4: 26, 21: 92, 5: 28} total: 227 bits: 60120
+s13-s15 s13-s15 {2: 83, 4: 32, 21: 84, 5: 32} total: 231 bits: 57016
 s11-h7 s11-h7 {2: 51, 4: 22, 21: 68, 5: 28587} total: 28728 bits: 3925248
-s19-s17 s17-s19 {2: 79, 4: 29, 21: 100, 5: 33} total: 241 bits: 59016
-s10-s8 s8-s10 {2: 76, 4: 22, 21: 96, 5: 52615} total: 52809 bits: 7208648
-s10-s9 s9-s10 {2: 79, 4: 30, 21: 89, 5: 3598} total: 3796 bits: 544832
+s19-s17 s17-s19 {2: 83, 4: 32, 21: 96, 5: 33} total: 244 bits: 58656
+s10-s8 s8-s10 {2: 80, 4: 24, 21: 84, 5: 52616} total: 52804 bits: 7214624
+s10-s9 s9-s10 {2: 74, 4: 30, 21: 100, 5: 3595} total: 3799 bits: 537976
 h11-s15 s15-h11 {2: 58, 4: 22, 21: 101, 5: 22} total: 203 bits: 45880
 Total control packets over all links:  {'NotifyLinkDown': 418310, 'NotifyLinkUp': 1757022, 'ControlAck': 8380, 'UpdateRules': 6506}  bytes:  300025424
 Total control bits over all links:  {'NotifyLinkDown': 56890160, 'NotifyLinkUp': 238954992, 'ControlAck': 871520, 'UpdateRules': 3308752}
