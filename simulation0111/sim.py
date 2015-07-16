@@ -467,7 +467,10 @@ class Simulation (object):
          18: "AcceptReply",
          19: "PaxosMaxSeq",
          20: "NackUpdateRules",
-         21: "ControlAck"
+         21: "ControlAck",
+         22: "AckRuleUpdate",
+         23: "Gossip",
+         24: "GossipReply"
        }
     total_bits = 0
     total_control_bits = {}

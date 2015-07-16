@@ -1,5 +1,5 @@
 exp=( bt/bt as-topos/1221 as-topos/1239 fat_tree/ft_4_arity/fat_tree_4_arity )
-config_files=( config_bt.yml config_as.yml config_as.yml config_ft.yml )
+config_files=( config_bt_fast.yml config_as_fast.yml config_as_fast.yml config_ft_fast.yml )
 out_name=( bt as_1221 as_1239 fat_tree_4_arity )
 
 for i in ${!exp[@]}; do
