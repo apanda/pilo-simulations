@@ -29,22 +29,31 @@ class LSPaxosOracleControl (LSController):
 
   def ComputeNoInstall (self):
     updates = defaultdict(lambda: [])
-    sp = nx.shortest_paths.all_pairs_shortest_path(self.graph)
+    current = 0
     for host in self.hosts:
       for h2 in self.hosts:
         if h2 == host:
           continue
-        if h2.name in sp[host.name]:
-          #print "Found path between %s and %s"%(host.name, h2.name)
-          p = SourceDestinationPacket(host.address, h2.address)
-          path = zip(sp[host.name][h2.name], \
-                    sp[host.name][h2.name][1:])
-          for (a, b) in path[1:]:
-            link = self.graph[a][b]['link']
-            if self.switch_tables[a][p.pack()] != link:
-              updates[a].append((p.pack(), link))
-              self.switch_tables[a][p.pack()] = link
-            #else:
+        #print "Found path between %s and %s"%(host.name, h2.name)
+        if host.name not in self.graph or h2.name not in self.graph:
+          continue
+        try:
+          paths = list(nx.all_shortest_paths(self.graph, host.name, h2.name))
+        except nx.exception.NetworkXNoPath:
+          # No path
+          continue
+        # All of this is just some sort of ploy to get multipathing
+        path = paths[current % len(paths)]
+        current += 1
+        p = SourceDestinationPacket(host.address, h2.address)
+        path = zip(path, \
+                   path[1:])
+        for (a, b) in path[1:]:
+          link = self.graph[a][b]['link']
+          if self.switch_tables[a][p.pack()] != link:
+            updates[a].append((p.pack(), link))
+            self.switch_tables[a][p.pack()] = link
+          #else:
               #print "%f %s skipping updating path from %s to %s since already"%(self.ctx.now, self.name, host, h2)
         #else:
           #print "%f No path found %s->%s %s"%(self.ctx.now, host, h2, self.graph.edges())

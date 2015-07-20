@@ -134,21 +134,30 @@ class LSGossipControl (LSController):
 
   def ComputeNoInstall (self):
     updates = defaultdict(lambda: [])
-    sp = nx.shortest_paths.all_pairs_shortest_path(self.graph)
-    for host in self._hosts:
-      for h2 in self._hosts:
+    #sp = nx.shortest_paths.all_pairs_shortest_path(self.graph)
+    current = 0
+    for host in sorted(self._hosts):
+      for h2 in sorted(self._hosts):
         if h2 == host:
           continue
-        if h2.name in sp[host.name]:
-          #print "Found path between %s and %s"%(host.name, h2.name)
-          p = SourceDestinationPacket(host.address, h2.address)
-          path = zip(sp[host.name][h2.name], \
-                    sp[host.name][h2.name][1:])
-          for (a, b) in path[1:]:
-            link = self.graph[a][b]['link']
-            if self.switch_tables[a][p.pack()] != link:
-              updates[a].append((p.pack(), link))
-              self.switch_tables[a][p.pack()] = link
+        if host.name not in self.graph or h2.name not in self.graph:
+          continue
+        try:
+          paths = list(nx.all_shortest_paths(self.graph, host.name, h2.name))
+        except nx.exception.NetworkXNoPath:
+          # No path
+          continue
+        # All of this is just some sort of ploy to get multipathing
+        path = paths[current % len(paths)]
+        current += 1
+        p = SourceDestinationPacket(host.address, h2.address)
+        path = zip(path, \
+                   path[1:])
+        for (a, b) in path[1:]:
+          link = self.graph[a][b]['link']
+          if self.switch_tables[a][p.pack()] != link:
+            updates[a].append((p.pack(), link))
+            self.switch_tables[a][p.pack()] = link
     return updates
     #for a in updates.iterkeys():
       ##print "Update to %s with len %d"%(a, len(updates[a]))

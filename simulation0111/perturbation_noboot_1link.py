@@ -66,7 +66,9 @@ def Main (args):
       print "TRACE TRACE TRACE"
       links = sim.Setup(topo, new_trace, False, count_ctrl_packet=True, count_packets=1, no_bootstrap = True, config_file = config_file)
       max_link = max(links.items(), key=lambda (l, c): c)
-      #print "Max link is %s"%(str(max_link))
+      print "Max link is %s"%(str(max_link))
+      zero_links = filter(lambda (l, c): c==0, links.items())
+      print "Total links %d zero links %d Zero Links %s"%(len(links.items()), len(zero_links), zero_links)
       sim.scheduleLinkDown(2.0, str(max_link[0]))
 
       for time in np.arange(stable, end_time, sampling_rate):
