@@ -200,6 +200,7 @@ class LSGossipControl (LSController):
       pkt_size += 64 + len(el) * (65)
 
     cpacket = ControlPacket(self.cpkt_id, self.name, src, ControlPacket.GossipReply, [s, ret])
+    cpacket.size += pkt_size
     self.cpkt_id += 1
     self.sendControlPacket(cpacket)
 
