@@ -3,7 +3,7 @@ config_files=( config_bt.yml config_as.yml config_as.yml config_ft.yml )
 out_name=( bt as_1221 as_1239 fat_tree_4_arity )
 
 for i in ${!exp[@]}; do
-    for num in 3 4; do 
+    for num in 3; do 
 	e=${exp[$i]}
 	cf=${config_files[$i]}
 	fname=${out_name[$i]}

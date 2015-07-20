@@ -14,7 +14,7 @@ for i in ${!exp[@]}; do
     num=3
     echo "python perturbation_noboot.py $e$num.yaml 0 300000 1800000 30000 10240000 10240000 1000 42 true $cf > outputs/bw/$fname$num.output.30s"
 
-    python perturbation_noboot.py $e$num.yaml 0 300000 1800000 30000 10240000 10240000 1000 42 true $cf > outputs/bw/$fname$num.output.30s
+    stdbuf -o0 python perturbation_noboot.py $e$num.yaml 0 300000 1800000 30000 10240000 10240000 1000 42 true $cf > outputs/bw/$fname$num.output.30s
 
     echo "python perturbation_noboot.py $e$num.yaml 0 300000 1800000 60000 10240000 10240000 1000 42 true $cf > outputs/bw/$fname$num.output.1min"
 
