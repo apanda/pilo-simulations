@@ -70,9 +70,9 @@ def TransformTrace (links, fail_links, mttf, mttr, stable, end_time, bootstrap):
 
 def Main (args):
   show_converge = True
-  if len(args) != 10:
+  if len(args) != 11:
     print >>sys.stderr, "Usage: perturbation_constant.py setup stable_time mean_recovery end_time " + \
-                                " begin_mean_perturb end_mean_perturn step_mean_perturb sampling_rate seed bootstrap"
+                                " begin_mean_perturb end_mean_perturn step_mean_perturb sampling_rate seed bootstrap config_file"
   else:
     topo = open(args[0]).read()
     stable = float(args[1])
@@ -84,8 +84,9 @@ def Main (args):
     sampling_rate = float(args[7])
     seed = int(args[8])
     bootstrap = (args[9].lower() == "true")
-    print "Setting %s %f %f %f %f %f %f %f %d"%(args[0], stable, mean_recovery, end_time, begin, end,\
-            step, sampling_rate, seed)
+    config_file = str(args[10])
+    print "Setting %s %f %f %f %f %f %f %f %d %s"%(args[0], stable, mean_recovery, end_time, begin, end,\
+                                                   step, sampling_rate, seed, config_file)
     topo_yaml = yaml.load(topo)
 
     links = topo_yaml['links']
@@ -109,7 +110,7 @@ def Main (args):
       for t in new_trace:
         print t
       print "TRACE TRACE TRACE"
-      sim.Setup(topo, new_trace, False, count_ctrl_packet=True, count_packets=1, no_bootstrap = True)
+      sim.Setup(topo, new_trace, False, count_ctrl_packet=True, count_packets=1, no_bootstrap = True, config_file=config_file)
       for time in np.arange(stable, end_time, sampling_rate):
         sim.scheduleCheck(time)
       ## Measure latency less often

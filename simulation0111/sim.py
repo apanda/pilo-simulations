@@ -273,8 +273,12 @@ class Simulation (object):
              converge_time = False, 
              count_ctrl_packet = False, 
              count_packets = -1,
-             no_bootstrap = False):
-    self.ctx = Context()
+             no_bootstrap = False,
+             config_file = None):
+    if config_file:
+      self.ctx = Context(config = Config(fname=config_file))
+    else:
+      self.ctx = Context()
 
     controllers = []
     setup = yaml.load(simulation_setup)
@@ -463,7 +467,10 @@ class Simulation (object):
          18: "AcceptReply",
          19: "PaxosMaxSeq",
          20: "NackUpdateRules",
-         21: "ControlAck"
+         21: "ControlAck",
+         22: "AckRuleUpdate",
+         23: "Gossip",
+         24: "GossipReply"
        }
     total_bits = 0
     total_control_bits = {}

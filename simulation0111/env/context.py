@@ -122,6 +122,12 @@ class Config (object):
       self.controller_switch_info_delay = float(configs['controller_switch_info_delay'])
     else:
       self.controller_switch_info_delay = 60.0
+
+    if 'gossip_period' in configs:
+      self.gossip_period = float(configs['gossip_period'])
+    else:
+      self.gossip_period = 5.0
+
   @property
   def ControlLatency(self):
     return self.control_dist.next
