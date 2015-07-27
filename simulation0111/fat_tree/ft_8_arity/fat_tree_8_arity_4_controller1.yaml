@@ -1,0 +1,535 @@
+fail_links: [s0-s16, s1-s16, s2-s16, s3-s16, s4-s17, s5-s17, s6-s17, s7-s17, s8-s18,
+  s9-s18, s10-s18, s11-s18, s12-s19, s13-s19, s14-s19, s15-s19, s16-s20, s17-s20,
+  s18-s20, s19-s20, s16-s21, s17-s21, s18-s21, s19-s21, s16-s22, s17-s22, s18-s22,
+  s19-s22, s16-s23, s17-s23, s18-s23, s19-s23, s0-s24, s1-s24, s2-s24, s3-s24, s4-s25,
+  s5-s25, s6-s25, s7-s25, s8-s26, s9-s26, s10-s26, s11-s26, s12-s27, s13-s27, s14-s27,
+  s15-s27, s24-s28, s25-s28, s26-s28, s27-s28, s24-s29, s25-s29, s26-s29, s27-s29,
+  s24-s30, s25-s30, s26-s30, s27-s30, s24-s31, s25-s31, s26-s31, s27-s31, s0-s32,
+  s1-s32, s2-s32, s3-s32, s4-s33, s5-s33, s6-s33, s7-s33, s8-s34, s9-s34, s10-s34,
+  s11-s34, s12-s35, s13-s35, s14-s35, s15-s35, s32-s36, s33-s36, s34-s36, s35-s36,
+  s32-s37, s33-s37, s34-s37, s35-s37, s32-s38, s33-s38, s34-s38, s35-s38, s32-s39,
+  s33-s39, s34-s39, s35-s39, s0-s40, s1-s40, s2-s40, s3-s40, s4-s41, s5-s41, s6-s41,
+  s7-s41, s8-s42, s9-s42, s10-s42, s11-s42, s12-s43, s13-s43, s14-s43, s15-s43, s40-s44,
+  s41-s44, s42-s44, s43-s44, s40-s45, s41-s45, s42-s45, s43-s45, s40-s46, s41-s46,
+  s42-s46, s43-s46, s40-s47, s41-s47, s42-s47, s43-s47, s0-s48, s1-s48, s2-s48, s3-s48,
+  s4-s49, s5-s49, s6-s49, s7-s49, s8-s50, s9-s50, s10-s50, s11-s50, s12-s51, s13-s51,
+  s14-s51, s15-s51, s48-s52, s49-s52, s50-s52, s51-s52, s48-s53, s49-s53, s50-s53,
+  s51-s53, s48-s54, s49-s54, s50-s54, s51-s54, s48-s55, s49-s55, s50-s55, s51-s55,
+  s0-s56, s1-s56, s2-s56, s3-s56, s4-s57, s5-s57, s6-s57, s7-s57, s8-s58, s9-s58,
+  s10-s58, s11-s58, s12-s59, s13-s59, s14-s59, s15-s59, s56-s60, s57-s60, s58-s60,
+  s59-s60, s56-s61, s57-s61, s58-s61, s59-s61, s56-s62, s57-s62, s58-s62, s59-s62,
+  s56-s63, s57-s63, s58-s63, s59-s63, s0-s64, s1-s64, s2-s64, s3-s64, s4-s65, s5-s65,
+  s6-s65, s7-s65, s8-s66, s9-s66, s10-s66, s11-s66, s12-s67, s13-s67, s14-s67, s15-s67,
+  s64-s68, s65-s68, s66-s68, s67-s68, s64-s69, s65-s69, s66-s69, s67-s69, s64-s70,
+  s65-s70, s66-s70, s67-s70, s64-s71, s65-s71, s66-s71, s67-s71, s0-s72, s1-s72, s2-s72,
+  s3-s72, s4-s73, s5-s73, s6-s73, s7-s73, s8-s74, s9-s74, s10-s74, s11-s74, s12-s75,
+  s13-s75, s14-s75, s15-s75, s72-s76, s73-s76, s74-s76, s75-s76, s72-s77, s73-s77,
+  s74-s77, s75-s77, s72-s78, s73-s78, s74-s78, s75-s78, s72-s79, s73-s79, s74-s79,
+  s75-s79]
+h0:
+  args: {address: 59}
+  type: Host
+h1:
+  args: {address: 60}
+  type: Host
+h10:
+  args: {address: 86}
+  type: Host
+h100:
+  args: {address: 81}
+  type: Host
+h101:
+  args: {address: 76}
+  type: Host
+h102:
+  args: {address: 83}
+  type: Host
+h103:
+  args: {address: 82}
+  type: Host
+h104:
+  args: {address: 69}
+  type: Host
+h105:
+  args: {address: 65}
+  type: Host
+h106:
+  args: {address: 71}
+  type: Host
+h107:
+  args: {address: 70}
+  type: Host
+h108:
+  args: {address: 80}
+  type: Host
+h109:
+  args: {address: 79}
+  type: Host
+h11:
+  args: {address: 87}
+  type: Host
+h110:
+  args: {address: 31}
+  type: Host
+h111:
+  args: {address: 32}
+  type: Host
+h112:
+  args: {address: 29}
+  type: Host
+h113:
+  args: {address: 30}
+  type: Host
+h114:
+  args: {address: 35}
+  type: Host
+h115:
+  args: {address: 36}
+  type: Host
+h116:
+  args: {address: 33}
+  type: Host
+h117:
+  args: {address: 34}
+  type: Host
+h118:
+  args: {address: 27}
+  type: Host
+h119:
+  args: {address: 28}
+  type: Host
+h12:
+  args: {address: 88}
+  type: Host
+h120:
+  args: {address: 16}
+  type: Host
+h121:
+  args: {address: 15}
+  type: Host
+h122:
+  args: {address: 14}
+  type: Host
+h123:
+  args: {address: 13}
+  type: Host
+h124:
+  args: {address: 12}
+  type: Host
+h125:
+  args: {address: 11}
+  type: Host
+h126:
+  args: {address: 10}
+  type: Host
+h127:
+  args: {address: 128}
+  type: CoordinatingControl
+h13:
+  args: {address: 89}
+  type: Host
+h14:
+  args: {address: 90}
+  type: Host
+h15:
+  args: {address: 91}
+  type: Host
+h16:
+  args: {address: 92}
+  type: Host
+h17:
+  args: {address: 93}
+  type: Host
+h18:
+  args: {address: 84}
+  type: Host
+h19:
+  args: {address: 85}
+  type: Host
+h2:
+  args: {address: 57}
+  type: Host
+h20:
+  args: {address: 111}
+  type: Host
+h21:
+  args: {address: 110}
+  type: Host
+h22:
+  args: {address: 113}
+  type: Host
+h23:
+  args: {address: 112}
+  type: Host
+h24:
+  args: {address: 107}
+  type: Host
+h25:
+  args: {address: 106}
+  type: Host
+h26:
+  args: {address: 109}
+  type: Host
+h27:
+  args: {address: 108}
+  type: Host
+h28:
+  args: {address: 105}
+  type: Host
+h29:
+  args: {address: 104}
+  type: Host
+h3:
+  args: {address: 58}
+  type: Host
+h30:
+  args: {address: 116}
+  type: Host
+h31:
+  args: {address: 117}
+  type: Host
+h32:
+  args: {address: 114}
+  type: Host
+h33:
+  args: {address: 115}
+  type: Host
+h34:
+  args: {address: 120}
+  type: Host
+h35:
+  args: {address: 121}
+  type: Host
+h36:
+  args: {address: 118}
+  type: Host
+h37:
+  args: {address: 119}
+  type: Host
+h38:
+  args: {address: 122}
+  type: Host
+h39:
+  args: {address: 123}
+  type: Host
+h4:
+  args: {address: 63}
+  type: Host
+h40:
+  args: {address: 7}
+  type: Host
+h41:
+  args: {address: 6}
+  type: Host
+h42:
+  args: {address: 127}
+  type: CoordinatingControl
+h43:
+  args: {address: 5}
+  type: Host
+h44:
+  args: {address: 4}
+  type: Host
+h45:
+  args: {address: 3}
+  type: Host
+h46:
+  args: {address: 2}
+  type: Host
+h47:
+  args: {address: 1}
+  type: Host
+h48:
+  args: {address: 9}
+  type: Host
+h49:
+  args: {address: 8}
+  type: Host
+h5:
+  args: {address: 64}
+  type: Host
+h50:
+  args: {address: 21}
+  type: Host
+h51:
+  args: {address: 22}
+  type: Host
+h52:
+  args: {address: 23}
+  type: Host
+h53:
+  args: {address: 24}
+  type: Host
+h54:
+  args: {address: 17}
+  type: Host
+h55:
+  args: {address: 18}
+  type: Host
+h56:
+  args: {address: 19}
+  type: Host
+h57:
+  args: {address: 20}
+  type: Host
+h58:
+  args: {address: 25}
+  type: Host
+h59:
+  args: {address: 26}
+  type: Host
+h6:
+  args: {address: 61}
+  type: Host
+h60:
+  args: {address: 40}
+  type: Host
+h61:
+  args: {address: 39}
+  type: Host
+h62:
+  args: {address: 42}
+  type: Host
+h63:
+  args: {address: 41}
+  type: Host
+h64:
+  args: {address: 44}
+  type: Host
+h65:
+  args: {address: 43}
+  type: Host
+h66:
+  args: {address: 46}
+  type: Host
+h67:
+  args: {address: 45}
+  type: Host
+h68:
+  args: {address: 38}
+  type: Host
+h69:
+  args: {address: 37}
+  type: Host
+h7:
+  args: {address: 62}
+  type: Host
+h70:
+  args: {address: 53}
+  type: Host
+h71:
+  args: {address: 54}
+  type: Host
+h72:
+  args: {address: 51}
+  type: Host
+h73:
+  args: {address: 52}
+  type: Host
+h74:
+  args: {address: 49}
+  type: Host
+h75:
+  args: {address: 50}
+  type: Host
+h76:
+  args: {address: 125}
+  type: CoordinatingControl
+h77:
+  args: {address: 48}
+  type: Host
+h78:
+  args: {address: 126}
+  type: CoordinatingControl
+h79:
+  args: {address: 47}
+  type: Host
+h8:
+  args: {address: 55}
+  type: Host
+h80:
+  args: {address: 124}
+  type: Host
+h81:
+  args: {address: 67}
+  type: Host
+h82:
+  args: {address: 66}
+  type: Host
+h83:
+  args: {address: 68}
+  type: Host
+h84:
+  args: {address: 75}
+  type: Host
+h85:
+  args: {address: 74}
+  type: Host
+h86:
+  args: {address: 73}
+  type: Host
+h87:
+  args: {address: 72}
+  type: Host
+h88:
+  args: {address: 78}
+  type: Host
+h89:
+  args: {address: 77}
+  type: Host
+h9:
+  args: {address: 56}
+  type: Host
+h90:
+  args: {address: 94}
+  type: Host
+h91:
+  args: {address: 95}
+  type: Host
+h92:
+  args: {address: 96}
+  type: Host
+h93:
+  args: {address: 97}
+  type: Host
+h94:
+  args: {address: 98}
+  type: Host
+h95:
+  args: {address: 99}
+  type: Host
+h96:
+  args: {address: 100}
+  type: Host
+h97:
+  args: {address: 101}
+  type: Host
+h98:
+  args: {address: 102}
+  type: Host
+h99:
+  args: {address: 103}
+  type: Host
+links: [s0-s16, s1-s16, s2-s16, s3-s16, s4-s17, s5-s17, s6-s17, s7-s17, s8-s18, s9-s18,
+  s10-s18, s11-s18, s12-s19, s13-s19, s14-s19, s15-s19, s16-s20, s17-s20, s18-s20,
+  s19-s20, s16-s21, s17-s21, s18-s21, s19-s21, s16-s22, s17-s22, s18-s22, s19-s22,
+  s16-s23, s17-s23, s18-s23, s19-s23, s20-h0, s20-h1, s20-h2, s20-h3, s21-h4, s21-h5,
+  s21-h6, s21-h7, s22-h8, s22-h9, s22-h10, s22-h11, s23-h12, s23-h13, s23-h14, s23-h15,
+  s0-s24, s1-s24, s2-s24, s3-s24, s4-s25, s5-s25, s6-s25, s7-s25, s8-s26, s9-s26,
+  s10-s26, s11-s26, s12-s27, s13-s27, s14-s27, s15-s27, s24-s28, s25-s28, s26-s28,
+  s27-s28, s24-s29, s25-s29, s26-s29, s27-s29, s24-s30, s25-s30, s26-s30, s27-s30,
+  s24-s31, s25-s31, s26-s31, s27-s31, s28-h16, s28-h17, s28-h18, s28-h19, s29-h20,
+  s29-h21, s29-h22, s29-h23, s30-h24, s30-h25, s30-h26, s30-h27, s31-h28, s31-h29,
+  s31-h30, s31-h31, s0-s32, s1-s32, s2-s32, s3-s32, s4-s33, s5-s33, s6-s33, s7-s33,
+  s8-s34, s9-s34, s10-s34, s11-s34, s12-s35, s13-s35, s14-s35, s15-s35, s32-s36, s33-s36,
+  s34-s36, s35-s36, s32-s37, s33-s37, s34-s37, s35-s37, s32-s38, s33-s38, s34-s38,
+  s35-s38, s32-s39, s33-s39, s34-s39, s35-s39, s36-h32, s36-h33, s36-h34, s36-h35,
+  s37-h36, s37-h37, s37-h38, s37-h39, s38-h40, s38-h41, s38-h42, s38-h43, s39-h44,
+  s39-h45, s39-h46, s39-h47, s0-s40, s1-s40, s2-s40, s3-s40, s4-s41, s5-s41, s6-s41,
+  s7-s41, s8-s42, s9-s42, s10-s42, s11-s42, s12-s43, s13-s43, s14-s43, s15-s43, s40-s44,
+  s41-s44, s42-s44, s43-s44, s40-s45, s41-s45, s42-s45, s43-s45, s40-s46, s41-s46,
+  s42-s46, s43-s46, s40-s47, s41-s47, s42-s47, s43-s47, s44-h48, s44-h49, s44-h50,
+  s44-h51, s45-h52, s45-h53, s45-h54, s45-h55, s46-h56, s46-h57, s46-h58, s46-h59,
+  s47-h60, s47-h61, s47-h62, s47-h63, s0-s48, s1-s48, s2-s48, s3-s48, s4-s49, s5-s49,
+  s6-s49, s7-s49, s8-s50, s9-s50, s10-s50, s11-s50, s12-s51, s13-s51, s14-s51, s15-s51,
+  s48-s52, s49-s52, s50-s52, s51-s52, s48-s53, s49-s53, s50-s53, s51-s53, s48-s54,
+  s49-s54, s50-s54, s51-s54, s48-s55, s49-s55, s50-s55, s51-s55, s52-h64, s52-h65,
+  s52-h66, s52-h67, s53-h68, s53-h69, s53-h70, s53-h71, s54-h72, s54-h73, s54-h74,
+  s54-h75, s55-h76, s55-h77, s55-h78, s55-h79, s0-s56, s1-s56, s2-s56, s3-s56, s4-s57,
+  s5-s57, s6-s57, s7-s57, s8-s58, s9-s58, s10-s58, s11-s58, s12-s59, s13-s59, s14-s59,
+  s15-s59, s56-s60, s57-s60, s58-s60, s59-s60, s56-s61, s57-s61, s58-s61, s59-s61,
+  s56-s62, s57-s62, s58-s62, s59-s62, s56-s63, s57-s63, s58-s63, s59-s63, s60-h80,
+  s60-h81, s60-h82, s60-h83, s61-h84, s61-h85, s61-h86, s61-h87, s62-h88, s62-h89,
+  s62-h90, s62-h91, s63-h92, s63-h93, s63-h94, s63-h95, s0-s64, s1-s64, s2-s64, s3-s64,
+  s4-s65, s5-s65, s6-s65, s7-s65, s8-s66, s9-s66, s10-s66, s11-s66, s12-s67, s13-s67,
+  s14-s67, s15-s67, s64-s68, s65-s68, s66-s68, s67-s68, s64-s69, s65-s69, s66-s69,
+  s67-s69, s64-s70, s65-s70, s66-s70, s67-s70, s64-s71, s65-s71, s66-s71, s67-s71,
+  s68-h96, s68-h97, s68-h98, s68-h99, s69-h100, s69-h101, s69-h102, s69-h103, s70-h104,
+  s70-h105, s70-h106, s70-h107, s71-h108, s71-h109, s71-h110, s71-h111, s0-s72, s1-s72,
+  s2-s72, s3-s72, s4-s73, s5-s73, s6-s73, s7-s73, s8-s74, s9-s74, s10-s74, s11-s74,
+  s12-s75, s13-s75, s14-s75, s15-s75, s72-s76, s73-s76, s74-s76, s75-s76, s72-s77,
+  s73-s77, s74-s77, s75-s77, s72-s78, s73-s78, s74-s78, s75-s78, s72-s79, s73-s79,
+  s74-s79, s75-s79, s76-h112, s76-h113, s76-h114, s76-h115, s77-h116, s77-h117, s77-h118,
+  s77-h119, s78-h120, s78-h121, s78-h122, s78-h123, s79-h124, s79-h125, s79-h126,
+  s79-h127]
+runfile: controllers
+s0: {type: LS2PCSwitch}
+s1: {type: LS2PCSwitch}
+s10: {type: LS2PCSwitch}
+s11: {type: LS2PCSwitch}
+s12: {type: LS2PCSwitch}
+s13: {type: LS2PCSwitch}
+s14: {type: LS2PCSwitch}
+s15: {type: LS2PCSwitch}
+s16: {type: LS2PCSwitch}
+s17: {type: LS2PCSwitch}
+s18: {type: LS2PCSwitch}
+s19: {type: LS2PCSwitch}
+s2: {type: LS2PCSwitch}
+s20: {type: LS2PCSwitch}
+s21: {type: LS2PCSwitch}
+s22: {type: LS2PCSwitch}
+s23: {type: LS2PCSwitch}
+s24: {type: LS2PCSwitch}
+s25: {type: LS2PCSwitch}
+s26: {type: LS2PCSwitch}
+s27: {type: LS2PCSwitch}
+s28: {type: LS2PCSwitch}
+s29: {type: LS2PCSwitch}
+s3: {type: LS2PCSwitch}
+s30: {type: LS2PCSwitch}
+s31: {type: LS2PCSwitch}
+s32: {type: LS2PCSwitch}
+s33: {type: LS2PCSwitch}
+s34: {type: LS2PCSwitch}
+s35: {type: LS2PCSwitch}
+s36: {type: LS2PCSwitch}
+s37: {type: LS2PCSwitch}
+s38: {type: LS2PCSwitch}
+s39: {type: LS2PCSwitch}
+s4: {type: LS2PCSwitch}
+s40: {type: LS2PCSwitch}
+s41: {type: LS2PCSwitch}
+s42: {type: LS2PCSwitch}
+s43: {type: LS2PCSwitch}
+s44: {type: LS2PCSwitch}
+s45: {type: LS2PCSwitch}
+s46: {type: LS2PCSwitch}
+s47: {type: LS2PCSwitch}
+s48: {type: LS2PCSwitch}
+s49: {type: LS2PCSwitch}
+s5: {type: LS2PCSwitch}
+s50: {type: LS2PCSwitch}
+s51: {type: LS2PCSwitch}
+s52: {type: LS2PCSwitch}
+s53: {type: LS2PCSwitch}
+s54: {type: LS2PCSwitch}
+s55: {type: LS2PCSwitch}
+s56: {type: LS2PCSwitch}
+s57: {type: LS2PCSwitch}
+s58: {type: LS2PCSwitch}
+s59: {type: LS2PCSwitch}
+s6: {type: LS2PCSwitch}
+s60: {type: LS2PCSwitch}
+s61: {type: LS2PCSwitch}
+s62: {type: LS2PCSwitch}
+s63: {type: LS2PCSwitch}
+s64: {type: LS2PCSwitch}
+s65: {type: LS2PCSwitch}
+s66: {type: LS2PCSwitch}
+s67: {type: LS2PCSwitch}
+s68: {type: LS2PCSwitch}
+s69: {type: LS2PCSwitch}
+s7: {type: LS2PCSwitch}
+s70: {type: LS2PCSwitch}
+s71: {type: LS2PCSwitch}
+s72: {type: LS2PCSwitch}
+s73: {type: LS2PCSwitch}
+s74: {type: LS2PCSwitch}
+s75: {type: LS2PCSwitch}
+s76: {type: LS2PCSwitch}
+s77: {type: LS2PCSwitch}
+s78: {type: LS2PCSwitch}
+s79: {type: LS2PCSwitch}
+s8: {type: LS2PCSwitch}
+s9: {type: LS2PCSwitch}
