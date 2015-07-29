@@ -96,6 +96,7 @@ class Log(object):
 class LSGossipControl (LSController):
   def __init__ (self, name, ctx, address):
     super(LSGossipControl, self).__init__(name, ctx, address)
+    self.address = address
     self._hosts = set()
     self._nodes = set()
     self._controllers = set([self.name])
@@ -106,6 +107,7 @@ class LSGossipControl (LSController):
     #self.GetSwitchInformation()
     self.link_version = {}
     self.switch_tables = defaultdict(lambda: defaultdict(lambda: None))
+    self.current_paths = defaultdict(lambda: None)
 
     # Gossip
     self.switchboard[ControlPacket.Gossip] = self.GossipReply
@@ -142,15 +144,20 @@ class LSGossipControl (LSController):
           continue
         if host.name not in self.graph or h2.name not in self.graph:
           continue
+        p = SourceDestinationPacket(host.address, h2.address)
         try:
           paths = list(nx.all_shortest_paths(self.graph, host.name, h2.name))
         except nx.exception.NetworkXNoPath:
           # No path
           continue
+        #if self.current_paths[p] and self.current_paths[p] in paths:
+          ## For now, avoid making a change when unnecessary
+          #print "%f skipping path change"%(self.ctx.now)
+          #continue
         # All of this is just some sort of ploy to get multipathing
         path = paths[current % len(paths)]
         current += 1
-        p = SourceDestinationPacket(host.address, h2.address)
+        self.current_paths[p] = path
         path = zip(path, \
                    path[1:])
         for (a, b) in path[1:]:
@@ -241,6 +248,7 @@ class LSGossipControl (LSController):
     self.reason = "NotifySwitchUp"
     if isinstance(switch, ControllerTrait) and switch.name not in self._controllers:
       self._controllers.add(switch.name)
+      self._hosts.add(switch)
     self._nodes.add(switch)
     self.graph.add_node(switch.name)
     self.reason = None
