@@ -22,5 +22,5 @@ control_processing_latency:
    distro: exponential
    shape: 1.0
 controller_naggle_time: 0.0
-controller_switch_info_delay: 600000.0
-gossip_period: 30000.0
+controller_switch_info_delay: 60000.0
+gossip_period: 10000.0
