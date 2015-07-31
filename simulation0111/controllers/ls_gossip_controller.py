@@ -191,21 +191,26 @@ class LSGossipControl (LSController):
 
   def GossipReply(self, pkt, src, s, event_list):
     ret = {}
+    any_send = False
     if s in self.log.get_switches():
       for link_id, el in event_list.iteritems():
         ret[link_id] = []
         for e in el:
+          events = None
           if e == el[0]:
-            ret[link_id] = self.log.get_smaller_events(s, link_id, e)
+            events = self.log.get_smaller_events(s, link_id, e)
           elif e == el[-1]:
-            ret[link_id] = self.log.get_larger_events(s, link_id, e)
+            events = self.log.get_larger_events(s, link_id, e)
           else:
-            ret[link_id] = self.log.get_gap_events(s, link_id, e[0], e[1])
-    
+            events = self.log.get_gap_events(s, link_id, e[0], e[1])
+          if len(events) > 0:
+            ret[link_id] = events
+            any_send = True
+    if not any_send:
+      return 
     pkt_size = 32
     for link_id, el in ret.iteritems():
       pkt_size += 64 + len(el) * (65)
-
     cpacket = ControlPacket(self.cpkt_id, self.name, src, ControlPacket.GossipReply, [s, ret])
     cpacket.size += pkt_size
     self.cpkt_id += 1
