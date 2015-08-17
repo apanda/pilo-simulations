@@ -12,6 +12,7 @@ config = [
    ("CoordinatingControl", "LS2PCSwitch", "Host", "controllers"),
    ("HBControl", "HBSwitch", "HBHost", "controllers"), 
    ("LSGossipControl", "LinkStateSwitch", "Host", "controllers"),
+   ("LSTEControl", "LinkStateSwitch", "Host", "controllers"),
    ("LSPaxosOracleControl", "LinkStateSwitch", "Host", "controllers"),
    ("CoordinationOracleControl", "LinkStateSwitch", "Host", "controllers"),
    ("Controller2PC", "LinkStateSwitch", "Host", "controllers")
@@ -24,6 +25,7 @@ config_args =  \
  "LSLeaderControl": {"addr": True},
  "CoordinatingControl": {"addr": True},
  "LSGossipControl": {"addr": True},
+ "LSTEControl": {"addr": True},
  "LSPaxosOracleControl": {"addr": True},
  "CoordinationOracleControl": {"addr": True},
  "Controller2PC": {"addr": True}
