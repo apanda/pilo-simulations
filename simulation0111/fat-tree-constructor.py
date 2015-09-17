@@ -8,14 +8,14 @@ import matplotlib
 
 config = [
    # Controller type, switch type, host type
-   ("LSLeaderControl", "LinkStateSwitch", "Host", "controllers"),
-   ("CoordinatingControl", "LS2PCSwitch", "Host", "controllers"),
-   ("HBControl", "HBSwitch", "HBHost", "controllers"), 
+   #("LSLeaderControl", "LinkStateSwitch", "Host", "controllers"),
+   #("CoordinatingControl", "LS2PCSwitch", "Host", "controllers"),
+   #("HBControl", "HBSwitch", "HBHost", "controllers"), 
    ("LSGossipControl", "LinkStateSwitch", "Host", "controllers"),
    ("LSTEControl", "LinkStateSwitch", "Host", "controllers"),
-   ("LSPaxosOracleControl", "LinkStateSwitch", "Host", "controllers"),
+   #("LSPaxosOracleControl", "LinkStateSwitch", "Host", "controllers"),
    ("CoordinationOracleControl", "LinkStateSwitch", "Host", "controllers"),
-   ("Controller2PC", "LinkStateSwitch", "Host", "controllers")
+   #("Controller2PC", "LinkStateSwitch", "Host", "controllers")
 ]
 
 config_args =  \
@@ -71,10 +71,11 @@ def FatTree (start_switch, start_host, arity):
       hosts_assigned_so_far += (arity / 2)
   return (hosts, switches, links)
 
-def WriteGraph (hosts, controllers, switches, links, ct, st, ht, runfile):
+def WriteGraph (hosts, controllers, switches, links, hl_links, ct, st, ht, runfile):
   out = {}
   out['runfile'] = runfile
   out['links'] = links
+  out['high_latency_links'] = hl_links
 
   hcount = 0
   for host in hosts:
@@ -113,6 +114,7 @@ if __name__ == "__main__":
   all_hosts = []
   all_switches = []
   all_links = []
+  high_lat_links = []
   nswitches = 0
   nhosts = 0
   partition_switches = []
@@ -129,12 +131,13 @@ if __name__ == "__main__":
     for partition in partition_switches:
       sw = random.choice(partition)
       sw2 = random.choice(switches)
-      all_links.append("%s-%s"%(sw, sw2))
+      high_lat_links.append("%s-%s"%(sw, sw2))
     partition_switches.append(switches)
 
   idx = 0 
   for (ct, st, ht, runfile) in config:
-    out = WriteGraph(all_hosts, all_controllers, all_switches, all_links, ct, st, ht, runfile)
+    out = WriteGraph(all_hosts, all_controllers, all_switches, all_links,
+            high_lat_links, ct, st, ht, runfile)
     f = open(args.file+str(idx)+".yaml", 'w')
     f.write(yaml.dump(out))
     f.close()

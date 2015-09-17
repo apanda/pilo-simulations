@@ -2,6 +2,10 @@ data_link_latency:
     distro: normal
     mean: 0.167
     stdev: 0.01
+data_link_hlatency:
+    distro: normal
+    mean: 45.0
+    stdev: 10.0
 control_link_latency:
     distro: normal
     mean: 1.2
